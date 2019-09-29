@@ -19,4 +19,4 @@ Web: https://xunit.github.io/
 
 * [Documentation](https://xunit.github.io/#documentation)
 * Discussions are held on [Slack](https://xunit.slack.com/). Not a member yet? [Sign up now!](https://xunit-slackin.herokuapp.com/)
-* [Contribute](https://github.com/xunit/xunit/blob/master/CONTRIBUTING.md)
+* [Contribute](https://github.com/xunit/xunit/blob/master/.github/CONTRIBUTING.md)
