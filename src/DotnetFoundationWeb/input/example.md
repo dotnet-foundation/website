@@ -1,6 +1,5 @@
 ﻿---
 title: Example
-layout: default
 image: /img/dot_bot.png
 ---
 
