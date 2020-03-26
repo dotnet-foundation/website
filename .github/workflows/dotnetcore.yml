@@ -20,9 +20,9 @@ jobs:
     - name: Build
       env:
         target_folder: src/DotnetFoundationWeb
-        run: |
-          cd {{ target_folder }}
-          dotnet restore
-          dotnet build --configuration Release --no-restore
-          dotnet run --configuration Release --no-restore
-          dotnet test --no-restore --verbosity normal
+      run: |
+        cd {{ target_folder }}
+        dotnet restore
+        dotnet build --configuration Release --no-restore
+        dotnet run --configuration Release --no-restore
+        dotnet test --no-restore --verbosity normal
