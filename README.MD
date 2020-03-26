@@ -39,8 +39,6 @@ Here are the basic steps to run or build the project.
 
 * **input**
 
-    Here is where all the source files are and we may need to consider following notes for a better understanding of the generation.
-
     1. `_partials` folder contains small sections of code that we require in other views, includes:
         * `_head.cshtml`: Contains the `head` section of the view and includes the initial stylesheet and javascript imports.
         * `_header.cshtml`: Common header that we are using for views and includes the main navigation.
