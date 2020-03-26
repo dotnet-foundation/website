@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Move to project folder
-      run: cd src\DotnetFoundationWeb
+      run: cd src/DotnetFoundationWeb
     - name: Install dependencies
       env:
         project_path: src\DotnetFoundationWeb
