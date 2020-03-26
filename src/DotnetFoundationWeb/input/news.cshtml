@@ -1,0 +1,114 @@
+﻿---
+permalink: /news
+---
+
+<section class="page-section page-section--purple">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="page-section_column col-12 text-center">
+                <h2>
+                    Chatter to keep up with.
+                </h2>
+                <p class="mx-auto">
+                    This is the page to bookmark. Remember, you, your colleagues, your co-coders in arms — whether you know them yet or not — are the ones who make up the community and are the true innovators. So keep an eye on this page for news from us, news about .NET, and most important, updates from your peers. Contributors are commended.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section page-section page-section--purple--light">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <article class="col-md-12">
+                <h2>Newsletter</h2>
+                <hr class="page-section_hr">
+                <div class="media-list">
+                    @Html.Partial("_partials/_news.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                       .Flatten()
+                       .FilterSources(Context, "data/news/*")
+                       )
+                </div>
+            </article>
+        </div>
+        <br />
+        <br />
+    </div>
+</section>
+
+<section class="page-section page-section--main">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <article class="col-md-12">
+                <h2><a href="/">Latest Youtube Videos</a></h2>
+                <hr class="page-section_hr">
+                <div class="media-list">
+                </div>
+            </article>
+            <div class="text-right">
+                <h4>
+                    <a href="https://youtube.com/">More from Youtube</a>
+                </h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section page-section page-section--purple--light">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <article class="col-md-12">
+                <h2 class="mb-3">Latest tweets</h2>
+                <div id="twitter-widget-container">
+                    <a class="twitter-timeline"
+                       style="display:block;min-height:400px;"
+                       data-chrome="noheader nofooter"
+                       data-tweet-limit="2"
+                       href="https://twitter.com/dotnetfdn/likes?ref_src=twsrc%5Etfw">
+                    </a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <div class="text-right">
+                        <h4>
+                            <a href="https://twitter.com/dotnetfdn">More from Twitter ></a>
+                        </h4>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="page-section page-section--main">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <article class="col-md-12">
+                <h2 class="mb-3">Latest Facebook Posts</h2>
+                <div id="facebook-widget-container">
+                    <div class="text-right">
+                        <h4>
+                            <a href="https://facebook.com/dotnetfdn">More from Facebook ></a>
+                        </h4>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<script>
+    /* Kinda hacky, but Twitter widget doesn't allow CSS customization. May eventually render server-side, but this works. */
+    $(function () {
+        window.setTimeout(function () {
+            var $head = $(".twitter-timeline").contents().find("head");
+            console.log($head);
+            $head.append($("<link/>",
+                { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato", type: "text/css" }
+            ));
+            $(".twitter-timeline").contents().find(".timeline-Tweet-text").css({
+                'font-size': '16px',
+                'font-family': 'Lato'
+            });
+        }, 1000);
+    });
+</script>
+

@@ -1,0 +1,17 @@
+﻿@inherits Statiq.Razor.StatiqRazorPage<IEnumerable<IDocument>>
+
+@foreach (IDocument item in Model)
+{
+    @if (!String.IsNullOrEmpty(item.GetString("title")))
+    {
+        <div class="latest_container latest_container--news">
+            <div class="latest_date d-flex align-items-center justify-content-center text-center newstype-@item.GetString("type")"><span>@item.GetString("source")</span></div>
+            <div class="latest_meta d-flex flex-column justify-content-center">
+                <h3 class="latest_title"><a href="@item.GetString("link")" title="@item.GetString("source")">@item.GetString("title")</a></h3>
+                <p class="latest_copy">
+                    @item.GetString("excerpt")
+                </p>
+            </div>
+        </div>
+    }
+}

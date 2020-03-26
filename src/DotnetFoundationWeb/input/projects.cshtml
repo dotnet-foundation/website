@@ -1,0 +1,127 @@
+﻿---
+permalink: /projects
+---
+
+<section class="page-section page-section--purple">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="page-section_column col-12 text-center">
+                <h2>
+                    .NET Foundation Projects
+                </h2>
+                <p class="mx-auto">
+                    Projects—and the people behind them—are at the heart of what .NET Foundation is all about. These days, you’ll find a wide variety of projects, including the .NET Compiler Platform, ASP.NET, .NET Core, and Xamarin Forms, along with the popular .NET open-source frameworks xUnit and Reactive Extensions.
+                </p>
+                <p class="mx-auto">
+                    Can you contribute to something already in the works? Browse our projects below to find out how to contribute!
+                </p>
+                <p class="mx-auto">
+                    Of course, we’re always on the lookout for new open-source projects to support. Learn <a target="_blank" href="https://github.com/dotnet/foundation/blob/master/guidance/new-projects.md">how to submit your project</a>.
+                </p>
+                <div class="container">
+                    <form id="search" method="get">
+                        <div class="form-group col-6 offset-3">
+                            <div class="input-group">
+                                <input class="form-control" id="textToSearch" name="textToSearch" type="search" value="" 
+                                       placeholder="" autocapitalize="none" autocorrect="off" autocomplete="off"
+                                       azure-search-name="dnf" azure-search-index="projects" azure-search-api-version="2019-05-06"
+                                       azure-search-rpp="10" azure-search-api-key="@ConfigurationManager.AppSettings["AzureSearchQueryKey"]" azure-search-page="1"
+                                       />
+                                <button type="submit" class="btn btn-primary mb-2"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                        <div class="row sr-only">
+                            <div class="form-group">
+                                <label>
+                                    <input id="type" name="type" type="radio" value="project" checked/> Projects
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <input id="type" name="type" type="radio" value="repository"/> Repositories
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="page-section_column col-lg-3 col-sm-6">
+                <div class="icon-box icon-box--grey d-flex flex-column align-items-center">
+                    <div class="icon-box_stat">
+                        @ConfigurationManager.AppSettings["ContributorsCounter"]
+                    </div>
+                    <div class="icon-box_icon">
+                        <img src="~/img/developers_icon.png">
+                    </div>
+                    <div class="icon-box_label">
+                        Contributors
+                    </div>
+                </div>
+            </div>
+            <div class="page-section_column col-lg-3 col-sm-6 pad-fix--sm">
+                <div class="icon-box icon-box--grey d-flex flex-column align-items-center">
+                    <div class="icon-box_stat">
+                        @ConfigurationManager.AppSettings["GithubOrgsCounter"]
+                    </div>
+                    <div class="icon-box_icon">
+                        <img src="~/img/building_icon.png">
+                    </div>
+                    <div class="icon-box_label">
+                        GitHub Orgs
+                    </div>
+                </div>
+            </div>
+            <div class="page-section_column col-lg-3 col-sm-6 pad-fix--lg">
+                <div class="icon-box icon-box--grey d-flex flex-column align-items-center">
+                    <div class="icon-box_stat">
+                        @ConfigurationManager.AppSettings["RepositoriesCounter"]
+                    </div>
+                    <div class="icon-box_icon">
+                        <img src="~/img/member_projects_icon.png">
+                    </div>
+                    <div class="icon-box_label">
+                        Repositories
+                    </div>
+                </div>
+            </div>
+            <div class="page-section_column col-lg-3 col-sm-6 pad-fix--lg">
+                <div class="icon-box icon-box--grey animation-delay--6 d-flex flex-column align-items-center" data-delay="700">
+                    <div class="icon-box_stat counter">
+                        @ConfigurationManager.AppSettings["ForksCounter"]
+                    </div>
+                    <div class="icon-box_icon">
+                        <img src="~/img/github_icon.png">
+                    </div>
+                    <div class="icon-box_label">
+                        Forks
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section">
+    <div class="page-section_container container">
+        <div class="page-section_row row text-left">
+            <div class="page-section_column col-12">
+                <div id="PresetProjects">
+                </div>
+                <div id="PresetPagination">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="/js/showdown.min.js"></script>
+<script src="/js/showdown-unobtrusive.js" asp-append-version="true"></script>
+<script src="/js/azure-search-client.js"></script>
