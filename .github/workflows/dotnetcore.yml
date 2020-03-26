@@ -17,11 +17,12 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.101
-    - name: Install dependencies
-      env:
-        project_path: src\DotnetFoundationWeb
-      run: dotnet restore src/DotnetFoundationWeb
     - name: Build
-      run: dotnet build src/DotnetFoundationWeb --configuration Release --no-restore
-    - name: Test
-      run: dotnet test src/DotnetFoundationWeb --no-restore --verbosity normal
+      env:
+        target_folder: src/DotnetFoundationWeb
+        run: |
+          cd {{ target_folder }}
+          dotnet restore
+          dotnet build --configuration Release --no-restore
+          dotnet run --configuration Release --no-restore
+          dotnet test --no-restore --verbosity normal
