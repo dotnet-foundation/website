@@ -20,7 +20,7 @@ jobs:
     - name: Build
       run: |
         cd src/DotnetFoundationWeb
-        dotnet restore
+        dotnet restore --packages .\packages
         dotnet build --configuration Release --no-restore
         dotnet run --configuration Release --no-restore
         dotnet test --no-restore --verbosity normal
