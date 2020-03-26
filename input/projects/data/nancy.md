@@ -39,7 +39,7 @@ Above all, creating an application with Nancy should be a pleasure, and hopefull
 
 ## Project Details
 
-- [Website](http://nancyfx.org/)
+- [Website](https://nancyfx.org/)
 - [Source](https://github.com/NancyFx/Nancy)
 - License: [MIT](https://github.com/dotnet/BenchmarkDotNet/blob/master/LICENSE.md)
 - [NuGet](https://www.nuget.org/packages/Nancy)
