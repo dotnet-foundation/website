@@ -24,4 +24,6 @@ jobs:
         dotnet build --configuration Release --no-restore
         dotnet run --configuration Release --no-restore
         dotnet test --no-restore --verbosity normal
+    - name: Deploy
+      run: |
         git push origin `git subtree split --prefix client-dist`:gh-pages --force
