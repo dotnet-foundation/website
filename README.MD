@@ -41,16 +41,16 @@ Here are the basic steps to run or build the project.
 
     Here is where all the source files are and we may need to consider following notes for a better understanding of the generation.
 
-    1. `_partials` folder contains small sections of code that we use in another pages, most important files are:
-        * `_head.cshtml`: Contains the `head` section of the pages and includes the initial stylesheet and javascript imports for the pages.
-        * `_header.cshtml`: Common header that we are using for all the pages and includes main navigation.
-        * `_footer.cshtml`: Common footer for all the pages.
-    1. `_layout.cshtml` is where we build the page structure, include the partials, add analytics code and additional imports.
-    1. `index.cshtml` is our main page for the site and is a good example of how the other pages work.
-    > Note: Properties for the page can be defined at the top of the file like a specific `title` for the page.
-    1. `css` folder contains all the stylesheet file that we are been use in the site, import of this files are being done in the `_partials/_head.cshtml` file.
-    1. `js` folder contains the javascript libraries and other custom files that are required.
-    1. `data` folder contains different source of objects that are being used to build pages such as events or projects.
+    1. `_partials` folder contains small sections of code that we require in other views, includes:
+        * `_head.cshtml`: Contains the `head` section of the view and includes the initial stylesheet and javascript imports.
+        * `_header.cshtml`: Common header that we are using for views and includes the main navigation.
+        * `_footer.cshtml`: Common footer for views.
+    1. `_layout.cshtml` is where we build the page structure, include partials, analytics code and other additional imports.
+    1. `index.cshtml` is the main page for the site.
+        > Note: Properties for the page can be defined at the top of the file like a specific `title` for the page.
+    1. `css` folder contains all the stylesheet files required. 
+    1. `js` folder contains the javascript libraries and other custom scripts.
+    1. `data` folder contains files that are being used to build views such as events or projects.
 
 Each file inside the `input` folder is processed by Statiq and will generate static output files.
 
