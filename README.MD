@@ -20,7 +20,7 @@ Here are the basic steps to run or build the project.
 1. From the top menu click the `File | Open | Project/Solution`.
 1. Open `src\DotnetFoundationWeb\DotnetFoundationWeb.sln` from your local folder.
 1. Click the `Play` button and wait for the app to start.
-> Note: A web server is started to test the generated files, check the console for the correct URL.
+    > Note: A web server is started to test the generated files, check the console for the correct URL.
 1. After the build, you can check the `output` folder to review the generated html files.
 
 ## Project Structure
