@@ -1,4 +1,6 @@
-﻿title: .NET
+﻿---
+layout: _layout
+title: .NET
 isHome: true
 ---
 <section id="home-hero">
@@ -22,7 +24,7 @@ isHome: true
         </div>
         <div class="page-section_row row">
             <div class="page-section_column page-section_column--narrow col-md-4 pad-fix--all text-center">
-                <img src="/img/comp.png">
+                <img src="@DotNetFoundation.AppSettings.BaseRef/img/comp.png">
                 <h3>Open Source Projects</h3>
                 <p>
                     Open Source Projects
@@ -32,7 +34,7 @@ isHome: true
                 </div>
             </div>
             <div class="page-section_column page-section_column--narrow col-md-4 pad-fix--all text-center">
-                <img src="/img/globe_icon.png">
+                <img src="@DotNetFoundation.AppSettings.BaseRef/img/globe_icon.png">
                 <h3>Community Grants</h3>
                 <p>
                     Community Grants Description
@@ -42,7 +44,7 @@ isHome: true
                 </div>
             </div>
             <div class="page-section_column page-section_column--narrow col-md-4 pad-fix--all text-center">
-                <img src="/img/Ellipse_1.png">
+                <img src="@DotNetFoundation.AppSettings.BaseRef/img/Ellipse_1.png">
                 <h3>Resources</h3>
                 <p>
                     Resources Description
@@ -63,7 +65,7 @@ isHome: true
                         61,000
                     </div>
                     <div class="icon-box_icon">
-                        <img src="~/img/developers_icon.png">
+                        <img src="@DotNetFoundation.AppSettings.BaseRef/img/developers_icon.png">
                     </div>
                     <div class="icon-box_label">
                         Contributors
@@ -76,7 +78,7 @@ isHome: true
                         3700
                     </div>
                     <div class="icon-box_icon">
-                        <img src="~/img/building_icon.png">
+                        <img src="@DotNetFoundation.AppSettings.BaseRef/img/building_icon.png">
                     </div>
                     <div class="icon-box_label">
                         Companies
@@ -89,7 +91,7 @@ isHome: true
                         56
                     </div>
                     <div class="icon-box_icon">
-                        <img src="~/img/member_projects_icon.png">
+                        <img src="@DotNetFoundation.AppSettings.BaseRef/img/member_projects_icon.png">
                     </div>
                     <div class="icon-box_label">
                         Active Projects
@@ -102,7 +104,7 @@ isHome: true
                         462
                     </div>
                     <div class="icon-box_icon">
-                        <img src="~/img/github_icon.png">
+                        <img src="@DotNetFoundation.AppSettings.BaseRef/img/github_icon.png">
                     </div>
                     <div class="icon-box_label">
                         Resources
@@ -151,10 +153,10 @@ isHome: true
         <div class="page-section_row row">
             <div class="page-section_column col-lg-12">
                 <h2>Upcoming Events and Meetups</h2>
-                    @Html.Partial("_partials/_events.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                        .Flatten()
-                        .FilterSources(Context, "data/events/*")
-                        )
+                @Html.Partial("_partials/_events.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                    .Flatten()
+                    .FilterSources(Context, "data/events/*")
+                    )
                 <p class="">
                     <a class="link_title" href="https://meetup.com/pro/dotnet">Find more events and Meetups ></a>
                 </p>
@@ -172,7 +174,7 @@ isHome: true
                        .FilterSources(Context, "data/news/*")
                        )
                 <p class="">
-                    <a class="link_title" href="/news">Get more news ></a>
+                    <a class="link_title" href="@DotNetFoundation.AppSettings.BaseRef/news">Get more news ></a>
                 </p>
             </div>
         </div>

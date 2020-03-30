@@ -1,0 +1,21 @@
+﻿@inherits Statiq.Razor.StatiqRazorPage<IEnumerable<IDocument>>
+
+@foreach (IDocument candidate in Model)
+{
+    <article class="card">
+        <header class="card__title">
+            <h3>@candidate.GetString("title")</h3>
+        </header>
+        <figure class="card__thumbnail">
+            @if (!String.IsNullOrEmpty(candidate.GetString("image")))
+            {
+                <img src="@candidate.GetString("image")" />
+            }
+            else
+            {
+                <img src="@DotNetFoundation.AppSettings.BaseRef/img/dot_bot.png" />
+            }
+        </figure>
+        <a href="@Context.GetLink(candidate)" class="card__button">Learn More</a>
+    </article>
+}

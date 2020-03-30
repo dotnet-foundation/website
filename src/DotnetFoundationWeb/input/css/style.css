@@ -62,8 +62,18 @@ p {
     margin-bottom: 2rem;
 }
 
+.body-section {
+    width: 100vw;
+}
+
+.body-container {
+    margin-left: calc((100vw - 1140px)/2);
+    max-width: 1140px;
+}
+
 .page-section {
-    width: 100%;
+    width: 100vw;
+    margin-left: calc((100vw - 1140px)/2*-1);
 }
 
 .page-section--purple--light {
@@ -458,11 +468,11 @@ svg.svg-inline--fa {
     }
 
     .latest_container--news .latest_date.newstype-community {
-        background-image: url(/img/chat.png);
+        background-image: url(../img/chat.png);
     }
 
     .latest_container--news .latest_date.newstype-product {
-        background-image: url(/img/bullhorn.png);
+        background-image: url(../img/bullhorn.png);
     }
 
 .latest_date {
@@ -592,8 +602,8 @@ p.site-footer_textSection > a:visited {
 
 
 #swag-store {
-    background-image: url(/img/swag_background.png);
-    background-image: url(/img/swag_background.webp);
+    background-image: url(../img/swag_background.png);
+    background-image: url(../img/swag_background.webp);
     background-size: cover;
 }
 
@@ -689,3 +699,56 @@ article.post {
         display: none;
     }
 }
+
+/*
+ * adapted from
+ * https://bryanlrobinson.com/blog/2017/07/26/howto-css-grid-layout-to-make-a-simple-fluid-card-grid/
+ */
+.card-container {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 1rem;
+}
+
+.card {
+    display: grid;
+}
+
+    .card .button {
+        align-self: end;
+    }
+
+.card {
+    box-shadow: 0px 1px 5px #555;
+    background-color: white;
+}
+
+.card__title {
+    font-size: 2rem;
+    padding: .5rem;
+    text-align: center;
+}
+
+.card__description {
+    padding: .5rem;
+    line-height: 1.6em;
+}
+
+.card__button {
+    display: block;
+    background-color: #68217a;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: .3s ease-out;
+}
+
+.card__thumbnail {
+    text-align: center;
+}
+
+    .card__thumbnail img {
+        height: 128px;
+    }

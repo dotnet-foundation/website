@@ -5,7 +5,7 @@ using Statiq.App;
 using Statiq.Markdown;
 using Statiq.Web;
 
-namespace TestBlog
+namespace DotNetFoundation
 {
     public static class Program
     {
