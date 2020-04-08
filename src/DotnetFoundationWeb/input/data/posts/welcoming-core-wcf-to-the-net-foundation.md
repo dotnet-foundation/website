@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcoming Core WCF to the .NET Foundation
 Author: 
 Published: 2019-06-07 17:11:25.6350633

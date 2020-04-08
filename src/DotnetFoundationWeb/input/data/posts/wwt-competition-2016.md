@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: The 2016 AAS WorldWide Telescope Competition
 Author: 
 Published: 2016-11-04 18:35:23.0000000

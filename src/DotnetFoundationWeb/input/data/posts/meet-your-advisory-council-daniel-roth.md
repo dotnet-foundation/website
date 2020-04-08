@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Meet Your Advisory Council – Daniel Roth
 Author: 
 Published: 2015-07-16 18:48:00.0000000

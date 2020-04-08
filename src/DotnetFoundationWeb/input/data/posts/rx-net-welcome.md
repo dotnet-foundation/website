@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcoming Reactive Extensions for .NET
 Author: 
 Published: 2016-06-16 18:16:00.0000000

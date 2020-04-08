@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: .NET Foundation Board of Directors Election&#58; Results!
 Author: Jon Galloway
 Published: 2019-03-28 23:32:11.8012168

@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Announcing new governance model and project contributions to the .NET Foundation 
 Author: 
 Published: 2014-11-12 15:30:00.0000000

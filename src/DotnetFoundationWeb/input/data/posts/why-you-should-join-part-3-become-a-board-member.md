@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Why You Should Join, Part 3&#58; Become a Board Member
 Author: Jon Galloway
 Published: 2019-01-23 00:02:25.7173330

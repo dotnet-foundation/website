@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcoming NEO to the .NET Foundation
 Author: Jon Galloway
 Published: 2019-09-24 19:14:44.4350337

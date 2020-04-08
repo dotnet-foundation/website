@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Free as in Cake
 Author: 
 Published: 2016-06-09 18:16:00.0000000

@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcoming the WorldWide Telescope to the Open Source .NET Universe
 Author: 
 Published: 2015-07-02 16:01:28.0000000

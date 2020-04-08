@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcome Peachpie Compiler Platform to the .NET Foundation
 Author: 
 Published: 2017-07-25 17:46:00.0000000

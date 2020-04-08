@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: .NET Foundation January 2020 Update
 Author: Claire Novotny
 Published: 2020-02-11 19:08:50.4082298

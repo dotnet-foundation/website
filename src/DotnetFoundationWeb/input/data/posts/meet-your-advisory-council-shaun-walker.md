@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Meet Your Advisory Council - Shaun Walker
 Author: 
 Published: 2015-06-26 14:00:23.0000000

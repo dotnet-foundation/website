@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcoming Xamarin to the .NET Foundation
 Author: 
 Published: 2016-04-27 18:14:00.0000000

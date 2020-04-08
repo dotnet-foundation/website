@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcome Google and Congratulations Samsung!
 Author: 
 Published: 2016-11-16 15:35:00.0000000

@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Technical Steering Group
 Author: 
 Published: 2016-03-31 18:12:00.0000000

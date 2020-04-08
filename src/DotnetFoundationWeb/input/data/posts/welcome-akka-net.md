@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcome Akka.NET to the .NET Foundation
 Author: 
 Published: 2017-08-11 17:00:00.0000000

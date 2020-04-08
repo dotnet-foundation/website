@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Why You Should Join, Part 1&#58; Join as a Voting Member
 Author: Jon Galloway
 Published: 2019-01-14 23:26:08.6261720

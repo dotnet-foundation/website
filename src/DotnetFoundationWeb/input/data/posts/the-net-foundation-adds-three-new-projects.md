@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: The .NET Foundation Adds Three New Projects
 Author: 
 Published: 2014-06-25 17:07:00.0000000

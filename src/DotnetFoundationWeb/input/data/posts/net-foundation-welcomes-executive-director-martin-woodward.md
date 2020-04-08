@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: .NET Foundation Welcomes Executive Director Martin Woodward
 Author: 
 Published: 2015-04-03 05:00:11.0000000

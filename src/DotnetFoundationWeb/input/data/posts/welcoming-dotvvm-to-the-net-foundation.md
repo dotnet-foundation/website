@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcoming DotVVM to the .NET Foundation!
 Author: Jon Galloway
 Published: 2019-04-30 16:29:52.2885712

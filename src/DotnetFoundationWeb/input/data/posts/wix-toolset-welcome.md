@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcoming WiX Toolset to the .NET Foundation
 Author: 
 Published: 2016-05-04 18:14:00.0000000

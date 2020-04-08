@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcoming MiniProfiler, StackExchange.Redis, protobuf-net, and Sign Service!
 Author: Jon Galloway
 Published: 2019-03-07 19:54:59.2253146

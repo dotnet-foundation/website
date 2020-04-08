@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcome DNN, NUnit, IronPython, MvvmCross, SourceLink, ILMerge and Humanizer to the .NET Foundation
 Author: Jon Galloway
 Published: 2017-11-16 13:59:00.0000000

@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcome BenchmarkDotNet
 Author: 
 Published: 2016-11-10 15:21:56.0000000

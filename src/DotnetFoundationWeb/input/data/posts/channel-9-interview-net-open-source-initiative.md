@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Channel 9 Interview&#58; .NET Open Source Initiative
 Author: 
 Published: 2015-05-04 16:03:00.0000000

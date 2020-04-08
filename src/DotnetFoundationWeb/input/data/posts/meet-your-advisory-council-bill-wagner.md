@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Meet Your Advisory Council – Bill Wagner
 Author: 
 Published: 2015-07-07 15:05:00.0000000

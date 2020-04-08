@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Welcoming Oren Novotny as the new Executive Director of .NET Foundation 
 Author: Jon Galloway
 Published: 2019-12-16 18:06:05.6925742

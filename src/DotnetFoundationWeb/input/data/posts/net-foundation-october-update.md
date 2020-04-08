@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: .NET Foundation October Update
 Author: Jon Galloway
 Published: 2018-10-31 22:00:00.0000000

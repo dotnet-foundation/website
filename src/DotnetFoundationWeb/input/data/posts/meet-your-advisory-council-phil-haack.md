@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: Meet Your Advisory Council - Phil Haack
 Author: 
 Published: 2015-07-01 14:15:00.0000000

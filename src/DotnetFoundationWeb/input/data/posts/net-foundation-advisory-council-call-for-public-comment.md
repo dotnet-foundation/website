@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: .NET Foundation Advisory Council Call for Public Comment
 Author: 
 Published: 2014-10-14 17:16:00.0000000

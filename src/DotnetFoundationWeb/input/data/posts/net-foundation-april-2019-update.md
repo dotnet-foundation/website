@@ -1,4 +1,4 @@
-Layout: blog
+LayoutRef: blog
 Title: .NET Foundation April 2019 Update
 Author: Jon Galloway
 Published: 2019-04-30 22:00:00.0000000
