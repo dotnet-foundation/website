@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <system.webServer>
+    <staticContent>
+      <mimeMap fileExtension=".json" mimeType="application/json" />
+      <mimeMap fileExtension=".webp" mimeType="image/webp" />
+    </staticContent>
+    <rewrite>
+      <rules>
+        <rule name="redirect-to-https" stopProcessing="true">
+          <match url=".*" />
+          <conditions logicalGrouping="MatchAll">
+            <add input="{HTTPS}" pattern="off" />
+            <add input="{HTTP_HOST}" pattern="localhost" negate="true" />
+            <add input="{HTTP_METHOD}" pattern="GET|HEAD" />
+          </conditions>
+          <action type="Redirect" url="https://{HTTP_HOST}{REQUEST_URI}" redirectType="Found" />
+        </rule>
+        <rule name="Hide .html ext">
+          <match ignoreCase="true" url="^(.*)"/>
+          <conditions>
+            <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true"/>
+            <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true"/>
+            <add input="{REQUEST_FILENAME}.html" matchType="IsFile"/>
+          </conditions>
+          <action type="Rewrite" url="{R:0}.html"/>
+        </rule>
+        <rule name="Redirecting .html ext" stopProcessing="true">
+          <match url="^(.*).html"/>
+          <conditions logicalGrouping="MatchAny">
+            <add input="{URL}" pattern="(.*).html"/>
+          </conditions>
+          <action type="Redirect" url="{R:1}"/>
+        </rule>
+      </rules>
+    </rewrite>
+  </system.webServer>
+</configuration>

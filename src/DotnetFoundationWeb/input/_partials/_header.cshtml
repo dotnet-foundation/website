@@ -2,6 +2,16 @@
     <!--
     <section class="flash justify-content-center align-items-center">
         <div class="alert alert-info alert-dismissible fade show w-100 text-center" role="alert">
+            Just announced! <u><a href="http://aka.ms/dnfmemberupdate">.NET Foundation Open Membership!</a></u>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </section>
+    -->
+    <!--
+    <section class="flash justify-content-center align-items-center">
+        <div class="alert alert-info alert-dismissible fade show w-100 text-center" role="alert">
             <a href="https://dotnetfoundation.org/blog/2019/03/28/net-foundation-board-of-directors-election-results">.NET Foundation Election Results: <u>Meet the 2019 Board of Directors!</u></a>
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -12,33 +22,86 @@
 
     <div class="site-nav_container container">
         <nav class="navbar navbar-expand-md align-items-end">
-            <a class="navbar-brand" href="@DotNetFoundation.AppSettings.BaseRef/"><img id="site-logo" src="@DotNetFoundation.AppSettings.BaseRef/img/dotNetFoundationHorizontal.svg"></a>
+            <a class="navbar-brand" href=""><img id="site-logo" src="img/dotNetFoundationHorizontal.svg"></a>
             <button class="main-menu_toggle navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul id="main-menu" class="navbar-nav ml-auto">
-                    <li class="main-menu_item nav-item">
-                        <a class="nav-link" href="@DotNetFoundation.AppSettings.BaseRef/membership">Membership</a>
+                    <li class="nav-item dropdown main-menu_item">
+                        <a class="nav-link dropdown-toggle-custom" id="membership-dropdown" href="membership" role="button" aria-haspopup="true" aria-expanded="false">
+                            Membership
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="membership-dropdown">
+                            <a class="dropdown-item" href="membership/corporate-sponsors">Corporate Sponsors</a>
+                            <a class="dropdown-item" href="membership/profile">Profile</a>
+                            <a class="dropdown-item" href="membership/become-a-member">Become A Member</a>
+                        </div>
+                        <div class="mobile-items" aria-labelledby="membership-dropdown">
+                            <a class="dropdown-item" href="membership">Membership</a>
+                            <a class="dropdown-item" href="membership/corporate-sponsors">Corporate Sponsors</a>
+                            <a class="dropdown-item" href="membership/profile">Profile</a>
+                            <a class="dropdown-item" href="membership/become-a-member">Become A Member</a>
+                        </div>
                     </li>
                     <li class="main-menu_item nav-item">
-                        <a class="nav-link" href="@DotNetFoundation.AppSettings.BaseRef/projects">Projects</a>
+                        <a class="nav-link" href="projects">Projects</a>
+                    </li>
+                    <li class="nav-item dropdown main-menu_item">
+                        <a class="nav-link dropdown-toggle-custom" id="community-dropdown" href="community" role="button" aria-haspopup="true" aria-expanded="false">
+                            Community
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="community-dropdown">
+                            <a class="dropdown-item" href="community/working-groups">Working Groups</a>
+                            <a class="dropdown-item" href="community/find-a-meetup">Find A Meetup</a>
+                            <a class="dropdown-item" href="community/host-a-meetup">Host A Meetup</a>
+                            <a class="dropdown-item" href="community/resources">Resources</a>
+                            <a class="dropdown-item" href="https://store.dotnetfoundation.org">Store</a>
+                        </div>
+                        <div class="mobile-items" aria-labelledby="community-dropdown">
+                            <a class="dropdown-item" href="community">Community</a>
+                            <a class="dropdown-item" href="community/working-groups">Working Groups</a>
+                            <a class="dropdown-item" href="community/find-a-meetup">Find A Meetup</a>
+                            <a class="dropdown-item" href="community/host-a-meetup">Host A Meetup</a>
+                            <a class="dropdown-item" href="community/resources">Resources</a>
+                            <a class="dropdown-item" href="https://store.dotnetfoundation.org">Store</a>
+                        </div>
                     </li>
                     <li class="main-menu_item nav-item">
-                        <a class="nav-link" href="@DotNetFoundation.AppSettings.BaseRef/community">Community<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="news">News</a>
                     </li>
-                    <li class="main-menu_item nav-item">
-                        <a class="nav-link" href="@DotNetFoundation.AppSettings.BaseRef/news">News</a>
-                    </li>
-                    <li class="main-menu_item nav-item">
-                        <a class="nav-link" href="@DotNetFoundation.AppSettings.BaseRef/about">About</a>
+                    <li class="nav-item dropdown main-menu_item">
+                        <a class="nav-link dropdown-toggle-custom" id="about-dropdown" href="About" role="button" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu about-menu" aria-labelledby="about-dropdown">
+                            <a class="dropdown-item" href="about/board-of-directors">Board of Directors</a>
+                            <a class="dropdown-item" href="about/technical-steering-group">Technical Steering Group</a>
+                            <a class="dropdown-item" href="about/code-of-conduct">Code of Conduct</a>
+                            <a class="dropdown-item" href="about/privacy-policy">Privacy Policy</a>
+                            <a class="dropdown-item" href="about/bylaws">Bylaws</a>
+                            <a class="dropdown-item" href="about/election">Election</a>
+                            <a class="dropdown-item" href="about/budget">Budget</a>
+                            <a class="dropdown-item" href="about/faq">FAQ</a>
+                        </div>
+                        <div class="mobile-items" aria-labelledby="about-dropdown">
+                            <a class="dropdown-item" href="about">About</a>
+                            <a class="dropdown-item" href="about/board-of-directors">Board of Directors</a>
+                            <a class="dropdown-item" href="about/technical-steering-group">Technical Steering Group</a>
+                            <a class="dropdown-item" href="about/code-of-conduct">Code of Conduct</a>
+                            <a class="dropdown-item" href="about/privacy-policy">Privacy Policy</a>
+                            <a class="dropdown-item" href="about/bylaws">Bylaws</a>
+                            <a class="dropdown-item" href="about/election">Election</a>
+                            <a class="dropdown-item" href="about/budget">Budget</a>
+                            <a class="dropdown-item" href="about/faq">FAQ</a>
+                        </div>
                     </li>
                 </ul>
             </div>
         </nav>
         <section class="site-social_container d-flex position-absolute">
             <div class="site-social_icon site-social_icon--rss">
-                <a href="@DotNetFoundation.AppSettings.BaseRef/Blog">
+                <a href="Blog">
                     <i class="fas fa-rss"></i>
                 </a>
             </div>
@@ -55,3 +118,43 @@
         </section>
     </div>
 </header>
+
+<script>
+    const $dropdown = $(".dropdown");
+    const $dropdownToggle = $(".dropdown-toggle-custom");
+    const $dropdownMenu = $(".dropdown-menu");
+    const $mobileMenu = $(".mobile-items");
+    const showClass = "show";
+
+    $(window).on("load resize", function () {
+        if (this.matchMedia("(min-width: 768px)").matches) {
+            $dropdown.hover(
+                function () {
+                    const $this = $(this);
+                    $this.addClass(showClass);
+                    $this.find($dropdownToggle).attr("aria-expanded", "true");
+                    $this.find($dropdownMenu).addClass(showClass);
+                },
+                function () {
+                    const $this = $(this);
+                    $this.removeClass(showClass);
+                    $this.find($dropdownToggle).attr("aria-expanded", "false");
+                    $this.find($dropdownMenu).removeClass(showClass);
+                }
+            );
+        } else {
+            $dropdown.off("mouseenter mouseleave");
+            $dropdownToggle.click(function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                const $this = $(this);
+                const parent = $this.parent($dropdown);
+                if (parent.find($mobileMenu).hasClass(showClass)) {
+                    parent.find($mobileMenu).removeClass(showClass);
+                } else {
+                    parent.find($mobileMenu).addClass(showClass);
+                }
+            })
+        }
+    });
+</script>

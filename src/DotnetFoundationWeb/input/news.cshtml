@@ -18,7 +18,7 @@ permalink: /news
     </div>
 </section>
 
-<section class="page-section page-section page-section--purple--light">
+<section class="page-section page-section">
     <div class="page-section_container container">
         <div class="page-section_row row">
             <article class="col-md-12">
@@ -36,80 +36,3 @@ permalink: /news
         <br />
     </div>
 </section>
-
-<section class="page-section page-section--main">
-    <div class="page-section_container container">
-        <div class="page-section_row row">
-            <article class="col-md-12">
-                <h2><a href="@DotNetFoundation.AppSettings.BaseRef/">Latest Youtube Videos</a></h2>
-                <hr class="page-section_hr">
-                <div class="media-list">
-                </div>
-            </article>
-            <div class="text-right">
-                <h4>
-                    <a href="https://youtube.com/">More from Youtube</a>
-                </h4>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="page-section page-section page-section--purple--light">
-    <div class="page-section_container container">
-        <div class="page-section_row row">
-            <article class="col-md-12">
-                <h2 class="mb-3">Latest tweets</h2>
-                <div id="twitter-widget-container">
-                    <a class="twitter-timeline"
-                       style="display:block;min-height:400px;"
-                       data-chrome="noheader nofooter"
-                       data-tweet-limit="2"
-                       href="https://twitter.com/dotnetfdn/likes?ref_src=twsrc%5Etfw">
-                    </a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" data-no-mirror=data-no-mirror></script>
-                    <div class="text-right">
-                        <h4>
-                            <a href="https://twitter.com/dotnetfdn">More from Twitter ></a>
-                        </h4>
-                    </div>
-                </div>
-            </article>
-        </div>
-    </div>
-</section>
-
-<section class="page-section page-section--main">
-    <div class="page-section_container container">
-        <div class="page-section_row row">
-            <article class="col-md-12">
-                <h2 class="mb-3">Latest Facebook Posts</h2>
-                <div id="facebook-widget-container">
-                    <div class="text-right">
-                        <h4>
-                            <a href="https://facebook.com/dotnetfdn">More from Facebook ></a>
-                        </h4>
-                    </div>
-                </div>
-            </article>
-        </div>
-    </div>
-</section>
-
-<script>
-    /* Kinda hacky, but Twitter widget doesn't allow CSS customization. May eventually render server-side, but this works. */
-    $(function () {
-        window.setTimeout(function () {
-            var $head = $(".twitter-timeline").contents().find("head");
-            console.log($head);
-            $head.append($("<link/>",
-                { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato", type: "text/css" }
-            ));
-            $(".twitter-timeline").contents().find(".timeline-Tweet-text").css({
-                'font-size': '16px',
-                'font-family': 'Lato'
-            });
-        }, 1000);
-    });
-</script>
-

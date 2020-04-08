@@ -1,0 +1,23 @@
+﻿<section class="page-section page-section--purple">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="page-section_column col-12 text-center">
+                <h2>
+                    .NET Foundation Elections
+                </h2>
+                <p class="mx-auto">
+                    This is your .NET Foundation! Get involved by voting for - or possibly running for - our next Board of Directors.
+                </p>
+                <div class="mx-auto d-flex justify-content-between site-button_row">
+                    <a href="about/election/results" class="site-button site-button--pink">Meet The New Board!</a>
+                    <a href="about/election/candidates" class="site-button site-button--pink">View the Candidates</a>
+                    @if (DotnetFoundationWeb.AppSettings.IsCampaignOpen)
+                    {
+                        <a href="about/election/campaign" class="site-button site-button--pink">Interested in Running?</a>
+                    }
+                    <a href="membership/become-a-member" class="site-button site-button--pink">Become a Voting Member</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

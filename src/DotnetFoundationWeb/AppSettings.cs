@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Text;
 
-namespace DotNetFoundation
+namespace DotnetFoundationWeb
 {
   public static class AppSettings
   {
@@ -12,17 +12,17 @@ namespace DotNetFoundation
     public static string BaseRef { get; set; } = ConfigurationManager.AppSettings["BaseRef"];
 
     public static bool IsCampaignOpen { get; set; }
-      = String.Equals(ConfigurationManager.AppSettings["IsCampaingOpen"], "true", StringComparison.OrdinalIgnoreCase);
+      = String.Equals(ConfigurationManager.AppSettings["IsCampaignOpen"], "true", StringComparison.OrdinalIgnoreCase);
 
     public static string AzureSearchQueryKey { get; set; } = ConfigurationManager.AppSettings["AzureSearchQueryKey"];
 
-    public static string ContributorsCounter { get; set; } = ConfigurationManager.AppSettings["ContributorsCounter"];
+    public static string ContributionsCounter { get; set; } = ConfigurationManager.AppSettings["ContributionsCounter"];
 
-    public static string GithubOrgsCounter { get; set; } = ConfigurationManager.AppSettings["GithubOrgsCounter"];
+    public static string CompaniesCounter { get; set; } = ConfigurationManager.AppSettings["CompaniesCounter"];
 
-    public static string RepositoriesCounter { get; set; } = ConfigurationManager.AppSettings["RepositoriesCounter"];
+    public static string ActiveProjectsCounter { get; set; } = ConfigurationManager.AppSettings["ActiveProjectsCounter"];
 
-    public static string ForksCounter { get; set; } = ConfigurationManager.AppSettings["ForksCounter"];
+    public static string ResourcesCounter { get; set; } = ConfigurationManager.AppSettings["ResourcesCounter"];
 
     public static string GoogleAnalytics { get; set; } = ConfigurationManager.AppSettings["GoogleAnalytics"];
 

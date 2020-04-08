@@ -1,0 +1,17 @@
+﻿@inherits Statiq.Razor.StatiqRazorPage<IEnumerable<IDocument>>
+
+@foreach (IDocument member in Model)
+{
+    <div class="col-md-3">
+        @if (!string.IsNullOrEmpty(member.GetString("image")))
+        {
+            <img height="120" class="rounded-image" alt="ProfilePicture" src="assets/members/@member.GetString("image")">
+        }
+        else
+        {
+            <img height="120" class="rounded-image" alt="ProfilePicture" src="img/dot_bot.png">
+        }
+
+        <h4 class="col-md-3-name"><a href="@Context.GetLink(member)">@member.GetString("title")</a></h4>
+    </div>
+}

@@ -9,11 +9,18 @@
         <figure class="card__thumbnail">
             @if (!String.IsNullOrEmpty(candidate.GetString("image")))
             {
-                <img src="@candidate.GetString("image")" />
+                if (candidate.GetString("image").StartsWith("http"))
+                {
+                    <img src="@candidate.GetString("image")" />
+                }
+                else
+                {
+                    <img src="assets/members/@candidate.GetString("image")" />
+                }
             }
             else
             {
-                <img src="@DotNetFoundation.AppSettings.BaseRef/img/dot_bot.png" />
+                <img src="img/dot_bot.png" />
             }
         </figure>
         <a href="@Context.GetLink(candidate)" class="card__button">Learn More</a>
