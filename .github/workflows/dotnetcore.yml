@@ -3,8 +3,6 @@ name: .NET Core
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   build:
@@ -28,14 +26,13 @@ jobs:
       run: |
         git config user.name "Selim"
         git config user.email "selimdiaz@gmail.com"
-        git subtree split --prefix src/DotnetFoundationWeb/output -b gh-pages
-        git checkout gh-pages
-        mv /home/runner/work/website/website/src/DotnetFoundationWeb/output/* /home/runner/work/website/website/
-        rm -rf /home/runner/work/website/website/src
-        git status
+        rm .gitignore
+        rm -rf .github
+        git checkout -b gh-pages
+        mv src/DotnetFoundationWeb/output/* .
+        rm -rf src
         git add .
-        git commit -am "Deploy"
-        git status
-        git push -f origin gh-pages:gh-pages
+        git commit -m "Deploy"
+        git push -f origin gh-pages
         git checkout master
         git branch -D gh-pages
