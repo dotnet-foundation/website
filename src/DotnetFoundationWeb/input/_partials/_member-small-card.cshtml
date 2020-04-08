@@ -12,6 +12,6 @@
             <img height="120" class="rounded-image" alt="ProfilePicture" src="img/dot_bot.png">
         }
 
-        <h4 class="col-md-3-name"><a href="@Context.GetLink(member)">@member.GetString("title")</a></h4>
+        <h4 class="col-md-3-name"><a href="@Context.GetLink(member).Substring(1)">@member.GetString("title")</a></h4>
     </div>
 }
