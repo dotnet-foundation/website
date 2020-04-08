@@ -5,7 +5,7 @@
     <article class="post">
         <header class="jumbotron">
             <h1 itemprop="headline name">
-                <a itemprop="url" href="@Context.GetLink(post)">@post.GetString("Title")</a>
+                <a itemprop="url" href="@Context.GetLink(post).Substring(1)">@post.GetString("Title")</a>
             </h1>
             <div class="bh">
                 <time datetime="@post.GetString("Published")" itemprop="datePublished">@post.GetDateTime("Published").ToString("MMMM dd, yyyy")</time>
