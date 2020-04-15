@@ -1,0 +1,30 @@
+trigger:
+- master
+
+pr:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+  BuildConfiguration: Release
+
+steps:
+
+- task: UseDotNet@2
+  displayName: Use .NET Core 3.1.x SDK
+  inputs:
+    version: 3.1.x
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: build
+    projects: src/DotnetFoundationWeb/*.csproj
+    arguments: -c $(BuildConfiguration)
+  displayName: Build
+
+- publish: output
+  artifact: website
+  displayName: output
