@@ -20,10 +20,10 @@ steps:
 
 - task: DotNetCoreCLI@2
   inputs:
-    command: build
+    command: run
     projects: src/DotnetFoundationWeb/*.csproj
     arguments: -c $(BuildConfiguration)
-  displayName: Build
+  displayName: Build and Run Statiq
 
 - publish: output
   artifact: website
