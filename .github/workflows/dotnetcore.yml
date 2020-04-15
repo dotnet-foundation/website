@@ -24,8 +24,8 @@ jobs:
         dotnet test --no-restore --verbosity normal
     - name: Deploy
       run: |
-        git config user.name "Selim"
-        git config user.email "selimdiaz@gmail.com"
+        git config user.name "AutomatedUser"
+        git config user.email "deploy@deploy.com"
         rm .gitignore
         rm -rf .github
         git checkout -b gh-pages
