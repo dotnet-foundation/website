@@ -18,7 +18,7 @@ jobs:
     - name: Build
       run: |
         cd src/DotnetFoundationWeb
-        dotnet run --configuration Release --no-restore
+        dotnet run --configuration Release
         
     - name: Publish generated files to Netlify
       uses: netlify/actions/cli@master #uses Netlify Cli actions
