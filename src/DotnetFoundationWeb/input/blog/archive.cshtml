@@ -1,0 +1,17 @@
+﻿Enumerate: => Inputs.FilterSources(Context, "data/posts/*").Select(x => x.GetDateTime("Published").ToString("yyyy/MM")).Distinct()
+DestinationPath: => new FilePath($"blog/{Current}/index.html")
+Title: => $"Post Archive - {Current}"
+layout: _layout
+---
+<div class="row">
+    <div class="col-md-9">
+        @Html.Partial("_posts.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
+            .Flatten()
+            .FilterSources(Context, "data/posts/*")
+            .Where(doc => doc.GetDateTime("Published").ToString("yyyy/MM").Equals(Model.GetString(Keys.Current)))
+            .OrderByDescending(doc => doc.GetDateTime("Published")))
+    </div>
+    <div class="col-md-3">
+        @Html.Partial("_archives.cshtml")
+    </div>
+</div>

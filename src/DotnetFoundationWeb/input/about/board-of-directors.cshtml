@@ -1,4 +1,5 @@
 ﻿---
+layout: _layout
 permalink: /about/board-of-directors
 ---
 
@@ -7,98 +8,103 @@ permalink: /about/board-of-directors
         <div class="page-section_row row">
             <div class="page-section_column col-12 text-center">
                 <h2>
-                    Board of Directors
+                    Board of Directors, Advisory Council & Administrative Team
                 </h2>
                 <p>[Need a little description of what Board of Directors does]</p>
-                <div id="home-hero_buttons" class="mx-auto d-flex justify-content-between">
-                    <a href="/about/board-of-directors" class="site-button site-button--pink">Board of Directors</a>
-                    <a href="/about/corporate-sponsors" class="site-button site-button--pink">Corporate Sponsors</a>
-                    <a href="/about/technical-steering-group" class="site-button site-button--pink">Technical Steering Group</a>
-                    <a href="/about/net-advisory-council" class="site-button site-button--pink">.NET Advisory Council</a>
-                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="page-section page-section page-section--purple--light" id="board-of-directors">
+<section class="page-section" id="board-of-directors">
     <div class="page-section_container container">
         <div class="page-section_row row">
             <div class="col-12">
                 <h2>Board of Directors</h2>
                 <div class="row">
-                    <div class="col-md-3">
-                        <img height="120" class="rounded-image" alt="ProfilePicture" src="https://avatars3.githubusercontent.com/u/19977?s=400&v=4">
-                        <h4 class="col-md-3-name"><a href="https://election.dotnetfoundation.org/campaign-2019/phil-haack.html">Phil Haack</a></h4>
-                    </div>
-                    <div class="col-md-3">
-                        <img height="120" class="rounded-image" alt="ProfilePicture" src="https://avatars2.githubusercontent.com/u/1142958?s=400&u=35ad462d9638ab4560868ec9c12087b7c0039c75&v=4">
-                        <h4 class="col-md-3-name"><a href="https://election.dotnetfoundation.org/campaign-2019/ben-adams.html">Ben Adams</a></h4>
-                    </div>
-                    <div class="col-md-3">
-                        <img height="120" class="rounded-image" alt="ProfilePicture" src="https://avatars0.githubusercontent.com/u/110101?s=400&v=4">
-                        <h4 class="col-md-3-name"><a href="https://election.dotnetfoundation.org/campaign-2019/sara-chipps.html">Sara Chipps</a></h4>
-                    </div>
-                    <div class="col-md-3">
-                        <img height="120" class="rounded-image" alt="ProfilePicture" src="https://avatars2.githubusercontent.com/u/1671084?s=400&v=4">
-                        <h4 class="col-md-3-name"><a href="https://election.dotnetfoundation.org/campaign-2019/iris-classon.html">Iris Classon</a></h4>
-                    </div>
-                    <div class="col-md-3">
-                        <img height="120" class="rounded-image" alt="ProfilePicture" src="https://avatars1.githubusercontent.com/u/5115571?s=400&v=4">
-                        <h4 class="col-md-3-name"><a href="https://election.dotnetfoundation.org/campaign-2019/beth-massi.html">Beth Massi</a></h4>
-                    </div>
-                    <div class="col-md-3">
-                        <img height="120" class="rounded-image" alt="ProfilePicture" src="https://user-images.githubusercontent.com/17011/54181549-cad12c80-4496-11e9-8c3d-426c5d1d008b.jpg">
-                        <h4 class="col-md-3-name"><a href="https://election.dotnetfoundation.org/campaign-2019/jon-skeet.html">Jon Skeet</a></h4>
-                    </div>
+                    @Html.Partial("../_partials/_member-small-card.cshtml",
+                        Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                            .Flatten()
+                            .FilterSources(Context, "data/campaign-2019/*")
+                            .Where(candidate => candidate.GetBool("elected"))
+                            .OrderBy(candidate => candidate.GetString("title"))
+                    )
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="page-section page-section page-section" id="team">
+<section class="page-section page-section--purple--light" id="team">
     <div class="page-section_container container">
         <div class="page-section_row row">
             <div class="col-12">
+                <h2 id="team">Our Team</h2>
                 <div class="row">
-                    <h2 id="team">Our Team</h2>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img height="120" class="rounded-image" alt="ProfilePicture" src="https://dnfwebsitewusproduction.blob.core.windows.net/media/Default/Images/oren-novotny.jpg">
-                            <h4 class="col-md-3-name"><a href="https://election.dotnetfoundation.org/campaign-2019/oren-novotny.html">Oren Novotny</a></h4>
-                            <span>
-                                <a href="https://twitter.com/jongalloway"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                            </span>
-                            <div class="col-md-3-body">
-                                I'm <strong>Oren Novotny</strong>....
-                            </div>
+                    @Html.Partial("../_partials/_team-member-card.cshtml",
+                    Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                        .Flatten()
+                        .FilterSources(Context, "data/team/*.md")
+                        .OrderBy(candidate => candidate.GetInt("order"))
+                    )
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section" id="advisory-council">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="col-12">
+                <h2 id="advisory-council">.NET Advisory Council</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4 class="col-md-3-name">Shaun Walker (Chair)</h4>
+                        <div class="col-md-3-body">
+                            <p><span>Software Architect. Ex-Project leader for DotNetNuke open source product and ecosystem.</span></p>
                         </div>
-                        <div class="col-md-3">
-                            <img height="120" class="rounded-image" alt="ProfilePicture" src="https://dnfwebsitewusproduction.blob.core.windows.net/media/Default/_Profiles/a3cd3d28/d0c44402/jon-galloway.png?v=636235777890000000">
-                            <h4 class="col-md-3-name">Jon Galloway</h4>
-                            <span>
-                                <a href="https://twitter.com/jongalloway"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                            </span>
-                            <div class="col-md-3-body">
-                                I'm <strong>Jon Galloway</strong>, Executive Director of the .NET Foundation. I work closely with the board, advisory council, lawyers
-                                and the rest of the team co-ordinating day to day operations of the foundation and help set the direction for the future.
-                            </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="col-md-3-name">Dominick Baier</h4>
+                        <div class="col-md-3-body">
+                            <p>Project leader of the identity &amp; access control libraries for .NET</p>
                         </div>
-                        <div class="col-md-3">
-                            <img height="120" class="rounded-image" alt="ProfilePicture" src="https://dnfwebsitewusproduction.blob.core.windows.net/media/Default/_Profiles/a3cd3d28/d0c44402/MiklosB.png?v=636122643340000000">
-                            <h4 class="col-md-3-name">Miklos Barkoczi</h4>
-                            <div class="col-md-3-body"><p><span>I'm </span><strong>Miklos Barkoczi</strong><span>, the&nbsp;Treasurer of the .NET Foundation. I'm the man with the <g class="gr_ gr_7 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del" id="7" data-gr-id="7">check book. Be nice to me. What's twitter?</g></span></p></div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="col-md-3-name">Mirco 'meebey' Bauer</h4>
+                        <div class="col-md-3-body">
+                            <p>CTO of cryptocurrency exchange Gatecoin Ltd.</p>
                         </div>
-                        <div class="col-md-3">
-                            <img height="120" class="rounded-image" alt="ProfilePicture" src="https://dnfwebsitewusproduction.blob.core.windows.net/media/Default/_Profiles/a3cd3d28/d0c44402/jon-galloway.png?v=636235777890000000">
-                            <h4 class="col-md-3-name">Chris Sfanos</h4>
-                            <span>
-                                <a href="https://twitter.com/jongalloway"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                            </span>
-                            <div class="col-md-3-body">
-                                I'm <strong>Chris Sfanos</strong>....
-                            </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="col-md-3-name">Martin Woodward</h4>
+                        <div class="col-md-3-body">
+                            <p>Vice President of the .NET Foundation and a former Executive Director. Principal Program Manager at Microsoft.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="col-md-3-name">Brendan Forster</h4>
+                        <div class="col-md-3-body">
+                            <p>Staff Software Engineer at GitHub, frequent .NET open source contributor.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="col-md-3-name">Immo Landwerth</h4>
+                        <div class="col-md-3-body">
+                            <p><span>Senior Engineer from Microsoft .NET Framework team helping lead open source initiatives.</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="col-md-3-name">Daniel Roth</h4>
+                        <div class="col-md-3-body">
+                            <p><span>Senior Engineer from Microsoft ASP.NET Framework team helping lead open source initiatives.</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="col-md-3-name">Bill Wagner</h4>
+                        <div class="col-md-3-body">
+                            <p>.NET Content Creator at Microsoft, Humanitarian Toolbox contributor, author and speaker for .NET technologies.</p>
                         </div>
                     </div>
                 </div>

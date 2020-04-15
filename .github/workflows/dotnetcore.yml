@@ -1,0 +1,38 @@
+name: .NET Core
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.101
+    - name: Build
+      run: |
+        cd src/DotnetFoundationWeb
+        dotnet restore --packages .\packages
+        dotnet build --configuration Release --no-restore
+        dotnet run --configuration Release --no-restore
+        dotnet test --no-restore --verbosity normal
+    - name: Deploy
+      run: |
+        git config user.name "AutomatedUser"
+        git config user.email "deploy@deploy.com"
+        rm .gitignore
+        rm -rf .github
+        git checkout -b gh-pages
+        mv src/DotnetFoundationWeb/output/* .
+        rm -rf src
+        git add .
+        git commit -m "Deploy"
+        git push -f origin gh-pages
+        git checkout master
+        git branch -D gh-pages

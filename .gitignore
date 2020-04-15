@@ -2,12 +2,11 @@
 [Bb]uild/
 [Oo]bj/
 [Dd]ebug/
-[Oo]utput/
+[Oo]put/
 [Rr]elease/
 [Pp]ackages/
 [Tt]ools/
 ![Tt]ools/packages.config
-[Oo]utput/
 ![Ii]nput/
 nuget.exe
 *.com

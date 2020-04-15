@@ -1,0 +1,16 @@
+﻿Title: Blog
+PageTitle: Recent Posts
+layout: _layout
+---
+<div class="row">
+    <div class="col-md-9">
+        @Html.Partial("_posts.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
+            .Flatten()
+            .FilterSources(Context, "data/posts/*")
+            .OrderByDescending(doc => doc.GetDateTime("Published"))
+            .Take(5))
+    </div>
+    <div class="col-md-3">
+        @Html.Partial("_archives.cshtml")
+    </div>
+</div>
