@@ -14,25 +14,17 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 3.1.101
+        dotnet-version: 3.1.201
     - name: Build
       run: |
         cd src/DotnetFoundationWeb
-        dotnet restore --packages .\packages
-        dotnet build --configuration Release --no-restore
         dotnet run --configuration Release --no-restore
-        dotnet test --no-restore --verbosity normal
-    - name: Deploy
-      run: |
-        git config user.name "AutomatedUser"
-        git config user.email "deploy@deploy.com"
-        rm .gitignore
-        rm -rf .github
-        git checkout -b gh-pages
-        mv src/DotnetFoundationWeb/output/* .
-        rm -rf src
-        git add .
-        git commit -m "Deploy"
-        git push -f origin gh-pages
-        git checkout master
-        git branch -D gh-pages
+        
+    - name: Publish generated files to Netlify
+      uses: netlify/actions/cli@master #uses Netlify Cli actions
+      env: # these environment variables are added in github secrets
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      with:
+          args: deploy --dir=src/DotnetFoundationWeb/output --prod #push to Netlify
+          secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]' 
