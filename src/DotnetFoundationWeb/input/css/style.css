@@ -1293,3 +1293,67 @@ svg:not(:root).svg-inline--fa {
         height: 128px;
         object-fit: contain;
     }
+#back-button {
+    display: none;
+}
+.alph {
+    margin-bottom: 50px;
+}
+
+.alph hr {
+    border-top: 1px solid #757575;
+}
+
+.alph-box {
+    display: flex;
+}
+.letter {
+    font-size: 36px;
+    font-family: 'Bree Serif';
+    color: #757575;
+    margin-right: 25px;
+    min-width: 36px;
+}
+.list {
+    margin-top: 10px;
+}
+.project-item {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #682077 !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+    display: block;
+}
+
+#rss-feeds {
+    display: none;
+}
+
+.tabbed-index {
+    margin-top: 30px;
+    border-bottom: 1px solid #682077;
+}
+
+.tabbed-index a {
+    font-size: 16px;
+    min-width: 170px;
+    background: #f0e8f1;
+    padding: 7px 0;
+    text-align: center;
+    color: black;
+    margin-right: 4px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tabbed-index a.selected {
+    background: #682077;
+    color: white;
+}
+
+.tabbed-index a.selected:hover {
+    color: white;
+}

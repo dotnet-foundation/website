@@ -15,5 +15,5 @@ Published: 2020-01-14 13:00:00.0000000
 
 <p>For more information about the .NET Foundation’s Corporate Sponsor Program,&nbsp;<a href="https://www.dotnetfoundation.org/blog/2019/01/16/why-you-should-join-part-2---corporate-sponsor">see this post</a>.</p>
 
-<p>Oren Novotny<br />
+<p>Claire Novotny<br />
 Executive Director, .NET Foundation</p>

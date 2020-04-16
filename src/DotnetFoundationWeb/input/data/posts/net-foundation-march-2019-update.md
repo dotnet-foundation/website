@@ -24,7 +24,7 @@ This month's newsletter includes:</p>
 
 <p>The new community elected board will direct the .NET Foundation completely: what projects join, how to support them, how the .NET Foundation interacts with the open source community, etc. So it's great to have such an amazing group of open source .NET heroes in charge!</p>
 
-<p>This was an incredibly competitive race, with 45 very qualified candidates competing for 6 open positions (Beth Massi is Microsoft's one appointed board member, the rest are all elected by&nbsp;<a href="https://dotnetfoundation.org/become-a-member">.NET Foundation Members</a>.<br />
+<p>This was an incredibly competitive race, with 45 very qualified candidates competing for 6 open positions (Beth Massi is Microsoft's one appointed board member, the rest are all elected by&nbsp;<a href="https://dotnetfoundation.org/member/become-a-member">.NET Foundation Members</a>.<br />
 <br />
 Please take some time to get to know these candidates by looking through their <a href="https://election.dotnetfoundation.org/results" target="_blank">campaign statements</a> and becoming familiar with their&nbsp;goals for this next year. We'll be working to turn these into concrete plans, and will let you know both what we're doing and how you can get involved.<br />
 <br />
@@ -34,7 +34,7 @@ Speaking of getting involved...</p>
 
 <p>We encouraged the community to join the .NET Foundation to participate in the election. If you haven't yet, it's still worth doing, and we'd love to have you. Membership is open year-round, and our members will be part of the team that executes on our next step.</p>
 
-<p class="mx-auto"><a class="site-button site-button--pink" href="https://dotnetfoundation.org/become-a-member">Apply for .NET Foundation Membership</a></p>
+<p class="mx-auto"><a class="site-button site-button--pink" href="https://dotnetfoundation.org/member/become-a-member">Apply for .NET Foundation Membership</a></p>
 
 <hr />
 <h2><img alt="" src="assets/posts/e0448b2e-2fcc-4539-beb8-55a16f07d9ba.jpg" style="width: 1000px; height: 200px;" /></h2>

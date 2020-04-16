@@ -2,6 +2,7 @@ Title: Akka.NET
 Contributor: Petabridge
 Logo: petabridge_logo.png
 Web: https://petabridge.com
+Keywords: .Net, Open-Source
 ---
 # Akka.NET
 

@@ -32,7 +32,7 @@ This month we published a series of blog posts explaining things in more detail:
 <br />
 <strong>While we originally announced we'd be starting elections in January, we've decided to push them back to mid-February. </strong>These are our first elections, and we want to be sure we do it right. We also want to allow some more time to communicate clearly how the campaign process works, and to make sure we've gotten the word out to all prospective board members. We really want to make sure we've got a board that represents our entire community, and we'd love your help to spread the word to those you think should consider running (and think about running yourself, of course!).</p>
 
-<p class="mx-auto"><a class="site-button site-button--pink" href="https://dotnetfoundation.org/become-a-member">Apply for .NET Foundation Membership</a></p>
+<p class="mx-auto"><a class="site-button site-button--pink" href="https://dotnetfoundation.org/member/become-a-member">Apply for .NET Foundation Membership</a></p>
 
 <p>We're going to continue posting more information about membership and board elections on our <a href="https://dotnetfoundation.org/blog" target="_blank">@dotnetfdn</a> Twitter account for updates as well. We're targeting election campaigns kicking off the second week of February. If you have any questions about membership, running for the board, or joining as a corporate sponsor, don't hesitate to contact use at contact@dotnetfoundation.org.</p>
 

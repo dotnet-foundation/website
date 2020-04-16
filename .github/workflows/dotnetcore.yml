@@ -1,10 +1,14 @@
 name: .NET Core
+
 on:
   push:
     branches: [ master ]
+
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET Core
@@ -20,8 +24,8 @@ jobs:
         dotnet test --no-restore --verbosity normal
     - name: Deploy
       run: |
-        git config user.name "Deployment User"
-        git config user.email "deploy@deploy.com"
+        git config user.name "DotNetFoundation"
+        git config user.email "dev@dotnetfoundation.org"
         rm .gitignore
         rm -rf .github
         git checkout -b gh-pages
