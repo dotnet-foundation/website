@@ -17,7 +17,7 @@ Simply put, Rx = Observables + LINQ + Schedulers..
 * [Project Info Site](http://reactivex.io)
 * [Project Code Site](https://github.com/dotnet/reactive)
 * Project License Type: [MIT](https://github.com/dotnet/reactive/blob/master/LICENSE)
-* Project Main Contacts: [Bart de Smet](https://github.com/bartdesmet), [Matt Podwysocki](https://twitter.com/mattpodwysocki), [Oren Novotny](https://github.com/onovotny) and [Brendan Forster](https://github.com/shiftkey)
+* Project Main Contacts: [Bart de Smet](https://github.com/bartdesmet), [Matt Podwysocki](https://twitter.com/mattpodwysocki), [Claire Novotny](https://github.com/clairernovotny) and [Brendan Forster](https://github.com/shiftkey)
 
 ## Quicklinks
 

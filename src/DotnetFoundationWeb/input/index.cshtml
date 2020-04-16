@@ -24,7 +24,7 @@ isHome: true
         <div class="page-section_row row">
             <div class="page-section_column page-section_column--narrow col-md-4 pad-fix--all text-center">
                 <img src="img/comp.png" class="community-image">
-                <h3 class="centered">Open Source Projects</h3>
+                <h3>Open Source Projects</h3>
                 <p style="min-height: 100px">
                     The .NET Foundation provides several services to support the open source projects in our community and help them grow.
                 </p>
@@ -34,7 +34,7 @@ isHome: true
             </div>
             <div class="page-section_column page-section_column--narrow col-md-4 pad-fix--all text-center">
                 <img src="img/globe_icon.png" class="community-image">
-                <h3 class="centered">Community Grants</h3>
+                <h3>Community Grants</h3>
                 <p style="min-height: 100px">
                     Community Grants Description
                 </p>
@@ -43,8 +43,8 @@ isHome: true
                 </div>
             </div>
             <div class="page-section_column page-section_column--narrow col-md-4 pad-fix--all text-center">
-                <img src="img/Ellipse_1.png" class="community-image">
-                <h3 class="centered">Resources</h3>
+                <img src="img/Icon-Resources.svg" class="community-image">
+                <h3>Resources</h3>
                 <p style="min-height: 100px">
                     Resources Description
                 </p>
@@ -139,12 +139,13 @@ isHome: true
         <div class="page-section_row row">
             <div class="page-section_column col-lg-12">
                 <h2>Latest News and Blog</h2>
-                @Html.Partial("_partials/_news.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                       .Flatten()
-                       .FilterSources(Context, "data/news/*")
-                       )
+                @Html.Partial("_partials/_blog-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                        .Flatten()
+                        .FilterSources(Context, "data/posts/*")
+                        .OrderByDescending(doc => doc.GetDateTime("Published"))
+                        .Take(5))
                 <p class="">
-                    <a class="link_title" href="news">Get more news ></a>
+                    <a class="link_title" href="news">Get more news</a>
                 </p>
             </div>
         </div>

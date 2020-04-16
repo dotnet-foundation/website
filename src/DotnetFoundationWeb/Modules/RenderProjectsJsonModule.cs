@@ -55,6 +55,7 @@ namespace DotnetFoundationWeb.Modules
           Title = GetValue("Title", content),
           Logo = GetValue("Logo", content, "logo_big.png"),
           Web = GetValue("Web", content, "#"),
+          Keywords = GetValue("Keywords", content),
           Content = GetContent(content)
         });
       }

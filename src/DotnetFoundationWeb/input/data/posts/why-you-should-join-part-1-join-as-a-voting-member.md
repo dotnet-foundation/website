@@ -54,7 +54,7 @@ Published: 2019-01-14 23:26:08.6261720
 <h2>How do I join?</h2>
 
 <ol>
-<li>Fill out a short form (<a href="https://dotnetfoundation.org/become-a-member">https://dotnetfoundation.org/become-a-member</a>) with your contact info and references to your contributions to the .NET open source community</li>
+<li>Fill out a short form (<a href="https://dotnetfoundation.org/member/become-a-member">https://dotnetfoundation.org/member/become-a-member</a>) with your contact info and references to your contributions to the .NET open source community</li>
 <li>We'll review applications and get back to you - we plan to accept every reasonable application, and provide feedback in the rare cases your contributions weren't clear</li>
 <li>We'll notify you with a link to accept your membership and pay the annual dues</li>
 </ol>
@@ -85,6 +85,6 @@ Published: 2019-01-14 23:26:08.6261720
 
 <h2>Sign up today!</h2>
 
-<p>If you've already contributed to any .NET Foundation project, apply for membership today: <a href="https://dotnetfoundation.org/become-a-member">https://dotnetfoundation.org/become-a-member</a></p>
+<p>If you've already contributed to any .NET Foundation project, apply for membership today: <a href="https://dotnetfoundation.org/member/become-a-member">https://dotnetfoundation.org/member/become-a-member</a></p>
 
 <p>If you haven't contributed yet and need some help getting started, e-mail us (<a href="mailto:contact@dotnetfoundation.org">contact@dotnetfoundation.org</a>) and we'll help.</p>
