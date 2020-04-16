@@ -107,7 +107,7 @@ height: 128px;
 
 <h2>Election Wrapup</h2>
 
-<p>This was an incredibly competitive race, with 45 very qualified candidates competing for 6 open positions (Beth Massi is Microsoft's one appointed board member, the rest are all elected by <a href="https://dotnetfoundation.org/membership/become-a-member">.NET Foundation Members</a>.</p>
+<p>This was an incredibly competitive race, with 45 very qualified candidates competing for 6 open positions (Beth Massi is Microsoft's one appointed board member, the rest are all elected by <a href="https://dotnetfoundation.org/member/become-a-member">.NET Foundation Members</a>.</p>
 
 <p>This election was conducted using Single Transferable Vote (Scottish Rules). It's widely regarded as the most fair methodology, but can be a little complex to understand. Fortunately, the voting system we used (<a href="https://www.opavote.com">OpaVote</a>, highly recommended) provides a pretty clear, visual breakdown on the <a href="https://www.opavote.com/results/5042387845906432">voting results page</a>. The voting results page also allows you to download summary data and (anonymous) ballots.</p>
 

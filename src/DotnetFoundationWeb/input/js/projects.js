@@ -11,13 +11,21 @@ var converter = new showdown.Converter();
 let formInput = document.getElementById('textToSearch'),
     formSubmit = document.getElementById('search-projects'),
     presetProjects = document.getElementById('PresetProjects'),
-    presetPagination = document.getElementById('PresetPagination'),
-    currentPage = 1,
-    searchRpp = 10,
     totalFilteredDocuments = 0,
-    projects = [];
+  projects = [];
 
-let projectListItem = (item) =>(
+
+$('#back-button').on('click', () => {
+  console.log('click');
+  $('#search-description').html('');
+  $('#search').css('display', 'block');
+  $('#foundation-description').css('display', 'block');
+  $('#back-button').css('display', 'none');
+  loadLists([...projects]);
+  formInput.value = '';
+})
+
+let projectItem = (item) =>(
     `<article class="row">
       <div class="col-4"><a href="${item.Web}"><img class="img-responsive contrib-logos" src="assets/projects/${item.Logo}" alt="${item.Title}"></a></div>
       <div class="col-8">
@@ -27,69 +35,81 @@ let projectListItem = (item) =>(
     <hr>`
 );
 
-let projectsList = (list) => (
-    `${list.map(projectListItem).join('')}`
+let projectsRow = (items) => (
+  `<div class="row">
+      ${items.map((item) => (
+        `<div class="col-lg-4 col-sm-12 alph">
+          <hr />
+          <div class="alph-box">
+            <div class="letter">${item.title}</div>
+            <div class="list">
+              ${item.data.map((li) => (
+                `<a class="project-item" data-project='${li.Title}'>${li.Title}</a>`
+              )).join('')}
+            </div>
+          </div>
+        </div >`
+       )).join('')}
+    </div>`
 );
 
-let paginationButtons = () => {
-    let paginationHtml = '';
-    if (totalFilteredDocuments > 0) {
-        let numberOfPages = Math.floor(totalFilteredDocuments / searchRpp);
-        let latestPage = numberOfPages;
-        let latestPageRecords = totalFilteredDocuments % searchRpp;
-        paginationHtml += `<ul class="pagination d-flex flex-wrap">`;
-        if (currentPage === 1) {
-            paginationHtml += `<li class="page-item disabled" title="Previous Page"><span class="page-link">«</span></li>`;
-        } else {
-            paginationHtml += `<li class="page-item" projects-page="${(currentPage - 1)}" title="Previous Page"><span class="page-link"projects-page="${(currentPage - 1)}">«</span></li>`;
-        }
-
-        for (let i = 1; i <= numberOfPages; i++) {
-            if (i === currentPage) {
-                paginationHtml += `<li class="page-item active"><span class="page-link" projects-page="${i}">${i}</span></li>`;
-            } else {
-                paginationHtml += `<li class="page-item" projects-page="${i}"><span class="page-link" projects-page="${i}">${i}</span></li>`;
-            }
-        }
-        if (latestPageRecords !== 0) {
-            latestPage = latestPage + 1;
-            if (currentPage === latestPage) {
-                paginationHtml += `<li class="page-item active"><span class="page-link">${(numberOfPages + 1)}</span></li>`;
-            } else {
-                paginationHtml += `<li class="page-item" projects-page="${(numberOfPages + 1)}"><span class="page-link" projects-page="${(numberOfPages + 1)}">${(numberOfPages + 1)}</span></li>`;
-            }
-        }
-
-        if (currentPage === latestPage) {
-            paginationHtml += `<li class="page-item disabled"><span class="page-link" title="Next page">»</span></li>`;
-        } else {
-            paginationHtml += `<li class="page-item" projects-page="${(currentPage + 1)}"><span class="page-link" projects-page="${(currentPage + 1)}" title="Next page">»</span></li>`;
-        }
-
-        paginationHtml += `</ul>`;
-    }
-    return paginationHtml;
+let projectsList = (list) => {
+  let orderedArray = getAlphabeticallyOrderedArray(list).sort((a, b) => a.title.localeCompare(b.title));
+  let html = '';
+  while (orderedArray.length > 0) {
+    html = `${html}${projectsRow(orderedArray.slice(0, 3))}`;
+    orderedArray.splice(0, 3);
+  }
+  return html;
 };
 
-let addEventListenerToPaginationButtons = () => {
-    let buttons = document.querySelectorAll('li[projects-page]');
-    buttons.forEach(function (button) {
-        button.addEventListener("click", function (event) {
-            let page = event.target.getAttribute('projects-page');
-            currentPage = parseInt(page);
-            searchProjects();
-        });
+let addEventListenerToListItems = () => {
+  let items = document.querySelectorAll('.project-item');
+  items.forEach(function (item) {
+    item.addEventListener("click", function (event) {
+      let projectName = event.target.getAttribute('data-project');
+      let project = projects.find((p) => p.Title === projectName)
+      selectProject(project);
+      $('#search').css('display', 'none');
+      $('#foundation-description').css('display', 'none');
+      $('#back-button').css('display', 'inline-block');
+      $('#search-description').html('');
     });
+  });
 };
+
+const selectProject = (project) => {
+  presetProjects.innerHTML = projectItem(project);
+}
+
+const getAlphabeticallyOrderedArray = (list) => {
+  if (list.length === 0) {
+    return [];
+  }
+  return Object.values(
+    list.reduce((acc, item) => {
+      let firstLetter = item.Title[0].toLocaleUpperCase();
+      if (firstLetter === '.') {
+        firstLetter = item.Title[1].toLocaleUpperCase()
+      }
+      if (!acc[firstLetter]) {
+        acc[firstLetter] = { title: firstLetter, data: [item] };
+      } else {
+        acc[firstLetter].data.push(item);
+      }
+      return acc;
+    }, {})
+  );
+}
 
 formSubmit.addEventListener('click', function () {
-    currentPage = 1;
     searchProjects();
 });
 
-formInput.addEventListener('keyup', function () {
-    currentPage = 1;
+formInput.addEventListener('keyup', function (e) {
+  if (e.code === 'Enter') {
     searchProjects();
+  }
 });
 
 fetch('data/projects.json')
@@ -107,12 +127,15 @@ fetch('data/projects.json')
     });
 
 let searchProjects = () => {
-    let skip = (currentPage - 1) * searchRpp;
     let textToSearch = formInput.value.toLowerCase();
     let newProjects = [];
     if (textToSearch === "") {
-        newProjects = [...projects];
-        totalFilteredDocuments = projects.length;        
+      newProjects = [...projects];
+      totalFilteredDocuments = projects.length; 
+      $('#search-description').html('');
+      $('#search').css('display', 'block');
+      $('#foundation-description').css('display', 'block');
+      $('#back-button').css('display', 'none');
     } else {
         projects.forEach(p => {
             if (p.Content.toLowerCase().includes(textToSearch)
@@ -120,14 +143,17 @@ let searchProjects = () => {
                 newProjects.push(p);
             }
         });
-        totalFilteredDocuments = newProjects.length;
-    }
-    newProjects.splice(0, skip);
+      totalFilteredDocuments = newProjects.length;
+      $('#search-description').html(`Showing search results for "${formInput.value}"`);
+      $('#search').css('display', 'none');
+      $('#foundation-description').css('display', 'none');
+      $('#back-button').css('display', 'inline-block');
+  }
     loadLists(newProjects);
 };
 
 let loadLists = (projectsToShow) => {
-    presetProjects.innerHTML = projectsList(projectsToShow.slice(0, searchRpp));
-    presetPagination.innerHTML = paginationButtons();
-    addEventListenerToPaginationButtons();
+  presetProjects.innerHTML = projectsList(projectsToShow);
+  addEventListenerToListItems();
 };
+

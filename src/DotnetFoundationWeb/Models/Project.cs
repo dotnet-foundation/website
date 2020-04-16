@@ -12,6 +12,8 @@ namespace DotnetFoundationWeb.Models
 
     public string Web { get; set; }
 
+    public string Keywords { get; set; }
+
     public string Content { get; set; }
   }
 }

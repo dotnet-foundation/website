@@ -9,7 +9,7 @@ Published: 2019-03-26 20:59:57.4717962
 
 <h3>1. Voting is open to all .NET Foundation Members.</h3>
 
-<p>If you're not a .NET Foundation Member yet, you can apply <a href="https://dotnetfoundation.org/become-a-member">here</a>.</p>
+<p>If you're not a .NET Foundation Member yet, you can apply <a href="https://dotnetfoundation.org/member/become-a-member">here</a>.</p>
 
 <p>Membership is open to anyone who has contributed to the .NET open source community. That includes code contributions to any .NET Foundation project, but it also includes speaking, blogging, organizing events and meetups, and writing docs. If in doubt, apply!</p>
 

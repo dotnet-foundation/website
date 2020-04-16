@@ -12,7 +12,7 @@ Web: http://humanizr.net/
 * [Website](http://humanizr.net/)
 * [Source](https://github.com/Humanizr/Humanizer)
 * License: [MIT](https://opensource.org/licenses/MIT)
-* Project Leads: [Mehdi Khalili](https://github.com/MehdiK) and [Oren Novotny](https://github.com/onovotny)
+* Project Leads: [Mehdi Khalili](https://github.com/MehdiK) and [Claire Novotny](https://github.com/clairernovotny)
 
 ## Quicklinks
 

@@ -30,7 +30,7 @@ This month's newsletter includes:</p>
 
 <h2>Action Groups</h2>
 
-<p>The board also has set up a set of action groups to focus on some key focus areas. These action groups will be led by board members, joined by&nbsp;<a href="https://dotnetfoundation.org/become-a-member">.NET Foundation Members</a>, so this is a great way for you to get involved!</p>
+<p>The board also has set up a set of action groups to focus on some key focus areas. These action groups will be led by board members, joined by&nbsp;<a href="https://dotnetfoundation.org/member/become-a-member">.NET Foundation Members</a>, so this is a great way for you to get involved!</p>
 
 <h3>Marketing</h3>
 

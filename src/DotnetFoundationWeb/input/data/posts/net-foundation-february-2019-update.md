@@ -27,13 +27,13 @@ This month's newsletter includes:</p>
 <li><a href="https://dotnetfoundation.org/blog/2019/01/23/why-you-should-join-part-3-become-a-board-member" target="_blank">Why You Should Join: Part 3 - Board Member</a></li>
 </ul>
 
-<p>This month, we've begun accepting our first batch of .NET Foundation Voting Members and onboarding them to our new <a href="https://members.dotnetfoundation.org/" target="_blank">.NET Foundation Members site</a>. We also clarified that .NET Foundation that the contributor requirement for membership isn't just code, it includes things like speaking and community organizing. If you've been putting off applying, <a href="https://dotnetfoundation.org/become-a-member" target="_blank">apply today</a>!<br />
+<p>This month, we've begun accepting our first batch of .NET Foundation Voting Members and onboarding them to our new <a href="member" target="_blank">.NET Foundation Members site</a>. We also clarified that .NET Foundation that the contributor requirement for membership isn't just code, it includes things like speaking and community organizing. If you've been putting off applying, <a href="https://dotnetfoundation.org/member/become-a-member" target="_blank">apply today</a>!<br />
 <br />
 Today, we announced the kickoff of our first .NET Foundation elections! Any Voting Member is eligible to campaign for a board seat. <strong>The campaign period runs from February 28 - March 21, followed by a one week voting period ending March 28 at 12 PM Pacific time.</strong> More information about the elections is available on our <a href="https://election.dotnetfoundation.org/" target="_blank">election website</a>.<br />
 <br />
-We're going to continue posting more information about membership and board elections on our <a href="https://dotnetfoundation.org/blog" target="_blank">blog</a>, and you can watch the <a href="http://www.twitter.com/dotnetfdn" target="_blank">@dotnetfdn</a> Twitter account for updates as well. If you have any questions about membership, running for the board, or joining as a corporate sponsor, don't hesitate to contact us at contact@dotnetfoundation.org.</p>
+We're going to continue posting more information about membership and board elections on our <a href="blog" target="_blank">blog</a>, and you can watch the <a href="http://www.twitter.com/dotnetfdn" target="_blank">@dotnetfdn</a> Twitter account for updates as well. If you have any questions about membership, running for the board, or joining as a corporate sponsor, don't hesitate to contact us at contact@dotnetfoundation.org.</p>
 
-<p class="mx-auto"><a class="site-button site-button--pink" href="https://dotnetfoundation.org/become-a-member">Apply for .NET Foundation Membership</a></p>
+<p class="mx-auto"><a class="site-button site-button--pink" href="https://dotnetfoundation.org/member/become-a-member">Apply for .NET Foundation Membership</a></p>
 
 <hr />
 <h2>.NET Foundation Project Updates</h2>

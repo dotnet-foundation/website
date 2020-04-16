@@ -2,10 +2,10 @@
 [Bb]uild/
 [Oo]bj/
 [Dd]ebug/
-[Oo]put/
 [Rr]elease/
 [Pp]ackages/
 [Tt]ools/
+[Oo]utput/
 ![Tt]ools/packages.config
 ![Ii]nput/
 nuget.exe
@@ -39,3 +39,4 @@ TestResult.xml
 /_NCrunch_Statiq.Framework
 .vscode
 *.pfx
+projects-content.json
