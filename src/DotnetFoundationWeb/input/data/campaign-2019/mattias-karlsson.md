@@ -21,7 +21,7 @@ general, but a few areas in particular:
 
 ## Interview by Spencer Schneidenbach
 
-[Spencer Schneidenbach](https://election.dotnetfoundation.org/campaign-2019/spencer-schneidenbach.html) interviewed be about me running for .NET Foundation Board of Directors seat while at MVP Summit 2019.
+[Spencer Schneidenbach](/about/election/campaign-2019/spencer-schneidenbach.html) interviewed be about me running for .NET Foundation Board of Directors seat while at MVP Summit 2019.
 
 You can take a listen to that interview over at [SoundCloud](https://soundcloud.com/schneidenbach/interview-with-mattias-karlsson-net-foundation-board-candidate).
 

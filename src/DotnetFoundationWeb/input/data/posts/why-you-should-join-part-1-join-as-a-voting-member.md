@@ -2,15 +2,16 @@ LayoutRef: blog
 Title: Why You Should Join, Part 1&#58; Join as a Voting Member
 Author: Jon Galloway
 Published: 2019-01-14 23:26:08.6261720
+Visible: true
 ---
-<p><img alt="" src="assets/posts/connect-dnf.png" style="float: right; width: 400px; height: 224px;" />At the Connect event in December, <a href="https://dotnetfoundation.org/blog/2018/12/04/announcing-net-foundation-open-membership">we announced .NET Foundation Open Membership and a new Corporate Sponsor program</a>. We're planning to kick off our first community board member election later this month, so now is a great time to join! Beth Massi and I were guests on the <a href="https://dotnetrocks.com/?show=1611">.NET Rocks podcast</a> earlier this month to review our announcements and talk you into joining, and I'm starting a series of posts to explain things in more detail, as well as to answer some common questions.</p>
+<p><img alt="" src="assets/posts/connect-dnf.png" style="float: right; width: 400px; height: 224px;" />At the Connect event in December, <a href="/blog/2018/12/04/announcing-net-foundation-open-membership">we announced .NET Foundation Open Membership and a new Corporate Sponsor program</a>. We're planning to kick off our first community board member election later this month, so now is a great time to join! Beth Massi and I were guests on the <a href="https://dotnetrocks.com/?show=1611">.NET Rocks podcast</a> earlier this month to review our announcements and talk you into joining, and I'm starting a series of posts to explain things in more detail, as well as to answer some common questions.</p>
 
 <p>Here's the planned series, let me know if you've got specific questions on any of these or would like to see more topics covered:</p>
 
 <ul>
 <li>Why You Should Join: Part 1 - Voting Member (this post)</li>
-<li><a href="https://dotnetfoundation.org/blog/2019/01/16/why-you-should-join-part-2---corporate-sponsor">Why You Should Join: Part 2 - Corporate Sponsor</a></li>
-<li><a href="https://dotnetfoundation.org/blog/2019/01/23/why-you-should-join-part-3-become-a-board-member">Why You Should Join: Part 3 - Board Member</a></li>
+<li><a href="/blog/2019/01/16/why-you-should-join-part-2---corporate-sponsor">Why You Should Join: Part 2 - Corporate Sponsor</a></li>
+<li><a href="/blog/2019/01/23/why-you-should-join-part-3-become-a-board-member">Why You Should Join: Part 3 - Board Member</a></li>
 </ul>
 
 <h2>What did we announce?</h2>
@@ -30,7 +31,7 @@ Published: 2019-01-14 23:26:08.6261720
 <p>So now people, project, and companies can all join the .NET Foundation:</p>
 
 <ul>
-<li><a href="https://dotnetfoundation.org/Projects">Projects</a> can join the .NET Foundation for a ton of reasons including <a href="https://dotnetfoundation.org/About">IP and legal support, technical and back end support services</a> (certs, hosting, CLA's, etc.)</li>
+<li><a href="/projects">Projects</a> can join the .NET Foundation for a ton of reasons including <a href="/about">IP and legal support, technical and back end support services</a> (certs, hosting, CLA's, etc.)</li>
 <li>Companies can join the .NET Foundation as corporate sponsors, to collaboratively support the .NET open source ecosystem (more in the next post)</li>
 <li>People - individual community members - can join as voting members of the .NET Foundation</li>
 </ul>
@@ -54,7 +55,7 @@ Published: 2019-01-14 23:26:08.6261720
 <h2>How do I join?</h2>
 
 <ol>
-<li>Fill out a short form (<a href="https://dotnetfoundation.org/member/become-a-member">https://dotnetfoundation.org/member/become-a-member</a>) with your contact info and references to your contributions to the .NET open source community</li>
+<li>Fill out a short form (<a href="/member/become-a-member">https://dotnetfoundation.org/member/become-a-member</a>) with your contact info and references to your contributions to the .NET open source community</li>
 <li>We'll review applications and get back to you - we plan to accept every reasonable application, and provide feedback in the rare cases your contributions weren't clear</li>
 <li>We'll notify you with a link to accept your membership and pay the annual dues</li>
 </ol>
@@ -85,6 +86,6 @@ Published: 2019-01-14 23:26:08.6261720
 
 <h2>Sign up today!</h2>
 
-<p>If you've already contributed to any .NET Foundation project, apply for membership today: <a href="https://dotnetfoundation.org/member/become-a-member">https://dotnetfoundation.org/member/become-a-member</a></p>
+<p>If you've already contributed to any .NET Foundation project, apply for membership today: <a href="/member/become-a-member">https://dotnetfoundation.org/member/become-a-member</a></p>
 
 <p>If you haven't contributed yet and need some help getting started, e-mail us (<a href="mailto:contact@dotnetfoundation.org">contact@dotnetfoundation.org</a>) and we'll help.</p>

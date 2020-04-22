@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation Update&#58; Newsletter, Project Updates, and links!
 Author: Jon Galloway
 Published: 2018-01-17 22:24:00.0000000
+Visible: true
 ---
 <p>Welcome to the first of a series: our regular .NET Foundation updates! We’ll be posting these on our blog, but to make sure you don’t miss one, please subscribe to get them via e-mail.</p>
 

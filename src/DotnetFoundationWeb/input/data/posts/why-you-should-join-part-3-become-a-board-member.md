@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Why You Should Join, Part 3&#58; Become a Board Member
 Author: Jon Galloway
 Published: 2019-01-23 00:02:25.7173330
+Visible: true
 ---
 <p>We recently announced some big changes to the .NET Foundation, and one of the biggest is that we’re moving to a community elected Board of Directors. We're expanding the board from three to seven members, with one single seat appointed by Microsoft and the remaining six elected by the community. This structure will help the .NET Foundation scale and better serve the .NET ecosystem.</p>
 
@@ -10,8 +11,8 @@ Published: 2019-01-23 00:02:25.7173330
 <p>This post is the third in a series:</p>
 
 <ul>
-<li><u><a href="https://dotnetfoundation.org/blog/2019/01/14/why-you-should-join-part-1-join-as-a-voting-member">Why You Should Join: Part 1 - Voting Member</a></u></li>
-<li><a href="https://dotnetfoundation.org/blog/2019/01/16/why-you-should-join-part-2---corporate-sponsor">Why You Should Join: Part 2 - Corporate Sponsor</a></li>
+<li><u><a href="/blog/2019/01/14/why-you-should-join-part-1-join-as-a-voting-member">Why You Should Join: Part 1 - Voting Member</a></u></li>
+<li><a href="/blog/2019/01/16/why-you-should-join-part-2---corporate-sponsor">Why You Should Join: Part 2 - Corporate Sponsor</a></li>
 <li>Why You Should Join: Part 3 - Board Member (this post)</li>
 </ul>
 
@@ -25,7 +26,7 @@ Published: 2019-01-23 00:02:25.7173330
 
 <h2>Who Can Run for a Board Seat?</h2>
 
-<p>Any <a href="https://dotnetfoundation.org/blog/2019/01/14/why-you-should-join-part-1-join-as-a-voting-member">voting member</a> can run for a board seat. That’s anyone who’s contributed to a .NET Foundation project and <a href="https://dotnetfoundation.org/member/become-a-member">applied for membership</a>.</p>
+<p>Any <a href="/blog/2019/01/14/why-you-should-join-part-1-join-as-a-voting-member">voting member</a> can run for a board seat. That’s anyone who’s contributed to a .NET Foundation project and <a href="/member/become-a-member">applied for membership</a>.</p>
 
 <h2>Who Should Run for The Board?</h2>
 
@@ -52,7 +53,7 @@ Published: 2019-01-23 00:02:25.7173330
 
 <p>If you’re worried about the time commitment – well, it’s true, we need you to be available and to put in the time. I’m not expecting a major time commitment – probably 4-6 hours a month, and most of it can be over e-mail and on your own schedule.</p>
 
-<p>If there’s something preventing you from joining the .NET Foundation as a voting member to be eligible to run in the election, talk to us! Our <a href="https://dotnetfoundation.org/blog/2019/01/14/why-you-should-join-part-1-join-as-a-voting-member">previous post on joining as a voting member</a> hopefully explains why contributions or dues shouldn’t get in your way.</p>
+<p>If there’s something preventing you from joining the .NET Foundation as a voting member to be eligible to run in the election, talk to us! Our <a href="/blog/2019/01/14/why-you-should-join-part-1-join-as-a-voting-member">previous post on joining as a voting member</a> hopefully explains why contributions or dues shouldn’t get in your way.</p>
 
 <h2>How Do Campaigns and Elections Work?</h2>
 
@@ -60,7 +61,7 @@ Published: 2019-01-23 00:02:25.7173330
 
 <ul>
 <li>We’ll be running a simple campaign mini-site using GitHub pages and pull requests. Candidates will submit a campaign statement as a markdown file pull request and can link off to other information if they want (e.g. video, podcast interviews, projects, etc.).</li>
-<li>We’d love to see community discussion wherever it happens – Twitter, forums, etc. – following the <a href="https://dotnetfoundation.org/code-of-conduct">standard code of conduct</a>.</li>
+<li>We’d love to see community discussion wherever it happens – Twitter, forums, etc. – following the <a href="/about/code-of-conduct">standard code of conduct</a>.</li>
 <li>In the last week of the election cycle, voting members will cast their votes. We’re using the <a href="https://www.opavote.com/methods/single-transferable-vote">Single Transferable Vote methodology on the OpaVote system</a>.</li>
 <li>The board serves for one year, after which you can choose to run for reelection.</li>
 </ul>

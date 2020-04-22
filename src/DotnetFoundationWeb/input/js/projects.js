@@ -1,4 +1,4 @@
-﻿String.prototype.format = function () {
+String.prototype.format = function () {
     a = this;
     for (k in arguments) {
         a = a.replace("{" + k + "}", arguments[k]);
@@ -21,6 +21,7 @@ $('#back-button').on('click', () => {
   $('#search').css('display', 'block');
   $('#foundation-description').css('display', 'block');
   $('#back-button').css('display', 'none');
+  $('#submit-button').css('display', 'inline-block');
   loadLists([...projects]);
   formInput.value = '';
 })
@@ -136,6 +137,7 @@ let searchProjects = () => {
       $('#search').css('display', 'block');
       $('#foundation-description').css('display', 'block');
       $('#back-button').css('display', 'none');
+      $('#submit-button').css('display', 'inline-block');
     } else {
         projects.forEach(p => {
             if (p.Content.toLowerCase().includes(textToSearch)
@@ -148,6 +150,7 @@ let searchProjects = () => {
       $('#search').css('display', 'none');
       $('#foundation-description').css('display', 'none');
       $('#back-button').css('display', 'inline-block');
+      $('#submit-button').css('display', 'none');
   }
     loadLists(newProjects);
 };

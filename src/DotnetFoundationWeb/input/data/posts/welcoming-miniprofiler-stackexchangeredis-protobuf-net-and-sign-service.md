@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Welcoming MiniProfiler, StackExchange.Redis, protobuf-net, and Sign Service!
 Author: Jon Galloway
 Published: 2019-03-07 19:54:59.2253146
+Visible: true
 ---
 <p>Today, I'm happy to announce that MiniProfiler for .NET, StackExchange.Redis, protobuf-net, and Sign Service are joining the .NET&nbsp;Foundation!</p>
 

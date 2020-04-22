@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation November Update
 Author: Jon Galloway
 Published: 2018-11-30 22:44:03.2885624
+Visible: true
 ---
 <div itemprop="articleBody">
 <p>Here's the November edition of the .NET Foundation newsletter. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
@@ -19,7 +20,7 @@ This month's newsletter includes:</p>
 <hr />
 <h2>Stay tuned for some big news at the Connect event!</h2>
 
-<p><strong>We've got some really exciting updates on the way for the .NET Foundation!</strong> Watch the&nbsp;<a href="https://www.microsoft.com/en-us/connectevent/?ocid=AID750056_QSG_BNR_287413" target="_blank">Connect event keynote</a>&nbsp;on December 4 for the announcement, and keep an eye on our&nbsp;<a href="https://twitter.com/dotnetfdn" target="_blank">@dotnetfdn</a>&nbsp;Twitter handle and&nbsp;<a href="https://dotnetfoundation.org/blog" target="_blank">blog</a>&nbsp;for the announcement post and details.<br />
+<p><strong>We've got some really exciting updates on the way for the .NET Foundation!</strong> Watch the&nbsp;<a href="https://www.microsoft.com/en-us/connectevent/?ocid=AID750056_QSG_BNR_287413" target="_blank">Connect event keynote</a>&nbsp;on December 4 for the announcement, and keep an eye on our&nbsp;<a href="https://twitter.com/dotnetfdn" target="_blank">@dotnetfdn</a>&nbsp;Twitter handle and&nbsp;<a href="/blog" target="_blank">blog</a>&nbsp;for the announcement post and details.<br />
 <br />
 We can't wait to tell you about it! This next year is going to be amazing!</p>
 
@@ -50,7 +51,7 @@ On December 1st, we plan to stop supporting .NET Framework 2.0 in NUnit framewor
 
 <h3>Json.NET 12.0 Release 1 - .NET Foundation, NuGet and Authenticode signing, SourceLink and more</h3>
 
-<p>This month, we&nbsp;<a href="https://dotnetfoundation.org/blog/2018/11/27/welcome-jsonnet-to-the-net-foundation" target="_blank">announced</a>&nbsp;that Json.NET, one of the most popular .NET projects in the solar system, has joined the .NET Foundation. This&nbsp;<a href="http://james.newtonking.com/archive/2018/11/27/json-net-12-0-release-1-net-foundation-nuget-and-authenticode-signing-sourcelink-and-more" target="_blank">post</a>&nbsp;announces the new 12.0 release, as well as some new features that we helped support: code signing and SourceLink support.<br />
+<p>This month, we&nbsp;<a href="/blog/2018/11/27/welcome-jsonnet-to-the-net-foundation" target="_blank">announced</a>&nbsp;that Json.NET, one of the most popular .NET projects in the solar system, has joined the .NET Foundation. This&nbsp;<a href="http://james.newtonking.com/archive/2018/11/27/json-net-12-0-release-1-net-foundation-nuget-and-authenticode-signing-sourcelink-and-more" target="_blank">post</a>&nbsp;announces the new 12.0 release, as well as some new features that we helped support: code signing and SourceLink support.<br />
 &nbsp;</p>
 
 <h3>AutoMapper 8.0.0 Released</h3>

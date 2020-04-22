@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation December Update
 Author: Jon Galloway
 Published: 2019-01-01 00:30:08.6224590
+Visible: true
 ---
 <p>Here's the December edition of the .NET Foundation newsletter. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />
@@ -22,11 +23,11 @@ This month's newsletter includes:</p>
 
 <p><a href="https://channel9.msdn.com/Events/Connect/Microsoft-Connect--2018/K120"><img alt="" src="assets/posts/connect-dnf.png" style="width: 1067px; height: 597px;" /></a></p>
 
-<p>At the&nbsp;<a href="https://news.microsoft.com/connect-2018/">Microsoft Connect</a>&nbsp;event earlier this month, we made&nbsp;<a href="https://dotnetfoundation.org/blog/2018/12/04/announcing-net-foundation-open-membership">two pretty big announcements</a>. The first is open membership: we're expanding the .NET Foundation by inviting the entire open source community to take a more active role, to directly guide foundation operations and build the ecosystem. If you've contributed to a .NET Foundation open source project, you can&nbsp;<a href="https://dotnetfoundation.org/member/become-a-member">apply to become a voting member today!</a></p>
+<p>At the&nbsp;<a href="https://news.microsoft.com/connect-2018/">Microsoft Connect</a>&nbsp;event earlier this month, we made&nbsp;<a href="/blog/2018/12/04/announcing-net-foundation-open-membership">two pretty big announcements</a>. The first is open membership: we're expanding the .NET Foundation by inviting the entire open source community to take a more active role, to directly guide foundation operations and build the ecosystem. If you've contributed to a .NET Foundation open source project, you can&nbsp;<a href="/member/become-a-member">apply to become a voting member today!</a></p>
 
 <p>We're expanding the board from three to seven members, with one single seat appointed by Microsoft and the remaining six elected by the community. Board elections will begin in January 2019, and any person who has contributed to a.NET Foundation open source project is eligible to run for the board and to vote. This new structure will help the .NET Foundation scale with the growing .NET open source ecosystem and allows our entire community to get a lot more involved.</p>
 
-<p>We're going to be posting more information about membership and board elections in early January - watch our <a href="https://dotnetfoundation.org/blog">blog </a>and <a href="http://www.twitter.com/dotnetfdn">@dotnetfdn</a> Twitter account for updates.</p>
+<p>We're going to be posting more information about membership and board elections in early January - watch our <a href="/blog">blog </a>and <a href="http://www.twitter.com/dotnetfdn">@dotnetfdn</a> Twitter account for updates.</p>
 
 <h3>.NET Foundation Corporate Sponsor Program</h3>
 

@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Welcoming the Newly Minted .NET Foundation Advisory Council Members
 Author: 
 Published: 2015-02-23 16:28:00.0000000
+Visible: true
 ---
 <p>It&rsquo;s official &ndash; we&rsquo;re happy to welcome nine community leaders to the .NET Foundation Advisory Council &ndash; leaders who will bring their experience and passion to help steward open source .NET projects and continue on a path of open and transparent governance for the foundation.</p>
 

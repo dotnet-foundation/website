@@ -2,10 +2,11 @@ LayoutRef: blog
 Title: Meet Your Advisory Council – Bill Wagner
 Author: 
 Published: 2015-07-07 15:05:00.0000000
+Visible: true
 ---
-<p>A couple weeks ago I <a href="http://www.dotnetfoundation.org/Tags/Meet%20the%20team">kicked off a series of written interviews</a> with our .NET Foundation <a href="http://www.dotnetfoundation.org/team">Advisory Council members</a>. The Advisory Council is composed of OSS project leaders that care deeply about .NET and the success of the foundation. They drive key initiatives in the foundation and guide the board. <a href="https://www.dotnetfoundation.org/Media/Default/Documents/net-foundation-advisory-council-proposal.pdf">Learn more about what the Advisory Council is all about</a> and <a href="http://forums.dotnetfoundation.org/c/governance/advisory-council">participate in public discussions with them on our forums</a>.</p>
+<p>A couple weeks ago I <a href="/tags/meet%20the%20team">kicked off a series of written interviews</a> with our .NET Foundation <a href="/about/board-of-directors#advisory-council">Advisory Council members</a>. The Advisory Council is composed of OSS project leaders that care deeply about .NET and the success of the foundation. They drive key initiatives in the foundation and guide the board. <a href="/assets/documents/net-foundation-advisory-council-proposal.pdf">Learn more about what the Advisory Council is all about</a> and <a href="http://forums.dotnetfoundation.org/c/governance/advisory-council">participate in public discussions with them on our forums</a>.</p>
 
-<p><img width="201" height="233" style="background-image: none; float: left; margin: 0px 0px 0px 5px; display: inline; border-width: 0px; padding: 0px 10px 5px 0px;" alt="" src="https://www.dotnetfoundation.org/Media/Default/Images/Bill.jpg" /></p>
+<p><img width="201" height="233" style="background-image: none; float: left; margin: 0px 0px 0px 5px; display: inline; border-width: 0px; padding: 0px 10px 5px 0px;" alt="" src="/assets/members/Bill.jpg" /></p>
 
 <p>For this next post, I interviewed <a href="https://twitter.com/billwagner">Bill Wagner</a>. Bill has spent his entire career in the software industry, spanning both technical and business roles. A Microsoft regional director, Bill&rsquo;s technical areas of focus are C#, .NET, and TypeScript. His other, non-coding passion is to help organizations build effective, high-functioning developer teams.</p>
 
@@ -23,7 +24,7 @@ Published: 2015-07-07 15:05:00.0000000
 
 <p><strong>Can you tell us some of the first open source projects you worked on as a contributor? Why did you get involved? How did you get started?</strong></p>
 
-<p>I am probably the anomaly on the Advisory Council. I&rsquo;ve done less open source than the other council members. However, I&rsquo;ve been involved in .NET since before its first release. In some ways, that makes me the voice of that .NET developer that is new to OSS and wonders how to get involved. I could be that developer Phil references <a href="http://www.dotnetfoundation.org/blog/meet-your-advisory-council-phil-haack">in his interview</a> about having to answer the same question more than 100 times.</p>
+<p>I am probably the anomaly on the Advisory Council. I&rsquo;ve done less open source than the other council members. However, I&rsquo;ve been involved in .NET since before its first release. In some ways, that makes me the voice of that .NET developer that is new to OSS and wonders how to get involved. I could be that developer Phil references <a href="/blog/2015/07/01/meet-your-advisory-council-phil-haack">in his interview</a> about having to answer the same question more than 100 times.</p>
 
 <p>In the last two years, I&rsquo;ve been president of Humanitarian Toolbox (<a href="http://htbox.org/">http://htbox.org</a>), where we build open source applications that support humanitarian disaster relief efforts. It&rsquo;s a chance to build software that can have a very real positive impact on people all over the world. It feels great to build software that makes developers more productive. It's so much more rewarding to build software that has the potential to save lives.</p>
 

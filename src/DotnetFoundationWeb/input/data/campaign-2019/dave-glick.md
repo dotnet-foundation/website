@@ -33,7 +33,7 @@ I’ve already dedicated myself to promoting open source in .NET through a varie
 
 ## Vision
 
-The .NET Foundation's mission is to *[to foster innovation, which we believe starts with open development and collaboration](https://dotnetfoundation.org/about)*. While I fully support this mission, and appreciate the work the Foundation has done to date, I think there are ways in which it's execution could be greatly enhanced.
+The .NET Foundation's mission is to *[to foster innovation, which we believe starts with open development and collaboration](/about)*. While I fully support this mission, and appreciate the work the Foundation has done to date, I think there are ways in which it's execution could be greatly enhanced.
 
 * **Communication with Member Projects**  
   Communication with the .NET Foundation and its member projects needs to be improved. Some ideas I have include assigning a board member to each project as a dedicated point of contact, greater participation from the .NET Foundation in day-to-day project issues, and more structured and defined support channels for member projects.

@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Announcing LLILC - A new LLVM-based Compiler for .NET
 Author: 
 Published: 2015-04-14 14:30:58.0000000
+Visible: true
 ---
 <p>The .NET Foundation was set up to foster open source innovation and collaboration around&nbsp;.NET and so&nbsp;I'm very pleased to announce that we have released an&nbsp;initial version of a new project called&nbsp;<a href="https://github.com/dotnet/llilc">LLILC</a> (pronounced "lilac") on GitHub. This is a new LLVM-based native code compiler for .NET Core&nbsp;which is being&nbsp;contributed to the .NET Foundation by Microsoft. <a href="http://llvm.org/">LLVM</a> is a very popular open source compiler framework which supports targeting multiple CPU types. LLILC creates a bridge into LLVM for .NET, making LLVM's broad chip support and tools available to .NET Core.</p>
 

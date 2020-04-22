@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Welcoming Protobuild to the .NET Foundation
 Author: 
 Published: 2016-05-11 18:15:00.0000000
+Visible: true
 ---
 <p>As .NET becomes more common cross-platform, a new generation of tools is emerging to help developers manage common workflows when using the same .NET code across multiple operating systems, <g class="gr_ gr_48 gr-alert gr_gramm gr_run_anim Punctuation only-ins replaceWithoutSep" id="48" data-gr-id="48">runtimes</g> and devices. Protobuild is one of these awesome emerging new tools and I've very proud to welcome them into the .NET Foundation.&nbsp;</p>
 

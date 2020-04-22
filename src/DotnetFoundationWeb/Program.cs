@@ -29,7 +29,7 @@ namespace DotnetFoundationWeb
         .RunAsync();
     }
 
-    public static FilePath GetPath(IDocument doc)
+    static FilePath GetPath(IDocument doc)
     {
       if (doc.Source.Directory.Segments.Last().SequenceEqual("posts".AsMemory()))
       {
@@ -40,6 +40,16 @@ namespace DotnetFoundationWeb
       else if (doc.Source.Directory.Segments.Last().SequenceEqual("campaign-2019".AsMemory()))
       {
         return new DirectoryPath("about/election/campaign-2019")
+          .CombineFile(doc.Destination.FileName.ChangeExtension(".html"));
+      }
+      else if (doc.Source.Directory.Segments.Last().SequenceEqual("projects".AsMemory()))
+      {
+        return new DirectoryPath("projects")
+          .CombineFile(doc.Destination.FileName.ChangeExtension(".html"));
+      }
+      else if (doc.Source.Directory.Segments.Last().SequenceEqual("committees".AsMemory()))
+      {
+        return new DirectoryPath("community/committees")
           .CombineFile(doc.Destination.FileName.ChangeExtension(".html"));
       }
       else

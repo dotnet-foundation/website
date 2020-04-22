@@ -1,4 +1,4 @@
-﻿/* Variables */
+/* Variables */
 /* Animations */
 @-webkit-keyframes zoomInUp {
     0% {
@@ -1357,3 +1357,32 @@ svg:not(:root).svg-inline--fa {
 .tabbed-index a.selected:hover {
     color: white;
 }
+
+.logo-footer {
+  width: 135px;
+}
+
+.hidden {
+  display: none;
+}
+
+.committee_container {
+  display: flex;
+  margin-top: 2rem;
+}
+.committee_container h2{
+  margin-top: 0;
+}
+.committee_meta {
+  flex-basis: 80%;
+  padding-left: 10px;
+}
+.committee_img_container {
+  min-width: 120px;
+  flex-basis: 20%;
+  min-height: 120px;
+}
+  .committee_img_container img {
+    height: 120px;
+    width: 120px;
+  }

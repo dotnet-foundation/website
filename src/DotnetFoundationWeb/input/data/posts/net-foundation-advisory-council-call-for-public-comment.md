@@ -2,10 +2,11 @@ LayoutRef: blog
 Title: .NET Foundation Advisory Council Call for Public Comment
 Author: 
 Published: 2014-10-14 17:16:00.0000000
+Visible: true
 ---
 <h2>Friends in the .NET community,</h2>
 
-<p>When the .NET Foundation was created, there was an important principle that the foundation and its work be transparent, open, and community driven. In order to ensure that the foundation delivers on this primary objective, the board of the .Net Foundation asked Shaun Walker, who has a long history leading and contributing to .Net open source projects, to develop an initial proposal for a community based advisory council to help guide the governance of the .NET Foundation. <a href="https://www.dotnetfoundation.orghttps://www.dotnetfoundation.org/Media/Default/Documents/net-foundation-advisory-council-proposal.pdf">That proposal is now available for community comment</a>.</p>
+<p>When the .NET Foundation was created, there was an important principle that the foundation and its work be transparent, open, and community driven. In order to ensure that the foundation delivers on this primary objective, the board of the .Net Foundation asked Shaun Walker, who has a long history leading and contributing to .Net open source projects, to develop an initial proposal for a community based advisory council to help guide the governance of the .NET Foundation. <a href="/assets/documents/net-foundation-advisory-council-proposal.pdf">That proposal is now available for community comment</a>.</p>
 
 <p>There are many reasons we feel that an advisory council is needed. Our goal is to ensure that the foundations operation and governance is both efficient and effective when viewed from a community building perspective. Some of the practical reasons for the creation of the council are:</p>
 
@@ -26,4 +27,4 @@ Published: 2014-10-14 17:16:00.0000000
 
 <hr />
 
-<p><a href="https://www.dotnetfoundation.orghttps://www.dotnetfoundation.org/Media/Default/Documents/net-foundation-advisory-council-proposal.pdf">.NET Foundation Advisory Council Proposal</a> (PDF)<br /><a href="http://forums.dotnetfoundation.org/t/advisory-council-proposal/63">Advisory Council Discussion on the Forums</a></p>
+<p><a href="/assets/documents/net-foundation-advisory-council-proposal.pdf">.NET Foundation Advisory Council Proposal</a> (PDF)<br /><a href="http://forums.dotnetfoundation.org/t/advisory-council-proposal/63">Advisory Council Discussion on the Forums</a></p>

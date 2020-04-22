@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: New Community Director, Rachel Reese
 Author: 
 Published: 2016-07-21 18:17:00.0000000
+Visible: true
 ---
 <p><img src="assets/posts/RachelReese.JPG" alt="Rachel Reese" width="240" height="240" align="right" />With the <a href="http://blogs.microsoft.com/blog/2016/02/24/microsoft-to-acquire-xamarin-and-empower-more-developers-to-build-apps-on-any-device/">acquisition of Xamarin by Microsoft</a>&nbsp;and .NET Foundation Director Miguel de Icaza getting his blue badge, we wanted&nbsp;to make some changes to the .NET Foundation Board of Directors so that&nbsp;t<br />he entire board was not made up of Microsoft employees. Happily, Miguel has agreed to stay on the board as one of the two Microsoft representatives alongside Scott Hunter at Microsoft who now has responsibility for the ASP.NET team&nbsp;and the .NET compiler &amp; framework teams. Joining the&nbsp;.NET Foundation Board of Directors is <a href="https://twitter.com/rachelreese/">Rachel Reese</a>. Rachel is a long-time&nbsp;member of the .NET community and a board member of the F# foundation where she has been driving a number of great community activities.</p>
 

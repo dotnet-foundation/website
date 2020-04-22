@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Summer Hackfest Update&#58; Session 3 Underway!
 Author: 
 Published: 2017-08-23 22:16:00.0000000
+Visible: true
 ---
 <p></p>
 

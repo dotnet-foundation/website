@@ -2,8 +2,9 @@ LayoutRef: blog
 Title: New Community Director, Claire Novotny
 Author: Jon Galloway
 Published: 2018-07-03 16:15:00.0000000
+Visible: true
 ---
-<p><img alt="Claire Novotny" src="assets/members/claire-novotny.jpg" style="float: right; width: 150px; height: 150px;" />After nearly <a href="https://dotnetfoundation.org/blog/2016/07/21/welcome-rachel">two years of service as the Community Director of the .NET Foundation</a> (thank you!!!), Rachel Reese has asked to step down. <a href="https://claires.site/">Claire Novotny</a> will be replacing her in this role.</p>
+<p><img alt="Claire Novotny" src="assets/members/claire-novotny.jpg" style="float: right; width: 150px; height: 150px;" />After nearly <a href="/blog/2016/07/21/welcome-rachel">two years of service as the Community Director of the .NET Foundation</a> (thank you!!!), Rachel Reese has asked to step down. <a href="https://claires.site/">Claire Novotny</a> will be replacing her in this role.</p>
 
 <p>Claire has been a very active member of the .NET Foundation Advisory Council, working tirelessly behind the scenes to help projects configure build infrastructure, set up code signing, and just continually working to make the .NET open source community a&nbsp;better place. Support for Claire to take this role was unanimous and enthusiastic - from Rachel, the rest of the .NET Foundation board, and the rest of the Advisory Council. As Executive Director, I wholeheartedly agree - Claire helps out on a daily basis behind the scenes, both helping to keep things running and to continually improve them. As an example, he personally drove a partnership with DigiCert to get individual code signing certificates issued to projects by getting the .NET Foundation set up as a CA.</p>
 

@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Welcoming SymbolSource To The .NET Foundation!
 Author: Jon Galloway
 Published: 2018-05-01 20:14:00.0000000
+Visible: true
 ---
 <p>Today we're happy to announce that SymbolSource is joining the .NET Foundation!</p>
 

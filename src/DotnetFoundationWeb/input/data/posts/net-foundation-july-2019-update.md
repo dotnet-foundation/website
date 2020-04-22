@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation July 2019 Update
 Author: Jon Galloway
 Published: 2019-08-01 02:08:24.1512760
+Visible: true
 ---
 <p>Here's the July 2019 .NET Foundation update. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />
@@ -47,7 +48,7 @@ This month's newsletter includes:</p>
 <hr />
 <h2>Join an Action Group!</h2>
 
-<p>We recently&nbsp;<a href="https://dotnetfoundation.org/blog/2019/05/31/net-foundation-may-2019-update">announced our new Action Groups</a>: a way for .NET Foundation members to join teams and get directly involved in helping the .NET Foundation scale to the next level. Our teams include the following:</p>
+<p>We recently&nbsp;<a href="/blog/2019/05/31/net-foundation-may-2019-update">announced our new Action Groups</a>: a way for .NET Foundation members to join teams and get directly involved in helping the .NET Foundation scale to the next level. Our teams include the following:</p>
 
 <ul>
 <li>Communications</li>
@@ -69,7 +70,7 @@ If you're a .NET Foundation Member, sign up to join an action group:</p>
 <hr />
 <h2>.NET Foundation at OSCON 2019</h2>
 
-<p>Jon Galloway, Executive Director of the .NET Foundation, attended and spoke at OSCON this month. Check out his presentation slides and notes from the conference:&nbsp;<a href="https://dotnetfoundation.org/blog/2019/08/01/net-foundation-at-oscon-2019">.NET Foundation at OSCON 2019</a>.</p>
+<p>Jon Galloway, Executive Director of the .NET Foundation, attended and spoke at OSCON this month. Check out his presentation slides and notes from the conference:&nbsp;<a href="/blog/2019/08/01/net-foundation-at-oscon-2019">.NET Foundation at OSCON 2019</a>.</p>
 
 <hr />
 <h2>.NET Conf 2019, September 23-25 (<a href="http://www.dotnetconf.net/">www.dotnetconf.net</a>)</h2>

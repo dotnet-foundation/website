@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: WCF Client is Open Source
 Author: 
 Published: 2015-05-20 12:44:00.0000000
+Visible: true
 ---
 <p>We&rsquo;re excited to announce a new open source project on GitHub from the WCF team at Microsoft.&nbsp; This new version of WCF targets <a href="https://github.com/dotnet/core">.NET Core</a> and has been donated to the family of <a href="https://github.com/dotnet">.NET Foundation open source projects</a><span>.</span></p>
 

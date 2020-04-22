@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Welcome Google and Congratulations Samsung!
 Author: 
 Published: 2016-11-16 15:35:00.0000000
+Visible: true
 ---
 <p>Today, at Microsoft’s Connect() event in New York we announced some important news regarding the .NET Foundation Technical Steering Group.</p>
 
@@ -20,7 +21,7 @@ can find what they need to build great apps for Google Cloud
 Platform.”</p>
 </blockquote>
 
-<p>Secondly, back in June 2016 I had the pleasure of announcing that Samsung had <a href="https://dotnetfoundation.org/blog/samsung-join-tsg">joined the technical steering group</a>. They have been focusing on ARM support in .NET Core and today we got to see the first fruits of their labor with the preview release of .NET Core support for the Tizen operating system and their <a href="http://www.aka.ms/tizen">Visual Studio Tools for Tizen</a>. </p>
+<p>Secondly, back in June 2016 I had the pleasure of announcing that Samsung had <a href="/blog/2016/06/27/samsung-join-tsg">joined the technical steering group</a>. They have been focusing on ARM support in .NET Core and today we got to see the first fruits of their labor with the preview release of .NET Core support for the Tizen operating system and their <a href="http://www.aka.ms/tizen">Visual Studio Tools for Tizen</a>. </p>
 
 <p><a href="https://www.tizen.org/">Tizen</a> is an open source operating system based on Linux, supported by the <a href="https://www.linuxfoundation.org/">Linux Foundation</a> and open to all developers. Tizen powers 50 million Samsung devices, including Smart TVs, wearables, smartphones, and home appliances. Today, Samsung is releasing the first preview of <a href="http://www.aka.ms/tizen">Visual Studio Tools for Tizen</a>, which supports mobile application development with device emulators and an extension to Visual Studio with full IntelliSense and debugging capabilities. The support for Smart TVs, wearables, and other IoT devices will be added in future releases. Tizen’s .NET support will be officially released and shipping on Samsung devices, including Smart TVs, in 2017. This will allow .NET developers to build applications to deploy on Tizen across the globe and continues in our mission to bring the productive .NET development platform to everyone.</p>
 

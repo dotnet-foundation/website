@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Welcome Steeltoe to the .NET Foundation!
 Author: Jon Galloway
 Published: 2017-11-15 17:56:00.0000000
+Visible: true
 ---
 <p><img src="assets/posts/steeltoe-logo.svg" style="width: 250px; float:right" /></p>
 

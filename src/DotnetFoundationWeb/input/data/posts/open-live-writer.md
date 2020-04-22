@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Live Writer is now Open Source
 Author: 
 Published: 2015-12-09 16:11:00.0000000
+Visible: true
 ---
 <p>Windows Live Writer has been turning blogging up to 11 since 2007, but since 2012 things have been a bit quiet with the application itself. However over the past&nbsp;few months I have had the pleasure working with a very pasionate group of engineers volunteering their time to ensure that Live Writer has a sustainable future. I'm pleased to announce that today the .NET Foundation welcomes a new project - <a href="http://openlivewriter.org">Open Live Writer</a>. One of the great things about Live Writer has always been the passionate community behind it and I can't wait to see what that community does now everying is open source and on GitHub.</p>
 
@@ -31,7 +32,7 @@ Published: 2015-12-09 16:11:00.0000000
 
 <h4>Why .NET Foundation</h4>
 
-<p>The volunteer team considered a few options for releasing Open Live Writer. Ultimately, we found a great partnership in the <a href="http://www.dotnetfoundation.org/">.NET Foundation</a> to support our goals around growing community participation for the project. Martin Woodward, Robin Ginn, and the <a href="http://www.dotnetfoundation.org/team">team</a> has been super-helpful in many matters including open source governance and administrative support, to marketing and communications.</p>
+<p>The volunteer team considered a few options for releasing Open Live Writer. Ultimately, we found a great partnership in the <a href="/">.NET Foundation</a> to support our goals around growing community participation for the project. Martin Woodward, Robin Ginn, and the <a href="http://www.dotnetfoundation.org/team">team</a> has been super-helpful in many matters including open source governance and administrative support, to marketing and communications.</p>
 
 <p>And Open Live Writer is many thousands of lines of C# code, so the .NET Foundation is a good technical match too. J</p>
 
