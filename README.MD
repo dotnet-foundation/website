@@ -51,14 +51,3 @@ Here are the basic steps to run or build the project.
     1. `data` folder contains files that are being used to build views such as events or projects.
 
 Each file inside the `input` folder is processed by Statiq and will generate static output files.
-
-## Join us on Gitter
-
-Community:
-[![Gitter](https://badges.gitter.im/dotnet-foundation/election.svg)](https://gitter.im/dotnet-foundation/community?source=orgpage)
-
-Conference: +
-[![Gitter](https://badges.gitter.im/dotnet-foundation/election.svg)](https://gitter.im/dotnet-foundation/conference-chat?source=orgpage)
-
-Election:
-[![Gitter](https://badges.gitter.im/dotnet-foundation/election.svg)](https://gitter.im/dotnet-foundation/election?source=orgpage)
