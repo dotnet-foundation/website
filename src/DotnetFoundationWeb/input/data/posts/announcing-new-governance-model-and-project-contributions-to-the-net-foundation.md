@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Announcing new governance model and project contributions to the .NET Foundation 
 Author: 
 Published: 2014-11-12 15:30:00.0000000
+Visible: true
 ---
 <p>With more than 30 projects on the docket and a governance model well underway, the .NET Foundation is poised for future growth.</p>
 

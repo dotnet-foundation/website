@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Welcome Peachpie Compiler Platform to the .NET Foundation
 Author: 
 Published: 2017-07-25 17:46:00.0000000
+Visible: true
 ---
 <p>UPDATE: See the Peachpie team's <a href="http://www.peachpie.io/2017/07/net-foundation-announcement.html">post on joining the .NET Foundation here</a>.</p>
 

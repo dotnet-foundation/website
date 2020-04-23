@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation April Update
 Author: Jon Galloway
 Published: 2018-04-30 23:49:00.0000000
+Visible: true
 ---
 <p>It’s time for the April Update, subtitled The Calm Before The Storm edition... it's a relatively quiet month, but stay tuned for May when we'll have lots of news including several new projects joining and updates from the <a href="https://www.microsoft.com/en-us/build">Build 2018 conference</a>.</p>
 

@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Welcoming WiX Toolset to the .NET Foundation
 Author: 
 Published: 2016-05-04 18:14:00.0000000
+Visible: true
 ---
 <p>The <a href="http://wixtoolset.org/">WiX toolset </a>project holds a special place in my heart. I've built many installers in my time using the toolset and had nothing but positive interactions with the community as a developer, but also the <a href="http://wixtoolset.org/">WiX toolset</a>&nbsp;was one of the very first open source projects that came out of Microsoft. <a href="http://robmensching.com/">Rob </a>and his team blazed a trail that we <g class="gr_ gr_47 gr-alert gr_spell gr_run_anim ContextualSpelling" id="47" data-gr-id="47">where</g> then able to follow with .NET and so many other open source projects <g class="gr_ gr_50 gr-alert gr_spell gr_run_anim ContextualSpelling multiReplace" id="50" data-gr-id="50">afterwards</g>. That is why I'm especially thrilled that now I get to work more with the project as <a href="http://robmensching.com/blog/posts/2016/5/4/wix-toolset-joins-the-.net-foundation/">they have decided to make the .NET Foundation their home</a>.</p>
 

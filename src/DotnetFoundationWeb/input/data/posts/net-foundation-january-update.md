@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation January Update
 Author: Jon Galloway
 Published: 2019-01-31 22:00:00.0000000
+Visible: true
 ---
 <p>Here's the January edition of the .NET Foundation newsletter. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />
@@ -18,23 +19,23 @@ This month's newsletter includes:</p>
 <hr />
 <h2>.NET Foundation Changes: Open Membership, Elections, and Corporate Sponsors</h2>
 
-<p>At the Microsoft Connect event in December, we made announced that <a href="https://dotnetfoundation.org/blog/2018/12/04/announcing-net-foundation-open-membership" target="_blank">we are moving to open membership</a>, governed by a community elected board of directors. Here's an update on what we've been up to with that.<br />
+<p>At the Microsoft Connect event in December, we made announced that <a href="/blog/2018/12/04/announcing-net-foundation-open-membership" target="_blank">we are moving to open membership</a>, governed by a community elected board of directors. Here's an update on what we've been up to with that.<br />
 <br />
 This month we published a series of blog posts explaining things in more detail:</p>
 
 <ul>
-<li><a href="https://dotnetfoundation.org/blog/2019/01/14/why-you-should-join-part-1-join-as-a-voting-member">Why You Should Join: Part 1 - Voting Member</a></li>
-<li><a href="https://dotnetfoundation.org/blog/2019/01/16/why-you-should-join-part-2---corporate-sponsor">Why You Should Join: Part 2 - Corporate Sponsor</a></li>
-<li><a href="https://dotnetfoundation.org/blog/2019/01/23/why-you-should-join-part-3-become-a-board-member" target="_blank">Why You Should Join: Part 3 - Board Member</a></li>
+<li><a href="/blog/2019/01/14/why-you-should-join-part-1-join-as-a-voting-member">Why You Should Join: Part 1 - Voting Member</a></li>
+<li><a href="/blog/2019/01/16/why-you-should-join-part-2---corporate-sponsor">Why You Should Join: Part 2 - Corporate Sponsor</a></li>
+<li><a href="/blog/2019/01/23/why-you-should-join-part-3-become-a-board-member" target="_blank">Why You Should Join: Part 3 - Board Member</a></li>
 </ul>
 
 <p><a href="https://dotnetrocks.com/?show=1611" target="_blank">Beth and Jon also spoke on the .NET Rocks podcast</a> to explain what the .NET Foundation does, why it matters to every .NET developer, and how you can get involved. We've had a lot of response: lots of membership applications, several inquiries into running in the board elections, and some additional companies interested in becoming sponsors. Yay!<br />
 <br />
 <strong>While we originally announced we'd be starting elections in January, we've decided to push them back to mid-February. </strong>These are our first elections, and we want to be sure we do it right. We also want to allow some more time to communicate clearly how the campaign process works, and to make sure we've gotten the word out to all prospective board members. We really want to make sure we've got a board that represents our entire community, and we'd love your help to spread the word to those you think should consider running (and think about running yourself, of course!).</p>
 
-<p class="mx-auto"><a class="site-button site-button--pink" href="https://dotnetfoundation.org/member/become-a-member">Apply for .NET Foundation Membership</a></p>
+<p class="mx-auto"><a class="site-button site-button--pink" href="/member/become-a-member">Apply for .NET Foundation Membership</a></p>
 
-<p>We're going to continue posting more information about membership and board elections on our <a href="https://dotnetfoundation.org/blog" target="_blank">@dotnetfdn</a> Twitter account for updates as well. We're targeting election campaigns kicking off the second week of February. If you have any questions about membership, running for the board, or joining as a corporate sponsor, don't hesitate to contact use at contact@dotnetfoundation.org.</p>
+<p>We're going to continue posting more information about membership and board elections on our <a href="/blog" target="_blank">@dotnetfdn</a> Twitter account for updates as well. We're targeting election campaigns kicking off the second week of February. If you have any questions about membership, running for the board, or joining as a corporate sponsor, don't hesitate to contact use at contact@dotnetfoundation.org.</p>
 
 <hr />
 <h2>.NET Foundation Project News</h2>

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using HtmlAgilityPack;
@@ -7,6 +7,19 @@ namespace DotnetFoundationWeb.Utils
 {
   public static class StringUtils
   {
+    private const string PathReference = "DotnetFoundationWeb";
+
+    public static string GetInputPath(string fullPath)
+    {
+      if (string.IsNullOrEmpty(fullPath))
+      {
+        return string.Empty;
+      }
+
+      var index = fullPath.IndexOf(PathReference);
+      return fullPath.Substring(index);
+    }
+
     public static IEnumerable<HtmlNode> Descendants(HtmlNode root)
     {
       return new[] { root }.Concat(root.ChildNodes.SelectMany(child => child.Descendants()));

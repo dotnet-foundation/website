@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation Established to Foster Open Development
 Author: 
 Published: 2014-04-03 17:05:00.0000000
+Visible: true
 ---
 <p>At the Build 2014 conference today, Microsoft Corp. announced it is creating an independent <a>.NET Foundation</a> to foster open development and collaboration around the growing collection of open source technologies for .NET. It will serve as a forum for commercial and community developers alike to strengthen the future of the .NET ecosystem by promoting openness, community participation and rapid innovation.</p>
 

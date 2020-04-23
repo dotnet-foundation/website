@@ -2,8 +2,9 @@ LayoutRef: blog
 Title: Growing the .NET ecosystem through shared models of Quality, Confidence, and Support
 Author: Jon Galloway
 Published: 2019-09-23 16:54:23.3442357
+Visible: true
 ---
-<p><strong>UPDATE: We've had a lot of community feedback on this proposal, and as a result we're <a href="https://dotnetfoundation.org/blog/2019/09/30/rethinking-project-maturity-as-a-community-process">rethinking Project Maturity as a Community Process</a>.</strong></p>
+<p><strong>UPDATE: We've had a lot of community feedback on this proposal, and as a result we're <a href="/blog/2019/09/30/rethinking-project-maturity-as-a-community-process">rethinking Project Maturity as a Community Process</a>.</strong></p>
 
 <p>Today, we're announcing a new concept for .NET open-source projects and a pilot program to develop it in the open. The goal is to increase the confidence of users adopting open-source projects and to create new projects to fill gaps in our ecosystem. We've reviewed this with some key projects, which have joined the pilot to help validate how it should evolve into programs that the .NET Foundation makes broadly available for the community.</p>
 

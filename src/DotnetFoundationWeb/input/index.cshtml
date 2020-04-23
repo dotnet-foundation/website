@@ -1,4 +1,4 @@
-﻿title: .NET
+title: .NET
 layout: _layout
 isHome: true
 ---
@@ -25,31 +25,31 @@ isHome: true
             <div class="page-section_column page-section_column--narrow col-md-4 pad-fix--all text-center">
                 <img src="img/comp.png" class="community-image">
                 <h3>Open Source Projects</h3>
-                <p style="min-height: 100px">
+                <p style="min-height: 145px">
                     The .NET Foundation provides several services to support the open source projects in our community and help them grow.
                 </p>
                 <div class="site-button_row">
-                    <a class="site-button site-button--pink" href="#">Find out more</a>
+                    <a class="site-button site-button--pink" href="/projects">Find out more</a>
                 </div>
             </div>
             <div class="page-section_column page-section_column--narrow col-md-4 pad-fix--all text-center">
                 <img src="img/globe_icon.png" class="community-image">
-                <h3>Community Grants</h3>
-                <p style="min-height: 100px">
-                    Community Grants Description
+                <h3>Community</h3>
+                <p style="min-height: 145px">
+                  We work not only with Microsoft, but with the broader industry to increase exposure of .NET's capabilities. All our resources are designed to support developers and your projects, and help promote your endeavors with like-minded folks!
                 </p>
                 <div class="site-button_row">
-                    <a class="site-button site-button--pink" href="#">Find out more</a>
+                    <a class="site-button site-button--pink" href="/community">Find out more</a>
                 </div>
             </div>
             <div class="page-section_column page-section_column--narrow col-md-4 pad-fix--all text-center">
                 <img src="img/Icon-Resources.svg" class="community-image">
                 <h3>Resources</h3>
-                <p style="min-height: 100px">
+                <p style="min-height: 145px">
                     Resources Description
                 </p>
                 <div class="site-button_row">
-                    <a class="site-button site-button--pink" href="community/resources">Find out more</a>
+                    <a class="site-button site-button--pink" href="/community/resources">Find out more</a>
                 </div>
             </div>
         </div>
@@ -138,7 +138,7 @@ isHome: true
     <div class="page-section_container container">
         <div class="page-section_row row">
             <div class="page-section_column col-lg-12">
-                <h2>Latest News and Blog</h2>
+                <h2>Latest News and <a href="/blog" aria-label="blog">Blog</a></h2>
                 @Html.Partial("_partials/_blog-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
                         .Flatten()
                         .FilterSources(Context, "data/posts/*")

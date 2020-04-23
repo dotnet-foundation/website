@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation March Update
 Author: Jon Galloway
 Published: 2018-03-29 22:44:00.0000000
+Visible: true
 ---
 <p>It’s time for the March Update! As always, these are available both on our blog and via e-mail: <a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
 

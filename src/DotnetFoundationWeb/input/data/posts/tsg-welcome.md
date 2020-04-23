@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Technical Steering Group
 Author: 
 Published: 2016-03-31 18:12:00.0000000
+Visible: true
 ---
 <p>With all the exciting changes in the .NET Ecosystem and the opening up of the platform to individuals and companies outside Microsoft, the .NET Foundation has recognized that it&rsquo;s important that we help open up how technical decisions are made in the .NET platform as well as <g class="gr_ gr_114 gr-alert gr_gramm gr_run_anim Grammar multiReplace" id="114" data-gr-id="114">keep</g> everyone on the same page as to the direction of the combined projects that make up the core components of the .NET platform. Therefore, today we are creating a new working group in the .NET Foundation to <g class="gr_ gr_117 gr-alert gr_spell gr_run_anim ContextualSpelling multiReplace" id="117" data-gr-id="117">fulfil</g> this role - the Technical Steering Group.</p>
 

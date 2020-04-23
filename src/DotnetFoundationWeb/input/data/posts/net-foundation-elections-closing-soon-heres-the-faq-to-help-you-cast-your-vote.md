@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation Elections Closing Soon! Here's the FAQ to help you cast your vote.
 Author: Jon Galloway
 Published: 2019-03-26 20:59:57.4717962
+Visible: true
 ---
 <p>Our first ever open board member elections close on March 28 at 12 PM Pacific time! We have a good problem: over 40 candidates competing for 6 open board seats. Here's the information you need to get your&nbsp;vote in before the deadline.</p>
 
@@ -9,7 +10,7 @@ Published: 2019-03-26 20:59:57.4717962
 
 <h3>1. Voting is open to all .NET Foundation Members.</h3>
 
-<p>If you're not a .NET Foundation Member yet, you can apply <a href="https://dotnetfoundation.org/member/become-a-member">here</a>.</p>
+<p>If you're not a .NET Foundation Member yet, you can apply <a href="/member/become-a-member">here</a>.</p>
 
 <p>Membership is open to anyone who has contributed to the .NET open source community. That includes code contributions to any .NET Foundation project, but it also includes speaking, blogging, organizing events and meetups, and writing docs. If in doubt, apply!</p>
 
@@ -26,9 +27,9 @@ Published: 2019-03-26 20:59:57.4717962
 <p>This will take some work on your part, though - you'll need to get to know the candidates. Here are some resources:</p>
 
 <ul>
-<li>The best way&nbsp;is to read their <a href="https://election.dotnetfoundation.org/candidates">statements</a>.</li>
+<li>The best way&nbsp;is to read their <a href="/about/election/candidates">statements</a>.</li>
 <li>To go a little deeper, take a listen to the audio interviews recorded over the past week. Many are linked to directly from their statements, and you can find the rest in <a href="https://soundcloud.com/schneidenbach">Spencer's SoundCloud</a> and <a href="https://soundcloud.com/andrewhoefling">Andrew's SoundCloud</a> collections.</li>
-<li>You can also directly interact with the candidates by <a href="https://election.dotnetfoundation.org/questions">asking them questions</a> or chatting with them on our <a href="https://gitter.im/dotnet-foundation/election">election Gitter chat</a>.</li>
+<li>You can also directly interact with the candidates by <a href="/about/election/questions">asking them questions</a> or chatting with them on our <a href="https://gitter.im/dotnet-foundation/election">election Gitter chat</a>.</li>
 </ul>
 
 <h2>More Details and FAQ:</h2>

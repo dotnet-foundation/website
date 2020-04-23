@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation June 2019 Update
 Author: Jon Galloway
 Published: 2019-06-28 20:42:12.9297569
+Visible: true
 ---
 <p>Here's the June 2019 .NET Foundation update. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />
@@ -20,7 +21,7 @@ This month's newsletter includes:</p>
 <hr />
 <h2>Join an Action Group!</h2>
 
-<p>Last month, we <a href="https://dotnetfoundation.org/blog/2019/05/31/net-foundation-may-2019-update">announced our new Action Groups</a>: a way for .NET Foundation members to join teams and get directly involved in helping the .NET Foundation scale to the next level. Our teams include the following:</p>
+<p>Last month, we <a href="/blog/2019/05/31/net-foundation-may-2019-update">announced our new Action Groups</a>: a way for .NET Foundation members to join teams and get directly involved in helping the .NET Foundation scale to the next level. Our teams include the following:</p>
 
 <ul>
 <li>Communications</li>

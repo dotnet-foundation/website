@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation Board of Directors Election&#58; Results!
 Author: Jon Galloway
 Published: 2019-03-28 23:32:11.8012168
+Visible: true
 ---
 <p>The results are in, meet your newly elected board!</p>
 <style type="text/css">.card-container {
@@ -107,11 +108,11 @@ height: 128px;
 
 <h2>Election Wrapup</h2>
 
-<p>This was an incredibly competitive race, with 45 very qualified candidates competing for 6 open positions (Beth Massi is Microsoft's one appointed board member, the rest are all elected by <a href="https://dotnetfoundation.org/member/become-a-member">.NET Foundation Members</a>.</p>
+<p>This was an incredibly competitive race, with 45 very qualified candidates competing for 6 open positions (Beth Massi is Microsoft's one appointed board member, the rest are all elected by <a href="/member/become-a-member">.NET Foundation Members</a>.</p>
 
 <p>This election was conducted using Single Transferable Vote (Scottish Rules). It's widely regarded as the most fair methodology, but can be a little complex to understand. Fortunately, the voting system we used (<a href="https://www.opavote.com">OpaVote</a>, highly recommended) provides a pretty clear, visual breakdown on the <a href="https://www.opavote.com/results/5042387845906432">voting results page</a>. The voting results page also allows you to download summary data and (anonymous) ballots.</p>
 
-<p>There's more information about the campaign and election process on our previous post, "<a href="https://dotnetfoundation.org/blog/2019/03/26/net-foundation-elections-closing-soon-heres-the-faq-to-help-you-cast-your-vote">.NET Foundation Elections Closing Soon! Here's the FAQ to help you cast your vote.</a>"</p>
+<p>There's more information about the campaign and election process on our previous post, "<a href="/blog/2019/03/26/net-foundation-elections-closing-soon-heres-the-faq-to-help-you-cast-your-vote">.NET Foundation Elections Closing Soon! Here's the FAQ to help you cast your vote.</a>"</p>
 
 <p>Next steps on this include a small bit of paperwork for the incoming board to accept the appointment, and for the outgoing board to sign off on the election, appoint the new board, and resign their previous position. That's all pretty straightforward, and I hope to have that wrapped up within a week. Which is good, because we want to keep up the...</p>
 

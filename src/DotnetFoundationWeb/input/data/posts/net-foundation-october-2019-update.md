@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation October 2019 Update
 Author: Jon Galloway
 Published: 2019-11-01 05:06:38.9518522
+Visible: true
 ---
 <p>Here's the October 2019 .NET Foundation update. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />

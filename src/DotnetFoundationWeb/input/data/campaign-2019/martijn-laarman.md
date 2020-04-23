@@ -18,11 +18,11 @@ I strongly believe empowering .NET Foundation members with more influence is a s
 
 **I want to ensure .NET foundation members have direct and permanent representation on the Technical Steering Group** through a working group as a single entity much like corporate sponsors gets a seat.
 
-Separating the elected board of directors and having a dedicated working group to [provide technical feedback](https://dotnetfoundation.org/about) allows people with different skill sets to find their niche to take an active leading role in the foundation.
+Separating the elected board of directors and having a dedicated working group to [provide technical feedback](/about) allows people with different skill sets to find their niche to take an active leading role in the foundation.
 
 ## Advisory Council
 
-Similar to the technical steering committee work group, **the Advisory Council should be elected as well**. Also, the goals and deliverables for this group should be reformulated more clearly on the website. The [original proposal](http://www.dotnetfoundation.org/Media/Default/Documents/net-foundation-advisory-council-proposal.pdf) currently 404's.
+Similar to the technical steering committee work group, **the Advisory Council should be elected as well**. Also, the goals and deliverables for this group should be reformulated more clearly on the website. The [original proposal](assets/documents/net-foundation-advisory-council-proposal.pdf) currently 404's.
 
 This could potentially be the same wonderful group of people as the elected members on the technical steering committee.
 

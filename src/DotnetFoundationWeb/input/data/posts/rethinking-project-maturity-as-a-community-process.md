@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: Rethinking Project Maturity as a Community Process
 Author: Ben Adams
 Published: 2019-09-30 17:33:07.1983371
+Visible: true
 ---
 <p><em>Author: Ben Adams, .NET Foundation Board Member</em></p>
 
@@ -23,7 +24,7 @@ Published: 2019-09-30 17:33:07.1983371
 
 <p>We created a first draft proposal as part of this initiative as the <a href="https://github.com/dotnet-foundation/project-maturity-model">Project Maturity Model</a> and announced it at the .NET Conf 2019 because we were excited to share and we wanted to reach the widest possible audience.</p>
 
-<p>I, <a href="https://twitter.com/ben_a_adams" rel="nofollow">Ben Adams</a>, was <a href="https://election.dotnetfoundation.org/campaign-2019/ben-adams.html" rel="nofollow">elected on a mandate</a> of</p>
+<p>I, <a href="https://twitter.com/ben_a_adams" rel="nofollow">Ben Adams</a>, was <a href="/about/election/campaign-2019/ben-adams.html" rel="nofollow">elected on a mandate</a> of</p>
 
 <blockquote style="padding:0 1em;color:#332233;border-left:.25em solid #ddeeee">
 <p><em>I’d like the .NET ecosystem to thrive with projects people consider and take dependencies on to be much wider than the narrow “Microsoft-blessed” scope that people and companies generally consider.</em></p>
@@ -67,4 +68,4 @@ Published: 2019-09-30 17:33:07.1983371
 <p>Please keep giving feedback, we are listening. We will do better and the .NET Foundation itself will evolve and mature as part of this process.</p>
 
 <hr />
-<p>If you are a .NET Foundation member you can sign up to join this and other action groups at the <a href="https://github.com/orgs/dotnet-foundation/teams">.NET Foundation Teams</a> on GitHub. If you are not a .NET Foundation member and would like to join; apply for membership at the <a href="https://members.dotnetfoundation.org/" rel="nofollow">.NET Foundation Members</a> page.</p>
+<p>If you are a .NET Foundation member you can sign up to join this and other action groups at the <a href="https://github.com/orgs/dotnet-foundation/teams">.NET Foundation Teams</a> on GitHub. If you are not a .NET Foundation member and would like to join; apply for membership at the <a href="/member" rel="nofollow">.NET Foundation Members</a> page.</p>

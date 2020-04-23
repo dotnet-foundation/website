@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation August 2019 Update
 Author: Jon Galloway
 Published: 2019-08-30 23:32:23.0386234
+Visible: true
 ---
 <p>Here's the August 2019 .NET Foundation update. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />
@@ -40,7 +41,7 @@ The best way to experience .NET Conf is at a local event.&nbsp;.NET Conf is part
 <hr />
 <h2>🚀 Action Group Updates&nbsp;🚀</h2>
 
-<p>We recently&nbsp;<a href="https://dotnetfoundation.org/blog/2019/05/31/net-foundation-may-2019-update">announced our new Action Groups</a>: a way for .NET Foundation members to join teams and get directly involved in helping the .NET Foundation scale to the next level. Our teams include the following:</p>
+<p>We recently&nbsp;<a href="/blog/2019/05/31/net-foundation-may-2019-update">announced our new Action Groups</a>: a way for .NET Foundation members to join teams and get directly involved in helping the .NET Foundation scale to the next level. Our teams include the following:</p>
 
 <ul>
 <li>Communications</li>
@@ -53,13 +54,13 @@ The best way to experience .NET Conf is at a local event.&nbsp;.NET Conf is part
 <li>Technical Review</li>
 </ul>
 
-<p><a href="https://dotnetfoundation.org/blog/2019/08/01/net-foundation-july-2019-update">Last month</a>, we told you how our Marketing team has moved to a new, open process for project news, and our Project Support team has moved to an open process for reviewing new project applications.<br />
+<p><a href="/blog/2019/08/01/net-foundation-july-2019-update">Last month</a>, we told you how our Marketing team has moved to a new, open process for project news, and our Project Support team has moved to an open process for reviewing new project applications.<br />
 <br />
 This month, we've made some good progress on some additional action groups. Some highlights:</p>
 
 <ul>
 <li>The Outreach team (led by Sara Chipps) had a really productive kickoff call with volunteers around the world</li>
-<li>The Membership (led by Iris Classon) worked to document our membership process so additional volunteers can get involved in processing applications. We also reviewed all outstanding membership applications, sent out invites, and fixed some technical issues people ran into while signing up. Finally, we improved our&nbsp;<a href="https://members.dotnetfoundation.org/">membership website</a>&nbsp;to explain membership a bit better, clean up the site design, and make it so anyone can clone and run the site locally to allow for content updates and improvements.</li>
+<li>The Membership (led by Iris Classon) worked to document our membership process so additional volunteers can get involved in processing applications. We also reviewed all outstanding membership applications, sent out invites, and fixed some technical issues people ran into while signing up. Finally, we improved our&nbsp;<a href="/member">membership website</a>&nbsp;to explain membership a bit better, clean up the site design, and make it so anyone can clone and run the site locally to allow for content updates and improvements.</li>
 <li>The Project&nbsp;team has some pretty exciting things in the works; we're hoping to announce at .NET Conf.</li>
 </ul>
 
@@ -71,9 +72,9 @@ This month, we've made some good progress on some additional action groups. Some
 <h2>.NET Foundation Presentations Site</h2>
 
 <p><br />
-<a href="https://dotnetfoundation.org/blog/2019/03/01/net-foundation-february-2019-update">In case you missed it</a>, we've got a lot of great content you can use in your presentations, workshops, Meetups, training courses, etc. over at&nbsp;<a href="https://presentations.dotnetfoundation.org/">presentations.dotnetfoundation.org</a>. We keep these up to date, so as .NET Core 3.0 rolls out, this is one of your top resources for training material.<br />
+<a href="/blog/2019/03/01/net-foundation-february-2019-update">In case you missed it</a>, we've got a lot of great content you can use in your presentations, workshops, Meetups, training courses, etc. over at&nbsp;<a href="/community/resources">dotnetfoundation.org/community/resources</a>. We keep these up to date, so as .NET Core 3.0 rolls out, this is one of your top resources for training material.<br />
 <br />
-By request, we set up a short url that may be a little easier for you to remember:&nbsp;<a href="https://aka.ms/dotnet-presentations">https://aka.ms/dotnet-presentations</a>. <a href="https://presentations.dotnetfoundation.org/"><img alt="" src="assets/posts/91a33811-0b6c-4f2f-83e8-3d4f720a84b9.png" /></a></p>
+By request, we set up a short url that may be a little easier for you to remember:&nbsp;<a href="https://aka.ms/dotnet-presentations">https://aka.ms/dotnet-presentations</a>. <a href="/community/resources"><img alt="" src="assets/posts/91a33811-0b6c-4f2f-83e8-3d4f720a84b9.png" /></a></p>
 
 <p><a href="https://github.com/dotnet-presentations/blazor-workshop/">Blazing Pizza</a>&nbsp;is one of our most popular workshops - it shows you how to build an online pizza ordering site with Blazor, complete with drone pizza delivery! <a href="https://github.com/dotnet-presentations/blazor-workshop/"><img alt="" src="assets/posts/009ab65d-0d19-45ef-870c-85d8366a1c98.gif" /></a></p>
 

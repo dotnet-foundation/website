@@ -2,12 +2,13 @@ LayoutRef: blog
 Title: .NET Foundation February / March Update
 Author: Claire Novotny
 Published: 2020-03-16
+Visible: true
 ---
 <p>Here's the February/March 2020 .NET Foundation update. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.</p>
 
 <h2 id="general-news">General news</h2>
 
-<p>The Board voted to tie our <a href="https://dotnetfoundation.org/code-of-conduct">code of conduct</a> to always be based on the latest version of the contributor covenant. We had been at <a href="https://www.contributor-covenant.org/version/1/3/0/code-of-conduct/">1.3</a>, and now we're on <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/">2.0</a>. Member projects are expected adopt this update promptly. Projects that directly reference our version are all set and we encourage maintainers to review the docs to understand its contents.</p>
+<p>The Board voted to tie our <a href="/about/code-of-conduct">code of conduct</a> to always be based on the latest version of the contributor covenant. We had been at <a href="https://www.contributor-covenant.org/version/1/3/0/code-of-conduct/">1.3</a>, and now we're on <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/">2.0</a>. Member projects are expected adopt this update promptly. Projects that directly reference our version are all set and we encourage maintainers to review the docs to understand its contents.</p>
 
 <h3 id="update-on-board-elections">Update on Board Elections</h3>
 

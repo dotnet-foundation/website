@@ -2,8 +2,9 @@ LayoutRef: blog
 Title: Announcing .NET Foundation Open Membership
 Author: Jon Galloway
 Published: 2018-12-04 16:29:23.6519678
+Visible: true
 ---
-<p class="mx-auto"><a class="site-button site-button--pink" href="https://dotnetfoundation.org/member/become-a-member">Apply for .NET Foundation Membership</a></p>
+<p class="mx-auto"><a class="site-button site-button--pink" href="/member/become-a-member">Apply for .NET Foundation Membership</a></p>
 
 <p>The .NET Foundation was founded in 2014 to foster .NET open source development and collaboration. We're thrilled to have been a part of some amazing growth and momentum since then! On the platform projects alone, 87% of the people who contribute to the .NET platform don’t work at Microsoft and have made over 61,000 code contributions. With this incredible growth, it’s time to take the .NET Foundation to the next level.</p>
 
@@ -27,7 +28,7 @@ Published: 2018-12-04 16:29:23.6519678
 <li>We'll be running our first annual community elections starting in January 2019. Watch our blog and <a href="https://twitter.com/dotnetfdn">@dotnetfdn</a> on Twitter for announcements on election dates.</li>
 </ul>
 
-<p>If you've contributed to a .NET Foundation project, I invite you to <a href="https://dotnetfoundation.org/member/become-a-member">apply for membership</a> today!</p>
+<p>If you've contributed to a .NET Foundation project, I invite you to <a href="/member/become-a-member">apply for membership</a> today!</p>
 
 <h2>Corporate Sponsorship Program</h2>
 
@@ -49,4 +50,4 @@ Published: 2018-12-04 16:29:23.6519678
 
 <p>I’m really proud of what the .NET Foundation’s been able to accomplish since it was founded in 2014, but when I think about what we’re announcing today I feel like we’re just getting started. I’m thrilled to be able to welcome you – yes, you! – to become an active member of the .NET Foundation, perhaps even run for a board seat, and help make 2019 our biggest year yet.</p>
 
-<p class="mx-auto"><a class="site-button site-button--pink" href="https://dotnetfoundation.org/member/become-a-member">Apply for .NET Foundation Membership</a></p>
+<p class="mx-auto"><a class="site-button site-button--pink" href="/member/become-a-member">Apply for .NET Foundation Membership</a></p>

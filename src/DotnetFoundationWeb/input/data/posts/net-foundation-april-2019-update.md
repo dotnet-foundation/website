@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation April 2019 Update
 Author: Jon Galloway
 Published: 2019-04-30 22:00:00.0000000
+Visible: true
 ---
 <p>Here's the April edition of the .NET Foundation newsletter. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />
@@ -152,7 +153,7 @@ This month's newsletter includes:</p>
 <a href="http://aka.ms/dotnetsparkpreview">.NET for Apache Spark</a>&nbsp;is aimed at making Apache® Spark™ accessible to .NET developers across all Spark APIs.&nbsp;So far Spark has been accessible through Scala, Java, Python and R but not .NET.<br />
 &nbsp;</p>
 
-<h3><a href="https://dotnetfoundation.org/blog/2019/04/30/welcoming-dotvvm-to-the-net-foundation">Welcoming DotVVM to the .NET Foundation!</a></h3>
+<h3><a href="/blog/2019/04/30/welcoming-dotvvm-to-the-net-foundation">Welcoming DotVVM to the .NET Foundation!</a></h3>
 
 <p><a href="https://www.dotvvm.com/">DotVVM</a>&nbsp;is an MVVM framework for ASP.NET Core and OWIN. The DotVVM project has been under active development for almost 5 years.<br />
 <br />

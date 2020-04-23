@@ -7,7 +7,7 @@ Web: http://reactiveui.net
 
 ReactiveUI is a composable, cross-platform model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming which is a paradigm that allows you to express the idea around a feature in one readable place, abstract mutable state away from your user interfaces and improve improve the testability of your application.
 
-It is the father of the extremely popular <a href="https://github.com/ReactiveCocoa/">ReactiveCocoa</a> framework. Internally the maintainers debate whether ReactiveUI is or is not a framework, as at its core the project is essentially a bunch of extension methods for the <a href="https://dotnetfoundation.org/reactive-extensions-for-net">Reactive Extensions</a>.
+It is the father of the extremely popular <a href="https://github.com/ReactiveCocoa/">ReactiveCocoa</a> framework. Internally the maintainers debate whether ReactiveUI is or is not a framework, as at its core the project is essentially a bunch of extension methods for the <a href="/projects/reactive-extensions">Reactive Extensions</a>.
 
 We believe that code is communication between people, that also happens to run on a computer. If you optimise for humans, then over a long time your project will end up better. Software should be understandable by other people; that is super important. We believe that only <a href="https://www.youtube.com/watch?v=5DZ8nC0ENdg" target="_blank">the power of the Reactive Extensions allows you to express the idea around a feature in one readable place</a>.
 

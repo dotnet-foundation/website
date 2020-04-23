@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+$(document).ready(function () {
 
 	var iconBoxes = $('.icon-box');
 
@@ -124,9 +124,8 @@
 		`
 	);
 
-	$.get("https://cors-anywhere.herokuapp.com/https://builtwithdot.net/feed/featured?truncateBody=false", function (data) {
-		console.log(data);
-			$xml = $(data);
+  $.get("https://builtwithdot.net/feed/featured?truncateBody=false", function (data) {
+		$xml = $(data);
 		var featuredItem = $xml.find('item')[0];
 		var title = $(featuredItem).find('title').text(),
 			description = $(featuredItem).find('description').text(),

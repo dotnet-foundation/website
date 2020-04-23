@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation September 2019 Update
 Author: Phil Haack
 Published: 2019-10-01 02:59:35.4926374
+Visible: true
 ---
 <p>Here's the September 2019 .NET Foundation update. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />
@@ -41,7 +42,7 @@ This month's update includes:</p>
 
 <h2>Rethinking the Project Maturity Model🤔</h2>
 
-<p>The .NET Foundation Board engaged with the community and received a ton of feedback both positive, neutral, and negative regarding the proposal mentioned above. The feedback helped us realize that we made a mistake in our approach and need to scrap the proposal and rethink the approach.&nbsp;<a href="https://dotnetfoundation.org/blog/2019/09/30/rethinking-project-maturity-as-a-community-process">Find out more in this blog post</a>&nbsp;by Ben Adams, a .NET Foundation board member.</p>
+<p>The .NET Foundation Board engaged with the community and received a ton of feedback both positive, neutral, and negative regarding the proposal mentioned above. The feedback helped us realize that we made a mistake in our approach and need to scrap the proposal and rethink the approach.&nbsp;<a href="/blog/2019/09/30/rethinking-project-maturity-as-a-community-process">Find out more in this blog post</a>&nbsp;by Ben Adams, a .NET Foundation board member.</p>
 
 <p>And a big thank you to everyone who commented on the proposal! Your feedback is valuable.</p>
 
@@ -50,7 +51,7 @@ This month's update includes:</p>
 
 <h2>Welcoming AWS as a Corporate Sponsor</h2>
 
-<p>Also at .NET Conf, we annouced that&nbsp;<a href="https://dotnetfoundation.org/blog/2019/09/23/welcoming-aws">AWS is joining our Corporate Sponsor program</a>! The AWS team talked about why they're joining&nbsp;<a href="https://aws.amazon.com/blogs/opensource/aws-joins-the-net-foundation/">here</a>.</p>
+<p>Also at .NET Conf, we annouced that&nbsp;<a href="/blog/2019/09/23/welcoming-aws">AWS is joining our Corporate Sponsor program</a>! The AWS team talked about why they're joining&nbsp;<a href="https://aws.amazon.com/blogs/opensource/aws-joins-the-net-foundation/">here</a>.</p>
 
 <hr />
 <p></p>
@@ -258,7 +259,7 @@ Hey, while we're talking .NET open source projects, now's a great time to contri
 <h2>.NET Foundation Presentations Updates</h2>
 
 <p><br />
-Want the slides from .NET Conf? You know where to find them - in our one stop shop for .NET Presentations. Grab them from&nbsp;<a href="https://aka.ms/dotnet-presentations">https://aka.ms/dotnet-presentations</a>. <a href="https://presentations.dotnetfoundation.org/"><img src="assets/posts/91a33811-0b6c-4f2f-83e8-3d4f720a84b9.png" /></a></p>
+Want the slides from .NET Conf? You know where to find them - in our one stop shop for .NET Presentations. Grab them from&nbsp;<a href="https://aka.ms/dotnet-presentations">https://aka.ms/dotnet-presentations</a>. <a href="/community/resources"><img src="assets/posts/91a33811-0b6c-4f2f-83e8-3d4f720a84b9.png" /></a></p>
 
 <p></p>
 

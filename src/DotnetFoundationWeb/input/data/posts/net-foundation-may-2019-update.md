@@ -2,6 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation May 2019 Update
 Author: Jon Galloway
 Published: 2019-05-31 21:30:05.8686885
+Visible: true
 ---
 <p>Here's the May edition of the .NET Foundation newsletter. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />
@@ -22,7 +23,7 @@ This month's newsletter includes:</p>
 <hr />
 <h2>Foundation Board Update</h2>
 
-<p>Back in March, we&nbsp;<a href="https://dotnetfoundation.org/blog/2019/03/28/net-foundation-board-of-directors-election-results">announced the results of the .NET Foundation Board of Directors</a>. You may be wondering what's happened since? It's been a bit quiet.</p>
+<p>Back in March, we&nbsp;<a href="/blog/2019/03/28/net-foundation-board-of-directors-election-results">announced the results of the .NET Foundation Board of Directors</a>. You may be wondering what's happened since? It's been a bit quiet.</p>
 
 <p>The board has had three meetings! Talk about results!</p>
 
@@ -30,7 +31,7 @@ This month's newsletter includes:</p>
 
 <h2>Action Groups</h2>
 
-<p>The board also has set up a set of action groups to focus on some key focus areas. These action groups will be led by board members, joined by&nbsp;<a href="https://dotnetfoundation.org/member/become-a-member">.NET Foundation Members</a>, so this is a great way for you to get involved!</p>
+<p>The board also has set up a set of action groups to focus on some key focus areas. These action groups will be led by board members, joined by&nbsp;<a href="/member/become-a-member">.NET Foundation Members</a>, so this is a great way for you to get involved!</p>
 
 <h3>Marketing</h3>
 
