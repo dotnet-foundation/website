@@ -289,6 +289,16 @@ svg.svg-inline--fa {
         background-color: #ebe0eb;
     }
 
+.site-button--orange {
+  border: 2px solid #ff6a00;
+  background-color: #ff6a00;
+  color: #fff !important;
+}
+
+  .site-button--orange:hover {
+    opacity: .8;
+  }
+
 .animation-delay--8 {
     animation-delay: .8s;
 }

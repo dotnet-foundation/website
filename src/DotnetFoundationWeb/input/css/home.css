@@ -1,4 +1,4 @@
-﻿/* Variables */
+/* Variables */
 /* Animations */
 @-webkit-keyframes zoomInUp {
     0% {
@@ -78,6 +78,15 @@
 #home-hero_copy {
     max-width: 75rem;
     font-size: 1.8rem;
+}
+
+#home-DATS_container {
+  background-image: url("../img/DATS-banner.jpg");
+  padding-top: 13vw;
+  padding-bottom: 8vw;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 615px) {
