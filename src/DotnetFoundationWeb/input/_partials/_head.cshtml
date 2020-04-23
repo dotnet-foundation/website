@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>@DotnetFoundationWeb.AppSettings.Title</title>
   @if (string.Equals(Model.GetString("LayoutRef"), "blog", StringComparison.OrdinalIgnoreCase)
-    && !string.Equals(Model.GetString("Visible"), "true", StringComparison.OrdinalIgnoreCase))
+   && !string.Equals(Model.GetString("Visible"), "true", StringComparison.OrdinalIgnoreCase))
   {
-  <meta http-equiv="refresh" content="5; url = /blog" />
+    <meta http-equiv="refresh" content="5; url = /blog" />
   }
   @Html.Partial("_partials/_favicons")
   <meta name="google-site-verification" content="F9a3IwT00fpPIErVTvIIqBcf2NEScrDCczZi4g9sul4" />
