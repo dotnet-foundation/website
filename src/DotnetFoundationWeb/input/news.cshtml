@@ -21,24 +21,25 @@ permalink: /news
 <section class="page-section page-section">
     <div class="page-section_container container">
         <div class="page-section_row row">
-            <article class="col-md-12">
-                <h2>Latest News and <a href="/blog">Blog</a></h2>
-                <div class="tabbed-index">
-                    <a id="blog-tab" class="selected">Foundation Blog</a>
-                    <a id="rss-tab">.NET Blog</a>
-                </div>
-                <div class="media-list" id="blog-feeds">
-                    @Html.Partial("_partials/_blog-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                        .Flatten()
-                        .FilterSources(Context, "data/posts/*")
-                        .Where(doc => string.Equals(doc.GetString("Visible"), "true", StringComparison.OrdinalIgnoreCase))
-                        .OrderByDescending(doc => doc.GetDateTime("Published"))
-                        .Take(5))
-                </div>
-                <div class="media-list" id="rss-feeds">
+          <article class="col-md-12">
+            <h2>Latest News and <a href="/blog">Blog</a></h2>
+            <div class="sign-up-to-newsletter">Sign up for the <a href="http://eepurl.com/dhL_qb">.NET Foundation newsletter</a> and always stay up to date!</div>
+            <div class="tabbed-index">
+              <a id="blog-tab" class="selected">Foundation Blog</a>
+              <a id="rss-tab">.NET Blog</a>
+            </div>
+            <div class="media-list" id="blog-feeds">
+              @Html.Partial("_partials/_blog-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                  .Flatten()
+                  .FilterSources(Context, "data/posts/*")
+                  .Where(doc => string.Equals(doc.GetString("Visible"), "true", StringComparison.OrdinalIgnoreCase))
+                  .OrderByDescending(doc => doc.GetDateTime("Published"))
+                  .Take(5))
+            </div>
+            <div class="media-list" id="rss-feeds">
 
-                </div>
-            </article>
+            </div>
+          </article>
         </div>
         <br />
         <br />
@@ -47,29 +48,28 @@ permalink: /news
 
 <script src="js/rss.global.min.js"></script>
 <script>
-    window.onload = function () {
-        let layoutTemplate = '{entries}';
-        let newsTemplate = '<div class="latest_container latest_container--news">' +
-            '<div class="latest_date d-flex align-items-center justify-content-center text-center newstype-community"><span>.NET Blog</span></div>' +
-            '<div class="latest_meta d-flex flex-column justify-content-center">' +
-                '<h3 class="latest_title"><a href="{link}" title="{title}">{title}</a></h3>' +
-                '<p class="latest_copy">{description}</p></div></div>"';
-        new RSS(
-            document.querySelector("#rss-feeds"),
-            "https://devblogs.microsoft.com/dotnet/feed/?format=rss",
-            {
-                limit: 5,
-                ssl: true,
-                order: '-publishedDate',
-                layoutTemplate: layoutTemplate,
-                entryTemplate: newsTemplate,
-                tokens: {
-                    link: function (entry, tokens) { return entry.link; },
-                    description: function (entry, tokens) { return entry.contentSnippet + "..."; }
-                }
+    let layoutTemplate = '{entries}';
+    let newsTemplate = '<div class="latest_container latest_container--news">' +
+        '<div class="latest_date d-flex align-items-center justify-content-center text-center newstype-community"><span>.NET Blog</span></div>' +
+        '<div class="latest_meta d-flex flex-column justify-content-center">' +
+            '<h3 class="latest_title"><a href="{link}" title="{title}">{title}</a></h3>' +
+            '<p class="latest_copy">{description}</p></div></div>"';
+    new RSS(
+        document.querySelector("#rss-feeds"),
+        "https://devblogs.microsoft.com/dotnet/feed/?format=rss",
+        {
+            limit: 5,
+            ssl: true,
+            order: '-publishedDate',
+            layoutTemplate: layoutTemplate,
+            entryTemplate: newsTemplate,
+            tokens: {
+                link: function (entry, tokens) { return entry.link; },
+                description: function (entry, tokens) { return entry.contentSnippet + "..."; }
             }
-        ).render();
-
+        }
+    ).render();
+    window.onload = function () {
         $('#blog-tab').click(() => {
             $('#rss-feeds').css('display', 'none');
             $('#blog-feeds').css('display', 'block');

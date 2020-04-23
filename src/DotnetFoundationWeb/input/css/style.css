@@ -1386,3 +1386,7 @@ svg:not(:root).svg-inline--fa {
     height: 120px;
     width: 120px;
   }
+
+.sign-up-to-newsletter {
+  margin-top: 10px;
+}
