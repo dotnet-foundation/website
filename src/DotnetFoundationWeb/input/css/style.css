@@ -771,6 +771,12 @@ svg.svg-inline--fa {
         margin-left: 3rem;
     }
 
+    @media screen and (max-width: 812px) {
+      article.post {
+        margin-left: 0;
+      }
+    }
+
         article.post header.jumbotron {
             background-color: inherit;
             padding: 0;

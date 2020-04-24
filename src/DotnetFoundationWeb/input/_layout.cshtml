@@ -17,19 +17,27 @@
                     {
                       @if (string.Equals(Model.GetString("Visible"), "true", StringComparison.OrdinalIgnoreCase))
                       {
-                        <div class="row">
-                          <div class="col-md-9">
-                            <h1 class="text-primary">@(Model.GetString(Keys.Title) ?? Model.GetString(Keys.Title))</h1>
-                            <div class="bh">
-                              <time datetime="@Model.GetString(" Published")" itemprop="datePublished">@Model.GetDateTime("Published").ToString("MMMM dd, yyyy")</time>
+                        <section class="page-section page-section">
+                          <div class="page-section_container container">
+                            <div class="page-section_row row">
+                              <div class="col-12">
+                                <div class="row">
+                                  <div class="col-md-9">
+                                    <h1 class="text-primary">@(Model.GetString(Keys.Title) ?? Model.GetString(Keys.Title))</h1>
+                                    <div class="bh">
+                                      <time datetime="@Model.GetString(" Published")" itemprop="datePublished">@Model.GetDateTime("Published").ToString("MMMM dd, yyyy")</time>
+                                    </div>
+                                    <hr />
+                                    @RenderBody()
+                                  </div>
+                                  <div class="col-md-3">
+                                    @Html.Partial("blog/_archives")
+                                  </div>
+                                </div>
+                              </div>
                             </div>
-                            <hr />
-                            @RenderBody()
                           </div>
-                          <div class="col-md-3">
-                            @Html.Partial("blog/_archives")
-                          </div>
-                        </div>
+                        </section>
                       }
                       else
                       {
