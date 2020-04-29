@@ -12,7 +12,14 @@
             <img height="120" class="rounded-image" alt="ProfilePicture" src="img/dot_bot.png">
         }
 
-        <h4 class="col-md-3-name"><a href="@Context.GetLink(member).Substring(1)">@member.GetString("title")</a></h4>
+        @if(member.GetBool("advisor"))
+        {
+          <h4 class="col-md-3-name">@member.GetString("title")</h4>
+        } else
+        {
+          <h4 class="col-md-3-name"><a href="@Context.GetLink(member).Substring(1)">@member.GetString("title")</a></h4>
+        }
+
         @if (!string.IsNullOrEmpty(member.GetString("twitter")))
         {
             <span>
@@ -36,6 +43,9 @@
             </ul>
             @if(!string.IsNullOrWhiteSpace(member.GetString("intro"))) {
                 @Html.Raw(member.GetString("intro"))
+              }
+              @if(member.GetBool("advisor")) {
+                @Html.Raw(await member.GetContentStringAsync())
               }
         </div>
 

@@ -59,54 +59,13 @@ permalink: /about/board-of-directors
             <div class="col-12">
                 <h2 id="advisory-council">.NET Advisory Council</h2>
                 <div class="row">
-                    <div class="col-md-3">
-                        <h4 class="col-md-3-name">Shaun Walker (Chair)</h4>
-                        <div class="col-md-3-body">
-                            <p><span>Software Architect. Ex-Project leader for DotNetNuke open source product and ecosystem.</span></p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="col-md-3-name">Dominick Baier</h4>
-                        <div class="col-md-3-body">
-                            <p>Project leader of the identity &amp; access control libraries for .NET</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="col-md-3-name">Mirco 'meebey' Bauer</h4>
-                        <div class="col-md-3-body">
-                            <p>CTO of cryptocurrency exchange Gatecoin Ltd.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="col-md-3-name">Martin Woodward</h4>
-                        <div class="col-md-3-body">
-                            <p>Vice President of the .NET Foundation and a former Executive Director. Principal Program Manager at Microsoft.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="col-md-3-name">Brendan Forster</h4>
-                        <div class="col-md-3-body">
-                            <p>Staff Software Engineer at GitHub, frequent .NET open source contributor.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="col-md-3-name">Immo Landwerth</h4>
-                        <div class="col-md-3-body">
-                            <p><span>Senior Engineer from Microsoft .NET Framework team helping lead open source initiatives.</span></p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="col-md-3-name">Daniel Roth</h4>
-                        <div class="col-md-3-body">
-                            <p><span>Program Manager from Microsoft on the ASP.NET team.</span></p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h4 class="col-md-3-name">Bill Wagner</h4>
-                        <div class="col-md-3-body">
-                            <p>.NET Content Creator at Microsoft, Humanitarian Toolbox contributor, author and speaker for .NET technologies.</p>
-                        </div>
-                    </div>
+                    @Html.Partial("../_partials/_member-small-card.cshtml",
+                        Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                            .Flatten()
+                            .FilterSources(Context, "data/advisory-council/*.md")
+                            .OrderBy(candidate => candidate.GetInt("order"))
+                            .ThenBy(candidate => candidate.GetString("title"))
+                    )
                 </div>
             </div>
         </div>
