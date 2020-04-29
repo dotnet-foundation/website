@@ -4,6 +4,8 @@ layout: _layout
 image: ben-adams.jpg
 elected: true
 twitter: ben_a_adams
+location: United Kingdom
+company: Illyriad Games
 ---
 
 # .NET Foundation Campaign: Ben Adams

@@ -4,7 +4,9 @@ layout: _layout
 image: phil-haack.jpg
 elected: true
 twitter: haacked
-intro:
+intro: 
+company: Haacked LLC
+location: United States
 ---
 
 # .NET Foundation Campaign: Phil Haack

@@ -4,6 +4,8 @@ layout: _layout
 image: jon-skeet.jpg
 elected: true
 twitter: jonskeet
+company: Google
+location: United Kingdom
 ---
 
 # .NET Foundation Campaign: Jon Skeet

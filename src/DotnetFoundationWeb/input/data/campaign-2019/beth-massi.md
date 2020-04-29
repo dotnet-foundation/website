@@ -5,6 +5,8 @@ image: beth-massi.jpg
 appointed: true
 elected: true
 twitter: BethMassi
+company: Microsoft
+location: United States
 ---
 
 # .NET Foundation Campaign: Beth Massi

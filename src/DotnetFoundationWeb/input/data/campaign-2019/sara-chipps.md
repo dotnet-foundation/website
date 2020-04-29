@@ -4,6 +4,8 @@ layout: _layout
 image: sara-chipps.png
 elected: true
 twitter: SaraJChipps
+company: Stack Overflow
+location: United States
 ---
 
 # .NET Foundation Campaign: Sara Chipps

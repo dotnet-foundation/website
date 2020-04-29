@@ -4,6 +4,8 @@ layout: _layout
 image: iris-classon.jpg
 elected: true
 twitter: irisclasson
+location: Sweden
+company: Greenbyte
 ---
 
 # .NET Foundation Campaign: Iris Classon
