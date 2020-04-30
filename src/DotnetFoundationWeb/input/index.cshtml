@@ -147,7 +147,7 @@ isHome: true
                 <h2>Latest News and <a href="/blog" aria-label="blog">Blog</a></h2>
                 @Html.Partial("_partials/_blog-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
                         .Flatten()
-                        .FilterSources(Context, "data/posts/*")
+                        .FilterSources(Context, "__data/posts/*")
                         .OrderByDescending(doc => doc.GetDateTime("Published"))
                         .Take(5))
                 <p class="">
@@ -166,7 +166,7 @@ isHome: true
                 <div class="corporate-sponsor-card-container">
                     @Html.Partial("_partials/_corporate-sponsor-logo-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
                       .Flatten()
-                      .FilterSources(Context, "data/corporate-sponsors/*.md")
+                      .FilterSources(Context, "__data/corporate-sponsors/*.md")
                       .OrderBy(sponsor => sponsor.GetInt("order"))
                       )
                 </div>

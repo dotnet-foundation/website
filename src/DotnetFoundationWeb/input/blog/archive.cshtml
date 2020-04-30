@@ -11,7 +11,7 @@ layout: _layout
           <div class="col-md-9">
             @Html.Partial("_posts.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
                 .Flatten()
-                .FilterSources(Context, "data/posts/*")
+                .FilterSources(Context, "__data/posts/*")
                 .Where(doc => string.Equals(doc.GetString("Visible"), "true", StringComparison.OrdinalIgnoreCase)
                   && doc.GetDateTime("Published").ToString("yyyy/MM").Equals(Model.GetString(Keys.Current)))
                 .OrderByDescending(doc => doc.GetDateTime("Published")))

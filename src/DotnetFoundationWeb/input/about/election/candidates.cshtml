@@ -22,7 +22,7 @@ else
     <section class="card-container">
         @Html.Partial("../../_partials/_candidate-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
             .Flatten()
-            .FilterSources(Context, "data/campaign-2019/*")
+            .FilterSources(Context, "__data/campaign-2019/*")
             .Where(candidate => !candidate.GetBool("appointed"))
             )
     </section>
