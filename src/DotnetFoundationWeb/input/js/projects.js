@@ -6,6 +6,11 @@ String.prototype.format = function () {
     return a;
 };
 
+String.prototype.isLetter = function () {
+    c = this;
+    return c.toLowerCase() !== c.toUpperCase();
+}
+
 var converter = new showdown.Converter();
 
 let formInput = document.getElementById('textToSearch'),
@@ -90,8 +95,8 @@ const getAlphabeticallyOrderedArray = (list) => {
   return Object.values(
     list.reduce((acc, item) => {
       let firstLetter = item.Title[0].toLocaleUpperCase();
-      if (firstLetter === '.') {
-        firstLetter = item.Title[1].toLocaleUpperCase()
+      if (!firstLetter.isLetter()) {
+        firstLetter = "#";
       }
       if (!acc[firstLetter]) {
         acc[firstLetter] = { title: firstLetter, data: [item] };

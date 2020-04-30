@@ -1,10 +1,12 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using DotnetFoundationWeb.Modules;
 using Statiq.App;
 using Statiq.Common;
+using Statiq.Core;
 using Statiq.Web;
 
 namespace DotnetFoundationWeb
@@ -14,17 +16,47 @@ namespace DotnetFoundationWeb
   {
     public static async Task<int> Main(string[] args)
     {
+      Func<string, string> formatter = null;
+      if (!string.IsNullOrWhiteSpace(AppSettings.ServerUri))
+      {
+        var formatterString = AppSettings.ServerUri + "/{0}";
+        formatter = f => string.Format(formatterString, f);
+      }
+
       return await Bootstrapper.Factory
         .CreateWeb(args)
         .AddSetting(
           Keys.DestinationPath,
           Config.FromDocument(
               doc => GetPath(doc)))
+        .AddSetting(
+          Keys.SitemapItem,
+          Config.FromDocument(
+              doc =>
+              {
+                var siteMapItem = new SitemapItem(GetPath(doc).FullPath);
+                return siteMapItem;
+              }))
         .BuildPipeline(
           "projects-json-generation",
           builder => builder
             .WithInputReadFiles("__data/projects/*.md")
             .WithProcessModules(new RenderProjectsJsonModule())
+            .WithOutputWriteFiles(Path.Combine("projects", "projects.json"))
+        )
+        .BuildPipeline(
+          "generate-sitemap",
+          builder => builder
+            .WithInputReadFiles("**/*")
+            .WithInputModules(new SitemapGeneratorModule(formatter))
+            .WithOutputWriteFiles("sitemap.xml")
+        )
+        .BuildPipeline(
+          "rss-generation",
+          builder => builder
+            .WithInputReadFiles("__data/posts/*.md")
+            .WithOutputModules(new RssXmlGeneratorModule())
+            .WithOutputWriteFiles(Path.Combine("api", "rss", "index.xml"))
         )
         .RunAsync();
     }
