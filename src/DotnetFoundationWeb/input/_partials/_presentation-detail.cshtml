@@ -11,12 +11,13 @@
         {
             @presentation.GetString("title")
         }
-        @if (!String.IsNullOrEmpty(presentation.GetString("img")))
+        @if (!String.IsNullOrEmpty(presentation.GetString("repo")))
         {
-            <img src="@presentation.GetString("img")" alt="@presentation.GetString("title")">
+            
+            <img src="https://img.shields.io/github/last-commit/@(presentation.GetString("repo")).svg?style=flat" alt="@presentation.GetString("title")">
         }
-        <a class="anchorjs-link " href="#aspnet-core-for-beginners-" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons;
-            padding-left: 0.375em;"></a>
+        @* <a class="anchorjs-link " href="#aspnet-core-for-beginners-" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons;
+            padding-left: 0.375em;"></a> *@
     </h3>
     <p>
         @Html.Raw(@presentation.GetString("content"))
