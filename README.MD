@@ -9,24 +9,27 @@ Pull requests and issues are welcome!
 Following are listed the tools or programs that we need to build this project:
 
 * Git: Clone this repository if you want to make any change.
-* Visual Studio 2019 or later
-* .NET Core 3.1.*
+* [.NET Core SDK 3.1.*](https://dotnet.microsoft.com/download)
+* [Visual Studio 2019](https://visualstudio.microsoft.com/vs/) or [Visual Studio Code](https://code.visualstudio.com/) as editors (optional).
 
 ## How to build and test
 
 Here are the basic steps to run or build the project.
 
-1. Open Visual Studio.
-1. From the top menu click the `File | Open | Project/Solution`.
-1. Open `src\DotnetFoundationWeb\DotnetFoundationWeb.sln` from your local folder.
-1. Click the `Play` button and wait for the app to start.
-    > Note: A web server is started to test the generated files, check the console for the correct URL.
+1. In your terminal, nagivate to `src\DotnetFoundationWeb`
+1. Open `src\DotnetFoundationWeb` from your local folder.
+1. Use `dotnet run` to generatethe static site
 1. After the build, you can check the `output` folder to review the generated html files.
+
+Any webserver pointed at the folder output folder should work. If you need one, you can use `dotnet-serve`. Install with `dotnet tool install -g dotnet-serve`
+
+Navigigate to the output directory and run `dotnet-serve --default-extensions:html`, then you can nagivate to `http://localhost:8080` to see the site.
+
+One tip is to keep `dotnet-serve` running in one terminal instance and use another to re-run `dotnet build` on the main project to generate updates.
 
 ## Project Structure
 
 [Statiq.Framework](https://github.com/statiqdev/Statiq.Framework) is a flexible and extensible static content generation framework for .NET.
-
 
 * **App.Config**
 
