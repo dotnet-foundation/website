@@ -6,6 +6,7 @@ elected: true
 twitter: jonskeet
 company: Google
 location: United Kingdom
+intro: "I'm <strong>Jon Skeet</strong>, a board member and enthusiast for .NET open source, technical communities, and C# language details."
 ---
 
 # .NET Foundation Campaign: Jon Skeet
