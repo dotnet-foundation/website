@@ -41,7 +41,8 @@ One tip is to keep `dotnet-serve` running in one terminal instance and use anoth
     The `input` folder contains source files and we are rendering to `html` files.
 
 * **input**
-
+    
+    1. `__data` folder contains files that are being used to build views such as events or projects.
     1. `_partials` folder contains small sections of code that we require in other views, includes:
         * `_head.cshtml`: Contains the `head` section of the view and includes the initial stylesheet and javascript imports.
         * `_header.cshtml`: Common header that we are using for views and includes the main navigation.
@@ -51,6 +52,5 @@ One tip is to keep `dotnet-serve` running in one terminal instance and use anoth
         > Note: Properties for the page can be defined at the top of the file like a specific `title` for the page.
     1. `css` folder contains all the stylesheet files required. 
     1. `js` folder contains the javascript libraries and other custom scripts.
-    1. `data` folder contains files that are being used to build views such as events or projects.
 
 Each file inside the `input` folder is processed by Statiq and will generate static output files.
