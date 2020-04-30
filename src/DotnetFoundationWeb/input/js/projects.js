@@ -113,7 +113,7 @@ formInput.addEventListener('keyup', function (e) {
   }
 });
 
-fetch('data/projects.json')
+fetch('/projects/projects.json')
     .then(response => {
         if (!response.ok) {
             throw new Error("HTTP error " + response.status);

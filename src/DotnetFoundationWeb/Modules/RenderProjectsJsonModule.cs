@@ -38,7 +38,7 @@ namespace DotnetFoundationWeb.Modules
       {
         await AddJsonAsync(input);
       }
-      var outputFileDirectory = Path.Combine(context.FileSystem.GetOutputPath().FullPath, "data");
+      var outputFileDirectory = Path.Combine(context.FileSystem.GetOutputPath().FullPath, "projects");
       if (!Directory.Exists(outputFileDirectory))
       {
         Directory.CreateDirectory(outputFileDirectory);

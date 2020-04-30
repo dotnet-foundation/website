@@ -23,7 +23,7 @@ namespace DotnetFoundationWeb
         .BuildPipeline(
           "projects-json-generation",
           builder => builder
-            .WithInputReadFiles("**/data/projects/*.md")
+            .WithInputReadFiles("__data/projects/*.md")
             .WithProcessModules(new RenderProjectsJsonModule())
         )
         .RunAsync();
