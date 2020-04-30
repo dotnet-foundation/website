@@ -23,7 +23,7 @@ Here are the basic steps to run or build the project.
 
 Any webserver pointed at the folder output folder should work. If you need one, you can use `dotnet-serve`. Install with `dotnet tool install -g dotnet-serve`
 
-Navigigate to the output directory and run `dotnet-serve --default-extensions:html`, then you can nagivate to `http://localhost:8080` to see the site.
+Navigigate to the output directory and run `dotnet-serve --default-extensions`, then you can nagivate to `http://localhost:8080` to see the site.
 
 One tip is to keep `dotnet-serve` running in one terminal instance and use another to re-run `dotnet build` on the main project to generate updates.
 
