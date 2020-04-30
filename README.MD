@@ -16,20 +16,16 @@ Following are listed the tools or programs that we need to build this project:
 
 Here are the basic steps to run or build the project.
 
-1. In your terminal, nagivate to `src\DotnetFoundationWeb`
+1. In your terminal, navigate to `src\DotnetFoundationWeb`
 1. Open `src\DotnetFoundationWeb` from your local folder.
-1. Use `dotnet run` to generatethe static site
+1. Use `dotnet run` to generate the static site.
 1. After the build, you can check the `output` folder to review the generated html files.
 
-Any webserver pointed at the folder output folder should work. If you need one, you can use `dotnet-serve`. Install with `dotnet tool install -g dotnet-serve`
-
-Navigigate to the output directory and run `dotnet-serve --default-extensions`, then you can nagivate to `http://localhost:8080` to see the site.
-
-One tip is to keep `dotnet-serve` running in one terminal instance and use another to re-run `dotnet build` on the main project to generate updates.
+To build and preview the site, run `dotnet run -- preview`. This will launch a preview web server that can be viewed in a web browser from http://localhost:5080. The site will automatically rebuild and refresh when you make content changes.
 
 ## Project Structure
 
-[Statiq.Framework](https://github.com/statiqdev/Statiq.Framework) is a flexible and extensible static content generation framework for .NET.
+This website uses [Statiq Web](https://github.com/statiqdev/Statiq.Web), a flexible and extensible static site generator for .NET.
 
 * **App.Config**
 
@@ -41,16 +37,16 @@ One tip is to keep `dotnet-serve` running in one terminal instance and use anoth
     The `input` folder contains source files and we are rendering to `html` files.
 
 * **input**
-    
+
     1. `__data` folder contains files that are being used to build views such as events or projects.
     1. `_partials` folder contains small sections of code that we require in other views, includes:
-        * `_head.cshtml`: Contains the `head` section of the view and includes the initial stylesheet and javascript imports.
+        * `_head.cshtml`: Contains the `head` section of the view and includes the initial stylesheet and JavaScript imports.
         * `_header.cshtml`: Common header that we are using for views and includes the main navigation.
         * `_footer.cshtml`: Common footer for views.
     1. `_layout.cshtml` is where we build the page structure, include partials, analytics code and other additional imports.
     1. `index.cshtml` is the main page for the site.
         > Note: Properties for the page can be defined at the top of the file like a specific `title` for the page.
-    1. `css` folder contains all the stylesheet files required. 
-    1. `js` folder contains the javascript libraries and other custom scripts.
+    1. `css` folder contains all the stylesheet files required.
+    1. `js` folder contains the JavaScript libraries and other custom scripts.
 
 Each file inside the `input` folder is processed by Statiq and will generate static output files.
