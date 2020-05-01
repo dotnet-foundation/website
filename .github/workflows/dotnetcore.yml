@@ -17,7 +17,7 @@ jobs:
         dotnet-version: 3.1.201
     - name: Build
       run: |
-        cd src/DotnetFoundationWeb
+        cd Generator
         dotnet run --configuration Release
         
     - name: Publish generated files to Netlify
@@ -26,4 +26,4 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
       with:
-          args: deploy --dir=src/DotnetFoundationWeb/output --prod
+          args: deploy --dir=Generator/output --prod

@@ -15,10 +15,10 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: run
-    projects: src/DotnetFoundationWeb/*.csproj
+    projects: Generator/*.csproj
     arguments: -c $(BuildConfiguration)
   displayName: Build and Run Statiq
 
-- publish: src/DotnetFoundationWeb/output
+- publish: Generator/output
   artifact: website
   displayName: Publish Artifacts

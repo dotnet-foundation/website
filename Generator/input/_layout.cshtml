@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="@DotnetFoundationWeb.AppSettings.Lang">
+@Html.Partial("_partials/_head")
+<body class="d-flex flex-column">
+    @Html.Partial("_partials/_header")
+
+    <div id="site_wrapper" class="container-fluid cs-container flex-fill">
+        <div class="row">
+            <main id="site_container" role="main" class="col order-3">
+                <section class="body-section">
+                  <div class="body-container">
+                    @if (Model.GetBool("IsHome") && DotnetFoundationWeb.AppSettings.IsCampaignOpen)
+                    {
+                      @Html.Partial("_partials/_elections-banner")
+                    }
+                    @if (string.Equals(Model.GetString("LayoutRef"), "blog", StringComparison.OrdinalIgnoreCase))
+                    {
+                      @if (string.Equals(Model.GetString("Visible"), "true", StringComparison.OrdinalIgnoreCase))
+                      {
+                        <section class="page-section page-section">
+                          <div class="page-section_container container">
+                            <div class="page-section_row row">
+                              <div class="col-12">
+                                <div class="row">
+                                  <div class="col-md-9">
+                                    <h1 class="text-primary">@(Model.GetString(Keys.Title) ?? Model.GetString(Keys.Title))</h1>
+                                    <div class="bh">
+                                      <time datetime="@Model.GetString(" Published")" itemprop="datePublished">@Model.GetDateTime("Published").ToString("MMMM dd, yyyy")</time>
+                                    </div>
+                                    <hr />
+                                    @RenderBody()
+                                  </div>
+                                  <div class="col-md-3">
+                                    @Html.Partial("blog/_archives")
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      }
+                      else
+                      {
+                        <div class="hidden">@RenderBody()</div>
+                        <div class="jumbotron text-center">
+                          <header>
+                            <h1><svg aria-hidden="true" class="svg-inline--fa fa-exclamation-circle fa-w-16 text-danger" focusable="false" data-prefix="fa" data-icon="exclamation-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg><!-- <span aria-hidden="true" class="fa fa-exclamation-circle text-danger"></span> --> Page Not Found</h1>
+                          </header>
+                          <p>Sorry, but the blog you were looking for can't be found.</p>
+                          <a class="btn btn-primary btn-lg" href="/blogs"><svg aria-hidden="true" class="svg-inline--fa fa-home fa-w-18" focusable="false" data-prefix="fa" data-icon="home" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path></svg>Blogs</a>
+                        </div>
+                      }
+                    }
+                    else
+                    {
+                      @RenderBody()
+                    }
+                  </div>
+                </section>
+
+                <!-- Footer -->
+                @Html.Partial("_partials/_footer")
+                <!-- Footer End -->
+            </main>
+        </div>
+    </div>
+
+    @if (string.IsNullOrEmpty(DotnetFoundationWeb.AppSettings.GoogleAnalytics))
+    {
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', '@DotnetFoundationWeb.AppSettings.GoogleAnalytics', 'auto');
+            ga('set', 'anonymizeIp', true);
+            ga('send', 'pageview');
+        </script>
+    }
+    @if (Model.GetBool("IsHome"))
+    {
+        <script src="js/home.js"></script>
+    }
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js" data-no-mirror=data-no-mirror></script>
+</body>
+</html>

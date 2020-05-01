@@ -1,0 +1,23 @@
+﻿@inherits Statiq.Razor.StatiqRazorPage<IEnumerable<IDocument>>
+
+@foreach (IDocument post in Model)
+{
+    <article class="post">
+        <header class="jumbotron">
+            <h1 itemprop="headline name">
+                <a itemprop="url" href="@Context.GetLink(post).Substring(1)">@post.GetString("Title")</a>
+            </h1>
+            <div class="bh">
+                <time datetime="@post.GetString("Published")" itemprop="datePublished">@post.GetDateTime("Published").ToString("MMMM dd, yyyy")</time>
+            </div>
+        </header>
+
+        <div itemprop="articleBody">
+            @Html.Raw(await post.GetContentStringAsync())
+        </div>
+        <div class="collapse" aria-hidden="true" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <meta itemprop="name" content="@post.GetString("Author")">
+        </div>
+        <meta itemprop="dateModified" content="@post.GetString("Published")">
+    </article>
+}
