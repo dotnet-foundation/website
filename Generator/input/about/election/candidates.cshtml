@@ -3,7 +3,7 @@ title: Campaign Statements
 permalink: about/election/candidates
 ---
 
-@if (Inputs.FilterSources(Context, "data/campaign-2019/*").Count() == 0)
+@if (Inputs.FilterSources("data/campaign-2019/*").Count() == 0)
 {
     <h3>We're just getting started!</h3>
 
@@ -22,7 +22,7 @@ else
     <section class="card-container">
         @Html.Partial("../../_partials/_candidate-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
             .Flatten()
-            .FilterSources(Context, "__data/campaign-2019/*")
+            .FilterSources("__data/campaign-2019/*")
             .Where(candidate => !candidate.GetBool("appointed"))
             )
     </section>

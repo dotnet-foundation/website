@@ -24,7 +24,7 @@ permalink: community/committees
         <div class="media-list" id="blog-feeds">
           @Html.Partial("../_partials/_committee-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
               .Flatten()
-              .FilterSources(Context, "__data/committees/*")
+              .FilterSources("__data/committees/*")
               .Where(doc => string.Equals(doc.GetString("Enabled"), "true", StringComparison.OrdinalIgnoreCase))
               .OrderByDescending(doc => doc.GetInt("Order")))
         </div>

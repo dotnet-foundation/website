@@ -61,28 +61,28 @@ namespace DotnetFoundationWeb
         .RunAsync();
     }
 
-    static FilePath GetPath(IDocument doc)
+    static NormalizedPath GetPath(IDocument doc)
     {
-      if (doc.Source.Directory.Segments.Last().SequenceEqual("posts".AsMemory()))
+      if (doc.Source.Segments[^2].SequenceEqual("posts".AsMemory()))
       {
-        return new DirectoryPath("blog")
-          .Combine(new DirectoryPath(doc.Get<DateTime>("Published").ToString("yyyy/MM/dd")))
-          .CombineFile(doc.Destination.FileName.ChangeExtension(".html"));
+        return new NormalizedPath("blog")
+          .Combine(new NormalizedPath(doc.Get<DateTime>("Published").ToString("yyyy/MM/dd")))
+          .Combine(doc.Destination.FileName.ChangeExtension(".html"));
       }
-      else if (doc.Source.Directory.Segments.Last().SequenceEqual("campaign-2019".AsMemory()))
+      else if (doc.Source.Segments[^2].SequenceEqual("campaign-2019".AsMemory()))
       {
-        return new DirectoryPath("about/election/campaign-2019")
-          .CombineFile(doc.Destination.FileName.ChangeExtension(".html"));
+        return new NormalizedPath("about/election/campaign-2019")
+          .Combine(doc.Destination.FileName.ChangeExtension(".html"));
       }
-      else if (doc.Source.Directory.Segments.Last().SequenceEqual("projects".AsMemory()))
+      else if (doc.Source.Segments[^2].SequenceEqual("projects".AsMemory()))
       {
-        return new DirectoryPath("projects")
-          .CombineFile(doc.Destination.FileName.ChangeExtension(".html"));
+        return new NormalizedPath("projects")
+          .Combine(doc.Destination.FileName.ChangeExtension(".html"));
       }
-      else if (doc.Source.Directory.Segments.Last().SequenceEqual("committees".AsMemory()))
+      else if (doc.Source.Segments[^2].SequenceEqual("committees".AsMemory()))
       {
-        return new DirectoryPath("community/committees")
-          .CombineFile(doc.Destination.FileName.ChangeExtension(".html"));
+        return new NormalizedPath("community/committees")
+          .Combine(doc.Destination.FileName.ChangeExtension(".html"));
       }
       else
       {
