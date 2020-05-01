@@ -16,8 +16,8 @@ Following are listed the tools or programs that we need to build this project:
 
 Here are the basic steps to run or build the project.
 
-1. In your terminal, navigate to `src\DotnetFoundationWeb`
-1. Open `src\DotnetFoundationWeb` from your local folder.
+1. In your terminal, navigate to `Generator`
+1. Open `Generator` from your local folder.
 1. Use `dotnet run` to generate the static site.
 1. After the build, you can check the `output` folder to review the generated html files.
 
