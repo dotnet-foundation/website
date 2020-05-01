@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using HtmlAgilityPack;
 
@@ -8,6 +9,30 @@ namespace DotnetFoundationWeb.Utils
   public static class StringUtils
   {
     private const string PathReference = "DotnetFoundationWeb";
+
+    public static string GetDocValue(string key, string content, string defaultValue = "")
+    {
+      using StringReader reader = new StringReader(content);
+      string line;
+      while ((line = reader.ReadLine()) != null)
+      {
+        if (string.Equals(line, "---", StringComparison.OrdinalIgnoreCase))
+        {
+          return defaultValue;
+        }
+        if (line.ToUpper().StartsWith(key.ToUpper()))
+        {
+          var value = line.Substring(key.Length + 1).Trim();
+          return string.IsNullOrEmpty(value) ? defaultValue : value;
+        }
+      }
+      return defaultValue;
+    }
+
+    public static string GetDocContent(string content)
+    {
+      return content.Substring(content.IndexOf("---") + 3).Trim();
+    }
 
     public static string GetInputPath(string fullPath)
     {

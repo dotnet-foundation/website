@@ -4,6 +4,7 @@ using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
 using DotnetFoundationWeb.Models;
+using DotnetFoundationWeb.Utils;
 using Microsoft.Extensions.Logging;
 using Statiq.Common;
 
@@ -38,13 +39,7 @@ namespace DotnetFoundationWeb.Modules
       {
         await AddJsonAsync(input);
       }
-      var outputFileDirectory = Path.Combine(context.FileSystem.GetOutputPath().FullPath, "projects");
-      if (!Directory.Exists(outputFileDirectory))
-      {
-        Directory.CreateDirectory(outputFileDirectory);
-      }
       var json = JsonSerializer.Serialize(projects);
-      File.WriteAllText(Path.Combine(outputFileDirectory, "projects.json"), json);
       return context.CreateDocument(await context.GetContentProviderAsync(json, MediaTypes.Json)).Yield();
 
       async Task AddJsonAsync(IDocument input)
@@ -52,37 +47,13 @@ namespace DotnetFoundationWeb.Modules
         var content = await input.GetContentStringAsync();
         projects.Add(new Project
         {
-          Title = GetValue("Title", content),
-          Logo = GetValue("Logo", content, "logo_big.png"),
-          Web = GetValue("Web", content, "#"),
-          Keywords = GetValue("Keywords", content),
-          Content = GetContent(content)
+          Title = StringUtils.GetDocValue("Title", content),
+          Logo = StringUtils.GetDocValue("Logo", content, "logo_big.png"),
+          Web = StringUtils.GetDocValue("Web", content, "#"),
+          Keywords = StringUtils.GetDocValue("Keywords", content),
+          Content = StringUtils.GetDocContent(content)
         });
       }
-    }
-
-    private string GetValue(string key, string content, string defaultValue = "")
-    {
-      using StringReader reader = new StringReader(content);
-      string line;
-      while ((line = reader.ReadLine()) != null)
-      {
-        if (string.Equals(line, "---", StringComparison.OrdinalIgnoreCase))
-        {
-          return defaultValue;
-        }
-        if (line.ToUpper().StartsWith(key.ToUpper()))
-        {
-          var value = line.Substring(key.Length + 1).Trim();
-          return string.IsNullOrEmpty(value) ? defaultValue : value;
-        }
-      }
-      return defaultValue;
-    }
-
-    private string GetContent(string content)
-    {
-      return content.Substring(content.IndexOf("---") + 3).Trim();
     }
   }
 }

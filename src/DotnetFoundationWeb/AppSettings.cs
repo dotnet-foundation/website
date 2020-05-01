@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Text;
@@ -7,9 +7,13 @@ namespace DotnetFoundationWeb
 {
   public static class AppSettings
   {
+    public static string ContactEmail { get; set; } = ConfigurationManager.AppSettings["ContactEmail"];
+
     public static string Title { get; set; } = ConfigurationManager.AppSettings["SiteTitle"];
 
     public static string BaseRef { get; set; } = ConfigurationManager.AppSettings["BaseRef"];
+
+    public static string ServerUri { get; set; } = ConfigurationManager.AppSettings["ServerUri"];
 
     public static bool IsCampaignOpen { get; set; }
       = String.Equals(ConfigurationManager.AppSettings["IsCampaignOpen"], "true", StringComparison.OrdinalIgnoreCase);
