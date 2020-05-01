@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="@DotnetFoundationWeb.AppSettings.Lang">
-@Html.Partial("_partials/_head")
+<head>
+    @Html.Partial("_partials/_head")
+
+    @RenderSection("head", required: false)
+</head>
 <body class="d-flex flex-column">
     @Html.Partial("_partials/_header")
 
