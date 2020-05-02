@@ -25,6 +25,8 @@ namespace DotnetFoundationWeb
 
       return await Bootstrapper.Factory
         .CreateWeb(args)
+        .AddSetting(Keys.Host, "dotnetfoundation.org")
+        .AddSetting(Keys.LinksUseHttps, true)
         .AddSetting(
           Keys.DestinationPath,
           Config.FromDocument(
@@ -50,13 +52,6 @@ namespace DotnetFoundationWeb
             .WithInputReadFiles("**/*")
             .WithInputModules(new SitemapGeneratorModule(formatter))
             .WithOutputWriteFiles("sitemap.xml")
-        )
-        .BuildPipeline(
-          "rss-generation",
-          builder => builder
-            .WithInputReadFiles("__data/posts/*.md")
-            .WithOutputModules(new RssXmlGeneratorModule())
-            .WithOutputWriteFiles(Path.Combine("api", "rss", "index.xml"))
         )
         .RunAsync();
     }

@@ -1,0 +1,5 @@
+FeedRss: true
+FeedSources: "__data/posts/*"
+FeedOrderKey: Published
+FeedOrderDescending: true
+FeedItemDescription: => Document.GetContentStringAsync().Result.Replace("\"assets", $"\"https://{Context.GetString("Host")}/assets").Replace("\"\\assets", $"\"\\{Context.GetString("Host")}/assets")
