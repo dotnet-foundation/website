@@ -16,9 +16,7 @@ jobs:
       with:
         dotnet-version: 3.1.201
     - name: Build
-      run: |
-        cd Generator
-        dotnet run --configuration Release
+      run: dotnet run --configuration Release
         
     - name: Publish generated files to Netlify
       uses: netlify/actions/cli@master #uses Netlify Cli actions
@@ -26,4 +24,4 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
       with:
-          args: deploy --dir=Generator/output --prod
+          args: deploy --dir=output --prod

@@ -34,17 +34,6 @@ namespace DotnetFoundationWeb.Utils
       return content.Substring(content.IndexOf("---") + 3).Trim();
     }
 
-    public static string GetInputPath(string fullPath)
-    {
-      if (string.IsNullOrEmpty(fullPath))
-      {
-        return string.Empty;
-      }
-
-      var index = fullPath.IndexOf(PathReference);
-      return fullPath.Substring(index);
-    }
-
     public static IEnumerable<HtmlNode> Descendants(HtmlNode root)
     {
       return new[] { root }.Concat(root.ChildNodes.SelectMany(child => child.Descendants()));

@@ -16,9 +16,7 @@ Following are listed the tools or programs that we need to build this project:
 
 Here are the basic steps to run or build the project.
 
-1. In your terminal, navigate to `Generator`
-1. Open `Generator` from your local folder.
-1. Use `dotnet run` to generate the static site.
+1. Use `dotnet run` from the root of the repository to generate the static site.
 1. After the build, you can check the `output` folder to review the generated html files.
 
 To build and preview the site, run `dotnet run -- preview`. This will launch a preview web server that can be viewed in a web browser from http://localhost:5080. The site will automatically rebuild and refresh when you make content changes.
