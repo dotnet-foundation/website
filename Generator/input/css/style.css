@@ -75,6 +75,11 @@ p {
 .page-section {
     width: 100vw;
     margin-left: calc((100vw - 1140px)/2*-1);
+    padding: 3rem 0;
+}
+
+.page-section--fill {
+    padding: 0;
 }
 
 .page-section--purple--light {
@@ -166,8 +171,6 @@ p {
 }
 
 .page-section h2, h3, h4 {
-    margin-top: 2rem;
-    margin-bottom: 0;
     font-family: 'Bree Serif', serif;
 }
 
@@ -188,9 +191,9 @@ p {
     font-size: 2rem;
 }
 
-.page-section p {
+/* .page-section p {
     font-size: 16px;
-}
+} */
 
 .page-section ul li {
     font-size: 16px;
@@ -502,8 +505,8 @@ svg.svg-inline--fa {
 
     .icon-box {
         background-color: #f6f6f6;
-        border: 1px solid #999999;
         padding: 2rem;
+        box-shadow: 0px 4px 20px -5px rgba(0,0,0,0.43);
     }
 
         .icon-box > * + * {
@@ -1296,8 +1299,9 @@ svg:not(:root).svg-inline--fa {
 
 .corporate-sponsor-card {
     display: grid;
-    box-shadow: 0px 1px 5px #555;
     background-color: white;
+    padding: 2rem;
+    box-shadow: 0px 4px 20px -5px rgba(0,0,0,0.43);
 }
 
 .corporate-sponsor-card__thumbnail {
@@ -1305,10 +1309,11 @@ svg:not(:root).svg-inline--fa {
     padding: 1rem;
 }
 
-    .corporate-sponsor-card__thumbnail img {
-        height: 128px;
-        object-fit: contain;
-    }
+.corporate-sponsor-card__thumbnail img {
+    height: 128px;
+    object-fit: contain;
+}
+
 #back-button {
     display: none;
 }
@@ -1405,4 +1410,65 @@ svg:not(:root).svg-inline--fa {
 
 .sign-up-to-newsletter {
   margin-top: 10px;
+}
+
+
+/* Profiles */
+.rounded-image {
+    border-radius: 50%;
+}
+
+.profile {
+    margin-bottom: 3rem;
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media screen and (min-width: 768px) {
+    .profile {
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.profile-name {
+    margin-bottom: 0.5rem;
+}
+
+.profile-image {
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+@media screen and (min-width: 768px) {
+    .profile-image {
+        margin: 0 0 1rem 0;
+    }
+}
+
+/* TODO: remove element - requires cleanup of overall body styles */
+p.profile-location, p.profile-company {
+    font-size: 1.35rem;
+    margin: 0;
+}
+
+.profile-location {
+    font-style: italic;
+    padding-bottom: 0.25rem;
+}
+
+.profile-intro {
+    margin: 0.5rem 0;
+}
+
+.profile-intro p {
+    margin: 0;
+}
+
+.profile-details {
+    padding-bottom: 0.5rem;
 }

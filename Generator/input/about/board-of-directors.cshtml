@@ -6,7 +6,7 @@ permalink: /about/board-of-directors
 
 <section class="page-section page-section--purple">
     <div class="page-section_container container">
-        <div class="page-section_row row">
+        <div class="page-section_row">
             <div class="page-section_column col-12 text-center">
                 <h2>
                     Board of Directors, Advisory Council & Administrative Team
@@ -19,7 +19,7 @@ permalink: /about/board-of-directors
 
 <section class="page-section" id="board-of-directors">
     <div class="page-section_container container">
-        <div class="page-section_row row">
+        <div class="page-section_row">
             <div class="col-12">
                 <h2>Board of Directors</h2>
                 <div class="row">
@@ -38,16 +38,16 @@ permalink: /about/board-of-directors
 
 <section class="page-section page-section--purple--light" id="team">
     <div class="page-section_container container">
-        <div class="page-section_row row">
+        <div class="page-section_row">
             <div class="col-12">
                 <h2 id="team">Our Team</h2>
                 <div class="row">
-                    @Html.Partial("../_partials/_team-member-card.cshtml",
-                    Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                        .Flatten()
-                        .FilterSources("__data/team/*.md")
-                        .OrderBy(candidate => candidate.GetInt("order"))
-                    )
+                        @Html.Partial("../_partials/_team-member-card.cshtml",
+                        Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                            .Flatten()
+                            .FilterSources("__data/team/*.md")
+                            .OrderBy(candidate => candidate.GetInt("order"))
+                        )
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@ permalink: /about/board-of-directors
 
 <section class="page-section" id="advisory-council">
     <div class="page-section_container container">
-        <div class="page-section_row row">
+        <div class="page-section_row">
             <div class="col-12">
                 <h2 id="advisory-council">.NET Advisory Council</h2>
                 <div class="row">
