@@ -6,3 +6,4 @@ Meets: This group meets monthly on the 3rd Tuesday of the Month at 3p EST.
 Repository: https://github.com/dotnet-foundation/wg-outreach
 Enabled: true
 Order: 3
+---
