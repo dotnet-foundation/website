@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation March 2019 Update
 Author: Jon Galloway
 Published: 2019-03-30 02:48:15.2600614
-Visible: true
 ---
 <p>Here's the March edition of the .NET Foundation newsletter! Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />

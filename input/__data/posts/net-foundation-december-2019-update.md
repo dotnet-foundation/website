@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation December 2019 Update
 Author: Jon Galloway
 Published: 2020-01-01 02:56:58.6942601
-Visible: true
 ---
 <p>Here's the December 2019 .NET Foundation update. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br /><br />This month's update includes:</p>
 <ul>

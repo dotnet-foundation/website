@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcoming DotVVM to the .NET Foundation!
 Author: Jon Galloway
 Published: 2019-04-30 16:29:52.2885712
-Visible: true
 ---
 <p><a href="https://www.dotvvm.com/"><img alt="DotVVM" src="assets/posts/logo-dotvvm.svg" style="float: right; width: 250px; height: 134px;" /></a>Today I'm excited to welcome DotVVM to the .NET Foundation.</p>
 

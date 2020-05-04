@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation October Update
 Author: Jon Galloway
 Published: 2018-10-31 22:00:00.0000000
-Visible: true
 ---
 <p>Here's the October edition of the .NET Foundation newsletter. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />

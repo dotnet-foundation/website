@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcoming Jon Galloway as the new Executive Director of the .NET Foundation
 Author: 
 Published: 2017-02-13 22:01:00.0000000
-Visible: true
 ---
 <p>[Post by Martin Woodward]</p>
 

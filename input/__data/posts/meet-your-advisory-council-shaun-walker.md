@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Meet Your Advisory Council - Shaun Walker
 Author: 
 Published: 2015-06-26 14:00:23.0000000
-Visible: true
 ---
 <p>Hi, I&rsquo;m <a href="https://twitter.com/bethmassi">Beth Massi</a> and I&rsquo;m a Technical Evangelist for the .NET Foundation and also a member of the .NET team at Microsoft. I&rsquo;m responsible for a lot of the team&rsquo;s community efforts including event planning, content creation, customer outreach, as well as helping the <a href="/about/board-of-directors">.NET Foundation Board, Executive Director, and Advisory Council</a> with .NET open source software initiatives.</p>
 

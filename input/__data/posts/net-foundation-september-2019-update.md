@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation September 2019 Update
 Author: Phil Haack
 Published: 2019-10-01 02:59:35.4926374
-Visible: true
 ---
 <p>Here's the September 2019 .NET Foundation update. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />

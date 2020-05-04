@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcome Google and Congratulations Samsung!
 Author: 
 Published: 2016-11-16 15:35:00.0000000
-Visible: true
 ---
 <p>Today, at Microsoft’s Connect() event in New York we announced some important news regarding the .NET Foundation Technical Steering Group.</p>
 

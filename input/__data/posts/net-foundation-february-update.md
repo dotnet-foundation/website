@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation February Update
 Author: Jon Galloway
 Published: 2019-02-28 22:00:00.0000000
-Visible: true
 ---
 <p>Hey! It’s the February Update! As always, these are available both on our blog and via e-mail: <a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a>
 <h2>.NET Foundation Updates</h2>

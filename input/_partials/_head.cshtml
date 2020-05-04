@@ -10,8 +10,7 @@
   {
   <title>@Model.GetString("Title")</title>
   }
-  @if (string.Equals(Model.GetString("LayoutRef"), "blog", StringComparison.OrdinalIgnoreCase)
-  && !string.Equals(Model.GetString("Visible"), "true", StringComparison.OrdinalIgnoreCase))
+  @if (string.Equals(Model.GetString("LayoutRef"), "blog", StringComparison.OrdinalIgnoreCase))
   {
     <meta http-equiv="refresh" content="5; url = /blog" />
   }

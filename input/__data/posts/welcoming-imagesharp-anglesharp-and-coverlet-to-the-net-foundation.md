@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcoming ImageSharp, AngleSharp, and Coverlet to the .NET Foundation!
 Author: Jon Galloway
 Published: 2019-05-03 16:17:14.5413080
-Visible: true
 ---
 <p>Today we welcome three projects to the .NET Foundation: <a href="https://sixlabors.com/projects/imagesharp/">ImageSharp</a>, <a href="https://anglesharp.github.io/">AngleSharp</a>, and <a href="https://github.com/tonerdo/coverlet">Coverlet</a>!</p>
 

@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcome Windows Template Studio
 Author: 
 Published: 2017-07-21 16:33:00.0000000
-Visible: true
 ---
 <p><p>I’m happy to announce today that <a href="http://aka.ms/wts">Windows Template Studio</a> has joined the .NET Foundation, and congratulate them on their <a href="https://blogs.windows.com/buildingapps/2017/07/21/windows-template-studio-1-2-released/">version 1.2 release</a>!</p><p>Windows Template Studio is a Visual Studio 2017 Extension that accelerates the creation of new Universal Windows Platform (UWP) apps using a wizard-based experience. The resulting UWP project is well-formed, readable code that incorporates the latest Windows 10 features while implementing proven patterns and best practices. The generated code includes helpful links to Docs, Stack Overflow and blogs to provide useful insights.</p><p>It’s also nice that Windows Template Studio templates include some other .NET Foundation projects including <a href="/mvvm-light-toolkit">MVVM Light</a> and <a href="https://dotnetfoundation.org/uwp-community-toolkit">UWP Community Toolkit</a>!</p></p>
 

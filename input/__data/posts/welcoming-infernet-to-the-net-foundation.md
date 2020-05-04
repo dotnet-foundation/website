@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcoming Infer.NET to the .NET Foundation!
 Author: Jon Galloway
 Published: 2018-10-08 22:23:29.9754174
-Visible: true
 ---
 <p><img alt="Infer.NET logo" src="assets/posts/infernet-icon.png" style="float: right; width: 186px; height: 211px;" />We're really excited to announce that&nbsp;<a href="https://www.microsoft.com/en-us/research/blog/the-microsoft-infer-net-machine-learning-framework-goes-open-source/">Infer.NET is joining the .NET Foundation</a>!</p>
 

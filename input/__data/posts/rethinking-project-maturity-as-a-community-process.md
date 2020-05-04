@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Rethinking Project Maturity as a Community Process
 Author: Ben Adams
 Published: 2019-09-30 17:33:07.1983371
-Visible: true
 ---
 <p><em>Author: Ben Adams, .NET Foundation Board Member</em></p>
 

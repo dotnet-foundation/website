@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation Welcomes Executive Director Martin Woodward
 Author: 
 Published: 2015-04-03 05:00:11.0000000
-Visible: true
 ---
 <p><a href="/assets/members/MartinW.jpg"><img width="200" height="250" style="float: right; padding-left: 20px;" alt="" src="https://www.dotnetfoundation.org/Media/Default/Images/MartinW.jpg" /></a>Time flies. Exactly one year ago today, Microsoft Corp. <a href="http://www.dotnetfoundation.org/blog/net-foundation-established-to-foster-open-development">announced</a> the creation of an independent .NET Foundation to foster open development and collaboration around the Microsoft .NET development framework. At the end of February we <a href="http://www.dotnetfoundation.org/blog/welcoming-the-newly-minted-advisory-net-foundation-advisory-council-members">announced our Advisory Council</a>, a group of nine leaders who are bringing their passion and experience to help steward the future of .NET as an open source community. Today, I am pleased to announce that the .NET Foundation Board appointed a full time Executive Director to the .NET Foundation: Martin Woodward.</p>
 

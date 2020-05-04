@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Live Writer is now Open Source
 Author: 
 Published: 2015-12-09 16:11:00.0000000
-Visible: true
 ---
 <p>Windows Live Writer has been turning blogging up to 11 since 2007, but since 2012 things have been a bit quiet with the application itself. However over the past&nbsp;few months I have had the pleasure working with a very pasionate group of engineers volunteering their time to ensure that Live Writer has a sustainable future. I'm pleased to announce that today the .NET Foundation welcomes a new project - <a href="http://openlivewriter.org">Open Live Writer</a>. One of the great things about Live Writer has always been the passionate community behind it and I can't wait to see what that community does now everying is open source and on GitHub.</p>
 

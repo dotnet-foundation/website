@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcome Json.NET to the .NET Foundation!
 Author: Jon Galloway
 Published: 2018-11-27 17:57:52.7882454
-Visible: true
 ---
 <p>Today, I'm thrilled to welcome Json.NET to the .NET Foundation!<img alt="Json.NET Logo" src="assets/posts/json_net.png" style="width: 250px; height: 250px; float: right;" /></p>
 

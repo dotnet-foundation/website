@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Announcing .NET Summer Hackfest 2017
 Author: 
 Published: 2017-07-07 20:41:17.0000000
-Visible: true
 ---
 <p><p><strong>Hey! Let's have some summer* fun! </strong><p>UPDATE: <a href="/blog/2017/07/19/net-summer-hackfest-update-1-session-project-announcements">See this post for our project announcements</a>.<p>Here's the idea: .NET Summer Hackfest is a six week community open source community run hackfest. We'll form up into loose teams to contribute to an open source project for a two week session. After that, a new project starts up, but you're of course free (and, of course, encouraged) to keep contributing to projects after the two week session is up.<p>Here are some goals:<ul><li>Make some substantial contributions to existing .NET open source projects during the session.<li>Spin up some new projects / libraries.<li>Great successes! And a few explosions are expected, too, because this is an experiment! <li>Get some new folks involved in .NET open source, hopefully staying on after the session ends. Maybe you're new to .NET open source, or want to try a new technology or stack? This is a low risk way to get involved, working with folks who can mentor you.<li>Have some fun stuff to show off at <a href="http://www.dotnetconf.net/">dotnetConf in September</a>!</li></ul><p>Depending on interest, both from projects and contributors, we can have a few projects running at once. Here's an example, with some sample / made up projects to illustrate:
 <p><table border="1" cellspacing="0" cellpadding="2">

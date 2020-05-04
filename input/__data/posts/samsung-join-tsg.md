@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Samsung joins the .NET Foundation Technical Steering Group
 Author: 
 Published: 2016-06-27 18:17:00.0000000
-Visible: true
 ---
 <p>At the end of March, we announced the <a href="/blog/2016/03/31/tsg-welcome">creation of the Technical Steering Group</a>&nbsp;in the .NET Foundation. This was created to help open up how technical decisions are made in the .NET platform as well as keep everyone on the same page as to the direction of the combined projects that make up the core components of .NET. As <a href="https://blogs.msdn.microsoft.com/dotnet/2016/06/27/announcing-net-core-1-0/">V1.0 of .NET Core ships today</a>&nbsp;and the tooling enters Preview 2, it is more important than ever that major stakeholders in the future of .NET can get together regularly and discuss the future direction of the platform overall.&nbsp;</p>
 

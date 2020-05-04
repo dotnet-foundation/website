@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcome BenchmarkDotNet
 Author: 
 Published: 2016-11-10 15:21:56.0000000
-Visible: true
 ---
 <p>Today, I have the pleasure of welcoming <a href="https://github.com/dotnet/BenchmarkDotNet">BenchmarkDotNet</a> into the .NET Foundation. It's a powerful cross-platform library which helps you to measure the performance of your source code with the high level of precision even when you are working with very rapid operations. It's already used by a number of great .NET projects, with a growing community of contributors.</p>
 

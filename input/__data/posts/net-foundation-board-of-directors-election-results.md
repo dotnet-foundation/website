@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation Board of Directors Election&#58; Results!
 Author: Jon Galloway
 Published: 2019-03-28 23:32:11.8012168
-Visible: true
 ---
 <p>The results are in, meet your newly elected board!</p>
 <style type="text/css">.card-container {

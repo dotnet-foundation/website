@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation June Update
 Author: Jon Galloway
 Published: 2018-06-29 22:03:00.0000000
-Visible: true
 ---
 <p>Hey!&nbsp; Here's the June edition of the .NET Foundation newsletter. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.</p>
 

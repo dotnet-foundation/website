@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Advisory Council Proposal -- Call for Community Feedback Extended to December 5th
 Author: 
 Published: 2014-11-21 21:07:04.0000000
-Visible: true
 ---
 <p>The increased openness of .NET has sparked widespread interest in the .NET Foundation. As a result, its Board of Directors has decided to extend the timeframe for community feedback on the .NET Foundation Advisory Council to December, 5, 2014.</p>
 

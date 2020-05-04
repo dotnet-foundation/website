@@ -11,7 +11,6 @@ layout: _layout
             @Html.Partial("_posts.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
                 .Flatten()
                 .FilterSources("__data/posts/*")
-                .Where(doc => string.Equals(doc.GetString("Visible"), "true", StringComparison.OrdinalIgnoreCase))
                 .OrderByDescending(doc => doc.GetDateTime("Published"))
                 .Take(5))
           </div>

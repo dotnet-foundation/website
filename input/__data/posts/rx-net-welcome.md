@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcoming Reactive Extensions for .NET
 Author: 
 Published: 2016-06-16 18:16:00.0000000
-Visible: true
 ---
 <p>I'm proud to announce that<a href="https://github.com/Reactive-Extensions/Rx.NET"> Reactive Extensions for .NET</a> has joined the <a href="/">.NET Foundation</a>&nbsp;Family. While <a href="https://github.com/Reactive-Extensions/Rx.NET">Rx.NET</a>&nbsp;has been open source for a long time, this move signifies that the project is moving from one driven primarily by Microsoft to true cross-community ownership. Legends of .NET open source, <a href="https://github.com/onovotny">Claire Novotny</a>&nbsp;and<a href="https://github.com/shiftkey">Brendan Forster</a>&nbsp;join <a href="https://github.com/bartdesmet">Bart De Smet</a>&nbsp;and&nbsp;<a href="https://twitter.com/mattpodwysocki">Matthew Podwysocki</a>&nbsp;as the new maintainers of the project so you know it's in the very best&nbsp;hands in the business.</p>
 

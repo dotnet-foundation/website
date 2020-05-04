@@ -2,7 +2,7 @@ LayoutRef: blog
 Title: .NET Foundation February / March Update
 Author: Claire Novotny
 Published: 2020-03-16
-Visible: true
+Excluded: true
 ---
 <p>Here's the February/March 2020 .NET Foundation update. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.</p>
 

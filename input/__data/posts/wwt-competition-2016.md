@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: The 2016 AAS WorldWide Telescope Competition
 Author: 
 Published: 2016-11-04 18:35:23.0000000
-Visible: true
 ---
 <p>Want to share astronomy by making a tour, interactive experience, or video using <a href="http://www.worldwidetelescope.org/" target="_blank">WorldWide Telescope</a>? You should &mdash; and then you should enter it in the first&nbsp;<a href="http://wwtworkshops.org/" target="_blank">American Astronomical Society&rsquo;s first WorldWide Telescope Competition</a>!</p>
 

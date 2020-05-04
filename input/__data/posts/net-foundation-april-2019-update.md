@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation April 2019 Update
 Author: Jon Galloway
 Published: 2019-04-30 22:00:00.0000000
-Visible: true
 ---
 <p>Here's the April edition of the .NET Foundation newsletter. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />

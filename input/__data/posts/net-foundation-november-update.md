@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation November Update
 Author: Jon Galloway
 Published: 2018-11-30 22:44:03.2885624
-Visible: true
 ---
 <div itemprop="articleBody">
 <p>Here's the November edition of the .NET Foundation newsletter. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />

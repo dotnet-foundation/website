@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Growing the .NET ecosystem through shared models of Quality, Confidence, and Support
 Author: Jon Galloway
 Published: 2019-09-23 16:54:23.3442357
-Visible: true
 ---
 <p><strong>UPDATE: We've had a lot of community feedback on this proposal, and as a result we're <a href="/blog/2019/09/30/rethinking-project-maturity-as-a-community-process">rethinking Project Maturity as a Community Process</a>.</strong></p>
 

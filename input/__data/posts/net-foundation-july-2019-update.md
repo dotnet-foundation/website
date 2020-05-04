@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation July 2019 Update
 Author: Jon Galloway
 Published: 2019-08-01 02:08:24.1512760
-Visible: true
 ---
 <p>Here's the July 2019 .NET Foundation update. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />
 <br />

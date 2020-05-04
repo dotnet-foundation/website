@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation Elections Closing Soon! Here's the FAQ to help you cast your vote.
 Author: Jon Galloway
 Published: 2019-03-26 20:59:57.4717962
-Visible: true
 ---
 <p>Our first ever open board member elections close on March 28 at 12 PM Pacific time! We have a good problem: over 40 candidates competing for 6 open board seats. Here's the information you need to get your&nbsp;vote in before the deadline.</p>
 

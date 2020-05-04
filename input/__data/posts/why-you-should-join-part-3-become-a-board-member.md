@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Why You Should Join, Part 3&#58; Become a Board Member
 Author: Jon Galloway
 Published: 2019-01-23 00:02:25.7173330
-Visible: true
 ---
 <p>We recently announced some big changes to the .NET Foundation, and one of the biggest is that we’re moving to a community elected Board of Directors. We're expanding the board from three to seven members, with one single seat appointed by Microsoft and the remaining six elected by the community. This structure will help the .NET Foundation scale and better serve the .NET ecosystem.</p>
 

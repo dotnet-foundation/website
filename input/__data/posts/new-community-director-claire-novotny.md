@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: New Community Director, Claire Novotny
 Author: Jon Galloway
 Published: 2018-07-03 16:15:00.0000000
-Visible: true
 ---
 <p><img alt="Claire Novotny" src="assets/members/claire-novotny.jpg" style="float: right; width: 150px; height: 150px;" />After nearly <a href="/blog/2016/07/21/welcome-rachel">two years of service as the Community Director of the .NET Foundation</a> (thank you!!!), Rachel Reese has asked to step down. <a href="https://claires.site/">Claire Novotny</a> will be replacing her in this role.</p>
 

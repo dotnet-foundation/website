@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcoming AWS To The .NET Foundation Corporate Sponsor Program!
 Author: Jon Galloway
 Published: 2019-09-23 16:56:11.7210757
-Visible: true
 ---
 <p>Today, we’re thrilled to announce that AWS is joining the .NET Foundation Corporate Sponsor Program.</p>
 

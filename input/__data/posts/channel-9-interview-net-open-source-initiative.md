@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Channel 9 Interview&#58; .NET Open Source Initiative
 Author: 
 Published: 2015-05-04 16:03:00.0000000
-Visible: true
 ---
 <p>At BUILD some of the .NET Foundation team members were interviewed on Channel 9.</p>
 

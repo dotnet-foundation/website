@@ -4,14 +4,14 @@
         @foreach (IGrouping<int, IDocument> yearGroup in Outputs[nameof(Statiq.Web.Pipelines.Content)]
             .Flatten()
             .FilterSources("__data/posts/*")
-            .Where(doc => string.Equals(doc.GetString("Visible"), "true", StringComparison.OrdinalIgnoreCase) && doc.GetDateTime("Published").Year > 2000)
+            .Where(doc => doc.GetDateTime("Published").Year > 2000)
             .GroupBy(doc => doc.GetDateTime("Published").Year)
             .OrderByDescending(x => x.Key))
         {            
             <h5 class="card-title">@(yearGroup.Key)</h5>
             <div class="card-text mb-2">
             @foreach (IGrouping<(string, string), IDocument> monthGroup in yearGroup
-                .Where(doc => string.Equals(doc.GetString("Visible"), "true", StringComparison.OrdinalIgnoreCase) && doc.GetDateTime("Published").Year > 2000)
+                .Where(doc => doc.GetDateTime("Published").Year > 2000)
                 .GroupBy(doc => (doc.GetDateTime("Published").ToString("MM"), doc.GetDateTime("Published").ToString("MMMM")))
                 .OrderByDescending(x => x.Key.Item1))
             {

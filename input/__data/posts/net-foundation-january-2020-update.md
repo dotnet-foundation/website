@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation January 2020 Update
 Author: Claire Novotny
 Published: 2020-02-11
-Visible: true
 ---
 <article class="markdown-body entry-content p-3 p-md-6" itemprop="text">
 <p>Here's the January 2020 .NET Foundation update. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.</p>

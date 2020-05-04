@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Why You Should Join&#58; Part 2 - Join as a Corporate Sponsor
 Author: Jon Galloway
 Published: 2019-01-16 23:54:02.0479955
-Visible: true
 ---
 <p>We recently announced some big changes to the .NET Foundation: <a href="blog/2018/12/04/announcing-net-foundation-open-membership">Open Membership and a new Corporate Sponsor program</a>. We’ve talked a bit about the Open Membership changes, but haven’t said a whole lot about the Corporate Sponsor program other than welcoming <a href="https://content.pivotal.io/blog/you-re-investing-in-net-and-so-are-we-pivotal-is-now-a-corporate-sponsor-of-the-net-foundation">Pivotal</a>, <a href="https://www.telerik.com/blogs/progress-announces-support-visual-studio-2019-net-core-3-net-foundation-more">Progress Telerik</a> and <a href="https://www.insight.com/">Insight</a> as launch partners. Let’s dig into some specifics: what’s changing, why, and why your company should consider getting involved.</p>
 

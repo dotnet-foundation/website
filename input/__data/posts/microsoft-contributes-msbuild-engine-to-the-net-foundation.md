@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Microsoft Contributes MSBuild Engine to the .NET Foundation
 Author: 
 Published: 2015-03-18 20:51:38.0000000
-Visible: true
 ---
 <p>The .NET team at Microsoft announced today that they are contributing another new open source project to the .NET Foundation -- <a href="https://github.com/Microsoft/msbuild">the Microsoft Build Engine</a> (MSBuild), available today on <a href="https://github.com/Microsoft/msbuild">GitHub</a>.</p>
 

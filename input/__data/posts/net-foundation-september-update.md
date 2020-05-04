@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation September Update
 Author: Jon Galloway
 Published: 2018-09-28 23:52:01.5331417
-Visible: true
 ---
 <div itemprop="articleBody">
 <p>Here's the August edition of the .NET Foundation newsletter. Every month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.<br />

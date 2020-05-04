@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcoming the WorldWide Telescope to the Open Source .NET Universe
 Author: 
 Published: 2015-07-02 16:01:28.0000000
-Visible: true
 ---
 <p>At the .NET Foundation we strive to put code into the hands of those who use it, in an effort to create an innovative and exciting community. Today we&rsquo;re excited to announce that we are doing just that in welcoming the <a href="http://worldwidetelescope.org/">WorldWide Telescope</a> to the exciting universe of open source .NET.</p>
 

@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcoming OData to the .NET Foundation!
 Author: Jon Galloway
 Published: 2019-06-03 16:50:33.6316018
-Visible: true
 ---
 <p>The .NET Foundation is happy to announce that OData is joining the .NET Foundation!<img alt="" src="assets/posts/ODataLogo-96.png" style="float: right; width: 97px; height: 96px;" /></p>
 

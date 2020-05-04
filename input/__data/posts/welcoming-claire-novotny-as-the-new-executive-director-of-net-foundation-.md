@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Welcoming Claire Novotny as the new Executive Director of .NET Foundation 
 Author: Jon Galloway
 Published: 2019-12-16 18:06:05.6925742
-Visible: true
 ---
 <p>I started as .NET Foundation Executive Director in February 2017, and a lot has happened over the past nearly three years. We’ve added dozens of&nbsp;high quality&nbsp;projects and added a lot of services to support them, like automated code signing and releases. We launched a&nbsp;<a href="https://www.meetup.com/pro/dotnet">worldwide Meetup program</a>&nbsp;that includes over a quarter of a million&nbsp;members, and&nbsp;supported them with hundreds of local events in our .NET Conf Local series. We’ve also ushered in substantial changes, literally years in the making, to&nbsp;open up&nbsp;membership, run an election for the board’s first elected directors, introduce a corporate sponsorship program, and lay the groundwork for the .NET Foundation to grow into its next stage.&nbsp;</p>
 

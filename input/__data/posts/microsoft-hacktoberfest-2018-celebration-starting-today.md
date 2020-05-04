@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: Microsoft #Hacktoberfest 2018 Celebration Starting Today!
 Author: Jon Galloway
 Published: 2018-10-01 22:11:15.8307288
-Visible: true
 ---
 <p><a href="https://open.microsoft.com/2018/09/18/hacktoberfest-2018-microsoft/">Microsoft announced</a> a couple weeks ago that they’re participating in this year’s <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a>, a month-long celebration of open source software. Launched as a partnership between DigitalOcean and GitHub in 2014, it rallies a global community of contributors, with last year’s event drawing more than 30,000 participants!</p>
 

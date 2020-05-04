@@ -32,7 +32,6 @@ permalink: /news
               @Html.Partial("_partials/_blog-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
                   .Flatten()
                   .FilterSources("__data/posts/*")
-                  .Where(doc => string.Equals(doc.GetString("Visible"), "true", StringComparison.OrdinalIgnoreCase))
                   .OrderByDescending(doc => doc.GetDateTime("Published"))
                   .Take(5))
             </div>

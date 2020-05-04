@@ -2,7 +2,6 @@ LayoutRef: blog
 Title: .NET Foundation at OSCON 2019
 Author: Jon Galloway
 Published: 2019-08-01 00:46:43.2940043
-Visible: true
 ---
 <p>Earlier this month, I (Jon Galloway) attended and spoke at <a href="https://conferences.oreilly.com/oscon/oscon-or/public/schedule/detail/75936">OSCON</a> (Portland, July 16-18), representing the .NET Foundation.</p>
 
