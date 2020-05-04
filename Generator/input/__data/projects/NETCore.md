@@ -16,7 +16,7 @@ Web: http://www.microsoft.com
 * [Project Info Site](https://github.com/dotnet/core)
 * Project Code Repos:  [.NET Core Framework](https://github.com/dotnet/corefx), [.NET Core Common Language Runtime]( https://github.com/dotnet/coreCLR), [.NET Core Tools](https://github.com/dotnet/cli)
 * Project Docs Repos: [Concepts](https://github.com/dotnet/docs), [APIs](https://github.com/dotnet/dotnet-api-docs), [Samples](https://github.com/dotnet/samples)
-* Project License Type: [MIT](https://github.com/dotnet/corefx/blob/master/LICENSE)
+* Project License Type: [MIT](https://github.com/dotnet/runtime/blob/master/LICENSE.TXT)
 * Project Main Contact: [Immo Landwerth](https://github.com/terrajobst)
 
 ## Quicklinks
