@@ -27,18 +27,6 @@ namespace DotnetFoundationWeb
         .CreateWeb(args)
         .AddSetting(Keys.Host, "dotnetfoundation.org")
         .AddSetting(Keys.LinksUseHttps, true)
-        .AddSetting(
-          Keys.DestinationPath,
-          Config.FromDocument(
-              doc => GetPath(doc)))
-        .AddSetting(
-          Keys.SitemapItem,
-          Config.FromDocument(
-              doc =>
-              {
-                var siteMapItem = new SitemapItem(GetPath(doc).FullPath);
-                return siteMapItem;
-              }))
         .BuildPipeline(
           "projects-json-generation",
           builder => builder
@@ -47,19 +35,6 @@ namespace DotnetFoundationWeb
             .WithOutputWriteFiles(Path.Combine("projects", "projects.json"))
         )
         .RunAsync();
-    }
-
-    static NormalizedPath GetPath(IDocument doc)
-    {
-      if (doc.Source.Segments[^2].SequenceEqual("committees".AsMemory()))
-      {
-        return new NormalizedPath("community/committees")
-          .Combine(doc.Destination.FileName.ChangeExtension(".html"));
-      }
-      else
-      {
-        return doc.Destination.ChangeExtension(".html");
-      }
     }
   }
 }

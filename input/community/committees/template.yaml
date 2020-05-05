@@ -5,6 +5,5 @@ Chairperson: John Doe
 Image: https://via.placeholder.com/150
 Meets: When..
 Repository: https://github.com/dotnet-foundation/
-Enabled: false
+Excluded: true
 Order: 1
----
