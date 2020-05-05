@@ -51,13 +51,7 @@ namespace DotnetFoundationWeb
 
     static NormalizedPath GetPath(IDocument doc)
     {
-      if (doc.Source.Segments[^2].SequenceEqual("posts".AsMemory()))
-      {
-        return new NormalizedPath("blog")
-          .Combine(new NormalizedPath(doc.Get<DateTime>("Published").ToString("yyyy/MM/dd")))
-          .Combine(doc.Destination.FileName.ChangeExtension(".html"));
-      }
-      else if (doc.Source.Segments[^2].SequenceEqual("campaign-2019".AsMemory()))
+      if (doc.Source.Segments[^2].SequenceEqual("campaign-2019".AsMemory()))
       {
         return new NormalizedPath("about/election/campaign-2019")
           .Combine(doc.Destination.FileName.ChangeExtension(".html"));

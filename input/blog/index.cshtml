@@ -10,7 +10,7 @@ layout: _layout
           <div class="col-md-9">
             @Html.Partial("_posts.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
                 .Flatten()
-                .FilterSources("__data/posts/*")
+                .FilterSources("blog/posts/*")
                 .OrderByDescending(doc => doc.GetDateTime("Published"))
                 .Take(5))
           </div>

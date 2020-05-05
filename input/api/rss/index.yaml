@@ -1,4 +1,4 @@
 FeedRss: true
-FeedSources: "__data/posts/*"
+FeedSources: "blog/posts/*"
 FeedOrderKey: Published
 FeedOrderDescending: true

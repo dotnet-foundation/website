@@ -3,7 +3,7 @@
     <div class="card-body">
         @foreach (IGrouping<int, IDocument> yearGroup in Outputs[nameof(Statiq.Web.Pipelines.Content)]
             .Flatten()
-            .FilterSources("__data/posts/*")
+            .FilterSources("blog/posts/*")
             .Where(doc => doc.GetDateTime("Published").Year > 2000)
             .GroupBy(doc => doc.GetDateTime("Published").Year)
             .OrderByDescending(x => x.Key))
