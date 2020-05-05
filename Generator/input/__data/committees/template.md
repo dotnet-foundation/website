@@ -1,3 +1,4 @@
+---
 Title: Title
 Description: The committee is responsible for ….
 Chairperson: John Doe
