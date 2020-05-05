@@ -31,7 +31,7 @@ description: "Welcome to .NET \"Presentations in a Box.\"  We have a listing of 
 
         @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
                 .Flatten()
-                .FilterSources("__data/presentations/*")
+                .FilterSources("community/presentations/*")
                 .Where(presentation => string.Equals(presentation.GetString("type"), "workshop", StringComparison.OrdinalIgnoreCase))
                 )
 
@@ -39,7 +39,7 @@ description: "Welcome to .NET \"Presentations in a Box.\"  We have a listing of 
 
         @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
                 .Flatten()
-                .FilterSources("__data/presentations/*")
+                .FilterSources("community/presentations/*")
                 .Where(presentation => string.Equals(presentation.GetString("type"), "deck", StringComparison.OrdinalIgnoreCase))
                 )
 
@@ -47,7 +47,7 @@ description: "Welcome to .NET \"Presentations in a Box.\"  We have a listing of 
 
         @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
                 .Flatten()
-                .FilterSources("__data/presentations/*")
+                .FilterSources("community/presentations/*")
                 .Where(presentation => string.Equals(presentation.GetString("type"), "tutorial", StringComparison.OrdinalIgnoreCase))
                 )
 

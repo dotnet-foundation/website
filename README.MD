@@ -36,7 +36,6 @@ This website uses [Statiq Web](https://github.com/statiqdev/Statiq.Web), a flexi
 
 * **input**
 
-    1. `__data` folder contains files that are being used to build views such as events or projects.
     1. `_partials` folder contains small sections of code that we require in other views, includes:
         * `_head.cshtml`: Contains the `head` section of the view and includes the initial stylesheet and JavaScript imports.
         * `_header.cshtml`: Common header that we are using for views and includes the main navigation.
