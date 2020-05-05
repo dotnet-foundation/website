@@ -1,3 +1,4 @@
+---
 Title: Marketing
 Description: The marketing committee is responsible for…
 Chairperson: Beth Massi
