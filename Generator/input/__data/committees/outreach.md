@@ -1,3 +1,4 @@
+---
 Title: Outreach
 Description: The outreach committee is here to welcome more developers into the .NET ecosystem. We welcome diversity of platform from Unix to Windows and of background from students to seniors. We are here to help you organize and evangelize.
 Chairperson: Sara Chipps
