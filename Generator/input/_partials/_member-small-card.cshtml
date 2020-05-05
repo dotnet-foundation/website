@@ -2,23 +2,42 @@
 
 @foreach (IDocument member in Model)
 {
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-4 profile">
         @if (!string.IsNullOrEmpty(member.GetString("image")))
         {
-            <img height="120" class="rounded-image" alt="ProfilePicture" src="assets/members/@member.GetString("image")">
+            <img height="120" class="rounded-image profile-image" alt="ProfilePicture" src="assets/members/@member.GetString("image")">
         }
         else
         {
-            <img height="120" class="rounded-image" alt="ProfilePicture" src="img/dot_bot.png">
+            <img height="120" class="rounded-image profile-image" alt="ProfilePicture" src="img/dot_bot.png">
         }
 
         @if(member.GetBool("advisor"))
         {
-          <h4 class="col-md-3-name">@member.GetString("title")</h4>
+          <h3 class="profile-name">@member.GetString("title")</h3>
         } else
         {
-          <h4 class="col-md-3-name"><a href="@Context.GetLink(member).Substring(1)">@member.GetString("title")</a></h4>
+          <h3 class="profile-name"><a href="@Context.GetLink(member).Substring(1)">@member.GetString("title")</a></h3>
         }
+
+        <div class="profile-details">
+            @if(!string.IsNullOrWhiteSpace(member.GetString("company"))) {
+              <p class="profile-company">@Html.Raw(member.GetString("company"))</p>
+            }
+            @if(!string.IsNullOrWhiteSpace(member.GetString("location"))) {
+              <p class="profile-location">@Html.Raw(member.GetString("location"))</p>
+            }
+        </div>
+
+        @if(!string.IsNullOrWhiteSpace(member.GetString("intro"))) {
+          <p class="profile-intro">@Html.Raw(member.GetString("intro"))</p>
+        }
+        
+        <div class="profile-intro">
+          @if(member.GetBool("advisor")) {
+            @Html.Raw(await member.GetContentStringAsync())
+          }
+        </div>
 
         @if (!string.IsNullOrEmpty(member.GetString("twitter")))
         {
@@ -29,23 +48,5 @@
                 </a>
             </span>
         }
-
-        <div class="col-md-3-body">
-            <ul>
-              @if(!string.IsNullOrWhiteSpace(member.GetString("company"))) {
-              <li>@Html.Raw(member.GetString("company"))</li>
-              }
-              @if(!string.IsNullOrWhiteSpace(member.GetString("location"))) {
-              <li>@Html.Raw(member.GetString("location"))</li>
-              }
-            </ul>
-            @if(!string.IsNullOrWhiteSpace(member.GetString("intro"))) {
-                @Html.Raw(member.GetString("intro"))
-              }
-              @if(member.GetBool("advisor")) {
-                @Html.Raw(await member.GetContentStringAsync())
-              }
-        </div>
-
     </div>
 }

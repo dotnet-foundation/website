@@ -81,12 +81,77 @@
 }
 
 #home-DATS_container {
-  background-image: url("../img/DATS-banner.jpg");
-  padding-top: 13vw;
-  padding-bottom: 8vw;
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
+    background-image: url("../img/DATS-banner.png");
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-DATS-content {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .home-DATS-content {
+        max-width: 60%;
+    }
+}
+
+.home-DATS-title {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+    line-height: 1.2;
+}
+
+.home-DATS-title strong {
+    display: block;
+    font-size: 3rem;
+}
+
+.home-DATS-date {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    text-transform: uppercase;  
+    border-bottom: 1px solid #fff;
+}
+
+@media screen and (min-width: 968px) {
+    .home-DATS-title {
+        font-size: 3rem;
+    }
+    
+    .home-DATS-title strong {
+        font-size: 4rem;
+    }
+    
+    .home-DATS-date {
+        font-size: 2.5rem;
+    }
+
+}
+
+.home-DATS-logo {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .home-DATS-logo {
+        width: 350px;
+    }
 }
 
 @media screen and (max-width: 615px) {

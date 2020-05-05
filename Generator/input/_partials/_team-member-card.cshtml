@@ -2,19 +2,24 @@
 
 @foreach (IDocument member in Model)
 {
-    <div class="col-md-3">
+    <div class="col-sm-6 col-md-3 profile">
         @if (!string.IsNullOrEmpty(member.GetString("image")))
         {
-            <img class="rounded-image" width="120" height="120" alt="ProfilePicture"
+            <img class="rounded-image profile-image" width="120" height="120" alt=" "
                  src="assets/members/@member.GetString("image")">
         }
         else
         {
-            <img class="rounded-image" width="120" height="120" alt="ProfilePicture"
+            <img class="rounded-image profile-image" width="120" height="120" alt=" "
                  src="img/dot_bot.png">
         }
 
-        <h4 class="col-md-3-name">@member.GetString("title")</h4>
+        <h3 class="profile-name">@member.GetString("title")</h3>
+
+        <div class="profile-intro">
+            @Html.Raw(await member.GetContentStringAsync())
+        </div>
+
         @if (!string.IsNullOrEmpty(member.GetString("twitter")))
         {
             <span>
@@ -24,9 +29,5 @@
                 </a>
             </span>
         }
-
-        <div class="col-md-3-body">
-            @Html.Raw(await member.GetContentStringAsync())
-        </div>
     </div>
 }
