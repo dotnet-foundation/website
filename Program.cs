@@ -42,7 +42,7 @@ namespace DotnetFoundationWeb
         .BuildPipeline(
           "projects-json-generation",
           builder => builder
-            .WithInputReadFiles("__data/projects/*.md")
+            .WithInputReadFiles("projects/data/*.md")
             .WithProcessModules(new RenderProjectsJsonModule())
             .WithOutputWriteFiles(Path.Combine("projects", "projects.json"))
         )
@@ -51,17 +51,7 @@ namespace DotnetFoundationWeb
 
     static NormalizedPath GetPath(IDocument doc)
     {
-      if (doc.Source.Segments[^2].SequenceEqual("campaign-2019".AsMemory()))
-      {
-        return new NormalizedPath("about/election/campaign-2019")
-          .Combine(doc.Destination.FileName.ChangeExtension(".html"));
-      }
-      else if (doc.Source.Segments[^2].SequenceEqual("projects".AsMemory()))
-      {
-        return new NormalizedPath("projects")
-          .Combine(doc.Destination.FileName.ChangeExtension(".html"));
-      }
-      else if (doc.Source.Segments[^2].SequenceEqual("committees".AsMemory()))
+      if (doc.Source.Segments[^2].SequenceEqual("committees".AsMemory()))
       {
         return new NormalizedPath("community/committees")
           .Combine(doc.Destination.FileName.ChangeExtension(".html"));
