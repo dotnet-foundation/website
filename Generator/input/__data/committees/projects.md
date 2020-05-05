@@ -1,3 +1,4 @@
+---
 Title: Projects
 Description: The Project committee is responsible for ….
 Chairperson: Shaun Walker
