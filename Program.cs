@@ -46,13 +46,6 @@ namespace DotnetFoundationWeb
             .WithProcessModules(new RenderProjectsJsonModule())
             .WithOutputWriteFiles(Path.Combine("projects", "projects.json"))
         )
-        .BuildPipeline(
-          "generate-sitemap",
-          builder => builder
-            .WithInputReadFiles("**/*")
-            .WithInputModules(new SitemapGeneratorModule(formatter))
-            .WithOutputWriteFiles("sitemap.xml")
-        )
         .RunAsync();
     }
 
