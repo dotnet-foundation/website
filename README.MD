@@ -1,25 +1,29 @@
 # dotnetfoundation-website
 
-This repository contains the solution that allows to build and deploy the [dotnetfoundation](https://dotnetfoundation.org/) website.
+This repository contains the solution that to build and deploy the [dotnetfoundation](https://dotnetfoundation.org/) website.
 
 Pull requests and issues are welcome!
 
 ## Prerequisites
 
-Following are listed the tools or programs that we need to build this project:
-
 * Git: Clone this repository if you want to make any change.
 * [.NET Core SDK 3.1.*](https://dotnet.microsoft.com/download)
 * [Visual Studio 2019](https://visualstudio.microsoft.com/vs/) or [Visual Studio Code](https://code.visualstudio.com/) as editors (optional).
 
-## How to build and test
+## Build and test
 
-Here are the basic steps to run or build the project.
+The basic steps to run or build the project:
 
 1. Use `dotnet run` from the root of the repository to generate the static site.
 1. After the build, you can check the `output` folder to review the generated html files.
 
-To build and preview the site, run `dotnet run -- preview`. This will launch a preview web server that can be viewed in a web browser from http://localhost:5080. The site will automatically rebuild and refresh when you make content changes.
+To build and preview the site, run:
+
+ ```
+ dotnet run -- preview
+ ```
+ 
+The preceding command launches a preview web server that can be viewed from http://localhost:5080. The site automatically rebuilds and refreshs when content changes are made.
 
 ## Project Structure
 
@@ -27,21 +31,23 @@ This website uses [Statiq Web](https://github.com/statiqdev/Statiq.Web), a flexi
 
 * **App.Config**
 
-    This is the configuration file for use by the project, make sure to review the `appSettings`.
+    The configuration file for the project. Review the `appSettings` section of *App.Config.
 
 * **Program.cs:**
 
-    Class that handles the generation of the site and the start of the web server when running from Visual Studio, here is where we defined the input folder and the way to output our static files.
-    The `input` folder contains source files and we are rendering to `html` files.
+    * Handles the generation of the site.
+    * Starts the web server when running from Visual Studio.
+    * Defines the input folder and the output of static files.
 
 * **input**
+  * The `input` folder contains source files that are rendered to `html` files.
 
-    1. `_partials` folder contains small sections of code that we require in other views, includes:
+    1. `_partials` folder contains small sections of code that are required in other views, includes:
         * `_head.cshtml`: Contains the `head` section of the view and includes the initial stylesheet and JavaScript imports.
-        * `_header.cshtml`: Common header that we are using for views and includes the main navigation.
+        * `_header.cshtml`: Common header used for views. Includes the main navigation.
         * `_footer.cshtml`: Common footer for views.
-    1. `_layout.cshtml` is where we build the page structure, include partials, analytics code and other additional imports.
-    1. `index.cshtml` is the main page for the site.
+    1. `_layout.cshtml`: Location where the page structure, include partials, analytics code and other additional imports are built.
+    1. `index.cshtml`: Main page for the site.
         > Note: Properties for the page can be defined at the top of the file like a specific `title` for the page.
     1. `css` folder contains all the stylesheet files required.
     1. `js` folder contains the JavaScript libraries and other custom scripts.
