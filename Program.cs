@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.Json;
 using System.Threading.Tasks;
-using DotnetFoundationWeb.Modules;
 using Statiq.App;
 using Statiq.Common;
 using Statiq.Core;
@@ -28,11 +28,24 @@ namespace DotnetFoundationWeb
         .AddSetting(Keys.Host, "dotnetfoundation.org")
         .AddSetting(Keys.LinksUseHttps, true)
         .BuildPipeline(
-          "projects-json-generation",
-          builder => builder
-            .WithInputReadFiles("projects/data/*.md")
-            .WithProcessModules(new RenderProjectsJsonModule())
-            .WithOutputWriteFiles(Path.Combine("projects", "projects.json"))
+            "GenerateProjectsJson",
+            builder => builder
+                .WithDependencies(nameof(Statiq.Web.Pipelines.Content))
+                .WithProcessModules(
+                    new ReplaceDocuments(nameof(Statiq.Web.Pipelines.Content)),
+                    new FlattenTree(),
+                    new FilterSources("projects/data/*.md"),
+                    new ExecuteConfig(Config.FromContext(ctx =>
+                        JsonSerializer.Serialize(ctx.Inputs.Select(x => new {
+                            Title = x.GetString("Title"),
+                            Logo = x.GetString("Logo", "logo_big.png"),
+                            Web = x.GetString("Web", "#"),
+                            Keywords = x.GetString("Keywords"),
+                            Content = x.GetContentStringAsync().GetAwaiter().GetResult()
+                        })
+                    )))
+                )
+                .WithOutputWriteFiles("projects/projects.json")
         )
         .RunAsync();
     }

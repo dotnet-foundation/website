@@ -1,7 +1,4 @@
 Title: DLR/IronPython2/IronPython3
-Contributor:
-Logo:
-Web:
 Enabled: false
 ---
 # DLR/IronPython2/IronPython3

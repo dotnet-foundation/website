@@ -1,6 +1,5 @@
 Title: Nerdbank.GitVersioning
 Contributor: Andrew Arnott
-Logo:
 Web: http://blog.nerdbank.net/
 ---
 # Nerdbank.GitVersioning

@@ -1,7 +1,4 @@
 Title: Nancy
-Contributor:
-Logo:
-Web:
 Enabled: false
 ---
 # Nancy
