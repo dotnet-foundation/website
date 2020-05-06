@@ -8,7 +8,8 @@ Here's the April/May 2020 .NET Foundation update. Every other month, we'll give 
 
 ## General news
 
-- We just launched our [new website](https://dotnetfoundation.org)! Check out to lean what we do, how to join as a project or as a member, and see how you can get involved! The site is built on [Statiq web](https://statiq.dev/web/), many thanks to [Dave Glick](https://twitter.com/daveaglick)!
+### New website
+We just launched our [new website](https://dotnetfoundation.org)! Check out to lean what we do, how to join as a project or as a member, and see how you can get involved! The site is built on [Statiq web](https://statiq.dev/web/), many thanks to [Dave Glick](https://twitter.com/daveaglick)!
   Community contribution to the site is encouraged, and it's all [on GitHub](https://github.com/dotnet-foundation/website).
 
 ![.NET Foundation new website screenshots](https://user-images.githubusercontent.com/68539/81202129-fce6fd00-8f7a-11ea-94e7-f8599bf85fc6.png)
