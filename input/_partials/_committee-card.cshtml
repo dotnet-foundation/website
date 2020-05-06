@@ -7,7 +7,7 @@
     <div class="committee_container">
       <div class="committee_meta d-flex flex-column justify-content-center">
         <h2>@item.GetString("title")</h2>
-        <p class="latest_copy">@item.GetString("Description")</p>
+        <p class="latest_copy">@Html.Raw(item.GetString("Description"))</p>
         @if (!String.IsNullOrEmpty(item.GetString("Chairperson")))
         {
           <p class="latest_copy">

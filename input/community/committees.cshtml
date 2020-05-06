@@ -25,7 +25,7 @@ permalink: community/committees
           @Html.Partial("../_partials/_committee-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Data)]
               .Flatten()
               .FilterSources("community/committees/*")
-              .OrderByDescending(doc => doc.GetInt("Order")))
+              .OrderBy(doc => doc.GetInt("Order")))
         </div>
       </article>
     </div>
