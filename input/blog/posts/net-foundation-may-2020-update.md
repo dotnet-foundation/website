@@ -9,7 +9,7 @@ Here's the April/May 2020 .NET Foundation update. Every other month, we'll give 
 ## General news
 
 ### New website
-We just launched our [new website](https://dotnetfoundation.org)! Check out to lean what we do, how to join as a project or as a member, and see how you can get involved! The site is built on [Statiq web](https://statiq.dev/web/), many thanks to [Dave Glick](https://twitter.com/daveaglick)!
+We just launched our [new website](https://dotnetfoundation.org)! Check it out to learn what we do, how to join as a project or as a member, and see how you can get involved! The site is built on [Statiq web](https://statiq.dev/web/), many thanks to [Dave Glick](https://twitter.com/daveaglick)!
   Community contribution to the site is encouraged, and it's all [on GitHub](https://github.com/dotnet-foundation/website).
 
 ![.NET Foundation new website screenshots](https://user-images.githubusercontent.com/68539/81202129-fce6fd00-8f7a-11ea-94e7-f8599bf85fc6.png)
@@ -81,7 +81,7 @@ You can find more details in the [official changelog](https://benchmarkdotnet.or
 
   We would like to thank the core contributors to Nancy @jchannon, @khellang, @damianh, @phillip-haydon, @prabirshrestha, @horsdal for working hard into the nights coding, testing and writing docs but most importantly the founders of Nancy itself @thecodejunkie and @grumpydev whose vision made Nancy what it was, a fun, performant and enjoyable web framework.
 
-  We understand that organisations may have services and products that still depend on Nancy in production. A couple of members of the team can offer a support, maintenance, migration services on commercial terms. Please reach out to nancyfx.help@gmail.com to discuss options.
+  We understand that organisations may have services and products that still depend on Nancy in production. A couple of members of the team can offer support, maintenance, and migration services on commercial terms. Please reach out to nancyfx.help@gmail.com to discuss options.
 
 ## New Projects
 
@@ -91,12 +91,12 @@ The .NET Foundation would like to welcome the following projects that joined in 
 | ------------------- |--------------------|
 | <img width="750px" src="https://user-images.githubusercontent.com/1334951/78044659-d6092b80-7329-11ea-8c79-ec113bdcb599.png" width="750px"> | **Unity Container**  <br>The Unity Container (Unity) is a lightweight, extensible dependency injection container. It facilitates building loosely coupled applications.  |
 |<img width="750px" src="https://user-images.githubusercontent.com/1334951/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png"> | **Docker&#46;DotNet** <br> Docker&#46;DotNet is a library to interact with Docker Remote API endpoints in your .NET applications.  It is fully asynchronous, designed to be non-blocking and object-oriented way to interact with your Docker daemon programmatically.|
-|<img width="750px" src="https://user-images.githubusercontent.com/1334951/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png"> | **FlubuCore** <br> FlubuCore - Fluent Builder Core" is a cross platform build and deployment automation system. You can define your build and deployment scripts in C# using an intuitive fluent interface. This gives you code completion, IntelliSense, debugging, FlubuCore custom analyzers, and native access to the whole .NET ecosystem inside of your scripts.|
+|<img width="750px" src="https://user-images.githubusercontent.com/1334951/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png"> | **FlubuCore** <br> FlubuCore - "Fluent Builder Core" is a cross platform build and deployment automation system. You can define your build and deployment scripts in C# using an intuitive fluent interface. This gives you code completion, IntelliSense, debugging, FlubuCore custom analyzers, and native access to the whole .NET ecosystem inside of your scripts.|
 |<img width="750px" src="https://user-images.githubusercontent.com/1334951/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png"> | **Python&#46;NET** <br> Python&#46;NET is a package that gives Python programmers nearly seamless integration with the .NET 4.0+ Common Language Runtime (CLR) on Windows and Mono runtime on Linux and OSX. Python for .NET provides a powerful application scripting tool for .NET developers. Using this package you can script .NET applications or build entire applications in Python, using .NET services and components written in any language that targets the CLR (C#, VB.NET, F#, C++/CLI).|
 |<img width="750px" src="https://user-images.githubusercontent.com/1334951/78050572-48c9d500-7331-11ea-8764-620a6abeb5f0.png"> | **Avalonia** <br> A cross platform XAML Framework for .NET Framework, .NET Core and Mono.|
 |<img width="750px" src="https://user-images.githubusercontent.com/1334951/78050928-d1e10c00-7331-11ea-949a-ece26db9ce39.png"> | **Piranha CMS** <br> Piranha CMS is a lightweight and unobtrusive CMS Library for .NET Core 3.1 and NetStandard 2.0. It can be used to add CMS functionality to your existing application or to build a new website from scratch.|
 |<img width="750px" src="https://user-images.githubusercontent.com/1334951/78051244-41ef9200-7332-11ea-9a11-02bcc020d26d.png"> | **Oqtane** <br> Oqtane is an open source modular application framework for Blazor. Oqtane was inspired by DotNetNuke and supports multi-tenancy, a fully dynamic page compositing model, designer friendly skins, extensibility via third party modules, and a familiar data model.|
-|<img width="750px" src="https://user-images.githubusercontent.com/1334951/78051404-7b280200-7332-11ea-8db9-11f3a9e8668a.png"> | **Elsa Workflows** <br> Elsa Workflows is an extensible, open source .NET Standard set of libraries and tools to implement workflow capabilities in any .NET application. It includes an HTML5 web components-based workflow designer.  Implement workflow functionality directly into your own application or integrate with a workflow server..|
+|<img width="750px" src="https://user-images.githubusercontent.com/1334951/78051404-7b280200-7332-11ea-8db9-11f3a9e8668a.png"> | **Elsa Workflows** <br> Elsa Workflows is an extensible, open source .NET Standard set of libraries and tools to implement workflow capabilities in any .NET application. It includes an HTML5 web components-based workflow designer.  Implement workflow functionality directly into your own application or integrate with a workflow server.|
 
 ## Meetups
 ### Looking for speakers to go deep on AWS?
