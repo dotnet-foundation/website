@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Why You Should Join&#58; Part 2 - Join as a Corporate Sponsor
 Author: Jon Galloway

@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Announcing .NET Summer Hackfest 2017
 Author: 

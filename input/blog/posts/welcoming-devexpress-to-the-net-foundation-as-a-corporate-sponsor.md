@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcoming DevExpress to the .NET Foundation as a Corporate Sponsor!
 Author: 

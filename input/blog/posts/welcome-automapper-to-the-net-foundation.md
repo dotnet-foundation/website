@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcome AutoMapper to the .NET Foundation
 Author: 

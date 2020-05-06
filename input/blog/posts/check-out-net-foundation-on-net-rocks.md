@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Check out .NET Foundation on .NET Rocks!
 Author: Jon Galloway

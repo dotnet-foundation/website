@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: .NET Foundation September 2019 Update
 Author: Phil Haack

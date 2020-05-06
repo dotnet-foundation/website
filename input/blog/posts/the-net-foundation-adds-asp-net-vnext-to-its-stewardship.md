@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: The .NET Foundation Adds ASP.NET vNext to its Stewardship
 Author: 

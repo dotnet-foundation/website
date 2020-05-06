@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcoming SymbolSource To The .NET Foundation!
 Author: Jon Galloway

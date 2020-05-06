@@ -1,3 +1,4 @@
+---
 Enumerate: => Inputs.FilterSources("blog/posts/*").Select(x => x.GetDateTime("Published").ToString("yyyy/MM")).Distinct()
 DestinationPath: => new NormalizedPath($"blog/{Current}/index.html")
 Title: => $"Post Archive - {Current}"

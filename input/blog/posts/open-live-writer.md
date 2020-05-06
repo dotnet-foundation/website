@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Live Writer is now Open Source
 Author: 

@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcome Windows Template Studio
 Author: 

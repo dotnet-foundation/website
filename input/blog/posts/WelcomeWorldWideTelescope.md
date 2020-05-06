@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcoming the WorldWide Telescope to the Open Source .NET Universe
 Author: 

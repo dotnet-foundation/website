@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: .NET Summer Hackfest Update&#58; Session 2 Wrap-up
 Author: 

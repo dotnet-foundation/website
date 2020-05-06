@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcoming Xamarin to the .NET Foundation
 Author: 

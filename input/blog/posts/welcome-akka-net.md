@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcome Akka.NET to the .NET Foundation
 Author: 

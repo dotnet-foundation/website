@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcoming Core WCF to the .NET Foundation
 Author: 

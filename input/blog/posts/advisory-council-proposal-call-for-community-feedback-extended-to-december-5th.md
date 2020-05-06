@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Advisory Council Proposal -- Call for Community Feedback Extended to December 5th
 Author: 

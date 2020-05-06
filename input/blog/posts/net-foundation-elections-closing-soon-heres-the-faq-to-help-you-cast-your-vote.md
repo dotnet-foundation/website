@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: .NET Foundation Elections Closing Soon! Here's the FAQ to help you cast your vote.
 Author: Jon Galloway

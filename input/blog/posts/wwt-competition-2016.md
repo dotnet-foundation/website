@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: The 2016 AAS WorldWide Telescope Competition
 Author: 

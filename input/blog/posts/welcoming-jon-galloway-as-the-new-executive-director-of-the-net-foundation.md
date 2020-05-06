@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcoming Jon Galloway as the new Executive Director of the .NET Foundation
 Author: 

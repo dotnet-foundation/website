@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: .NET Foundation at OSCON 2019
 Author: Jon Galloway

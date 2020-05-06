@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcoming DotVVM to the .NET Foundation!
 Author: Jon Galloway

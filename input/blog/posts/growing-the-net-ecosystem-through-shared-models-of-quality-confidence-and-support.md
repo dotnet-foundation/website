@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Growing the .NET ecosystem through shared models of Quality, Confidence, and Support
 Author: Jon Galloway

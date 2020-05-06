@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Rethinking Project Maturity as a Community Process
 Author: Ben Adams

@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Free as in Cake
 Author: 

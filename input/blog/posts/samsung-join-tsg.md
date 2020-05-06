@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Samsung joins the .NET Foundation Technical Steering Group
 Author: 

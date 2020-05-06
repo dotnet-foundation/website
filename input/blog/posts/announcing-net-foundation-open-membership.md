@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Announcing .NET Foundation Open Membership
 Author: Jon Galloway

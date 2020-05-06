@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Announcing new governance model and project contributions to the .NET Foundation 
 Author: 

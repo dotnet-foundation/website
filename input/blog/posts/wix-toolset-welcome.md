@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcoming WiX Toolset to the .NET Foundation
 Author: 

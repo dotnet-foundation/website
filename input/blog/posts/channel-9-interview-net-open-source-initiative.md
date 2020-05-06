@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Channel 9 Interview&#58; .NET Open Source Initiative
 Author: 

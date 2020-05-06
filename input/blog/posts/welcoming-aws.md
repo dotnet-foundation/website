@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcoming AWS To The .NET Foundation Corporate Sponsor Program!
 Author: Jon Galloway

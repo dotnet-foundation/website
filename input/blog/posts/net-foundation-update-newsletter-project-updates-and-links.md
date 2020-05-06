@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: .NET Foundation Update&#58; Newsletter, Project Updates, and links!
 Author: Jon Galloway

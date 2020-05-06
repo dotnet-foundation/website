@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Microsoft #Hacktoberfest 2018 Celebration Starting Today!
 Author: Jon Galloway

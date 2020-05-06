@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcoming Claire Novotny as the new Executive Director of .NET Foundation 
 Author: Jon Galloway

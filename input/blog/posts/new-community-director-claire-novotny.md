@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: New Community Director, Claire Novotny
 Author: Jon Galloway

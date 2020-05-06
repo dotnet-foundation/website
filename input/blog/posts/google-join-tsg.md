@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcome Google and Congratulations Samsung!
 Author: 

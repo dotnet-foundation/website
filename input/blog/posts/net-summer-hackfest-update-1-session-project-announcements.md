@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: ".NET Summer Hackfest Update 1: Session Project Announcements"
 Author: 

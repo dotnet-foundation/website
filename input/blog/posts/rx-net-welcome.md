@@ -1,3 +1,4 @@
+---
 LayoutRef: blog
 Title: Welcoming Reactive Extensions for .NET
 Author: 
