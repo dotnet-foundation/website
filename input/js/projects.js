@@ -155,7 +155,7 @@ let searchProjects = () => {
       $('#back-button').css('display', 'inline-block');
       $('#submit-button').css('display', 'none');
   }
-    loadLists(newProjects);
+  //  loadLists(newProjects);
 };
 
 let loadLists = (projectsToShow) => {
