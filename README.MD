@@ -23,7 +23,7 @@ To build and preview the site, run:
  dotnet run -- preview
  ```
  
-The preceding command launches a preview web server that can be viewed from http://localhost:5080. The site automatically rebuilds and refreshs when content changes are made.
+The preceding command launches a preview web server that can be viewed from http://localhost:5080. The site automatically rebuilds and refresh when content changes are made.
 
 ## Project Structure
 
@@ -31,11 +31,12 @@ This website uses [Statiq Web](https://github.com/statiqdev/Statiq.Web), a flexi
 
 * **App.Config**
 
-    The configuration file for the project. Review the `appSettings` section of *App.Config.
+    The configuration file for the project. Review the `appSettings` section of *App.Config*.
 
 * **Program.cs:**
 
     * Handles the generation of the site.
+    <!-- consider deleting next line -->
     * Starts the web server when running from Visual Studio.
     * Defines the input folder and the output of static files.
 
@@ -46,7 +47,7 @@ This website uses [Statiq Web](https://github.com/statiqdev/Statiq.Web), a flexi
         * `_head.cshtml`: Contains the `head` section of the view and includes the initial stylesheet and JavaScript imports.
         * `_header.cshtml`: Common header used for views. Includes the main navigation.
         * `_footer.cshtml`: Common footer for views.
-    1. `_layout.cshtml`: Location where the page structure, include partials, analytics code and other additional imports are built.
+    1. `_layout.cshtml`: Location where the page structure, include partials, analytics code, and other imports are built.
     1. `index.cshtml`: Main page for the site.
         > Note: Properties for the page can be defined at the top of the file like a specific `title` for the page.
     1. `css` folder contains all the stylesheet files required.
