@@ -1,15 +1,17 @@
-Title: Orchard CMS
-Contributor: Microsoft
-Logo: microsoft.jpg
-Web: http://www.microsoft.com
 ---
-# Orchard CMS 
+Title: Orchard Core
+Contributor: The Orchard Core Team
+Logo: orchardcore_logo.png
+Web: https://www.orchardcore.net
+Keywords: .Net, Open-Source, CMS
+---
+# Orchard Core
 
-[Orchard](https://www.orchardproject.net/) is a free, open source,
-community-focused Content Management System built on the ASP.NET MVC
-platform. Orchard is built on a modern architecture that puts
-extensibility up-front, as its number one concern. All components in
-Orchard can be replaced or extended. Content is built from easily
+[Orchard Core](https://www.orchardcore.net/) Orchard Core is an 
+open-source modular and multi-tenant application framework built 
+with ASP.NET Core, and a content management system (CMS) built 
+on top of that application framework. All components in Orchard 
+Core can be replaced or extended. Content is built from easily
 composable building blocks. Modules extend the system in a very
 decoupled fashion, where a commenting module for example can as easily
 apply to pages, blog posts, photos or products. A rich UI composition
@@ -18,15 +20,12 @@ presentation that you need for your content.
 
 # Project Details
 
-* [Project Info Site](https://www.orchardproject.net/)
-* [Project Code Site](https://github.com/OrchardCMS/Orchard)
-* Project License Type: [New BSD License(BSD)](https://raw.githubusercontent.com/OrchardCMS/Orchard/master/LICENSE.txt)
-* Project Main Contact: [Steering Committee](http://orchardproject.net/about-us)
+* [Project Info Site](https://www.orchardcore.net/)
+* [Project Code Site](https://github.com/OrchardCMS/OrchardCore)
+* Project License Type: [New BSD License(BSD)](https://raw.githubusercontent.com/OrchardCMS/OrchardCore/master/LICENSE.txt)
 
 ### Quicklinks
 
-* [Documentation](http://docs.orchardproject.net/)
-* [Discussions](http://orchardproject.net/discussions)
-* [Contribute](http://www.orchardproject.net/contribution)
-* [Gitter](https://gitter.im/OrchardCMS/Orchard)
-
+* [Documentation](https://docs.orchardcore.net/)
+* [Gitter](https://gitter.im/OrchardCMS/OrchardCore)
+* [Try](https://try.orchardcore.net/)
