@@ -1,3 +1,4 @@
+---
 Title: OWIN Authentication Middleware (Katana Project)
 Contributor: Microsoft
 Logo: microsoft.jpg

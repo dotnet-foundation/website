@@ -1,3 +1,4 @@
+---
 Title: IdentityServer
 Contributor: IdentityServer
 Logo: IDserver_logotransparent.png

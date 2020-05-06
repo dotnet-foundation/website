@@ -1,3 +1,4 @@
+---
 Title: AngleSharp
 Contributor: AngleSharp
 Logo: anglesharp-logo.png

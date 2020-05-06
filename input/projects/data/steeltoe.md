@@ -1,3 +1,4 @@
+---
 Title: Steeltoe
 Contributor: Pivotal Software, Inc.
 Logo: Pivotal-Logo.png

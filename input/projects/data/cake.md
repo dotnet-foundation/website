@@ -1,3 +1,4 @@
+---
 Title: Cake
 Contributor: Cake
 Logo: cake-large.png

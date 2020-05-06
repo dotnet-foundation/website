@@ -1,3 +1,4 @@
+---
 Title: Open Live Writer
 Contributor: Microsoft
 Logo: microsoft.jpg

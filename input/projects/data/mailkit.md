@@ -1,3 +1,4 @@
+---
 Title: MailKit
 Contributor: Xamarin
 Logo: xamarin.jpg

@@ -1,3 +1,4 @@
+---
 Title: Windows Phone Toolkit
 Contributor: Microsoft
 Logo: microsoft.jpg

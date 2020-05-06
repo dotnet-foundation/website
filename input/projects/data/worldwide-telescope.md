@@ -1,3 +1,4 @@
+---
 Title: WorldWide Telescope
 Contributor: Microsoft
 Logo: microsoft.jpg

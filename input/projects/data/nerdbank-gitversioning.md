@@ -1,3 +1,4 @@
+---
 Title: Nerdbank.GitVersioning
 Contributor: Andrew Arnott
 Web: http://blog.nerdbank.net/

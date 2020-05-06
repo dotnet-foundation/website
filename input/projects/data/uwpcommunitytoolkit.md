@@ -1,3 +1,4 @@
+---
 Title: UWP Community Toolkit
 Contributor: Microsoft
 Logo: microsoft.jpg

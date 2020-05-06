@@ -1,3 +1,4 @@
+---
 Title: MVVM Light Toolkit
 Contributor: Laurent Bugnion
 Logo: MvvmLight.png

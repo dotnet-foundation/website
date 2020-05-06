@@ -1,3 +1,4 @@
+---
 Title: SixLabors.ImageSharp
 Contributor: SixLabors
 Logo: sixlabors.256.png

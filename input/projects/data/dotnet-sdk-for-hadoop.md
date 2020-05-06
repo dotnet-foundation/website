@@ -1,3 +1,4 @@
+---
 Title: .NET SDK For Hadoop
 Contributor: Microsoft
 Logo: microsoft.jpg

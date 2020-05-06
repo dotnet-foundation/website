@@ -1,3 +1,4 @@
+---
 Title: Chemistry Add-in for Word
 Contributor: Chem4Word
 Logo: 4f380c83-e988-4d8c-80ce-5434337301cc.jpg

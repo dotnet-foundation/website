@@ -1,3 +1,4 @@
+---
 Title: Reactive Extensions for .NET
 Contributor: Microsoft
 Logo: microsoft.jpg

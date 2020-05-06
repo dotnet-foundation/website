@@ -1,3 +1,4 @@
+---
 Title: NuGet Trends
 Contributor: NuGet Trends
 ---

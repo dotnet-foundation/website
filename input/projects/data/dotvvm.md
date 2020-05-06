@@ -1,3 +1,4 @@
+---
 Title: DotVVM, Component-based MVVM framework for ASP.NET
 Contributor: DotVVM
 Logo: dotvvm_logo_square.png

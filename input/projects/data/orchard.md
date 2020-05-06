@@ -1,3 +1,4 @@
+---
 Title: Orchard Core
 Contributor: The Orchard Core Team
 Logo: orchardcore_logo.png

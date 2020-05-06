@@ -1,3 +1,4 @@
+---
 Title: Xamarin.Auth
 Contributor: Xamarin
 Logo: xamarin.jpg

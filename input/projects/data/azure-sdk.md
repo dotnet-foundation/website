@@ -1,3 +1,4 @@
+---
 Title: Microsoft Azure SDK for .NET
 Contributor: Microsoft
 Logo: microsoft.jpg

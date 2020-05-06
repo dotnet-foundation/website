@@ -1,3 +1,4 @@
+---
 Title: Entity Framework
 Contributor: Microsoft
 Logo: microsoft.jpg

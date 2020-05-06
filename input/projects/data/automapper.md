@@ -1,3 +1,4 @@
+---
 Title: AutoMapper
 Contributor: AutoMapper
 Logo: fc019716-ad57-4172-8679-7b5bfe4c614a.jpg

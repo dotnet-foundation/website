@@ -1,3 +1,4 @@
+---
 Title: Open XML SDK
 Contributor: Microsoft
 Logo: microsoft.jpg

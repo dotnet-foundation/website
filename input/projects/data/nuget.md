@@ -1,3 +1,4 @@
+---
 Title: NuGet
 Contributor: Microsoft
 Logo: microsoft.jpg

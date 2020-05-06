@@ -1,3 +1,4 @@
+---
 Title: Windows Template Studio
 Contributor: Microsoft
 Logo: microsoft.jpg

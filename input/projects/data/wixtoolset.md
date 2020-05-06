@@ -1,3 +1,4 @@
+---
 Title: WiX Toolset
 Contributor: WiX Toolset
 Logo: wix-white.png
