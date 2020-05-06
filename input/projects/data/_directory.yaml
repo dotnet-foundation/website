@@ -1,1 +1,2 @@
 DestinationPath: => new NormalizedPath("projects") / Destination.FileName.ChangeExtension(".html")
+LayoutRef: project

@@ -12,40 +12,69 @@
         <div class="row">
             <main id="site_container" role="main" class="col order-3">
                 <section class="body-section">
-                  <div class="body-container">
-                    @if (Model.GetBool("IsHome") && DotnetFoundationWeb.AppSettings.IsCampaignOpen)
-                    {
-                      @Html.Partial("_partials/_elections-banner")
-                    }
-                    @if (string.Equals(Model.GetString("LayoutRef"), "blog", StringComparison.OrdinalIgnoreCase))
-                    {
-                      <section class="page-section page-section">
-                        <div class="page-section_container container">
-                          <div class="page-section_row row">
-                            <div class="col-12">
-                              <div class="row">
-                                <div class="col-md-9">
-                                  <h1 class="text-primary">@(Model.GetString(Keys.Title) ?? Model.GetString(Keys.Title))</h1>
-                                  <div class="bh">
-                                    <time datetime="@Model.GetString(" Published")" itemprop="datePublished">@Model.GetDateTime("Published").ToString("MMMM dd, yyyy")</time>
-                                  </div>
-                                  <hr />
-                                  @RenderBody()
+                    <div class="body-container">
+                        @if (Model.GetBool("IsHome") && DotnetFoundationWeb.AppSettings.IsCampaignOpen)
+                        {
+                            @Html.Partial("_partials/_elections-banner")
+                        }
+                        @if (string.Equals(Model.GetString("LayoutRef"), "blog", StringComparison.OrdinalIgnoreCase))
+                        {
+                            <section class="page-section page-section">
+                                <div class="page-section_container container">
+                                    <div class="page-section_row row">
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h1 class="text-primary">@(Model.GetString(Keys.Title) ?? Model.GetString(Keys.Title))</h1>
+                                                    <div class="bh">
+                                                        <time datetime="@Model.GetString(" Published")" itemprop="datePublished">@Model.GetDateTime("Published").ToString("MMMM dd, yyyy")</time>
+                                                    </div>
+                                                    <hr />
+                                                    @RenderBody()
+                                                </div>
+                                                <div class="col-md-3">
+                                                    @Html.Partial("blog/_archives")
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-3">
-                                  @Html.Partial("blog/_archives")
+                            </section>
+                        }
+                        else if (string.Equals(Model.GetString("LayoutRef"), "project", StringComparison.OrdinalIgnoreCase))
+                        {
+                            <section class="page-section page-section--purple">
+                                <div class="page-section_container container">
+                                    <div class="page-section_row row">
+                                        <div class="page-section_column col-12 text-center">
+                                            <h2>@Model.GetTitle()</h2>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </section>
-                    }
-                    else
-                    {
-                      @RenderBody()
-                    }
-                  </div>
+                            </section>
+
+
+
+                            <section class="page-section">
+                                <div class="page-section_container container">
+                                    <div class="page-section_row row h-100">
+                                        <div class="page-section_column col-12 text-left">
+                                            <article class="row">
+                                                <div class="col-4"><a href="@Model.GetString("Web")"><img class="img-responsive contrib-logos" src="assets/projects/@Model.GetString("Logo", "logo_big.png")" alt="@Model.GetTitle()" /></a></div>
+                                                <div class="col-8">
+                                                    @RenderBody()
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        }
+                        else
+                        {
+                            @RenderBody()
+                        }
+                    </div>
                 </section>
 
                 <!-- Footer -->

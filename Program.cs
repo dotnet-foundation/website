@@ -37,10 +37,9 @@ namespace DotnetFoundationWeb
                     new FilterSources("projects/data/*.md"),
                     new ExecuteConfig(Config.FromContext(ctx =>
                         JsonSerializer.Serialize(ctx.Inputs.Select(x => new {
-                            Title = x.GetString("Title"),
-                            Logo = x.GetString("Logo", "logo_big.png"),
-                            Web = x.GetString("Web", "#"),
+                            Title = x.GetString("Title"),                            
                             Keywords = x.GetString("Keywords"),
+                            Link = x.GetLink(),
                             Content = x.GetContentStringAsync().GetAwaiter().GetResult()
                         })
                     )))
