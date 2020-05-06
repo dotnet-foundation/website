@@ -14,6 +14,7 @@ String.prototype.isLetter = function () {
 let formInput = document.getElementById('textToSearch'),
     formSubmit = document.getElementById('search-projects'),
     presetProjects = document.getElementById('PresetProjects'),
+    searchResults = document.getElementById('SearchResults')
     totalFilteredDocuments = 0,
   projects = [];
 
@@ -25,19 +26,12 @@ $('#back-button').on('click', () => {
   $('#foundation-description').css('display', 'block');
   $('#back-button').css('display', 'none');
   $('#submit-button').css('display', 'inline-block');
-  loadLists([...projects]);
+
+     searchResults.hidden = true;
+        presetProjects.hidden = false;
   formInput.value = '';
 })
 
-let projectItem = (item) =>(
-    `<article class="row">
-      <div class="col-4"><a href="${item.Web}"><img class="img-responsive contrib-logos" src="assets/projects/${item.Logo}" alt="${item.Title}"></a></div>
-      <div class="col-8">
-        ${item.Content}
-      </div>
-    </article>
-    <hr>`
-);
 
 let projectsRow = (items) => (
   `<div class="row">
@@ -47,8 +41,8 @@ let projectsRow = (items) => (
           <div class="alph-box">
             <div class="letter">${item.title}</div>
             <div class="list">
-              ${item.data.map((li) => (
-                `<a class="project-item" data-project='${li.Title}'>${li.Title}</a>`
+              ${item.data.sort((a, b) => a.Title.localeCompare(b.Title)).map((li) => (
+                  `<a class="project-item" href='${li.Link}' data-project='${li.Title}'>${li.Title}</a>`
               )).join('')}
             </div>
           </div>
@@ -67,24 +61,6 @@ let projectsList = (list) => {
   return html;
 };
 
-let addEventListenerToListItems = () => {
-  let items = document.querySelectorAll('.project-item');
-  items.forEach(function (item) {
-    item.addEventListener("click", function (event) {
-      let projectName = event.target.getAttribute('data-project');
-      let project = projects.find((p) => p.Title === projectName)
-      selectProject(project);
-      $('#search').css('display', 'none');
-      $('#foundation-description').css('display', 'none');
-      $('#back-button').css('display', 'inline-block');
-      $('#search-description').html('');
-    });
-  });
-};
-
-const selectProject = (project) => {
-  presetProjects.innerHTML = projectItem(project);
-}
 
 const getAlphabeticallyOrderedArray = (list) => {
   if (list.length === 0) {
@@ -134,7 +110,8 @@ let searchProjects = () => {
     let textToSearch = formInput.value.toLowerCase();
     let newProjects = [];
     if (textToSearch === "") {
-      newProjects = [...projects];
+        searchResults.hidden = true;
+        presetProjects.hidden = false;
       totalFilteredDocuments = projects.length; 
       $('#search-description').html('');
       $('#search').css('display', 'block');
@@ -148,18 +125,23 @@ let searchProjects = () => {
                 newProjects.push(p);
             }
         });
-      totalFilteredDocuments = newProjects.length;
+        totalFilteredDocuments = newProjects.length;
+
+        searchResults.hidden = false;
+        presetProjects.hidden = true;
       $('#search-description').html(`Showing search results for "${formInput.value}"`);
       $('#search').css('display', 'none');
       $('#foundation-description').css('display', 'none');
       $('#back-button').css('display', 'inline-block');
       $('#submit-button').css('display', 'none');
-  }
-  //  loadLists(newProjects);
+    }
+
+
+    loadLists(newProjects);
 };
 
 let loadLists = (projectsToShow) => {
-  presetProjects.innerHTML = projectsList(projectsToShow);
-  addEventListenerToListItems();
+
+    searchResults.innerHTML = projectsList(projectsToShow);
 };
 
