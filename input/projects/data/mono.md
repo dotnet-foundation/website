@@ -1,7 +1,4 @@
 Title: Mono
-Contributor:
-Logo:
-Web:
 Enabled: false
 ---
 # Mono

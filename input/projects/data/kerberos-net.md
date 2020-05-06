@@ -1,6 +1,5 @@
 Title: Kerberos.NET
 Contributor: Steve Syfuhs
-Logo:
 Web: https://syfuhs.net/
 ---
 # Kerberos.NET

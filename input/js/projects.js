@@ -11,8 +11,6 @@ String.prototype.isLetter = function () {
     return c.toLowerCase() !== c.toUpperCase();
 }
 
-var converter = new showdown.Converter();
-
 let formInput = document.getElementById('textToSearch'),
     formSubmit = document.getElementById('search-projects'),
     presetProjects = document.getElementById('PresetProjects'),
@@ -35,7 +33,7 @@ let projectItem = (item) =>(
     `<article class="row">
       <div class="col-4"><a href="${item.Web}"><img class="img-responsive contrib-logos" src="assets/projects/${item.Logo}" alt="${item.Title}"></a></div>
       <div class="col-8">
-        ${converter.makeHtml(item.Content)}
+        ${item.Content}
       </div>
     </article>
     <hr>`

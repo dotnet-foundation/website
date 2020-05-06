@@ -1,7 +1,4 @@
 Title: Newtonsoft.Json
-Contributor:
-Logo:
-Web:
 Enabled: false
 ---
 # Newtonsoft.Json

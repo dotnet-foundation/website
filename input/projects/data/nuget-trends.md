@@ -1,7 +1,5 @@
 Title: NuGet Trends
 Contributor: NuGet Trends
-Logo:
-Web:
 ---
 # NuGet Trends
 

@@ -1,6 +1,5 @@
 Title: linq2db
 Contributor: linq2db
-Logo:
 Web: https://github.com/linq2db/linq2db/
 ---
 # linq2db

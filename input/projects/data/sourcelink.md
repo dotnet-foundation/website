@@ -1,7 +1,4 @@
 Title: SourceLink
-Contributor:
-Logo:
-Web:
 Enabled: false
 ---
 # SourceLink

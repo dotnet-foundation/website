@@ -1,7 +1,4 @@
 Title: MvvmCross
-Contributor:
-Logo:
-Web:
 Enabled: false
 ---
 # MvvmCross
