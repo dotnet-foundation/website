@@ -15,7 +15,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: run
-    projects: *.csproj
+    projects: "*.csproj"
     arguments: -c $(BuildConfiguration)
   displayName: Build and Run Statiq
 
