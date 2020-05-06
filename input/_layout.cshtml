@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="@DotnetFoundationWeb.AppSettings.Lang">
+<head>
+    @Html.Partial("_partials/_head")
+
+    @RenderSection("head", required: false)
+</head>
+<body class="d-flex flex-column">
+    @Html.Partial("_partials/_header")
+
+    <div id="site_wrapper" class="container-fluid cs-container flex-fill">
+        <div class="row">
+            <main id="site_container" role="main" class="col order-3">
+                <section class="body-section">
+                  <div class="body-container">
+                    @if (Model.GetBool("IsHome") && DotnetFoundationWeb.AppSettings.IsCampaignOpen)
+                    {
+                      @Html.Partial("_partials/_elections-banner")
+                    }
+                    @if (string.Equals(Model.GetString("LayoutRef"), "blog", StringComparison.OrdinalIgnoreCase))
+                    {
+                      <section class="page-section page-section">
+                        <div class="page-section_container container">
+                          <div class="page-section_row row">
+                            <div class="col-12">
+                              <div class="row">
+                                <div class="col-md-9">
+                                  <h1 class="text-primary">@(Model.GetString(Keys.Title) ?? Model.GetString(Keys.Title))</h1>
+                                  <div class="bh">
+                                    <time datetime="@Model.GetString(" Published")" itemprop="datePublished">@Model.GetDateTime("Published").ToString("MMMM dd, yyyy")</time>
+                                  </div>
+                                  <hr />
+                                  @RenderBody()
+                                </div>
+                                <div class="col-md-3">
+                                  @Html.Partial("blog/_archives")
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    }
+                    else
+                    {
+                      @RenderBody()
+                    }
+                  </div>
+                </section>
+
+                <!-- Footer -->
+                @Html.Partial("_partials/_footer")
+                <!-- Footer End -->
+            </main>
+        </div>
+    </div>
+
+    @if (string.IsNullOrEmpty(DotnetFoundationWeb.AppSettings.GoogleAnalytics))
+    {
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', '@DotnetFoundationWeb.AppSettings.GoogleAnalytics', 'auto');
+            ga('set', 'anonymizeIp', true);
+            ga('send', 'pageview');
+        </script>
+    }
+    @if (Model.GetBool("IsHome"))
+    {
+        <script src="js/home.js"></script>
+    }
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js" data-no-mirror=data-no-mirror></script>
+</body>
+</html>

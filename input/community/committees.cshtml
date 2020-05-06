@@ -1,0 +1,35 @@
+---
+layout: _layout
+permalink: community/committees
+---
+<section class="page-section page-section--purple">
+  <div class="page-section_container container">
+    <div class="page-section_row row">
+      <div class="page-section_column col-12 text-center">
+        <h1>
+          Committees
+        </h1>
+        <p class="mx-auto">
+          Committees are where the vast majority of work gets done in the Foundation. The more you participate the more we can do together!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section page-section">
+  <div class="page-section_container container">
+    <div class="page-section_row row">
+      <article class="col-md-12">
+        <div class="media-list" id="blog-feeds">
+          @Html.Partial("../_partials/_committee-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Data)]
+              .Flatten()
+              .FilterSources("community/committees/*")
+              .OrderByDescending(doc => doc.GetInt("Order")))
+        </div>
+      </article>
+    </div>
+    <br />
+    <br />
+  </div>
+</section>

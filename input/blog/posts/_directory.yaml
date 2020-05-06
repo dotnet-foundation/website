@@ -1,0 +1,6 @@
+DestinationPath: |
+  => new NormalizedPath("blog")
+    / doc.Get<DateTime>(WebKeys.Published).ToString("yyyy/MM/dd")
+    / (doc.ContainsKey("Slug")
+      ? doc.Destination.ChangeFileName(doc.GetString("Slug")).ChangeExtension(".html")
+      : Destination.FileName.ChangeExtension(".html"))

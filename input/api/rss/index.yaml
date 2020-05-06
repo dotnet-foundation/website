@@ -1,0 +1,4 @@
+FeedRss: true
+FeedSources: "blog/posts/*"
+FeedOrderKey: Published
+FeedOrderDescending: true

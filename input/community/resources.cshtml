@@ -1,0 +1,58 @@
+---
+layout: _layout
+permalink: /community/resources
+title: ".NET Presentations: Events in a Box!"
+description: "Welcome to .NET \"Presentations in a Box.\"  We have a listing of workshops and presentations YOU can use AND contribute to! Remix and share, and present at Meetups, User Groups, CodeCamps, or Conferences! Not familiar with .NET? Download open source .NET Core for any OS at <a href=\"http://dot.net\">http://dot.net</a> or try it in your browser at <a href=\"http://try.dot.net\">http://try.dot.net</a> now!"
+---
+
+<section class="page-section page-section--purple">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="page-section_column col-12 text-center">
+                <h2 id="net-presentations-events-in-a-box">
+                    .NET Presentations: Events in a Box!
+                    <a class="anchorjs-link " href="#net-presentations-events-in-a-box" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
+                </h2>
+                <p class="mx-auto">
+                    Welcome to .NET "Presentations in a Box."  We have a listing of workshops and presentations YOU can use AND contribute to! Remix and share, and present at Meetups, User Groups, CodeCamps, or Conferences! Not familiar with .NET? Download open source .NET Core for any OS at <a href="http://dot.net">http://dot.net</a> or try it in your browser at <a href="http://try.dot.net">http://try.dot.net</a> now!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section page-section">
+    <div class="page-section_container container">
+        <h2 id="net-conf-2019-"><a href="https://github.com/dotnet-presentations/dotnetconf2019">.NET Conf 2019</a> <img src="img/948dacce-a456-4fd7-82f6-9b0813d04646.jpg" alt=""><a class="anchorjs-link " href="#net-conf-2019-" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+        <p>Here are the presentations from .NET Conf 2019, along with creative content and info you can use to put on your own <a href="https://www.dotnetconf.net/local-events">.NET Conf Local event</a>!</p>
+
+        <h2 id="workshops">Workshops<a class="anchorjs-link " href="#workshops" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                .Flatten()
+                .FilterSources("community/presentations/*")
+                .Where(presentation => string.Equals(presentation.GetString("type"), "workshop", StringComparison.OrdinalIgnoreCase))
+                )
+
+        <h2 id="presentation-decks">Presentation Decks<a class="anchorjs-link " href="#presentation-decks" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                .Flatten()
+                .FilterSources("community/presentations/*")
+                .Where(presentation => string.Equals(presentation.GetString("type"), "deck", StringComparison.OrdinalIgnoreCase))
+                )
+
+        <h2 id="community-e-books-and-tutorials">Community E-Books and Tutorials<a class="anchorjs-link " href="#community-e-books-and-tutorials" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+
+        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                .Flatten()
+                .FilterSources("community/presentations/*")
+                .Where(presentation => string.Equals(presentation.GetString("type"), "tutorial", StringComparison.OrdinalIgnoreCase))
+                )
+
+        <h2 id="got-a-suggestion-or-fix">Got a suggestion or fix?<a class="anchorjs-link " href="#got-a-suggestion-or-fix" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+        <p>This site, as well as all of our content, is open source. Issues and pull requests for this site can be contributed <a href="https://github.com/dotnet-presentations/dotnet-presentations.github.io">here</a>, and you can contribute to the workshops and decks in their respective repos.</p>
+
+    </div>
+</section>
