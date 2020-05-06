@@ -20,6 +20,6 @@
             padding-left: 0.375em;"></a> *@
     </h3>
     <p>
-        @Html.Raw(@presentation.GetString("content"))
+        @Html.Raw(await presentation.GetContentStringAsync())
     </p>
 }
