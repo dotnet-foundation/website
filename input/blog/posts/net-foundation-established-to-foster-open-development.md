@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: .NET Foundation Established to Foster Open Development
 Author: 
 Published: 2014-04-03 17:05:00.0000000

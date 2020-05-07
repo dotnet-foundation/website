@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Welcoming ImageSharp, AngleSharp, and Coverlet to the .NET Foundation!
 Author: Jon Galloway
 Published: 2019-05-03 16:17:14.5413080

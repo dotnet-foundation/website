@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Welcome Json.NET to the .NET Foundation!
 Author: Jon Galloway
 Published: 2018-11-27 17:57:52.7882454

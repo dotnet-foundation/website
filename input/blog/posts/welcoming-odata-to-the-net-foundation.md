@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Welcoming OData to the .NET Foundation!
 Author: Jon Galloway
 Published: 2019-06-03 16:50:33.6316018

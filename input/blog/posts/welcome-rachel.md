@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: New Community Director, Rachel Reese
 Author: 
 Published: 2016-07-21 18:17:00.0000000

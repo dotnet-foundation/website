@@ -27,6 +27,7 @@ namespace DotnetFoundationWeb
         .CreateWeb(args)
         .AddSetting(Keys.Host, "dotnetfoundation.org")
         .AddSetting(Keys.LinksUseHttps, true)
+        .AddSetting(WebKeys.MirrorResources, true)
         .BuildPipeline(
             "GenerateProjectsJson",
             builder => builder

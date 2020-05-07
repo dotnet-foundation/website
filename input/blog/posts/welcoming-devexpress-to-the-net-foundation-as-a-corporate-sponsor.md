@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Welcoming DevExpress to the .NET Foundation as a Corporate Sponsor!
 Author: 
 Published: 2020-01-14 13:00:00.0000000

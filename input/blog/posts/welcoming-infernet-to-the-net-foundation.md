@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Welcoming Infer.NET to the .NET Foundation!
 Author: Jon Galloway
 Published: 2018-10-08 22:23:29.9754174

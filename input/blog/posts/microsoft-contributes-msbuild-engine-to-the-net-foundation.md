@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Microsoft Contributes MSBuild Engine to the .NET Foundation
 Author: 
 Published: 2015-03-18 20:51:38.0000000

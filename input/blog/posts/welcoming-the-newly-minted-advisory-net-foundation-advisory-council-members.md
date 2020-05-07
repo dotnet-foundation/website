@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Welcoming the Newly Minted .NET Foundation Advisory Council Members
 Author: 
 Published: 2015-02-23 16:28:00.0000000

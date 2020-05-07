@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Welcome Windows Template Studio
 Author: 
 Published: 2017-07-21 16:33:00.0000000

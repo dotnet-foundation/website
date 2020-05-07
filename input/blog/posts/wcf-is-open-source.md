@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: WCF Client is Open Source
 Author: 
 Published: 2015-05-20 12:44:00.0000000

@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Announcing LLILC - A new LLVM-based Compiler for .NET
 Author: 
 Published: 2015-04-14 14:30:58.0000000
