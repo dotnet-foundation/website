@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Welcome Polly
 Author: 
 Published: 2016-10-25 23:01:00.0000000

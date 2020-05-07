@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Welcome Telerik UI for UWP
 Author: 
 Published: 2017-08-17 18:13:00.0000000

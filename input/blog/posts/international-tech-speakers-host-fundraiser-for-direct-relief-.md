@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: International Tech Speakers Host Fundraiser for Direct Relief
 Author: 
 Published: 2020-04-20 18:05:00.0000000

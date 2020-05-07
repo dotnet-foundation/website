@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Check out .NET Foundation on .NET Rocks!
 Author: Jon Galloway
 Published: 2019-01-09 00:00:42.1863497

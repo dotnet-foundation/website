@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Welcome AutoMapper to the .NET Foundation
 Author: 
 Published: 2017-08-02 21:55:02.0000000

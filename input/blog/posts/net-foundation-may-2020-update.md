@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: .NET Foundation April/May 2020 Update
 Author: Claire Novotny
 Published: 2020-05-06

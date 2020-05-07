@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: .NET Foundation January Update
 Author: Jon Galloway
 Published: 2019-01-31 22:00:00.0000000

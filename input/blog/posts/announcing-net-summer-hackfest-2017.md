@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Announcing .NET Summer Hackfest 2017
 Author: 
 Published: 2017-07-07 20:41:17.0000000

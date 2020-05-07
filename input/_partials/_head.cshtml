@@ -10,10 +10,6 @@
   {
   <title>@Model.GetString("Title")</title>
   }
-  @if (string.Equals(Model.GetString("LayoutRef"), "blog", StringComparison.OrdinalIgnoreCase))
-  {
-    <meta http-equiv="refresh" content="5; url = /blog" />
-  }
   @Html.Partial("_partials/_favicons")
 @if (!string.IsNullOrEmpty(DotnetFoundationWeb.AppSettings.GoogleAnalytics))
     {

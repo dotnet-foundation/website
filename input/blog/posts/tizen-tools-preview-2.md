@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Samsung releases second preview of their .NET tooling for Tizen
 Author: 
 Published: 2017-02-01 15:09:00.0000000

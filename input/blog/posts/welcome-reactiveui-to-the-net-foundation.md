@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Welcome ReactiveUI to the .NET Foundation
 Author: 
 Published: 2017-08-08 00:00:22.0000000

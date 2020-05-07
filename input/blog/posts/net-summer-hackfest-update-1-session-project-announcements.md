@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: ".NET Summer Hackfest Update 1: Session Project Announcements"
 Author: 
 Published: 2017-07-19 20:03:17.0000000

@@ -1,5 +1,4 @@
 ---
-LayoutRef: blog
 Title: Welcoming Protobuild to the .NET Foundation
 Author: 
 Published: 2016-05-11 18:15:00.0000000
