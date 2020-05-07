@@ -1,7 +1,8 @@
-﻿---
+---
 title: Example
 layout: _layout
 image: /img/dot_bot.png
+Excluded: true
 ---
 
 # .NET Foundation Campaign: [Your Name Here]
