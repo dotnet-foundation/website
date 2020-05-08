@@ -34,5 +34,24 @@
         <script src="js/home.js"></script>
     }
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js" data-no-mirror=data-no-mirror></script>
+ <script type="text/javascript" src="//production.cookieconsent.com/releases/3.0.0/cookie-consent.js"></script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"dark","language":"en","website_name":".NET Foundation","cookies_policy_url":"https://dotnetfoundation.org/about/privacy-policy"});
+});
+</script>
+
+@if (!string.IsNullOrEmpty(DotnetFoundationWeb.AppSettings.GoogleAnalytics))
+    {
+<!-- GoogleAnalytics -->
+<script type="text/plain" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=@DotnetFoundationWeb.AppSettings.GoogleAnalytics" crossorigin="anonymous" data-no-mirror=data-no-mirror></script>
+<script type="text/plain" cookie-consent="tracking">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '@DotnetFoundationWeb.AppSettings.GoogleAnalytics');
+</script>
+<!-- end of GoogleAnalytics-->
+}
 </body>
 </html>
