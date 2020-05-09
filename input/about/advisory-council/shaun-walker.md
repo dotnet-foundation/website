@@ -1,6 +1,5 @@
 ---
 title: Shaun Walker (Chair)
-layout: _layout
 image: shaun-walker.jpg
 order: 1
 twitter: sbwalker

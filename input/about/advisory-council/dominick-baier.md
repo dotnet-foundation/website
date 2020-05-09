@@ -1,6 +1,5 @@
 ---
 title: Dominick Baier
-layout: _layout
 image: dominick-baier.jpg
 order: 2
 twitter: sbwalker

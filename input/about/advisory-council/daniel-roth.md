@@ -1,6 +1,5 @@
 ---
 title: Daniel Roth
-layout: _layout
 image: daniel-roth.jpg
 order: 2
 twitter: danroth27

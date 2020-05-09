@@ -1,6 +1,5 @@
 ---
 title: Immo Landwerth
-layout: _layout
 image: immo-landwerth.jpg
 order: 2
 twitter: terrajobst

@@ -1,6 +1,5 @@
 ---
 title: Bill Wagner
-layout: _layout
 image: bill-wagner.jpg
 order: 2
 twitter: billwagner
