@@ -8,4 +8,4 @@ company: GitHub
 advisor: true
 ---
 
-Former Executive Director. Principal Program Manager at Microsoft.
+Former Executive Director. Director of DevRel for GitHub.
