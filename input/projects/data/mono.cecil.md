@@ -12,7 +12,7 @@ Web: http://evain.net/
 
 * [Project Info Site](https://github.com/jbevain/cecil)
 * [Project Code Site](https://github.com/jbevain/cecil)
-* Project License Type: [MIT/X11](https://github.com/jbevain/cecil/blob/master/LICENSE.md)
+* Project License Type: [MIT/X11](https://github.com/jbevain/cecil/blob/master/LICENSE.txt)
 * Project Main Contact : [Jb Evain](https://github.com/jbevain)
 
 ### Quick Links
