@@ -1,8 +1,9 @@
 ---
-Title: Nancy
-Enabled: false
+Title: Nancy 🔚
 ---
 # Nancy
+
+**Note** As of March 14, 2020, Nancy is no longer being maintained. See the [announcment](https://github.com/NancyFx/Nancy/issues/3010) for details.
 
 Nancy is a lightweight, low-ceremony, framework for building HTTP based services on .NET Framework/Core and [Mono](https://mono-project.com). The goal of the framework is to stay out of the way as much as possible and provide a super-duper-happy-path to all interactions.
 
