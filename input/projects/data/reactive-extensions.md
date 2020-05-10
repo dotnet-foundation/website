@@ -1,7 +1,7 @@
 ---
 Title: Reactive Extensions for .NET
 Contributor: Microsoft
-Logo: microsoft.jpg
+Logo: reactive-extensions.png
 Web: http://www.microsoft.com
 ---
 # Reactive Extensions for .NET
