@@ -19,5 +19,5 @@ Web: https://flubucore.dotnetcore.xyz/
 
 * [Documentation](https://flubucore.dotnetcore.xyz/)
 * [Discussions and Help](https://gitter.im/FlubuCore/Lobby)
-* [Contribute] https://github.com/dotnetcore/FlubuCore/blob/master/CONTRIBUTING.md)
-* [Samples] (https://github.com/dotnetcore/FlubuCore.Examples)
+* [Contribute](https://github.com/dotnetcore/FlubuCore/blob/master/CONTRIBUTING.md)
+* [Samples](https://github.com/dotnetcore/FlubuCore.Examples)
