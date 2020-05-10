@@ -7,7 +7,7 @@ Web: https://www.omnisharp.net
 
 # OmniSharp
 
-[OmniSharp](https://www.omnisharp.net/) OmniSharp is a family of Open Source projects, each with one goal: To enable a great .NET experience in YOUR editor of choice
+[OmniSharp](https://www.omnisharp.net/) is a family of Open Source projects, each with one goal: To enable a great .NET experience in YOUR editor of choice
 
 ## Project Details
 
