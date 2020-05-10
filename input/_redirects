@@ -1,2 +1,2 @@
-/api/rss/*  /api/rss/index.xml  200
+/api/rss/*  /api/rss/index.rss  200
 /code-of-conduct    /about/code-of-conduct
