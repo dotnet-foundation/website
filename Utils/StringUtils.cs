@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,6 +20,7 @@ namespace DotnetFoundationWeb.Utils
 
     public static string TruncateHtml(string html, int maxCharacters)
     {
+      html = html.Replace("<p>", "").Replace("</p>", "");
       if (string.IsNullOrEmpty(html) || html.Length <= maxCharacters) return html;
 
       var doc = new HtmlDocument();
