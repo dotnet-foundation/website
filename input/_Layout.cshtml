@@ -9,24 +9,22 @@
     @Html.Partial("_partials/_header")
 
     <div id="site_wrapper" class="container-fluid cs-container flex-fill">
-        <div class="row">
-            <main id="site_container" class="col order-3">
-                <section class="body-section">
-                    <div class="body-container">
-                        @if (Model.GetBool("IsHome") && DotnetFoundationWeb.AppSettings.IsCampaignOpen)
-                        {
-                            @Html.Partial("_partials/_elections-banner")
-                        }
-                        
-                        @RenderBody()
-                    </div>
-                </section>
+        <main id="site_container" class="order-3">
+            <section class="body-section">
+                <div class="body-container">
+                    @if (Model.GetBool("IsHome") && DotnetFoundationWeb.AppSettings.IsCampaignOpen)
+                    {
+                        @Html.Partial("_partials/_elections-banner")
+                    }
+                    
+                    @RenderBody()
+                </div>
+            </section>
 
-                <!-- Footer -->
-                @Html.Partial("_partials/_footer")
-                <!-- Footer End -->
-            </main>
-        </div>
+            <!-- Footer -->
+            @Html.Partial("_partials/_footer")
+            <!-- Footer End -->
+        </main>
     </div>
     
     @if (Model.GetBool("IsHome"))

@@ -43,6 +43,8 @@
 
 .navbar {
     padding-top: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 0;
 }
 
@@ -63,18 +65,7 @@ p {
     margin-bottom: 2rem;
 }
 
-.body-section {
-    width: 100vw;
-}
-
-.body-container {
-    margin-left: calc((100vw - 1140px)/2);
-    max-width: 1140px;
-}
-
 .page-section {
-    width: 100vw;
-    margin-left: calc((100vw - 1140px)/2*-1);
     padding: 3rem 0;
 }
 
@@ -640,7 +631,6 @@ svg.svg-inline--fa {
 
     #site-footer_container {
         position: relative;
-        padding: 0;
     }
 
     #site-footer_menu {
