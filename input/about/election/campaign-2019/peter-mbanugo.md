@@ -20,7 +20,7 @@ Those are similar reasons that made me join as a [co-chair to Node.js Nigeria](h
 My .NET contributions are mostly around blog posts. You'll find some of them on Pluralsight guides, [Telerik's blog](https://www.telerik.com/blogs/author/peter-mbanugo), or my own blog. I also used to run a .NET study group.
 
 ## Links
-* [My blog](http://pmbanugo.me)
+* [My blog](https://pmbanugo.me)
 * Projects I contribute to - 
         - [Node.js Nigeria](https://github.com/nodejsnigeria/admin) 
         - [Hood.ie](https://github.com/hoodiehq)
