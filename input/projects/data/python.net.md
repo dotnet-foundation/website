@@ -14,12 +14,12 @@ Web: https://pythonnet.github.io/
 - [Website](https://pythonnet.github.io/)
 - [Source](https://github.com/pythonnet/pythonnet)
 - License: [MIT](https://github.com/pythonnet/pythonnet/blob/master/LICENSE)
-- Project Lead: [Benedikt Reinartz](https://github.com/filmor)
+- Project Leads: [Benedikt Reinartz](https://github.com/filmor) and [Victor Milovanov](https://github.com/lostmsu)
 
 ## Quicklinks
 
 - [Documentation](https://github.com/pythonnet/pythonnet/wiki)
-- [Mailing list](https://mail.python.org/mailman/listinfo/pythondotnet)
+- [Mailing list](https://mail.python.org/mailman3/lists/pythonnet.python.org/)
 - [Chat (Gitter)](https://gitter.im/pythonnet/pythonnet)
 
 
