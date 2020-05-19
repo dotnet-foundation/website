@@ -55,6 +55,12 @@
     margin-bottom: 1.5rem
 }
 
+@media screen and (max-width: 480px) {
+    .navbar-brand {
+        width: 200px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .container {
         max-width: 100%;
@@ -311,7 +317,8 @@ svg.svg-inline--fa {
 
 @media screen and (max-width: 480px) {
     #site-logo {
-        max-width: 240px;
+        max-width: 200px;
+        width: 100%;
     }
 }
 
