@@ -41,16 +41,13 @@
     animation-name: zoomInUp;
 }
 
-#home-hero {
-    width: 100vw;
-    margin-left: calc((100vw - 1140px)/2*-1);
-}
-
 #home-hero_container {
     background-image: url("../img/home_hero.jpg");
     background-image: url("../img/home_hero.webp");
     padding-top: 13vw;
     padding-bottom: 8vw;
+    padding-left: 15px;
+    padding-right: 15px;
     background-size: cover;
     background-position: center center;
     overflow: hidden;
