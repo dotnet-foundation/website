@@ -11,7 +11,7 @@ Web: http://umbraco.com/
 ## Project Details
 * [Project Info Site](https://umbraco.com/) 
 * [Project Code Site](https://github.com/umbraco/Umbraco-CMS) 
-* Project License Type: [MIT](https://github.com/umbraco/Umbraco-CMS/blob/7.2.0/LICENSE.md)
+* Project License Type: [MIT](https://github.com/umbraco/Umbraco-CMS/blob/v8/contrib/LICENSE.md)
 * Project Main Contacts: [Umbraco Team](https://umbraco.com/about-us/team.aspx) 
 
 ## Quicklinks

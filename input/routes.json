@@ -1,0 +1,10 @@
+{ 
+  "ShouldOutput": true,
+  "routes": [ 
+    {
+      "route": "/code-of-conduct",
+      "serve": "/about/code-of-conduct",
+      "statusCode": 301
+    }
+  ]
+} 
