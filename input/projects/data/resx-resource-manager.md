@@ -4,7 +4,7 @@ Contributor: Tom Englert
 Logo: resx-resource-manager.png
 Web: https://github.com/dotnet/ResXResourceManager
 ---
-# ResX Resource Manager ![ResXResourceManager](https://raw.githubusercontent.com/dotnet/ResXResourceManager/master/src/ResXManager.VSIX/32x32.png)
+# ResX Resource Manager
 
 The most popular tool to manage localization of all kind of applications
 
@@ -18,7 +18,7 @@ Various customizable output generators makes it suitable not only for usage in a
 
 ## Project Details
 
-* [GitHub Repo](https://github.com/dotnet/ResXResourceManager)
+* Sources: [GitHub](https://github.com/dotnet/ResXResourceManager)
 * Downloads: 
   - [Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=TomEnglert.ResXManager)
   - [Standalone Application](https://github.com/dotnet/ResXResourceManager/releases/latest/download/Publish.zip)
