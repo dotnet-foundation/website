@@ -704,6 +704,7 @@ svg.svg-inline--fa {
     #search .btn-primary {
         background-color: #e2068c;
         border-color: #e2068c;
+        display: flex;
     }
 
     .container-fluid {
