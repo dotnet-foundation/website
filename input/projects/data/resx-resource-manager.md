@@ -18,7 +18,7 @@ Various customizable output generators makes it suitable not only for usage in a
 
 ## Project Details
 
-* [GitHub Repo](https://github.com/dotnet/ResXResourceManager)
+* Sources: [GitHub](https://github.com/dotnet/ResXResourceManager)
 * Downloads: 
   - [Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=TomEnglert.ResXManager)
   - [Standalone Application](https://github.com/dotnet/ResXResourceManager/releases/latest/download/Publish.zip)
