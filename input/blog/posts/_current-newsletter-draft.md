@@ -14,6 +14,12 @@ Here's the June/July 2020 .NET Foundation update. Every other month, we'll give 
 
 ## Events
 
+### Session recordings for JetBrains .NET Days Online 2020
+
+JetBrains .NET Days Online 2020 is a free virtual event that took place on May 13–14, 2020. We invited 12 community speakers to talk about the topics they are passionate about: from C# and F# to coding practices like refactoring, web, cloud, GraphQL, and even setting up a blog!
+
+The [video recordings are ready to watch](https://pages.jetbrains.com/dotnet-days-2020/dnf)!
+
 ## .NET Foundation Project Updates
 
 
