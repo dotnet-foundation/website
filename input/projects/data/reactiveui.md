@@ -55,4 +55,4 @@ ReactiveUI is inspired by the paradigm of Functional Reactive Programming, which
 * [Meetup](https://reactiveui.net/meetup)
 * [Contribute](https://reactiveui.net/contribute)
 * [Documentation](https://reactiveui.net/docs)
-* [StackOverflow](https://reactiveui.net/stack-overflow)
+* [StackOverflow](https://reactiveui.net/stackoverflow)
