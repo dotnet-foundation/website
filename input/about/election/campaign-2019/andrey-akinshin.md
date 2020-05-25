@@ -23,7 +23,7 @@ image: campaign-2019/764aadea-1e93-48f6-97b8-e226388603ee.jpg
 * **I'm a developer of Rider at JetBrains**  
   [Rider](https://www.jetbrains.com/rider/) is a cross-platform .NET IDE based on the [IntelliJ](https://www.jetbrains.com/idea/) platform and [ReSharper](https://www.jetbrains.com/resharper/). I'm trying to provide the best development experience for .NET, ASP.NET, .NET Core, Xamarin, or Unity applications on Windows, Mac, and Linux. My primary areas of responsibility are NuGet package management, unit testing support, cross-platform development, and IDE performance.
 * **I'm a huge fan of science**  
-  I'm a Ph.D. in Mathematics and Computer Science, the subject of my thesis is "Mathematical and numerical modeling of gene networks artificial regulatory circuits." In my free time, I like to study science, my primary research interests are mathematical biology and bifurcation theory. Previously, I worked as a postdoctoral research fellow in the [Weizmann Institute of Science](http://www.weizmann.ac.il/) and as a research scientist in the [Sobolev Institute of Mathematics SB RAS](http://math.nsc.ru/english.html).
+  I'm a Ph.D. in Mathematics and Computer Science, the subject of my thesis is "Mathematical and numerical modeling of gene networks artificial regulatory circuits." In my free time, I like to study science, my primary research interests are mathematical biology and bifurcation theory. Previously, I worked as a postdoctoral research fellow in the [Weizmann Institute of Science](https://www.weizmann.ac.il/) and as a research scientist in the [Sobolev Institute of Mathematics SB RAS](http://math.nsc.ru/english.html).
 
 ## Why I'm Running
 
@@ -56,4 +56,4 @@ I'm sure that I have enough expertise to help .NET Foundation to make the life o
 
 * Twitter: [@andrey_akinshin](https://twitter.com/andrey_akinshin)
 * GitHub: [@AndreyAkinshin](https://github.com/AndreyAkinshin)
-* StackOverflow: [@AndreyAkinshin](http://stackoverflow.com/users/184842/AndreyAkinshin)
+* StackOverflow: [@AndreyAkinshin](https://stackoverflow.com/users/184842/AndreyAkinshin)

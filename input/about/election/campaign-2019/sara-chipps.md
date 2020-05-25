@@ -11,7 +11,7 @@ location: United States
 # .NET Foundation Campaign: Sara Chipps
 
 ## About Me :dizzy:
-Hello, I'm Sara Chipps and I'm an engineering manager at [Stack Overflow](http://stackoverflow.com), I co-founded [Jewelbots](http://jewelbots.com) and [Girl Develop It](http://girldevelopit.com), I've been building software for 18 years. 
+Hello, I'm Sara Chipps and I'm an engineering manager at [Stack Overflow](https://stackoverflow.com), I co-founded [Jewelbots](http://jewelbots.com) and [Girl Develop It](http://girldevelopit.com), I've been building software for 18 years. 
 
 I cut my teeth on .NET and am now back in the community working at Stack. My first community event ever was the .NET launch in NYC in 2001; I remember thinking "Wow, developers kind of smell funny." Now I'm one of those grizzled developers, I try to smell okay. 
 
@@ -32,12 +32,12 @@ When we think of ColdFusion and Flash we think of closed source platforms and ol
 Both of the above points are moot if we aren't ensuring that .NET coders are working with best in class resources. Empowering working groups with the means to build, communicate, and promote their platforms is a top priority. 
 
 ## My .NET Open Source and Community Contributions :neckbeard: 
-- [ASP.NET MVC Translated for the Web Forms Programmer pt1](http://sarajchipps.com/post/55986259126/aspnet-mvc-translated-for-the-web-forms)
-- [ASP.NET MVC Translated for the Web Forms Programmer pt2](http://sarajchipps.com/post/55986260739/aspnet-mvc-translated-for-the-web-forms)
+- [ASP.NET MVC Translated for the Web Forms Programmer pt1](https://sarajchipps.com/post/55986259126/aspnet-mvc-translated-for-the-web-forms)
+- [ASP.NET MVC Translated for the Web Forms Programmer pt2](https://sarajchipps.com/post/55986260739/aspnet-mvc-translated-for-the-web-forms)
 - [.NET Debugging for Rookies](https://www.datamation.com/entdev/article.php/3775266/NET-Debugging-for-Rookies.htm)
 - [ASP.NET Firestarter: Routing and Controllers](https://channel9.msdn.com/Blogs/egibson/ASPNET-MVC-FireStarter-Routing-and-Controllers)
 - [C# Choose Your Own Adventure Game with Iron Python](https://github.com/SaraJo/Choose-Your-Own-Adventure-)
-- [Herding Code ep90](http://herdingcode.com/herding-code-90-sara-chipps-on-girl-develop-it-and-girls-developing-software/)
+- [Herding Code ep90](https://herdingcode.com/herding-code-90-sara-chipps-on-girl-develop-it-and-girls-developing-software/)
 - [.NET Rocks on Jewelbots](https://player.fm/series/net-rocks-65612/jewelbots-with-sara-chipps)
 - [PDC 2009 Pizza Party](https://blogs.msdn.microsoft.com/peterlau/2009/12/08/connected-show-21-pdc-2009-pizza-party/)
 -  [This Developer's Life 1.0.1](https://www.hanselman.com/blog/?page=190)
