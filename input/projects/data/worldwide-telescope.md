@@ -13,7 +13,7 @@ The data in WorldWide Telescope are not only readily accessible; they are presen
 
 ## Project Details
 
-* [Project Info Site](http://worldwidetelescope.org)
+* [Project Info Site](https://worldwidetelescope.org)
 * [Project Code Repos](https://github.com/worldwidetelescope)
 * Project License Type: [MIT](https://github.com/WorldWideTelescope/wwt-web-client/blob/master/LICENSE.md)
 * Project Main Contact: [Peter K. G. Williams](https://github.com/pkgw)

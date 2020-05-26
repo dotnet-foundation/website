@@ -10,7 +10,7 @@ Web: http://www.microsoft.com
 
 ## Project Details
 * [Project Info Site](https://katanaproject.codeplex.com/) 
-* [Project Code Site](http://katanaproject.codeplex.com/SourceControl/latest#src/) 
+* [Project Code Site](https://katanaproject.codeplex.com/SourceControl/latest#src/) 
 * Project License Type: [Apache License 2.0](https://katanaproject.codeplex.com/license)
 * Project Main Contact: [Daniel Roth](https://www.codeplex.com/site/users/view/danroth27)
 

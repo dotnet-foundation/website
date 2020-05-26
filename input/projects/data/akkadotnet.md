@@ -19,6 +19,6 @@ Keywords: .Net, Open-Source
 
 * [Contribute](https://github.com/akkadotnet/akka.net/blob/dev/CONTRIBUTING.md) 
 * [Documentation](https://getakka.net/articles/intro/what-is-akka.html)
-* [Discussions](http://gitter.im/akkadotnet/akka.net)
+* [Discussions](https://gitter.im/akkadotnet/akka.net)
 * Twitter [@AkkaDotNet](https://twitter.com/AkkaDotNet)
-* StackOverflow Tag: [akka.net](http://stackoverflow.com/questions/tagged/akka.net)
+* StackOverflow Tag: [akka.net](https://stackoverflow.com/questions/tagged/akka.net)

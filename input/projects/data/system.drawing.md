@@ -6,10 +6,10 @@ Web: http://www.mono-project.com/
 ---
 # System.Drawing (Mono)
 
-[System.Drawing](http://www.mono-project.com/Drawing) is a cross platform open source implementation of Microsoft's System.Drawing namespace used to draw.
+[System.Drawing](https://www.mono-project.com/Drawing) is a cross platform open source implementation of Microsoft's System.Drawing namespace used to draw.
 
 ## Project Details
-* [Project Info Site](http://www.mono-project.com/Drawing)
+* [Project Info Site](https://www.mono-project.com/Drawing)
 * [Project Code Site](https://github.com/mono/mono/tree/master/mcs/class/System.Drawing)
 * Project License Type: [MIT](https://github.com/jstedfast/MimeKit/blob/master/License.md)
 
