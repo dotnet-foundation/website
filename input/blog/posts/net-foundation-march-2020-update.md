@@ -13,7 +13,7 @@ The Board voted to tie our [code of conduct](https://dotnetfoundation.org/code-o
 ### Update on Board Elections
 We're postponing our board elections as we work through the transition to our new Executive Director. We are also in the process of hiring a company to help the .NET Foundation administration and want to make sure this is in place before we solicit candidates. The .NET Foundation by-laws do not require an exact date to hold elections and the current Board decided to get streamlined processes in place before the next set of members are elected so that they will be set up for a successful year ahead. 
 
-As always, these are available both on our blog and via e-mail: [Sign up to get the .NET Foundation Update via e-mail](http://eepurl.com/dhL_qb)
+As always, these are available both on our blog and via e-mail: [Sign up to get the .NET Foundation Update via e-mail](https://eepurl.com/dhL_qb)
 
 ## Committee Updates
 
