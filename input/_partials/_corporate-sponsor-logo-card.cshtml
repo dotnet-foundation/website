@@ -6,7 +6,7 @@
         <figure class="corporate-sponsor-card__thumbnail">
             @if (!String.IsNullOrEmpty(sponsor.GetString("logo")))
             {
-                <a href="@sponsor.GetString("url")">
+                <a href="@sponsor.GetString("url")" target="_blank">
                     <img src="@sponsor.GetString("logo")" alt="@sponsor.GetString("name")" />
                 </a>
             }
