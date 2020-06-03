@@ -514,14 +514,14 @@ svg.svg-inline--fa {
     .latest_container--news .latest_date {
         font-size: 14px;
         background-repeat: no-repeat;
-        background-size: 35%;
+        background-size: 55px 45px;
         background-position-x: 50%;
-        background-position-y: 15%;
+        background-position-y: 35%;
     }
 
         .latest_container--news .latest_date span {
             position: relative;
-            margin-bottom: -70px;
+            margin-top: 55px;
             line-height: 1em;
         }
 
@@ -546,6 +546,12 @@ svg.svg-inline--fa {
         .latest_date img {
             max-height: 80px;
         }
+
+    @media screen and (max-width: 767px) {
+        .latest_date {
+            flex-basis: 30%;
+        }
+    }    
 
     .latest_container:nth-child(even) .latest_date {
         background-color: #e1d2e4;
