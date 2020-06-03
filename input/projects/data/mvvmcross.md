@@ -1,6 +1,5 @@
 ---
 Title: MvvmCross
-Enabled: false
 ---
 # MvvmCross
 
