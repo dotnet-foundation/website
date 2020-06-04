@@ -1,5 +1,5 @@
 ---
-title: Board of Directors Elections Policy & Procedures
+title: Board of Directors Election Policy & Procedures
 ---
 
 <section class="page-section page-section">
@@ -7,7 +7,7 @@ title: Board of Directors Elections Policy & Procedures
         <div class="page-section_row row">
             <div class="col-12">
 
-## Board of Directors Elections Policy & Procedures
+## Board of Directors Election Policy & Procedures
 
 June 4, 2020
 
@@ -58,11 +58,11 @@ As the .NET Foundation aspires to operate as an open and inclusive organization,
 
 A Nominating Committee shall be formed by the Board of Directors ahead of each Director election for the purpose of helping to establish a strong slate of candidates for each election. Specifically, the Nominating Committee shall have the following responsibilities:
 
-- Determine what information shall be collected from At-Large Director candidates to assist both its committee and the voting members make informed choices
+- Determine what information shall be collected from At-Large Director candidates to assist both its committee and the voting members to make informed choices
 - Collect all nominations from interested At-Large Director candidates
-- Vet candidates based on established Board of Directors criteria
-- Encourage members within the .NET Foundation to run for election – especially if they meet the established Board of Directors criteria and/or could help the Foundation achieve its Board of Directors diversity goals
-- Present to the Board of Directors the propose slate of candidates for the Director election
+- Vet candidates based on established Board of Directors' criteria
+- Encourage members within the .NET Foundation to run for election – especially if they meet the established Board of Directors' criteria and/or could help the Foundation achieve its Board of Directors' diversity goals
+- Present to the Board of Directors the proposed slate of candidates for the Director election
   - The Nominating Committee shall aim to present no more than three candidates for each available At-Large Director seat
 - Notify each nominee not included in the election slate, summarizing the reasons for their exclusion.
 
