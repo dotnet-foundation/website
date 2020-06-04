@@ -41,7 +41,7 @@ Amended and Restated Effective June 4, 2020
 
 **(a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Board.** The Board shall consist of one director appointed by the Founding Member and up to six directors elected by Members.
 
-**(b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Election Process.** The Board shall adopt a policy (the “Director Election Policy”) that defines eligibility criteria for candidate directors, establishes length of term of service for elected directors, identifies which Members are entitled to vote for directors, and defines a process for the election of directors by eligible Members.
+**(b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Election Process.** The Board shall adopt a policy (the “[Director Election Policy](/about/election/policy)”) that defines eligibility criteria for candidate directors, establishes length of term of service for elected directors, identifies which Members are entitled to vote for directors, and defines a process for the election of directors by eligible Members.
 
 **(c)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Director terms.** The director appointed by the Founding Member will serve until that person is replaced by the Founding Member or otherwise vacates the position. The Founding Member may replace its appointed director at any time in its sole discretion. Elected directors will serve for the term established in the Director Election Policy.
 
