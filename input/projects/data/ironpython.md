@@ -1,6 +1,5 @@
 ---
 Title: DLR/IronPython2/IronPython3
-Enabled: false
 ---
 # DLR/IronPython2/IronPython3
 
