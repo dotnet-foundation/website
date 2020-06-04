@@ -1,4 +1,4 @@
-﻿---
+---
 title: .NET Foundation Bylaws
 layout: _BasicPageLayout
 ---
