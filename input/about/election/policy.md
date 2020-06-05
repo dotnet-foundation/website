@@ -96,8 +96,8 @@ The Board election will continue to use [Single Transferable Vote (Scottish rule
 
 ### Key Dates for 2020
 
-- 6/8: Bylaws, details, and summary on the website. Membership Committee begins forming Nominating Committee.
-- 6/12: Membership Committee selects nominating committee.
+- 6/8: Bylaws, details, and summary on the website. Board of Directors begins forming Nominating Committee.
+- 6/12: Board of Directors selects nominating committee.
 - 6/15: Announce Nominating Committee members and open nomination process.
 - 6/26: Nominating Committee closes nominations.
 - 7/3: Nominating Committee tells the board the slate.
