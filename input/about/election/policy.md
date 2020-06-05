@@ -75,10 +75,10 @@ The members of the Nominating Committee shall be appointed by the Board of Direc
 - No company may have more than one employee as a member of the nominating committee.
 - Non-members of the Foundation with relevant knowledge of the Foundation and relevant experience or skills may serve on the Nominating Committee, except as otherwise set forth in this policy.  
 - A current Director can serve on the Nominating Committee, only if they are not planning to run for re-election.
-- Persons are not eligible to serve on the Nominating Committee if they plan to be candidates in the current election.
+- Persons are not eligible to serve on the Nominating Committee and also be candidates in the current election.
 - The Foundation’s Executive Director shall not be part of the Nominating Committee
 
-Virtual Inc will project manage the Nominating Committee and be responsible for scheduling meetings, tracking progress, and record keeping.
+A vendor will project manage the Nominating Committee and be responsible for scheduling meetings, tracking progress, and record keeping.
 
 In the future, former Directors may be invited to become *ex officio* to the Nominating Committee.
 
@@ -97,7 +97,7 @@ The Board election will continue to use [Single Transferable Vote (Scottish rule
 ### Key Dates for 2020
 
 - 6/8: Bylaws, details, and summary on the website. Board of Directors begins forming Nominating Committee.
-- 6/12: Board of Directors selects nominating committee.
+- 6/12: Board of Directors selects Nominating Committee.
 - 6/15: Announce Nominating Committee members and open nomination process.
 - 6/26: Nominating Committee closes nominations.
 - 7/3: Nominating Committee tells the board the slate.
