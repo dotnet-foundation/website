@@ -35,7 +35,7 @@ In the event that an At-Large Director resigns or is removed prior to the end of
 
 ### Maximum Terms
 
-An At-Large Director may serve for a maximum of two consecutive terms.
+An At-Large Director may serve for a maximum of two consecutive terms. After two consecutive terms, an At-Large Director may run again after one year.
 
 If a replacement At-Large Director serves for at least half of the original term of the replaced Director, they will be considered to have served a full term for purposes of maximum terms. If they served for less than half of the original term, then such service will not be considered for purposes of the maximum two consecutive term restriction.  
 There is no limit on the total number non-consecutive terms an individual may serve as At-Large Director, provided they do not exceed the two consecutive term limitation.
@@ -72,6 +72,7 @@ The members of the Nominating Committee shall be appointed by the Board of Direc
 
 - The Nominating Committee must consist of at least three persons, but not more than five.
 - Any individual member of the Foundation in good standing may serve on the Nominating Committee, except as otherwise set forth in this policy.
+- No company may have more than one employee as a member of the nominating committee.
 - Non-members of the Foundation with relevant knowledge of the Foundation and relevant experience or skills may serve on the Nominating Committee, except as otherwise set forth in this policy.  
 - A current Director can serve on the Nominating Committee, only if they are not planning to run for re-election.
 - Persons are not eligible to serve on the Nominating Committee if they plan to be candidates in the current election.
@@ -79,7 +80,7 @@ The members of the Nominating Committee shall be appointed by the Board of Direc
 
 Virtual Inc will project manage the Nominating Committee and be responsible for scheduling meetings, tracking progress, and record keeping.
 
-In the future, former Directors may be invited to provide guidance to the Nominating Committee.
+In the future, former Directors may be invited to become *ex officio* to the Nominating Committee.
 
 ### Election Schedule
 
