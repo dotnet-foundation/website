@@ -22,7 +22,7 @@ I'm pleased to announce that the 2020 election process has begun! We have iterat
 
 ### How to Participate
 
-Members in good standing, with dues paid (or waived), are eligible to participate. Any pending member applications will be processed before the voting begins. You can check your membership status [here](https://dotnetfoundation.org/member/profile)
+Members in good standing, with dues paid (or waived), are eligible to participate. Any membership applications submitted before July 18th at 12pm Pacific time will be processed before the voting begins. You can check your membership status [here](https://dotnetfoundation.org/member/profile)
 
 Follow us on Twitter [@dotnetfdn](https://twitter.com/dotnetfdn) and [sign up](http://eepurl.com/dhL_qb) for our [Newsletter](https://dotnetfoundation.org/news) to get updates on the process, including details on how to submit nominations to the Nomination Committee.
 
