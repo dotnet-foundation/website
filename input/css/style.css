@@ -1342,6 +1342,17 @@ svg:not(:root).svg-inline--fa {
     cursor: pointer;
 }
 
+@media screen and (max-width: 475px) {
+    .tabbed-index a {
+        min-width: auto;
+        padding: 7px 15px;
+    }
+}
+
+.tabbed-index a:last-child {
+    margin-right: 0;
+}
+
 .tabbed-index a.selected {
     background: #682077;
     color: white;
