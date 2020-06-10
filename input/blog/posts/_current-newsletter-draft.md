@@ -22,6 +22,39 @@ The [video recordings are ready to watch](https://pages.jetbrains.com/dotnet-day
 
 ## .NET Foundation Project Updates
 
+### [ASP.NET AJAX Control Toolkit v20.1.0 - Now Available](https://community.devexpress.com/blogs/aspnet/archive/2020/06/10/asp-net-ajax-control-toolkit-v20-1-0-now-available.aspx)
+
+A few years ago, we took over maintenance and guidance for the ASP.NET AJAX Control Toolkit project. Please refer to this [blog post](https://community.devexpress.com/blogs/aspnet/archive/2014/09/22/ajax-control-toolkit-devexpress-offer.aspx) for more information on the project and why we stepped in to assist.
+
+![DevExpress - ASP.NET AJAX Control Toolkit](https://community.devexpress.com/blogs/aspnet/ACT/AJAX-Control-Toolkit-1x3.png).
+
+As part of our ongoing commitment to the project, we’ve released an update ([ASP.NET AJAX Control Toolkit v20.1.0](https://devexpress.com/act)) to address the following issues.
+
+#### Resolved Issues
+
+- `CascadingDropDown` continuously refreshes in Firefox 65 ([#477](https://github.com/DevExpress/AjaxControlToolkit/issues/477))
+- `MaskedEditExtender` with `ClearMaskOnLostFocus=False` adds an extra character at the first position ([#493](https://github.com/DevExpress/AjaxControlToolkit/issues/493))
+- `ListSearchExtender` does not work in Firefox 66+ ([#494](https://github.com/DevExpress/AjaxControlToolkit/issues/494), contributed by [**@TheUlderico**](https://github.com/TheUlderico))
+- `AjaxFileUpload` fails with `<sessionState cookieless="UseUri">` ([#500](https://github.com/DevExpress/AjaxControlToolkit/issues/500))
+- `ReorderList` adds the `opacity` CSS property to the `<LI>` element ([#503](https://github.com/DevExpress/AjaxControlToolkit/issues/503))
+- `SCRIPT1028` error in legacy IE ([#515](https://github.com/DevExpress/AjaxControlToolkit/issues/515), contributed by [**@SIkebe**](https://github.com/SIkebe))
+- `Tabs` control doesn't preserve the active tab when it contains a `LinkButton` with a validator ([#518](https://github.com/DevExpress/AjaxControlToolkit/issues/518))
+- `DragPanelExtender` - JavaScript errors in IE 11 with non-100% zoom ([#522](https://github.com/DevExpress/AjaxControlToolkit/issues/522))
+- The `onchange` handler on a `TextBox` with `AutoComplete` is triggered twice in Google Chrome ([#529](https://github.com/DevExpress/AjaxControlToolkit/issues/529))
+- `HtmlEditorExtender.Decode` - Remove insecure HTML ([#532](https://github.com/DevExpress/AjaxControlToolkit/issues/532))
+
+#### Ready to Upgrade?
+
+To update the ASP.NET AJAX Control Toolkit, please download our most recent installer using the link below.
+
+<a href="https://go.devexpress.com/AjaxControlToolkit_Website_Download.aspx" class="Button Gray" target="_blank">Download</a>
+
+Or, if you prefer, use Nuget:
+
+<a href="http://www.nuget.org/packages/AjaxControlToolkit/" target="_blank">ASP.NET AJAX Control Toolkit Nuget package</a>
+
+As always, we welcome your feedback. Please share your thoughts on this update via [GitHub](https://github.com/DevExpress/AjaxControlToolkit/issues).
+
 
 ## New Projects
 
