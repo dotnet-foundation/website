@@ -53,7 +53,7 @@ Build 2020 was May 19-21 and the first time the event was all digital. The .NET 
 - [C# Today and Tomorrow](https://www.youtube.com/watch?v=vHY6Cv6qtLY)
 - [Modern Web UI with Blazor WebAssembly](https://www.youtube.com/watch?v=My_XOzQWwc4)
 - [Build Native Apps for any Device with .NET](https://www.youtube.com/watch?v=rsO458GwLFg)
-- [Cloud Native Apps with .NET and AKS](https://www.youtube.com/watch?v=HzQgIng_DNE)
+- [Cloud Native Apps with .NET and Azure Kubernetes Services (AKS)](https://www.youtube.com/watch?v=HzQgIng_DNE)
 
 And many more from Build are available [here](https://channel9.msdn.com/Events/Build/2020). Also check out the [dotnet-presentations/build](https://github.com/dotnet-presentations/Build/tree/master/2020) repo for decks & resources from the .NET sessions. 
 
