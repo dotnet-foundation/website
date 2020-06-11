@@ -9,6 +9,8 @@ Here's the June/July 2020 .NET Foundation update. Every other month, we'll give 
 
 ## General news
 
+### Board Elections Update
+We are preparing for our next set of Board elections and some changes are being made to the way we conduct these elections. Namely, a Nominating Committee will solicit and accept candidate applications and vet potential candidates that will then be voted on by members. Additionally, we will begin term staggering of Board members to enhance the continuity of the organization. Please see the [election page on our website](https://dotnetfoundation.org/about/election) for more details and information on how you can submit your nomination!
 
 ## Committee Updates
 
@@ -22,6 +24,20 @@ If you are looking for awesome upcoming user group sessions from around the worl
 
 Our next meeting is Tuesday, 6/16 at 3pEST/12pPST, more information will be sent via email. 
 
+### Marketing
+
+Check out what we're up to by visiting the [wg-marketing](https://github.com/dotnet-foundation/wg-marketing) repo.
+
+#### Member resources
+We'd like to make our members aware of some marketing resources you can take advantage of.
+
+- *Help spread .NET Foundation's message*: Take a look at the [.NET Foundation slides](https://dotnetfoundation.sharepoint.com/:p:/s/Marketing/EbxGONyybLRMoe6MgPNUEi4BdDuEWNLmdfV_s8INO9nWTw?e=mImEov) and use them in your presentations and events.
+- *Promote your .NET open source content, events, project news*: If you'd like to promote something on the .NET Foundation social channels, fill out the [amplification request issue template on our content repo](https://github.com/dotnet-foundation/content/issues/new?assignees=&labels=&template=content-amplification-request.md&title=%5BAMPLIFICATION%5D+-+Title) and we'll get you scheduled.
+- *Write a guest blog post or submit a video to our YouTube*: If you would like to propose creating content like a guest blog post or video, fill out the [content creation request issue template on our content repo](https://github.com/dotnet-foundation/content/issues/new?assignees=&labels=&template=content-creation-request.md&title=%5BCREATION%5D+-+Title) and we'll work with you on getting your content created.
+
+#### .NET branding guidelines
+Microsoft released updated .NET branding guidelines on GitHub [github.com/dotnet/brand](https://github.com/dotnet/brand). The purpose of these guidelines is to provide a framework for communicating with the .NET developer community and establishing a consistent brand identity. This not only includes the logo & typeface but also consistent messaging, terminology, fun illustrations and presentation templates you can use. 
+
 ## Events
 
 ### Session recordings for JetBrains .NET Days Online 2020
@@ -29,6 +45,20 @@ Our next meeting is Tuesday, 6/16 at 3pEST/12pPST, more information will be sent
 JetBrains .NET Days Online 2020 is a free virtual event that took place on May 13–14, 2020. We invited 12 community speakers to talk about the topics they are passionate about: from C# and F# to coding practices like refactoring, web, cloud, GraphQL, and even setting up a blog!
 
 The [video recordings are ready to watch](https://pages.jetbrains.com/dotnet-days-2020/dnf)!
+
+### .NET session recordings from Build 2020
+
+Build 2020 was May 19-21 and the first time the event was all digital. The .NET team had some exciting announcements and presented the following sessions that you can view on-demand.
+- [Journey to one .NET](https://www.youtube.com/watch?v=ctSqiD8BGPM)
+- [C# Today and Tomorrow](https://www.youtube.com/watch?v=vHY6Cv6qtLY)
+- [Modern Web UI with Blazor WebAssembly](https://www.youtube.com/watch?v=My_XOzQWwc4)
+- [Build Native Apps for any Device with .NET](https://www.youtube.com/watch?v=rsO458GwLFg)
+- [Cloud Native Apps with .NET and AKS](https://www.youtube.com/watch?v=HzQgIng_DNE)
+
+And many more from Build are available [here](https://channel9.msdn.com/Events/Build/2020).
+
+### .NET Conf 2020 dates announced: November 10-12!
+.NET Conf is a free, three day virtual developer event co-organized by the .NET community and Microsoft. This year .NET 5.0 will launch at .NET Conf 2020! See the website for more information and save the date! [www.dotnetconf.net](https://www.dotnetconf.net)
 
 ## .NET Foundation Project Updates
 
