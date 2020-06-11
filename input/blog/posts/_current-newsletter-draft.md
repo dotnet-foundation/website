@@ -55,7 +55,7 @@ Build 2020 was May 19-21 and the first time the event was all digital. The .NET 
 - [Build Native Apps for any Device with .NET](https://www.youtube.com/watch?v=rsO458GwLFg)
 - [Cloud Native Apps with .NET and AKS](https://www.youtube.com/watch?v=HzQgIng_DNE)
 
-And many more from Build are available [here](https://channel9.msdn.com/Events/Build/2020).
+And many more from Build are available [here](https://channel9.msdn.com/Events/Build/2020). Also check out the [dotnet-presentations/build](https://github.com/dotnet-presentations/Build/tree/master/2020) repo for decks & resources from the .NET sessions. 
 
 ### .NET Conf 2020 dates announced: November 10-12!
 .NET Conf is a free, three day virtual developer event co-organized by the .NET community and Microsoft. This year .NET 5.0 will launch at .NET Conf 2020! See the website for more information and save the date! [www.dotnetconf.net](https://www.dotnetconf.net)
