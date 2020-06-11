@@ -12,6 +12,16 @@ Here's the June/July 2020 .NET Foundation update. Every other month, we'll give 
 
 ## Committee Updates
 
+### Outreach
+
+This month the outreach group hosted it's first [remote meetup](https://www.meetup.com/dotnet-virtual-user-group/events/270931523/) as part of the [.NET Virtual Meetup group](https://www.meetup.com/dotnet-virtual-user-group/). 
+
+The .NET Foundation has been working on a new initiative to help .NET user groups go virtual with the new [.NET Virtual User Group](https://www.meetup.com/dotnet-virtual-user-group/) program! Let the .NET Foundation take care of all of the streaming so you can focus in on making your meetup awesome and enable developers around the world join in. [Submit your user group session](https://github.com/dotnet-foundation/wg-outreach/issues/new/choose), get scheduled, get promoted, and have your user group. It is a great way to engage with the broader .NET community and keep your user group going during while we are all inside.
+
+If you are looking for awesome upcoming user group sessions from around the world? Then join the [.NET Virtual User Group today!](https://www.meetup.com/dotnet-virtual-user-group/)
+
+Our next meeting is Tuesday, 6/16 at 3pEST/12pPST, more information will be sent via email. 
+
 ## Events
 
 ### Session recordings for JetBrains .NET Days Online 2020
