@@ -16,7 +16,7 @@ We are preparing for our next set of Board elections and some changes are being 
 
 ### Outreach
 
-This month the outreach group hosted it's first [remote meetup](https://www.meetup.com/dotnet-virtual-user-group/events/270931523/) as part of the [.NET Virtual Meetup group](https://www.meetup.com/dotnet-virtual-user-group/). 
+This month the outreach group hosted its first [remote meetup](https://www.meetup.com/dotnet-virtual-user-group/events/270931523/) as part of the [.NET Virtual Meetup group](https://www.meetup.com/dotnet-virtual-user-group/). 
 
 The .NET Foundation has been working on a new initiative to help .NET user groups go virtual with the new [.NET Virtual User Group](https://www.meetup.com/dotnet-virtual-user-group/) program! Let the .NET Foundation take care of all of the streaming so you can focus in on making your meetup awesome and enable developers around the world join in. [Submit your user group session](https://github.com/dotnet-foundation/wg-outreach/issues/new/choose), get scheduled, get promoted, and have your user group. It is a great way to engage with the broader .NET community and keep your user group going during while we are all inside.
 
@@ -53,7 +53,7 @@ Build 2020 was May 19-21 and the first time the event was all digital. The .NET 
 - [C# Today and Tomorrow](https://www.youtube.com/watch?v=vHY6Cv6qtLY)
 - [Modern Web UI with Blazor WebAssembly](https://www.youtube.com/watch?v=My_XOzQWwc4)
 - [Build Native Apps for any Device with .NET](https://www.youtube.com/watch?v=rsO458GwLFg)
-- [Cloud Native Apps with .NET and Azure Kubernetes Services (AKS)](https://www.youtube.com/watch?v=HzQgIng_DNE)
+- [Cloud Native Apps with .NET and Azure Kubernetes Service (AKS)](https://www.youtube.com/watch?v=HzQgIng_DNE)
 
 And many more from Build are available [here](https://channel9.msdn.com/Events/Build/2020). Also check out the [dotnet-presentations/build](https://github.com/dotnet-presentations/Build/tree/master/2020) repo for decks & resources from the .NET sessions. 
 
