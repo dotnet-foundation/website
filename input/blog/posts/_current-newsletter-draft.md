@@ -60,6 +60,8 @@ And many more from Build are available [here](https://channel9.msdn.com/Events/B
 ### .NET Conf 2020 dates announced: November 10-12!
 .NET Conf is a free, three day virtual developer event co-organized by the .NET community and Microsoft. This year .NET 5.0 will launch at .NET Conf 2020! See the website for more information and save the date! [www.dotnetconf.net](https://www.dotnetconf.net)
 
+We're also planning our next .NET Conf: "Focus" event, where we continue focusing on specific .NET topics. July 30 we will present a full day of sessions for *.NET Conf: Focus on Microservices* with some very special guests! Learn more: [focus.dotnetconf.net](https://focus.dotnetconf.net)
+
 ## .NET Foundation Project Updates
 
 ### [ASP.NET AJAX Control Toolkit v20.1.0 - Now Available](https://community.devexpress.com/blogs/aspnet/archive/2020/06/10/asp-net-ajax-control-toolkit-v20-1-0-now-available.aspx)
