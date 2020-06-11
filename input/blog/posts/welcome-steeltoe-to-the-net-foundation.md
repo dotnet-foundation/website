@@ -3,7 +3,7 @@ Title: Welcome Steeltoe to the .NET Foundation!
 Author: Jon Galloway
 Published: 2017-11-15 17:56:00.0000000
 ---
-<p><img src="assets/posts/steeltoe-logo.svg" style="width: 250px; float:right" /></p>
+<p><img src="assets/posts/steeltoe-logo.svg" alt="steeltoe" style="width: 250px; float:right" /></p>
 
 <p>The .NET Foundation is happy to announce that Steeltoe is joining the .NET Foundation!</p>
 

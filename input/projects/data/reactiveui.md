@@ -14,7 +14,7 @@ We believe that code is communication between people, that also happens to run o
 
 Let’s say you have a text field, and whenever the user types something into it, you want to make a network request which searches for that query. Your designer has requested that this search query automatically execute as the user is typing but your operation team wants guarantees that only one network request is ever in transit and no more frequently than roughly once per second whilst the user is typing.</p>
 
-<img src="assets/projects/search-autocomplete.gif" />
+<img src="assets/projects/search-autocomplete.gif" alt="search autocomplete"/>
 
 ## How would you usually implement this?
 
@@ -28,7 +28,7 @@ Long ago, when computer programming first came to be, machines had to be program
 
 ReactiveUI is inspired by the paradigm of Functional Reactive Programming, which allows you to model user input as a function that changes over time. This is super cool because it allows you to abstract mutable state away from your user interfaces and express the idea around a feature in one readable place whilst improving application testability. Reactive programming can look scary and complex at first glance, but the best way to describe reactive programming is to think of a spreadsheet:
 
-<img src="assets/projects/frp-excel.gif" />
+<img src="assets/projects/frp-excel.gif" alt="frp excel"/>
 
 
 <ul>

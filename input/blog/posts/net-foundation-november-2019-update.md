@@ -76,7 +76,7 @@ This month's update includes:</p>
 
 <p>Our .NET Meetup Pro group helps developers find your group, as well as get involved with local events like .NET Conf Local. If your meetup hasn't joined yet, you can&nbsp;<a href="https://aka.ms/add-dotnet-meetup">right here.</a></p>
 
-<p><img src="assets/posts/31e83145-c125-4696-95ca-ec8f84d56ce2.jpg" /></p>
+<p><img src="assets/posts/31e83145-c125-4696-95ca-ec8f84d56ce2.jpg" alt=".NET Meetup" /></p>
 
 <hr />
 <h3>Connect with the .NET Foundation online</h3>

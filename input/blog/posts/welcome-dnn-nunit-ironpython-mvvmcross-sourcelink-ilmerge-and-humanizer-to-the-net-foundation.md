@@ -5,7 +5,7 @@ Published: 2017-11-16 13:59:00.0000000
 ---
 <p>It’s a big week! Yesterday at Microsoft Connect, we announced that Steeltoe is joining the .NET Foundation. Today, we’re really happy to announce seven more great projects are joining!</p>
 
-<p><img src="assets/posts/dnf-new-projects-nov17.png" style="width:100%" /></p>
+<p><img src="assets/posts/dnf-new-projects-nov17.png" alt="dnf new projects nov17" style="width:100%" /></p>
 
 <p><strong><a href="http://www.dnnsoftware.com/">DNN Platform</a> </strong>(formerly DotNetNuke) is a very popular, full featured CMS Platform with a rich developer community and extension ecosystem. DNN has been a trailblazer in the .NET open source world, <a href="http://www.dnnsoftware.com/community/learn/project-history">released 15 years ago</a> and taking a great leadership role in .NET open source over the years, including of course DNN founder <a href="http://www.siliqon.com/About">Shaun Walker</a>’s chairmanship of the <a href="/about/board-of-directors#team">.NET Foundation’s Advisory Council</a>. Read the <a href="http://www.dnnsoftware.com/community-blog/cid/155466/dnn-has-joined-the-net-foundation">DNN Software team’s announcement post here</a>.</p>
 

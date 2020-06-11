@@ -53,7 +53,7 @@ height: 128px;
 <h3 id="iris-classon">Iris Classon</h3>
 </header>
 
-<figure class="card__thumbnail"><img src="assets/members/iris-classon.jpg" /></figure>
+<figure class="card__thumbnail"><img src="assets/members/iris-classon.jpg" alt="Iris Classon" /></figure>
 <a class="card__button" href="about/election/campaign-2019/iris-classon.html">Learn More</a></article>
 
 <article class="card">
@@ -61,7 +61,7 @@ height: 128px;
 <h3 id="ben-adams">Ben Adams</h3>
 </header>
 
-<figure class="card__thumbnail"><img src="assets/members/ben-adams.jpg" /></figure>
+<figure class="card__thumbnail"><img src="assets/members/ben-adams.jpg" alt="Ben Adams" /></figure>
 <a class="card__button" href="about/election/campaign-2019/ben-adams.html">Learn More</a></article>
 
 <article class="card">
@@ -69,7 +69,7 @@ height: 128px;
 <h3 id="jon-skeet">Jon Skeet</h3>
 </header>
 
-<figure class="card__thumbnail"><img src="assets/members/jon-skeet.jpg" /></figure>
+<figure class="card__thumbnail"><img src="assets/members/jon-skeet.jpg" alt="Jon Skeet" /></figure>
 <a class="card__button" href="about/election/campaign-2019/jon-skeet.html">Learn More</a></article>
 
 <article class="card">
@@ -77,7 +77,7 @@ height: 128px;
 <h3 id="phil-haack">Phil Haack</h3>
 </header>
 
-<figure class="card__thumbnail"><img src="assets/members/phil-haack.jpg" /></figure>
+<figure class="card__thumbnail"><img src="assets/members/phil-haack.jpg" alt="Phil Haack" /></figure>
 <a class="card__button" href="about/election/campaign-2019/phil-haack.html">Learn More</a></article>
 
 <article class="card">
@@ -85,7 +85,7 @@ height: 128px;
 <h3 id="sara-chipps">Sara Chipps</h3>
 </header>
 
-<figure class="card__thumbnail"><img src="assets/members/sara-chipps.png" /></figure>
+<figure class="card__thumbnail"><img src="assets/members/sara-chipps.png" alt="Sara Chipps" /></figure>
 <a class="card__button" href="about/election/campaign-2019/sara-chipps.html">Learn More</a></article>
 
 <article class="card">
@@ -93,7 +93,7 @@ height: 128px;
 <h3 id="claire-novotny">Claire Novotny</h3>
 </header>
 
-<figure class="card__thumbnail"><img src="assets/members/claire-novotny.jpg" /></figure>
+<figure class="card__thumbnail"><img src="assets/members/claire-novotny.jpg" alt="Claire Novotny" /></figure>
 <a class="card__button" href="about/election/campaign-2019/claire-novotny.html">Learn More</a></article>
 
 <article class="card">
@@ -101,7 +101,7 @@ height: 128px;
 <h3 id="beth-massi">Beth Massi</h3>
 </header>
 
-<figure class="card__thumbnail"><img src="assets/members/beth-massi.jpg" /></figure>
+<figure class="card__thumbnail"><img src="assets/members/beth-massi.jpg" alt="Beth Massi" /></figure>
 <a class="card__button" href="about/election/campaign-2019/beth-massi.html">Learn More</a></article>
 </section>
 

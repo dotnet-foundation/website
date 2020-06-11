@@ -7,7 +7,7 @@ image: campaign-2019/58637674-8a9a-42bc-ad62-47447d176f0f.jpg
 # .NET Foundation Campaign: Erik Schierboom
 
 <div align="center">
-  <img src="campaign-2019/58637674-8a9a-42bc-ad62-47447d176f0f.jpg" width="250" />
+  <img src="campaign-2019/58637674-8a9a-42bc-ad62-47447d176f0f.jpg" alt=".NET Foundation Campaign: Erik Schierboom" width="250" />
 </div>
 
 ## Why I'm Running

@@ -70,7 +70,7 @@ This month we published a series of blog posts explaining things in more detail:
 <li>157K Members (+7K)</li>
 </ul>
 
-<p><a href="https://www.meetup.com/pro/dotnet"><img alt="" src="assets/posts/dnf-meetups-dec18.jpg" style="width: 819px; max-width: 100%;" /></a></p>
+<p><a href="https://www.meetup.com/pro/dotnet"><img alt=".Net" src="assets/posts/dnf-meetups-dec18.jpg" style="width: 819px; max-width: 100%;" /></a></p>
 
 <p>We've also started sending newsletters to Meetup organizers, including some links for some free swag for their groups. If your meetup hasn't joined yet, you can&nbsp;<a href="https://aka.ms/add-dotnet-meetup">right here</a>.</p>
 

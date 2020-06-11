@@ -17,7 +17,7 @@ Published: 2016-05-11 18:15:00.0000000
 
 <p>Over time Protobuild evolved to support more platforms; it now supports Windows, Linux, Mac (MonoMac, XamMac and Xamarin.Mac), iOS, tvOS, Android, Ouya, PCL (for bait-and-switch), Windows 8 Apps, Windows Phone 8, Windows Phone 8.1, Web (via <a href="http://jsil.org/">JSIL</a>) and most recently Universal Windows Apps - and you can target all of these platforms for your project just by selecting a drop-down</p>
 
-<p><img width="725" height="436" alt="" src="assets/posts/dimagLogo.png" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><img width="725" height="436" alt="dimag Logo" src="assets/posts/dimagLogo.png" style="display: block; margin-left: auto; margin-right: auto;" /></p>
 
 <p>These days, Protobuild is used by cross-platform projects like <a href="http://www.monogame.net/">MonoGame</a>&nbsp;to manage their projects and dependencies. It's capable of cross-platform package <g class="gr_ gr_39 gr-alert gr_gramm gr_run_anim Punctuation only-del replaceWithoutSep" id="39" data-gr-id="39">management,</g> and provides an automation layer for build server scripts.</p>
 

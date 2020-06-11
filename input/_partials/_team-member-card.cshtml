@@ -5,12 +5,12 @@
     <div class="col-sm-6 col-md-3 profile">
         @if (!string.IsNullOrEmpty(member.GetString("image")))
         {
-            <img class="rounded-image profile-image" width="120" height="120" alt=" "
+            <img class="rounded-image profile-image" width="120" height="120" alt="@member.GetString("title")"
                  src="assets/members/@member.GetString("image")">
         }
         else
         {
-            <img class="rounded-image profile-image" width="120" height="120" alt=" "
+            <img class="rounded-image profile-image" width="120" height="120" alt="@member.GetString("title")"
                  src="img/dot_bot.png">
         }
 

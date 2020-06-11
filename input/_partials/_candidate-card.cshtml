@@ -11,16 +11,16 @@
             {
                 if (candidate.GetString("image").StartsWith("http"))
                 {
-                    <img src="@candidate.GetString("image")" />
+                    <img src="@candidate.GetString("image")" alt="@candidate.GetString("title")"/>
                 }
                 else
                 {
-                    <img src="assets/members/@candidate.GetString("image")" />
+                    <img src="assets/members/@candidate.GetString("image")" alt="@candidate.GetString("title")"/>
                 }
             }
             else
             {
-                <img src="img/dot_bot.png" />
+                <img src="img/dot_bot.png" alt="Default Dot Bot Image"/>
             }
         </figure>
         <a href="@Context.GetLink(candidate).Substring(1)" class="card__button">Learn More</a>

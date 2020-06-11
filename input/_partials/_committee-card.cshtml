@@ -30,11 +30,11 @@
       <div class="committee_img_container d-flex align-items-center justify-content-center">
           @if (!String.IsNullOrEmpty(item.GetString("Image")))
           {
-            <img src="@item.GetString("image")" />
+            <img src="@item.GetString("image")" alt="@item.GetString("title")"/>
           }
           else
           {
-            <img src="img/dot_bot.png" />
+            <img src="img/dot_bot.png" alt="Default Dot Bot Image"/>
           }
       </div>
     </div>

@@ -5,7 +5,7 @@ Published: 2019-09-23 16:56:11.7210757
 ---
 <p>Today, we’re thrilled to announce that AWS is joining the .NET Foundation Corporate Sponsor Program.</p>
 
-<p><img alt="" class="float-right" src="assets/posts/corporate-sponsors-with-aws.png" width="400" /></p>
+<p><img alt="corporate sponsors with aws" class="float-right" src="assets/posts/corporate-sponsors-with-aws.png" width="400" /></p>
 
 <p>AWS joins a growing list of industry leaders in the .NET open source ecosystem who support the .NET Foundation as members, including Microsoft, Google, Red Hat, JetBrains, Unity, Samsung, Pivotal, Insight, and Telerik.</p>
 

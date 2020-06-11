@@ -19,7 +19,7 @@ This month's newsletter includes:</p>
 
 <h2>.NET Conf / .NET Conf Local</h2>
 
-<p><img alt="" src="assets/posts/MSFT_18023_dotNETConf_banners_email800x200_eventInfo_r3_KW.jpg" style="width: 800px; height: 200px;" /></p>
+<p><img alt=".NET Conf Local" src="assets/posts/MSFT_18023_dotNETConf_banners_email800x200_eventInfo_r3_KW.jpg" style="width: 800px; height: 200px;" /></p>
 
 <p><a href="https://dotnetconf.net">.NET Conf 2018</a> was our big live stream training event of the year and the biggest .NET Conf we’ve ever done! We had 41 live sessions – 17 in Channel 9 studios and the last day going an all-nighter with 24 hours of sessions on Twitch and Mixer. We also broadcasted the keynote via Amp Live which bought us a lot of new viewers this year. Additionally we partnered the .NET Foundation with the Visual Studio partner program to pull off a <a href="https://twitter.com/search?q=%23dotnetconf%20%23codeparty&amp;src=typd" originalsrc="https://twitter.com/search?q=%23dotnetconf%20%23codeparty&amp;src=typd" shash="dNuuvBpkaP1yj4iA8mtfv9sZraoHUnzJtsNLn8xa+sjM3Iv7DrHwxUOQH9sWnEOctzx2Mh+JCXvXk9wVmbA63k9Yzg1/B+Au55k51UoAXVp2q4QfmpzdFMjTG+zzGHO+PJwsG96Du5u7T5VrpOObg2D4OaibsvvAh5Hpn+rpY6Y=">virtual attendee party</a> where attendees could win cool prizes like the Surface Go and Xbox.&nbsp;</p>
 
@@ -27,7 +27,7 @@ This month's newsletter includes:</p>
 
 <p>In case you missed it, check out the <a href="https://www.youtube.com/watch?v=qQdGC2jIP8s">.NET Conf keynote with Scott Hunter,&nbsp;Mads Torgersen, and Miguel De Icaza</a>:</p>
 
-<p><a href="https://www.youtube.com/watch?v=qQdGC2jIP8s"><img alt="" src="assets/posts/maxresdefault.jpg" style="width: 1280px; height: 720px;" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=qQdGC2jIP8s"><img alt="max res default" src="assets/posts/maxresdefault.jpg" style="width: 1280px; height: 720px;" /></a></p>
 
 <h3>.NET Conf Local Events<!--3--></h3>
 

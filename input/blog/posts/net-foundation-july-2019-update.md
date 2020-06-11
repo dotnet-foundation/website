@@ -24,7 +24,7 @@ This month's newsletter includes:</p>
 
 <p>We have a new process for submitting project news! Yay! No more cumbersome spreadsheets! Check out the&nbsp;<a href="https://github.com/dotnet-foundation/newsletter/blob/master/README.md">README for more details</a>. We also have a handy&nbsp;<a href="https://www.youtube.com/watch?v=QkrpumELLko&amp;feature=youtu.be">YouTube video</a>&nbsp;that walks through the process.</p>
 
-<p><a href="https://www.youtube.com/watch?v=QkrpumELLko&amp;feature=youtu.be"><img src="assets/posts/c0470106b9ba6699642d2c2fd2bd9b28.png" /></a>&nbsp;</p>
+<p><a href="https://www.youtube.com/watch?v=QkrpumELLko&amp;feature=youtu.be"><img src="assets/posts/c0470106b9ba6699642d2c2fd2bd9b28.png" alt=".Net" /></a>&nbsp;</p>
 
 <hr />
 <h2><a href="https://github.com/dotnet-foundation/projects/projects/1">Project Onboarding Process Improvements</a></h2>
@@ -74,7 +74,7 @@ If you're a .NET Foundation Member, sign up to join an action group:</p>
 <hr />
 <h2>.NET Conf 2019, September 23-25 (<a href="http://www.dotnetconf.net/">www.dotnetconf.net</a>)</h2>
 
-<p><a href="https://www.dotnetconf.net/"><img src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" /></a></p>
+<p><a href="https://www.dotnetconf.net/"><img src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" alt=".Net" /></a></p>
 
 <p>.NET Conf is our annual, free, online virtual event and this year and it’s going to be bigger than ever. .NET Core 3.0 will launch at .NET Conf!<br />
 <br />
@@ -104,7 +104,7 @@ If you're a .NET Foundation Member, sign up to join an action group:</p>
 &nbsp;</p>
 
 <h3><a href="https://cakebuild.net/blog/2019/07/cake-v0.34.0-released">Cake v0.34.0 released</a>&nbsp;&amp;&nbsp;<a href="https://cakebuild.net/blog/2019/07/cake-v0.34.1-released">v0.34.1 released</a><br />
-<img src="assets/posts/B7MGXhhb_400x400.png" style="float: right; height: 128px; width: 128px;" /></h3>
+<img src="assets/posts/B7MGXhhb_400x400.png" alt="cakebuild" style="float: right; height: 128px; width: 128px;" /></h3>
 
 <p>Version 0.34.0 has several features, improvements and bug fixes, full details in the linked blog post but a few highlights in this release:</p>
 
@@ -225,7 +225,7 @@ Huge thanks to our contributors and users! Wouldn't have been possible without y
 
 <p>A few years ago, we took over maintenance and guidance for the ASP.NET AJAX Control Toolkit project. Please refer to this&nbsp;<a href="https://community.devexpress.com/blogs/aspnet/archive/2014/09/22/ajax-control-toolkit-devexpress-offer.aspx">blog post</a>&nbsp;for more information on the project and why we stepped in to assist.</p>
 
-<p><img src="assets/posts/e480cc53-ba2f-490f-9e1e-08da35e6fc57.png" /></p>
+<p><img src="assets/posts/e480cc53-ba2f-490f-9e1e-08da35e6fc57.png" alt=".Net" /></p>
 
 <p>As part of our ongoing commitment to the project, we’ve released an update (<a href="https://devexpress.com/act">ASP.NET AJAX Control Toolkit v19.1.0</a>) to address the following issues.</p>
 
@@ -292,7 +292,7 @@ Huge thanks to our contributors and users! Wouldn't have been possible without y
 <p>Our .NET Meetup Pro group helps developers find your group, as well as get involved with local events like .NET Conf Local. If your meetup hasn't joined yet, you can&nbsp;<a href="https://aka.ms/add-dotnet-meetup">right here.</a><br />
 .</p>
 
-<p><img src="assets/posts/8c7df6eb-b295-4158-b293-9d3416db6e7d.png" /></p>
+<p><img src="assets/posts/8c7df6eb-b295-4158-b293-9d3416db6e7d.png" alt=".NET Meetup" /></p>
 
 <hr />
 <h3>Connect with the .NET Foundation online</h3>

@@ -33,25 +33,25 @@ This month's newsletter includes:</p>
 
 <p>First, all the goodies from the&nbsp;<a href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2019-Launch-Event" target="_blank">Visual Studio 2019 Launch Event</a>:</p>
 
-<p><a href="https://www.youtube.com/watch?v=DANLUUIUrcM" target="" title=""><img alt="" src="assets/posts/1f162626bb47cb7b02ddf694434e140f.png" width="564" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=DANLUUIUrcM" target="" title=""><img alt=".Net" src="assets/posts/1f162626bb47cb7b02ddf694434e140f.png" width="564" /></a></p>
 
 <p>Visual Studio 2019 and Visual Studio 2019 for Mac are now available for download on&nbsp;<a href="https://www.youtube.com/redirect?v=DANLUUIUrcM&amp;redir_token=6dwRdZJWqNmTKHzDXO_B_gP65jR8MTU1Njc4MDcxNUAxNTU2Njk0MzE1&amp;event=video_description&amp;q=https%3A%2F%2Fvisualstudio.com%2Fdownloads" rel="nofollow" spellcheck="false" target="_blank">https://visualstudio.com/downloads</a></p>
 
-<p><a href="https://www.youtube.com/watch?v=cteCGBRUB_4" target="" title=""><img alt="" src="assets/posts/cc835bca2ea5a15970aaa0173c2ecebf.png" width="564" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=cteCGBRUB_4" target="" title=""><img alt=".Net" src="assets/posts/cc835bca2ea5a15970aaa0173c2ecebf.png" width="564" /></a></p>
 
-<p>See what makes .NET Core 3.0 such a big deal for .NET developers no matter what kind of apps you're building. See the productivity and performance improvements and innovative new ways to build and enhance your .NET applications. <a href="https://www.youtube.com/watch?v=vcjj5pT0bSQ" target="" title=""><img alt="" src="assets/posts/8ab1b4f70484311bb03e3fe129232410.png" width="564" /></a></p>
+<p>See what makes .NET Core 3.0 such a big deal for .NET developers no matter what kind of apps you're building. See the productivity and performance improvements and innovative new ways to build and enhance your .NET applications. <a href="https://www.youtube.com/watch?v=vcjj5pT0bSQ" target="" title=""><img alt=".Net" src="assets/posts/8ab1b4f70484311bb03e3fe129232410.png" width="564" /></a></p>
 
 <p>See Visual Studio 2019 in action building modern, cross-platform web apps using ASP.NET Core 3.0 Preview.Visual Studio 2019 in action building modern, cross-platform web apps using ASP.NET Core 3.0 Preview.</p>
 
-<p><a href="https://www.youtube.com/watch?v=KLgSfBbx4Vw" target="" title=""><img alt="" src="assets/posts/f91cb28aeac6bb5f61fb6ea0dbbc1876.png" width="564" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=KLgSfBbx4Vw" target="" title=""><img alt=".Net" src="assets/posts/f91cb28aeac6bb5f61fb6ea0dbbc1876.png" width="564" /></a></p>
 
 <p>Learn how to program the next internet connected toothbrush or industrial IoT device with IoT and Visual Studio 2019.</p>
 
-<p><a href="https://www.youtube.com/watch?v=cCsOvzB3rK8" target="" title=""><img alt="" src="assets/posts/f7365430b5b70746efa9cff3e55ba85e.png" width="564" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=cCsOvzB3rK8" target="" title=""><img alt=".Net" src="assets/posts/f7365430b5b70746efa9cff3e55ba85e.png" width="564" /></a></p>
 
 <p>Who needs fancy data scientists? See how you can infuse custom AI/ML into any .NET application with ease and how Visual Studio 2019 improves your debugging &amp; development experience.</p>
 
-<p><a href="https://www.youtube.com/watch?v=ZsMk8hKEJ1o" target="" title=""><img alt="" src="assets/posts/790b50a0e40d778b1ae844813ee540b0.png" width="564" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=ZsMk8hKEJ1o" target="" title=""><img alt=".Net" src="assets/posts/790b50a0e40d778b1ae844813ee540b0.png" width="564" /></a></p>
 
 <p>What’s new in Visual Studio for Mac 2019? Find out all the new features and capabilities in the IDE and even get a glance of our product roadmap.</p>
 
