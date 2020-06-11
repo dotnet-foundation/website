@@ -1533,14 +1533,6 @@ p.profile-location, p.profile-company {
 }
 
 @media screen and (max-width: 991px) {
-    .main-menu_item a {
-        text-align: left;
-        color: #212529;
-        font-size: 20px;
-        font-weight: 600;
-        margin-left: 2rem;
-    }
-
     .dropdown-menu.show {
         display: none;
     }
@@ -1570,7 +1562,8 @@ p.profile-location, p.profile-company {
         transition: all 0.5s linear;
     }
     .mobile-items a {
-        line-height: 36px;
+        line-height: 24px;
+        font-size: 16px;
     }
 
     .navbar-expand-md .navbar-nav .nav-link {
