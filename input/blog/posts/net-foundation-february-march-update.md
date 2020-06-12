@@ -55,42 +55,42 @@ Excluded: true
 </thead>
 <tbody>
 <tr>
-<td><img src="assets/posts/76425289-a12b3980-6366-11ea-977d-a1cf35af6cf8.png" width="100" /></td>
+<td><img src="assets/posts/76425289-a12b3980-6366-11ea-977d-a1cf35af6cf8.png" width="100" alt="Omnisharp"/></td>
 <td><strong>Omnisharp</strong><br />
 OmniSharp is a set of tooling, editor integrations and libraries that together create an ecosystem that allows you to have a great programming experience no matter what your editor and operating system of choice may be.</td>
 </tr>
 <tr>
-<td><img src="assets/posts/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" width="100" /></td>
+<td><img src="assets/posts/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" alt="Kereberos.NET" width="100" /></td>
 <td><strong>Kereberos.NET</strong><br />
 Kerberos.NET is a managed implementation of the Kerberos authentication protocol used by the majority of production enterprise platforms. Hundreds of millions of enterprise Windows clients authenticate using Kerberos every day but there are noticeable gaps in how these clients seamlessly authenticate to cloud services. This library is intended to bridge those gaps between Windows on-premises model with hybrid cloud services without taking a dependency on any platform.</td>
 </tr>
 <tr>
-<td><img src="assets/posts/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" width="100" /></td>
+<td><img src="assets/posts/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" alt="Nerdbank.Gitversioning" width="100" /></td>
 <td><strong>Nerdbank.Gitversioning</strong><br />
 This package adds precise, semver-compatible git commit information to every assembly, VSIX, NuGet and NPM package, and more. It implicitly supports all cloud build services and CI server software because it simply uses git itself and integrates naturally in MSBuild, gulp and other build scripts.</td>
 </tr>
 <tr>
-<td><img src="assets/posts/76427201-40513080-6369-11ea-9f30-b5146fec6338.png" width="100" /></td>
+<td><img src="assets/posts/76427201-40513080-6369-11ea-9f30-b5146fec6338.png" alt="Nuget Trends" width="100" /></td>
 <td><strong>Nuget Trends</strong><br />
 NuGet Trends holds historical data of NuGet packages download numbers. It's a useful tool for package maintainers to see the download rate of their packages and also for people interested in packages popularity over time. The database has the complete nuget.org catalog which include target framework information. That means that there's a lot more features we can add like TFM adoption overtime, dependency graphs etc.</td>
 </tr>
 <tr>
-<td><img src="assets/posts/76426729-aab5a100-6368-11ea-936f-ab3ac79d957c.png" width="100" /></td>
+<td><img src="assets/posts/76426729-aab5a100-6368-11ea-936f-ab3ac79d957c.png" alt="Fluent Validation" width="100" /></td>
 <td><strong>Fluent Validation</strong><br />
 FluentValidation is a .NET library for building strongly-typed validation rules for objects. Additionally it provides integration for automatic validation within ASP.NET-based projects.</td>
 </tr>
 <tr>
-<td><img src="assets/posts/76426783-bc974400-6368-11ea-90bd-40e3f56daad1.png" width="100" /></td>
+<td><img src="assets/posts/76426783-bc974400-6368-11ea-90bd-40e3f56daad1.png" alt="Marten" width="100" /></td>
 <td><strong>Marten</strong><br />
 Marten gives developers a multi-paradigm framework for modelling, storing and querying data on PostgreSQL. Making use of the battle hardened database engine, Marten transparently exposes the JSON(B) capabilities of PostgreSQL for managing objects and events alike, requiring no ceremony to enable friction-less development. Marten is your object (document) and event store, with bells and whistles attached, be it CRUD, Event Sourcing or anything between.</td>
 </tr>
 <tr>
-<td><img src="assets/posts/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" width="100" /></td>
+<td><img src="assets/posts/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" alt="CoreWF" width="100" /></td>
 <td><strong>CoreWF</strong><br />
 The Windows Workflow Foundation (WF) handles the long-running work of many companies. It powers many applications in all types of businesses. As more developers look into adopting .NET Core, some are asking if WF will be officially ported. This project only ports the WF runtime and ETW tracking provider to the .NET Standard. But much more work is needed before it can substitute for the .NET Framework version.</td>
 </tr>
 <tr>
-<td><img src="assets/posts/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" width="100" /></td>
+<td><img src="assets/posts/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" alt="linq2db" width="100" /></td>
 <td><strong>linq2db</strong><br />
 LINQ to DB is the fastest LINQ database access library offering a simple, light, fast, and type-safe layer between your POCO objects and your database. Architecturally it is one step above micro-ORMs like Dapper, Massive, or PetaPoco, in that you work with LINQ expressions, not with magic strings, while maintaining a thin abstraction layer between your code and the database. Your queries are checked by the C# compiler and allow for easy refactoring. However, it's not as heavy as LINQ to SQL or Entity Framework. There is no change-tracking, so you have to manage that yourself, but on the positive side you get more control and faster access to your data. In other words LINQ to DB is type-safe SQL.</td>
 </tr>

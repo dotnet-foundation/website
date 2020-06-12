@@ -6,7 +6,7 @@ image: campaign-2019/764aadea-1e93-48f6-97b8-e226388603ee.jpg
 
 # .NET Foundation Campaign: Andrey Akinshin
 
-<img src="campaign-2019/764aadea-1e93-48f6-97b8-e226388603ee.jpg" height="200px" />
+<img src="campaign-2019/764aadea-1e93-48f6-97b8-e226388603ee.jpg" alt=".NET Foundation Campaign: Andrey Akinshin" height="200px" />
 
 ## About Me and My .NET Contributions
 

@@ -106,7 +106,7 @@ $(document).ready(function () {
 
 	var presetFeaturedProject = document.getElementById('PresetFeaturedProject');
 
-	let featuredProject = (title, description, link, image) => (
+	let featuredProject = (title, description, link, image, alt) => (
 		`
 			<div class="page-section_column col-sm-7 text-left" id="home-featured-project_container">
 					<h2>Featured Project</h2>
@@ -119,7 +119,7 @@ $(document).ready(function () {
 					</h4>
 			</div>
 			<div class="page-section_column col-sm-5">
-					<img src="${image}" alt="" />
+					<img src="${image}" alt="${alt}" />
 			</div>
 		`
 	);
@@ -136,7 +136,8 @@ $(document).ready(function () {
 		presetFeaturedProject.innerHTML = featuredProject("VisualStudioTips.co.uk",
 			"The inspiration for this project To share the collection of Tips for Visual Studio that I have gathered and use The inspiration for this project To share the collection of Tips for Visual Studio that I have gathered and use What it does Shows how to use features of Visual Studio How you / your team built it Just me.During evenings Challenges you / your team ran into Having to come up with 4 tips at a time(or the 4 column layout would look wrong) Accomplishments that you are / your team is proud of Being mentioned by Martin Beeby at a Tech Meetup What you / your team learned People love keyboard shortcuts, some tips are better known than others What's next for this project? Keep adding more tips.Possibly add videos.",
 			"https://builtwithdot.net/project/463/visualstudiotips.co.uk",
-			"https://images.weserv.nl/?url=https://fluxmatix-public-assets.s3.amazonaws.com/builtwithdotnet/project%20images/tips-for-visual-studio.png");
+			"https://images.weserv.nl/?url=https://fluxmatix-public-assets.s3.amazonaws.com/builtwithdotnet/project%20images/tips-for-visual-studio.png",
+      "Visual studio tips");
 	})
 
 });

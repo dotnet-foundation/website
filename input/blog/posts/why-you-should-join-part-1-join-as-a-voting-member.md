@@ -3,7 +3,7 @@ Title: Why You Should Join, Part 1&#58; Join as a Voting Member
 Author: Jon Galloway
 Published: 2019-01-14 23:26:08.6261720
 ---
-<p><img alt="" src="assets/posts/connect-dnf.png" style="float: right; width: 400px; height: 224px;" />At the Connect event in December, <a href="/blog/2018/12/04/announcing-net-foundation-open-membership">we announced .NET Foundation Open Membership and a new Corporate Sponsor program</a>. We're planning to kick off our first community board member election later this month, so now is a great time to join! Beth Massi and I were guests on the <a href="https://dotnetrocks.com/?show=1611">.NET Rocks podcast</a> earlier this month to review our announcements and talk you into joining, and I'm starting a series of posts to explain things in more detail, as well as to answer some common questions.</p>
+<p><img alt="connect dnf" src="assets/posts/connect-dnf.png" style="float: right; width: 400px; height: 224px;" />At the Connect event in December, <a href="/blog/2018/12/04/announcing-net-foundation-open-membership">we announced .NET Foundation Open Membership and a new Corporate Sponsor program</a>. We're planning to kick off our first community board member election later this month, so now is a great time to join! Beth Massi and I were guests on the <a href="https://dotnetrocks.com/?show=1611">.NET Rocks podcast</a> earlier this month to review our announcements and talk you into joining, and I'm starting a series of posts to explain things in more detail, as well as to answer some common questions.</p>
 
 <p>Here's the planned series, let me know if you've got specific questions on any of these or would like to see more topics covered:</p>
 

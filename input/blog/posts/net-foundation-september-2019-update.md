@@ -82,7 +82,7 @@ Board Member | .NET Foundation</p>
 <br />
 Check out the .NET Conf 2019 Keynote, with tons of demos featuring the brand new .NET Core 3.0:</p>
 
-<p><a href="https://www.youtube.com/watch?v=1xQE2bWkwjo&amp;list=PLReL099Y5nRd04p81Q7p5TtyjCrj9tz1t"><img src="assets/posts/a865e1a3d11238c1fad86766c5725740.png" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=1xQE2bWkwjo&amp;list=PLReL099Y5nRd04p81Q7p5TtyjCrj9tz1t"><img src="assets/posts/a865e1a3d11238c1fad86766c5725740.png" alt=".Net" /></a></p>
 
 <p></p>
 
@@ -94,7 +94,7 @@ Check out the .NET Conf 2019 Keynote, with tons of demos featuring the brand new
 <p><br />
 We've got over 220 .NET Conf Local Events this year, running through the end of October. We sent out some exclusive .NET Conf branded swag to the events, too.&nbsp;<a href="https://www.dotnetconf.net/local-events">Find one near you</a>!<br />
 <br />
-Post your event photos with hashtag&nbsp;<a href="https://twitter.com/hashtag/dotNETConf">#dotNETConf</a>&nbsp;and we might include them in next month's newsletter. Don't forget to tell us where you are - we love to see updates from around the world! <a href="https://www.dotnetconf.net/local-events"><img src="assets/posts/ceab7291-9a1b-4db8-83c9-46c6b2bdf744.jpg" /></a></p>
+Post your event photos with hashtag&nbsp;<a href="https://twitter.com/hashtag/dotNETConf">#dotNETConf</a>&nbsp;and we might include them in next month's newsletter. Don't forget to tell us where you are - we love to see updates from around the world! <a href="https://www.dotnetconf.net/local-events"><img src="assets/posts/ceab7291-9a1b-4db8-83c9-46c6b2bdf744.jpg" alt=".Net" /></a></p>
 
 <p></p>
 
@@ -129,7 +129,7 @@ Help guide our Project Maturity proposal</h3>
 
 <p>Wow! Over 80 Free videos for learning about .NET developer platform and how to use it! Grab them at&nbsp;<a href="https://dotnet.microsoft.com/learn/videos">https://dot.net/videos</a></p>
 
-<p><a href="https://dot.net/videos"><img src="assets/posts/bcd54232-6e7d-4e54-a254-ebf435315975.jpg" /></a></p>
+<p><a href="https://dot.net/videos"><img src="assets/posts/bcd54232-6e7d-4e54-a254-ebf435315975.jpg" alt=".Net"/></a></p>
 
 <p></p>
 
@@ -252,13 +252,13 @@ Help guide our Project Maturity proposal</h3>
 <h2>Hacktoberfest</h2>
 
 <p><br />
-Hey, while we're talking .NET open source projects, now's a great time to contribute and get a free limited edition T-shirt in the process!&nbsp;<a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest&nbsp;</a>is open to anyone - make four pull requests during the month of October and get a T-shirt! <img src="assets/posts/c7bae23e-d0ad-45e3-850f-d2bc2296c5e0.jpg" /></p>
+Hey, while we're talking .NET open source projects, now's a great time to contribute and get a free limited edition T-shirt in the process!&nbsp;<a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest&nbsp;</a>is open to anyone - make four pull requests during the month of October and get a T-shirt! <img src="assets/posts/c7bae23e-d0ad-45e3-850f-d2bc2296c5e0.jpg" alt="Hacktoberfest" /></p>
 
 <hr />
 <h2>.NET Foundation Presentations Updates</h2>
 
 <p><br />
-Want the slides from .NET Conf? You know where to find them - in our one stop shop for .NET Presentations. Grab them from&nbsp;<a href="https://aka.ms/dotnet-presentations">https://aka.ms/dotnet-presentations</a>. <a href="/community/resources"><img src="assets/posts/91a33811-0b6c-4f2f-83e8-3d4f720a84b9.png" /></a></p>
+Want the slides from .NET Conf? You know where to find them - in our one stop shop for .NET Presentations. Grab them from&nbsp;<a href="https://aka.ms/dotnet-presentations">https://aka.ms/dotnet-presentations</a>. <a href="/community/resources"><img src="assets/posts/91a33811-0b6c-4f2f-83e8-3d4f720a84b9.png" alt=".NET Presentations" /></a></p>
 
 <p></p>
 
@@ -278,7 +278,7 @@ Want the slides from .NET Conf? You know where to find them - in our one stop sh
 <p>Our .NET Meetup Pro group helps developers find your group, as well as get involved with local events like .NET Conf Local. If your meetup hasn't joined yet, you can&nbsp;<a href="https://aka.ms/add-dotnet-meetup">right here.</a><br />
 .</p>
 
-<p><img src="assets/posts/31e83145-c125-4696-95ca-ec8f84d56ce2.jpg" /></p>
+<p><img src="assets/posts/31e83145-c125-4696-95ca-ec8f84d56ce2.jpg" alt=".NET Meetup" /></p>
 
 <hr />
 <h3>Connect with the .NET Foundation online</h3>

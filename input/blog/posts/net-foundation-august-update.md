@@ -17,7 +17,7 @@ This month's newsletter includes:</p>
 
 <h2>Get Ready for .NET Conf and .NET Conf Local!</h2>
 
-<p><img alt="" src="assets/posts/MSFT_18023_dotNETConf_banners_email800x200_eventInfo_r3_KW.jpg" style="width: 800px; height: 200px;" /></p>
+<p><img alt=".Net" src="assets/posts/MSFT_18023_dotNETConf_banners_email800x200_eventInfo_r3_KW.jpg" style="width: 800px; height: 200px;" /></p>
 
 <p>Save the date for .NET Conf — a free, 3-day, livestreamed developer conference co-organized by the .NET community and Microsoft.</p>
 

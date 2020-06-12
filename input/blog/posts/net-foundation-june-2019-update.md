@@ -47,7 +47,7 @@ If you're a .NET Foundation Member, sign up to join an action group:</p>
 <hr />
 <h2><strong>.NET Conf 2019, September 23-25 (<a href="http://www.dotnetconf.net">www.dotnetconf.net</a>)</strong></h2>
 
-<p><a href="https://www.dotnetconf.net"><img src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" /></a></p>
+<p><a href="https://www.dotnetconf.net"><img src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" alt="dotnetconf" /></a></p>
 
 <p>.NET Conf is our annual, free, online virtual event and this year and it’s going to be bigger than ever. .NET Core 3.0 will launch at .NET Conf!<br />
 <br />
@@ -107,7 +107,7 @@ If you're a .NET Foundation Member, sign up to join an action group:</p>
 <p>Our .NET Meetup Pro group helps developers find your group, as well as get involved with local events like .NET Conf Local. If your meetup hasn't joined yet, you can&nbsp;<a href="https://aka.ms/add-dotnet-meetup">right here.</a><br />
 .</p>
 
-<p><img src="assets/posts/8fd1e465-9efa-4fc0-8c0f-60b7f5373ba3.jpg" /></p>
+<p><img src="assets/posts/8fd1e465-9efa-4fc0-8c0f-60b7f5373ba3.jpg" alt=".NET Meetup" /></p>
 
 <hr />
 <h3>Connect with the .NET Foundation online</h3>

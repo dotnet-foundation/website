@@ -5,11 +5,11 @@
     <div class="col-sm-6 col-md-4 profile">
         @if (!string.IsNullOrEmpty(member.GetString("image")))
         {
-            <img height="120" class="rounded-image profile-image" alt="ProfilePicture" src="assets/members/@member.GetString("image")">
+            <img height="120" class="rounded-image profile-image" alt="@member.GetString("title")" src="assets/members/@member.GetString("image")">
         }
         else
         {
-            <img height="120" class="rounded-image profile-image" alt="ProfilePicture" src="img/dot_bot.png">
+            <img height="120" class="rounded-image profile-image" alt="@member.GetString("title")" src="img/dot_bot.png">
         }
 
         @if(member.GetBool("advisor"))

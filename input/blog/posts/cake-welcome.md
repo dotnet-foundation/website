@@ -19,7 +19,7 @@ Published: 2016-06-09 18:16:00.0000000
 <li>OS X</li>
 </ul>
 
-<p><img width="801" height="635" alt="" src="assets/posts/cake-screenshot.png" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><img width="801" height="635" alt="cake" src="assets/posts/cake-screenshot.png" style="display: block; margin-left: auto; margin-right: auto;" /></p>
 
 <h2>Why use C#? Aren't there already other build systems out there?</h2>
 

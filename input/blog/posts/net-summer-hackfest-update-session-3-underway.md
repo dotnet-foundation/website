@@ -17,7 +17,7 @@ Published: 2017-08-23 22:16:00.0000000
 
 <p>Here’s a video from the project kickoff during the Humanitarian Toolbox Community Standup from this Tuesday:</p>
 
-<p><a href="https://www.youtube.com/watch?v=BNbsz3o-F1o"><img src="assets/posts/humanitarian-toolbox-hackfest-kickoff.jpg" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=BNbsz3o-F1o"><img src="assets/posts/humanitarian-toolbox-hackfest-kickoff.jpg" alt="humanitarian toolbox hackfest kickoff" /></a></p>
 
 <p>And <a href="https://github.com/HTBox/allReady/blob/master/dotnetSummer.md">here</a>’s all you need to get started.</p>
 
@@ -31,7 +31,7 @@ Published: 2017-08-23 22:16:00.0000000
 
 <p>Here’s the video from the team’s HackFest Kickoff event which tells you everything you need to get started:</p>
 
-<p><a href="https://www.youtube.com/watch?v=iQ4C9elkKeY"><img src="assets/posts/mvvmcross-hackfest-kickoff.jpg" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=iQ4C9elkKeY"><img src="assets/posts/mvvmcross-hackfest-kickoff.jpg" alt="mvvmcross hackfest kickoff" /></a></p>
 
 <h2>Akka.NET</h2>
 

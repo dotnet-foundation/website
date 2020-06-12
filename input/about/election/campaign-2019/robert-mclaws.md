@@ -5,7 +5,7 @@ image: campaign-2019/53609747-504f0580-3b96-11e9-979d-0727bcc63f42.png
 ---
 
 <div align="center">
-  <img src="campaign-2019/53609747-504f0580-3b96-11e9-979d-0727bcc63f42.png" width="200" />
+  <img src="campaign-2019/53609747-504f0580-3b96-11e9-979d-0727bcc63f42.png" alt=".NET Foundation Campaign: Robert McLaws" width="200" />
   <h1> .NET Foundation Campaign: Robert McLaws</h1>
   <p>
     <a href="https://twitter.com/robertmclaws"><img src="https://img.shields.io/badge/twitter-@robertmclaws-55acee.svg?style=for-the-badge&logo=twitter" alt="Twitter - Robert McLaws"></a>  

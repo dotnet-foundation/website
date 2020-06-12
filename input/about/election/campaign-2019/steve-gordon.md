@@ -7,7 +7,7 @@ image: campaign-2019/53630658-7dd49700-3c08-11e9-8329-d5d6f27264c2.png
 # .NET Foundation Campaign: Steve Gordon
 
 <div align="center">
-  <img src="campaign-2019/53630658-7dd49700-3c08-11e9-8329-d5d6f27264c2.png" width="250" />
+  <img src="campaign-2019/53630658-7dd49700-3c08-11e9-8329-d5d6f27264c2.png" alt=".NET Foundation Campaign: Steve Gordon" width="250" />
 </div>
 
 ## Why I'm Running

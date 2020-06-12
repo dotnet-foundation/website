@@ -37,7 +37,7 @@ Speaking of getting involved...</p>
 <p class="mx-auto"><a class="site-button site-button--pink" href="/member/become-a-member">Apply for .NET Foundation Membership</a></p>
 
 <hr />
-<h2><img alt="" src="assets/posts/e0448b2e-2fcc-4539-beb8-55a16f07d9ba.jpg" style="width: 1000px; height: 200px;" /></h2>
+<h2><img alt=".Net" src="assets/posts/e0448b2e-2fcc-4539-beb8-55a16f07d9ba.jpg" style="width: 1000px; height: 200px;" /></h2>
 
 <h2>Visual Studio 2019 launches on April 2nd!</h2>
 
@@ -76,9 +76,9 @@ We have even more releases for you! The&nbsp;<a href="https://marketplace.visual
 <li>188K Members (+17K in the past 90 days!!!!!!)</li>
 </ul>
 
-<p><a href="https://www.meetup.com/pro/dotnet" target="_blank"><img alt="" data-file-id="3214993" height="379" src="assets/posts/8fd1e465-9efa-4fc0-8c0f-60b7f5373ba3.jpg" width="819" /></a></p>
+<p><a href="https://www.meetup.com/pro/dotnet" target="_blank"><img alt=".Net" data-file-id="3214993" height="379" src="assets/posts/8fd1e465-9efa-4fc0-8c0f-60b7f5373ba3.jpg" width="819" /></a></p>
 
-<p><img alt="" src="assets/posts/1c771e40-ae82-42f5-b260-c85f6736f3b1.png" style="width: 1200px; height: 428px;" /></p>
+<p><img alt=".Net" src="assets/posts/1c771e40-ae82-42f5-b260-c85f6736f3b1.png" style="width: 1200px; height: 428px;" /></p>
 
 <p>We've also started sending newsletters to Meetup organizers, including some links for some free swag for their groups. If your meetup hasn't joined yet, you can <a href="https://aka.ms/add-dotnet-meetup">right here</a>.</p>
 

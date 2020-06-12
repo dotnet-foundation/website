@@ -28,7 +28,7 @@ Published: 2019-08-01 00:46:43.2940043
 
 <p>For the tiny team scenario, I show the following <a href="http://www.commitstrip.com/en/2014/05/07/the-truth-behind-open-source-apps/">comic</a> in my slides (used with permission):</p>
 
-<p><img src="assets/posts/the-truth-about-open-source.jpg" style="height:864px; width:598px" /></p>
+<p><img src="assets/posts/the-truth-about-open-source.jpg" alt="the truth about open source" style="height:864px; width:598px" /></p>
 
 <p><em>Source:&nbsp;<a href="http://www.commitstrip.com/en/2014/05/07/the-truth-behind-open-source-apps/">http://www.commitstrip.com/en/2014/05/07/the-truth-behind-open-source-apps/</a></em>&nbsp;</p>
 
