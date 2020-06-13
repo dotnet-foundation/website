@@ -68,7 +68,7 @@ We're also planning our next .NET Conf: "Focus" event, where we continue focusin
 
 A few years ago, we took over maintenance and guidance for the ASP.NET AJAX Control Toolkit project. Please refer to this [blog post](https://community.devexpress.com/blogs/aspnet/archive/2014/09/22/ajax-control-toolkit-devexpress-offer.aspx) for more information on the project and why we stepped in to assist.
 
-![DevExpress - ASP.NET AJAX Control Toolkit](https://community.devexpress.com/blogs/aspnet/ACT/AJAX-Control-Toolkit-1x3.png).
+![DevExpress - ASP.NET AJAX Control Toolkit](https://community.devexpress.com/blogs/aspnet/ACT/Aspnet-AJAX-Controls-Toolkit-blog.png).
 
 As part of our ongoing commitment to the project, we’ve released an update ([ASP.NET AJAX Control Toolkit v20.1.0](https://devexpress.com/act)) to address the following issues.
 
