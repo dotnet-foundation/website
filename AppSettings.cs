@@ -15,7 +15,7 @@ namespace DotnetFoundationWeb
 
     public static string BaseRef { get; set; } = ConfigurationManager.AppSettings["BaseRef"];
 
-    public static string ServerUri { get; set; } = ConfigurationManager.AppSettings["ServerUri"];
+    public static string ServerUrl { get; set; } = ConfigurationManager.AppSettings["ServerUrl"];
 
     public static bool IsCampaignOpen { get; set; }
       = String.Equals(ConfigurationManager.AppSettings["IsCampaignOpen"], "true", StringComparison.OrdinalIgnoreCase);
