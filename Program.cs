@@ -17,9 +17,9 @@ namespace DotnetFoundationWeb
     public static async Task<int> Main(string[] args)
     {
       Func<string, string> formatter = null;
-      if (!string.IsNullOrWhiteSpace(AppSettings.ServerUri))
+      if (!string.IsNullOrWhiteSpace(AppSettings.ServerUrl))
       {
-        var formatterString = AppSettings.ServerUri + "/{0}";
+        var formatterString = AppSettings.ServerUrl + "/{0}";
         formatter = f => string.Format(formatterString, f);
       }
 
