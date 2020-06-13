@@ -13,7 +13,7 @@ Published: 2020-01-14 13:00:00.0000000
 
 <p>For more information, please see the announcement from the DevExpress team&nbsp;<a href="https://community.devexpress.com/blogs/ctodx/archive/2020/01/14/devexpress-is-a-corporate-sponsor-of-the-net-foundation.aspx">here</a>.</p>
 
-<p>For more information about the .NET Foundation’s Corporate Sponsor Program,&nbsp;<a href="/blog/2019/01/16/why-you-should-join-part-2---corporate-sponsor">see this post</a>.</p>
+<p>For more information about the .NET Foundation’s Corporate Sponsor Program,&nbsp;<a href="/blog/2019/01/16/why-you-should-join-part-2-corporate-sponsor">see this post</a>.</p>
 
 <p>Claire Novotny<br />
 Executive Director, .NET Foundation</p>

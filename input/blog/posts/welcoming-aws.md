@@ -13,7 +13,7 @@ Published: 2019-09-23 16:56:11.7210757
 
 <p>For more information, please see the announcement from the AWS team <a href="https://aws.amazon.com/blogs/opensource/aws-joins-the-net-foundation/">here</a>.</p>
 
-<p>For more information about the .NET Foundation’s Corporate Sponsor Program, <a href="/blog/2019/01/16/why-you-should-join-part-2---corporate-sponsor">see this post</a>.</p>
+<p>For more information about the .NET Foundation’s Corporate Sponsor Program, <a href="/blog/2019/01/16/why-you-should-join-part-2-corporate-sponsor">see this post</a>.</p>
 
 <p>Jon Galloway<br />
 Executive Director, .NET Foundation</p>

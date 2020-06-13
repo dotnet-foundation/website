@@ -24,7 +24,7 @@ This month we published a series of blog posts explaining things in more detail:
 
 <ul>
 <li><a href="/blog/2019/01/14/why-you-should-join-part-1-join-as-a-voting-member">Why You Should Join: Part 1 - Voting Member</a></li>
-<li><a href="/blog/2019/01/16/why-you-should-join-part-2---corporate-sponsor">Why You Should Join: Part 2 - Corporate Sponsor</a></li>
+<li><a href="/blog/2019/01/16/why-you-should-join-part-2-corporate-sponsor">Why You Should Join: Part 2 - Corporate Sponsor</a></li>
 <li><a href="/blog/2019/01/23/why-you-should-join-part-3-become-a-board-member" target="_blank">Why You Should Join: Part 3 - Board Member</a></li>
 </ul>
 
