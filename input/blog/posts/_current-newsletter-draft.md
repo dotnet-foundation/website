@@ -125,9 +125,9 @@ You can contact the .NET developer advocacy team at **[aws-dotnetfdn-interest-op
 
 ### Sponsored Meetups
 **Our .NET Foundation sponsored [.NET Meetup Pro groups](https://www.meetup.com/pro/dotnet) are continuing to grow worldwide.** Here are some quick stats:*
-* 353 Groups
+* 355 Groups
 * 62 Countries
-*	281K Members
+*	290K Members
 
 Our .NET Meetup Pro group helps developers find your group, as well as get involved with local events like .NET Conf Local. If your meetup hasn't joined yet, you can [right here](https://aka.ms/add-dotnet-meetup).
 
