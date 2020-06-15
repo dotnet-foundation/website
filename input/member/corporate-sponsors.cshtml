@@ -23,7 +23,7 @@ title: Corporate Sponsors
     <div class="page-section_container container">
         <div class="page-section_row row">
             <div class="col-12">
-                <p>
+                <p> 
                     We're inviting the .NET community to take an active role in guiding and supporting the .NET Foundation,
                     and that includes both individual open source developers and businesses that depend on .NET open source.
                     We think it's really important to involve corporate sponsors as a key part of this change for three reasons.
@@ -45,6 +45,23 @@ title: Corporate Sponsors
                 <p>
                     If you're interested in learning more about the sponsorship program, get in touch: <a href="mailto:contact@dotnetfoundation.org">contact@dotnetfoundation.org</a>
                 </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-section page-section--purple--light" id="corporate-sponsors">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="page-section_column col-lg-12">
+                <h2>Corporate Sponsors</h2>
+                <p>These companies are helping drive the future of .NET. </p>
+                <div class="corporate-sponsor-card-container">
+                    @Html.Partial("../_partials/_corporate-sponsor-logo-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                      .Flatten()
+                      .FilterSources("corporate-sponsors/*.md")
+                      .OrderBy(sponsor => sponsor.GetInt("order"))
+                      )
+                </div>
             </div>
         </div>
     </div>
