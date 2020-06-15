@@ -23,8 +23,20 @@ permalink: about/election
                     Please see the <a href="/about/election/policy">Election Policy</a> for more details. 
                 </p>
                 <p>
-                    The Nominating Committee will be formed by the Board of Directors and announced on June 15th, 2020 at which point candidate applications will be accepted. 
-                    Stay tuned for more information on how you can submit your nomination!
+                    The Nominating Committee members are:
+                    <div class="row">
+                        @Html.Partial("../../_partials/_team-member-card.cshtml",
+                            Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                                .Flatten()
+                                .FilterSources("about/election/nomination-committee-2020/*.md")
+                                .OrderBy(candidate => candidate.GetInt("order"))
+                                .ThenBy(candidate => candidate.GetString("title"))
+                        )
+                    </div>
+                </p>
+
+                <p>
+                    If you are interseted in running, fill out a nomination form <a href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=3G8HFsH8FUqxyjLJolWQDtxAVwyU3HJJo4I9O9ugmk9UMzVFWFIyRlhMV1pBTVlBMFIzWTM0UzRMSS4u" target="_blank">here</a>. The nomination form will be open until June 26th.
                 </p>
 
                 <h2 id="what-does-the.net-foundation-board-do">What does the .NET Foundation Board Do?</h2>
