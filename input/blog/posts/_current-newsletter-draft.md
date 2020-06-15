@@ -10,7 +10,7 @@ Here's the June/July 2020 .NET Foundation update. Every other month, we'll give 
 ## General news
 
 ### Board Elections Update
-We are preparing for our next set of Board elections and some changes are being made to the way we conduct these elections. Namely, a Nominating Committee will solicit and accept candidate applications and vet potential candidates that will then be voted on by members. Additionally, we will begin term staggering of Board members to enhance the continuity of the organization. Please see the [election page on our website](https://dotnetfoundation.org/about/election) for more details and information on how you can submit your nomination!
+We are preparing for our next set of Board elections and some changes are being made to the way we conduct these elections. Namely, a Nominating Committee will solicit and accept candidate applications and vet potential candidates that will then be voted on by members. Additionally, we will begin term staggering of Board members to enhance the continuity of the organization. Please see the [election page on our website](https://dotnetfoundation.org/about/election) for more [details and information on how you can submit your nomination](https://dotnetfoundation.org/about/election/campaign)! Nominations are open now and will close on June 26th. The slate of candidates will be announced on July 7th, beginning a two week campaign period. Elections follow for two weeks using the [same system](https://www.opavote.com/methods/single-transferable-vote) as last year.
 
 ## Committee Updates
 
