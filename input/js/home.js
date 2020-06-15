@@ -78,7 +78,7 @@ $(document).ready(function () {
 				var div = document.createElement("div");
 				div.innerHTML = html;
 				var text = div.textContent || div.innerText || "";
-				var date = new Date(m.event.local_date);
+				var date = new Date(m.event.time);
 				const months = [
 					'January',
 					'February',
