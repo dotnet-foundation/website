@@ -25,7 +25,7 @@ permalink: about/election
                 <p>
                     The Nominating Committee members are:
                     <div class="row">
-                        @Html.Partial("../../_partials/_member-small-card.cshtml",
+                        @Html.Partial("../../_partials/_team-member-card.cshtml",
                             Outputs[nameof(Statiq.Web.Pipelines.Content)]
                                 .Flatten()
                                 .FilterSources("about/election/nomination-committee-2020/*.md")
