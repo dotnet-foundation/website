@@ -167,8 +167,12 @@ p {
     margin-bottom: 0;
 }
 
-.page-section h2, h3, h4 {
+.page-section h1, h2, h3, h4 {
     font-family: 'Bree Serif', serif;
+}
+
+.page-section h1 {
+  font-size: 4rem;
 }
 
 .page-section h2 {
