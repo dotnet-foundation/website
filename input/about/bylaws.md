@@ -9,7 +9,7 @@ layout: _BasicPageLayout
         <div class="page-section_row row">
             <div class="col-12">
 
-## .NET Foundation Bylaws
+# .NET Foundation Bylaws
 
 Amended and Restated Effective June 4, 2020
 
