@@ -9,7 +9,7 @@ title: Board of Directors Election Policy & Procedures
 
 ## Board of Directors Election Policy & Procedures
 
-June 4, 2020
+June 18, 2020
 
 ### Role of the .NET Foundation Board of Directors
 
@@ -42,12 +42,11 @@ There is no limit on the total number non-consecutive terms an individual may se
 
 ### Director Candidate Expectations
 
-Given the critical role of the Foundation’s Board of Directors in managing the Foundation and ensuring its long-term well-being and sustainability, it is imperative that the Foundation’s members elect representatives capable of fulfilling these important responsibilities. As such, general criteria for those seeking to serve on the Foundation’s Board of Directors are as follows:
+Given the critical role of the Foundation’s Board of Directors in managing the Foundation and ensuring its long-term well-being and sustainability, it is imperative that the Foundation’s members elect representatives capable of fulfilling these important responsibilities. As such, some considerations for those seeking to serve on the Foundation’s Board of Directors may include:
 
-- Active voting member of the Foundation in good standing
-- Prior leadership role within the .NET Foundation (e.g., Board Director, Project Leader, Committee chair, etc.)
-- Leadership role within another open source software foundation (e.g., Board Director, Project Leader, Committee chair, etc.)
-- Recent active involvement in the .NET Foundation
+- Prior leadership role within the .NET Foundation or other open source communities (e.g., Board Director, Project Leader, Committee chair, etc.)
+- Meaningful engagements in open source communities
+- Recent active involvement in the .NET community
 - A commitment to dedicate up to ten hours per month on Board responsibilities
 
 ### Diversity Goals
