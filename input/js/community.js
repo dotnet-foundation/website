@@ -5,12 +5,12 @@
     url: "/api/issues",
     async: false,
     success: function (repos) {
-      html += `<div class="card-columns">`;
+      html += `<div class="card-columns" style="text-align:center">`;
 
       repos.forEach((repo) => {
         html += `  <div class="card bg-foundation">
                       <h3>${repo.repoName}</h3>
-                      <div class="card-body text-center">`;
+                      <div class="card-body">`;
 
         html += ``;
         repo.issues.forEach((issue) => {
