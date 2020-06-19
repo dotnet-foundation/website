@@ -20,20 +20,20 @@ class ViewModel {
 async function getIssues() {
   const organization = "dotnet-foundation";
   const repos = [
-    "wg-marketing"//,
-    // "website",
-    // "wg-outreach",
-    // "speaking",
-    // "membership",
-    // "newsletter",
-    // "content",
-    // "projects",
-    // "events",
-    // "wg-education",
-    // "wg-technical-review",
-    // "wg-speakers-and-meetups",
-    // "wg-project-support",
-    // "wg-membership",
+    "wg-marketing",
+    "website",
+    "wg-outreach",
+    "speaking",
+    "membership",
+    "newsletter",
+    "content",
+    "projects",
+    "events",
+    "wg-education",
+    "wg-technical-review",
+    "wg-speakers-and-meetups",
+    "wg-project-support",
+    "wg-membership",
   ];
 
   const issuesByRepoPromises = repos.map((repo) =>
