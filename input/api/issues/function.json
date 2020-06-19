@@ -6,7 +6,8 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "get"
+        "get",
+        "post"
       ]
     },
     {
@@ -14,6 +15,5 @@
       "direction": "out",
       "name": "res"
     }
-  ],
-  "scriptFile": "..\\dist\\issues\\index.js"
+  ]
 }

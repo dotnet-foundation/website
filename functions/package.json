@@ -14,9 +14,7 @@
   "dependencies": {
     "@octokit/rest": "^17.11.0",
     "@octokit/types": "^5.0.0",
-    "coffeescript": "~1.6.3",
-    "rxjs": "^6.5.5",
-    "rxjs-compat": "^6.5.5"
+    "coffeescript": "~1.6.3"
   },
   "devDependencies": {
     "@azure/functions": "^1.0.1-beta2",

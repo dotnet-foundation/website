@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "../input/api",
+    "rootDir": ".",
+    "sourceMap": true,
+    "strict": false
+  }
+}
