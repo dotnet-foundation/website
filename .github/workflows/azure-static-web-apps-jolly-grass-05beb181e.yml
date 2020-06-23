@@ -16,13 +16,19 @@ jobs:
     name: Build and Deploy Job
     steps:
     - uses: actions/checkout@v1
-    
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - run: cd functions && npm install && npm run build
+
     - uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '3.1.201' # SDK Version to use.
     - name: Build
       run: dotnet run --configuration Release
-          
+
     - name: Build And Deploy
       if: github.event.pull_request.head.repo.fork != true
       id: builddeploy

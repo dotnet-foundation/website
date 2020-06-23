@@ -6,7 +6,8 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "coffeescript": "~1.6.3"
+    "coffeescript": "~1.6.3",
+    "@octokit/rest": "^17.11.0"
   },
   "devDependencies": {}
 }
