@@ -1,5 +1,5 @@
 ---
-Title: .NET Summer Hackfest Update&#58; Session 2 Wrap-up
+Title: ".NET Summer Hackfest Update: Session 2 Wrap-up"
 Author: 
 Published: 2017-08-23 21:46:04.0000000
 ---
