@@ -1,5 +1,5 @@
 ---
-Title: .NET Summer Hackfest Update&#58; Session 1 Progress, Session 2 Announcements
+Title: ".NET Summer Hackfest Update: Session 1 Progress, Session 2 Announcements"
 Author: 
 Published: 2017-08-02 23:53:33.0000000
 ---
