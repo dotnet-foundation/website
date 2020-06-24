@@ -11,7 +11,7 @@ Published: 2019-01-23 00:02:25.7173330
 
 <ul>
 <li><u><a href="/blog/2019/01/14/why-you-should-join-part-1-join-as-a-voting-member">Why You Should Join: Part 1 - Voting Member</a></u></li>
-<li><a href="/blog/2019/01/16/why-you-should-join-part-2---corporate-sponsor">Why You Should Join: Part 2 - Corporate Sponsor</a></li>
+<li><a href="/blog/2019/01/16/why-you-should-join-part-2-corporate-sponsor">Why You Should Join: Part 2 - Corporate Sponsor</a></li>
 <li>Why You Should Join: Part 3 - Board Member (this post)</li>
 </ul>
 
