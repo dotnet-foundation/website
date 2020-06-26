@@ -1414,13 +1414,26 @@ svg:not(:root).svg-inline--fa {
   display: flex;
   margin-top: 2rem;
 }
+
+.committee_container:first-child .committee_img_container{
+  margin-top: -10px;
+}
+
 .committee_container h2 {
   margin-top: 0;
 }
-.committee_meta {
-  flex-basis: 80%;
-  padding-left: 10px;
+
+@media screen and (min-width: 768px) {
+  .committee_meta {
+    flex-basis: 80%;
+    padding-left: 10px;
+  }
 }
+
+.committee_meta .committee_img_container {
+  margin: 20px 0;
+}
+
 .committee_img_container {
   min-width: 120px;
   flex-basis: 20%;
