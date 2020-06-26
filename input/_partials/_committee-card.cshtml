@@ -10,6 +10,16 @@
         <p class="latest_copy">@Html.Raw(item.GetString("Description"))</p>
         @if (!String.IsNullOrEmpty(item.GetString("Chairperson")))
         {
+            <div class="committee_img_container d-md-none text-center">
+             @if (!String.IsNullOrEmpty(item.GetString("Image")))
+              {
+                <img src="@item.GetString("image")" alt="@item.GetString("title")"/>
+              }
+              else
+              {
+                <img src="img/dot_bot.png" alt="Default Dot Bot Image"/>
+              }
+            </div>        
           <p class="latest_copy">
             Chairperson: @item.GetString("Chairperson")
           </p>
@@ -27,7 +37,7 @@
           </p>
         }
       </div>
-      <div class="committee_img_container d-flex align-items-center justify-content-center">
+      <div class="committee_img_container align-items-center justify-content-center d-none d-md-flex">
           @if (!String.IsNullOrEmpty(item.GetString("Image")))
           {
             <img src="@item.GetString("image")" alt="@item.GetString("title")"/>
