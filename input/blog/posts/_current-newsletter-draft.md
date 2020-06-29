@@ -1,32 +1,24 @@
 ---
-Title: .NET Foundation June/July 2020 Update
+Title: .NET Foundation July/August 2020 Update
 Author: Claire Novotny
 Published: 
-Slug: net-foundation-june-july-2020-update
+Slug: net-foundation-july-august-2020-update
 Excluded: true
 ---
-Here's the June/July 2020 .NET Foundation update. Every other month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.
+Here's the July/August 2020 .NET Foundation update. Every other month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.
 
 ## General news
 
 ### Board Elections Update
-We are preparing for our next set of Board elections and some changes are being made to the way we conduct these elections. Namely, a Nominating Committee will solicit and accept candidate applications and vet potential candidates that will then be voted on by members. Additionally, we will begin term staggering of Board members to enhance the continuity of the organization. Please see the [election page on our website](https://dotnetfoundation.org/about/election) for more [details and information on how you can submit your nomination](https://dotnetfoundation.org/about/election/campaign)! Nominations are open now and will close on June 26th. The slate of candidates will be announced on July 7th, beginning a two week campaign period. Elections follow for two weeks using the [same system](https://www.opavote.com/methods/single-transferable-vote) as last year.
+
 
 ## Committee Updates
 
 ### Outreach
 
-This month the outreach group hosted its first [remote meetup](https://www.meetup.com/dotnet-virtual-user-group/events/270931523/) as part of the [.NET Virtual Meetup group](https://www.meetup.com/dotnet-virtual-user-group/). 
-
-The .NET Foundation has been working on a new initiative to help .NET user groups go virtual with the new [.NET Virtual User Group](https://www.meetup.com/dotnet-virtual-user-group/) program! Let the .NET Foundation take care of all of the streaming so you can focus in on making your meetup awesome and enable developers around the world join in. [Submit your user group session](https://github.com/dotnet-foundation/wg-outreach/issues/new/choose), get scheduled, get promoted, and have your user group. It is a great way to engage with the broader .NET community and keep your user group going during while we are all inside.
-
-If you are looking for awesome upcoming user group sessions from around the world? Then join the [.NET Virtual User Group today!](https://www.meetup.com/dotnet-virtual-user-group/)
-
-Our next meeting is Tuesday, 6/16 at 3pEST/12pPST, more information will be sent via email. 
 
 ### Marketing
 
-Check out what we're up to by visiting the [wg-marketing](https://github.com/dotnet-foundation/wg-marketing) repo.
 
 #### Member resources
 We'd like to make our members aware of some marketing resources you can take advantage of.
@@ -40,22 +32,7 @@ Microsoft released updated .NET branding guidelines on GitHub [github.com/dotnet
 
 ## Events
 
-### Session recordings for JetBrains .NET Days Online 2020
 
-JetBrains .NET Days Online 2020 is a free virtual event that took place on May 13–14, 2020. We invited 12 community speakers to talk about the topics they are passionate about: from C# and F# to coding practices like refactoring, web, cloud, GraphQL, and even setting up a blog!
-
-The [video recordings are ready to watch](https://pages.jetbrains.com/dotnet-days-2020/dnf)!
-
-### .NET session recordings from Build 2020
-
-Build 2020 was May 19-21 and the first time the event was all digital. The .NET team had some exciting announcements and presented the following sessions that you can view on-demand.
-- [Journey to one .NET](https://www.youtube.com/watch?v=ctSqiD8BGPM)
-- [C# Today and Tomorrow](https://www.youtube.com/watch?v=vHY6Cv6qtLY)
-- [Modern Web UI with Blazor WebAssembly](https://www.youtube.com/watch?v=My_XOzQWwc4)
-- [Build Native Apps for any Device with .NET](https://www.youtube.com/watch?v=rsO458GwLFg)
-- [Cloud Native Apps with .NET and Azure Kubernetes Service (AKS)](https://www.youtube.com/watch?v=HzQgIng_DNE)
-
-And many more from Build are available [here](https://channel9.msdn.com/Events/Build/2020). Also check out the [dotnet-presentations/build](https://github.com/dotnet-presentations/Build/tree/master/2020) repo for decks & resources from the .NET sessions. 
 
 ### .NET Conf 2020 dates announced: November 10-12!
 .NET Conf is a free, three day virtual developer event co-organized by the .NET community and Microsoft. This year .NET 5.0 will launch at .NET Conf 2020! See the website for more information and save the date! [www.dotnetconf.net](https://www.dotnetconf.net)
@@ -64,38 +41,8 @@ We're also planning our next .NET Conf: "Focus" event, where we continue focusin
 
 ## .NET Foundation Project Updates
 
-### [ASP.NET AJAX Control Toolkit v20.1.0 - Now Available](https://community.devexpress.com/blogs/aspnet/archive/2020/06/10/asp-net-ajax-control-toolkit-v20-1-0-now-available.aspx)
 
-A few years ago, we took over maintenance and guidance for the ASP.NET AJAX Control Toolkit project. Please refer to this [blog post](https://community.devexpress.com/blogs/aspnet/archive/2014/09/22/ajax-control-toolkit-devexpress-offer.aspx) for more information on the project and why we stepped in to assist.
 
-![DevExpress - ASP.NET AJAX Control Toolkit](https://community.devexpress.com/blogs/aspnet/ACT/Aspnet-AJAX-Controls-Toolkit-blog.png).
-
-As part of our ongoing commitment to the project, we’ve released an update ([ASP.NET AJAX Control Toolkit v20.1.0](https://devexpress.com/act)) to address the following issues.
-
-#### Resolved Issues
-
-- `CascadingDropDown` continuously refreshes in Firefox 65 ([#477](https://github.com/DevExpress/AjaxControlToolkit/issues/477))
-- `MaskedEditExtender` with `ClearMaskOnLostFocus=False` adds an extra character at the first position ([#493](https://github.com/DevExpress/AjaxControlToolkit/issues/493))
-- `ListSearchExtender` does not work in Firefox 66+ ([#494](https://github.com/DevExpress/AjaxControlToolkit/issues/494), contributed by [**@TheUlderico**](https://github.com/TheUlderico))
-- `AjaxFileUpload` fails with `<sessionState cookieless="UseUri">` ([#500](https://github.com/DevExpress/AjaxControlToolkit/issues/500))
-- `ReorderList` adds the `opacity` CSS property to the `<LI>` element ([#503](https://github.com/DevExpress/AjaxControlToolkit/issues/503))
-- `SCRIPT1028` error in legacy IE ([#515](https://github.com/DevExpress/AjaxControlToolkit/issues/515), contributed by [**@SIkebe**](https://github.com/SIkebe))
-- `Tabs` control doesn't preserve the active tab when it contains a `LinkButton` with a validator ([#518](https://github.com/DevExpress/AjaxControlToolkit/issues/518))
-- `DragPanelExtender` - JavaScript errors in IE 11 with non-100% zoom ([#522](https://github.com/DevExpress/AjaxControlToolkit/issues/522))
-- The `onchange` handler on a `TextBox` with `AutoComplete` is triggered twice in Google Chrome ([#529](https://github.com/DevExpress/AjaxControlToolkit/issues/529))
-- `HtmlEditorExtender.Decode` - Remove insecure HTML ([#532](https://github.com/DevExpress/AjaxControlToolkit/issues/532))
-
-#### Ready to Upgrade?
-
-To update the ASP.NET AJAX Control Toolkit, please download our most recent installer using the link below.
-
-<a href="https://go.devexpress.com/AjaxControlToolkit_Website_Download.aspx" class="Button Gray" target="_blank">Download</a>
-
-Or, if you prefer, use Nuget:
-
-<a href="http://www.nuget.org/packages/AjaxControlToolkit/" target="_blank">ASP.NET AJAX Control Toolkit Nuget package</a>
-
-As always, we welcome your feedback. Please share your thoughts on this update via [GitHub](https://github.com/DevExpress/AjaxControlToolkit/issues).
 
 
 ## New Projects
@@ -104,10 +51,8 @@ The .NET Foundation would like to welcome the following projects that joined in 
 
 |  |  |
 | ------------------- |--------------------|
-| <img width="750px" src="https://user-images.githubusercontent.com/1334951/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" width="750px"> | **ResX Resource Manager**  The most popular tool to localize and manage all kind of applications with resx-based resources.  Shows all resources of a solution and let's you edit the strings and their localizations in a well-arranged data grid.|
-| <img width="750px" src="https://user-images.githubusercontent.com/1334951/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" width="750px"> | **P/Invoke**  A collection of libraries intended to contain all P/Invoke method signatures for popular operating systems. Think of it as https://pinvoke.net, but proven to compile and work properly, and often with sample usage in the form of unit tests.
 
-Each library is exposed as its own NuGet package, and may include .NET Portable libraries as applicable, exposing those APIs that are available only on Desktop, or Store, or both as appropriate.|
+
 ## Meetups
 
 ### Looking for speakers to go deep on AWS?
