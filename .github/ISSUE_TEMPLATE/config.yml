@@ -3,3 +3,6 @@ contact_links:
   - name: Newsletter Update
     url: https://github.com/dotnet-foundation/website/edit/master/input/blog/posts/_current-newsletter-draft.md
     about: Newsletter updates are handled via editing the current newsletter draft file.
+  - name: Election Question
+    url: https://github.com/dotnet-foundation/Home/discussions
+    about: Do you have a question for one of the candidates running for the Board of Directors? Ask it here!
