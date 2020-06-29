@@ -21,15 +21,14 @@ permalink: about/election/candidates
 else
 {
     <h3 id="here-are-the-campaign-statements-for-our-candidates">Here are the campaign statements for our candidates.</h3>
-    <p>Interested in joining the race? <a href="about/election/campaign">Here’s how to get started</a>.</p>
+    <p>Checkout the <a href="about/election/campaign">details</a> on how the process works.</p>
 
     <p><a href="https://gitter.im/dotnet-foundation/election?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/dotnet-foundation/election.svg" alt="Gitter" /></a></p>
 
     <section class="card-container">
         @Html.Partial("../../_partials/_candidate-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
             .Flatten()
-            .FilterSources("about/election/campaign-2019/*")
-            .Where(candidate => !candidate.GetBool("appointed"))
+            .FilterSources("about/election/campaign-2020/*")
             )
     </section>
 }
