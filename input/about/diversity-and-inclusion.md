@@ -1,6 +1,6 @@
 # Promoting and Studying Diversity and Inclusion in .NET Open Source
 
-An important goal of the .NET Foundation is to promote diversty and inclusion within the .NET OSS ecosystem. To that end, we've set upon the following goals:
+An important goal of the .NET Foundation is to promote diversty and inclusion within the .NET community and OSS ecosystem. To that end, we've set upon the following goals:
 
 ## Short Term
 Gather scientific data to diagnose current status of Diversity and Inclusion within the .NET Foundation and its projects. Raise awareness in our community about the importance of Diversity & Inclusion in the business, and in the open source industry.
