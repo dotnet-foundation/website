@@ -221,6 +221,7 @@ body {
   font-family: "Avenir", "Adobe Heiti Std", "Segoe UI", "Trebuchet MS",
     sans-serif;
   font-size: 1.5rem;
+  overflow-x: hidden;
 }
 
 .wf-active body {
