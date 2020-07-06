@@ -1,7 +1,6 @@
 ---
 title: Layla Porter
 twitter: LaylaCodesIt
-layout: _BasicPageLayout
 image: campaign-2020/layla-porter.jpg
 ---
 
