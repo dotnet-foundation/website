@@ -21,7 +21,7 @@ Here are the [candidates](/about/election/candidates) for the 2020 .NET Foundati
 - [Jeff Strauss](/about/election/campaign-2020/jeff-strauss)
 - Jerome Hardaway
 - Joseph Guadagno
-- Layla Porter
+- [Layla Porter](/about/election/campaign-2020/layla-porter)
 - Mitchel Sellers
 - [Rainer Stropek](/about/election/campaign-2020/rainer-stropek)
 - Rodney Littles, II
