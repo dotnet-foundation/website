@@ -18,7 +18,7 @@ Here are the [candidates](/about/election/candidates) for the 2020 .NET Foundati
 - Jamie Howarth
 - [Javier Lozano](/about/election/campaign-2020/javier-lozano)
 - Jay Harris
-- Jeff Strauss
+- [Jeff Strauss](/about/election/campaign-2020/jeff-strauss)
 - Jerome Hardaway
 - Joseph Guadagno
 - Layla Porter
@@ -31,3 +31,4 @@ Here are the [candidates](/about/election/candidates) for the 2020 .NET Foundati
 ** *current director seeking re-election **
 
 Today kicks off the campaign period. Voting begins on July 21 and concludes on August 3rd. The voting will be on OpaVote and members will receive a private link to vote before voting begins.
+
