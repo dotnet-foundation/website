@@ -1,6 +1,7 @@
 ---
 title: Javier Lozano
 twitter: jglozano
+layout: _BasicPageLayout
 image: campaign-2020/javier-lozano.png
 ---
 
