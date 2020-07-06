@@ -10,24 +10,24 @@ The Nomination Committee has reviewed all of the candidates who submitted a nomi
 
 Here are the [candidates](/about/election/candidates) for the 2020 .NET Foundation Directors:
 
-- Ben Adams*
-- Bill Wagner
-- Dennie Declercq
-- Dhananjay Kumer
-- Huei Feng
-- Jamie Howarth
+- [Ben Adams](/about/election/campaign-2020/ben-adams)*
+- [Bill Wagner](/about/election/campaign-2020/bill-wagner)
+- [Dennie Declercq](/about/election/campaign-2020/dennie-declercq)
+- [Dhananjay Kumar](/about/election/campaign-2020/dhananjay-kumar)
+- [Huei Feng](/about/election/campaign-2020/huei-feng)
+- [Jamie Howarth](/about/election/campaign-2020/jamie-howarth)
 - [Javier Lozano](/about/election/campaign-2020/javier-lozano)
-- Jay Harris
+- [Jay Harris](/about/election/campaign-2020/jay-harris)
 - [Jeff Strauss](/about/election/campaign-2020/jeff-strauss)
 - [Jeffrey Chilberto](/about/election/campaign-2020/jeffrey-chilberto)
-- Jerome Hardaway
-- Joseph Guadagno
+- [Jerome Hardaway](/about/election/campaign-2020/jerome-hardaway)
+- [Joseph Guadagno](/about/election/campaign-2020/joseph-guadagno)
 - [Layla Porter](/about/election/campaign-2020/layla-porter)
 - [Mitchel Sellers](/about/election/campaign-2020/mitchel-sellers)
 - [Rainer Stropek](/about/election/campaign-2020/rainer-stropek)
-- Rodney Littles, II
-- Rodrigo Diaz Concha
-- Shawn Wildermuth
+- [Rodney Littles, II](/about/election/campaign-2020/rodney-littles-ii)
+- [Rodrigo Diaz Concha](/about/election/campaign-2020/rodrigo-diaz-concha)
+- [Shawn Wildermuth](/about/election/campaign-2020/shawn-wildermuth)
 
 _*current director seeking re-election_ 
 
