@@ -1,7 +1,7 @@
 ---
 title: Javier Lozano
 twitter: jglozano
-image: campaign-2020/javier-lozano.png
+image: campaign-2020/javier-lozano.jpg
 ---
 
 # .NET Foundation Campaign: Javier Lozano
