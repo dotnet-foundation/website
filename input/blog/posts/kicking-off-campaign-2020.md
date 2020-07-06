@@ -19,6 +19,7 @@ Here are the [candidates](/about/election/candidates) for the 2020 .NET Foundati
 - [Javier Lozano](/about/election/campaign-2020/javier-lozano)
 - Jay Harris
 - [Jeff Strauss](/about/election/campaign-2020/jeff-strauss)
+- [Jeffrey Chilberto](/about/election/campaign-2020/jeffrey-chilberto)
 - Jerome Hardaway
 - Joseph Guadagno
 - [Layla Porter](/about/election/campaign-2020/layla-porter)
@@ -28,7 +29,7 @@ Here are the [candidates](/about/election/candidates) for the 2020 .NET Foundati
 - Rodrigo Diaz Concha
 - Shawn Wildermuth
 
-** *current director seeking re-election **
+_*current director seeking re-election_ 
 
 Today kicks off the campaign period. Voting begins on July 21 and concludes on August 3rd. The voting will be on OpaVote and members will receive a private link to vote before voting begins.
 
