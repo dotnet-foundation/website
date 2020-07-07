@@ -22,7 +22,18 @@
             {
                 <img src="img/dot_bot.png" alt="Default Dot Bot Image"/>
             }
+
+            @if (!string.IsNullOrEmpty(candidate.GetString("twitter")))
+        {
+            <figcaption>
+                <a href="https://twitter.com/@candidate.GetString("twitter")">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                    @@@candidate.GetString("twitter")
+                </a>
+            </figcaption>
+        }
         </figure>
+        
         <a href="@Context.GetLink(candidate).Substring(1)" class="card__button">Learn More</a>
     </article>
 }
