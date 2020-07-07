@@ -4,6 +4,9 @@ twitter: rstropek
 image: campaign-2020/rainer-stropek.jpg
 ---
 
+<section class="page-section">
+    <div class="page-section_container container">
+
 # .NET Foundation Campaign: Rainer Stropek
 
 ## Why I'm Running
@@ -46,3 +49,6 @@ My daily job is building cloud solutions based on Azure and .NET in my own compa
 
 * Twitter: [@rstropek](https://twitter.com/rstropek)
 * GitHub: [@rstropek](https://github.com/rstropek)
+
+    </div>
+</section>

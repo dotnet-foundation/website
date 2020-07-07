@@ -46,7 +46,7 @@ If you have questions about my candidacy or objectives for the .NET Foundationâ€
 * Twitter: [@jeffreystrauss](https://twitter.com/jeffreystrauss)
 * LinkedIn: [Jeff Strauss](https://www.linkedin.com/in/straussjeffrey/)
 * GitHub: [@jstrauss](https://github.com/jstrauss)
-* Email: jeffstrauss.netfoundation@gmail.com
+* Email: [jeffstrauss.netfoundation@gmail.com](mailto:jeffstrauss.netfoundation@gmail.com)
 
     </div>
 </section>
