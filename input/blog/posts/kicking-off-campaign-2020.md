@@ -1,6 +1,6 @@
 ---
 Title: Kicking off the 2020 .NET Foundation Director Campaigns
-Author: 
+Author: Claire Novotny
 Published: 2020-07-07
 ---
 
