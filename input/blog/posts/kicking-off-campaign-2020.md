@@ -31,5 +31,7 @@ Here are the [candidates](/about/election/candidates) for the 2020 .NET Foundati
 
 _*current director seeking re-election_ 
 
-Today kicks off the campaign period. There are six open seats on the board that need to be chosen. Voting begins on July 21 and concludes on August 3rd. The voting will be on OpaVote and members will receive a private link to vote before voting begins.
+Today kicks off the campaign period. There are six open seats on the board that need to be chosen. Next week we'll hightlight videos from the candidates so keep checking back!
+
+Voting begins on July 21 and concludes on August 3rd. The voting will be on OpaVote and members will receive a private link to vote before voting begins.
 
