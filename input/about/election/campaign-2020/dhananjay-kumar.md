@@ -1,6 +1,6 @@
 ---
 title: Dhananjay Kumar
-twitter: 
+twitter: @debug_mode
 image: 
 ---
 
