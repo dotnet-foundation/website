@@ -7,7 +7,7 @@ image: campaign-2020/jeff-strauss.jpg
 # .NET Foundation Campaign: Jeff Strauss
 
 ## Who is Jeff?
-<img style="float: left; max-width: 200px;" src="https://avatars3.githubusercontent.com/u/1766139?s=400&u=2e8523b3da9fb718e08840f02eed192889165be0" width="200" height="200" align="left" />
+<img style="float: left; max-width: 200px; margin-right: 1em;" src="https://avatars3.githubusercontent.com/u/1766139?s=400&u=2e8523b3da9fb718e08840f02eed192889165be0" width="200" height="200" align="left" />
 
 Hi, everyone, I'm Jeff!
 
