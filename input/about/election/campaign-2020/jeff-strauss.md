@@ -4,10 +4,13 @@ twitter: jeffreystrauss
 image: campaign-2020/jeff-strauss.jpg
 ---
 
+<section class="page-section">
+    <div class="page-section_container container">
+
 # .NET Foundation Campaign: Jeff Strauss
 
 ## Who is Jeff?
-<img style="float: left; max-width: 200px;" src="https://avatars3.githubusercontent.com/u/1766139?s=400&u=2e8523b3da9fb718e08840f02eed192889165be0" width="200" height="200" align="left" />
+<img style="float: left; max-width: 200px; margin-right: 1em;" src="https://avatars3.githubusercontent.com/u/1766139?s=400&u=2e8523b3da9fb718e08840f02eed192889165be0" width="200" height="200" align="left" />
 
 Hi, everyone, I'm Jeff!
 
@@ -15,7 +18,7 @@ For over a decade, I have been a passionate developer community advocate. I am a
 
 I own the **`dev-organizers`** Slack workspace that currently welcomes over 300 event and meetup organizers on six continents to collaborate and improve our overall industry and communities. I am an admin for the **`midwest-speakers`** Slack workspace, which provides a shared feedback loop, abstract reviews, event information, and mentorship for current and aspiring technology speakers.
 
-I co-founded **[#MetaConference](https://twitter.com/MetaConfDev/status/1240821198059118594)** as a think tank for event and meetup organizers to engage in facilitated face-to-face conversation, covering topics that impact all of of our communities. And most recently, I worked with the .NET Foundation's leadership to organize **[Dev Around The Sun](https://devaroundthesun.org/)**, a 24-hour global virtual developer event and fundraiser for COVID-19 relief. 
+I co-founded **[#MetaConference](https://twitter.com/MetaConfDev/status/1240821198059118594)** as a think tank for event and meetup organizers to engage in facilitated face-to-face conversation, covering topics that impact all of of our communities. And most recently, I worked with the .NET Foundation's leadership to organize **[Dev Around The Sun](https://devaroundthesun.org/)**, a 24-hour global virtual developer event and fundraiser for COVID-19 relief.
 
 During this same time, I have been a regular speaker and keynote presenter on topics covering .NET, Azure, JavaScript, open source software, and business. I am a Microsoft MVP and an ASP Insider.
 
@@ -44,3 +47,6 @@ If you have questions about my candidacy or objectives for the .NET Foundationâ€
 * LinkedIn: [Jeff Strauss](https://www.linkedin.com/in/straussjeffrey/)
 * GitHub: [@jstrauss](https://github.com/jstrauss)
 * Email: jeffstrauss.netfoundation@gmail.com
+
+    </div>
+</section>
