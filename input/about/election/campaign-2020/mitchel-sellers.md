@@ -4,6 +4,9 @@ twitter: mitchelsellers
 image: campaign-2020/mitchel-sellers.jpg
 ---
 
+<section class="page-section">
+    <div class="page-section_container container">
+
 # .NET Foundation Campaign: Mitchel Sellers
 
 ## Why I'm Running
@@ -44,3 +47,6 @@ Of the most recent experiences from these boards, I lead the successful migratio
 * Twitter: [@mitchelsellers](https://twitter.com/mitchelsellers)
 * GitHub: [@mitchelsellers](https://github.com/mitchelsellers)
 * Email: [msellers@iowacomputergurus.com](mailto:msellers@iowacomputergurus.com)
+
+    </div>
+</section>

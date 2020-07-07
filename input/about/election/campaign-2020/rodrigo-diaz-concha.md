@@ -4,6 +4,9 @@ twitter: rdiazconcha
 image: campaign-2020/rodrigo-diaz-concha.jpg
 ---
 
+<section class="page-section">
+    <div class="page-section_container container">
+
 # .NET Foundation Campaign: Rodrigo Díaz Concha
 
 
@@ -38,3 +41,6 @@ One way to give back to the community is to help any developer who wishes to ado
 * [MVP Profile](https://mvp.microsoft.com/en-us/PublicProfile/4028935?fullName=Rodrigo%20Diaz%20Concha)
 * [about.me](https://rdiazconcha.me/)
 * [Goodreads](https://goodreads.com/rdiazconcha)
+
+    </div>
+</section>
