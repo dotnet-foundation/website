@@ -4,6 +4,9 @@ twitter: billwagner
 image: bill-wagner.jpg
 ---
 
+<section class="page-section">
+    <div class="page-section_container container">
+
 ## Why I'm running
 
 I've been fortunate enough to have success in this industry since starting my career. I've reached the stage where my main focus is to help others achieve their own success. That focus helps further the mission of the .NET Foundation by creating an environment where more people can achieve success in the .NET ecosystem. My day job is to create learning content for .NET developers of all experience levels. That works enables new developers to use the platform for their first apps, developers on other platforms compare their current environment to .NET, and experienced .NET developers learn the platform more deeply.
@@ -24,3 +27,6 @@ I've been on the [.NET Foundation advisory council](https://dotnetfoundation.org
 
 - GitHub: [@BillWagner](https://github.com/BillWagner)
 - Twitter: [@billwagner](https://twitter.com/billwagner)
+
+    </div>
+</section>
