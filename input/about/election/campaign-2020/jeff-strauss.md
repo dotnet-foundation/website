@@ -38,7 +38,7 @@ There are three different areas where I can have an impact as a Board Member of 
 3. **Educating Enterprise on FOSS.** I believe the Foundation should also play a role in guiding major organizations in their interactions with the FOSS community. Notwithstanding the growing ubiquity of open source, I see too many executive leaders struggle with how to embrace the resources available to them and how to define appropriate and productive policies. With my combined experiences in business, finance, law, and technology, I am comfortable and effective sitting down with these individuals and helping them navigate these waters. As an independent organization, **the Foundation has an opportunity to show leadership in empowering a strong partnership between the open source community and the public and private sectors.**
 
 ## Contacts
-If you have questions about my candidacy or objectives for the .NET Foundation—or if you just want to say "**HI!**"—please don't be hesitate to reach out to me:
+If you have questions about my candidacy or objectives for the .NET Foundation—or if you just want to say "**HI!**"—please don't hesitate to reach out to me:
 
 * Twitter: [@jeffreystrauss](https://twitter.com/jeffreystrauss)
 * LinkedIn: [Jeff Strauss](https://www.linkedin.com/in/straussjeffrey/)
