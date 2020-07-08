@@ -1,6 +1,5 @@
 ---
 title: David Dieruf
-layout: _layout
 image: campaign-2019/54227549-637aa300-44bd-11e9-8b88-bdd2c9060684.png
 ---
 

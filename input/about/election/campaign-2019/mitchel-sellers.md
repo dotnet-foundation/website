@@ -1,6 +1,5 @@
 ---
 title: Mitchel Sellers
-layout: _layout
 image: campaign-2019/17bbbf3e-c635-4802-bfb7-846d9e21b150.jpg
 ---
 

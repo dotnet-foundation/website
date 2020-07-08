@@ -1,6 +1,5 @@
 ---
 title: Nate Barbettini
-layout: _layout
 image: campaign-2019/9b3f5b7e-4ad6-43aa-b453-253ba66503d8.jpg
 ---
 

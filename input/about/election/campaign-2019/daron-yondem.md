@@ -1,6 +1,5 @@
 ---
 title: Daron Yondem
-layout: _layout
 image: campaign-2019/91d8775a-b129-4321-97f1-4eff32632f5b.jpg
 ---
 

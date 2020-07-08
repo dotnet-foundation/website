@@ -1,6 +1,5 @@
 ---
 title: Iris Classon
-layout: _layout
 image: iris-classon.jpg
 elected: true
 twitter: irisclasson

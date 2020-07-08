@@ -1,6 +1,5 @@
 ---
 title: Andrey Akinshin
-layout: _layout
 image: campaign-2019/764aadea-1e93-48f6-97b8-e226388603ee.jpg
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Gary Ewan Park
-layout: _layout
 image: campaign-2019/5d90914a-07bd-4f92-aab0-9df026779702.jpg
 ---
 

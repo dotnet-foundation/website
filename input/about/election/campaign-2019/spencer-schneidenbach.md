@@ -1,6 +1,5 @@
 ---
 title: Spencer Schneidenbach
-layout: _layout
 image: campaign-2019/fc65339f-e397-483a-b668-85f481062b9b.jpg
 ---
 

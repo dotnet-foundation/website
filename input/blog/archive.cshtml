@@ -2,7 +2,6 @@
 Enumerate: => Inputs.FilterSources("blog/posts/*").Select(x => x.GetDateTime("Published").ToString("yyyy/MM")).Distinct()
 DestinationPath: => new NormalizedPath($"blog/{Current}/index.html")
 Title: => $"Post Archive - {Current}"
-layout: _layout
 ---
 <section class="page-section page-section">
     <div class="page-section_container container">

@@ -1,6 +1,5 @@
 ---
 title: Pratik Khandelwal
-layout: _layout
 image: campaign-2019/54035164-bc58eb80-41de-11e9-9faf-e717eba0165a.jpg
 ---
 

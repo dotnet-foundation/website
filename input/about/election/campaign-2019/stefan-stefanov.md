@@ -1,6 +1,5 @@
 ---
 title: Stefan Stefanov
-layout: _layout
 image: https://media.licdn.com/dms/image/C5603AQGw_unwLaxKUA/profile-displayphoto-shrink_200_200/0?e=1557964800&v=beta&t=9G1i2O61ylBgcTKBevlKcKp_SN2UFYmLJcPN5vdwkMc
 ---
 

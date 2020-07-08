@@ -1,6 +1,5 @@
 ---
 title: Erik Schierboom
-layout: _layout
 image: campaign-2019/58637674-8a9a-42bc-ad62-47447d176f0f.jpg
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Mikayla Hutchinson
-layout: _layout
 image: campaign-2019/2fe859ef-0341-463e-ac01-9abb34a94ad9.jpg
 ---
 

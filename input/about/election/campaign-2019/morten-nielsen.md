@@ -1,6 +1,5 @@
 ---
 title: Morten Nielsen
-layout: _layout
 image: campaign-2019/53655225-71e6d600-3c04-11e9-89b9-69ce1261e53b.png
 ---
 

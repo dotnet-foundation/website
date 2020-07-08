@@ -1,6 +1,5 @@
 ---
 title: Rodrigo Díaz Concha
-layout: _layout
 image: campaign-2019/RDC_Portrait_Small.jpg
 ---
 

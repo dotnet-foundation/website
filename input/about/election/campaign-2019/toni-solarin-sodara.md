@@ -1,6 +1,5 @@
 ---
 title: Toni Solarin-Sodara
-layout: _layout
 image: campaign-2019/cdebee6f-bbf9-4f0c-b5d6-0f7fd629cfb3.jpg
 ---
 

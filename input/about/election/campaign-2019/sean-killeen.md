@@ -1,6 +1,5 @@
 ---
 title: Sean Killeen
-layout: _layout
 image: campaign-2019/2148318
 ---
 

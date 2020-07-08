@@ -1,6 +1,5 @@
 ---
 title: Sunny Ahuwanya
-layout: _layout
 image: campaign-2019/54499348-16486800-48e7-11e9-8aa0-ef9cd15a002d.jpg
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: _layout
 title: Ask the Candidates a Question!
 permalink: about/election/questions
 ---

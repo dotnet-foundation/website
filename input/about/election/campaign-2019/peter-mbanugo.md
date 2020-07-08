@@ -1,6 +1,5 @@
 ---
 title: Peter Mbanugo
-layout: _layout
 image: campaign-2019/7560ad40-ccaa-4bd9-b5d8-967f9bcb31cd.jpg
 ---
 

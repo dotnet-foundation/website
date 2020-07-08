@@ -1,6 +1,5 @@
 ---
 title: Eric Sink
-layout: _layout
 image: campaign-2019/1c6f3c17-9342-4909-bc3d-1d47f1b4a3eb.jpg
 ---
 
