@@ -1,6 +1,5 @@
 ---
 title: Joseph Guadagno
-layout: _layout
 image: campaign-2019/77475b18-f681-4cd0-87d3-44b952733153.jpg
 ---
 

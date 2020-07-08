@@ -1,6 +1,5 @@
 ---
 title: Jon Skeet
-layout: _layout
 image: jon-skeet.jpg
 elected: true
 twitter: jonskeet

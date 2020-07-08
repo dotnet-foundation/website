@@ -1,6 +1,5 @@
 ---
 title: Claire Novotny
-layout: _layout
 image: claire-novotny.jpg
 elected: false
 team: true

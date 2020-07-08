@@ -1,6 +1,5 @@
 ---
 title: Sara Chipps
-layout: _layout
 image: sara-chipps.png
 elected: true
 twitter: SaraJChipps

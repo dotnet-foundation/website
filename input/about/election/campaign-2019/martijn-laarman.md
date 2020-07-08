@@ -1,6 +1,5 @@
 ---
 title: Martijn Laarman
-layout: _layout
 image: campaign-2019/683a145a-53a3-4d41-88f9-1d573316d5a8.jpg
 ---
 

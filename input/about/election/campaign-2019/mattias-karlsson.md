@@ -1,6 +1,5 @@
 ---
 title: Mattias Karlsson
-layout: _layout
 image: campaign-2019/53631166-3521db80-3c12-11e9-8946-01c0c4da2d61.png
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Jessica White
-layout: _layout
 image: campaign-2019/4fabcac7-d0af-4c01-856b-4fa14cbbcd29.jpg
 ---
 

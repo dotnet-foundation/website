@@ -4,9 +4,6 @@ twitter: shawnwildermuth
 image: campaign-2020/shawn-wildermuth.jpg
 ---
 
-<section class="page-section">
-    <div class="page-section_container container">
-
 # .NET Foundation Campaign: Shawn Wildermuth
 
 ## Who am I?
@@ -58,5 +55,3 @@ You can see some of my talks from conferences and user groups at my blog:
 - [YouTube](https://youtube.com/c/swildermuth)
 - [Amazon Author Page](http://www.amazon.com/-/e/B001H6ME46)
 
-    </div>
-</section>

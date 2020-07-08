@@ -1,6 +1,5 @@
 ---
 title: Virgile Bello
-layout: _layout
 image: campaign-2019/54175230-5ebdeb00-44cd-11e9-8b5f-d9b760065e97.jpg
 ---
 

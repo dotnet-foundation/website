@@ -1,6 +1,5 @@
 ---
 title: Shaun Walker
-layout: _layout
 image: campaign-2019/shaun-walker.png
 ---
 

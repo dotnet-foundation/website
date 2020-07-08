@@ -4,9 +4,6 @@ twitter: DennieDeclercq
 image: campaign-2020/dennie-declercq.jpg
 ---
 
-<section class="page-section">
-    <div class="page-section_container container">
-
 # Why I’m Running
 
 ## *#DreamingIsBelieving continues… With this awesome nomination…*
@@ -35,6 +32,3 @@ My story on Microsoft Humans of IT https://techcommunity.microsoft.com/t5/humans
 Twitter @DennieDeclercq
 FB: https://www.facebook.com/dennie.declercq
 LinkedIn: https://www.linkedin.com/in/dennie-declercq-822086a2/
-
-    </div>
-</section>

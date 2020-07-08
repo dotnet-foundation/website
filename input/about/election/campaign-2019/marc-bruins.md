@@ -1,6 +1,5 @@
 ---
 title: Marc Bruins
-layout: _layout
 image: campaign-2019/2f388304-927f-44b4-9d2e-8e9e3c2ebc90.jpg
 ---
 

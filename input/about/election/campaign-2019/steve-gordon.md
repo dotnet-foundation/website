@@ -1,6 +1,5 @@
 ---
 title: Steve Gordon
-layout: _layout
 image: campaign-2019/53630658-7dd49700-3c08-11e9-8329-d5d6f27264c2.png
 ---
 

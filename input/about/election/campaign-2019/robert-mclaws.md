@@ -1,6 +1,5 @@
 ---
 title: Robert McLaws
-layout: _layout
 image: campaign-2019/53609747-504f0580-3b96-11e9-979d-0727bcc63f42.png
 ---
 

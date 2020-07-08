@@ -1,6 +1,5 @@
 ---
 title: David Pine
-layout: _layout
 image: campaign-2019/me.png
 ---
 

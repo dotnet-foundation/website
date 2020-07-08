@@ -4,9 +4,6 @@ twitter: jguadagno
 image: campaign-2020/joseph-guadagno.jpg
 ---
 
-<section class="page-section">
-    <div class="page-section_container container">
-
 # .NET Foundation Campaign: Joseph Guadagno
 
 ## About Me
@@ -75,5 +72,3 @@ A list of some of my open source projects
 * [StackOverflow](https://stackoverflow.com/users/89184/joseph-guadagno)
 * Email: [jguadagno@hotmail.com](mailto:jguadagno@hotmail.com)
 
-    </div>
-</section>

@@ -1,6 +1,5 @@
 ---
 title: Ginny Caughey
-layout: _layout
 image: campaign-2019/53746947-38b29e00-3e70-11e9-982a-a0ddb0a9134b.jpg
 ---
 

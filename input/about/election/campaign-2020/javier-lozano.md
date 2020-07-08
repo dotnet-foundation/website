@@ -4,9 +4,6 @@ twitter: jglozano
 image: campaign-2020/javier-lozano.jpg
 ---
 
-<section class="page-section">
-    <div class="page-section_container container">
-
 # .NET Foundation Campaign: Javier Lozano
 Hello, it's a pleasure to meet you virtually! My name is Javier Lozano, and I am running for the .NET Foundation Board of Directors.
 I'm a Microsoft MVP for the past 14 years, have contributed to different open source projects, as well as ASP.NET. Also, I am the co-creator of .NET Conf, the largest virtual conference for .NET.
@@ -35,5 +32,3 @@ The one thing I've learned from running .NET Conf for the past 10 years is that 
 * Twitter: [@jglozano](https://twitter.com/jglozano)
 * GitHub: [@jglozano](https://github.com/jglozano)
 
-    </div>
-</section>

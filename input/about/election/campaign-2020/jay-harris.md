@@ -4,9 +4,6 @@ twitter: jayharris
 image: campaign-2020/jay-harris.jpg
 ---
 
-<section class="page-section">
-    <div class="page-section_container container">
-
 # .NET Foundation Campaign: Jay Harris
 
 ## Why am I running?
@@ -38,5 +35,3 @@ If you have questions about my candidacy or goals with the .NET Foundation, plea
 * [@jayharris](https://github.com/jayharris) on GitHub
 * [LinkedIn](https://www.linkedin.com/in/jasonharris/)
 
-    </div>
-</section>

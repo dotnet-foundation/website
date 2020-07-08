@@ -1,6 +1,5 @@
 ---
 title: Antoine Hémery
-layout: _layout
 image: campaign-2019/02a016a5-1f38-46db-87a8-304f6e233d8e.jpg
 ---
 

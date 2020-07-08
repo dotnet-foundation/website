@@ -1,6 +1,5 @@
 ---
 title: Maira Wenzel
-layout: _layout
 image: campaign-2019/acb757aa-e39f-43c6-9edc-7873606a21ba.jpg
 ---
 
