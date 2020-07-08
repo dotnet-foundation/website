@@ -29,7 +29,7 @@ On the professional side of coding, my focus would be on projects, tools, and le
 
 I have been working as a speaker, author and trainer in the .NET space for many years. Each year, I typically speak at dozens of conferences mostly in Europe. C# and .NET are always an important aspect in my sessions. Besides that, I regularly write articles for print and online. You can find a summary of my community activities on my [MVP profile page](https://mvp.microsoft.com/en-us/PublicProfile/4029123?fullName=Rainer%20%20Stropek).
 
-Sharing content freely is important for me. Therefore, I publish all my slides and samples under open-source license on [GitHub](https://github.com/rstropek/) and put the majority of my talks on [YouTube](https://youtube.com/rainer.stropek/).
+Sharing content freely is important for me. Therefore, I publish all my slides and samples under open-source license on [GitHub](https://github.com/rstropek/) and put the majority of my talks on [YouTube](https://www.youtube.com/user/rainerstropek/).
 
 For my community work, Microsoft has been rewarding me with the title of a *Most Valuable Professional* (MVP) for ten consecutive years. Currently, I am MVP for *Microsoft Azure*, MVP for *Developer Technologies*, and Microsoft *Regional Director*.
 
@@ -38,7 +38,7 @@ My daily job is building cloud solutions based on Azure and .NET in my own compa
 ## Links
 
 * [MVP Profile](https://mvp.microsoft.com/en-us/PublicProfile/4029123?fullName=Rainer%20%20Stropek)
-* [YouTube Channel](https://youtube.com/rainer.stropek/)
+* [YouTube Channel](https://www.youtube.com/user/rainerstropek/)
 * [LinkedIn Page](https://www.linkedin.com/in/rainerstropek/)
 * [CoderDojo Linz](https://linz.coderdojo.net/)
 
