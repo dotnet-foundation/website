@@ -1,7 +1,7 @@
 ---
 title: Jamie Howarth
 twitter: jamiehowarth0
-image: 
+image: campaign-2020/jamie-howarth.jpg
 ---
 
 # .NET Foundation Campaign: Jamie Howarth
