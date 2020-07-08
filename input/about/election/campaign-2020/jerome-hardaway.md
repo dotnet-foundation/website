@@ -4,9 +4,6 @@ twitter: JeromeHardaway
 image: campaign-2020/jerome-hardaway.jpg
 ---
 
-<section class="page-section">
-    <div class="page-section_container container">
-
 # .NET Foundation Campaign: Jerome Hardaway
 
 ## Who am I?
@@ -45,5 +42,3 @@ careers - Documentary was nominated for an Emmy
 * Twitter: [@JeromeHardaway](https://twitter.com/JeromeHardaway)
 * GitHub: [@JeromeHardaway](https://github.com/jeromehardaway)
 
-    </div>
-</section>

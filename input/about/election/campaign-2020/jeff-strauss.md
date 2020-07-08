@@ -4,9 +4,6 @@ twitter: jeffreystrauss
 image: campaign-2020/jeff-strauss.jpg
 ---
 
-<section class="page-section">
-    <div class="page-section_container container">
-
 # .NET Foundation Campaign: Jeff Strauss
 
 ## Who is Jeff?
@@ -48,5 +45,3 @@ If you have questions about my candidacy or objectives for the .NET Foundationâ€
 * GitHub: [@jstrauss](https://github.com/jstrauss)
 * Email: [jeffstrauss.netfoundation@gmail.com](mailto:jeffstrauss.netfoundation@gmail.com)
 
-    </div>
-</section>

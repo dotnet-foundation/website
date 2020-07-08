@@ -4,9 +4,6 @@ twitter: feng_huei
 image: campaign-2020/huei-feng.jpg
 ---
 
-<section class="page-section">
-    <div class="page-section_container container">
-      
 ## Why I'm Running
 
 .NET is my passion. I love open source very much. I hope that the .NET ecosystem can flourish in the projects that people think about. I am a very enthusiastic and active member of the .NET community. I have been working in blogs, tweets, forums, conferences, user groups, video
@@ -38,6 +35,3 @@ He is very active on public speech, he has given a number of talks in areas such
 
 * Twitter: [@huifeng](https://twitter.com/feng_huei)
 * GitHub: [@huifeng](https://github.com/hueifeng)
-</div>
-</section>
-

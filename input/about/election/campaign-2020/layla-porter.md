@@ -4,9 +4,6 @@ twitter: LaylaCodesIt
 image: campaign-2020/layla-porter.jpg
 ---
 
-<section class="page-section">
-    <div class="page-section_container container">
-
 # .NET Foundation Campaign: Layla Porter
 
 ## Who am I?
@@ -45,5 +42,3 @@ I blog for the [Twilio website](https://www.twilio.com/blog/author/lporter), all
 * Twitch: [@LaylaCodesIt](https://twitch.tv/LaylaCodesIt)
 * GitHub: [@Layla-P](https://github.com/Layla-p)
 
-    </div>
-</section>

@@ -4,9 +4,6 @@ twitter: jamiehowarth0
 image: 
 ---
 
-<section class="page-section">
-    <div class="page-section_container container">
-
 # .NET Foundation Campaign: Jamie Howarth
 
 ## Why I'm Running
@@ -35,5 +32,3 @@ I've submitted various patches, pull requests & helped to improve & maintain var
 * LinkedIn: [@jamiehowarth0](https://linkedin.com/in/jamiehowarth0)
 * StackOverflow: [@jamie-howarth](https://stackoverflow.com/users/418297/jamie-howarth)
 
-    </div>
-</section>
