@@ -1,6 +1,5 @@
 ---
 title: Natallia Dzenisenka
-layout: _layout
 image: campaign-2019/33b689c1-f30e-4859-8f92-76a91914ebd9.jpg
 ---
 

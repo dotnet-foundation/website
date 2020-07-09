@@ -54,3 +54,4 @@ You can see some of my talks from conferences and user groups at my blog:
 - [LinkedIn](https://www.linkedin.com/in/shawnwildermuth/)
 - [YouTube](https://youtube.com/c/swildermuth)
 - [Amazon Author Page](http://www.amazon.com/-/e/B001H6ME46)
+

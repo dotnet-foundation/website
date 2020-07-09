@@ -1,5 +1,4 @@
 ﻿---
-layout: _layout
 image: /img/dot_bot.png
 permalink: about/election/example
 ---

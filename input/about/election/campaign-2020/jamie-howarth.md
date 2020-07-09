@@ -1,9 +1,8 @@
 ---
 title: Jamie Howarth
 twitter: jamiehowarth0
-image: 
+image: campaign-2020/jamie-howarth.jpg
 ---
-
 
 # .NET Foundation Campaign: Jamie Howarth
 
@@ -32,3 +31,4 @@ I've submitted various patches, pull requests & helped to improve & maintain var
 * GitHub: [@jamiehowarth0](https://github.com/jamiehowarth0)
 * LinkedIn: [@jamiehowarth0](https://linkedin.com/in/jamiehowarth0)
 * StackOverflow: [@jamie-howarth](https://stackoverflow.com/users/418297/jamie-howarth)
+

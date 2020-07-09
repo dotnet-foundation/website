@@ -1,6 +1,5 @@
 ---
 title: Dave Glick
-layout: _layout
 image: campaign-2019/53698333-3a655e80-3da9-11e9-931e-39ae72bf1104.jpg
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Claire Novotny
-layout: _layout
 image: claire-novotny.jpg
 order: 1
 twitter: clairernovotny

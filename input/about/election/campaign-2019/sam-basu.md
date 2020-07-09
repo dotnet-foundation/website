@@ -1,6 +1,5 @@
 ---
 title: Sam Basu
-layout: _layout
 image: campaign-2019/54139990-10d7b300-43f9-11e9-9db5-da607afd907f.png
 ---
 

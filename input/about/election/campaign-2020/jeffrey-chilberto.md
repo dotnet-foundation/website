@@ -33,4 +33,4 @@ I do not have a personal blog but instead contribute to the .Net community by wr
 * LinkedIn: [Jeff Chilberto](https://www.linkedin.com/in/jeff-chilberto-2a89a84/)
 * Microsoft Tech Community: [Jeffrey Chilberto](https://techcommunity.microsoft.com/t5/user/viewprofilepage/user-id/141713)
 * Twitter: [@JChilberto](https://twitter.com/jchilberto)
- 
+

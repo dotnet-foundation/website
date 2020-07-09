@@ -1,6 +1,5 @@
 ---
 title: Jon Galloway
-layout: _layout
 image: jon-galloway.png
 order: 2
 twitter: jongalloway

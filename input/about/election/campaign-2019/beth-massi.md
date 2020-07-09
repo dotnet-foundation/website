@@ -1,6 +1,5 @@
 ---
 title: Beth Massi
-layout: _layout
 image: beth-massi.jpg
 appointed: true
 elected: true

@@ -1,6 +1,5 @@
 ---
 title: Luce Carter
-layout: _layout
 image: campaign-2019/b6ee3715-63f8-4999-b548-0060867f3915.jpg
 ---
 

@@ -31,3 +31,4 @@ The one thing I've learned from running .NET Conf for the past 10 years is that 
 ## Contact Information
 * Twitter: [@jglozano](https://twitter.com/jglozano)
 * GitHub: [@jglozano](https://github.com/jglozano)
+

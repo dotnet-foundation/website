@@ -1,6 +1,5 @@
 ---
 title: Lea Wegner
-layout: _layout
 image: campaign-2019/7fdddbc7-57d2-4ece-9f64-edaae7c0521b.jpg
 ---
 

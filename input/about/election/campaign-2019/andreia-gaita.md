@@ -1,6 +1,5 @@
 ---
 title: Andreia Gaita
-layout: _layout
 image: campaign-2019/54570031-38e78900-499a-11e9-9d03-bf2db6f885d6.jpg
 ---
 

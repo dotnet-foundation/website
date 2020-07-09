@@ -1,6 +1,5 @@
 ---
 title: Phil Haack
-layout: _layout
 image: phil-haack.jpg
 elected: true
 twitter: haacked

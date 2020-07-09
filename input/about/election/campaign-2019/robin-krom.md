@@ -1,6 +1,5 @@
 ---
 title: Robin Krom
-layout: _layout
 image: campaign-2019/2a562e01-9cda-4202-a901-4c1850cb33c9.jpg
 ---
 

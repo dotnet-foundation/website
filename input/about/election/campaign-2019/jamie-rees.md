@@ -1,6 +1,5 @@
 ---
 title: Jamie Rees
-layout: _layout
 image: campaign-2019/0c009f81-0d27-4796-92e8-eb49aa1aa7f8.jpg
 ---
 

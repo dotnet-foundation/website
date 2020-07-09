@@ -71,3 +71,4 @@ A list of some of my open source projects
 * [LinkedIn](https://www.linkedin.com/in/josephguadagno/)
 * [StackOverflow](https://stackoverflow.com/users/89184/joseph-guadagno)
 * Email: [jguadagno@hotmail.com](mailto:jguadagno@hotmail.com)
+
