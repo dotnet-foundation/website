@@ -1,6 +1,6 @@
 title: Dhananjay Kumar
 twitter: debug_mode
-image: campaign-2020/dj.jpg
+image: campaign-2020/dhananjay-kumar.jpg
 ---
 
 # .NET Foundation Campaign: Dhananjay Kumar
