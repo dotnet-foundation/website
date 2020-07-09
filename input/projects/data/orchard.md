@@ -3,7 +3,7 @@ Title: Orchard Core
 Contributor: The Orchard Core Team
 Logo: orchardcore_logo.png
 Web: https://www.orchardcore.net
-Keywords: .Net, Open-Source, CMS
+Keywords: .NET, Open-Source, CMS
 ---
 # Orchard Core
 

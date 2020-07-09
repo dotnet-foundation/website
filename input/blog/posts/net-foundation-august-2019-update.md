@@ -21,7 +21,7 @@ This month's update includes:</p>
 <hr />
 <h2><strong>.NET Conf 2019, September 23-25 (<a href="http://www.dotnetconf.net/">www.dotnetconf.net</a>)</strong></h2>
 
-<p><a href="https://www.dotnetconf.net/"><img alt=".Net" src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" /></a></p>
+<p><a href="https://www.dotnetconf.net/"><img alt=".NET" src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" /></a></p>
 
 <p>.NET Conf is our annual, free, online virtual event and this year and it’s going to be bigger than ever.&nbsp;<strong>.NET Core 3.0 will launch at .NET Conf!</strong><br />
 <br />
@@ -33,7 +33,7 @@ This month's update includes:</p>
 <h2>.NET Conf Local Events</h2>
 
 <p><br />
-The best way to experience .NET Conf is at a local event.&nbsp;.NET Conf is partnering with organizers around the globe to bring you&nbsp;<strong>over 150</strong>&nbsp;local in-person events between September 23 through the end of October! Join your fellow developers in a city near you to learn more about .NET. <a href="https://www.dotnetconf.net/local-events"><img alt=".Net" src="assets/posts/ceab7291-9a1b-4db8-83c9-46c6b2bdf744.jpg" /></a></p>
+The best way to experience .NET Conf is at a local event.&nbsp;.NET Conf is partnering with organizers around the globe to bring you&nbsp;<strong>over 150</strong>&nbsp;local in-person events between September 23 through the end of October! Join your fellow developers in a city near you to learn more about .NET. <a href="https://www.dotnetconf.net/local-events"><img alt=".NET" src="assets/posts/ceab7291-9a1b-4db8-83c9-46c6b2bdf744.jpg" /></a></p>
 
 <p><a href="https://www.dotnetconf.net/local-events">Register for a .NET Conf Local Event</a></p>
 
@@ -73,9 +73,9 @@ This month, we've made some good progress on some additional action groups. Some
 <p><br />
 <a href="/blog/2019/03/01/net-foundation-february-2019-update">In case you missed it</a>, we've got a lot of great content you can use in your presentations, workshops, Meetups, training courses, etc. over at&nbsp;<a href="/community/resources">dotnetfoundation.org/community/resources</a>. We keep these up to date, so as .NET Core 3.0 rolls out, this is one of your top resources for training material.<br />
 <br />
-By request, we set up a short url that may be a little easier for you to remember:&nbsp;<a href="https://aka.ms/dotnet-presentations">https://aka.ms/dotnet-presentations</a>. <a href="/community/resources"><img alt=".Net" src="assets/posts/91a33811-0b6c-4f2f-83e8-3d4f720a84b9.png" /></a></p>
+By request, we set up a short url that may be a little easier for you to remember:&nbsp;<a href="https://aka.ms/dotnet-presentations">https://aka.ms/dotnet-presentations</a>. <a href="/community/resources"><img alt=".NET" src="assets/posts/91a33811-0b6c-4f2f-83e8-3d4f720a84b9.png" /></a></p>
 
-<p><a href="https://github.com/dotnet-presentations/blazor-workshop/">Blazing Pizza</a>&nbsp;is one of our most popular workshops - it shows you how to build an online pizza ordering site with Blazor, complete with drone pizza delivery! <a href="https://github.com/dotnet-presentations/blazor-workshop/"><img alt=".Net" src="assets/posts/009ab65d-0d19-45ef-870c-85d8366a1c98.gif" /></a></p>
+<p><a href="https://github.com/dotnet-presentations/blazor-workshop/">Blazing Pizza</a>&nbsp;is one of our most popular workshops - it shows you how to build an online pizza ordering site with Blazor, complete with drone pizza delivery! <a href="https://github.com/dotnet-presentations/blazor-workshop/"><img alt=".NET" src="assets/posts/009ab65d-0d19-45ef-870c-85d8366a1c98.gif" /></a></p>
 
 <hr />
 <h2>.NET Foundation Project Updates</h2>
@@ -122,7 +122,7 @@ By request, we set up a short url that may be a little easier for you to remembe
 
 <p>So we've been writing a new sketcher - the&nbsp;<em>Advanced CML-based Molecule Editor</em>&nbsp;(or ACME for short). It's written in C# and uses Windows Presentation Foundation for its graphics. It can be used as a drop-in structure editor for any Windows Forms or WPF application.</p>
 
-<p><a href="https://www.chem4word.co.uk/"><img alt=".Net" src="assets/posts/d0116177-1422-43c8-a2a8-be355cea03f2.png" /></a></p>
+<p><a href="https://www.chem4word.co.uk/"><img alt=".NET" src="assets/posts/d0116177-1422-43c8-a2a8-be355cea03f2.png" /></a></p>
 
 <p>Having our own editor also means we have&nbsp;complete control&nbsp;over what we can and can't edit in CML. This means we can add new features much more easily. And keep our users happy!</p>
 

@@ -24,7 +24,7 @@ This month's newsletter includes:</p>
 
 <p>We have a new process for submitting project news! Yay! No more cumbersome spreadsheets! Check out the&nbsp;<a href="https://github.com/dotnet-foundation/newsletter/blob/master/README.md">README for more details</a>. We also have a handy&nbsp;<a href="https://www.youtube.com/watch?v=QkrpumELLko&amp;feature=youtu.be">YouTube video</a>&nbsp;that walks through the process.</p>
 
-<p><a href="https://www.youtube.com/watch?v=QkrpumELLko&amp;feature=youtu.be"><img src="assets/posts/c0470106b9ba6699642d2c2fd2bd9b28.png" alt=".Net" /></a>&nbsp;</p>
+<p><a href="https://www.youtube.com/watch?v=QkrpumELLko&amp;feature=youtu.be"><img src="assets/posts/c0470106b9ba6699642d2c2fd2bd9b28.png" alt=".NET" /></a>&nbsp;</p>
 
 <hr />
 <h2><a href="https://github.com/dotnet-foundation/projects/projects/1">Project Onboarding Process Improvements</a></h2>
@@ -74,7 +74,7 @@ If you're a .NET Foundation Member, sign up to join an action group:</p>
 <hr />
 <h2>.NET Conf 2019, September 23-25 (<a href="http://www.dotnetconf.net/">www.dotnetconf.net</a>)</h2>
 
-<p><a href="https://www.dotnetconf.net/"><img src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" alt=".Net" /></a></p>
+<p><a href="https://www.dotnetconf.net/"><img src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" alt=".NET" /></a></p>
 
 <p>.NET Conf is our annual, free, online virtual event and this year and it’s going to be bigger than ever. .NET Core 3.0 will launch at .NET Conf!<br />
 <br />
@@ -225,7 +225,7 @@ Huge thanks to our contributors and users! Wouldn't have been possible without y
 
 <p>A few years ago, we took over maintenance and guidance for the ASP.NET AJAX Control Toolkit project. Please refer to this&nbsp;<a href="https://community.devexpress.com/blogs/aspnet/archive/2014/09/22/ajax-control-toolkit-devexpress-offer.aspx">blog post</a>&nbsp;for more information on the project and why we stepped in to assist.</p>
 
-<p><img src="assets/posts/e480cc53-ba2f-490f-9e1e-08da35e6fc57.png" alt=".Net" /></p>
+<p><img src="assets/posts/e480cc53-ba2f-490f-9e1e-08da35e6fc57.png" alt=".NET" /></p>
 
 <p>As part of our ongoing commitment to the project, we’ve released an update (<a href="https://devexpress.com/act">ASP.NET AJAX Control Toolkit v19.1.0</a>) to address the following issues.</p>
 

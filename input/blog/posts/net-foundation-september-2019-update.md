@@ -82,7 +82,7 @@ Board Member | .NET Foundation</p>
 <br />
 Check out the .NET Conf 2019 Keynote, with tons of demos featuring the brand new .NET Core 3.0:</p>
 
-<p><a href="https://www.youtube.com/watch?v=1xQE2bWkwjo&amp;list=PLReL099Y5nRd04p81Q7p5TtyjCrj9tz1t"><img src="assets/posts/a865e1a3d11238c1fad86766c5725740.png" alt=".Net" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=1xQE2bWkwjo&amp;list=PLReL099Y5nRd04p81Q7p5TtyjCrj9tz1t"><img src="assets/posts/a865e1a3d11238c1fad86766c5725740.png" alt=".NET" /></a></p>
 
 <p></p>
 
@@ -94,7 +94,7 @@ Check out the .NET Conf 2019 Keynote, with tons of demos featuring the brand new
 <p><br />
 We've got over 220 .NET Conf Local Events this year, running through the end of October. We sent out some exclusive .NET Conf branded swag to the events, too.&nbsp;<a href="https://www.dotnetconf.net/local-events">Find one near you</a>!<br />
 <br />
-Post your event photos with hashtag&nbsp;<a href="https://twitter.com/hashtag/dotNETConf">#dotNETConf</a>&nbsp;and we might include them in next month's newsletter. Don't forget to tell us where you are - we love to see updates from around the world! <a href="https://www.dotnetconf.net/local-events"><img src="assets/posts/ceab7291-9a1b-4db8-83c9-46c6b2bdf744.jpg" alt=".Net" /></a></p>
+Post your event photos with hashtag&nbsp;<a href="https://twitter.com/hashtag/dotNETConf">#dotNETConf</a>&nbsp;and we might include them in next month's newsletter. Don't forget to tell us where you are - we love to see updates from around the world! <a href="https://www.dotnetconf.net/local-events"><img src="assets/posts/ceab7291-9a1b-4db8-83c9-46c6b2bdf744.jpg" alt=".NET" /></a></p>
 
 <p></p>
 
@@ -129,7 +129,7 @@ Help guide our Project Maturity proposal</h3>
 
 <p>Wow! Over 80 Free videos for learning about .NET developer platform and how to use it! Grab them at&nbsp;<a href="https://dotnet.microsoft.com/learn/videos">https://dot.net/videos</a></p>
 
-<p><a href="https://dot.net/videos"><img src="assets/posts/bcd54232-6e7d-4e54-a254-ebf435315975.jpg" alt=".Net"/></a></p>
+<p><a href="https://dot.net/videos"><img src="assets/posts/bcd54232-6e7d-4e54-a254-ebf435315975.jpg" alt=".NET"/></a></p>
 
 <p></p>
 
