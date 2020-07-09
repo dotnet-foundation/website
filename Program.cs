@@ -28,7 +28,7 @@ namespace DotnetFoundationWeb
         .AddSetting(Keys.Host, "dotnetfoundation.org")
         .AddSetting(Keys.LinksUseHttps, true)
         .AddSetting(WebKeys.MirrorResources, true)
-        .AddSetting(WebKeys.ExcludedPaths, "api/")
+        .AddSetting(WebKeys.ExcludedPaths, "api/node_modules")
         .BuildPipeline(
             "GenerateProjectsJson",
             builder => builder
