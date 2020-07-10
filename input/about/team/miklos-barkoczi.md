@@ -1,7 +1,7 @@
 ---
 title: Miklos Barkoczi
 image: miklos-barkoczi.png
-order: 3
+order: 2
 twitter: 
 ---
 
