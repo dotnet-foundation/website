@@ -25,12 +25,12 @@ jobs:
 
     - uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '3.1.201' # SDK Version to use.
+        dotnet-version: '3.1.x' # SDK Version to use.
     - name: Build
       run: dotnet run --configuration Release
 
     - name: Build And Deploy
-      if: github.event.pull_request.head.repo.fork != true && github.event.pull_request.head.repo == true
+      if: github.event.pull_request.head.repo.fork != true
       id: builddeploy
       uses: Azure/static-web-apps-deploy@v0.0.1-preview
       with:
