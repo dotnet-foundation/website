@@ -1,7 +1,7 @@
 ---
 title: Chris Sfanos
 image: chris-sfanos.jpg
-order: 4
+order: 3
 twitter: 
 ---
 
