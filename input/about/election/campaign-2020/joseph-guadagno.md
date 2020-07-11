@@ -14,9 +14,9 @@ Joe Guadagno is a Director of Engineering at Quicken Loans, the nation’s large
 
 ## Why I'm Running
 
-One of my primary goals in life is to *leave this (planet) better than it was when I joined it*. I do that in many ways. My favorite way is to grow people and help make them better. I do this through education. Presenting/Public Speaking. I also do this by assisting others in finding ways to help themselves grow. I believe that being on the board of the .NET Foundation can improve the vision of .NET and make it easier for others to adopt and improve themselves. I have worked with many other talented professionals while serving on the Board of Directors for [INETA](#INETA-experience) to help spread the education and adoption of .NET.
+One of my primary goals in life is to leave this planet better than it was when I joined it. I achieve this in many ways. My favorite way is to grow people and make them better. I do this through a combination of education, presenting/public speaking, and by helping others find ways to help themselves.  My company is currently working on ending the digital divide in Detroit (the city ranks as one of the least connected cities in the America) while also investing in teaching local children about coding.  One of the keys to success in this city and around the world is to make code easier to learn, easy to adopt, and more accessible. I fundamentally believe technology can make this a better world and by being on the board of the .NET Foundation I can improve the vision of .NET and make it easier for others to adopt and improve themselves. I have worked with many other talented professionals while serving on the Board of Directors for [INETA](#ineta-experience) to help spread the education and adoption of .NET.  
 
-I feel I am very well suited for the position.
+I feel I am very well suited for the position and excited at the possibilities ahead. Thank you for your consideration.
 
 ## My Community Contributions
 
@@ -31,12 +31,10 @@ INETA was the International .NET Association. It's purpose was to promote the us
 
 ### Community Contributions
 
-* [Organizer of Desert Code Camp](https://www.desertcodecamp.com)
+* [Organizer of Desert Code Camp](https://www.desertcodecamp.com), an annual conference in Phoenix, Arizona, US that hosts 75 speakers, over 100 sessions, and 900 attendees
 * [Contributes to AZ Give Camp](https:/www.AZGiveCamp.org)
 
 ### Open Source Projects
-
-A list of some of my open source projects
 
 * [JosephGuadagno.AzureHelpers.Storage](https://github.com/jguadagno/JosephGuadagno.AzureHelpers.Storage)
 * [JosephGuadagno.AzureHelpers.Cosmos](https://github.com/jguadagno/JosephGuadagno.AzureHelpers.Cosmos)
@@ -52,7 +50,7 @@ A list of some of my open source projects
 
 ### Others
 
-* Public Speaker. You can few the events that I am and have spoken at at [https://www.josephguadagno.net/speaking-engagements/](https://www.josephguadagno.net/speaking-engagements/)
+* Public Speaker. You can view the events that I am and have spoken at at [https://www.josephguadagno.net/speaking-engagements/](https://www.josephguadagno.net/speaking-engagements/)
 * Organized Events at the Microsoft MVP Summit
 * [Book Reviewer](https://www.josephguadagno.net/categories/#books)
 
@@ -71,4 +69,3 @@ A list of some of my open source projects
 * [LinkedIn](https://www.linkedin.com/in/josephguadagno/)
 * [StackOverflow](https://stackoverflow.com/users/89184/joseph-guadagno)
 * Email: [jguadagno@hotmail.com](mailto:jguadagno@hotmail.com)
-
