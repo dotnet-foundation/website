@@ -48,9 +48,9 @@ We're also planning our next .NET Conf: "Focus" event, where we continue focusin
 ## New Projects
 
 The .NET Foundation would like to welcome the following projects that joined in June and July!
-
-|  |  |
+|                     |                    |
 | ------------------- |--------------------|
+| <img width="750px" src="https://user-images.githubusercontent.com/1334951/87341392-6ac11f00-c4fe-11ea-8442-e6068f16ba31.png" width="750px"> | **MahApps.Metro**  MahApps.Metro is a free open-source framework that allows developers to cobble together a better UI for their own WPF applications with minimal effort, Supporting .NET Framework and .NET Core. It overrides the default style of all common WPF controls and gives them a modern look. MahApps.Metro also includes some custom controls based on concepts from Windows Phone, Windows 8 and Window 10 (UWP) Apps.|
 
 
 ## Meetups
@@ -70,9 +70,9 @@ You can contact the .NET developer advocacy team at **[aws-dotnetfdn-interest-op
 
 ### Sponsored Meetups
 **Our .NET Foundation sponsored [.NET Meetup Pro groups](https://www.meetup.com/pro/dotnet) are continuing to grow worldwide.** Here are some quick stats:*
-* 355 Groups
-* 62 Countries
-*	290K Members
+* 365 Groups
+* 65 Countries
+*	303K Members
 
 Our .NET Meetup Pro group helps developers find your group, as well as get involved with local events like .NET Conf Local. If your meetup hasn't joined yet, you can [right here](https://aka.ms/add-dotnet-meetup).
 
