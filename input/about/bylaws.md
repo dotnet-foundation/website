@@ -71,7 +71,7 @@ Amended and Restated Effective [July __], 2020
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;post the proposed amendments as “pull requests” within the Foundation’s GitHub organization, or through such other methodology determined by the Board that is accessible to Members for review and feedback;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;notify Members via a public announcement and solicit Member comments to the proposed changes over a designated Member review period (no less than a week from the date of notice), to be submitted by Members via Github or such other forum or methodology adopted by the Board;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;notify Members via a public announcement and solicit Member comments to the proposed changes over a designated Member review period (no less than a week from the date of notice), to be submitted by Members via GitHub or such other forum or methodology adopted by the Board;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;upon conclusion of the Member review period, the Board will collect and consider all Member comments in good faith prior to voting on the amendments.
 
