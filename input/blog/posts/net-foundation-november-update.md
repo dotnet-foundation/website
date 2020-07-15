@@ -108,7 +108,7 @@ On December 1st, we plan to stop supporting .NET Framework 2.0 in NUnit framewor
 
 <h3>PeachPie 0.9.18</h3>
 This release includes support for .NET generics, custom attributes, and plenty of fixes.<br />
-<a href="https://www.peachpie.io/2018/11/peachpie-attributes-generics.html" target="_blank"><img alt=".Net" data-file-id="3152865" height="504" src="assets/posts/74003b16-78f9-4abd-8d12-ccbc26077669.png" width="845" /></a><br />
+<a href="https://www.peachpie.io/2018/11/peachpie-attributes-generics.html" target="_blank"><img alt=".NET" data-file-id="3152865" height="504" src="assets/posts/74003b16-78f9-4abd-8d12-ccbc26077669.png" width="845" /></a><br />
 Read the announcement&nbsp;<a href="https://www.peachpie.io/2018/11/peachpie-attributes-generics.html" target="_blank">here</a>.
 
 <h3>Free eBook on Modernizing .NET Applications from the Steeltoe team</h3>

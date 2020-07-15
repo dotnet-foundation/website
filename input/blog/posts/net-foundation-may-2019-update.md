@@ -88,15 +88,15 @@ If you're a .NET Foundation Member, sign up to join an action group:</p>
 
 <p>For a lot more, head to&nbsp;<a href="https://mybuild.techcommunity.microsoft.com/sessions">Microsoft Build On-demand</a></p>
 
-<p><img src="assets/posts/32fd9305-5625-4b8e-94fa-c6916c320e71.jpg" alt=".Net" style="width: 40%;" /> &nbsp;</p>
+<p><img src="assets/posts/32fd9305-5625-4b8e-94fa-c6916c320e71.jpg" alt=".NET" style="width: 40%;" /> &nbsp;</p>
 
-<p><img src="assets/posts/a6d67a46-573c-4d62-aef2-daa5610ddfd5.jpg" alt=".Net" style="width: 40%;" /></p>
+<p><img src="assets/posts/a6d67a46-573c-4d62-aef2-daa5610ddfd5.jpg" alt=".NET" style="width: 40%;" /></p>
 
-<p><a href="https://www.youtube.com/watch?v=IG7DZFtoNSQ&amp;feature=youtu.be"><img src="assets/posts/28f8d88e6f4d71d1ad09a659cef56a2f.png" alt=".Net" /></a>&nbsp;</p>
+<p><a href="https://www.youtube.com/watch?v=IG7DZFtoNSQ&amp;feature=youtu.be"><img src="assets/posts/28f8d88e6f4d71d1ad09a659cef56a2f.png" alt=".NET" /></a>&nbsp;</p>
 
 <h2>Save the Date for .NET Conf 2019</h2>
 
-<p><a href="https://www.dotnetconf.net/"><img src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" alt=".Net" /></a></p>
+<p><a href="https://www.dotnetconf.net/"><img src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" alt=".NET" /></a></p>
 
 <p>At Build, the dates for&nbsp;<a href="https://www.dotnetconf.net/">.NET Conf 2019</a>&nbsp;were announced. It will be taking place on September 23-25, 2019. This will be the .NET Core 3.0 launch event as it will move out of preview and release at the start of the conference. You don't want to miss this FREE, online conference this year! Call for content will open soon so stay tuned to&nbsp;<a href="https://twitter.com/search?q=%23dotnetconf">Twitter hashtag #dotnetconf</a>&nbsp;and the website&nbsp;<a href="http://www.dotnetconf.net/">www.dotnetconf.net</a>!</p>
 

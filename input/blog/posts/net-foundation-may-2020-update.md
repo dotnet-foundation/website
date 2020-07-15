@@ -38,7 +38,7 @@ This year's agenda features C#, F#, coding practices like refactoring and defens
 
 ### BuildStuff Weekly Virtual Meetups
 
-Build Stuff offers free weekly meetups on various topics. On April 23, for example, Julie Lerman, author of the highly acclaimed “Programming Entity Framework” books, talked about her latest experiment on publishing a serverless ASP.Net Core API application onto AWS Lambda.  That same meetup had Ian Cooper, founder of the London .NET Users Group, talking about messages in a distributed system.
+Build Stuff offers free weekly meetups on various topics. On April 23, for example, Julie Lerman, author of the highly acclaimed “Programming Entity Framework” books, talked about her latest experiment on publishing a serverless ASP.NET Core API application onto AWS Lambda.  That same meetup had Ian Cooper, founder of the London .NET Users Group, talking about messages in a distributed system.
 
 Sign up for future events or view recordings of past events at [https://www.buildstuff.events/meetups](https://www.buildstuff.events/meetups)
 

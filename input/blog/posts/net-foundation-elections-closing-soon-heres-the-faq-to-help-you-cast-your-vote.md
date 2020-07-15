@@ -37,7 +37,7 @@ Published: 2019-03-26 20:59:57.4717962
 <li>
 <p>The election uses <a href="https://www.opavote.com/methods/single-transferable-vote">Single Transferable Vote (Scottish rules)</a>. There are 45 candidates (!) and you can rank as many as you want. The order matters. For more details, see the <a href="https://www.opavote.com/results/5875073812529152">results of our mock election</a>. I'm really impressed with OpaVote's efforts to graphically explain how the STV rules are applied:</p>
 
-<p><a href="https://www.opavote.com/results/5875073812529152"><img alt=".Net" src="assets/posts/bb977c44-1c97-4a5e-b325-8410ca30ff14.png" style="width: 800px; height: 709px;" /></a></p>
+<p><a href="https://www.opavote.com/results/5875073812529152"><img alt=".NET" src="assets/posts/bb977c44-1c97-4a5e-b325-8410ca30ff14.png" style="width: 800px; height: 709px;" /></a></p>
 </li>
 <li>As you can see from the above mock election results, the ballots are available for download (anonymized, of course). That will allow anyone to audit and analyze the votes, while preserving voter confidentiality.</li>
 <li>

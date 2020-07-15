@@ -124,7 +124,7 @@ More details <a href="https://github.com/App-vNext/Polly/wiki/Polly-and-HttpClie
 <li><a href="https://blogs.msdn.microsoft.com/dotnet/2018/04/18/performance-improvements-in-net-core-2-1/">Performance Improvements in .NET Core 2.1</a></li>
 <li><a href="https://blogs.msdn.microsoft.com/dotnet/2018/04/20/help-us-plan-the-future-of-net/">Help us plan the future of .NET!</a></li>
 <li><a href="http://xoofx.com/blog/2018/04/12/writing-managed-jit-in-csharp-with-coreclr/">Writing a Managed JIT in C# with CoreCLR</a></li>
-<li><a href="http://loicbaumann.fr/en/2018/04/02/how-to-optimize-net-development-using-net-core-2-1-and-c-7-2/">How To Optimize .Net Development Using .Net Core 2.1 And C# 7.2</a></li>
+<li><a href="http://loicbaumann.fr/en/2018/04/02/how-to-optimize-net-development-using-net-core-2-1-and-c-7-2/">How To Optimize .NET Development Using .NET Core 2.1 And C# 7.2</a></li>
 </ul>
 
 <hr />

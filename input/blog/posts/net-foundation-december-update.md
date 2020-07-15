@@ -20,7 +20,7 @@ This month's newsletter includes:</p>
 
 <h3>.NET Foundation Open Membership</h3>
 
-<p><a href="https://channel9.msdn.com/Events/Connect/Microsoft-Connect--2018/K120"><img alt=".Net" src="assets/posts/connect-dnf.png" style="width: 1067px; height: 597px;" /></a></p>
+<p><a href="https://channel9.msdn.com/Events/Connect/Microsoft-Connect--2018/K120"><img alt=".NET" src="assets/posts/connect-dnf.png" style="width: 1067px; height: 597px;" /></a></p>
 
 <p>At the&nbsp;<a href="https://news.microsoft.com/connect-2018/">Microsoft Connect</a>&nbsp;event earlier this month, we made&nbsp;<a href="/blog/2018/12/04/announcing-net-foundation-open-membership">two pretty big announcements</a>. The first is open membership: we're expanding the .NET Foundation by inviting the entire open source community to take a more active role, to directly guide foundation operations and build the ecosystem. If you've contributed to a .NET Foundation open source project, you can&nbsp;<a href="/member/become-a-member">apply to become a voting member today!</a></p>
 
@@ -81,7 +81,7 @@ Thanks to Ori Ashual for contributions to the docs and Matti Petrelius, Alex (ah
 <li>150.5K Members</li>
 </ul>
 
-<p><a href="https://www.meetup.com/pro/dotnet"><img alt=".Net" src="assets/posts/dnf-meetups-dec18.jpg" style="width: 819px; max-width: 100%;" /></a></p>
+<p><a href="https://www.meetup.com/pro/dotnet"><img alt=".NET" src="assets/posts/dnf-meetups-dec18.jpg" style="width: 819px; max-width: 100%;" /></a></p>
 
 <p>We've also started sending newsletters to Meetup organizers, including some links for some free swag for their groups. If your meetup hasn't joined yet, you can&nbsp;<a href="https://aka.ms/add-dotnet-meetup">right here</a>.</p>
 

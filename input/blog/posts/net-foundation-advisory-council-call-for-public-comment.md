@@ -5,13 +5,13 @@ Published: 2014-10-14 17:16:00.0000000
 ---
 <h2>Friends in the .NET community,</h2>
 
-<p>When the .NET Foundation was created, there was an important principle that the foundation and its work be transparent, open, and community driven. In order to ensure that the foundation delivers on this primary objective, the board of the .Net Foundation asked Shaun Walker, who has a long history leading and contributing to .Net open source projects, to develop an initial proposal for a community based advisory council to help guide the governance of the .NET Foundation. <a href="/assets/documents/net-foundation-advisory-council-proposal.pdf">That proposal is now available for community comment</a>.</p>
+<p>When the .NET Foundation was created, there was an important principle that the foundation and its work be transparent, open, and community driven. In order to ensure that the foundation delivers on this primary objective, the board of the .NET Foundation asked Shaun Walker, who has a long history leading and contributing to .NET open source projects, to develop an initial proposal for a community based advisory council to help guide the governance of the .NET Foundation. <a href="/assets/documents/net-foundation-advisory-council-proposal.pdf">That proposal is now available for community comment</a>.</p>
 
 <p>There are many reasons we feel that an advisory council is needed. Our goal is to ensure that the foundations operation and governance is both efficient and effective when viewed from a community building perspective. Some of the practical reasons for the creation of the council are:</p>
 
 <ul>
 <li>Providing a clear communication channel between the community and the board on the foundations community building activities. To provide a channel for community stakeholders to provide feedback and guidance on the foundations value proposition, governance model, and other important foundation level decisions.</li>
-<li>Provide a set of known, high profile individuals who can advocate for and evangelize the benefits and services provided by the .Net foundation and evangelize the foundation&rsquo;s mission.</li>
+<li>Provide a set of known, high profile individuals who can advocate for and evangelize the benefits and services provided by the .NET foundation and evangelize the foundation&rsquo;s mission.</li>
 <li>Establishes a group of individuals, experienced in open source community cultivation and project governance, who can provide stewardship, education and leadership to open source .NET projects of all size, popularity, and stature.</li>
 <li>To augment the capacity of the board, and distribute work of the foundation across more community members to increase the governance bandwidth of the foundation.</li>
 </ul>
@@ -22,7 +22,7 @@ Published: 2014-10-14 17:16:00.0000000
 
 <p>I&rsquo;d like to thank you in advance for the time you take to read the proposal and the guidance you provide to help us develop an advisory council that works for the community.</p>
 
-<p>Jay Schmelzer President,<br /> .Net Foundation</p>
+<p>Jay Schmelzer President,<br /> .NET Foundation</p>
 
 <hr />
 

@@ -38,13 +38,13 @@ We had 228 .NET Conf Local Events this year with 15K+ estimated attendees!</p>
 
 <p><a href="https://www.dotnetconf.net/local-events" target="_blank" title=""><img alt=".NET Conf Local Event Map" src="assets/posts/ceab7291-9a1b-4db8-83c9-46c6b2bdf744.jpg" width="564" /></a></p>
 
-<p><a href="https://twitter.com/mba_oma/status/1183489689908580359"><img alt=".Net" src="assets/posts/dotnetconf-2019-nigeria.png" width="45%" /></a></p>
+<p><a href="https://twitter.com/mba_oma/status/1183489689908580359"><img alt=".NET" src="assets/posts/dotnetconf-2019-nigeria.png" width="45%" /></a></p>
 
-<p><a href="https://twitter.com/mba_oma/status/1183489689908580359">&nbsp;</a><a href="https://twitter.com/KagJansamret/status/1187990165697916931"><img alt=".Net" src="assets/posts/dotnetconf-2019-thailand.png" width="45%" /></a></p>
+<p><a href="https://twitter.com/mba_oma/status/1183489689908580359">&nbsp;</a><a href="https://twitter.com/KagJansamret/status/1187990165697916931"><img alt=".NET" src="assets/posts/dotnetconf-2019-thailand.png" width="45%" /></a></p>
 
-<p><a href="https://twitter.com/KagJansamret/status/1187990165697916931">&nbsp;</a><a href="https://twitter.com/Rie_Moriguchi/status/1188319603291590657"><img alt=".Net" src="assets/posts/dotnetconf-2019-tokyo.png" width="45%" /></a></p>
+<p><a href="https://twitter.com/KagJansamret/status/1187990165697916931">&nbsp;</a><a href="https://twitter.com/Rie_Moriguchi/status/1188319603291590657"><img alt=".NET" src="assets/posts/dotnetconf-2019-tokyo.png" width="45%" /></a></p>
 
-<p><a href="https://twitter.com/Rie_Moriguchi/status/1188319603291590657">&nbsp;</a><a href="https://twitter.com/dotnetosorg/status/1182560758472814599"><img alt=".Net" src="assets/posts/dotnetconf-2019-romania.png" width="45%" /></a></p>
+<p><a href="https://twitter.com/Rie_Moriguchi/status/1188319603291590657">&nbsp;</a><a href="https://twitter.com/dotnetosorg/status/1182560758472814599"><img alt=".NET" src="assets/posts/dotnetconf-2019-romania.png" width="45%" /></a></p>
 
 <h2>.NET Foundation Project Updates</h2>
 
