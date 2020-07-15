@@ -69,7 +69,7 @@ Amended and Restated Effective [July __], 2020
 
 **(f)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Member Review.** Prior to voting on any amendments to the Foundation’s Bylaws, Articles of Incorporation or the Foundation's Membership Policy, the Director Election Policy, the Project Governance Policy, or any of the Foundation’s Intellectual Property-related agreements or policies, the Board shall use reasonable efforts to preview the proposed amendments with the Foundation’s Members, using the following process:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;post the proposed amendments as “pull requests” on the Foundation’s Github, or through such other methodology determined by the Board that is accessible to Members for review and feedback;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;post the proposed amendments as “pull requests” within the Foundation’s GitHub organization, or through such other methodology determined by the Board that is accessible to Members for review and feedback;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;notify Members via a public announcement and solicit Member comments to the proposed changes over a designated Member review period (no less than a week from the date of notice), to be submitted by Members via Github or such other forum or methodology adopted by the Board;
 
