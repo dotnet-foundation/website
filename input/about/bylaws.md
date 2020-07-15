@@ -11,7 +11,7 @@ layout: _BasicPageLayout
 
 # .NET Foundation Bylaws
 
-Amended and Restated Effective June 4, 2020
+Amended and Restated Effective [July __], 2020
 
 ### Article I: Name, Offices and Purpose
 
@@ -67,7 +67,17 @@ Amended and Restated Effective June 4, 2020
 
 **(e)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Limited Special Right for Director Appointed by Founding Member.** In connection with any vote to materially change the Foundation’s Membership Policy, Director Election Policy, Project Governance Policy, or any Intellectual Property-related agreements or policies, (a) a “no” vote by the director appointed by the Founding Member will result in the disapproval of a proposed action, regardless of the number of votes for approval), and (b) such director must be present as part of any quorum (i.e. if that director is not present, the Board will not have a quorum for the matter, regardless of the number of other directors present).
 
-**(f)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notices.** All notices required under this Article III will be given to all directors in office at the time of such notice and may be given by email at least 48 hours in advance of the meeting or by first class mail to such director’s last known business address at least three business days in advance.
+**(f)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Member Review.** Prior to voting on any amendments to the Foundation’s Bylaws, Articles of Incorporation or the Foundation's Membership Policy, the Director Election Policy, the Project Governance Policy, or any of the Foundation’s Intellectual Property-related agreements or policies, the Board shall use reasonable efforts to preview the proposed amendments with the Foundation’s Members, using the following process:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;post the proposed amendments as “pull requests” on the Foundation’s Github, or through such other methodology determined by the Board that is accessible to Members for review and feedback;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;notify all Members via email and solicit Member comments to the proposed changes over a designated Member review period (no less than a week from the date of notice), to be submitted by Members via Github or such other forum or methodology adopted by the Board;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;upon conclusion of the Member review period, the Board will collect and consider all Member comments in good faith prior to voting on the amendments.
+
+However, to the extent the Board reasonably determines that such a Member review process is not possible due to good faith considerations (such as time sensitivity, potential legal liability,  confidentiality, etc.), it may vote on amendments in accordance with these Bylaws, but without engaging in the above review process. In the event the Board does adopt any such amendments without Member review, it will provide Members a description for the reasons for the amendments and for bypassing the review process.
+
+**(g)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notices.** All notices required under this Article III will be given to all directors in office at the time of such notice and may be given by email at least 48 hours in advance of the meeting or by first class mail to such director’s last known business address at least three business days in advance.
 
 **Section 3.10. ++Action without a Meeting.++** Board actions may be taken without a meeting if all of the directors then in office communicate written consent to such actions. Communications may be via electronic means so long as the method used provides reasonable assurance of notice, security and authenticity.
 
