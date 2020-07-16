@@ -1,7 +1,7 @@
 ---
 Title: .NET Foundation Board Elections – Meet the Candidates!
 Author: Claire Novotny
-Published: 2020-06-16
+Published: 2020-07-16
 ---
 
 Today and tomorrow the candidates for the 2020 Board of Director elections will be interviewed live on the[.NET Foundation YouTube channel](https://www.youtube.com/playlist?list=PL1rZQsJPBU2Qjz-agkBKHon6BRnqlsoPN). Here's a quick lineup:
