@@ -15,6 +15,8 @@ I've been contributing to various .NET projects for just over 10 years, and I'm 
 
 As a mentor for Code First: Girls in the UK, I'm currently writing a C# syllabus to be taught to young women aged 11-18 in the UK, and if elected, I'd like to help support similar initiatives around the globe through the Foundation. I've also been attending regular meetings of the outreach committee since April, including taking minutes at those meetings.
 
+I also co-organise the Canary Wharf .NET Meetup Group in London's financial district, focusing on fintech, blockchain and machine learning subjects.
+
 ## My .NET Open Source Contributions
 I've submitted various patches, pull requests & helped to improve & maintain various libraries/packages, including:
 * [Umbraco](https://github.com/umbraco/Umbraco-CMS)
@@ -25,6 +27,7 @@ I've submitted various patches, pull requests & helped to improve & maintain var
 ## Links
 * [My blog](https://jamiehowarth.me)
 * [Public talks on YouTube](https://www.youtube.com/playlist?list=PLMIaPK41s0Kw2d6EtJw0zzRKBdaJ9e7Zr)
+* [Canary Wharf .NET User Group](https://www.meetup.com/Canary-Wharf-NET-User-Group/)
 
 ## Contact Information
 * Twitter: [@jamiehowarth0](https://twitter.com/jamiehowarth0)
