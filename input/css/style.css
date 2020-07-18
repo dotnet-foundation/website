@@ -839,6 +839,10 @@ article.post header.jumbotron {
   transition: 0.3s ease-out;
 }
 
+.card__button:hover {
+  color: #ffffff;
+}
+
 .card__thumbnail {
   text-align: center;
 }
