@@ -8,7 +8,7 @@ image: campaign-2020/shawn-wildermuth.jpg
 
 ## Who am I?
 
-![Shawn Wildermuth](http://wildermuth.com/img/headshots/shawn-head-2016-square-200.jpg){ .pull-right } I am a coder, instructor and speaker. This year I was graced with my eighteenth Microsoft MVP. I've written eight books, dozens of articles and over twenty-five courses for Pluralsight. I live and breathe this stuff. 
+![Shawn Wildermuth](http://wildermuth.com/img/headshots/shawn-head-2016-square-200.jpg){ .float-right .img-thumbnail } I am a coder, instructor and speaker. This year I was graced with my eighteenth Microsoft MVP. I've written eight books, dozens of articles and over twenty-five courses for Pluralsight. I live and breathe this stuff. 
 
 It's been nearly forty years since I got a Vic-20 for Christmas 1980. Since that day, I've been obsessed with code and programming. My first programming job was designing a database for a real estate company back in 1986. It's been in my blood ever since. 
 
