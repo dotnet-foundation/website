@@ -1,8 +1,9 @@
 ---
-Title: Lightweight Test Automation Framework [Archived]
+Title: Lightweight Test Automation Framework
 Contributor: Outercurve
 Logo: outercurve.png
 Web: https://archive.codeplex.com/?p=ltaf
+IsActive: false
 ---
 # Lightweight Test Automation Framework
 
