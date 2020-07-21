@@ -46,6 +46,6 @@ In addition to robust content management, the free, open-source DNN Platform inc
 * [Forums](https://dnncommunity.org/forums)  
 * [Showcase](https://dnncommunity.org/Showcase)  
 * [DNN on Facebook](https://www.facebook.com/groups/dnnconnect)  
-* [DNN on Slack](https://www.facebook.com/groups/dnnconnect)  
+* [DNN on Slack](https://openhelp.slack.com)  
 * [DNN on Twitter](https://twitter.com/dnnawareness)  
 * [DNN Store](https://store.dnnsoftware.com/)  
