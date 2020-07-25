@@ -1,7 +1,7 @@
 ---
 Title: IdentityServer
 Contributor: IdentityServer
-Logo: IDserver_logotransparent.png
+Logo: identityserver.png
 Web: https://identityserver.io/
 ---
 # IdentityServer
