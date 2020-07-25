@@ -1,7 +1,7 @@
 ---
 Title: DNN Platform
 Contributor: DNN Corp
-Logo: 68f0dace-04df-433a-a529-7557051e8946.jpg
+Logo: dnn-platform.jpg
 Web: https://dnncommunity.org/
 ---
 # DNN Platform

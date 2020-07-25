@@ -1,7 +1,7 @@
 ---
 Title: IdentityManager
 Contributor: IdentityManager
-Logo: bb45452e-8c4c-4410-807f-05bc66f75e11.jpg
+Logo: identitymanager.jpg
 Web: https://github.com/IdentityManager
 ---
 # IdentityManager

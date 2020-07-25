@@ -1,7 +1,7 @@
 ---
 Title: IdentityModel
 Contributor: IdentityModel
-Logo: ffa8636d-cf76-4e83-88ef-ca4f8af924fe.jpg
+Logo: identitymodel.jpg
 Web: https://github.com/IdentityModel
 ---
 # IdentityModel
