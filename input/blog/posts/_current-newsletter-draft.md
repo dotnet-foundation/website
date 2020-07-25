@@ -72,6 +72,16 @@ We are also happy to announce that [Shane Krueger](https://github.com/Shane32) a
 
 Full details are available [here](https://github.com/linq2db/linq2db/wiki/Release-Notes-3.0.0)
 
+### [NUnit](https://nunit.org)
+
+We’re grateful to have [Sean Killeen](https://seankilleen.com/) join us as lead of the documentation project. He put in a lot of effort to modernize the NUnit documentation, to great effect as you can see at [https://docs.nunit.org](https://docs.nunit.org)! The docs are integrated with the website, they now have full-text search, and each page has a link which allows you to edit on GitHub and submit a PR easily.
+
+The NUnit VSTest adapter had two releases:
+
+- [3.17.0](https://docs.nunit.org/articles/vs-test-adapter/Adapter-Release-Notes.html#nunit3-test-adapter-for-visual-studio---version-3170---july-11-2020) has a new StopOnError setting, the ability to set data file paths and line numbers, a major bugfix to show console output properly, and other fixes.
+
+- [4.0.0-alpha.1](https://docs.nunit.org/articles/vs-test-adapter/Adapter-Release-Notes.html#nunit3-test-adapter-for-visual-studio---version-400-alpha1---july-12-2020) fixes some of the more complex issues, such as working with explicit tests and significant performance improvements. We would really appreciate it if you give this alpha a spin and [report](https://github.com/nunit/nunit3-vs-adapter/issues) whatever you find back to us.
+
 ## Meetups
 
 ### Looking for speakers to go deep on AWS?
