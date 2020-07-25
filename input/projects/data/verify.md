@@ -16,7 +16,7 @@ A pluggable model is provided for a variety of scenarios including:
  * [Converting between different document/file types](https://github.com/VerifyTests/Verify/blob/master/docs/converter.md)
  * [Custom snapshot comparison](https://github.com/VerifyTests/Verify/blob/master/docs/comparer.md)
 
-A number of these scenarios have be pre-packged. For example:
+A number of these scenarios have be pre-packaged. For example:
 
  * [Verification of Blazor components](https://github.com/VerifyTests/Verify.Blazor)
  * [Comparison of images via Phash](https://github.com/VerifyTests/Verify.Phash).
