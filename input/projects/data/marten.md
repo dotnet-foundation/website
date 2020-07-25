@@ -1,7 +1,7 @@
 ---
 Title: Marten
 Contributor: Marten
-Logo: emblem.png
+Logo: marten.png
 Web: https://martendb.io/
 ---
 # Marten
