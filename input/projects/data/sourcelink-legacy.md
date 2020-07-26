@@ -1,7 +1,8 @@
 ---
-Title: SourceLink 🔚
+Title: SourceLink Legacy
+IsActive: False
 ---
-# SourceLink
+# SourceLink _Legacy_
 
 Update: The recommended library to use now is [SourceLink](/projects/sourcelink)
 

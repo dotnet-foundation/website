@@ -1,5 +1,6 @@
 ---
-Title: Nancy 🔚
+Title: Nancy
+IsActive: False
 ---
 # Nancy
 
