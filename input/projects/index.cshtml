@@ -64,8 +64,8 @@ permalink: /projects
                     @{
                         var list = Outputs[nameof(Statiq.Web.Pipelines.Content)]
                                        .Flatten()
-                                       .FilterSources("projects/data/*.md")                
-                                       .Where(doc => !string.IsNullOrWhiteSpace(doc.GetTitle()))
+                                       .FilterSources("projects/data/*.md")   
+                                       .Where(doc => !string.IsNullOrWhiteSpace(doc.GetTitle()) && Convert.ToBoolean(doc.GetValueOrDefault("IsActive", true)) == true)
                                        .GroupBy(doc => char.IsLetter(doc.GetTitle().ToUpperInvariant().First()) ? doc.GetTitle().ToUpperInvariant().First() : '#' )
                                        .OrderBy(g => g.Key)
                                        .ToList();
