@@ -1,0 +1,71 @@
+﻿---
+permalink: /projects/archived-projects
+---
+
+<section class="page-section page-section--purple">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="page-section_column col-12 text-center">
+                <h1>
+                    Archived Projects
+                </h1>
+                <p class="mx-auto">
+                    The .NET Foundation provides several services to support the projects in our community. Projects—and the people behind them—are at the heart of what .NET Foundation is all about.
+                </p>
+                <p class="mx-auto">
+                    Sadly some of these projects have run their course and are no longer being developed or maintained. Here you will find them!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section">
+    <div class="page-section_container container">
+        <div class="page-section_row row text-left">
+            <div class="page-section_column col-12">
+                <div id="SearchResults"></div>
+                <div id="PresetProjects">
+                    @{
+                        var list = Outputs[nameof(Statiq.Web.Pipelines.Content)]
+                                       .Flatten()
+                                       .FilterSources("projects/data/*.md")
+                                       .Where(doc => !string.IsNullOrWhiteSpace(doc.GetTitle()) && Convert.ToBoolean(doc.GetValueOrDefault("IsActive", true)) == false)
+                                       .GroupBy(doc => char.IsLetter(doc.GetTitle().ToUpperInvariant().First()) ? doc.GetTitle().ToUpperInvariant().First() : '#')
+                                       .OrderBy(g => g.Key)
+                                       .ToList();
+
+                        var start = 0;
+                    }
+                    @while (start < list.Count)
+                    {
+                        <div class="row">
+                            @foreach (var letterGroup in list.Skip(start).Take(3))
+                            {
+                                <div class="col-lg-4 col-sm-12 alph">
+                                    <hr />
+                                    <div class="alph-box">
+                                        <div class="letter">@letterGroup.Key</div>
+                                        <div class="list">
+                                            @foreach (var proj in letterGroup.OrderBy(p => p.GetTitle()))
+                                            {
+                                                <a class="project-item" data-project="@proj.GetTitle()" href="@proj.GetLink()">@proj.GetTitle()</a>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+
+                            }
+                        </div>
+
+                        start += 3;
+                    }
+                </div>
+                <div id="PresetPagination">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/projects.js"></script>
