@@ -10,7 +10,7 @@ Web: http://www.microsoft.com
 
 .NET for Apache Spark is compliant with .NET Standard - a formal specification of .NET APIs that are common across .NET implementations. This means you can use .NET for Apache Spark anywhere you write .NET code allowing you to reuse all the knowledge, skills, code, and libraries you already have as a .NET developer. 
 
-.NET for Apache Spark runs on Windows, Linux, and macOS using .NET Core, or Windows using .NET Framework. It also runs on all major cloud providers including [Azure HDInsight Spark](deployment/README.md#azure-hdinsight-spark), [Amazon EMR Spark](deployment/README.md#amazon-emr-spark), [AWS](deployment/README.md#databricks) & [Azure](deployment/README.md#databricks) Databricks.
+.NET for Apache Spark runs on Windows, Linux, and macOS using .NET Core, or Windows using .NET Framework. It also runs on all major cloud providers including [Azure HDInsight Spark](https://github.com/dotnet/spark/blob/master/deployment/README.md#azure-hdinsight-spark), [Amazon EMR Spark](https://github.com/dotnet/spark/blob/master/deployment/README.md#amazon-emr-spark), [AWS](https://github.com/dotnet/spark/blob/master/deployment/README.md#databricks) & [Azure](https://github.com/dotnet/spark/blob/master/deployment/README.md#databricks) Databricks.
 
 ## Project Details
 

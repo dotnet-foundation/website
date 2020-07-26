@@ -12,7 +12,7 @@ Web: https://xamarin.com/
 * [Project Info Site](https://github.com/jstedfast/MailKit)
 * [Project Code Site](https://github.com/jstedfast/MailKit)
 * Project License Type: [MIT](https://github.com/jstedfast/MailKit/blob/master/License.md)
-* Project Main Contact: [Jeffrey Stedfast](jeff@xamarin.com)
+* Project Main Contact: [Jeffrey Stedfast](mailto:jeff@xamarin.com)
 
 ## Quicklinks
 

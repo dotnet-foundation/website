@@ -22,7 +22,7 @@ Various customizable output generators makes it suitable not only for usage in a
 * Downloads: 
   - [Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=TomEnglert.ResXManager)
   - [Standalone Application](https://github.com/dotnet/ResXResourceManager/releases/latest/download/Publish.zip)
-* ⚖ License: [MIT](https://github.com/dotnet/ResXResourceManager/tree/master/LICENSE)
+* ⚖ License: [MIT](https://github.com/dotnet/ResXResourceManager/blob/master/License)
 * Main contact: [Tom Englert](https://github.com/tom-englert)
 
 ## More info
