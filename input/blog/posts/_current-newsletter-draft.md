@@ -74,7 +74,7 @@ Full details are available [here](https://github.com/linq2db/linq2db/wiki/Releas
 
 ### [NUnit](https://nunit.org)
 
-We’re grateful to have [Sean Killeen](https://seankilleen.com/) join us as lead of the documentation project. He put in a lot of effort to modernize the NUnit documentation, to great effect as you can see at [https://docs.nunit.org](https://docs.nunit.org)! The docs are integrated with the website, they now have full-text search, and each page has a link which allows you to edit on GitHub and submit a PR easily.
+We’re grateful to have [Sean Killeen](https://seankilleen.com/) join us as lead of the documentation project. He put in a lot of effort to modernize the NUnit documentation, to great effect as you can see at [https://docs.nunit.org](https://docs.nunit.org)! The docs are now built with docfx. They are integrated with the website, have full-text search, and have edit links on each page where you can submit a PR easily. We look forward to seeing [your suggestions and contributions](https://github.com/nunit/docs)!
 
 The NUnit VSTest adapter had two releases:
 
