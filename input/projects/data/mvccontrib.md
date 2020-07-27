@@ -1,8 +1,9 @@
 ---
-Title: MVC Contrib [Archived]
+Title: MVC Contrib
 Contributor: Outercurve
 Logo: outercurve.png
 Web: https://archive.codeplex.com/?p=mvccontrib
+IsActive: false
 ---
 # MVC Contrib
 
