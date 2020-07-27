@@ -373,7 +373,7 @@ svg.svg-inline--fa {
   border-radius: 0;
   top: 104%;
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.9);
+  background: #ffffff;
 }
 @media screen and (max-width: 1400px) {
   .about-menu {
