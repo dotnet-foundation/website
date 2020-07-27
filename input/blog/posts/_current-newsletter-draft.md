@@ -51,6 +51,7 @@ The .NET Foundation would like to welcome the following projects that joined in 
 |                     |                    |
 | ------------------- |--------------------|
 | <img width="750px" src="https://user-images.githubusercontent.com/1334951/87341392-6ac11f00-c4fe-11ea-8442-e6068f16ba31.png" width="750px"> | **MahApps.Metro**  MahApps.Metro is a free open-source framework that allows developers to cobble together a better UI for their own WPF applications with minimal effort, Supporting .NET Framework and .NET Core. It overrides the default style of all common WPF controls and gives them a modern look. MahApps.Metro also includes some custom controls based on concepts from Windows Phone, Windows 8 and Window 10 (UWP) Apps.|
+| <img width="750px" src="https://user-images.githubusercontent.com/1334951/88558920-0a8faa00-cfe1-11ea-8ee2-eeb0504e2b07.png" width="750px"> | **Verify**  Verify is a snapshot tool that simplifies the assertion of complex data models and documents. Verify is called on the test result during the assertion phase. It serializes that result and stores it in a file that matches the test name. On the next test execution, the result is again serialized and compared to the existing file. The test will fail if the two snapshots do not match: either the change is unexpected, or the reference snapshot needs to be updated to the new result. When snapshots do not match, the difference is automatically displayed in a diff tool.|
 
 ## New Releases
 
