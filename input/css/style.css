@@ -1492,6 +1492,7 @@ svg:not(:root).svg-inline--fa {
    align-items: center;
    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
    max-width: 30%;
+   min-width:26%;
    border-radius: 4%;
    box-sizing: border-box;
    padding: 2rem;
