@@ -73,6 +73,26 @@ We are also happy to announce that [Shane Krueger](https://github.com/Shane32) a
 
 Full details are available [here](https://github.com/linq2db/linq2db/wiki/Release-Notes-3.0.0)
 
+### [NUnit](https://nunit.org)
+
+#### Documentation project
+
+We’re grateful to have [Sean Killeen](https://seankilleen.com/) join us as lead of the documentation project. He put in a lot of effort to modernize the NUnit documentation, to great effect as you can see at [https://docs.nunit.org](https://docs.nunit.org)! The docs are now built with docfx. They are integrated with the website, have full-text search, and have edit links on each page where you can submit a PR easily. We look forward to seeing [your suggestions and contributions](https://github.com/nunit/docs)!
+
+#### NUnit VSTest adapter
+
+- [3.17.0](https://docs.nunit.org/articles/vs-test-adapter/Adapter-Release-Notes.html#nunit3-test-adapter-for-visual-studio---version-3170---july-11-2020) has a new StopOnError setting, the ability to set data file paths and line numbers, a major bugfix to show console output properly, and other fixes.
+
+- [4.0.0-alpha.1](https://docs.nunit.org/articles/vs-test-adapter/Adapter-Release-Notes.html#nunit3-test-adapter-for-visual-studio---version-400-alpha1---july-12-2020) fixes some of the more complex issues, such as working with explicit tests and significant performance improvements. We would really appreciate it if you give this alpha a spin and [report](https://github.com/nunit/nunit3-vs-adapter/issues) whatever you find back to us.
+
+#### NUnit Analyzers
+
+- [0.3](https://github.com/nunit/nunit.analyzers/releases/tag/0.3.0) improved the documentation of all the diagnostics. It also added new diagnostics for proper usage of string constraints, ContainsConstraint, Does.Contain, and Contains.Item, and the TestCaseSource attribute.
+
+- [0.4](https://github.com/nunit/nunit.analyzers/releases/tag/0.4.0) adds 13 new diagnostics and codefixes for asserts in the classical model such as Assert.Greater, Assert.IsNotEmpty, and Assert.IsNotInstanceOf. We have also improved the handling of asserts against constants and variables of type Task. In addition, we now properly handle ValueSourceAttribute and test methods decorated with both a TestAttribute and a TestCaseSourceAttribute/TestCaseAttribute. We have also added a diagnostic and codefix to ensure that test methods are public.
+
+Please [try out the latest](https://www.nuget.org/packages/NUnit.Analyzers) and continue to [let us know what you’d like to see](https://github.com/nunit/nunit.analyzers/issues)!
+
 ## Meetups
 
 ### Looking for speakers to go deep on AWS?
