@@ -11,7 +11,7 @@ layout: _BasicPageLayout
 
 # .NET Foundation Bylaws
 
-Amended and Restated Effective [July __], 2020
+Amended and Restated Effective July 28, 2020
 
 ### Article I: Name, Offices and Purpose
 
