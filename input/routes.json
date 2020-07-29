@@ -1,9 +1,34 @@
 { 
   "ShouldOutput": true,
-  "routes": [ 
+  "routes": [
     {
       "route": "/code-of-conduct",
       "serve": "/about/code-of-conduct",
+      "statusCode": 301
+    },
+    {
+      "route": "/community/host-a-meetup",
+      "serve": "/community/meetups",
+      "statusCode": 301
+    },
+    {
+      "route": "/community/find-a-meetup",
+      "serve": "/community/meetups",
+      "statusCode": 301
+    },
+    {
+      "route": "/virtual-user-group",
+      "serve": "/community/virtual-user-group",
+      "statusCode": 301
+    },
+    {
+      "route": "/community/virtualusergroup",
+      "serve": "/community/virtual-user-group",
+      "statusCode": 301
+    },
+    {
+      "route": "/virtualusergroup",
+      "serve": "/community/virtual-user-group",
       "statusCode": 301
     },
     {
