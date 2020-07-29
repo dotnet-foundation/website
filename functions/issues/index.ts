@@ -17,7 +17,7 @@ class ViewModel {
   }
 }
 
-async function getIssues(organization : string, repos : string[]) {
+async function getIssues(organization: string, repos: string[]) {
   const issuesByRepoPromises = repos.map((repo) =>
     octokit.issues
       .listForRepo({
@@ -73,8 +73,7 @@ const httpTrigger: AzureFunction = async function (
   context: Context,
   req: HttpRequest
 ): Promise<void> {
-
-  var repos:string[] = extractValue(req, "repos");
+  var repos: string[] = extractValue(req, "repos");
   var org = extractValue(req, "organization");
 
   var filepath = `${org}-issues.json`;
@@ -90,8 +89,8 @@ const httpTrigger: AzureFunction = async function (
     var now = new Date();
     var diff = now.getTime() - model.date.getTime();
     var hours = Math.floor(diff / (1000 * 60 * 60));
-    if (hours > -1) {
-      model = await processIssues(await getIssues(org,repos));
+    if (hours > 5) {
+      model = await processIssues(await getIssues(org, repos));
       fs.writeFileSync(
         path.join(__dirname, filepath),
         JSON.stringify(model),
@@ -114,7 +113,7 @@ const httpTrigger: AzureFunction = async function (
       };
     }
   } catch {
-    let model = await processIssues(await getIssues(org,repos));
+    let model = await processIssues(await getIssues(org, repos));
     fs.writeFileSync(
       path.join(__dirname, filepath),
       JSON.stringify(model),

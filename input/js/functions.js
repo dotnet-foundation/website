@@ -43,7 +43,7 @@ function loadOpenIssues(orgs, repos, showEmptyCard) {
                         <div class="card-body">`;
 
           if (repo.issues.length > 4) {
-            repo.issues = repo.issues.slice(0,5);
+            repo.issues = repo.issues.slice(0, 5);
           }
 
           repo.issues.forEach((issue) => {
@@ -53,6 +53,30 @@ function loadOpenIssues(orgs, repos, showEmptyCard) {
           });
           html += `</div></div>`;
         });
+      }
+      document.querySelector("#issues").innerHTML = html;
+    },
+    error: function (jqXHR, textStatus, errorThrown) {
+      if (showEmptyCard) {
+        html += `  <div class="card bg-foundation">
+      <h3>Help Wanted</h3>
+      <div class="card-body">
+      <p class="card-text">
+      </p>
+      <br />
+      <p class="card-text">
+      </p>
+      <br />
+      <p class="card-text">
+      </p>
+      <br />
+      <p class="card-text">
+      </p>
+      <br />
+      <p class="card-text">
+      </p>
+      <p class="card-text">
+      </p>`;
       }
       document.querySelector("#issues").innerHTML = html;
     },
