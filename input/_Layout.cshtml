@@ -4,6 +4,10 @@
     @Html.Partial("_partials/_head")
 
     @RenderSection("head", required: false)
+    @if (Model.GetBool("UseFunctionsJS"))
+    {
+        <script src="js/functions.js"></script>
+    }
 </head>
 <body class="d-flex flex-column">
     @Html.Partial("_partials/_header")
@@ -32,10 +36,7 @@
         <script src="js/home.js"></script>
     }
 
-      @if (Model.GetBool("IsCommunityHome"))
-    {
-        <script src="js/community.js"></script>
-    }
+
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js" crossorigin="anonymous" data-no-mirror=data-no-mirror></script>
 <script type="text/javascript" src="/js/cookie-consent.3.0.0.js"></script>
 <script type="text/javascript">
