@@ -1,8 +1,9 @@
 ---
-Title: DotNetOpenAuth [Archived]
+Title: DotNetOpenAuth
 Contributor: Outercurve
 Logo: outercurve.png
 Web: https://github.com/DotNetOpenAuth/DotNetOpenAuth
+IsActive: false
 ---
 # DotNetOpenAuth
 
@@ -13,7 +14,7 @@ Web: https://github.com/DotNetOpenAuth/DotNetOpenAuth
 * [Project Info Site](https://github.com/DotNetOpenAuth/DotNetOpenAuth)
 * [Project Code Site](https://github.com/DotNetOpenAuth/DotNetOpenAuth)
 * Project License Type: [MS-PL](https://github.com/DotNetOpenAuth/DotNetOpenAuth/blob/develop/LICENSE.txt)
-* Project Main Contacts: [Andrew Armott](https://github.com/AArnott)
+* Project Main Contacts: [Andrew Arnott](https://github.com/AArnott)
 
 ## Quicklinks
 

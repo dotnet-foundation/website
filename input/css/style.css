@@ -181,6 +181,7 @@ h4 {
 
 .page-section h2 {
   font-size: 3rem;
+  padding-bottom: 10px;
 }
 
 .page-section h3 {
@@ -274,13 +275,15 @@ svg.svg-inline--fa {
 }
 
 .site-button {
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 0.5em 1em;
   display: inline-block;
   transition: all ease 0.3s;
   text-decoration: none;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  border-radius: 2px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 5px
 }
 
 .site-button_row {
@@ -373,7 +376,7 @@ svg.svg-inline--fa {
   border-radius: 0;
   top: 104%;
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.9);
+  background: #ffffff;
 }
 @media screen and (max-width: 1400px) {
   .about-menu {
@@ -1486,24 +1489,31 @@ svg:not(:root).svg-inline--fa {
 
 @media screen and (min-width: 768px) {
   .profile {
-    text-align: left;
-    margin-left: 0;
-    margin-right: 0;
+   align-items: center;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   max-width: 30%;
+   min-width:26%;
+   border-radius: 4%;
+   box-sizing: border-box;
+   padding: 2rem;
+   background-color: #F6F6F6;
   }
 }
 
 .profile-name {
   margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .profile-image {
   display: block;
   margin: 0 auto 1rem auto;
+  box-shadow: 0px 5px 40px 0px #68217a, 0px 0px 0px 2px #68217ad9;
 }
 
 @media screen and (min-width: 768px) {
   .profile-image {
-    margin: 0 0 1rem 0;
+    align-items: center;
   }
 }
 

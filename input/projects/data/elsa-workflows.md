@@ -2,7 +2,7 @@
 Title: Elsa Workflows
 Contributor: Sipke Schoorstra
 Logo: elsa.png
-Web: https://elsa-workflows.github.io
+Web: https://elsa-workflows.github.io/elsa-core/
 ---
 
 # Elsa Workflows

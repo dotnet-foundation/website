@@ -1,8 +1,9 @@
 ---
-Title: Channels [Archived]
+Title: Channels
 Contributor: David Fowler
 Logo: dotnet-platform.png
 Web: https://github.com/davidfowl/Channels
+IsActive: false
 ---
 # Channels
 
