@@ -13,7 +13,7 @@ Quarterly budgets will be posted as available.
 
 FY20 is the first year where the majority of operating funds came from outside of Microsoft. Our corporate sponsors donated a total of $210,000 and we received over $26,000 in member dues. 
 
-The single biggest expense is for the [Meetup Pro network](https://www.meetup.com/pro/dotnet), which covers 365 groups in 66 countries containing a total of over 307,000 members. 
+The Outreach committee is responsible for funding community activities, and its single current expense is for the [Meetup Pro network](https://www.meetup.com/pro/dotnet). The network covers 365 groups in 66 countries containing a total of over 307,000 members. 
 
 Next, Professional Fees covers our lawyers and accountants, supporting our legal needs and tax preparation services. Legal support is a large portion of the .NET Foundation's expenses as we deal with issues that come up project-by-project, including project relicensing, and project ownership. It also covers operational issues, including bylaw and policy updates, and reviewing agreements.
 
