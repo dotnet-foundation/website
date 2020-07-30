@@ -7,6 +7,26 @@
       "statusCode": 301
     },
     {
+      "route": "/Projects",
+      "serve": "/projects",
+      "statusCode": 301
+    },
+    {
+      "route": "/Get-Involved",
+      "serve": "/community/get-involved",
+      "statusCode": 301
+    },
+    {
+      "route": "/About",
+      "serve": "/about",
+      "statusCode": 301
+    },
+    {
+      "route": "/News",
+      "serve": "/news",
+      "statusCode": 301
+    },
+    {
       "route": "/blog/welcomeworldwidetelescope",
       "serve": "/blog/2015/07/02/welcomeworldwidetelescope",
       "statusCode": 301
