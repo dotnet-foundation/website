@@ -19,7 +19,9 @@ Hello all! Welcome to the first of what will be a series of updates sharing wher
 | **Volunteers** | We have a lot of willing volunteers but realize we need to channel them better. We're working on ways to do that. |
 | **Elections**  |  <ul><li>17 stellar people are running in 2020 Board Elections.</li><li>Nomination committee to focus on relevant experience for candidates.</li></ul> |
 | **Budget**     | Budget is [available](/about/budget) for the first time to the public. Income of $237k, expenses of $157k. |
-&nbsp;
+
+
+<br/>
 
 ## Background
 
