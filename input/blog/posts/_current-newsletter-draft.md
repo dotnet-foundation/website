@@ -32,7 +32,8 @@ Microsoft released updated .NET branding guidelines on GitHub [github.com/dotnet
 
 ## Events
 
-
+### "The Maintainers" Video Series Needs You
+Shawn Wildermuth is putting together a short video series about open source maintainers. You can view the existing episodes (with Brad Wilson of xUnit fame; and Jimmy Bogard of AutoMapper) by visiting the [YouTube Playlist](https://shawnw.me/TheMaintainers). If you're interested in being a part of the series, please contact Shawn on [His Website](https://wildermuth.com/contact).
 
 ### .NET Conf 2020 dates announced: November 10-12!
 .NET Conf is a free, three day virtual developer event co-organized by the .NET community and Microsoft. This year .NET 5.0 will launch at .NET Conf 2020! See the website for more information and save the date! [www.dotnetconf.net](https://www.dotnetconf.net)
