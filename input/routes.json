@@ -6,6 +6,13 @@
       "serve": "/about/code-of-conduct",
       "statusCode": 301
     },
+
+    {
+      "route": "/Get-Involved",
+      "serve": "/community/get-involved",
+      "statusCode": 301
+    },
+
     {
       "route": "/community/host-a-meetup",
       "serve": "/community/meetups",
