@@ -801,6 +801,21 @@ article.post header.jumbotron {
   grid-gap: 1rem;
 }
 
+.comma-list {
+  padding: 0;
+  text-decoration-line: underline;
+}
+.comma-list > * {
+  display: inline;
+}
+.comma-list > *:after {
+  content: ",";
+}
+
+.comma-list > *:last-child:after {
+  content: "";
+}
+
 .bg-foundation {
   background-color: #68217a !important;
 }
@@ -1418,7 +1433,7 @@ svg:not(:root).svg-inline--fa {
   margin-top: 2rem;
 }
 
-.committee_container:first-child .committee_img_container{
+.committee_container:first-child .committee_img_container {
   margin-top: -10px;
 }
 
