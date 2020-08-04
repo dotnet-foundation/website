@@ -2,6 +2,9 @@
 title: Shawn Wildermuth
 twitter: shawnwildermuth
 image: campaign-2020/shawn-wildermuth.jpg
+company: Wilder Minds
+location: United States
+elected: true
 ---
 
 # .NET Foundation Campaign: Shawn Wildermuth

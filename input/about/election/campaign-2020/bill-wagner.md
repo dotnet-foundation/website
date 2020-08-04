@@ -2,6 +2,9 @@
 title: Bill Wagner
 twitter: billwagner
 image: bill-wagner.jpg
+company: Microsoft
+location: United States
+elected: true
 ---
 
 ## Why I'm running

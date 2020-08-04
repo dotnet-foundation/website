@@ -2,6 +2,9 @@
 title: Layla Porter
 twitter: LaylaCodesIt
 image: campaign-2020/layla-porter.jpg
+company: Twilio
+location: United Kingdom
+elected: true
 ---
 
 # .NET Foundation Campaign: Layla Porter
