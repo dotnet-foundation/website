@@ -8,6 +8,7 @@ Excluded: true
 Here's the July/August 2020 .NET Foundation update. Every other month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.
 
 ## General news
+The .NET Foundation GitHub org will require 2FA enabled starting on August 28. Anyone that does not have 2FA enabled on their account at that time will be automatically removed from the org. Please see the GitHub help on [enabling 2FA on your account](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
 
 ### Board Elections Update
 
