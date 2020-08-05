@@ -816,6 +816,27 @@ article.post header.jumbotron {
   content: "";
 }
 
+@media (min-width: 768px) {
+  .comma-list {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    margin-left: 200px
+  }
+
+  .comma-list li {
+    float: left;
+    list-style: outside none none;
+    width: 50%;
+  }
+
+  .comma-list > *:after {
+    content: "";
+  }
+}
+
+
+
 .bg-foundation {
   background-color: #68217a !important;
 }
