@@ -61,6 +61,13 @@
   }
 }
 
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1700px;
+  }
+}
+
+
 @media screen and (max-width: 1200px) {
   .container {
     max-width: 100%;
@@ -72,7 +79,7 @@ p {
 }
 
 .page-section {
-  padding: 3rem 0;
+  /* padding: 3rem 0; */
 }
 
 .page-section--fill {
@@ -97,8 +104,8 @@ p {
 }
 
 .page-section_column {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .page-section_column--narrow {
@@ -1506,7 +1513,7 @@ svg:not(:root).svg-inline--fa {
 
 .profile-image {
   display: block;
-  margin: 0 auto 1rem auto; 
+  margin: 0 auto 1rem auto;
 }
 
 @media screen and (min-width: 768px) {
