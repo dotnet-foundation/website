@@ -9,7 +9,7 @@ function loadOpenIssues(orgs, repos, showEmptyCard, repoName) {
   var json = JSON.stringify(data);
 
   $.ajax({
-    url: "api/issues",
+    url: "/api/issues",
     type: "POST",
     data: json,
     async: false,
