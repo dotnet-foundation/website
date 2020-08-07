@@ -1,4 +1,4 @@
-function loadOpenIssues(orgs, repos, showEmptyCard) {
+function loadOpenIssues(orgs, repos, showEmptyCard, repoName) {
   let html = "";
 
   var data = {
@@ -9,7 +9,7 @@ function loadOpenIssues(orgs, repos, showEmptyCard) {
   var json = JSON.stringify(data);
 
   $.ajax({
-    url: "/api/issues",
+    url: "api/issues",
     type: "POST",
     data: json,
     async: false,
@@ -39,8 +39,18 @@ function loadOpenIssues(orgs, repos, showEmptyCard) {
       } else {
         repos.forEach((repo) => {
           html += `  <div class="card bg-foundation">
-                        <h3>${repo.repoName} Help Wanted</h3>
-                        <div class="card-body">`;
+          <div class="card-body">`;
+
+          if (repoName != undefined)
+          {
+            html += `<h3>${repoName} Help Wanted</h3>`;
+          }
+          else
+          {
+            html += ` <h3>${repo.repoName} Help Wanted</h3>`;
+          }
+
+          html += `<div class="card-body">`;
 
           if (repo.issues.length > 4) {
             repo.issues = repo.issues.slice(0, 5);
@@ -51,7 +61,7 @@ function loadOpenIssues(orgs, repos, showEmptyCard) {
                         <a style="color: white" href="${issue.issueUrl}" target="_blank">${issue.issueTitle}</a>
                      </p>`;
           });
-          html += `</div></div>`;
+          html += `</div></div></div>`;
         });
       }
       document.querySelector("#issues").innerHTML = html;
