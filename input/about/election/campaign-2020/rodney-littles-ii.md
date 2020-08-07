@@ -2,6 +2,9 @@
 title: Rodney Littles, II
 twitter: rlittlesii
 image: campaign-2020/rodney-littles-ii.jpg
+company: Megsoft
+location: United States
+elected: true
 ---
 
 # .NET Foundation Campaign: Rodney Littles, II

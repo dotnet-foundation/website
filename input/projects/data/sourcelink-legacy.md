@@ -1,9 +1,10 @@
 ---
-Title: SourceLink 🔚
+Title: SourceLink Legacy
+IsActive: False
 ---
-# SourceLink
+# SourceLink _Legacy_
 
-Update: The recommended library to use now is [SourceLink](sourcelink)
+Update: The recommended library to use now is [SourceLink](/projects/sourcelink)
 
  Source link support allows source code to be downloaded on demand while debugging. SourceLink is a set of build tools to help create and test for source link support. [Source link support](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md) is a developer productivity feature that allows unique information about an assembly's original source code to be embedded in its PDB during compilation.  
 

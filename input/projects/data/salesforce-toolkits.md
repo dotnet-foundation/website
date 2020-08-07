@@ -1,7 +1,7 @@
 ---
 Title: Salesforce Toolkits for .NET
 Contributor: Force.com
-Logo: salesforce-developer-network-logo_1.png
+Logo: salesforce-toolkits.png
 Web: https://developer.salesforce.com/
 ---
 # Salesforce Toolkits for .NET

@@ -8,6 +8,7 @@ Excluded: true
 Here's the July/August 2020 .NET Foundation update. Every other month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.
 
 ## General news
+The .NET Foundation GitHub org (https://github.com/dotnet-foundation) will require 2FA enabled starting on August 28. Anyone that does not have 2FA enabled on their account at that time will be automatically removed from the org. Please see the GitHub help on [enabling 2FA on your account](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
 
 ### Board Elections Update
 
@@ -32,7 +33,8 @@ Microsoft released updated .NET branding guidelines on GitHub [github.com/dotnet
 
 ## Events
 
-
+### "The Maintainers" Video Series Needs You
+Shawn Wildermuth is putting together a short video series about open source maintainers. You can view the existing episodes (with Brad Wilson of xUnit fame; and Jimmy Bogard of AutoMapper) by visiting the [YouTube Playlist](https://shawnw.me/TheMaintainers). If you're interested in being a part of the series, please contact Shawn on [His Website](https://wildermuth.com/contact).
 
 ### .NET Conf 2020 dates announced: November 10-12!
 .NET Conf is a free, three day virtual developer event co-organized by the .NET community and Microsoft. This year .NET 5.0 will launch at .NET Conf 2020! See the website for more information and save the date! [www.dotnetconf.net](https://www.dotnetconf.net)
@@ -51,6 +53,7 @@ The .NET Foundation would like to welcome the following projects that joined in 
 |                     |                    |
 | ------------------- |--------------------|
 | <img width="750px" src="https://user-images.githubusercontent.com/1334951/87341392-6ac11f00-c4fe-11ea-8442-e6068f16ba31.png" width="750px"> | **MahApps.Metro**  MahApps.Metro is a free open-source framework that allows developers to cobble together a better UI for their own WPF applications with minimal effort, Supporting .NET Framework and .NET Core. It overrides the default style of all common WPF controls and gives them a modern look. MahApps.Metro also includes some custom controls based on concepts from Windows Phone, Windows 8 and Window 10 (UWP) Apps.|
+| <img width="750px" src="https://user-images.githubusercontent.com/1334951/88558920-0a8faa00-cfe1-11ea-8ee2-eeb0504e2b07.png" width="750px"> | **Verify**  Verify is a snapshot tool that simplifies the assertion of complex data models and documents. Verify is called on the test result during the assertion phase. It serializes that result and stores it in a file that matches the test name. On the next test execution, the result is again serialized and compared to the existing file. The test will fail if the two snapshots do not match: either the change is unexpected, or the reference snapshot needs to be updated to the new result. When snapshots do not match, the difference is automatically displayed in a diff tool.|
 
 ## New Releases
 
@@ -71,6 +74,26 @@ This is a major upgrade from the existing 2.x versions. Major highlights:
 We are also happy to announce that [Shane Krueger](https://github.com/Shane32) and [Stuart Turner](https://github.com/viceroypenguin) have joined the linq2db team.
 
 Full details are available [here](https://github.com/linq2db/linq2db/wiki/Release-Notes-3.0.0)
+
+### [NUnit](https://nunit.org)
+
+#### Documentation project
+
+We’re grateful to have [Sean Killeen](https://seankilleen.com/) join us as lead of the documentation project. He put in a lot of effort to modernize the NUnit documentation, to great effect as you can see at [https://docs.nunit.org](https://docs.nunit.org)! The docs are now built with docfx. They are integrated with the website, have full-text search, and have edit links on each page where you can submit a PR easily. We look forward to seeing [your suggestions and contributions](https://github.com/nunit/docs)!
+
+#### NUnit VSTest adapter
+
+- [3.17.0](https://docs.nunit.org/articles/vs-test-adapter/Adapter-Release-Notes.html#nunit3-test-adapter-for-visual-studio---version-3170---july-11-2020) has a new StopOnError setting, the ability to set data file paths and line numbers, a major bugfix to show console output properly, and other fixes.
+
+- [4.0.0-alpha.1](https://docs.nunit.org/articles/vs-test-adapter/Adapter-Release-Notes.html#nunit3-test-adapter-for-visual-studio---version-400-alpha1---july-12-2020) fixes some of the more complex issues, such as working with explicit tests and significant performance improvements. We would really appreciate it if you give this alpha a spin and [report](https://github.com/nunit/nunit3-vs-adapter/issues) whatever you find back to us.
+
+#### NUnit Analyzers
+
+- [0.3](https://github.com/nunit/nunit.analyzers/releases/tag/0.3.0) improved the documentation of all the diagnostics. It also added new diagnostics for proper usage of string constraints, ContainsConstraint, Does.Contain, and Contains.Item, and the TestCaseSource attribute.
+
+- [0.4](https://github.com/nunit/nunit.analyzers/releases/tag/0.4.0) adds 13 new diagnostics and codefixes for asserts in the classical model such as Assert.Greater, Assert.IsNotEmpty, and Assert.IsNotInstanceOf. We have also improved the handling of asserts against constants and variables of type Task. In addition, we now properly handle ValueSourceAttribute and test methods decorated with both a TestAttribute and a TestCaseSourceAttribute/TestCaseAttribute. We have also added a diagnostic and codefix to ensure that test methods are public.
+
+Please [try out the latest](https://www.nuget.org/packages/NUnit.Analyzers) and continue to [let us know what you’d like to see](https://github.com/nunit/nunit.analyzers/issues)!
 
 ## Meetups
 

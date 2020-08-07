@@ -2,13 +2,16 @@
 title: Shawn Wildermuth
 twitter: shawnwildermuth
 image: campaign-2020/shawn-wildermuth.jpg
+company: Wilder Minds
+location: United States
+elected: true
 ---
 
 # .NET Foundation Campaign: Shawn Wildermuth
 
 ## Who am I?
 
-![Shawn Wildermuth](http://wildermuth.com/img/headshots/shawn-head-2016-square-200.jpg){ .pull-right } I am a coder, instructor and speaker. This year I was graced with my eighteenth Microsoft MVP. I've written eight books, dozens of articles and over twenty-five courses for Pluralsight. I live and breathe this stuff. 
+![Shawn Wildermuth](http://wildermuth.com/img/headshots/shawn-head-2016-square-200.jpg){ .float-right .img-thumbnail } I am a coder, instructor and speaker. This year I was graced with my eighteenth Microsoft MVP. I've written eight books, dozens of articles and over twenty-five courses for Pluralsight. I live and breathe this stuff. 
 
 It's been nearly forty years since I got a Vic-20 for Christmas 1980. Since that day, I've been obsessed with code and programming. My first programming job was designing a database for a real estate company back in 1986. It's been in my blood ever since. 
 
@@ -22,7 +25,9 @@ Recently, I finished my first film called "Hello World". I made the film to high
 
 I'm passionate about .NET, but it's not the only community that I interact with. I am perplexed by the lack of .NET in non-enterprise environments (e.g. education, startups, etc.). I want to help drive the .NET Foundation to help projects that will help drive that adoption. Furthering the tools and projects that help improve the .NET community and welcome more members in with open arms. 
 
-I'm also interested in increasing inclusion and diversity across software development. So, one of my goals in being on the board is to help ensure that the board continues to view inclusion as a priority in building .NET communities. 
+I'm also interested in increasing inclusion and diversity across software development. So, one of my goals in being on the board is to help ensure that the board continues to view inclusion as a priority in building .NET communities. Here is my candidacy interview:
+
+<?# YouTube FZublvIJWhw /?> 
 
 ## My .NET and Community Contributions
 
