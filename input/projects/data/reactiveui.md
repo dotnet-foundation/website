@@ -1,7 +1,7 @@
 ---
 Title: ReactiveUI
 Contributor: ReactiveUI
-Logo: e1c841c5-36f1-4f46-935d-00176d7843ca.jpg
+Logo: reactiveui.jpg
 Web: http://reactiveui.net
 ---
 # ReactiveUI

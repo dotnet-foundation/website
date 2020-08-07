@@ -6,6 +6,10 @@ image: campaign-2020/mitchel-sellers.jpg
 
 # .NET Foundation Campaign: Mitchel Sellers
 
+## My Interview ##
+
+<?# YouTube LT-lnaVcbO0 /?>
+
 ## Why I'm Running
 As the technology group leader of the largest .NET CMS (DNN), which is also a member of the .NET Foundation, I have real experience operating a large project that is a member of the .NET Foundation. However great it is to be part of the .NET Foundation, I still believe that there is much work to be done to continue and push the .NET Foundation to provide consistent benefits to ALL of its members, new and old. It is this belief that is my primary motivation in running for the .NET Foundation board.  I want to see all projects benefit from the .NET Foundation as we have and hopefully do so in a process that requires less effort from the project and in a manner that can quickly respond to project needs.  
 
@@ -44,4 +48,3 @@ Of the most recent experiences from these boards, I lead the successful migratio
 * Twitter: [@mitchelsellers](https://twitter.com/mitchelsellers)
 * GitHub: [@mitchelsellers](https://github.com/mitchelsellers)
 * Email: [msellers@iowacomputergurus.com](mailto:msellers@iowacomputergurus.com)
-

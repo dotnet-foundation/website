@@ -1,7 +1,7 @@
 ---
 Title: Json.NET
 Contributor: Newtonsoft
-Logo: twitterlogo.png
+Logo: jsondotnet.png
 Web: https://www.newtonsoft.com/json
 ---
 # Json.NET
