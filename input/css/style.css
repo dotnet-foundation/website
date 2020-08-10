@@ -819,7 +819,7 @@ article.post header.jumbotron {
 .card-container {
   display: grid;
   padding: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   grid-gap: 1rem;
 }
 
