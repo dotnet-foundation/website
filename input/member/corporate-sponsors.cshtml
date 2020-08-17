@@ -105,8 +105,8 @@ title: Corporate Sponsors | .NET Foundation
                 <h2>Corporate Sponsors</h2>
                 <p>These companies are helping drive the future of .NET. </p>
                 <div class="corporate-sponsor-card-container">
-                    @Html.Partial("../_partials/_corporate-sponsor-logo-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                      .Flatten()
+                    @Html.Partial("../_partials/_corporate-sponsor-logo-card.cshtml", Outputs
+                      .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                       .FilterSources("corporate-sponsors/*.md")
                       .OrderBy(sponsor => sponsor.GetInt("order"))
                       )

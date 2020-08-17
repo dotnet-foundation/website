@@ -30,8 +30,8 @@ permalink: /news
               <a id="rss-tab">.NET Blog</a>
             </div>
             <div class="media-list" id="blog-feeds">
-              @Html.Partial("_partials/_blog-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                  .Flatten()
+              @Html.Partial("_partials/_blog-card.cshtml", Outputs
+                  .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                   .FilterSources("blog/posts/*")
                   .OrderByDescending(doc => doc.GetDateTime("Published"))
                   .Take(5))

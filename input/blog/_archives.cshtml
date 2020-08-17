@@ -1,8 +1,8 @@
 <div class="card">
     <div class="card-header"><i class="far fa-calendar-alt"></i> Archives</div>
     <div class="card-body">
-        @foreach (IGrouping<int, IDocument> yearGroup in Outputs[nameof(Statiq.Web.Pipelines.Content)]
-            .Flatten()
+        @foreach (IGrouping<int, IDocument> yearGroup in Outputs
+            .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
             .FilterSources("blog/posts/*")
             .Where(doc => doc.GetDateTime("Published").Year > 2000)
             .GroupBy(doc => doc.GetDateTime("Published").Year)
