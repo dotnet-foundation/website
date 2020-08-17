@@ -28,26 +28,29 @@ description: "Welcome to .NET \"Presentations in a Box.\"  We have a listing of 
 
         <h2 id="workshops">Workshops<a class="anchorjs-link " href="#workshops" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
 
-        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                .Flatten()
+        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs
+                .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                 .FilterSources("community/presentations/*")
                 .Where(presentation => string.Equals(presentation.GetString("type"), "workshop", StringComparison.OrdinalIgnoreCase))
+                .OrderBy(x => x.GetTitle())
                 )
 
         <h2 id="presentation-decks">Presentation Decks<a class="anchorjs-link " href="#presentation-decks" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
 
-        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                .Flatten()
+        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs
+                .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                 .FilterSources("community/presentations/*")
                 .Where(presentation => string.Equals(presentation.GetString("type"), "deck", StringComparison.OrdinalIgnoreCase))
+                .OrderBy(x => x.GetTitle())
                 )
 
         <h2 id="community-e-books-and-tutorials">Community E-Books and Tutorials<a class="anchorjs-link " href="#community-e-books-and-tutorials" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
 
-        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                .Flatten()
+        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs
+                .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                 .FilterSources("community/presentations/*")
                 .Where(presentation => string.Equals(presentation.GetString("type"), "tutorial", StringComparison.OrdinalIgnoreCase))
+                .OrderBy(x => x.GetTitle())
                 )
 
         <h2 id="got-a-suggestion-or-fix">Got a suggestion or fix?<a class="anchorjs-link " href="#got-a-suggestion-or-fix" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>

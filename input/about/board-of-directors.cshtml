@@ -23,8 +23,8 @@ permalink: /about/board-of-directors
                 <h2 style="text-align: center;" >Board of Directors</h2>
                 <div class="row">
                     @Html.Partial("../_partials/_member-small-card.cshtml",
-                        Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                            .Flatten()
+                        Outputs
+                            .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                             .FilterSources("about/election/campaign-2020/*")
                             .Where(candidate => candidate.GetBool("elected"))
                             .OrderBy(candidate => candidate.GetString("title"))
@@ -42,8 +42,8 @@ permalink: /about/board-of-directors
                 <h2 style="text-align: center;" id="team">Our Team</h2>
                 <div class="row">
                     @Html.Partial("../_partials/_team-member-card.cshtml",
-                    Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                        .Flatten()
+                    Outputs
+                        .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                         .FilterSources("about/team/*.md")
                         .OrderBy(candidate => candidate.GetInt("order"))
                     )
@@ -60,8 +60,8 @@ permalink: /about/board-of-directors
                 <h2 style="text-align: center;" id="advisory-council">.NET Advisory Council</h2>
                 <div class="row">
                     @Html.Partial("../_partials/_member-small-card.cshtml",
-                        Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                            .Flatten()
+                        Outputs
+                            .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                             .FilterSources("about/advisory-council/*.md")
                             .OrderBy(candidate => candidate.GetInt("order"))
                             .ThenBy(candidate => candidate.GetString("title"))

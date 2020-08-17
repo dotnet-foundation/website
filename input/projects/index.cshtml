@@ -62,13 +62,13 @@ permalink: /projects
                 <div id="SearchResults"></div>
                 <div id="PresetProjects">
                     @{
-                        var list = Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                                       .Flatten()
-                                       .FilterSources("projects/data/*.md")   
-                                       .Where(doc => !string.IsNullOrWhiteSpace(doc.GetTitle()) && Convert.ToBoolean(doc.GetValueOrDefault("IsActive", true)) == true)
-                                       .GroupBy(doc => char.IsLetter(doc.GetTitle().ToUpperInvariant().First()) ? doc.GetTitle().ToUpperInvariant().First() : '#' )
-                                       .OrderBy(g => g.Key)
-                                       .ToList();
+                        var list = Outputs
+                            .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
+                            .FilterSources("projects/data/*.md")   
+                            .Where(doc => !string.IsNullOrWhiteSpace(doc.GetTitle()) && Convert.ToBoolean(doc.GetValueOrDefault("IsActive", true)) == true)
+                            .GroupBy(doc => char.IsLetter(doc.GetTitle().ToUpperInvariant().First()) ? doc.GetTitle().ToUpperInvariant().First() : '#' )
+                            .OrderBy(g => g.Key)
+                            .ToList();
                         
                         var start = 0;
                     }

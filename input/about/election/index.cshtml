@@ -25,8 +25,8 @@ permalink: about/election
                 <p style="text-align: center;" >
                     <div class="row">
                         @Html.Partial("../../_partials/_team-member-card.cshtml",
-                            Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                                .Flatten()
+                            Outputs
+                                .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                                 .FilterSources("about/election/nomination-committee-2020/*.md")
                                 .OrderBy(candidate => candidate.GetInt("order"))
                                 .ThenBy(candidate => candidate.GetString("title"))

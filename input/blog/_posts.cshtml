@@ -8,7 +8,7 @@
                 <a itemprop="url" href="@Context.GetLink(post).Substring(1)">@post.GetString("Title")</a>
             </h1>
             <div class="bh">
-                <time datetime="@post.GetString("Published")" itemprop="datePublished">@post.GetDateTime("Published").ToString("MMMM dd, yyyy")</time>
+                <time datetime="@post.GetDateTime("Published").ToString("yyyy-MM-dd")" itemprop="datePublished">@post.GetDateTime("Published").ToString("MMMM dd, yyyy")</time>
             </div>
         </header>
 
@@ -18,6 +18,6 @@
         <div class="collapse" aria-hidden="true" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             <meta itemprop="name" content="@post.GetString("Author")">
         </div>
-        <meta itemprop="dateModified" content="@post.GetString("Published")">
+        <meta itemprop="dateModified" content="@post.GetDateTime("Published").ToString("yyyy-MM-dd")">
     </article>
 }
