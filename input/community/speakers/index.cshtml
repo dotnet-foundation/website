@@ -1,0 +1,59 @@
+@{
+    Layout = @"/_Layout.cshtml";
+}
+
+@section head {
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js" data-no-mirror></script>
+}
+
+<section class="page-section" id="speakers">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="col-12">
+                <h2 style="text-align: center;" >All Speakers</h2>
+                <input class="search" />
+                <button class="sort" data-sort="speaker-name">Sort by name</button>
+                <button class="sort" data-sort="speaker-location">Sort by location</button>
+                <div class="row list">
+                    @foreach(IDocument speaker in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)))
+                    {
+                        <div class="col-sm-6 col-md-4 profile list__item">
+                            @if (speaker.ContainsKey("Image"))
+                            {
+                                <img height="120" class="rounded-image profile-image" alt="@speaker.GetTitle()" src="assets/speakers/@speaker.GetString("Image")">
+                            }
+                            else
+                            {
+                                <img height="120" class="rounded-image profile-image" alt="@speaker.GetTitle()" src="img/dot_bot.png">
+                            }
+
+                            <h3 class="profile-name speaker-name"><a href="@Context.GetLink(speaker)">@speaker.GetTitle()</a></h3>
+
+                            @if (speaker.ContainsKey("Location"))
+                            {
+                                <div class="profile-details font-weight-bold speaker-location">@speaker.GetString("Location")</div>
+                            }
+
+                            @if (speaker.ContainsKey("Tags"))
+                            {
+                                <div class="profile-details">
+                                    @foreach(string tag in speaker.GetList<string>("Tags"))
+                                    {
+                                        <span class="pr-2 speaker-tag"><a href="#tag=@tag">@tag</a></span>    
+                                    }
+                                </div>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    var options = {
+        valueNames: [ 'speaker-name', 'speaker-location', 'speaker-tag' ]
+    };
+    var listObj = new List('speakers', options);
+</script>

@@ -1,0 +1,58 @@
+@{
+    Layout = @"_Layout.cshtml";
+}
+
+<section class="page-section">
+    <div class="page-section_container container pt-0">
+        <div class="page-section_row row h-100">
+            <div class="page-section_column col-12 text-left pt-0">
+                <article class="row">
+                    <div class="col-md-3 bg-light p-5">
+                        
+                        <div class="text-center">
+                            @if(Document.ContainsKey("Image"))
+                            {
+                                <img class="img-responsive contrib-logos mb-4" src="assets/speakers/@Document.GetString("Image")" alt="@Document.GetTitle()" />
+                            }
+                            else
+                            {
+                                <img class="img-responsive contrib-logos mb-4" src="img/dot_bot.png" alt="@Document.GetTitle()" />
+                            }
+                        </div>                        
+                        
+                        @if (Document.ContainsKey("Location"))
+                        {
+                            <div class="mb-4 font-weight-bold">@Document.GetString("Location")</div>
+                        }
+
+                        @if(Document.ContainsKey("Tags"))
+                        {
+                            <div class="mb-4">
+                                <h3>Tags</h3>
+                                @foreach(string tag in Document.GetList<string>("Tags"))
+                                {
+                                    <div><a href="/community/speakers#tag=@tag">@tag</a></div>    
+                                }
+                            </div>
+                        }
+
+                        @if(Document.ContainsKey("Connect"))
+                        {
+                            <div>
+                                <h3>Connect</h3>
+                                @foreach(IMetadata connect in Document.GetList<IMetadata>("Connect"))    
+                                {
+                                    <div><a href="@connect.GetString("Url")">@connect.GetString("Title")</a></div>
+                                }
+                            </div>
+                        }
+                    </div>
+                    <div class="col-md-9 p-5">
+                        <h1>@Document.GetTitle()</h1>
+                        @RenderBody()
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
