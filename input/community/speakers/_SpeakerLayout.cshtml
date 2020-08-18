@@ -24,6 +24,10 @@
                         {
                             <div class="mb-4 font-weight-bold">@Document.GetString("Location")</div>
                         }
+                        @if (Document.ContainsKeys("Lat", "Lon") && Context.ContainsKey("AzureMapsSubscriptionKey"))
+                        {
+                            <div id="location-map" class="mb-4"></div>
+                        }
 
                         @if(Document.ContainsKey("Tags"))
                         {
@@ -56,3 +60,23 @@
         </div>
     </div>
 </section>
+
+@if(Document.ContainsKeys("Lat", "Lon") && Context.ContainsKey("AzureMapsSubscriptionKey"))
+{
+    <script>
+        $(document).ready(function() {
+            var map = new atlas.Map('location-map', {
+                center: [@Document.GetString("Lon"), @Document.GetString("Lat")],
+                zoom: 1,
+                language: 'en-US',
+                authOptions: {
+                    authType: 'subscriptionKey',
+                    subscriptionKey: '@Context.GetString("AzureMapsSubscriptionKey")'
+                }});
+            map.markers.add(new atlas.HtmlMarker({
+                color: 'DodgerBlue',
+                position: [@Document.GetString("Lon"), @Document.GetString("Lat")]
+            }));
+        });
+    </script>
+}

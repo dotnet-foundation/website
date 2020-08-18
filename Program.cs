@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Statiq.App;
@@ -11,7 +11,6 @@ using Statiq.Web;
 
 namespace DotnetFoundationWeb
 {
-
     public static class Program
     {
         public static async Task<int> Main(string[] args)
@@ -50,6 +49,10 @@ namespace DotnetFoundationWeb
                       )
                       .WithOutputWriteFiles("projects/projects.json")
               )
+              .ConfigureEngine(x => x
+                .Pipelines[nameof(Statiq.Web.Pipelines.Content)]
+                .ProcessModules
+                .Add(new GeocodeLocations(Config.FromSetting("AzureMapsSubscriptionKey"))))
               .RunAsync();
         }
     }

@@ -2,7 +2,10 @@
     Layout = @"/_Layout.cshtml";
 }
 
-@section head {    
+@section head {
+    <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css" type="text/css" data-no-mirror>
+    <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js" data-no-mirror></script>
+
     @RenderSection("head", required: false)
 }
 

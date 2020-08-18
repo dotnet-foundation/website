@@ -352,6 +352,10 @@ svg.svg-inline--fa {
   animation-delay: 0.6s;
 }
 
+#location-map {
+  height: 300px;
+}
+
 @media screen and (max-width: 480px) {
   #site-logo {
     max-width: 200px;

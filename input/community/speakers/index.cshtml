@@ -11,6 +11,10 @@
         <div class="page-section_row row">
             <div class="col-12">
                 <div>
+                    @if (Context.ContainsKey("AzureMapsSubscriptionKey"))
+                    {
+                        <div id="location-map" class="mb-4"></div>
+                    }
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Search</label>
                         <div class="col-sm-10">
@@ -48,10 +52,16 @@
                             }
 
                             <h3 class="profile-name"><a href="@Context.GetLink(speaker)" class="speakername">@speaker.GetTitle()</a></h3>
+                            <div class="d-none speakerlink">@Context.GetLink(speaker)</div>
 
                             @if (speaker.ContainsKey("Location"))
                             {
                                 <div class="profile-details font-weight-bold speakerlocation">@speaker.GetString("Location")</div>
+                            }
+                            @if (speaker.ContainsKeys("Lat", "Lon"))
+                            {
+                                <div class="d-none speakerlat">@speaker.GetString("Lat")</div>
+                                <div class="d-none speakerlon">@speaker.GetString("Lon")</div>                                
                             }
 
                             @if (speaker.ContainsKey("Tags"))
@@ -93,7 +103,7 @@
     }
 
     var options = {
-        valueNames: [ 'speakername', 'speakerlocation', 'speakertags' ]
+        valueNames: [ 'speakername', 'speakerlink', 'speakerlocation', 'speakerlat', 'speakerlon', 'speakertags' ]
     };
     var speakers = new List('speakers', options);
 
@@ -116,3 +126,48 @@
         filterTags(tag);
     });
 </script>
+
+@if (Context.ContainsKey("AzureMapsSubscriptionKey"))
+{
+    <script>
+        function updateMap(map, list) {
+            map.markers.clear();
+            $.each(list.matchingItems, function(index, item) {
+                if (item.values().speakerlon && item.values().speakerlat) {
+                    var popupContent = '<div style="padding:10px"><div><a href="' + item.values().speakerlink + '">' + item.values().speakername + '</a></div>';
+                    if (item.values().speakerlocation) {
+                        popupContent = popupContent + '<div>' + item.values().speakerlocation + '</div>';
+                    }
+                    popupContent = popupContent + '</div>';
+                    var marker = new atlas.HtmlMarker({
+                        color: 'DodgerBlue',
+                        position: [item.values().speakerlon, item.values().speakerlat],
+                        popup: new atlas.Popup({
+                            content: popupContent,
+                            pixelOffset: [0, -30]
+                        })
+                    });
+                    map.markers.add(marker);
+                    map.events.add('click', marker, () => {
+                        marker.togglePopup();
+                    });
+                }
+            });
+        }
+
+        $(document).ready(function() {
+            var map = new atlas.Map('location-map', {
+                zoom: 1,
+                language: 'en-US',
+                authOptions: {
+                    authType: 'subscriptionKey',
+                    subscriptionKey: '@Context.GetString("AzureMapsSubscriptionKey")'
+                }}
+            );            
+            speakers.on('updated', function(list) {
+                updateMap(map, list);
+            });
+            updateMap(map, speakers);
+        });
+    </script>
+}
