@@ -2,11 +2,15 @@
     Layout = @"/_Layout.cshtml";
 }
 
+@section head {    
+    @RenderSection("head", required: false)
+}
+
 <section class="page-section page-section--purple">
     <div class="page-section_container container">
         <div class="page-section_row row">
             <div class="page-section_column col-12 text-center">
-                <h2>Community Speakers</h2>
+                <h2><a href="/community/speakers">Speakers</a></h2>
             </div>
         </div>
     </div>

@@ -31,7 +31,7 @@
                                 <h3>Tags</h3>
                                 @foreach(string tag in Document.GetList<string>("Tags"))
                                 {
-                                    <div><a href="/community/speakers#tag=@tag">@tag</a></div>    
+                                    <a href="/community/speakers?tag=@tag" class="btn btn-dark">@tag</a>  
                                 }
                             </div>
                         }

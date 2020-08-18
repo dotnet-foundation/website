@@ -1,5 +1,5 @@
 @{
-    Layout = @"/_Layout.cshtml";
+    Layout = @"_Layout.cshtml";
 }
 
 @section head {
@@ -10,10 +10,30 @@
     <div class="page-section_container container">
         <div class="page-section_row row">
             <div class="col-12">
-                <h2 style="text-align: center;" >All Speakers</h2>
-                <input class="search" />
-                <button class="sort" data-sort="speaker-name">Sort by name</button>
-                <button class="sort" data-sort="speaker-location">Sort by location</button>
+                <div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">Search</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="search form-control-plaintext border" placeholder="Search names, locations, and tags">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">Sort</label>
+                        <div class="col-sm-10">
+                            <button class="sort btn btn-primary" data-sort="speakername">Name</button>
+                            <button class="sort btn btn-primary" data-sort="speakerlocation">Location</button>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">Filter By Tag</label>
+                        <div class="col-sm-10" id="tag-filters">
+                            @foreach(string tag in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>("Tags")).Distinct().OrderBy(x => x))
+                            {
+                                <a class="filter btn btn-light mb-2" href="javascript:void(0)" data-filter="@tag">@tag</a>
+                            }
+                        </div>
+                    </div>
+                </div>
                 <div class="row list">
                     @foreach(IDocument speaker in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)))
                     {
@@ -27,11 +47,11 @@
                                 <img height="120" class="rounded-image profile-image" alt="@speaker.GetTitle()" src="img/dot_bot.png">
                             }
 
-                            <h3 class="profile-name speaker-name"><a href="@Context.GetLink(speaker)">@speaker.GetTitle()</a></h3>
+                            <h3 class="profile-name"><a href="@Context.GetLink(speaker)" class="speakername">@speaker.GetTitle()</a></h3>
 
                             @if (speaker.ContainsKey("Location"))
                             {
-                                <div class="profile-details font-weight-bold speaker-location">@speaker.GetString("Location")</div>
+                                <div class="profile-details font-weight-bold speakerlocation">@speaker.GetString("Location")</div>
                             }
 
                             @if (speaker.ContainsKey("Tags"))
@@ -39,9 +59,10 @@
                                 <div class="profile-details">
                                     @foreach(string tag in speaker.GetList<string>("Tags"))
                                     {
-                                        <span class="pr-2 speaker-tag"><a href="#tag=@tag">@tag</a></span>    
+                                        <span class="pr-2"><a href="javascript:void(0)" class="filter btn btn-dark" data-filter="@tag">@tag</a></span>
                                     }
                                 </div>
+                                <div class="d-none speakertags">@string.Join("|", speaker.GetList<string>("Tags"))</div>
                             }
                         </div>
                     }
@@ -52,8 +73,46 @@
 </section>
 
 <script>
+    function filterTags(tag) {
+        var filterButton = $('#tag-filters .filter[data-filter="' + tag + '"]');
+        
+        if(filterButton.hasClass('active')) {
+            speakers.filter();
+            $('.filter').removeClass('active');
+        } else {
+            speakers.filter(function(item) {
+                if (item.values().speakertags.indexOf('|') > 0) {
+                    return item.values().speakertags.split('|').includes(tag)
+                } else {
+                    return (item.values().speakertags == tag);
+                }
+            });
+            $('.filter').removeClass('active');
+            filterButton.addClass('active');
+        }
+    }
+
     var options = {
-        valueNames: [ 'speaker-name', 'speaker-location', 'speaker-tag' ]
+        valueNames: [ 'speakername', 'speakerlocation', 'speakertags' ]
     };
-    var listObj = new List('speakers', options);
+    var speakers = new List('speakers', options);
+
+    $(document).ready(function() {
+        speakers.sort('speakername', {
+            sortFunction: function(itemA, itemB, options) {
+                return 0.5 - Math.random();
+            }
+        });
+
+        var queryParams = new URLSearchParams(window.location.search);
+        var tagParam = queryParams.get('tag');
+        if (tagParam) {
+            filterTags(tagParam);
+        }
+    });
+
+    $('.filter').on('click', function() {
+        var tag = $(this).attr('data-filter');
+        filterTags(tag);
+    });
 </script>
