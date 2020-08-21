@@ -11,10 +11,6 @@
         <div class="page-section_row row">
             <div class="col-12">
                 <div>
-                    @if (Context.ContainsKey("AzureMapsSubscriptionKey"))
-                    {
-                        <div id="location-map" class="mb-4"></div>
-                    }
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Search</label>
                         <div class="col-sm-10">
@@ -31,49 +27,70 @@
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Filter By Tag</label>
                         <div class="col-sm-10" id="tag-filters">
-                            @foreach(string tag in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>("Tags")).Distinct().OrderBy(x => x))
+                            @foreach (string tag in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>("Tags")).Distinct().OrderBy(x => x))
                             {
                                 <a class="filter btn btn-light mb-2" href="javascript:void(0)" data-filter="@tag">@tag</a>
                             }
                         </div>
                     </div>
                 </div>
-                <div class="row list">
-                    @foreach(IDocument speaker in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)))
+                <ul class="nav nav-tabs mb-4" id="tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="list-tab" data-toggle="tab" href="#tab-list" role="tab" aria-controls="list" aria-selected="true">List</a>
+                    </li>
+                    @if (Context.ContainsKey("AzureMapsSubscriptionKey"))
                     {
-                        <div class="col-sm-6 col-md-4 profile list__item">
-                            @if (speaker.ContainsKey("Image"))
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="map-tab" data-toggle="tab" href="#tab-map" role="tab" aria-controls="map" aria-selected="false">Map</a>
+                        </li>
+                    }
+                </ul>
+                <div class="tab-content" id="tab-content">
+                    <div class="tab-pane" id="tab-list" role="tabpanel" aria-labelledby="list-tab">
+                        <div class="row list">
+                            @foreach (IDocument speaker in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)))
                             {
-                                <img height="120" class="rounded-image profile-image" alt="@speaker.GetTitle()" src="assets/speakers/@speaker.GetString("Image")">
-                            }
-                            else
-                            {
-                                <img height="120" class="rounded-image profile-image" alt="@speaker.GetTitle()" src="img/dot_bot.png">
-                            }
-
-                            <h3 class="profile-name"><a href="@Context.GetLink(speaker)" class="speakername">@speaker.GetTitle()</a></h3>
-                            <div class="d-none speakerlink">@Context.GetLink(speaker)</div>
-
-                            @if (speaker.ContainsKey("Location"))
-                            {
-                                <div class="profile-details font-weight-bold speakerlocation">@speaker.GetString("Location")</div>
-                            }
-                            @if (speaker.ContainsKeys("Lat", "Lon"))
-                            {
-                                <div class="d-none speakerlat">@speaker.GetString("Lat")</div>
-                                <div class="d-none speakerlon">@speaker.GetString("Lon")</div>                                
-                            }
-
-                            @if (speaker.ContainsKey("Tags"))
-                            {
-                                <div class="profile-details">
-                                    @foreach(string tag in speaker.GetList<string>("Tags"))
+                                <div class="col-sm-6 col-md-4 profile list__item">
+                                    @if (speaker.ContainsKey("Image"))
                                     {
-                                        <span class="pr-2"><a href="javascript:void(0)" class="filter btn btn-dark" data-filter="@tag">@tag</a></span>
+                                        <img height="120" class="rounded-image profile-image" alt="@speaker.GetTitle()" src="assets/speakers/@speaker.GetString("Image")">
+                                    }
+                                    else
+                                    {
+                                        <img height="120" class="rounded-image profile-image" alt="@speaker.GetTitle()" src="img/dot_bot.png">
+                                    }
+
+                                    <h3 class="profile-name"><a href="@Context.GetLink(speaker)" class="speakername">@speaker.GetTitle()</a></h3>
+                                    <div class="d-none speakerlink">@Context.GetLink(speaker)</div>
+
+                                    @if (speaker.ContainsKey("Location"))
+                                    {
+                                        <div class="profile-details font-weight-bold speakerlocation">@speaker.GetString("Location")</div>
+                                    }
+                                    @if (speaker.ContainsKeys("Lat", "Lon"))
+                                    {
+                                        <div class="d-none speakerlat">@speaker.GetString("Lat")</div>
+                                        <div class="d-none speakerlon">@speaker.GetString("Lon")</div>
+                                    }
+
+                                    @if (speaker.ContainsKey("Tags"))
+                                    {
+                                        <div class="profile-details">
+                                            @foreach (string tag in speaker.GetList<string>("Tags"))
+                                            {
+                                                <span class="pr-2"><a href="javascript:void(0)" class="filter btn btn-dark" data-filter="@tag">@tag</a></span>
+                                            }
+                                        </div>
+                                        <div class="d-none speakertags">@string.Join("|", speaker.GetList<string>("Tags"))</div>
                                     }
                                 </div>
-                                <div class="d-none speakertags">@string.Join("|", speaker.GetList<string>("Tags"))</div>
                             }
+                        </div>
+                    </div>
+                    @if (Context.ContainsKey("AzureMapsSubscriptionKey"))
+                    {
+                        <div class="tab-pane active" id="tab-map" role="tabpanel" aria-labelledby="map-tab">
+                            <div id="speakers-map"></div>
                         </div>
                     }
                 </div>
@@ -132,16 +149,28 @@
     <script>
         function updateMap(map, list) {
             map.markers.clear();
-            $.each(list.matchingItems, function(index, item) {
-                if (item.values().speakerlon && item.values().speakerlat) {
-                    var popupContent = '<div style="padding:10px"><div><a href="' + item.values().speakerlink + '">' + item.values().speakername + '</a></div>';
-                    if (item.values().speakerlocation) {
-                        popupContent = popupContent + '<div>' + item.values().speakerlocation + '</div>';
+            var items = [].concat(list.matchingItems);
+            for (var i = 0; i < items.length; i++) {
+                if (items[i] && items[i].values().speakerlon && items[i].values().speakerlat) {
+                    // Add all the speakers with these same coordinates
+                    let popupContent = '<div class="p-3">';
+                    popupContent += '<div class="font-weight-bold">' + items[i].values().speakerlocation + '</div>';
+                    for (var x = 0; x < items.length; x++) {
+                        if (items[x] && items[x].values().speakerlon == items[i].values().speakerlon && items[x].values().speakerlat == items[i].values().speakerlat) {
+                            popupContent += '<div><a href="' + items[x].values().speakerlink + '">' + items[x].values().speakername + '</a></div>';
+
+                            // Don't clear out i yet because we need it to compare and set the marker
+                            if (x != i) {
+                                items[x] = null;
+                            }
+                        }
                     }
-                    popupContent = popupContent + '</div>';
-                    var marker = new atlas.HtmlMarker({
+                    popupContent += '</div>';
+
+                    // Add the marker
+                    let marker = new atlas.HtmlMarker({
                         color: 'DodgerBlue',
-                        position: [item.values().speakerlon, item.values().speakerlat],
+                        position: [items[i].values().speakerlon, items[i].values().speakerlat],
                         popup: new atlas.Popup({
                             content: popupContent,
                             pixelOffset: [0, -30]
@@ -152,11 +181,13 @@
                         marker.togglePopup();
                     });
                 }
-            });
+
+                items[i] = null;
+            }
         }
 
         $(document).ready(function() {
-            var map = new atlas.Map('location-map', {
+            var map = new atlas.Map('speakers-map', {
                 zoom: 1,
                 language: 'en-US',
                 authOptions: {
@@ -171,3 +202,10 @@
         });
     </script>
 }
+
+<script>
+    $(document).ready(function() {
+        // We had to start with the map active so the canvas would size, so switch back to the list
+        $('#tabs a[href="#tab-list"]').tab('show');
+    });
+</script>

@@ -26,7 +26,7 @@
                         }
                         @if (Document.ContainsKeys("Lat", "Lon") && Context.ContainsKey("AzureMapsSubscriptionKey"))
                         {
-                            <div id="location-map" class="mb-4"></div>
+                            <div id="speaker-map" class="mb-4"></div>
                         }
 
                         @if(Document.ContainsKey("Tags"))
@@ -65,7 +65,7 @@
 {
     <script>
         $(document).ready(function() {
-            var map = new atlas.Map('location-map', {
+            var map = new atlas.Map('speaker-map', {
                 center: [@Document.GetString("Lon"), @Document.GetString("Lat")],
                 zoom: 1,
                 language: 'en-US',
