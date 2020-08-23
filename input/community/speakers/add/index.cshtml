@@ -1,0 +1,166 @@
+﻿Title: Add To Speaker Directory
+---
+@{
+    Layout = @"../_Layout.cshtml";
+}
+
+<section class="page-section">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="col-12">
+                <h1>Add Yourself To The Speaker Directory</h1>
+                <p>
+                    This form will create the appropriate file as a pull request in the .NET Foundation web site. You'll just need to submit the pull request once you've reviewed it.
+                    Alternatively, <a href="https://github.com/dotnet-foundation/website/new/master/input/community/speakers">you can submit a pull request directly</a>.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <label for="fullname" class="mb-0">Full Name</label>
+                        <small id="fullname-help" class="form-text text-muted mb-3">
+                            Your full name.
+                        </small>
+                        <input id="fullname" class="form-control" aria-describedby="fullname-help">
+                    </div>
+                    <div class="form-group">
+                        <label for="fullname" class="mb-0">Location</label>
+                        <small id="location-help" class="form-text text-muted mb-3">
+                            Your location in plain language (for example, "Seattle, Washington USA").
+                        </small>
+                        <input id="location" class="form-control" aria-describedby="location-help">
+                    </div>
+                    <div class="form-group">
+                        <label for="fullname" class="mb-0">Tags</label>
+                        <small id="tags-help" class="form-text text-muted mb-3">
+                            A list of tags indicating topics you want to speak about. Care should be taken to use already existing tags where practical. Separate multiple tags with a comma.
+                        </small>
+                        <input id="tags" class="form-control" aria-describedby="tags-help">
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label>Social Connection Name</label>
+                        </div>
+                        <div class="col">
+                            <label>Social Connection URL</label>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <small class="form-text text-muted">
+                                The name of each social connection site ("GitHub", "Twitter", "Blog", etc.)
+                            </small>
+                        </div>
+                        <div class="col">
+                            <small class="form-text text-muted">
+                                The full URL of each social connection site.
+                            </small>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input id="connect-name-1" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input id="connect-url-1" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input id="connect-name-2" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input id="connect-url-2" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input id="connect-name-3" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input id="connect-url-3" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input id="connect-name-4" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input id="connect-url-4" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input id="connect-name-5" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input id="connect-url-5" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="profile" class="mb-0">Profile</label>
+                        <small id="profile-help" class="form-text text-muted mb-3">
+                            Add a profile that describes why you'd make an awesome speaker (Markdown allowed).
+                        </small>
+                        <textarea rows="20" id="profile" class="form-control" aria-describedby="profile-help"></textarea>
+                    </div>
+                    <div>
+                        <button class="btn btn-lg btn-primary" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $(document).ready(function () {
+        $("form").submit(function (event) {
+            event.preventDefault();
+
+            let fullname = $("#fullname").val();
+            if (!fullname) {
+                // TODO: Some sort of validation would probably be nice
+                return;
+            }
+            let content = "Title: " + fullname.trim() + "\n";
+
+            let location = $("#location").val();
+            if (location) {
+                content += "Location: " + location.trim() + "\n";
+            }
+
+            let tags = $("#tags").val();
+            if (tags) {
+                content += "Tags:\n"
+                tags.split(",").forEach(function (part) {
+                    content += "  - " + part.trim() + "\n";
+                });
+            }
+
+            let addedConnect = false;
+            for (let c = 1; c < 6; c++) {
+                let connectName = $("#connect-name-" + c).val();
+                let connectUrl = $("#connect-url-" + c).val();
+                if (connectName && connectUrl) {
+                    if (!addedConnect) {
+                        content += "Connect:\n"
+                        addedConnect = true;
+                    }
+                    content += "  - Title: " + connectName + "\n";
+                    content += "    Url: " + connectUrl + "\n";
+                }
+            }
+
+            content += "---\n";
+
+            let profile = $("#profile").val();
+            content += profile;
+            content += "\n";
+
+            if (content.length > 0) {
+                content = encodeURIComponent(content);
+                let filename = fullname.toLowerCase().replace(/[\W_]+/g, "-") + ".md";
+                window.location.href = "https://github.com/dotnet-foundation/website/new/master/input/community/speakers/" + filename + "?filename=" + filename + "&value=" + content;
+            }
+        });
+    });
+</script>
