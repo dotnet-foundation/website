@@ -1669,3 +1669,7 @@ p.profile-company {
     display: none;
   }
 }
+
+.office-form-notice-report {
+  color: #006CFF !important;
+}
