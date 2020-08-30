@@ -49,10 +49,9 @@ namespace DotnetFoundationWeb
                       )
                       .WithOutputWriteFiles("projects/projects.json")
               )
-              .ConfigureEngine(x => x
-                .Pipelines[nameof(Statiq.Web.Pipelines.Content)]
-                .ProcessModules
-                .Add(new GeocodeLocations(Config.FromSetting("AzureMapsSubscriptionKey"))))
+              .ModifyPipeline(
+                  nameof(Statiq.Web.Pipelines.Content),
+                  x => x.ProcessModules.Add(new GeocodeLocations(Config.FromSetting("AzureMapsSubscriptionKey"))))                
               .RunAsync();
         }
     }
