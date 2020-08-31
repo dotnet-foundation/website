@@ -43,9 +43,28 @@ We're also planning our next .NET Conf: "Focus" event, where we continue focusin
 
 ## .NET Foundation Project Updates
 
+### Steeltoe 3.0 GA is now available! 
 
+[Steeltoe](https://steeltoe.io) is an application framework, built on the .NET interfaces, that provides libraries for .NET Framework and .NET Core developers in order to build cloud-native applications.
 
+In the [Steeltoe 3.0](https://steeltoe.io/blog/steeltoe-3-0-packs-a-mighty-punch-with-many-new-features) release, we have made some big changes:
 
+* We made the Steeltoe libraries more platform agnostic to allow for better extensibility into other platforms. So, we took the initial step of creating abstractions for our core components. This will allow future extensibility for our libraries and grow the community into other areas
+* We redirected our focus to support only .NET Core. This decision was based on the direction the Microsoft .NET team is taking the project and to support our users moving forward. We will still be supporting .NET Framework in our 2.x release line
+* We added and renamed many of the packages to support our new features and to provide a consistent package naming
+* We also added some great new features, and here are some of the highlights
+   * Automatic wiring and configuration of Messaging APIs with RabbitMQ
+   * Kubernetes support for configuration (ConfigMap and Secrets) and service discovery using Kubernetes .NET Client
+   * Added Health Groups for `readiness` and `liveness` endpoints which are grouped under the `/health` endpoint
+   * Metrics now uses `EventSource` and `EventCounter`, along with a new prometheus exporter that now uses OpenTelemetry metrics packages
+   * Distributed tracing library now has new exporters and updated internal libraries from OpenCensus to OpenTelemetry
+   * Pluggable architecture for Service Discovery (Consul, Eureka, and Kubernetes)
+   * New Connector for CosmosDB
+   * The `/heapdump` actuator endpoint now supports heap dumps on Linux
+   * Circuit Breaker using Hystrix now using the Prometheus endpoint for easier consumption of events on Prometheus supported services
+   * Added mTLS support and service to service authentication using rotating certificates
+
+A lot of time and effort went into this release and we look forward to hearing ideas and feedback from the community. 
 
 ## New Projects
 
