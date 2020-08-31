@@ -140,8 +140,8 @@ isHome: true
         <div class="page-section_row row">
             <div class="page-section_column col-lg-12">
                 <h2>Latest News and <a href="/blog" aria-label="blog">Blog</a></h2>
-                @Html.Partial("_partials/_blog-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                        .Flatten()
+                @Html.Partial("_partials/_blog-card.cshtml", Outputs
+                        .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                         .FilterSources("blog/posts/*")
                         .OrderByDescending(doc => doc.GetDateTime("Published"))
                         .Take(5))
@@ -159,8 +159,8 @@ isHome: true
                 <h2>Corporate Sponsors</h2>
                 <p>These companies are helping drive the future of .NET. </p>
                 <div class="corporate-sponsor-card-container">
-                    @Html.Partial("_partials/_corporate-sponsor-logo-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                      .Flatten()
+                    @Html.Partial("_partials/_corporate-sponsor-logo-card.cshtml", Outputs
+                      .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                       .FilterSources("corporate-sponsors/*.md")
                       .OrderBy(sponsor => sponsor.GetInt("order"))
                       )

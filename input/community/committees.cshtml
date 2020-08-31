@@ -1,4 +1,5 @@
 ---
+title: Committees | .NET Foundation
 permalink: community/committees
 ---
 <section class="page-section page-section--purple">
@@ -21,8 +22,8 @@ permalink: community/committees
     <div class="page-section_row row">
       <article class="col-md-12">
         <div class="media-list" id="blog-feeds">
-          @Html.Partial("../_partials/_committee-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Data)]
-              .Flatten()
+          @Html.Partial("../_partials/_committee-card.cshtml", Outputs
+              .FromPipeline(nameof(Statiq.Web.Pipelines.Data))
               .FilterSources("community/committees/*")
               .OrderBy(doc => doc.GetInt("Order")))
         </div>

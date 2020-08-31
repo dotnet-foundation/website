@@ -74,6 +74,10 @@
   }
 }
 
+a {
+  color: #006CFF;
+}
+
 p {
   margin-bottom: 2rem;
 }
@@ -396,7 +400,7 @@ svg.svg-inline--fa {
 }
 
 .main-menu_item a {
-  color: #797979;
+  color: #212529;
 }
 
 li.active a.nav-link,
@@ -819,7 +823,7 @@ article.post header.jumbotron {
 .card-container {
   display: grid;
   padding: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   grid-gap: 1rem;
 }
 
@@ -1702,4 +1706,8 @@ p.profile-company {
   .navbar-nav .dropdown-menu {
     display: none;
   }
+}
+
+.office-form-notice-report {
+  color: #006CFF !important;
 }

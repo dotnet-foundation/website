@@ -40,6 +40,7 @@ TestResult.xml
 .vscode
 *.pfx
 projects-content.json
+.idea/
 
 functions/node_modules/
 input/api/issues/index.js
