@@ -95,6 +95,12 @@ We’re grateful to have [Sean Killeen](https://seankilleen.com/) join us as lea
 
 Please [try out the latest](https://www.nuget.org/packages/NUnit.Analyzers) and continue to [let us know what you’d like to see](https://github.com/nunit/nunit.analyzers/issues)!
 
+#### NUnit Console and Engine
+
+- [3.12.0-beta1](https://github.com/nunit/nunit-console/releases/tag/v3.12.0-beta1) is the first beta release of the NUnit Console able to run .NET Core tests. In addition to this, this release also contains a number of bug fixes, improvements when running on Mono and significant refactoring work towards the goal of creating an engine able to run tests on a wider range of .NET platforms.
+
+  We're particularly interested in this beta release being tested by users of the .NET Core console and users running tests on Mono. Please feedback any issues to the [nunit-console repository](https://github.com/nunit/nunit-console/issues).
+
 ## Meetups
 
 ### Looking for speakers to go deep on AWS?
