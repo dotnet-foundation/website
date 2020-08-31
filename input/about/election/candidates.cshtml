@@ -8,7 +8,14 @@ permalink: about/election/candidates
         <div class="page-section_row row">
             <div class="col-12">
 
-@if (Inputs.FilterSources("about/election/campaign-2020/*").Count() == 0)
+@{
+    IDocument[] candidates = Outputs
+        .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
+        .FilterSources("about/election/campaign-2020/*.md")
+        .OrderBy(x => x.GetTitle())
+        .ToArray();
+}
+@if (candidates.Length == 0)
 {
     <h3>We're just getting started!</h3>
 
@@ -27,12 +34,7 @@ else
     <p>Check out the <a href="about/election/campaign">details</a> on how the process works.</p>
 
     <section class="card-container">
-        @Html.Partial(
-            "../../_partials/_candidate-card.cshtml",
-            Outputs
-                .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
-                .FilterSources("about/election/campaign-2020/*.md")
-                .OrderBy(x => x.GetTitle()))
+        @Html.Partial("../../_partials/_candidate-card.cshtml", candidates)
     </section>
 }
 
