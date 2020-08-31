@@ -64,7 +64,7 @@ A lot of time and effort went into this release and we look forward to hearing i
 
 ## New Projects
 
-The .NET Foundation would like to welcome the following projects that joined in June and July!
+The .NET Foundation would like to welcome the following projects that joined in July and August!
 
 |                     |                    |
 | ------------------- |--------------------|
@@ -121,7 +121,7 @@ Please [try out the latest](https://www.nuget.org/packages/NUnit.Analyzers) and 
 
 ### Looking for speakers to go deep on AWS?
 
-Would your user group \ meetup appreciate hearing about .NET on AWS from an AWS .NET developer advocate? The team of longtime .NET developers would be thrilled to join your virtual user group to chat about the latest for .NET in the cloud. 
+Would your user group / meetup appreciate hearing about .NET on AWS from an AWS .NET developer advocate? The team of longtime .NET developers would be thrilled to join your virtual user group to chat about the latest for .NET in the cloud. 
 
 Here’s a list of example topics:
 - **Overview of .NET on AWS:** AWS has over a decade supporting .NET on the cloud. We’ll provide an overview of all the support you might not know existed, such as free tools for Visual Studio, PowerShell, Azure DevOps, etc.
