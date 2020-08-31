@@ -1,7 +1,7 @@
 ---
 title: Get Involved | .NET Foundation
 permalink: /get-involved
-isCommunityHome: true
+useFunctionsJS: true
 ---
 <section class="page-section page-section--purple">
     <div class="page-section_container container">
@@ -10,7 +10,7 @@ isCommunityHome: true
                 <h2>Get Involved</h2>
                 <p class="mx-auto">
                     Here's how to get involved with the .NET Foundation and Projects within the Foundation.
-                    Below are Open Help Wanted Issues with Foundation GitHub Repositories, as well as the same for Foundation projects
+                    Below are Open Help Wanted Issues with Foundation GitHub Repositories.
                 </p>
             </div>
         </div>
@@ -22,12 +22,35 @@ isCommunityHome: true
         <div class="page-section_row row text-left">
             <div class="page-section_column col-12">
                 <h2>
-                    Foundation
+                    Foundation GitHub Repos
                 </h2>
-                <p>
-                    <span style="color:white;" id="issues"></span>
-                </p>
+                <div class="card-columns" style="text-align:center">
+                    <div style="color:white;" id="issues"></div>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+<script type="text/javascript">
+(async function () {
+  const orgs = "dotnet-foundation";
+  const repos = [
+    "wg-marketing",
+    "website",
+    "wg-outreach",
+    "speaking",
+    "membership",
+    "newsletter",
+    "content",
+    "projects",
+    "events",
+    "wg-education",
+    "wg-technical-review",
+    "wg-speakers-and-meetups",
+    "wg-project-support",
+    "wg-membership",
+  ];
+loadOpenIssues(orgs, repos);
+})();
+</script>

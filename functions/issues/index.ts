@@ -17,25 +17,7 @@ class ViewModel {
   }
 }
 
-async function getIssues() {
-  const organization = "dotnet-foundation";
-  const repos = [
-    "wg-marketing",
-    "website",
-    "wg-outreach",
-    "speaking",
-    "membership",
-    "newsletter",
-    "content",
-    "projects",
-    "events",
-    "wg-education",
-    "wg-technical-review",
-    "wg-speakers-and-meetups",
-    "wg-project-support",
-    "wg-membership",
-  ];
-
+async function getIssues(organization: string, repos: string[]) {
   const issuesByRepoPromises = repos.map((repo) =>
     octokit.issues
       .listForRepo({
@@ -45,8 +27,12 @@ async function getIssues() {
       })
       .then((r) => r.data)
   );
-  const issuesByRepo = await Promise.all(issuesByRepoPromises);
-  return issuesByRepo.reduce((list, item) => list.concat(item), []);
+  try {
+    const issuesByRepo = await Promise.all(issuesByRepoPromises);
+    return issuesByRepo.reduce((list, item) => list.concat(item), []);
+  } catch (Exception) {
+    return [];
+  }
 }
 
 async function processIssues(issues: any) {
@@ -87,7 +73,10 @@ const httpTrigger: AzureFunction = async function (
   context: Context,
   req: HttpRequest
 ): Promise<void> {
-  var filepath = "issues.json";
+  var repos: string[] = extractValue(req, "repos");
+  var org = extractValue(req, "organization");
+
+  var filepath = `${org}-issues.json`;
 
   try {
     const data = fs.readFileSync(path.join(__dirname, filepath), {
@@ -100,8 +89,8 @@ const httpTrigger: AzureFunction = async function (
     var now = new Date();
     var diff = now.getTime() - model.date.getTime();
     var hours = Math.floor(diff / (1000 * 60 * 60));
-    if (hours > 24) {
-      model = await processIssues(await getIssues());
+    if (hours > 5) {
+      model = await processIssues(await getIssues(org, repos));
       fs.writeFileSync(
         path.join(__dirname, filepath),
         JSON.stringify(model),
@@ -124,7 +113,7 @@ const httpTrigger: AzureFunction = async function (
       };
     }
   } catch {
-    let model = await processIssues(await getIssues());
+    let model = await processIssues(await getIssues(org, repos));
     fs.writeFileSync(
       path.join(__dirname, filepath),
       JSON.stringify(model),
@@ -139,4 +128,23 @@ const httpTrigger: AzureFunction = async function (
     };
   }
 };
+
+function extractValue(request: HttpRequest, property: string): any | undefined {
+  var v = getValuesFromBody(request, property);
+
+  if (v.length === 0) {
+    return undefined;
+  }
+
+  return v;
+}
+
+function getValuesFromBody(request: HttpRequest, property: string): any {
+  if (request.body && request.body[property]) {
+    return request.body[property];
+  }
+
+  return null;
+}
+
 export default httpTrigger;

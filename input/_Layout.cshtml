@@ -4,6 +4,10 @@
     @Html.Partial("_partials/_head")
 
     @RenderSection("head", required: false)
+    @if (Model.GetBool("UseFunctionsJS"))
+    {
+        <script src="js/functions.js"></script>
+    }
 </head>
 <body class="d-flex flex-column">
     @Html.Partial("_partials/_header")
@@ -41,15 +45,17 @@
     {
         <script src="js/community.js"></script>
     }
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js" crossorigin="anonymous" data-no-mirror=data-no-mirror></script>
-    <script type="text/javascript" src="/js/cookie-consent.3.0.0.js"></script>
-    <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function () {
-            cookieconsent.run({ "notice_banner_type": "simple", "consent_type": "express", "palette": "dark", "language": "en", "website_name": ".NET Foundation", "cookies_policy_url": "https://dotnetfoundation.org/about/privacy-policy", "change_preferences_selector": "#changeCookie" });
-        });
-    </script>
 
-    @if (!string.IsNullOrEmpty(DotnetFoundationWeb.AppSettings.GoogleAnalytics))
+
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js" crossorigin="anonymous" data-no-mirror=data-no-mirror></script>
+<script type="text/javascript" src="/js/cookie-consent.3.0.0.js"></script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"dark","language":"en","website_name":".NET Foundation","cookies_policy_url":"https://dotnetfoundation.org/about/privacy-policy", "change_preferences_selector":"#changeCookie"});
+});
+</script>
+
+@if (!string.IsNullOrEmpty(DotnetFoundationWeb.AppSettings.GoogleAnalytics))
     {
         <!-- GoogleAnalytics -->
         <script type="text/plain" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=@DotnetFoundationWeb.AppSettings.GoogleAnalytics" crossorigin="anonymous" data-no-mirror=data-no-mirror>
