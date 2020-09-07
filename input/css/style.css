@@ -870,7 +870,10 @@ article.post header.jumbotron {
 .card {
   display: grid;
   box-shadow: inherit !important;
-  height: 400px !important;
+}
+
+.card-columns .card {
+  height: 400px;
 }
 
 .card .button {
