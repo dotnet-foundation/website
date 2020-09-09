@@ -588,6 +588,7 @@ li.active a.nav-link,
 @media screen and (max-width: 767px) {
   .latest_date {
     flex-basis: 30%;
+    font-size: 14px;
   }
 }
 
