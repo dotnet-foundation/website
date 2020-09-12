@@ -1736,3 +1736,49 @@ p.profile-company {
   height: 100%;
   border: none;
 }
+
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+table {
+  border: 1px solid #dee2e6;
+}
+
+table th,
+table td {
+  border: 1px solid #dee2e6;
+}
+
+table thead th,
+table thead td {
+  border-bottom-width: 2px;
+}
+
+@media (max-width: 767.98px) {
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 0;
+  }
+}
