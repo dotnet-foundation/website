@@ -1483,6 +1483,7 @@ svg:not(:root).svg-inline--fa {
 
 .logo-footer {
   width: 135px;
+  height: 135px;
 }
 
 .hidden {
