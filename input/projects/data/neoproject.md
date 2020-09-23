@@ -1,12 +1,12 @@
 ---
-Title: The Neo Project
+Title: Neo Project
 Contributor: The NEO Foundation
-Logo: neologo.png
+Logo: neo-logo.svg
 Web: https://neo.org/
 ---
 # NEO Project
 
-[The NEO Project](https://neo.org/) is a modern distributed network for the Smart Economy.
+The [NEO Project](https://neo.org/) is a modern distributed network for the Smart Economy.
 
 ## Project Details
 
