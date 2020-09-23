@@ -41,6 +41,12 @@ We're also planning our next .NET Conf: "Focus" event, where we continue focusin
 
 ## New Projects
 
+The .NET Foundation would like to welcome the following projects that joined in September and October!
+
+|  |  |
+| ------------------- |--------------------|
+| <img width="750px" src="https://user-images.githubusercontent.com/1334951/94056115-b9a6f280-fd92-11ea-972e-9f4c283d0fbc.png" width="750px"> | **nanoFramework**  .NET nanoFramework goal is to be a platform that enables the writing of managed code applications for constrained embedded devices. Developers can harness the familiar IDE Visual Studio and their .NET (C#) knowledge to quickly write applications without having to worry about the low level hardware intricacies of a micro-controller.|
+
 ## New Releases
 
 ### Chem4Word 2020
