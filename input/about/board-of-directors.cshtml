@@ -26,8 +26,8 @@ permalink: /about/board-of-directors
                         Outputs
                             .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                             .FilterSources("about/election/campaign-2020/*")
-                            .Where(candidate => candidate.GetBool("elected"))
-                            .OrderBy(candidate => candidate.GetString("title"))
+                            .Where(candidate => candidate.GetBool(SiteKeys.Elected))
+                            .OrderBy(candidate => candidate.GetString(WebKeys.Title))
                     )
                 </div>
             </div>
@@ -45,7 +45,7 @@ permalink: /about/board-of-directors
                     Outputs
                         .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                         .FilterSources("about/team/*.md")
-                        .OrderBy(candidate => candidate.GetInt("order"))
+                        .OrderBy(candidate => candidate.GetInt(Keys.Order))
                     )
                 </div>
             </div>
@@ -63,8 +63,8 @@ permalink: /about/board-of-directors
                         Outputs
                             .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                             .FilterSources("about/advisory-council/*.md")
-                            .OrderBy(candidate => candidate.GetInt("order"))
-                            .ThenBy(candidate => candidate.GetString("title"))
+                            .OrderBy(candidate => candidate.GetInt(Keys.Order))
+                            .ThenBy(candidate => candidate.GetString(WebKeys.Title))
                     )
                 </div>
             </div>

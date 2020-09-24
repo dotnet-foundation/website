@@ -40,8 +40,8 @@ namespace DotnetFoundationWeb
                           new ExecuteConfig(Config.FromContext(ctx =>
                               JsonSerializer.Serialize(ctx.Inputs.Select(x => new
                               {
-                                  Title = x.GetString("Title"),
-                                  Keywords = x.GetString("Keywords"),
+                                  Title = x.GetString(WebKeys.Title),
+                                  Keywords = x.GetString(SiteKeys.Keywords),
                                   Link = x.GetLink(),
                                   Content = x.GetContentStringAsync().GetAwaiter().GetResult()
                               })
@@ -51,7 +51,7 @@ namespace DotnetFoundationWeb
               )
               .ModifyPipeline(
                   nameof(Statiq.Web.Pipelines.Content),
-                  x => x.ProcessModules.Add(new GeocodeLocations(Config.FromSetting("AzureMapsSubscriptionKey"))))                
+                  x => x.ProcessModules.Add(new GeocodeLocations(Config.FromSetting(SiteKeys.AzureMapsSubscriptionKey))))                
               .RunAsync();
         }
     }

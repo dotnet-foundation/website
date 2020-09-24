@@ -31,7 +31,7 @@ description: "Welcome to .NET \"Presentations in a Box.\"  We have a listing of 
         @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs
                 .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                 .FilterSources("community/presentations/*")
-                .Where(presentation => string.Equals(presentation.GetString("type"), "workshop", StringComparison.OrdinalIgnoreCase))
+                .Where(presentation => string.Equals(presentation.GetString(SiteKeys.Type), "workshop", StringComparison.OrdinalIgnoreCase))
                 .OrderBy(x => x.GetTitle())
                 )
 
@@ -40,7 +40,7 @@ description: "Welcome to .NET \"Presentations in a Box.\"  We have a listing of 
         @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs
                 .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                 .FilterSources("community/presentations/*")
-                .Where(presentation => string.Equals(presentation.GetString("type"), "deck", StringComparison.OrdinalIgnoreCase))
+                .Where(presentation => string.Equals(presentation.GetString(SiteKeys.Type), "deck", StringComparison.OrdinalIgnoreCase))
                 .OrderBy(x => x.GetTitle())
                 )
 
@@ -49,7 +49,7 @@ description: "Welcome to .NET \"Presentations in a Box.\"  We have a listing of 
         @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs
                 .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                 .FilterSources("community/presentations/*")
-                .Where(presentation => string.Equals(presentation.GetString("type"), "tutorial", StringComparison.OrdinalIgnoreCase))
+                .Where(presentation => string.Equals(presentation.GetString(SiteKeys.Type), "tutorial", StringComparison.OrdinalIgnoreCase))
                 .OrderBy(x => x.GetTitle())
                 )
 

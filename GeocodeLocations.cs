@@ -33,9 +33,9 @@ namespace DotnetFoundationWeb
 
         protected override async Task<IEnumerable<IDocument>> ExecuteInputAsync(IDocument input, IExecutionContext context)
         {
-            if (input.ContainsKey("Location") && !input.ContainsKey("Lat") && !input.ContainsKey("Lon"))
+            if (input.ContainsKey(SiteKeys.Location) && !input.ContainsKey(SiteKeys.Lat) && !input.ContainsKey(SiteKeys.Lon))
             {
-                string location = input.GetString("Location");
+                string location = input.GetString(SiteKeys.Location);
                 if (!location.IsNullOrWhiteSpace())
                 {
                     CoordinateAbbreviated coordinates = await _coordinateCache.GetOrAdd(location, async _ =>
@@ -76,8 +76,8 @@ namespace DotnetFoundationWeb
                         return input
                             .Clone(new MetadataItems
                             {
-                                { "Lat", coordinates.Lat },
-                                { "Lon", coordinates.Lon }
+                                { SiteKeys.Lat, coordinates.Lat },
+                                { SiteKeys.Lon, coordinates.Lon }
                             })
                             .Yield();
                     }

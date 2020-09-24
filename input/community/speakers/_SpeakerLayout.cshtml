@@ -10,9 +10,16 @@
                     <div class="col-md-3 bg-light p-5">
                         
                         <div class="text-center">
-                            @if(Document.ContainsKey("Image"))
+                            @if(Document.ContainsKey(SiteKeys.Image))
                             {
-                                <img class="img-responsive contrib-logos mb-4" src="assets/speakers/@Document.GetString("Image")" alt="@Document.GetTitle()" />
+                                if (Document.GetString(SiteKeys.Image).StartsWith("http"))
+                                {
+                                    <img class="img-responsive contrib-logos mb-4" src="@Document.GetString(SiteKeys.Image)" alt="@Document.GetTitle()"/>
+                                }
+                                else
+                                {
+                                    <img class="img-responsive contrib-logos mb-4" src="assets/speakers/@Document.GetString(SiteKeys.Image)" alt="@Document.GetTitle()" />
+                                }
                             }
                             else
                             {
@@ -20,20 +27,20 @@
                             }
                         </div>                        
                         
-                        @if (Document.ContainsKey("Location"))
+                        @if (Document.ContainsKey(SiteKeys.Location))
                         {
-                            <div class="mb-4 font-weight-bold">@Document.GetString("Location")</div>
+                            <div class="mb-4 font-weight-bold">@Document.GetString(SiteKeys.Location)</div>
                         }
-                        @if (Document.ContainsKeys("Lat", "Lon") && Context.ContainsKey("AzureMapsSubscriptionKey"))
+                        @if (Document.ContainsKeys(SiteKeys.Lat, SiteKeys.Lon) && Context.ContainsKey(SiteKeys.AzureMapsSubscriptionKey))
                         {
                             <div id="speaker-map" class="mb-4"></div>
                         }
 
-                        @if(Document.ContainsKey("Tags"))
+                        @if(Document.ContainsKey(SiteKeys.Tags))
                         {
                             <div class="mb-4">
                                 <h3>Tags</h3>
-                                @foreach(string tag in Document.GetList<string>("Tags"))
+                                @foreach(string tag in Document.GetList<string>(SiteKeys.Tags))
                                 {
                                     <a href="/community/speakers?tag=@tag" class="btn btn-dark">@tag</a>  
                                 }
@@ -46,7 +53,7 @@
                                 <h3>Connect</h3>
                                 @foreach(IMetadata connect in Document.GetList<IMetadata>("Connect"))    
                                 {
-                                    <div><a href="@connect.GetString("Url")">@connect.GetString("Title")</a></div>
+                                    <div><a href="@connect.GetString("Url")">@connect.GetString(WebKeys.Title)</a></div>
                                 }
                             </div>
                         }
@@ -61,21 +68,21 @@
     </div>
 </section>
 
-@if(Document.ContainsKeys("Lat", "Lon") && Context.ContainsKey("AzureMapsSubscriptionKey"))
+@if(Document.ContainsKeys(SiteKeys.Lat, SiteKeys.Lon) && Context.ContainsKey(SiteKeys.AzureMapsSubscriptionKey))
 {
     <script>
         $(document).ready(function() {
             var map = new atlas.Map('speaker-map', {
-                center: [@Document.GetString("Lon"), @Document.GetString("Lat")],
+                center: [@Document.GetString(SiteKeys.Lon), @Document.GetString(SiteKeys.Lat)],
                 zoom: 1,
                 language: 'en-US',
                 authOptions: {
                     authType: 'subscriptionKey',
-                    subscriptionKey: '@Context.GetString("AzureMapsSubscriptionKey")'
+                    subscriptionKey: '@Context.GetString(SiteKeys.AzureMapsSubscriptionKey)'
                 }});
             map.markers.add(new atlas.HtmlMarker({
                 color: 'DodgerBlue',
-                position: [@Document.GetString("Lon"), @Document.GetString("Lat")]
+                position: [@Document.GetString(SiteKeys.Lon), @Document.GetString(SiteKeys.Lat)]
             }));
         });
     </script>

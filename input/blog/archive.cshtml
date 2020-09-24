@@ -12,8 +12,8 @@ Title: => $"Post Archive - {GetString("Current")}"
                         @Html.Partial("_posts.cshtml", Outputs
                             .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                             .FilterSources("blog/posts/*")
-                            .Where(doc => doc.GetDateTime("Published").ToString("yyyy/MM").Equals(Model.GetString(Keys.Current)))
-                            .OrderByDescending(doc => doc.GetDateTime("Published")))
+                            .Where(doc => doc.GetDateTime(WebKeys.Published).ToString("yyyy/MM").Equals(Model.GetString(Keys.Current)))
+                            .OrderByDescending(doc => doc.GetDateTime(WebKeys.Published)))
                     </div>
                     <div class="col-md-3">
                         @Html.Partial("_archives.cshtml")

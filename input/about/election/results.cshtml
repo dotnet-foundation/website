@@ -10,8 +10,8 @@ permalink: about/election/results
                     Outputs
                         .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                         .FilterSources("about/election/campaign-2020/*")
-                        .Where(candidate => candidate.GetBool("elected"))
-                        .OrderBy(candidate => candidate.GetString("title"))
+                        .Where(candidate => candidate.GetBool(SiteKeys.Elected))
+                        .OrderBy(candidate => candidate.GetString(WebKeys.Title))
             )
 </section>
 

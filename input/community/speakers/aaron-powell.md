@@ -1,21 +1,16 @@
-Connect:
-  - title: Twitter
-    url: https://twitter.com/slace
-  - title: Blog
-    url: https://www.aaron-powell.com
-  - title: GitHub
-    url: http://github.com/aaronpowell
-  - title: StackOverflow
-    url: https://stackoverflow.com/users/11388/aaron-powell
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/aaron-powell-66038631
-Image: aaron-powell.png
+Title: Aaron Powell
+Twitter: https://twitter.com/slace
+Blog: https://www.aaron-powell.com
+Feed: https://www.aaron-powell.com/index.xml
+GitHub: http://github.com/aaronpowell
+StackOverflow: https://stackoverflow.com/users/11388/aaron-powell
+LinkedIn: https://www.linkedin.com/in/aaron-powell-66038631
+Twitch: https://www.twitch.tv/NumberOneAaron/
 Location: Sydney, Australia
 Tags:
   - .NET
   - JavaScript
   - Web
-Title: Aaron Powell
 ---
 ## Bio
 Hi, I'm CDA Aaron Powell, you might remember me from such roles as a [Readify](https://readify.net) consultant, organiser of [DDD Sydney](https://www.dddsydney.com.au) or presenting at events.

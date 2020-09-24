@@ -37,7 +37,7 @@ Title: Speaker Directory
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Filter By Tag</label>
                         <div class="col-sm-10" id="tag-filters">
-                            @foreach (string tag in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>("Tags")).Distinct().OrderBy(x => x))
+                            @foreach (string tag in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>(SiteKeys.Tags)).Distinct().OrderBy(x => x))
                             {
                                 <a class="filter btn btn-light mb-2" href="javascript:void(0)" data-filter="@tag">@tag</a>
                             }
@@ -48,7 +48,7 @@ Title: Speaker Directory
                     <li class="nav-item" role="presentation">
                         <a class="nav-link" id="list-tab" data-toggle="tab" href="#tab-list" role="tab" aria-controls="list" aria-selected="true">List</a>
                     </li>
-                    @if (Context.ContainsKey("AzureMapsSubscriptionKey"))
+                    @if (Context.ContainsKey(SiteKeys.AzureMapsSubscriptionKey))
                     {
                         <li class="nav-item" role="presentation">
                             <a class="nav-link active" id="map-tab" data-toggle="tab" href="#tab-map" role="tab" aria-controls="map" aria-selected="false">Map</a>
@@ -60,44 +60,51 @@ Title: Speaker Directory
                         <div class="row list">
                             @foreach (IDocument speaker in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)))
                             {
-                                <div class="col-sm-6 col-md-4 profile list__item">
-                                    @if (speaker.ContainsKey("Image"))
+                            <div class="col-sm-6 col-md-4 profile list__item">
+                                @if (speaker.ContainsKey(SiteKeys.Image))
+                                {
+                                    if (speaker.GetString(SiteKeys.Image).StartsWith("http"))
                                     {
-                                        <img height="120" class="rounded-image profile-image" alt="@speaker.GetTitle()" src="assets/speakers/@speaker.GetString("Image")">
+                                        <img img height="120" class="rounded-image profile-image" src="@speaker.GetString(SiteKeys.Image)" alt="@speaker.GetTitle()" />
                                     }
                                     else
                                     {
-                                        <img height="120" class="rounded-image profile-image" alt="@speaker.GetTitle()" src="img/dot_bot.png">
+                                        <img height="120" class="rounded-image profile-image" src="assets/speakers/@speaker.GetString(SiteKeys.Image)" alt="@speaker.GetTitle()" />
                                     }
+                                }
+                                else
+                                {
+                                    <img height="120" class="rounded-image profile-image" alt="@speaker.GetTitle()" src="img/dot_bot.png">
+                                }
 
-                                    <h3 class="profile-name"><a href="@Context.GetLink(speaker)" class="speakername">@speaker.GetTitle()</a></h3>
-                                    <div class="d-none speakerlink">@Context.GetLink(speaker)</div>
+                                <h3 class="profile-name"><a href="@Context.GetLink(speaker)" class="speakername">@speaker.GetTitle()</a></h3>
+                                <div class="d-none speakerlink">@Context.GetLink(speaker)</div>
 
-                                    @if (speaker.ContainsKey("Location"))
-                                    {
-                                        <div class="profile-details font-weight-bold speakerlocation">@speaker.GetString("Location")</div>
-                                    }
-                                    @if (speaker.ContainsKeys("Lat", "Lon"))
-                                    {
-                                        <div class="d-none speakerlat">@speaker.GetString("Lat")</div>
-                                        <div class="d-none speakerlon">@speaker.GetString("Lon")</div>
-                                    }
+                                @if (speaker.ContainsKey(SiteKeys.Location))
+                                {
+                                    <div class="profile-details font-weight-bold speakerlocation">@speaker.GetString(SiteKeys.Location)</div>
+                                }
+                                @if (speaker.ContainsKeys(SiteKeys.Lat, SiteKeys.Lon))
+                                {
+                                    <div class="d-none speakerlat">@speaker.GetString(SiteKeys.Lat)</div>
+                                    <div class="d-none speakerlon">@speaker.GetString(SiteKeys.Lon)</div>
+                                }
 
-                                    @if (speaker.ContainsKey("Tags"))
-                                    {
-                                        <div class="profile-details">
-                                            @foreach (string tag in speaker.GetList<string>("Tags"))
-                                            {
-                                                <span class="pr-2"><a href="javascript:void(0)" class="filter btn btn-dark" data-filter="@tag">@tag</a></span>
-                                            }
-                                        </div>
-                                        <div class="d-none speakertags">@string.Join("|", speaker.GetList<string>("Tags"))</div>
-                                    }
-                                </div>
+                                @if (speaker.ContainsKey(SiteKeys.Tags))
+                                {
+                                    <div class="profile-details">
+                                        @foreach (string tag in speaker.GetList<string>(SiteKeys.Tags))
+                                        {
+                                            <span class="pr-2"><a href="javascript:void(0)" class="filter btn btn-dark" data-filter="@tag">@tag</a></span>
+                                        }
+                                    </div>
+                                    <div class="d-none speakertags">@string.Join("|", speaker.GetList<string>(SiteKeys.Tags))</div>
+                                }
+                            </div>
                             }
                         </div>
                     </div>
-                    @if (Context.ContainsKey("AzureMapsSubscriptionKey"))
+                    @if (Context.ContainsKey(SiteKeys.AzureMapsSubscriptionKey))
                     {
                         <div class="tab-pane active" id="tab-map" role="tabpanel" aria-labelledby="map-tab">
                             <div id="speakers-map"></div>
@@ -154,7 +161,7 @@ Title: Speaker Directory
     });
 </script>
 
-@if (Context.ContainsKey("AzureMapsSubscriptionKey"))
+@if (Context.ContainsKey(SiteKeys.AzureMapsSubscriptionKey))
 {
     <script>
         function updateMap(map, list) {
@@ -202,7 +209,7 @@ Title: Speaker Directory
                 language: 'en-US',
                 authOptions: {
                     authType: 'subscriptionKey',
-                    subscriptionKey: '@Context.GetString("AzureMapsSubscriptionKey")'
+                    subscriptionKey: '@Context.GetString(SiteKeys.AzureMapsSubscriptionKey)'
                 }}
             );            
             speakers.on('updated', function(list) {
