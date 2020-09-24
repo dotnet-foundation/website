@@ -1,4 +1,6 @@
-﻿{
+﻿ContentType: Asset
+---
+{
   "ShouldOutput": true,
   "name": "App",
   "icons": [

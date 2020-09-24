@@ -1,3 +1,5 @@
+ContentType: Asset
+---
 { 
   "ShouldOutput": true,
   "routes": [

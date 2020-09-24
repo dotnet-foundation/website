@@ -25,6 +25,7 @@ namespace DotnetFoundationWeb
 
             return await Bootstrapper.Factory
               .CreateWeb(args)
+              .AddSetting(WebKeys.InputFiles, new [] { "**/{!_,}*", "_redirects" })
               .AddSetting(Keys.Host, "dotnetfoundation.org")
               .AddSetting(Keys.LinksUseHttps, true)
               .AddSetting(WebKeys.MirrorResources, true)
