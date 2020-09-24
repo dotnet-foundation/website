@@ -5,7 +5,7 @@ Published: 2019-09-30 17:33:07.1983371
 ---
 <p><em>Author: Ben Adams, .NET Foundation Board Member</em></p>
 
-<p>The <a href="https://github.com/orgs/dotnet-foundation/teams/project-support">Project Support action group</a> is responsible for brainstorming and helping to implement the various ways (and services) that the .NET Foundation offers to member projects. The goal is to ensure that member projects are sustainable and well supported.</p>
+<p>The <a href="https://github.com/orgs/dotnet-foundation/teams/projects">Project Support action group</a> is responsible for brainstorming and helping to implement the various ways (and services) that the .NET Foundation offers to member projects. The goal is to ensure that member projects are sustainable and well supported.</p>
 
 <hr />
 <p>The .NET Foundation's current Project Support so far has been focused on providing services and automation for projects; to help project maintainers and contributors to be able to focus more on their projects and less on the infrastructure.</p>
