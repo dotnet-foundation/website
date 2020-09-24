@@ -47,15 +47,21 @@
                             </div>
                         }
 
-                        @if(Document.ContainsKey("Connect"))
-                        {
-                            <div>
-                                <h3>Connect</h3>
-                                @foreach(IMetadata connect in Document.GetList<IMetadata>("Connect"))    
-                                {
-                                    <div><a href="@connect.GetString("Url")">@connect.GetString(WebKeys.Title)</a></div>
-                                }
-                            </div>
+                        @{ 
+                            Dictionary<string, SocialLinkAttribute> socialLinks = SocialLinkAttribute.GetAll();
+                            if (Document.ContainsAnyKeys(socialLinks.Keys))
+                            {
+                                <div>
+                                    <h3>Connect</h3>
+                                    @foreach(KeyValuePair<string, SocialLinkAttribute> socialLink in socialLinks.OrderBy(x => x.Key))
+                                    {
+                                        if (Document.ContainsKey(socialLink.Key))
+                                        {
+                                            <div><a href="@Document.GetString(socialLink.Key)"><i class="@socialLink.Value.IconClass"></i> @socialLink.Key</a></div>
+                                        }
+                                    }
+                                </div>
+                            }
                         }
                     </div>
                     <div class="col-md-9 p-5">

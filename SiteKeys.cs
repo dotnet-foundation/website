@@ -13,17 +13,27 @@
         public const string Lat = nameof(Lat);  // Fetched based on Location, but can be explicitly provided
         public const string Lon = nameof(Lon);  // Fetched based on Location, but can be explicitly provided
         public const string Tags = nameof(Tags);
-        public const string Twitter = nameof(Twitter);
         public const string Blog = nameof(Blog);
         public const string Feed = nameof(Feed);
+        [SocialLink("fab fa-twitter")]
+        public const string Twitter = nameof(Twitter);
+        [SocialLink("fab fa-github")]
         public const string GitHub = nameof(GitHub);
+        [SocialLink("fab fa-stack-overflow")]
         public const string StackOverflow = nameof(StackOverflow);
+        [SocialLink("fab fa-linkedin")]
         public const string LinkedIn = nameof(LinkedIn);
+        [SocialLink("fab fa-twitch")]
         public const string Twitch = nameof(Twitch);
+        [SocialLink("fas fa-bullhorn")]
         public const string Sessionize = nameof(Sessionize);
+        [SocialLink("fab fa-meetup")]
         public const string MeetUp = nameof(MeetUp);
+        [SocialLink("fab fa-youtube")]
         public const string YouTube = nameof(YouTube);
+        [SocialLink("fab fa-instagram")]
         public const string Instagram = nameof(Instagram);
+        [SocialLink("fab fa-dev")]
         public const string Dev = nameof(Dev);
         public const string Email = nameof(Email);
         public const string Image = nameof(Image);  // Uses social profile image by default, but can be explicitly provided
