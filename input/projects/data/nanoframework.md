@@ -1,7 +1,7 @@
 ---
 Title: .NET nanoFramework
 Contributor: nanoFramework
-Logo: nanoframework.jpg
+Logo: nanoframework.png
 Web: https://www.nanoframework.net/
 ---
 
