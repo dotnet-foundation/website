@@ -10,21 +10,7 @@
                     <div class="col-md-3 bg-light p-5">
                         
                         <div class="text-center">
-                            @if(Document.ContainsKey(SiteKeys.Image))
-                            {
-                                if (Document.GetString(SiteKeys.Image).StartsWith("http"))
-                                {
-                                    <img class="img-responsive contrib-logos mb-4" src="@Document.GetString(SiteKeys.Image)" alt="@Document.GetTitle()"/>
-                                }
-                                else
-                                {
-                                    <img class="img-responsive contrib-logos mb-4" src="assets/speakers/@Document.GetString(SiteKeys.Image)" alt="@Document.GetTitle()" />
-                                }
-                            }
-                            else
-                            {
-                                <img class="img-responsive contrib-logos mb-4" src="img/dot_bot.png" alt="@Document.GetTitle()" />
-                            }
+                            <img class="img-responsive contrib-logos mb-4" src="@Document.GetString(SiteKeys.Image)" alt="@Document.GetTitle()" />
                         </div>                        
                         
                         @if (Document.ContainsKey(SiteKeys.Location))

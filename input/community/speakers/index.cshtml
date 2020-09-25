@@ -61,21 +61,7 @@ Title: Speaker Directory
                             @foreach (IDocument speaker in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)))
                             {
                             <div class="col-sm-6 col-md-4 profile list__item">
-                                @if (speaker.ContainsKey(SiteKeys.Image))
-                                {
-                                    if (speaker.GetString(SiteKeys.Image).StartsWith("http"))
-                                    {
-                                        <img img height="120" class="rounded-image profile-image" src="@speaker.GetString(SiteKeys.Image)" alt="@speaker.GetTitle()" />
-                                    }
-                                    else
-                                    {
-                                        <img height="120" class="rounded-image profile-image" src="assets/speakers/@speaker.GetString(SiteKeys.Image)" alt="@speaker.GetTitle()" />
-                                    }
-                                }
-                                else
-                                {
-                                    <img height="120" class="rounded-image profile-image" alt="@speaker.GetTitle()" src="img/dot_bot.png">
-                                }
+                                <img img height="120" class="rounded-image profile-image" src="@speaker.GetString(SiteKeys.Image)" alt="@speaker.GetTitle()" />
 
                                 <h3 class="profile-name"><a href="@Context.GetLink(speaker)" class="speakername">@speaker.GetTitle()</a></h3>
                                 <div class="d-none speakerlink">@Context.GetLink(speaker)</div>
