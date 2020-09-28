@@ -1,7 +1,7 @@
 ---
 Title: Xamarin Community Toolkit
 Contributor: Xamarin
-Logo: xamarincommunitytoolkit.jpg
+Logo: xamarincommunitytoolkit.png
 Web: https://github.com/xamarin/XamarinCommunityToolkit
 ---
 # Xamarin Community Toolkit
