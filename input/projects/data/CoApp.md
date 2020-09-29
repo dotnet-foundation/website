@@ -3,6 +3,7 @@ Title: CoApp
 Contributor: OuterCurve 
 Logo: outercurve.png
 Web: http://coapp.org/
+IsActive: false
 ---
 # CoApp Project
 
