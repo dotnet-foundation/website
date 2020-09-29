@@ -1,5 +1,5 @@
 ﻿---
-title: Campaign Statements
+title: Campaign Statements | .NET Foundation
 permalink: about/election/candidates
 ---
 
@@ -8,7 +8,14 @@ permalink: about/election/candidates
         <div class="page-section_row row">
             <div class="col-12">
 
-@if (Inputs.FilterSources("about/election/campaign-2020/*").Count() == 0)
+@{
+    IDocument[] candidates = Outputs
+        .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
+        .FilterSources("about/election/campaign-2020/*.md")
+        .OrderBy(x => x.GetTitle())
+        .ToArray();
+}
+@if (candidates.Length == 0)
 {
     <h3>We're just getting started!</h3>
 
@@ -19,14 +26,15 @@ permalink: about/election/candidates
 }
 else
 {
+    <h3>Voting is underway and ends August 3!</h3>
+    <p>Members should have recieved an email with a special link to vote from OpaVote (noreply@opavote.com). They have also
+        been sending reminders every three days. Be sure to check your spam folder if you haven't recieved the link yet.
+    </p>
     <h3 id="here-are-the-campaign-statements-for-our-candidates">Here are the campaign statements for our candidates.</h3>
     <p>Check out the <a href="about/election/campaign">details</a> on how the process works.</p>
 
     <section class="card-container">
-        @Html.Partial("../../_partials/_candidate-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-            .Flatten()
-            .FilterSources("about/election/campaign-2020/*.md")
-            )
+        @Html.Partial("../../_partials/_candidate-card.cshtml", candidates)
     </section>
 }
 

@@ -1,15 +1,15 @@
 ---
-Title: Blog
+Title: Blog | .NET Foundation
 PageTitle: Recent Posts
 ---
-<section class="page-section page-section">
+<section class="page-section page-section_column">
   <div class="page-section_container container">
     <div class="page-section_row row">
       <div class="col-12">
         <div class="row">
           <div class="col-md-9">
-            @Html.Partial("_posts.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                .Flatten()
+            @Html.Partial("_posts.cshtml", Outputs
+                .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                 .FilterSources("blog/posts/*")
                 .OrderByDescending(doc => doc.GetDateTime("Published"))
                 .Take(5))

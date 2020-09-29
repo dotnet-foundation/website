@@ -118,7 +118,7 @@
     font-size: 1.5rem;
     text-align: center;
     margin: 2rem 0;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     border-bottom: 1px solid #fff;
 }
 
@@ -126,11 +126,11 @@
     .home-DATS-title {
         font-size: 3rem;
     }
-    
+
     .home-DATS-title strong {
         font-size: 4rem;
     }
-    
+
     .home-DATS-date {
         font-size: 2.5rem;
     }
@@ -312,3 +312,88 @@
     height: 100%;
     background-color: rgba(104, 33, 122, 0.2);
 }
+
+details {
+    width: 100%;
+    min-height: 5px;
+    /* max-width: 700px; */
+    padding: 45px 70px 45px 45px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 22px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all .3s;
+  }
+
+  details + details {
+    margin-top: 20px;
+  }
+
+  details[open] {
+    min-height: 50px;
+    background-color: #f6f7f8;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+  }
+
+  details p {
+    color: #000000;
+    font-weight: 300;
+  }
+
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  summary:focus {
+    outline: none;
+    color: #68217a;
+    box-shadow: 0 0 0 4px #f6f7f8, 0 0 0 5px rebeccapurple;
+  }
+
+  summary::-webkit-details-marker {
+    display: none
+  }
+
+  .control-icon {
+    fill: rebeccapurple;
+    transition: .3s ease;
+    pointer-events: none;
+  }
+
+  .control-icon-close {
+    display: none;
+  }
+
+  details[open] .control-icon-close {
+    display: initial;
+    transition: .3s ease;
+  }
+
+  details[open] .control-icon-expand {
+    display: none;
+  }
+
+  details[open] summary:hover::after {
+    animation: pulse 1s ease;
+  }
+
+  @keyframes pulse {
+    25% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

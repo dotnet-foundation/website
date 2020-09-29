@@ -8,7 +8,7 @@ The Nomination Committee has reviewed all of the candidates who submitted a nomi
 
 Here are the [candidates](/about/election/candidates) for the 2020 .NET Foundation Directors:
 
-- [Ben Adams](/about/election/campaign-2020/ben-adams)*
+- [Ben Adams](/about/election/campaign-2019/ben-adams)*
 - [Bill Wagner](/about/election/campaign-2020/bill-wagner)
 - [Dennie Declercq](/about/election/campaign-2020/dennie-declercq)
 - [Dhananjay Kumar](/about/election/campaign-2020/dhananjay-kumar)

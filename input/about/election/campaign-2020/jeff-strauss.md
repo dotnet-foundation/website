@@ -2,6 +2,9 @@
 title: Jeff Strauss
 twitter: jeffreystrauss
 image: campaign-2020/jeff-strauss.jpg
+company: World Wide Technology
+location: United States
+elected: true
 ---
 
 # .NET Foundation Campaign: Jeff Strauss

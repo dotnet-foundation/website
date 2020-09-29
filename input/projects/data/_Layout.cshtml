@@ -17,8 +17,12 @@
         <div class="page-section_row row h-100">
             <div class="page-section_column col-12 text-left">
                 <article class="row">
-                    <div class="col-4"><a href="@Model.GetString("Web")"><img class="img-responsive contrib-logos" src="assets/projects/@Model.GetString("Logo", "logo_big.png")" alt="@Model.GetTitle()" /></a></div>
-                    <div class="col-8">
+                    <div class="col-md-4 text-center text-md-left">
+                        <a href="@Model.GetString("Web")">
+                            <img class="img-responsive contrib-logos" src="assets/projects/@Model.GetString("Logo", "logo_big.png")" alt="@Model.GetTitle()" />
+                        </a>
+                    </div>
+                    <div class="col-md-8">
                         @RenderBody()
                     </div>
                 </article>

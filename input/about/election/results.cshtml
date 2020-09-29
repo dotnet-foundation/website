@@ -1,15 +1,15 @@
 ﻿---
-title: Election Results
+title: Election Results | .NET Foundation
 permalink: about/election/results
 ---
 
-<h3 id="meet-your-2019-net-foundation-board-of-directors">Meet your 2019 .NET Foundation Board of Directors!<a class="anchorjs-link " href="#meet-your-2019-net-foundation-board-of-directors" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+<h3 id="meet-your-2019-net-foundation-board-of-directors">Meet your 2020 .NET Foundation Board of Directors!<a class="anchorjs-link " href="#meet-your-2019-net-foundation-board-of-directors" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
 
 <section class="card-container">
     @Html.Partial("../../_partials/_candidate-card.cshtml",
-                    Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                        .Flatten()
-                        .FilterSources("about/election/campaign-2019/*")
+                    Outputs
+                        .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
+                        .FilterSources("about/election/campaign-2020/*")
                         .Where(candidate => candidate.GetBool("elected"))
                         .OrderBy(candidate => candidate.GetString("title"))
             )

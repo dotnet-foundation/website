@@ -1,6 +1,6 @@
 ﻿---
 permalink: /corporate-sponsors
-title: Corporate Sponsors
+title: Corporate Sponsors | .NET Foundation
 ---
 
 <section class="page-section page-section--purple">
@@ -18,7 +18,7 @@ title: Corporate Sponsors
     </div>
 </section>
 
-<section class="page-section">
+<section class="page-section page-section_column">
     <div class="page-section_container container">
         <div class="page-section_row row">
             <div class="col-12">
@@ -58,7 +58,7 @@ title: Corporate Sponsors
 
                 <h2><a>Why change the TSG to a Corporate Sponsor Program?</a></h2>
 
-                <p><span style="background:white">We recognize that many companies have significant business interests in the future growth and health of the .NET ecosystem, across a variety of business models - platforms, developer tools vendors, consultancies, as well as businesses in other verticals that depend on .NET to run their websites, line-of-business applications, infrastructure, etc. We've had repeated requests from businesses that don't directly fit into the TSG model to join the foundation and get involved. Creating a Corporate Sponsor Program with annual dues will allow the .NET Foundation to have much greater impact and make long-term investments in the .NET community.</span><span style="font-size:8.0pt"><span style="line-height:107%"><a class="msocomanchor" href="https://dotnetfoundation.sharepoint.com/Shared%20Documents/Marketing/Membership/Why%20You%20Should%20Join%20-%20Part%202%20-%20Corporate%20Sponsor.docx#_msocom_1" id="_anchor_1" language="JavaScript" name="_msoanchor_1">[JG1]</a> </span></span></p>
+                <p><span style="background:white">We recognize that many companies have significant business interests in the future growth and health of the .NET ecosystem, across a variety of business models - platforms, developer tools vendors, consultancies, as well as businesses in other verticals that depend on .NET to run their websites, line-of-business applications, infrastructure, etc. We've had repeated requests from businesses that don't directly fit into the TSG model to join the foundation and get involved. Creating a Corporate Sponsor Program with annual dues will allow the .NET Foundation to have much greater impact and make long-term investments in the .NET community.</span></p>
 
                 <h2>How will sponsor contributions be spent?</h2>
 
@@ -105,8 +105,8 @@ title: Corporate Sponsors
                 <h2>Corporate Sponsors</h2>
                 <p>These companies are helping drive the future of .NET. </p>
                 <div class="corporate-sponsor-card-container">
-                    @Html.Partial("../_partials/_corporate-sponsor-logo-card.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                      .Flatten()
+                    @Html.Partial("../_partials/_corporate-sponsor-logo-card.cshtml", Outputs
+                      .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                       .FilterSources("corporate-sponsors/*.md")
                       .OrderBy(sponsor => sponsor.GetInt("order"))
                       )

@@ -46,7 +46,7 @@ Excluded: true
 
 <p>The .NET Foundation would like to welcome the following projects that joined in February and March!</p>
 
-<table>
+<table class="table table-bordered">
 <thead>
 <tr>
 <th></th>

@@ -1,7 +1,7 @@
 ---
 Title: Cecil
 Contributor: Jb Evain
-Logo: 7d4309cc-8c5c-4fd5-89dc-6b921babc8de.jpg
+Logo: cecil.jpg
 Web: http://evain.net/
 ---
 # Cecil

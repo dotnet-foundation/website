@@ -13,7 +13,7 @@ This project is a port of the [Couchbase Lite](https://developer.couchbase.com/m
 
 * [Project Info Site](https://developer.couchbase.com/mobile/)
 * [Project Code Site](https://github.com/couchbaselabs/couchbase-lite-net)
-* Project License Type: [MIT](https://github.com/couchbaselabs/couchbase-lite-net/blob/master/LICENSE)
+* Project License Type: [Apache 2.0](https://github.com/couchbaselabs/couchbase-lite-net/blob/master/LICENSE)
 
 ## Quicklinks
 

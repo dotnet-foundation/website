@@ -1,16 +1,13 @@
 ---
-Title: .NET Foundation July/August 2020 Update
+Title: .NET Foundation September/October 2020 Update
 Author: Claire Novotny
 Published: 
-Slug: net-foundation-july-august-2020-update
+Slug: net-foundation-september-october-2020-update
 Excluded: true
 ---
-Here's the July/August 2020 .NET Foundation update. Every other month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.
+Here's the September/October 2020 .NET Foundation update. Every other month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.
 
 ## General news
-
-### Board Elections Update
-
 
 ## Committee Updates
 
@@ -32,7 +29,8 @@ Microsoft released updated .NET branding guidelines on GitHub [github.com/dotnet
 
 ## Events
 
-
+### "The Maintainers" Video Series Needs You
+Shawn Wildermuth is putting together a short video series about open source maintainers. You can view the existing episodes (with Brad Wilson of xUnit fame; and Jimmy Bogard of AutoMapper) by visiting the [YouTube Playlist](https://shawnw.me/TheMaintainers). If you're interested in being a part of the series, please contact Shawn on [His Website](https://wildermuth.com/contact).
 
 ### .NET Conf 2020 dates announced: November 10-12!
 .NET Conf is a free, three day virtual developer event co-organized by the .NET community and Microsoft. This year .NET 5.0 will launch at .NET Conf 2020! See the website for more information and save the date! [www.dotnetconf.net](https://www.dotnetconf.net)
@@ -41,37 +39,30 @@ We're also planning our next .NET Conf: "Focus" event, where we continue focusin
 
 ## .NET Foundation Project Updates
 
-
-
-
-
 ## New Projects
 
-The .NET Foundation would like to welcome the following projects that joined in June and July!
-|                     |                    |
+The .NET Foundation would like to welcome the following projects that joined in September and October!
+
+|  |  |
 | ------------------- |--------------------|
-| <img width="750px" src="https://user-images.githubusercontent.com/1334951/87341392-6ac11f00-c4fe-11ea-8442-e6068f16ba31.png" width="750px"> | **MahApps.Metro**  MahApps.Metro is a free open-source framework that allows developers to cobble together a better UI for their own WPF applications with minimal effort, Supporting .NET Framework and .NET Core. It overrides the default style of all common WPF controls and gives them a modern look. MahApps.Metro also includes some custom controls based on concepts from Windows Phone, Windows 8 and Window 10 (UWP) Apps.|
+| <img width="750px" src="https://user-images.githubusercontent.com/1334951/94056115-b9a6f280-fd92-11ea-972e-9f4c283d0fbc.png" width="750px"> | **nanoFramework**  .NET nanoFramework goal is to be a platform that enables the writing of managed code applications for constrained embedded devices. Developers can harness the familiar IDE Visual Studio and their .NET (C#) knowledge to quickly write applications without having to worry about the low level hardware intricacies of a micro-controller.|
 
 ## New Releases
 
-### [Linq2Db](https://github.com/linq2db/linq2db)
+### Chem4Word 2020
+After many months of exhaustive beta testing, we released [Chem4Word 2020](https://www.chem4word.co.uk/).  This release owes more to the underlying technology than the new features. 
 
-[Linq2Db 3.0 Released](https://github.com/linq2db/linq2db/wiki/Release-Notes-3.0.0)
+The most substantial change is the new molecule sketcher.  The [Advanced CML-based Molecule Editor](https://www.chem4word.co.uk/2020/08/30/a-new-molecule-editor-in-chem4word-2020-introducing-acme/), or ACME for short, is a completely C#/WPF-based component.  We'd been using the GPL version of iChemLabs [ChemDoodle for Web](https://web.chemdoodle.com/#:~:text=ChemDoodle%20Web%20Components%20are%20pure,your%20websites%20and%20web%20applications.) up to now, but we'd been dodging ongoing concerns over license compatibility. Eventually we bit the bullet, and wrote our own sketcher.  This is ACME in action:
 
-This is a major upgrade from the existing 2.x versions. Major highlights:
-* `IAsyncEnumerable<T>` support
-* Linked Server support (cross-server database queries are now supported across all platforms where available)
-* Better Eager load support (reduced query count, performance improvement)
-* Query filters (convenient way to automatically filter data for all queries affecting a table)
-* Support for ROLLUP and CUBE statements 
-* OUTPUT statements are now supported on INSERT and DELETE statements on SQL Server
-* General performance and memory use enhancements in all areas
-* Misc. improvements to database providers
+![image](https://user-images.githubusercontent.com/10074162/91839052-54a22600-ec46-11ea-90cd-e3790eb6cec1.png)
 
-We are also happy to announce that [Shane Krueger](https://github.com/Shane32) and [Stuart Turner](https://github.com/viceroypenguin) have joined the linq2db team.
+ACME can be dropped into any WPF or WinForms application, not just Chem4Word. Anyone writing a LOB cheminformatics application could use it.  It is however limited to Windows Desktop applications.  As Chem4Word up to now has been strictly Windows Desktop, then this hasn't been a limitation.  Our calculation is that there is a lot of mileage left in the VSTO/C# approach to crafting Office Add-Ins.  Time will tell whether this remains so, given Microsoft's ever-changing developer technology story.  
 
-Full details are available [here](https://github.com/linq2db/linq2db/wiki/Release-Notes-3.0.0)
+Other changes would appeal to the chemist more than the informatics developer.  We now support [functional groups](https://www.chem4word.co.uk/2020/08/31/functional-groups-now-included-in-chem4word-2020/) (shorthand for predefined layouts of atoms).  We have also incorporated a unique library of 2100+ substances from essential oils.  We've also improved performance, especially during rendering.  Structures now render quicker and with much higher quality.  The new Library component showcases these enhancements beautifully:
 
+![image](https://user-images.githubusercontent.com/10074162/91839493-0b9ea180-ec47-11ea-916a-8d0c248ad15c.png)
+
+This has been a tough release to get out, especially given lockdown and the strictures of our new way of living and working.  However, it provides a very much more solid foundation for future enhancements to Chem4Word.
 ## Meetups
 
 ### Looking for speakers to go deep on AWS?
@@ -89,9 +80,9 @@ You can contact the .NET developer advocacy team at **[aws-dotnetfdn-interest-op
 
 ### Sponsored Meetups
 **Our .NET Foundation sponsored [.NET Meetup Pro groups](https://www.meetup.com/pro/dotnet) are continuing to grow worldwide.** Here are some quick stats:*
-* 365 Groups
-* 65 Countries
-*	303K Members
+* 366 Groups
+* 66 Countries
+*	311K Members
 
 Our .NET Meetup Pro group helps developers find your group, as well as get involved with local events like .NET Conf Local. If your meetup hasn't joined yet, you can [right here](https://aka.ms/add-dotnet-meetup).
 

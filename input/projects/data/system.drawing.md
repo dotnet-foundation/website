@@ -1,7 +1,7 @@
 ---
 Title: System.Drawing (Mono)
 Contributor: Mono Project
-Logo: 3687e80c-6ed6-4d55-a70f-424a102f54c9.jpg
+Logo: system.drawing.jpg
 Web: https://www.mono-project.com/
 ---
 

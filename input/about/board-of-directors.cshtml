@@ -1,4 +1,4 @@
-﻿---
+---
 title: .NET Foundation Board of Directors
 permalink: /about/board-of-directors
 ---
@@ -16,16 +16,16 @@ permalink: /about/board-of-directors
     </div>
 </section>
 
-<section class="page-section" id="board-of-directors">
+<section class="page-section page-section_column" id="board-of-directors">
     <div class="page-section_container container">
         <div class="page-section_row row">
             <div class="col-12">
-                <h2>Board of Directors</h2>
+                <h2 style="text-align: center;" >Board of Directors</h2>
                 <div class="row">
                     @Html.Partial("../_partials/_member-small-card.cshtml",
-                        Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                            .Flatten()
-                            .FilterSources("about/election/campaign-2019/*")
+                        Outputs
+                            .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
+                            .FilterSources("about/election/campaign-2020/*")
                             .Where(candidate => candidate.GetBool("elected"))
                             .OrderBy(candidate => candidate.GetString("title"))
                     )
@@ -35,15 +35,15 @@ permalink: /about/board-of-directors
     </div>
 </section>
 
-<section class="page-section page-section--purple--light" id="team">
+<section class="page-section page-section--purple--light page-section_column" id="team">
     <div class="page-section_container container">
         <div class="page-section_row row">
             <div class="col-12">
-                <h2 id="team">Our Team</h2>
+                <h2 style="text-align: center;" id="team">Our Team</h2>
                 <div class="row">
                     @Html.Partial("../_partials/_team-member-card.cshtml",
-                    Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                        .Flatten()
+                    Outputs
+                        .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                         .FilterSources("about/team/*.md")
                         .OrderBy(candidate => candidate.GetInt("order"))
                     )
@@ -53,15 +53,15 @@ permalink: /about/board-of-directors
     </div>
 </section>
 
-<section class="page-section" id="advisory-council">
+<section class="page-section page-section_column" id="advisory-council">
     <div class="page-section_container container">
         <div class="page-section_row row">
             <div class="col-12">
-                <h2 id="advisory-council">.NET Advisory Council</h2>
+                <h2 style="text-align: center;" id="advisory-council">.NET Advisory Council</h2>
                 <div class="row">
                     @Html.Partial("../_partials/_member-small-card.cshtml",
-                        Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                            .Flatten()
+                        Outputs
+                            .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                             .FilterSources("about/advisory-council/*.md")
                             .OrderBy(candidate => candidate.GetInt("order"))
                             .ThenBy(candidate => candidate.GetString("title"))

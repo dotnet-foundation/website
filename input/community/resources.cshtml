@@ -20,34 +20,37 @@ description: "Welcome to .NET \"Presentations in a Box.\"  We have a listing of 
     </div>
 </section>
 
-<section class="page-section page-section">
+<section class="page-section page-section_column">
     <div class="page-section_container container">
-        <h2 id="net-conf-2019-"><a href="https://github.com/dotnet-presentations/dotnetconf2019">.NET Conf 2019</a> <img src="img/948dacce-a456-4fd7-82f6-9b0813d04646.jpg" alt="dotnetconf2019"><a class="anchorjs-link " href="#net-conf-2019-" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
+        <h2 id="net-conf-2019-"><a href="https://github.com/dotnet-presentations/dotnetconf2019">.NET Conf 2019</a></h2>
 
         <p>Here are the presentations from .NET Conf 2019, along with creative content and info you can use to put on your own <a href="https://www.dotnetconf.net/local-events">.NET Conf Local event</a>!</p>
 
         <h2 id="workshops">Workshops<a class="anchorjs-link " href="#workshops" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
 
-        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                .Flatten()
+        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs
+                .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                 .FilterSources("community/presentations/*")
                 .Where(presentation => string.Equals(presentation.GetString("type"), "workshop", StringComparison.OrdinalIgnoreCase))
+                .OrderBy(x => x.GetTitle())
                 )
 
         <h2 id="presentation-decks">Presentation Decks<a class="anchorjs-link " href="#presentation-decks" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
 
-        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                .Flatten()
+        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs
+                .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                 .FilterSources("community/presentations/*")
                 .Where(presentation => string.Equals(presentation.GetString("type"), "deck", StringComparison.OrdinalIgnoreCase))
+                .OrderBy(x => x.GetTitle())
                 )
 
         <h2 id="community-e-books-and-tutorials">Community E-Books and Tutorials<a class="anchorjs-link " href="#community-e-books-and-tutorials" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
 
-        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs[nameof(Statiq.Web.Pipelines.Content)]
-                .Flatten()
+        @Html.Partial("../_partials/_presentation-detail.cshtml", Outputs
+                .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                 .FilterSources("community/presentations/*")
                 .Where(presentation => string.Equals(presentation.GetString("type"), "tutorial", StringComparison.OrdinalIgnoreCase))
+                .OrderBy(x => x.GetTitle())
                 )
 
         <h2 id="got-a-suggestion-or-fix">Got a suggestion or fix?<a class="anchorjs-link " href="#got-a-suggestion-or-fix" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h2>
