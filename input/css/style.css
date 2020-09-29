@@ -588,6 +588,7 @@ li.active a.nav-link,
 @media screen and (max-width: 767px) {
   .latest_date {
     flex-basis: 30%;
+    font-size: 14px;
   }
 }
 
@@ -715,16 +716,13 @@ p.site-footer_textSection > a:visited {
   transition: all 0.4s cubic-bezier(.25,.8,.25,1);
 
 }
-#search .form-control:hover,
-#search .btn-primary:hover {
-
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
 
 #search .btn-primary {
   background-color: #e2068c;
   border-color: #e2068c;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-fluid {
@@ -1479,6 +1477,7 @@ svg:not(:root).svg-inline--fa {
 
 .logo-footer {
   width: 135px;
+  height: 135px;
 }
 
 .hidden {
@@ -1710,4 +1709,71 @@ p.profile-company {
 
 .office-form-notice-report {
   color: #006CFF !important;
+}
+
+.video-iframe {
+  margin: auto;
+  width: 100%;
+  max-width: 560px;
+}
+
+.video-iframe-item {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-iframe-item iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+table {
+  border: 1px solid #dee2e6;
+}
+
+table th,
+table td {
+  border: 1px solid #dee2e6;
+}
+
+table thead th,
+table thead td {
+  border-bottom-width: 2px;
+}
+
+@media (max-width: 767.98px) {
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 0;
+  }
 }

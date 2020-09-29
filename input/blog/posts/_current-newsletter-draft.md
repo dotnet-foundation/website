@@ -43,8 +43,28 @@ We're also planning our next .NET Conf: "Focus" event, where we continue focusin
 
 ## New Projects
 
+The .NET Foundation would like to welcome the following projects that joined in September and October!
+
+|  |  |
+| ------------------- |--------------------|
+| <img width="750px" src="https://user-images.githubusercontent.com/1334951/94056115-b9a6f280-fd92-11ea-972e-9f4c283d0fbc.png" width="750px"> | **nanoFramework**  .NET nanoFramework goal is to be a platform that enables the writing of managed code applications for constrained embedded devices. Developers can harness the familiar IDE Visual Studio and their .NET (C#) knowledge to quickly write applications without having to worry about the low level hardware intricacies of a micro-controller.|
+
 ## New Releases
 
+### Chem4Word 2020
+After many months of exhaustive beta testing, we released [Chem4Word 2020](https://www.chem4word.co.uk/).  This release owes more to the underlying technology than the new features. 
+
+The most substantial change is the new molecule sketcher.  The [Advanced CML-based Molecule Editor](https://www.chem4word.co.uk/2020/08/30/a-new-molecule-editor-in-chem4word-2020-introducing-acme/), or ACME for short, is a completely C#/WPF-based component.  We'd been using the GPL version of iChemLabs [ChemDoodle for Web](https://web.chemdoodle.com/#:~:text=ChemDoodle%20Web%20Components%20are%20pure,your%20websites%20and%20web%20applications.) up to now, but we'd been dodging ongoing concerns over license compatibility. Eventually we bit the bullet, and wrote our own sketcher.  This is ACME in action:
+
+![image](https://user-images.githubusercontent.com/10074162/91839052-54a22600-ec46-11ea-90cd-e3790eb6cec1.png)
+
+ACME can be dropped into any WPF or WinForms application, not just Chem4Word. Anyone writing a LOB cheminformatics application could use it.  It is however limited to Windows Desktop applications.  As Chem4Word up to now has been strictly Windows Desktop, then this hasn't been a limitation.  Our calculation is that there is a lot of mileage left in the VSTO/C# approach to crafting Office Add-Ins.  Time will tell whether this remains so, given Microsoft's ever-changing developer technology story.  
+
+Other changes would appeal to the chemist more than the informatics developer.  We now support [functional groups](https://www.chem4word.co.uk/2020/08/31/functional-groups-now-included-in-chem4word-2020/) (shorthand for predefined layouts of atoms).  We have also incorporated a unique library of 2100+ substances from essential oils.  We've also improved performance, especially during rendering.  Structures now render quicker and with much higher quality.  The new Library component showcases these enhancements beautifully:
+
+![image](https://user-images.githubusercontent.com/10074162/91839493-0b9ea180-ec47-11ea-916a-8d0c248ad15c.png)
+
+This has been a tough release to get out, especially given lockdown and the strictures of our new way of living and working.  However, it provides a very much more solid foundation for future enhancements to Chem4Word.
 ## Meetups
 
 ### Looking for speakers to go deep on AWS?

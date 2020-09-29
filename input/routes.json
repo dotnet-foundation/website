@@ -1,3 +1,5 @@
+ContentType: Asset
+---
 { 
   "ShouldOutput": true,
   "routes": [
@@ -12,7 +14,21 @@
       "serve": "/community/get-involved",
       "statusCode": 301
     },
-
+    {
+      "route": "/Projects",
+      "serve": "/projects",
+      "statusCode": 301
+    },
+    {
+      "route": "/About",
+      "serve": "/about",
+      "statusCode": 301
+    },
+    {
+      "route": "/News",
+      "serve": "/news",
+      "statusCode": 301
+    },
     {
       "route": "/community/host-a-meetup",
       "serve": "/community/meetups",
