@@ -3,6 +3,7 @@ Title: Xamarin.Mobile
 Contributor: Xamarin
 Logo: xamarin.jpg
 Web: https://xamarin.com/
+IsActive: false
 ---
 # Xamarin.Mobile
 

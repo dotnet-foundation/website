@@ -3,6 +3,7 @@ Title: ConferenceXP
 Contributor: Outercurve
 Logo: outercurve.png
 Web: http://cct.cs.washington.edu/
+IsActive: false
 ---
 # ConferenceXP
 
