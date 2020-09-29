@@ -16,6 +16,8 @@ Here's the September/October 2020 .NET Foundation update. Every other month, we'
 
 ### Marketing
 
+Announcing "Project Spotlight", a place to learn more about .NET Foundation Projects. The first project we are showcasing is Cake, thank you to the team for being our first one! If you want to learn more, or want your project featured, please go to [https://dotnetfoundation.org/projects/spotlight](Project Spotlight).
+
 
 #### Member resources
 We'd like to make our members aware of some marketing resources you can take advantage of.
