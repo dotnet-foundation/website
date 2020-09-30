@@ -12,7 +12,7 @@ Pull requests and issues are welcome!
 
 ## Build and test
 
-The basic steps to run or build the project:
+The basic steps to run or build the project :
 
 1. Use `dotnet run` from the root of the repository to generate the static site.
 1. After the build, check the `output` folder to review the generated HTML files.
@@ -27,7 +27,7 @@ The preceding command launches a preview web server that can be viewed from http
 
 ## Project Structure
 
-This website uses [Statiq Web](https://github.com/statiqdev/Statiq.Web), a flexible and extensible static site generator for .NET.
+This website uses [Statiq Web](https://github.com/statiqdev/Statiq.Web), a flexible and extensible static site generator for .NET Framwork.
 
 * *App.Config* : The configuration file for the project. Review the `appSettings` section of *App.Config*.
 * *Program.cs:*
