@@ -2,7 +2,7 @@
 
 This repository contains the solution that is used to build and deploy the [dotnetfoundation](https://dotnetfoundation.org/) website.
 
-Pull requests and issues are delightfully welcome!
+Pull requests and issues are welcome!
 
 ## Prerequisites
 
