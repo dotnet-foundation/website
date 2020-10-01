@@ -1,12 +1,12 @@
 # dotnetfoundation-website
 
-This repository contains the solution that is used to build and deploy the [dotnetfoundation](https://dotnetfoundation.org/) website.
+This repository contains the solution to build and deploy the [dotnetfoundation](https://dotnetfoundation.org/) website.
 
-Pull requests and issues are welcome!
+Pull requests and issues are always welcome!
 
 ## Prerequisites
 
-* Git: Clone this repository to make a change.
+* Git: Clone this repository to make changes.
 * [.NET Core SDK 3.1.\*](https://dotnet.microsoft.com/download)
 * Optional: [Visual Studio 2019](https://visualstudio.microsoft.com/vs/) or [Visual Studio Code](https://code.visualstudio.com/) for editing.
 
