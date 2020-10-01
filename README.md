@@ -1,8 +1,8 @@
-# dotnetfoundation-website
+# dotnetfoundation- an amazing website
 
 This repository contains the solution that is used to build and deploy the [dotnetfoundation](https://dotnetfoundation.org/) website.
 
-Pull requests and issues are welcome!
+Pull requests and issues are delightfully welcome!
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ Pull requests and issues are welcome!
 
 ## Build and test
 
-The basic steps to run or build the project:
+The basic steps to run or build the project are as follows:
 
 1. Use `dotnet run` from the root of the repository to generate the static site.
 1. After the build, check the `output` folder to review the generated HTML files.
