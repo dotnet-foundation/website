@@ -1,6 +1,7 @@
 ﻿---
 title: Community | .NET Foundation
 permalink: /community
+useFunctionsJS: true
 ---
 
 <section class="page-section page-section--purple">
@@ -14,6 +15,21 @@ permalink: /community
                     We need you! Community involvement is what makes the .NET Foundation such a resounding success.
                     Contribute to a project in need, attend or host a meetup, and help us shape the initiatives that are important to you by joining a <a href="/community/committees">committee</a>.
                 </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section page-section page-section--purple--light">
+    <div class="page-section_container container">
+        <div class="page-section_row row text-left">
+            <div class="page-section_column col-12">
+                <h2>
+                    Foundation GitHub Repos
+                </h2>
+                <div class="card-columns" style="text-align:center">
+                    <div style="color:white;" id="issues"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -82,3 +98,26 @@ permalink: /community
         </div>
     </div>
 </section>
+
+<script type="text/javascript">
+(async function () {
+  const orgs = "dotnet-foundation";
+  const repos = [
+    "wg-marketing",
+    "website",
+    "wg-outreach",
+    "speaking",
+    "membership",
+    "newsletter",
+    "content",
+    "projects",
+    "events",
+    "wg-education",
+    "wg-technical-review",
+    "wg-speakers-and-meetups",
+    "wg-project-support",
+    "wg-membership",
+  ];
+loadOpenIssues(orgs, repos);
+})();
+</script>
