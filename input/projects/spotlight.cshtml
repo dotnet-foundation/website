@@ -4,50 +4,29 @@ description: This month's .NET Foundation Project Spotlight
 permalink: /projects/spotlight
 useFunctionsJS: true
 ---
-
-@{
-	var qsValue = "";
-
-	var projects = Outputs
-		.FilterSources("projects/spotlight/*.yaml")
-		.OrderByDescending(a => DateTime.Parse(a.GetValueOrDefault("publishDate", true).ToString()))
-		.ToList();
-
-		if (!string.IsNullOrEmpty(qsValue))
-		{
-			projects = projects.Where(a => a.GetValueOrDefault("projectName", true).ToString().ToUpperInvariant() ==qsValue.ToUpperInvariant()).ToList();
-		}
-
-		var project = projects.FirstOrDefault();
-		Statiq.Common.IDocument[] projectOwners = project.Get<Statiq.Common.IDocument[]>("projectOwners");
-		Statiq.Common.IDocument[] contributors = project.Get<Statiq.Common.IDocument[]>("contributors");
-
+@section head {
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.11.0/underscore.min.js" data-no-mirror></script>
 }
+
+<div id="projects">
 <section class="page-section page-section--purple">
     <div class="page-section_container container">
         <div class="page-section_row row">
           <div class="page-section_column col-12 text-center">
-            <h1>
-             @project.GetValueOrDefault("projectName", true).ToString()  <img src="assets/projects/@project.GetValueOrDefault("imageFileName", true).ToString().ToLowerInvariant()" width="100" alt="@project.GetValueOrDefault("projectName", true)">
-            </h1>
+            <h1 id="projectHeader"></h1>
 			<br />
-
-			<div id="project-description">
+            <div>
 				<h3>
 					Project Description
 				</h3>
-				@Html.Raw(@project.Get("projectDescription"))
+				<span id="projectDescription"></span>
 			</div>
 			<br />
 			<div id="project-owners">
 				<h3>Project Owners:</h3>
 				<br />
-					<ul class="comma-list">
-			@foreach(var owner in projectOwners)
-			{
-				<li><a href="@owner.GetValueOrDefault("url", true)" target="_blank"><i class="fab fa-github" aria-hidden="true"></i> @owner.GetValueOrDefault("name", true)</a></li>
-			}
-</ul>
+					<ul id="projectOwners" class="comma-list">
+			        </ul>
 			</div>
     </div>
 </section>
@@ -63,7 +42,7 @@ useFunctionsJS: true
 				<div id="project-interview">
 				     <div class="video-iframe">
                          <div class="video-iframe-item">
-                             <iframe width="560" height="315" src="@project.GetValueOrDefault("youtubeUrl",true)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             <iframe id="projectYouTube" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                          </div>
                      </div>
 					<br />
@@ -74,7 +53,7 @@ useFunctionsJS: true
 						</summary>
 						<br />
 						<br />
-						 @Html.Partial("spotlight/" + @project.GetValueOrDefault("transcriptFileName",true))
+<div id="transcript"></div>
 					</details>
 				</div>
 			</div>
@@ -95,14 +74,7 @@ useFunctionsJS: true
 						<div class="card-body">
 							<h3 style="color: white;">Top 5 Contributors</h3>
 							<div style="display: inline-block; text-align: left;">
-								<p class="card-text">
-								@foreach (var contributor in contributors)
-									{
-									<a style="color: white" href="@contributor.GetValueOrDefault("url", true)" target="_blank"><i style="color:white" class="fab fa-github" aria-hidden="true"></i> @contributor.GetValueOrDefault("name", true)</a>
-									<br />
-									<br />
-									}
-								</p>
+                                <p id="projectContributors" class="card-text"></p>
 							</div>
 						</div>
 					</div>
@@ -111,19 +83,19 @@ useFunctionsJS: true
 						<div class="card-body">
 							<h3 style="color: white;">References</h3>
 							<p class="card-text">
-								<a style="color: white" href="@project.GetValueOrDefault("githubRepo", true).ToString()" target="_blank">GitHub Repo</a>
+								<a id="gitHubRepo" style="color: white" href="" target="_blank">GitHub Repo</a>
 							</p>
 							<p class="card-text">
-								<a style="color: white" href="@project.GetValueOrDefault("projectWebsite", true).ToString()" target="_blank">Project Website</a>
+								<a id="projectWebsite" style="color: white" href="" target="_blank">Project Website</a>
 							</p>
 							<p class="card-text">
-								<a style="color: white" href="@project.GetValueOrDefault("communityUrl", true).ToString()" target="_blank">Community</a>
+								<a id="communityUrl" style="color: white" href="" target="_blank">Community</a>
 							</p>
 							<p class="card-text">
-								<a style="color: white" href="@project.GetValueOrDefault("documentationUrl", true).ToString()" target="_blank">Documentation</a>
+								<a id="documentationUrl" style="color: white" href="" target="_blank">Documentation</a>
 							</p>
 							<p class="card-text">
-								<a style="color: white" href="@project.GetValueOrDefault("contributionUrl", true).ToString()" target="_blank">Contribute</a>
+								<a id="contributionUrl" style="color: white" href="" target="_blank">Contribute</a>
 							</p>
 					</div>
 				</div>
@@ -141,7 +113,7 @@ useFunctionsJS: true
 		</div>
     </div>
 </section>
-
+</div>
 <section class="page-section page-section--purple--light">
     <div class="page-section_container container">
         <div class="page-section_row row text-left">
@@ -149,38 +121,8 @@ useFunctionsJS: true
                 <div id="SearchResults"></div>
                 <div id="PresetProjects">
 					<h1>Previous Spotlights</h1>
-					@{
-                        var list = Outputs
-                            .FilterSources("projects/spotlight/*.yaml")
-							.GroupBy(doc => char.IsLetter(doc.GetValueOrDefault("projectName", true).ToString().ToUpperInvariant().First()) ? doc.GetValueOrDefault("projectName", true).ToString().ToUpperInvariant().First() : '#' )
-                            .OrderBy(g => g.Key)
-                            .ToList();
+<div id="previousSpotlights"></div>
 
-                        var start = 0;
-                    }
-                    @while (start < list.Count)
-                    {
-                    <div class="row">
-                        @foreach (var letterGroup in list.Skip(start).Take(3))
-                        {
-                            <div class="col-lg-4 col-sm-12 alph">
-                                <hr />
-                                <div class="alph-box">
-                                    <div class="letter">@letterGroup.Key</div>
-                                    <div class="list">
-                                        @foreach(var proj in letterGroup.OrderBy(p => p.GetValueOrDefault("projectName", true).ToString()))
-                                        {
-                                        <a class="project-item" data-project="@proj.GetValueOrDefault("projectName", true).ToString()" href="/projects/spotlight?project=@proj.GetValueOrDefault("projectName", true).ToString().ToLowerInvariant()">@proj.GetValueOrDefault("projectName", true).ToString()</a>
-                                        }
-                                    </div>
-                                </div>
-                            </div>
-
-                        }
-                    </div>
-
-                            start += 3;
-                        }
 				</div>
             </div>
         </div>
@@ -189,17 +131,109 @@ useFunctionsJS: true
 
 <script type="text/javascript">
 (async function () {
-	const urlParams = new URLSearchParams(window.location.search);
+const urlParams = new URLSearchParams(window.location.search);
+var projectName = urlParams.get('project');
+var projects = []
+var project;
+$.ajax({
+    url: "/api/project-spotlight",
+    type: "GET",
+    async: false,
+    success: function (ps) {
+        projects = ps;
+        project = ps[0];
+        if (projectName != null)
+        {
+        ps.forEach(apiProject => {
+            if (apiProject.projectName.toLowerCase() == projectName.toLowerCase())
+            {
+                project = apiProject;
+            }
+        });
+       }
+       }
+    });
 
-	@* @{
-		var projectName = urlParams.get('project');
+var projectOwners = "";
+project.projectOwners.forEach((p)=> {
+    projectOwners += "<li><a href="+ p.url + " target='_blank'><i class='fab fa-github' aria-hidden='true'></i> " + p.name + "</a></li>";
+});
+document.getElementById("projectOwners").innerHTML = projectOwners;
 
+var projectContributors = "";
+project.contributors.forEach((c)=> {
+    projectContributors += "<a style='color: white' href=" + c.url + " target='_blank'><i style='color:white' class='fab fa-github' aria-hidden='true'></i> " + c.name + "</a><br /><br />";
+});
 
-	} *@
-	const orgs = "@project.GetValueOrDefault("gitHubOrg", true)";
-	const repos = [ "@project.GetValueOrDefault("gitHubRepoName", true)" ];
+document.getElementById("projectContributors").innerHTML = projectContributors;
 
-	loadOpenIssues(orgs, repos, true, "@project.GetValueOrDefault("gitHubRepoName", true)");
+document.getElementById("projectHeader").innerHTML =  "<span id='projectName'>" + project.projectName + "</span> <img src=assets/projects/" + project.imageFileName.toLowerCase() + " id='projectImage' width='100' alt="+project.projectName + ">";
+document.getElementById("projectDescription").innerHTML = project.projectDescription;
 
+document.getElementById("projectYouTube").src = project.youtubeUrl;
+document.getElementById("gitHubRepo").href = project.githubRepo;
+document.getElementById("projectWebsite").href = project.projectWebsite;
+document.getElementById("communityUrl").href = project.communityUrl;
+document.getElementById("documentationUrl").href = project.documentationUrl;
+document.getElementById("contributionUrl").href = project.contributionUrl;
+    const orgs = project.gitHubOrg;
+	const repos = [ project.gitHubRepoName ];
+
+ var transcript_div = document.getElementById('transcript');
+ $(transcript_div).load("assets/projects/spotlight-transcripts/" + project.transcriptFileName, function() {
+            });
+
+loadOpenIssues(orgs, repos, true, project.gitHubRepoName);
+
+/////// Build bottom list
+  projects = projects.sort(function (a, b) {
+    if (a.projectName > b.projectName) return 1;
+    if (a.projectName < b.projectName) return -1;
+    return 0;
+  });
+
+let alpha = projects.reduce((r, e) => {
+  let alphabet = e.projectName[0];
+  if (!r[alphabet]) r[alphabet] = { alphabet, record: [e] }
+  else r[alphabet].record.push(e);
+  return r;
+}, {});
+
+let list = Object.values(alpha);
+list = list.sort(function (a, b) {
+    if (a.projectName > b.projectName) return 1;
+    if (a.projectName < b.projectName) return -1;
+    return 0;
+  });
+
+var start = 0;
+var prevSpotDiv = "";
+while (start < list.length)
+{
+    prevSpotDiv += "<div class='row'>";
+
+  _.first( _.rest(list, start), 3).forEach(letterGroup => {
+        prevSpotDiv += `<div class="col-lg-4 col-sm-12 alph">
+                        <hr />
+                        <div class="alph-box">
+                            <div class="letter">` + letterGroup.alphabet + `</div>
+                            <div class="list">`;
+
+letterGroup.record.sort(function (a, b) {
+    if (a.projectName > b.projectName) return 1;
+    if (a.projectName < b.projectName) return -1;
+    return 0;
+  });
+        letterGroup.record.forEach(p => {
+                prevSpotDiv +=    "<a class='project-item' href='/projects/spotlight?project=" + p.projectName + "'>" + p.projectName + "</a>";
+                    });
+        prevSpotDiv +=        `</div>
+        </div>
+    </div>`;
+  });
+
+    start += 3;
+}
+document.getElementById("previousSpotlights").innerHTML = prevSpotDiv
 })();
 </script>

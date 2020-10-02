@@ -23,12 +23,16 @@ jobs:
         node-version: 12.x
     - run: cd functions && npm install && npm run build
 
+    - name: Copy Project Spotlight JSON Files
+      run: |
+        Copy-Item -Path functions\project-spotlight\*.json -Destination input\api\project-spotlight
+
     - uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '3.1.x' # SDK Version to use.
     - name: Build
       run: dotnet run --configuration Release
-        
+
     - name: Build And Deploy
       id: builddeploy
       uses: Azure/static-web-apps-deploy@v0.0.1-preview
