@@ -1,6 +1,8 @@
 {
     "projectName": "DNN Platform (Formerly DotNetNuke)",
     "imageFileName": "dnn-platform.jpg",
+    "gitHubOrg": "dnnsoftware",
+    "gitHubRepoName": "Dnn.Platform",
     "transcriptFileName": "dotnetnuke-transcript.txt",
     "publishDate": "2020-09-01",
     "projectOwners": [
