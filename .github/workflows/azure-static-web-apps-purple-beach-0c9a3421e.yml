@@ -26,7 +26,7 @@ jobs:
     - name: Copy Project Spotlight JSON Files
       run: |
         Copy-Item -Path functions\project-spotlight\*.json -Destination input\api\project-spotlight
-      shell: powershell
+      shell: pwsh
 
     - uses: actions/setup-dotnet@v1
       with:
