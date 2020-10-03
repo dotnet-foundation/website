@@ -24,7 +24,7 @@ Title: Speaker Directory
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Search</label>
                         <div class="col-sm-10">
-                            <input type="text" class="search form-control-plaintext border" placeholder="Search names, locations, and tags">
+                            <input type="text" class="search form-control-plaintext border" placeholder="Search names, locations, and topics">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -35,11 +35,11 @@ Title: Speaker Directory
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-sm-2 col-form-label">Filter By Tag</label>
-                        <div class="col-sm-10" id="tag-filters">
-                            @foreach (string tag in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>(SiteKeys.Tags)).Distinct().OrderBy(x => x))
+                        <label class="col-sm-2 col-form-label">Filter By Topic</label>
+                        <div class="col-sm-10" id="topic-filters">
+                            @foreach (string topic in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>(SiteKeys.Topics)).Distinct().OrderBy(x => x))
                             {
-                                <a class="filter btn btn-light mb-2" href="javascript:void(0)" data-filter="@tag">@tag</a>
+                                <a class="filter btn btn-light mb-2" href="javascript:void(0)" data-filter="@topic">@topic</a>
                             }
                         </div>
                     </div>
@@ -76,15 +76,15 @@ Title: Speaker Directory
                                     <div class="d-none speakerlon">@speaker.GetString(SiteKeys.Lon)</div>
                                 }
 
-                                @if (speaker.ContainsKey(SiteKeys.Tags))
+                                @if (speaker.ContainsKey(SiteKeys.Topics))
                                 {
                                     <div class="profile-details">
-                                        @foreach (string tag in speaker.GetList<string>(SiteKeys.Tags))
+                                        @foreach (string topic in speaker.GetList<string>(SiteKeys.Topics))
                                         {
-                                            <span class="pr-2"><a href="javascript:void(0)" class="filter btn btn-dark" data-filter="@tag">@tag</a></span>
+                                            <span class="pr-2"><a href="javascript:void(0)" class="filter btn btn-dark" data-filter="@topic">@topic</a></span>
                                         }
                                     </div>
-                                    <div class="d-none speakertags">@string.Join("|", speaker.GetList<string>(SiteKeys.Tags))</div>
+                                    <div class="d-none speakertopics">@string.Join("|", speaker.GetList<string>(SiteKeys.Topics))</div>
                                 }
                             </div>
                             }
@@ -103,18 +103,18 @@ Title: Speaker Directory
 </section>
 
 <script>
-    function filterTags(tag) {
-        var filterButton = $('#tag-filters .filter[data-filter="' + tag + '"]');
+    function filterTopics(topic) {
+        var filterButton = $('#topic-filters .filter[data-filter="' + topic + '"]');
         
         if(filterButton.hasClass('active')) {
             speakers.filter();
             $('.filter').removeClass('active');
         } else {
             speakers.filter(function(item) {
-                if (item.values().speakertags.indexOf('|') > 0) {
-                    return item.values().speakertags.split('|').includes(tag)
+                if (item.values().speakertopics.indexOf('|') > 0) {
+                    return item.values().speakertopics.split('|').includes(topic)
                 } else {
-                    return (item.values().speakertags == tag);
+                    return (item.values().speakertopics == topic);
                 }
             });
             $('.filter').removeClass('active');
@@ -123,7 +123,7 @@ Title: Speaker Directory
     }
 
     var options = {
-        valueNames: [ 'speakername', 'speakerlink', 'speakerlocation', 'speakerlat', 'speakerlon', 'speakertags' ]
+        valueNames: [ 'speakername', 'speakerlink', 'speakerlocation', 'speakerlat', 'speakerlon', 'speakertopics' ]
     };
     var speakers = new List('speakers', options);
 
@@ -135,15 +135,15 @@ Title: Speaker Directory
         });
 
         var queryParams = new URLSearchParams(window.location.search);
-        var tagParam = queryParams.get('tag');
-        if (tagParam) {
-            filterTags(tagParam);
+        var topicParam = queryParams.get('topic');
+        if (topicParam) {
+            filterTopics(topicParam);
         }
     });
 
     $('.filter').on('click', function() {
-        var tag = $(this).attr('data-filter');
-        filterTags(tag);
+        var topic = $(this).attr('data-filter');
+        filterTopics(topic);
     });
 </script>
 

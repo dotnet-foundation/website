@@ -22,13 +22,13 @@
                             <div id="speaker-map" class="mb-4"></div>
                         }
 
-                        @if(Document.ContainsKey(SiteKeys.Tags))
+                        @if(Document.ContainsKey(SiteKeys.Topics))
                         {
                             <div class="mb-4">
-                                <h3>Tags</h3>
-                                @foreach(string tag in Document.GetList<string>(SiteKeys.Tags))
+                                <h3>Topics</h3>
+                                @foreach(string topic in Document.GetList<string>(SiteKeys.Topics))
                                 {
-                                    <a href="/community/speakers?tag=@tag" class="btn btn-dark">@tag</a>  
+                                    <a href="/community/speakers?topic=@topic" class="btn btn-dark">@topic</a>  
                                 }
                             </div>
                         }

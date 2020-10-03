@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Markdig.Syntax;
 using Statiq.App;
 using Statiq.Common;
 using Statiq.Core;
@@ -55,7 +56,6 @@ namespace DotnetFoundationWeb
                         // Modules for speakers
                         new ExecuteSources("community/speakers/*.md")
                         {
-                            // TODO: URL validation
                             new GeocodeLocations(Config.FromSetting(SiteKeys.AzureMapsSubscriptionKey)),
                             new SpeakerImage()
                         }

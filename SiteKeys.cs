@@ -12,7 +12,7 @@
         public const string Location = nameof(Location);  // Plain language location name
         public const string Lat = nameof(Lat);  // Fetched based on Location, but can be explicitly provided
         public const string Lon = nameof(Lon);  // Fetched based on Location, but can be explicitly provided
-        public const string Tags = nameof(Tags);
+        public const string Topics = nameof(Topics);
         public const string Blog = nameof(Blog);
         public const string Feed = nameof(Feed);
         [SocialLink("fab fa-twitter")]

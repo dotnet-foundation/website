@@ -29,11 +29,11 @@
                         <input id="location" class="form-control" aria-describedby="location-help">
                     </div>
                     <div class="form-group">
-                        <label for="fullname" class="mb-0">Tags</label>
-                        <small id="tags-help" class="form-text text-muted mb-3">
-                            A list of tags indicating topics you want to speak about. Care should be taken to use already existing tags where practical. Separate multiple tags with a comma.
+                        <label for="fullname" class="mb-0">Topics</label>
+                        <small id="topics-help" class="form-text text-muted mb-3">
+                            A list of topics you want to speak about. Care should be taken to use already existing topics where practical. Separate multiple topics with a comma.
                         </small>
-                        <input id="tags" class="form-control" aria-describedby="tags-help">
+                        <input id="topics" class="form-control" aria-describedby="topics-help">
                     </div>
                     <div class="row">
                         <div class="col">
@@ -128,10 +128,10 @@
                 content += "Location: " + location.trim() + "\n";
             }
 
-            let tags = $("#tags").val();
-            if (tags) {
-                content += "Tags:\n"
-                tags.split(",").forEach(function (part) {
+            let topics = $("#topics").val();
+            if (topics) {
+                content += "Topics:\n"
+                topics.split(",").forEach(function (part) {
                     content += "  - " + part.trim() + "\n";
                 });
             }

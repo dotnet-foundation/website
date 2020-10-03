@@ -7,7 +7,7 @@ StackOverflow: https://stackoverflow.com/users/11388/aaron-powell
 LinkedIn: https://www.linkedin.com/in/aaron-powell-66038631
 Twitch: https://www.twitch.tv/NumberOneAaron/
 Location: Sydney, Australia
-Tags:
+Topics:
   - .NET
   - JavaScript
   - Web

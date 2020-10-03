@@ -10,12 +10,18 @@
 
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.11.23" />
-    <PackageReference Include="Statiq.Web" Version="1.0.0-beta.5" />
+    <PackageReference Include="Statiq.Web" Version="1.0.0-beta.6" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="input\assets\corporate-sponsors\" />
   </ItemGroup>
+
+  <!--
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\statiqdev\Statiq.Web\src\Statiq.Web\Statiq.Web.csproj" />
+  </ItemGroup>
+  -->
 
 </Project>
