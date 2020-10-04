@@ -15,26 +15,41 @@
                 </p>
                 <form>
                     <div class="form-group">
-                        <label for="fullname" class="mb-0">Full Name</label>
+                        <label for="fullname" class="mb-0 font-weight-bold">Full Name</label>
                         <small id="fullname-help" class="form-text text-muted mb-3">
                             Your full name.
                         </small>
                         <input id="fullname" class="form-control" aria-describedby="fullname-help">
                     </div>
+
                     <div class="form-group">
-                        <label for="fullname" class="mb-0">Location</label>
+                        <label for="fullname" class="mb-0 font-weight-bold">Location</label>
                         <small id="location-help" class="form-text text-muted mb-3">
                             Your location in plain language (for example, "Seattle, Washington USA").
                         </small>
                         <input id="location" class="form-control" aria-describedby="location-help">
                     </div>
+
                     <div class="form-group">
-                        <label for="fullname" class="mb-0">Topics</label>
+                        <label for="topics" class="mb-0 font-weight-bold">Topics</label>
                         <small id="topics-help" class="form-text text-muted mb-3">
-                            A list of topics you want to speak about. Care should be taken to use already existing topics where practical. Separate multiple topics with a comma.
+                            Check one or more topic you're interested in speaking about.
                         </small>
-                        <input id="topics" class="form-control" aria-describedby="topics-help">
+                        <div class="row">
+                            @foreach (string topic in ValidateSpeakerTopics.ApprovedTopics)
+                            {
+                                <div class="col-lg-3 col-md-4">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" value="@topic" name="topics">
+                                        <label class="form-check-label" for="topics">
+                                            @topic
+                                        </label>
+                                    </div>
+                                </div>
+                            }
+                        </div>
                     </div>
+
                     <div class="row">
                         <div class="col">
                             <label>Social Connection Name</label>
@@ -95,13 +110,15 @@
                             <input id="connect-url-5" class="form-control">
                         </div>
                     </div>
+
                     <div class="form-group">
-                        <label for="profile" class="mb-0">Profile</label>
+                        <label for="profile" class="mb-0 font-weight-bold">Profile</label>
                         <small id="profile-help" class="form-text text-muted mb-3">
                             Add a profile that describes why you'd make an awesome speaker (Markdown allowed).
                         </small>
                         <textarea rows="20" id="profile" class="form-control" aria-describedby="profile-help"></textarea>
                     </div>
+
                     <div>
                         <button class="btn btn-lg btn-primary" type="submit">Submit</button>
                     </div>
@@ -128,13 +145,10 @@
                 content += "Location: " + location.trim() + "\n";
             }
 
-            let topics = $("#topics").val();
-            if (topics) {
-                content += "Topics:\n"
-                topics.split(",").forEach(function (part) {
-                    content += "  - " + part.trim() + "\n";
-                });
-            }
+            content += "Topics:\n"
+            $("input[name='topics']:checked").each(function (index, topic) {
+                content += "  - " + $(topic).val().trim() + "\n";
+            });
 
             let addedConnect = false;
             for (let c = 1; c < 6; c++) {

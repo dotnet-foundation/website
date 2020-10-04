@@ -31,6 +31,7 @@ namespace DotnetFoundationWeb
             "HoloLens",
             "iOS",
             "IoT",
+            "JavaScript",
             "Machine Learning",
             "macOS",
             "Microsoft 365",

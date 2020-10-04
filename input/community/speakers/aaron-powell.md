@@ -10,7 +10,6 @@ Location: Sydney, Australia
 Topics:
   - .NET
   - JavaScript
-  - Web
 ---
 ## Bio
 Hi, I'm CDA Aaron Powell, you might remember me from such roles as a [Readify](https://readify.net) consultant, organiser of [DDD Sydney](https://www.dddsydney.com.au) or presenting at events.
