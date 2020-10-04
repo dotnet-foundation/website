@@ -34,16 +34,16 @@
                         }
 
                         @{ 
-                            Dictionary<string, SocialLinkAttribute> socialLinks = SocialLinkAttribute.GetAll();
-                            if (Document.ContainsAnyKeys(socialLinks.Keys))
+                            Dictionary<string, SpeakerLinkAttribute> speakerLinks = SpeakerLinkAttribute.GetAll();
+                            if (Document.ContainsAnyKeys(speakerLinks.Keys))
                             {
                                 <div>
                                     <h3>Connect</h3>
-                                    @foreach(KeyValuePair<string, SocialLinkAttribute> socialLink in socialLinks.OrderBy(x => x.Key))
+                                    @foreach(KeyValuePair<string, SpeakerLinkAttribute> speakerLink in speakerLinks.OrderBy(x => x.Key))
                                     {
-                                        if (Document.ContainsKey(socialLink.Key))
+                                        if (Document.ContainsKey(speakerLink.Key))
                                         {
-                                            <div><a href="@Document.GetString(socialLink.Key)"><i class="@socialLink.Value.IconClass"></i> @socialLink.Key</a></div>
+                                            <div><a href="@Document.GetString(speakerLink.Key)"><i class="@speakerLink.Value.IconClass"></i> @speakerLink.Key</a></div>
                                         }
                                     }
                                 </div>

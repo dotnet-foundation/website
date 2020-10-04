@@ -1,14 +1,12 @@
 ﻿using System.Collections.Generic;
-using System.Collections.Immutable;
 using System.Linq;
-using Microsoft.Extensions.Logging;
 using Statiq.Common;
 
 namespace DotnetFoundationWeb
 {
-    public class ValidateSpeakerTopics : SyncAnalyzer
+    public class ValidateSpeakerTopics : SpeakerDataAnalyzer
     {
-        public static HashSet<string> ApprovedTopics = new HashSet<string>
+        public static HashSet<string> Topics = new HashSet<string>
         {
             ".NET",
             "Android",
@@ -63,24 +61,18 @@ namespace DotnetFoundationWeb
             "Xamarin.Forms"
         };
 
-        public override LogLevel LogLevel { get; set; } = LogLevel.Error;
-
-        public override string[] Pipelines => new[] { nameof(Statiq.Web.Pipelines.Content) };
-
-        protected override void Analyze(ImmutableArray<IDocument> documents, IAnalyzerContext context)
+        protected override void AnalyzeSpeakerData(IDocument document, IAnalyzerContext context)
         {
-            foreach (IDocument document in documents.FilterSources("community/speakers/*.md"))
+            IReadOnlyList<string> topics = document.GetList<string>(SiteKeys.Topics);
+            if (topics == null || topics.Count == 0)
             {
-                IReadOnlyList<string> topics = document.GetList<string>(SiteKeys.Topics);
-                if (topics == null || topics.Count == 0)
-                {
-                    context.Add(document, "No topics specified");
-                }
-                string[] nonApprovedTopics = topics.Where(x => !ApprovedTopics.Contains(x)).ToArray();
-                if (nonApprovedTopics.Length > 0)
-                {
-                    context.Add(document, $"Document contains non-approved topic(s): {string.Join(", ", nonApprovedTopics)}");
-                }
+                context.Add(document, "No topics specified");
+                return;
+            }
+            string[] nonApprovedTopics = topics.Where(x => !Topics.Contains(x)).ToArray();
+            if (nonApprovedTopics.Length > 0)
+            {
+                context.Add(document, $"Document contains non-approved topic(s): {string.Join(", ", nonApprovedTopics)}");
             }
         }
     }

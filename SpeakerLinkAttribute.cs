@@ -5,19 +5,19 @@ using System.Reflection;
 
 namespace DotnetFoundationWeb
 {
-    public class SocialLinkAttribute : Attribute
+    public class SpeakerLinkAttribute : Attribute
     {
-        public SocialLinkAttribute(string iconClass)
+        public SpeakerLinkAttribute(string iconClass)
         {
             IconClass = iconClass;
         }
 
         public string IconClass { get; set; }
 
-        public static Dictionary<string, SocialLinkAttribute> GetAll() =>
+        public static Dictionary<string, SpeakerLinkAttribute> GetAll() =>
             typeof(SiteKeys)
                 .GetFields()
-                .Select(x => (x.Name, x.GetCustomAttribute<SocialLinkAttribute>()))
+                .Select(x => (x.Name, x.GetCustomAttribute<SpeakerLinkAttribute>()))
                 .Where(x => x.Item2 is object)
                 .ToDictionary(x => x.Name, x => x.Item2);
     }

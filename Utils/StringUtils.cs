@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using HtmlAgilityPack;
 
-namespace DotnetFoundationWeb.Utils
+namespace DotnetFoundationWeb
 {
     public static class StringUtils
     {

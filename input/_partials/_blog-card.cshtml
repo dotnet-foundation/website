@@ -12,7 +12,7 @@
                 <h3 class="latest_title"><a href="@Context.GetLink(item).Substring(1)" 
                                             title="@item.GetString(WebKeys.Title)">@item.GetString(WebKeys.Title)</a></h3>
                 <p class="latest_copy">
-                    @Html.Raw(DotnetFoundationWeb.Utils.StringUtils.TruncateHtml((await item.GetContentStringAsync()).ToString(), 150))
+                    @Html.Raw(DotnetFoundationWeb.StringUtils.TruncateHtml((await item.GetContentStringAsync()).ToString(), 150))
                 </p>
             </div>
         </div>
