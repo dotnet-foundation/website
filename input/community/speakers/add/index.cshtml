@@ -27,6 +27,12 @@
                     </div>
 
                     <div class="form-group">
+                        <label for="email" class="mb-0 font-weight-bold">Email Address</label>
+                        <small id="email-help" class="form-text text-muted mb-3">An email address is totally optional, but if you provide one it might help organizers get in touch easier.</small>
+                        <input id="email" class="form-control" aria-describedby="email-help">
+                    </div>
+
+                    <div class="form-group">
                         <label for="language" class="mb-0 font-weight-bold">Language</label>
                         <small id="language-help" class="form-text text-muted mb-3">Your primary language.</small>
                         <input id="language" class="form-control" aria-describedby="language-help" value="English">
@@ -139,6 +145,11 @@
             let location = $("#location").val();
             if (location) {
                 content += "Location: " + location.trim() + "\n";
+            }
+
+            let email = $("#email").val();
+            if (email) {
+                content += "Email: " + email.trim() + "\n";
             }
 
             let language = $("#language").val();

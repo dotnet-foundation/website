@@ -8,11 +8,11 @@
             <div class="page-section_column col-12 text-left pt-0">
                 <article class="row">
                     <div class="col-md-3 bg-light p-5">
-                        
+
                         <div class="text-center">
                             <img class="img-responsive contrib-logos mb-4" src="@Document.GetString(SiteKeys.Image)" alt="@Document.GetTitle()" />
-                        </div>                        
-                        
+                        </div>
+
                         @if (Document.ContainsKey(SiteKeys.Location))
                         {
                             <div class="mb-4 font-weight-bold">@Document.GetString(SiteKeys.Location)</div>
@@ -22,35 +22,43 @@
                             <div id="speaker-map" class="mb-4"></div>
                         }
 
-                        @if(Document.ContainsKey(SiteKeys.Topics))
+                        @if (Document.ContainsKey(SiteKeys.Email))
+                        {
+                            <div class="mb-4">
+                                <h3>Email Address</h3>
+                                <div><a href="mailto:@(Document.GetString(SiteKeys.Email))">@(Document.GetString(SiteKeys.Email))</a></div>
+                            </div>
+                        }
+
+                        @if (Document.ContainsKey(SiteKeys.Topics))
                         {
                             <div class="mb-4">
                                 <h3>Topics</h3>
-                                @foreach(string topic in Document.GetList<string>(SiteKeys.Topics))
+                                @foreach (string topic in Document.GetList<string>(SiteKeys.Topics))
                                 {
-                                    <a href="/community/speakers?topic=@topic" class="btn btn-dark">@topic</a>  
+                                    <a href="/community/speakers?topic=@topic" class="btn btn-dark">@topic</a>
                                 }
                             </div>
                         }
 
-                        @if(Document.ContainsKey(SiteKeys.Language))
+                        @if (Document.ContainsKey(SiteKeys.Language))
                         {
                             <div class="mb-4">
                                 <h3>Language(s)</h3>
-                                @foreach(string language in Document.GetList<string>(SiteKeys.Language))
+                                @foreach (string language in Document.GetList<string>(SiteKeys.Language))
                                 {
                                     <div>@language</div>
                                 }
                             </div>
                         }
 
-                        @{ 
+                        @{
                             Dictionary<string, SpeakerLinkAttribute> speakerLinks = SpeakerLinkAttribute.GetAll();
                             if (Document.ContainsAnyKeys(speakerLinks.Keys))
                             {
                                 <div>
                                     <h3>Connect</h3>
-                                    @foreach(KeyValuePair<string, SpeakerLinkAttribute> speakerLink in speakerLinks.OrderBy(x => x.Key))
+                                    @foreach (KeyValuePair<string, SpeakerLinkAttribute> speakerLink in speakerLinks.OrderBy(x => x.Key))
                                     {
                                         if (Document.ContainsKey(speakerLink.Key))
                                         {
