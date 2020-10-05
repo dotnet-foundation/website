@@ -23,11 +23,6 @@ jobs:
         node-version: 12.x
     - run: cd functions && npm install && npm run build
 
-    - name: Copy Project Spotlight JSON Files
-      run: |
-        Copy-Item -Path functions\project-spotlight\*.json -Destination input\api\project-spotlight
-      shell: pwsh
-
     - uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '3.1.x' # SDK Version to use.
