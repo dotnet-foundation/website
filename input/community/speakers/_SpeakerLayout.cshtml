@@ -33,6 +33,17 @@
                             </div>
                         }
 
+                        @if(Document.ContainsKey(SiteKeys.Language))
+                        {
+                            <div class="mb-4">
+                                <h3>Language(s)</h3>
+                                @foreach(string language in Document.GetList<string>(SiteKeys.Language))
+                                {
+                                    <div>@language</div>
+                                }
+                            </div>
+                        }
+
                         @{ 
                             Dictionary<string, SpeakerLinkAttribute> speakerLinks = SpeakerLinkAttribute.GetAll();
                             if (Document.ContainsAnyKeys(speakerLinks.Keys))

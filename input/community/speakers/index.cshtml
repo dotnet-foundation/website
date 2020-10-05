@@ -121,7 +121,7 @@ Title: Speaker Directory
         var filterButton = $('.filter[data-filter="' + topic + '"]');
         
         if(filterButton.hasClass('active')) {
-            $('.filter').removeClass('active');
+            filterButton.removeClass('active');
         } else {
             filterButton.addClass('active');
         }
@@ -131,7 +131,13 @@ Title: Speaker Directory
             if (item.values().speakertopics.indexOf('|') > 0) {
                 itemTopics = item.values().speakertopics.split('|');
             }
-            // TODO: Check if itemTopics contains ALL buttons with an active class
+            var include = true;
+            $('.filter.active').each(function (index, filter) {
+                if (!itemTopics.includes($(filter).data('filter'))) {
+                    include = false;
+                }
+            });
+            return include;
         });
     }
 

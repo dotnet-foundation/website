@@ -38,6 +38,8 @@
         public const string Email = nameof(Email);
         public const string Image = nameof(Image);  // Uses social profile image by default, but can be explicitly provided
         public const string Language = nameof(Language);
+        public const string Mentor = nameof(Mentor);
+        public const string Mentee = nameof(Mentee);
 
         // Resources
         public const string Type = nameof(Type);
