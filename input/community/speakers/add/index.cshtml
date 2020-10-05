@@ -33,8 +33,8 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="language" class="mb-0 font-weight-bold">Language</label>
-                        <small id="language-help" class="form-text text-muted mb-3">Your primary language.</small>
+                        <label for="language" class="mb-0 font-weight-bold">Language(s)</label>
+                        <small id="language-help" class="form-text text-muted mb-3">The language(s) you are able to deliver your presentations in (separate multiple languages with a comma).</small>
                         <input id="language" class="form-control" aria-describedby="language-help" value="English">
                     </div>
 
@@ -154,7 +154,10 @@
 
             let language = $("#language").val();
             if (language) {
-                content += "Language: " + language.trim() + "\n";
+                content += "Language:\n"
+                language.split(",").forEach(function (part) {
+                    content += "  - " + part.trim() + "\n";
+                });
             }
 
             content += "Topics:\n"
