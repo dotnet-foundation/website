@@ -57,6 +57,7 @@ namespace DotnetFoundationWeb
                         new ExecuteSources("community/speakers/*.md")
                         {
                             new GeocodeLocations(Config.FromSetting(SiteKeys.AzureMapsSubscriptionKey)),
+                            new GetBlogFeeds(),
                             new SpeakerImage()
                         }
                     ))

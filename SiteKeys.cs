@@ -40,6 +40,7 @@
         public const string Language = nameof(Language);
         public const string Mentor = nameof(Mentor);
         public const string Mentee = nameof(Mentee);
+        public const string BlogFeedItems = nameof(BlogFeedItems);
 
         // Resources
         public const string Type = nameof(Type);
