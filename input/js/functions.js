@@ -16,7 +16,7 @@ function loadOpenIssues(orgs, repos, showEmptyCard, repoName) {
     success: function (repos) {
       if (repos.length == 0) {
         if (showEmptyCard) {
-          html += `  <div class="card bg-foundation">
+          html += `  <div class="card card--features bg-foundation">
         <h3>Help Wanted</h3>
         <div class="card-body">
         <p class="card-text">
@@ -38,7 +38,7 @@ function loadOpenIssues(orgs, repos, showEmptyCard, repoName) {
         }
       } else {
         repos.forEach((repo) => {
-          html += `  <div class="card bg-foundation">
+          html += `  <div class="card card--features bg-foundation">
           <div class="card-body">`;
 
           if (repoName != undefined)
@@ -68,7 +68,7 @@ function loadOpenIssues(orgs, repos, showEmptyCard, repoName) {
     },
     error: function (jqXHR, textStatus, errorThrown) {
       if (showEmptyCard) {
-        html += `  <div class="card bg-foundation">
+        html += `  <div class="card card--features bg-foundation">
       <h3>Help Wanted</h3>
       <div class="card-body">
       <p class="card-text">
