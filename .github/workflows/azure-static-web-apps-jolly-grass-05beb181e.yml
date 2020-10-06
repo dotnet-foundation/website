@@ -28,6 +28,8 @@ jobs:
         dotnet-version: '3.1.x' # SDK Version to use.
     - name: Build
       run: dotnet run --configuration Release
+      env:
+        AzureMapsSubscriptionKey: ${{ secrets.AzureMapsSubscriptionKey }}
 
     - name: Build And Deploy
       if: github.event.pull_request.head.repo.fork != true
