@@ -2,22 +2,22 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  @if (string.IsNullOrEmpty(Model.GetString("Title")))
+  @if (string.IsNullOrEmpty(Model.GetString(WebKeys.Title)))
       {
          <title>@DotnetFoundationWeb.AppSettings.Title</title>
       }
   else
       {
-        <title>@Model.GetString("Title")</title>
+        <title>@Model.GetString(WebKeys.Title)</title>
       }
   
-  @if (string.IsNullOrEmpty(Model.GetString("Description")))
+  @if (string.IsNullOrEmpty(Model.GetString(WebKeys.Description)))
       {
         <meta name="description" content="@DotnetFoundationWeb.AppSettings.Description">
       }
   else
       {
-        <meta name="description" content="@Model.GetString("Description")">
+        <meta name="description" content="@Model.GetString(WebKeys.Description)">
       }
 
   @Html.Partial("_partials/_favicons")

@@ -3,29 +3,29 @@
 @foreach (IDocument member in Model)
 {
     <div class="col-sm-6 col-md-3 profile">
-        @if (!string.IsNullOrEmpty(member.GetString("image")))
+        @if (!string.IsNullOrEmpty(member.GetString(SiteKeys.Image)))
         {
-            <img class="rounded-image profile-image" width="120" height="120" alt="@member.GetString("title")"
-                 src="assets/members/@member.GetString("image")">
+            <img class="rounded-image profile-image" width="120" height="120" alt="@member.GetString(WebKeys.Title)"
+                 src="assets/members/@member.GetString(SiteKeys.Image)">
         }
         else
         {
-            <img class="rounded-image profile-image" width="120" height="120" alt="@member.GetString("title")"
+            <img class="rounded-image profile-image" width="120" height="120" alt="@member.GetString(WebKeys.Title)"
                  src="img/dot_bot.png">
         }
 
-        <h3 class="profile-name">@member.GetString("title")</h3>
+        <h3 class="profile-name">@member.GetString(WebKeys.Title)</h3>
 
         <div class="profile-intro">
             @Html.Raw(await member.GetContentStringAsync())
         </div>
 
-        @if (!string.IsNullOrEmpty(member.GetString("twitter")))
+        @if (!string.IsNullOrEmpty(member.GetString(SiteKeys.Twitter)))
         {
             <span>
-                <a href="https://twitter.com/@member.GetString("twitter")">
+                <a href="https://twitter.com/@member.GetString(SiteKeys.Twitter)">
                     <i class="fab fa-twitter" aria-hidden="true"></i>
-                    @@@member.GetString("twitter")
+                    @@@member.GetString(SiteKeys.Twitter)
                 </a>
             </span>
         }

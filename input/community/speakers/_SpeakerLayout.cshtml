@@ -1,0 +1,111 @@
+@{
+    Layout = @"_Layout.cshtml";
+}
+
+<section class="page-section">
+    <div class="page-section_container container pt-0">
+        <div class="page-section_row row h-100">
+            <div class="page-section_column col-12 text-left pt-0">
+                <article class="row">
+                    <div class="col-md-3 bg-light p-5">
+
+                        <div class="text-center">
+                            <img class="img-responsive contrib-logos mb-4" src="@Document.GetString(SiteKeys.Image)" alt="@Document.GetTitle()" />
+                        </div>
+
+                        @if (Document.ContainsKey(SiteKeys.Location))
+                        {
+                            <div class="mb-4 font-weight-bold">@Document.GetString(SiteKeys.Location)</div>
+                        }
+                        @if (Document.ContainsKeys(SiteKeys.Lat, SiteKeys.Lon) && Context.ContainsKey(SiteKeys.AzureMapsSubscriptionKey))
+                        {
+                            <div id="speaker-map" class="mb-4"></div>
+                        }
+
+                        @if (Document.ContainsKey(SiteKeys.Email))
+                        {
+                            <div class="mb-4">
+                                <h3>Email Address</h3>
+                                <div><a href="mailto:@(Document.GetString(SiteKeys.Email))">@(Document.GetString(SiteKeys.Email))</a></div>
+                            </div>
+                        }
+
+                        @if (Document.ContainsKey(SiteKeys.Topics))
+                        {
+                            <div class="mb-4">
+                                <h3>Topics</h3>
+                                @foreach (string topic in Document.GetList<string>(SiteKeys.Topics))
+                                {
+                                    <a href="/community/speakers?topic=@topic" class="btn btn-dark">@topic</a>
+                                }
+                            </div>
+                        }
+
+                        @if (Document.ContainsKey(SiteKeys.Language))
+                        {
+                            <div class="mb-4">
+                                <h3>Language(s)</h3>
+                                @foreach (string language in Document.GetList<string>(SiteKeys.Language))
+                                {
+                                    <div>@language</div>
+                                }
+                            </div>
+                        }
+
+                        @{
+                            Dictionary<string, SpeakerLinkAttribute> speakerLinks = SpeakerLinkAttribute.GetAll();
+                            if (Document.ContainsAnyKeys(speakerLinks.Keys))
+                            {
+                                <div>
+                                    <h3>Connect</h3>
+                                    @foreach (KeyValuePair<string, SpeakerLinkAttribute> speakerLink in speakerLinks.OrderBy(x => x.Key))
+                                    {
+                                        if (Document.ContainsKey(speakerLink.Key))
+                                        {
+                                            <div><a href="@Document.GetString(speakerLink.Key)"><i class="@speakerLink.Value.IconClass"></i> @speakerLink.Key</a></div>
+                                        }
+                                    }
+                                </div>
+                            }
+                        }
+                    </div>
+                    <div class="col-md-9 p-5">
+                        <h1>@Document.GetTitle()</h1>
+                        @RenderBody()
+
+                        @if (Document.ContainsKey(SiteKeys.BlogFeedItems))
+                        {
+                            <hr/>
+                            <h2>Recent Blog Posts</h2>
+                            @foreach(BlogFeedItem feedItem in Document.GetList<BlogFeedItem>(SiteKeys.BlogFeedItems).Take(10))
+                            {
+                                <h4 class="mb-0"><a href="@feedItem.Link">@feedItem.Title</a></h4>
+                                <div class="mb-4">@feedItem.Published.ToString("F")</div>
+                            }
+                        }
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+@if(Document.ContainsKeys(SiteKeys.Lat, SiteKeys.Lon) && Context.ContainsKey(SiteKeys.AzureMapsSubscriptionKey))
+{
+    <script>
+        $(document).ready(function() {
+            var map = new atlas.Map('speaker-map', {
+                center: [@Document.GetString(SiteKeys.Lon), @Document.GetString(SiteKeys.Lat)],
+                zoom: 1,
+                language: 'en-US',
+                authOptions: {
+                    authType: 'subscriptionKey',
+                    subscriptionKey: '@Context.GetString(SiteKeys.AzureMapsSubscriptionKey)'
+                }});
+            map.markers.add(new atlas.HtmlMarker({
+                color: 'DodgerBlue',
+                position: [@Document.GetString(SiteKeys.Lon), @Document.GetString(SiteKeys.Lat)]
+            }));
+        });
+    </script>
+}

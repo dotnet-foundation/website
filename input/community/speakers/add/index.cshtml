@@ -1,0 +1,211 @@
+﻿Title: Add To Speaker Directory
+---
+@{
+    Layout = @"../_Layout.cshtml";
+}
+
+<section class="page-section">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="col-12">
+                <h1>Add Yourself To The Speaker Directory</h1>
+                <p>
+                    This form will create the appropriate file as a pull request in the .NET Foundation web site. You'll just need to submit the pull request once you've reviewed it.
+                    Alternatively, <a href="https://github.com/dotnet-foundation/website/new/master/input/community/speakers">you can submit a pull request directly</a>.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <label for="fullname" class="mb-0 font-weight-bold">Full Name</label>
+                        <small id="fullname-help" class="form-text text-muted mb-3">Your full name.</small>
+                        <input id="fullname" class="form-control" aria-describedby="fullname-help">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="location" class="mb-0 font-weight-bold">Location</label>
+                        <small id="location-help" class="form-text text-muted mb-3">Your location in plain language (for example, "Seattle, Washington USA").</small>
+                        <input id="location" class="form-control" aria-describedby="location-help">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="mb-0 font-weight-bold">Email Address</label>
+                        <small id="email-help" class="form-text text-muted mb-3">An email address is totally optional, but if you provide one it might help organizers get in touch easier.</small>
+                        <input id="email" class="form-control" aria-describedby="email-help">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="language" class="mb-0 font-weight-bold">Language(s)</label>
+                        <small id="language-help" class="form-text text-muted mb-3">The language(s) you are able to deliver your presentations in (separate multiple languages with a comma).</small>
+                        <input id="language" class="form-control" aria-describedby="language-help" value="English">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="topics" class="mb-0 font-weight-bold">Topics</label>
+                        <small id="topics-help" class="form-text text-muted mb-3">Check one or more topic you're interested in speaking about.</small>
+                        <div class="row">
+                            @foreach (string topic in ValidateSpeakerTopics.Topics)
+                            {
+                                <div class="col-lg-3 col-md-4">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" value="@topic" name="topics" aria-describedby="topics-help">
+                                        <label class="form-check-label" for="topics">
+                                            @topic
+                                        </label>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label class="font-weight-bold">Links</label>
+                                <small class="form-text text-muted">Use a full URL.</small>
+                            </div>
+                            <div class="col">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <input id="blog" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label class="font-weight-bold" for="blog">Blog</label>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <input id="feed" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label class="font-weight-bold" for="feed">Blog RSS Feed</label>
+                            </div>
+                        </div>
+                        @foreach (string speakerLinkKey in SpeakerLinkAttribute.GetAll().Keys)
+                        {
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <input id="@speakerLinkKey.ToLower()" class="form-control">
+                                </div>
+                                <div class="col">
+                                    <label class="font-weight-bold" for="@speakerLinkKey.ToLower()">@speakerLinkKey</label>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mentoring" class="mb-0 font-weight-bold">Mentoring</label>
+                        <small id="mentoring-help" class="form-text text-muted mb-3">Let us know if you're interesting in being a mentor to new speakers or if you're interesting in finding a mentor.</small>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="mentor" id="mentor" aria-describedby="mentoring-help">
+                                    <label class="form-check-label" for="topics">I Can Mentor</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="mentee" id="mentee" aria-describedby="mentoring-help">
+                                    <label class="form-check-label" for="topics">I'd Like A Mentor</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="profile" class="mb-0 font-weight-bold">Profile</label>
+                        <small id="profile-help" class="form-text text-muted mb-3">
+                            Add a profile that describes why you'd make an awesome speaker (Markdown allowed).
+                        </small>
+                        <textarea rows="20" id="profile" class="form-control" aria-describedby="profile-help"></textarea>
+                    </div>
+
+                    <div>
+                        <button class="btn btn-lg btn-primary" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $(document).ready(function () {
+        $("form").submit(function (event) {
+            event.preventDefault();
+
+            let fullname = $("#fullname").val();
+            if (!fullname) {
+                // TODO: Some sort of validation would probably be nice
+                return;
+            }
+            let content = "Title: " + fullname.trim() + "\n";
+
+            let location = $("#location").val();
+            if (location) {
+                content += "Location: " + location.trim() + "\n";
+            }
+
+            let email = $("#email").val();
+            if (email) {
+                content += "Email: " + email.trim() + "\n";
+            }
+
+            let language = $("#language").val();
+            if (language) {
+                content += "Language:\n"
+                language.split(",").forEach(function (part) {
+                    content += "  - " + part.trim() + "\n";
+                });
+            }
+
+            content += "Topics:\n"
+            $("input[name='topics']:checked").each(function (index, topic) {
+                content += "  - " + $(topic).val().trim() + "\n";
+            });
+
+            let blog = $("#blog").val();
+            if (blog) {
+                content += "Blog: " + blog.trim() + "\n";
+            }
+
+            let feed = $("#feed").val();
+            if (feed) {
+                content += "Feed: " + feed.trim() + "\n";
+            }
+
+            @foreach (string speakerLinkKey in SpeakerLinkAttribute.GetAll().Keys)
+            {
+                <text>
+                    let @(speakerLinkKey.ToLower()) = $("#@(speakerLinkKey.ToLower())").val();
+                    if (@(speakerLinkKey.ToLower())) {
+                        content += "@(speakerLinkKey): " + @(speakerLinkKey.ToLower()).trim() + "\n";
+                    }
+                </text>
+            }
+
+            let mentor = $("#mentor");
+            if (mentor.prop("checked") == true) {
+                content += "Mentor: true\n";
+            }
+
+            let mentee = $("#mentee");
+            if (mentee.prop("checked") == true) {
+                content += "Mentee: true\n";
+            }
+
+            content += "---\n";
+
+            let profile = $("#profile").val();
+            content += profile;
+            content += "\n";
+
+            if (content.length > 0) {
+                content = encodeURIComponent(content);
+                let filename = fullname.toLowerCase().replace(/[\W_]+/g, "-") + ".md";
+                window.location.href = "https://github.com/dotnet-foundation/website/new/master/input/community/speakers/" + filename + "?filename=" + filename + "&value=" + content;
+            }
+        });
+    });
+</script>

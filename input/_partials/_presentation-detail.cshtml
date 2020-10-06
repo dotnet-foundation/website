@@ -2,19 +2,19 @@
 
 @foreach (IDocument presentation in Model)
 {
-    <h3 id="@presentation.GetString("id")">
-        @if (!String.IsNullOrEmpty(presentation.GetString("link")))
+    <h3 id="@presentation.GetString(SiteKeys.Id)">
+        @if (!String.IsNullOrEmpty(presentation.GetString(SiteKeys.Link)))
         {
-            <a href="@presentation.GetString("link")">@presentation.GetString("title")</a>
+            <a href="@presentation.GetString(SiteKeys.Link)">@presentation.GetString(WebKeys.Title)</a>
         }
         else
         {
-            @presentation.GetString("title")
+            @presentation.GetString(WebKeys.Title)
         }
-        @if (!String.IsNullOrEmpty(presentation.GetString("repo")))
+        @if (!String.IsNullOrEmpty(presentation.GetString(SiteKeys.Repo)))
         {
             
-            <img src="https://img.shields.io/github/last-commit/@(presentation.GetString("repo")).svg?style=flat" alt="@presentation.GetString("title")">
+            <img src="https://img.shields.io/github/last-commit/@(presentation.GetString(SiteKeys.Repo)).svg?style=flat" alt="@presentation.GetString(WebKeys.Title)">
         }
         @* <a class="anchorjs-link " href="#aspnet-core-for-beginners-" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons;
             padding-left: 0.375em;"></a> *@
