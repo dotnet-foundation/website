@@ -1,0 +1,56 @@
+{
+    "projectName": "DNN Platform (Formerly DotNetNuke)",
+    "imageFileName": "dnn-platform.jpg",
+    "gitHubOrg": "dnnsoftware",
+    "gitHubRepoName": "Dnn.Platform",
+    "transcriptFileName": "dotnetnuke-transcript.txt",
+    "publishDate": "2020-09-01",
+    "projectOwners": [
+      {
+        "name": "Mitchel Sellers",
+        "url": "https://github.com/mitchelsellers"
+      },
+      {
+        "name": "David Poindexter",
+        "url": "https://github.com/david-poindexter"
+      },
+      {
+        "name": "Will Strohl",
+        "url": "https://github.com/hismightiness"
+      },
+      {
+        "name": "Peter Donker",
+        "url": "https://github.com/donker"
+      }
+    ],
+    
+    "youtubeUrl": "https://www.youtube.com/embed/4WB73n4z0c0",
+    "projectDescription": "The DNN Platform is a Content Management System (CMS) based on Microsoft's .NET Framework.\nJust like other CMSs such as Wordpress, Joomla or Drupal, it allows users to create and manage\nonline content. And just like those other CMSs you can extend the application with custom\naddons to suit your needs. Unlike most other CMSs, however, it is built on .NET,\nmeaning it is built on a solid foundation created by the world's most successful tech company.\nMicrosoft invests heavily to ensure this is the most powerful and secure backbone for web-based\napplications. To date, DNN is the most succesful open source CMS built on this enterprise-grade infrastructure.\n",
+    "contributors": [
+      {
+        "name": "Andrew Hoefling",
+        "url": "https://github.com/ahoefling"
+      },
+      {
+        "name": "Cody",
+        "url": "https://github.com/thabaum"
+      },
+      {
+        "name": "Sebastian Leupold",
+        "url": "https://github.com/sleupold"
+      },
+      {
+        "name": "Ernst Peter Tamminga",
+        "url": "https://github.com/EPTamminga"
+      },
+      {
+        "name": "Bogdan - Litescu",
+        "url": "https://github.com/bogdan-litescu"
+      }
+    ],
+    "githubRepo": "https://github.com/dnnsoftware/Dnn.Platform",
+    "projectWebsite": "https://dnncommunity.org/",
+    "communityUrl": "https://dnncommunity.org/",
+    "documentationUrl": "https://dnndocs.com/",
+    "contributionUrl": "https://github.com/dnnsoftware/Dnn.Platform/blob/develop/CONTRIBUTING.md?rgh-link-date=2020-09-28T20%3A06%3A35Z"
+  }
