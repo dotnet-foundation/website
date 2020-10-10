@@ -39,6 +39,17 @@ We're also planning our next .NET Conf: "Focus" event, where we continue focusin
 
 ## .NET Foundation Project Updates
 
+### DotVVM: Join us at .NET Conf Local Event on November 11
+The DotVVM team hosts a live-streamed event called [DotVVM ❤ .NET Conf 2020](https://www.meetup.com/dotvvm/events/273801727/) on November 11th 2:00 PM UTC. 
+
+You'll see new features we've added to DotVVM, and we'll share our future plans:
+* Support of .NET 5
+* How easy it is to "Add DotVVM" into your legacy ASP.NET apps
+* What's new in DotVVM 2.5
+* Roadmap for DotVVM 3.0 - JS modules & client-side extensibility, validation improvements, web components and more!
+
+[Register here!](https://www.meetup.com/dotvvm/events/273801727/) 
+
 ## New Projects
 
 The .NET Foundation would like to welcome the following projects that joined in September and October!
