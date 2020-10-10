@@ -28,8 +28,8 @@ permalink: about/election
                             Outputs
                                 .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                                 .FilterSources("about/election/nomination-committee-2020/*.md")
-                                .OrderBy(candidate => candidate.GetInt("order"))
-                                .ThenBy(candidate => candidate.GetString("title"))
+                                .OrderBy(candidate => candidate.GetInt(Keys.Order))
+                                .ThenBy(candidate => candidate.GetString(WebKeys.Title))
                         )
                     </div>
                 </p>

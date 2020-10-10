@@ -39,6 +39,17 @@ We're also planning our next .NET Conf: "Focus" event, where we continue focusin
 
 ## .NET Foundation Project Updates
 
+### DotVVM: Join us at .NET Conf Local Event on November 11
+The DotVVM team hosts a live-streamed event called [DotVVM ❤ .NET Conf 2020](https://www.meetup.com/dotvvm/events/273801727/) on November 11th 2:00 PM UTC. 
+
+You'll see new features we've added to DotVVM, and we'll share our future plans:
+* Support of .NET 5
+* How easy it is to "Add DotVVM" into your legacy ASP.NET apps
+* What's new in DotVVM 2.5
+* Roadmap for DotVVM 3.0 - JS modules & client-side extensibility, validation improvements, web components and more!
+
+[Register here!](https://www.meetup.com/dotvvm/events/273801727/) 
+
 ## New Projects
 
 The .NET Foundation would like to welcome the following projects that joined in September and October!
@@ -46,6 +57,9 @@ The .NET Foundation would like to welcome the following projects that joined in 
 |  |  |
 | ------------------- |--------------------|
 | <img width="750px" src="https://user-images.githubusercontent.com/1334951/94056115-b9a6f280-fd92-11ea-972e-9f4c283d0fbc.png" width="750px"> | **nanoFramework**  .NET nanoFramework goal is to be a platform that enables the writing of managed code applications for constrained embedded devices. Developers can harness the familiar IDE Visual Studio and their .NET (C#) knowledge to quickly write applications without having to worry about the low level hardware intricacies of a micro-controller.|
+| <img width="750px" src="https://user-images.githubusercontent.com/1334951/94462641-afa93900-0170-11eb-96df-0d237c5f1675.png" width="750px"> | **Xamarin Community Toolkit** is a collection of common elements for mobile development with Xamarin.Forms that people tend to replicate across multiple apps. It simplifies and demonstrates common developer tasks when building apps with Xamarin.Forms.|
+| <img width="750px" src="https://user-images.githubusercontent.com/1334951/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" width="750px"> | **Esquio** is a Feature Toggles (aka Feature Flags) and A/B testing framework for .NET Core 3.0. Feature Toogle is a powerful technique that allows developers to deliver new functionality to users withouth changing code. Provides an alternative to to mantain multiples branches (aka feature branches), so any feature can be tested even before it is completed and ready for the release. We can release a version of our product with not production ready features. These non production ready features are hidden (toggled) for the broader set of users but can be enabled to any subset of testing or internal users we want them to try the features.We can use feature toogling to enable or disable features during run time.|
+| <img width="750px" src="https://user-images.githubusercontent.com/1334951/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" width="750px"> | **DataGrid Extensions** provides modular extensions for the WPF DataGrid control, like column filtering, Excel like copy/paste and more.  Unlike many other free extensions this package does not introduce a new derived `DataGrid` class, limiting you a fixed set of features that you have to live with, but transparently attaches to the existing `DataGrid`, giving you the freedom to use exactly the feature you need, customizing them as you like, and combining them with other useful extensions.|
 
 ## New Releases
 

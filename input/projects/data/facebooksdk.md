@@ -3,6 +3,7 @@ Title: Facebook C# SDK
 Contributor: Outercurve
 Logo: outercurve.png
 Web: http://facebooksdk.net/
+IsActive: false
 ---
 # Facebook C# SDK
 

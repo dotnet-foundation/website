@@ -3,6 +3,7 @@ Title: Microsoft Web Protection Library
 Contributor: Microsoft
 Logo: microsoft.jpg
 Web: http://www.microsoft.com
+IsActive: false
 ---
 # Microsoft Web Protection Library
 

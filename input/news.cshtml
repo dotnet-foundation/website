@@ -33,7 +33,7 @@ permalink: /news
               @Html.Partial("_partials/_blog-card.cshtml", Outputs
                   .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                   .FilterSources("blog/posts/*")
-                  .OrderByDescending(doc => doc.GetDateTime("Published"))
+                  .OrderByDescending(doc => doc.GetDateTime(WebKeys.Published))
                   .Take(5))
             </div>
             <div class="media-list" id="rss-feeds">

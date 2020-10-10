@@ -165,7 +165,7 @@ isHome: true
                 @Html.Partial("_partials/_blog-card.cshtml", Outputs
                         .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                         .FilterSources("blog/posts/*")
-                        .OrderByDescending(doc => doc.GetDateTime("Published"))
+                        .OrderByDescending(doc => doc.GetDateTime(WebKeys.Published))
                         .Take(5))
                 <p class="">
                     <a class="link_title" href="news">Get more news</a>
@@ -184,7 +184,7 @@ isHome: true
                     @Html.Partial("_partials/_corporate-sponsor-logo-card.cshtml", Outputs
                       .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
                       .FilterSources("corporate-sponsors/*.md")
-                      .OrderBy(sponsor => sponsor.GetInt("order"))
+                      .OrderBy(sponsor => sponsor.GetInt(Keys.Order))
                       )
                 </div>
             </div>

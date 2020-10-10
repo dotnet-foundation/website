@@ -3,6 +3,7 @@ Title: CodeContracts
 Contributor: Microsoft
 Logo: dotnet-platform.png
 Web: https://github.com/microsoft/codecontracts
+IsActive: false
 ---
 # CodeContracts
 

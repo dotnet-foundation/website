@@ -4,18 +4,18 @@
 {
     <article class="card">
         <header class="card__title">
-            <h3>@candidate.GetString("title")</h3>
+            <h3>@candidate.GetString(WebKeys.Title)</h3>
         </header>
         <figure class="card__thumbnail">
-            @if (!String.IsNullOrEmpty(candidate.GetString("image")))
+            @if (!String.IsNullOrEmpty(candidate.GetString(SiteKeys.Image)))
             {
-                if (candidate.GetString("image").StartsWith("http"))
+                if (candidate.GetString(SiteKeys.Image).StartsWith("http"))
                 {
-                    <img src="@candidate.GetString("image")" alt="@candidate.GetString("title")"/>
+                    <img src="@candidate.GetString(SiteKeys.Image)" alt="@candidate.GetString(WebKeys.Title)"/>
                 }
                 else
                 {
-                    <img src="assets/members/@candidate.GetString("image")" alt="@candidate.GetString("title")"/>
+                    <img src="assets/members/@candidate.GetString(SiteKeys.Image)" alt="@candidate.GetString(WebKeys.Title)"/>
                 }
             }
             else
@@ -23,12 +23,12 @@
                 <img src="img/dot_bot.png" alt="Default Dot Bot Image"/>
             }
 
-            @if (!string.IsNullOrEmpty(candidate.GetString("twitter")))
+            @if (!string.IsNullOrEmpty(candidate.GetString(SiteKeys.Twitter)))
         {
             <figcaption>
-                <a href="https://twitter.com/@candidate.GetString("twitter")">
+                <a href="https://twitter.com/@candidate.GetString(SiteKeys.Twitter)">
                     <i class="fab fa-twitter" aria-hidden="true"></i>
-                    @@@candidate.GetString("twitter")
+                    @@@candidate.GetString(SiteKeys.Twitter)
                 </a>
             </figcaption>
         }

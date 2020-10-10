@@ -3,6 +3,7 @@ Title: Windows Phone Toolkit
 Contributor: Microsoft
 Logo: microsoft.jpg
 Web: http://www.microsoft.com
+IsActive: false
 ---
 # Windows Phone Toolkit
 

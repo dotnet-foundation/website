@@ -4,10 +4,10 @@
 {
     <div class="corporate-sponsor-card">
         <figure class="corporate-sponsor-card__thumbnail">
-            @if (!String.IsNullOrEmpty(sponsor.GetString("logo")))
+            @if (!String.IsNullOrEmpty(sponsor.GetString(SiteKeys.Logo)))
             {
-                <a href="@sponsor.GetString("url")" target="_blank">
-                    <img src="@sponsor.GetString("logo")" alt="@sponsor.GetString("name")" />
+                <a href="@sponsor.GetString(SiteKeys.Url)" target="_blank">
+                    <img src="@sponsor.GetString(SiteKeys.Logo)" alt="@sponsor.GetString(SiteKeys.Name)" />
                 </a>
             }
             else

@@ -3,6 +3,7 @@ Title: ChronoZoom
 Contributor: Outercurve Foundation
 Logo: outercurve.png
 Web: http://www.chronozoom.com
+IsActive: false
 ---
 # ChronoZoom
 [ChronoZoom](http://www.chronozoom.com) is an interactive timeline for all of history.  Explore all of the past - from the Big Bang, to the dinosaurs, to ancient and modern history.

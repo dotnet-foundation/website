@@ -3,48 +3,48 @@
 @foreach (IDocument member in Model)
 {
     <div class="col-sm-6 col-md-4 profile">
-        @if (!string.IsNullOrEmpty(member.GetString("image")))
+        @if (!string.IsNullOrEmpty(member.GetString(SiteKeys.Image)))
         {
-            <img height="120" class="rounded-image profile-image" alt="@member.GetString("title")" src="assets/members/@member.GetString("image")">
+            <img height="120" class="rounded-image profile-image" alt="@member.GetString(WebKeys.Title)" src="assets/members/@member.GetString(SiteKeys.Image)">
         }
         else
         {
-            <img height="120" class="rounded-image profile-image" alt="@member.GetString("title")" src="img/dot_bot.png">
+            <img height="120" class="rounded-image profile-image" alt="@member.GetString(WebKeys.Title)" src="img/dot_bot.png">
         }
 
-        @if(member.GetBool("advisor"))
+        @if(member.GetBool(SiteKeys.Advisor))
         {
-          <h3 class="profile-name">@member.GetString("title")</h3>
+          <h3 class="profile-name">@member.GetString(WebKeys.Title)</h3>
         } else
         {
-          <h3 class="profile-name"><a href="@Context.GetLink(member).Substring(1)">@member.GetString("title")</a></h3>
+          <h3 class="profile-name"><a href="@Context.GetLink(member).Substring(1)">@member.GetString(WebKeys.Title)</a></h3>
         }
 
         <div class="profile-details">
-            @if(!string.IsNullOrWhiteSpace(member.GetString("company"))) {
-              <p class="profile-company">@Html.Raw(member.GetString("company"))</p>
+            @if(!string.IsNullOrWhiteSpace(member.GetString(SiteKeys.Company))) {
+              <p class="profile-company">@Html.Raw(member.GetString(SiteKeys.Company))</p>
             }
-            @if(!string.IsNullOrWhiteSpace(member.GetString("location"))) {
-              <p class="profile-location">@Html.Raw(member.GetString("location"))</p>
+            @if(!string.IsNullOrWhiteSpace(member.GetString(SiteKeys.Location))) {
+              <p class="profile-location">@Html.Raw(member.GetString(SiteKeys.Location))</p>
             }
         </div>
 
-        @if(!string.IsNullOrWhiteSpace(member.GetString("intro"))) {
-          <p class="profile-intro">@Html.Raw(member.GetString("intro"))</p>
+        @if(!string.IsNullOrWhiteSpace(member.GetString(SiteKeys.Intro))) {
+          <p class="profile-intro">@Html.Raw(member.GetString(SiteKeys.Intro))</p>
         }
         
         <div class="profile-intro">
-          @if(member.GetBool("advisor")) {
+          @if(member.GetBool(SiteKeys.Advisor)) {
             @Html.Raw(await member.GetContentStringAsync())
           }
         </div>
 
-        @if (!string.IsNullOrEmpty(member.GetString("twitter")))
+        @if (!string.IsNullOrEmpty(member.GetString(SiteKeys.Twitter)))
         {
             <span>
-                <a href="https://twitter.com/@member.GetString("twitter")">
+                <a href="https://twitter.com/@member.GetString(SiteKeys.Twitter)">
                     <i class="fab fa-twitter" aria-hidden="true"></i>
-                    @@@member.GetString("twitter")
+                    @@@member.GetString(SiteKeys.Twitter)
                 </a>
             </span>
         }

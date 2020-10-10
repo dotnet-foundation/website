@@ -1,0 +1,233 @@
+Title: Speaker Directory
+---
+@{
+    Layout = @"_Layout.cshtml";
+}
+
+@section head {
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js" data-no-mirror></script>
+}
+
+<section class="page-section" id="speakers">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="col-12">
+                <div class="alert alert-dark" role="alert">
+                    <h4 class="alert-heading">Get Listed!</h4>
+                    <p>
+                        Whether you're just starting out and looking for your first speaking engagement or you're a seasoned veteran with years of experience,
+                        add your name to the list and help us connect speakers with user group hosts, conference organizers, and others looking for people to share their knowledge.
+                    </p>
+                    <a href="/community/speakers/add" class="btn btn-dark btn-lg">Add Yourself</a>
+                </div>
+                <div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">Search</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="search form-control-plaintext border" placeholder="Search names, locations, and topics">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">Sort</label>
+                        <div class="col-sm-10">
+                            <button class="sort btn btn-primary" data-sort="speakername">Name</button>
+                            <button class="sort btn btn-primary" data-sort="speakerlocation">Location</button>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">Filter By Topic</label>
+                        <div class="col-sm-10" id="topic-filters">
+                            @foreach (string topic in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>(SiteKeys.Topics)).Distinct().OrderBy(x => x))
+                            {
+                                <a class="filter btn btn-light mb-2" href="javascript:void(0)" data-filter="@topic">@topic</a>
+                            }
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 col-form-label">Filter By Language</label>
+                        <div class="col-sm-10" id="language-filters">
+                            @foreach (string language in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>(SiteKeys.Language)).Distinct().OrderBy(x => x))
+                            {
+                                <a class="filter btn btn-light mb-2" href="javascript:void(0)" data-filter="@language">@language</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav nav-tabs mb-4" id="tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="list-tab" data-toggle="tab" href="#tab-list" role="tab" aria-controls="list" aria-selected="true">List</a>
+                    </li>
+                    @if (Context.ContainsKey(SiteKeys.AzureMapsSubscriptionKey))
+                    {
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="map-tab" data-toggle="tab" href="#tab-map" role="tab" aria-controls="map" aria-selected="false">Map</a>
+                        </li>
+                    }
+                </ul>
+                <div class="tab-content" id="tab-content">
+                    <div class="tab-pane" id="tab-list" role="tabpanel" aria-labelledby="list-tab">
+                        <div class="row list">
+                            @foreach (IDocument speaker in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)))
+                            {
+                            <div class="col-sm-6 col-md-4 profile list__item">
+                                <img img height="120" class="rounded-image profile-image" src="@speaker.GetString(SiteKeys.Image)" alt="@speaker.GetTitle()" />
+
+                                <h3 class="profile-name"><a href="@Context.GetLink(speaker)" class="speakername">@speaker.GetTitle()</a></h3>
+                                <div class="d-none speakerlink">@Context.GetLink(speaker)</div>
+
+                                @if (speaker.ContainsKey(SiteKeys.Location))
+                                {
+                                    <div class="profile-details font-weight-bold speakerlocation">@speaker.GetString(SiteKeys.Location)</div>
+                                }
+                                @if (speaker.ContainsKeys(SiteKeys.Lat, SiteKeys.Lon))
+                                {
+                                    <div class="d-none speakerlat">@speaker.GetString(SiteKeys.Lat)</div>
+                                    <div class="d-none speakerlon">@speaker.GetString(SiteKeys.Lon)</div>
+                                }
+                                @if (speaker.ContainsKey(SiteKeys.Language))
+                                {
+                                    <div class="d-none speakerlanguage">@speaker.GetString(SiteKeys.Language)</div>
+                                }
+
+                                @if (speaker.ContainsKey(SiteKeys.Topics))
+                                {
+                                    <div class="profile-details">
+                                        @foreach (string topic in speaker.GetList<string>(SiteKeys.Topics))
+                                        {
+                                            <span class="pr-2"><a href="javascript:void(0)" class="filter btn btn-dark" data-filter="@topic">@topic</a></span>
+                                        }
+                                    </div>
+                                    @* Includes other "topics" like language in this list *@
+                                    <div class="d-none speakertopics">@string.Join("|", speaker.GetList<string>(SiteKeys.Topics).Concat(speaker.GetList<string>(SiteKeys.Language, Array.Empty<string>())))</div>
+                                }
+                            </div>
+                            }
+                        </div>
+                    </div>
+                    @if (Context.ContainsKey(SiteKeys.AzureMapsSubscriptionKey))
+                    {
+                        <div class="tab-pane active" id="tab-map" role="tabpanel" aria-labelledby="map-tab">
+                            <div id="speakers-map"></div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function filterTopics(topic) {
+        var filterButton = $('.filter[data-filter="' + topic + '"]');
+        
+        if(filterButton.hasClass('active')) {
+            filterButton.removeClass('active');
+        } else {
+            filterButton.addClass('active');
+        }
+
+        speakers.filter(function (item) {
+            let itemTopics = [ item.values().speakertopics ];
+            if (item.values().speakertopics.indexOf('|') > 0) {
+                itemTopics = item.values().speakertopics.split('|');
+            }
+            var include = true;
+            $('.filter.active').each(function (index, filter) {
+                if (!itemTopics.includes($(filter).data('filter'))) {
+                    include = false;
+                }
+            });
+            return include;
+        });
+    }
+
+    var options = {
+        valueNames: [ 'speakername', 'speakerlink', 'speakerlocation', 'speakerlat', 'speakerlon', 'speakertopics' ]
+    };
+    var speakers = new List('speakers', options);
+
+    $(document).ready(function() {
+        speakers.sort('speakername', {
+            sortFunction: function(itemA, itemB, options) {
+                return 0.5 - Math.random();
+            }
+        });
+
+        var queryParams = new URLSearchParams(window.location.search);
+        var topicParam = queryParams.get('topic');
+        if (topicParam) {
+            filterTopics(topicParam);
+        }
+    });
+
+    $('.filter').on('click', function() {
+        var topic = $(this).attr('data-filter');
+        filterTopics(topic);
+    });
+</script>
+
+@if (Context.ContainsKey(SiteKeys.AzureMapsSubscriptionKey))
+{
+    <script>
+        function updateMap(map, list) {
+            map.markers.clear();
+            var items = [].concat(list.matchingItems);
+            for (var i = 0; i < items.length; i++) {
+                if (items[i] && items[i].values().speakerlon && items[i].values().speakerlat) {
+                    // Add all the speakers with these same coordinates
+                    let popupContent = '<div class="p-3">';
+                    popupContent += '<div class="font-weight-bold">' + items[i].values().speakerlocation + '</div>';
+                    for (var x = 0; x < items.length; x++) {
+                        if (items[x] && items[x].values().speakerlon == items[i].values().speakerlon && items[x].values().speakerlat == items[i].values().speakerlat) {
+                            popupContent += '<div><a href="' + items[x].values().speakerlink + '">' + items[x].values().speakername + '</a></div>';
+
+                            // Don't clear out i yet because we need it to compare and set the marker
+                            if (x != i) {
+                                items[x] = null;
+                            }
+                        }
+                    }
+                    popupContent += '</div>';
+
+                    // Add the marker
+                    let marker = new atlas.HtmlMarker({
+                        color: 'DodgerBlue',
+                        position: [items[i].values().speakerlon, items[i].values().speakerlat],
+                        popup: new atlas.Popup({
+                            content: popupContent,
+                            pixelOffset: [0, -30]
+                        })
+                    });
+                    map.markers.add(marker);
+                    map.events.add('click', marker, () => {
+                        marker.togglePopup();
+                    });
+                }
+
+                items[i] = null;
+            }
+        }
+
+        $(document).ready(function() {
+            var map = new atlas.Map('speakers-map', {
+                zoom: 1,
+                language: 'en-US',
+                authOptions: {
+                    authType: 'subscriptionKey',
+                    subscriptionKey: '@Context.GetString(SiteKeys.AzureMapsSubscriptionKey)'
+                }}
+            );            
+            speakers.on('updated', function(list) {
+                updateMap(map, list);
+            });
+            updateMap(map, speakers);
+        });
+    </script>
+}
+
+<script>
+    $(document).ready(function() {
+        // We had to start with the map active so the canvas would size, so switch back to the list
+        $('#tabs a[href="#tab-list"]').tab('show');
+    });
+</script>
