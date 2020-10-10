@@ -1,0 +1,75 @@
+{
+    "projectName": "Cake",
+    "imageFileName": "cake-large.png",
+    "gitHubOrg": "cake-build",
+    "gitHubRepoName": "Cake",
+    "transcriptFileName": "cake-transcript.txt",
+    "publishDate": "2020-08-01",
+    "projectOwners": [
+      {
+        "name": "Patrik Svensson",
+        "url": "https://github.com/patriksvensson"
+      },
+      {
+        "name": "Mattias Karlsson",
+        "url": "https://github.com/devlead"
+      },
+      {
+        "name": "Gary Ewan Park",
+        "url": "https://github.com/gep13"
+      },
+      {
+        "name": "Dave Glick",
+        "url": "https://github.com/daveaglick"
+      },
+      {
+        "name": "Alistair Chapman",
+        "url": "https://github.com/agc93"
+      },
+      {
+        "name": "Pascal Berger",
+        "url": "https://github.com/pascalberger"
+      },
+      {
+        "name": "Martin Björkström",
+        "url": "https://github.com/mholo65"
+      },
+      {
+        "name": "Jérémie Desautels",
+        "url": "https://github.com/jericho"
+      },
+      {
+        "name": "Enrico Campidoglio",
+        "url": "https://github.com/ecampidoglio"
+      }
+    ],
+    "youtubeUrl": "https://www.youtube.com/embed/DfmX5ySdmv4",
+    "projectDescription": "Cake (C# Make) is a cross-platform build automation system with\na C# DSL for tasks such as compiling code,copying files and folders, running unit\ntests, compressing files and building NuGet packages.It ships both as a <a href='https://www.nuget.org/packages/Cake.Tool/'\ntarget='_blank'>.Net Global Tool</a> and a <a href='https://www.nuget.org/packages/Cake/'\ntarget='_blank'>.Net Framework executable</a>.Out of the box it contains a number\nof different aliases to allow you to quickly orchestrate your build process, such\nas MSBuild, DotNet Core CLI,NuGet, and Chocolatey.  In addition, there are over\n<a href='https://www.nuget.org/profiles/cake-contrib' target='_blank'>280 community\ndriven addins</a> which allow you to perform other build tasks. For information\non getting started with Cake, reference the <a href='https://cakebuild.net/docs/getting-started/running-cake-scripts'\ntarget='blank'>Running Cake Scripts Documentation</a>.\n",
+    "contributors": [
+      {
+        "name": "Sean Fausett",
+        "url": "https://github.com/gitfool"
+      },
+      {
+        "name": "Kcamp",
+        "url": "https://github.com/KCamp"
+      },
+      {
+        "name": "Joseph Musser",
+        "url": "https://github.com/jnm2"
+      },
+      {
+        "name": "Jamie Phillips",
+        "url": "https://github.com/phillipsj"
+      },
+      {
+        "name": "Joanthan Kuleff",
+        "url": "https://github.com/JonCubed"
+      }
+    ],
+    "githubRepo": "https://github.com/cake-build/cake",
+    "projectWebsite": "https://cakebuild.net/",
+    "communityUrl": "https://github.com/cake-build/cake/discussions",
+    "documentationUrl": "https://cakebuild.net/docs/",
+    "contributionUrl": "https://github.com/cake-build/cake#contributing"
+  }

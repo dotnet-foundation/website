@@ -1,0 +1,122 @@
+<p class='mx-auto'>
+    <strong>Isaac:</strong> Alright so everybody welcome to the 1st edition of the .NET Foundation’s Project Spotlight. We're very happy to have Gary Ewan Park from Cake come on here, so Gary you want to give yourself a little intro.
+</p>
+<p class='mx-auto'>
+    <strong>Gary:</strong> Yeah, I'm Gary Park I'm from Scotland, and yeah, I'm one of the main contributors to the Cake project, which is .NET Foundation project.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac:</strong> Excellent! Yeah so you want to talk a little bit about what I know, that probably a lot of people are familiar with the Cake name in the .NET ecosystem, do you want to talk a little bit about you know what Cake is and what it’s goal is?
+</p>
+<p class='mx-auto'>
+    <strong>Gary:</strong> So, Cake is first and foremost is a build orchestration tool, a tool that allows you to take different parts of what your build is. So, when folks talk about build there's some ambiguity about what they're referring to there. So is it the compile
+    step, or is it more than that so when I refer to build? What I'm talking about is the compilation step, the unit testing step, the packaging step, the publishing step and the notification steps; all of those things combined to make up a build. So
+    Cake as an orchestration tool allows you to easily stitch all those things together, so rather than using something maybe like PowerShell or some other build automation tools you can do that with Cake, which is as a C# application. So, you write a
+    script in C# that allows you to orchestrate all those different parts of your build together to then ultimately perform your build.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac:</strong> So if I'm a .NET developer right, and I'm building a fairly complex solution, maybe I have a bunch of projects, and maybe I have a bunch of external dependencies. So, what can Cake do to make my life easier because I imagine my life would be very
+    difficult?
+</p>
+<p class='mx-auto'>
+    <strong>Gary:</strong> So without something like Cake without some sort of build orchestration tool that process for you at the minute would be either in Visual Studio, or in VS code, or whatever IDE or using you would use Control+Shift+B or in the command line you be
+    using the .NET CLI so you might dotnet build, dotnet publish, and then you might run some sort of static analysis tools on top of the code base to see if things are working the way you want them to do so rather than doing all over those processes
+    manually Cake comes into the equation and says let's define what that build processes is. You write it as a Cake script so that's just a essentially it's a C# file in your repository and then that gets checked in with your source control, so as the
+    build process changes or as you make tweaks to it, you have the full benefit of source control management that goes with that. So like I say you organize the Cake script into a set of discrete tasks; you have a build task, you have a published task,
+    you have a analyze task, you have a whatever task is your build process and then you build up what's known as a DAG, or Directed Acyclical Graph of the dependencies, then controls the order of execution of those tasks. But one of the main benefits
+    of something like Cake is that the build process that you define within that Cake script. You can run that locally so then when you start to introduce things like continuous integration, continuous deployment, you might do something like Azure DevOps
+    pipelines, you might use AppVeyor, you might use something else, but that Cake build process becomes a single step in something like Azure DevOps or AppVeyor, so rather than having to redefine or reengineer that build process in a YAML file or something
+    else, it's the exact same process that you build locally on your developer machine as you are building up in the cloud somewhere so there's a direct synergy between the two.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac:</strong> That sounds like Cake does a lot of stuff, right, so I'd imagine that the custom ability of it is really high, but how hard is it to just get started?
+</p>
+<p class='mx-auto'>
+    <strong>Gary:</strong> So Cake is a project that has been around since 2014. My virtual colleague Patrick Svensson started the project back in 2014, and it's kind of involved as a product or a project since then. So the original version of Cake used both the Roslyn scripting
+    and the model compilation engines in order to perform to work it does, and then evolved into a single project that has just the Roslyn scripting engine. We then went through a process for .NET Framework version of it and now to a .Net global tool
+    version of that. So the reason I tell you all of that is because of that history depending on what parts of the docs you are looking at or putting it some existing projects you're looking at you may go down one path, but the kind of recommended way
+    of doing it as of now is you create a .NET tool manifest in your project. So let's say you're working on standing up a .NET core application, it's got solution files and projects you walk up to it, you create a .NET tool manifest file, and into that
+    you install the Cake global tool, and then from there you just need to create a build.cake file. And so that build or Cake file can start off with a single file but can be multiple files that kind of include other files into it and enter there. You
+    just start defining that DAG, so you would create a task that is built so in there you would use some of what we refer to as the Cake aliases to run the .NET core build step. So you would pass in your standard sort of what configuration you’re building,
+    is it a debug build, is that release build, will it pass in potential additional parameters that you need to pass in to that build process. So, it doesn't do anything magic it's literally an Orchestration and definition of what you're doing anyway.
+    So what you want more or more specifically maybe what Visual Studio or what Visual Studio Code is doing for you, then own that so you're taking that process it's coming from you in the background, you are defining exactly what that is into your Cake
+    script, and then actually that becomes part of your source control and then it flows on from there.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac:</strong> It's funny that you say that it's not magic but the way you're describing it definitely seems like magic even though you're building it all yourself. Like I can imagine a situation where in order to just do a build that maybe I have to run PowerShell
+    script or a bash script if I'm in Linux, and then I need to configure some things, then I got to hit F5 in VS, and I've got a bunch of other things like having all that stuff like in a workflow-based thing. Like that's extremely valuable right, definitely
+    I think you're not giving yourself enough credit, I think Cake is has a little bit of magic in it
+</p>
+<p class='mx-auto'>
+    <strong>Gary:</strong> It kind of only appears that way but like I said, it's at the end of the day an orchestration tool that is orchestrating the tools that you are already using. So you might do it in individual steps, you might put it on someone else's machine to
+    do another part of it, etc. So it's really just taking all of that knowledge and putting it into one place. So Cake is not unique in this sense, there's lots of tools out there that do it: there's Rake, there's Fake, there's Make, and that's kind
+    of where the Cake name kind of came from, you know there's “ake” kind of. The tools have evolved over the years for different languages, and like I say Cake, is it was Patrick's envisioning of what he was trying to get out of the build tools that
+    he was using at the time. So yeah that's really the name came from.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac:</strong> Awesome. Yeah so what's next for Cake? So it seems to me like you have a very rich feature set already, so like what are the things that are on the road map to extend upon that rich feature set?
+</p>
+<p class='mx-auto'>
+    <strong>Gary:</strong> The point that we were trying to get to is a 1.0 release of Cake. So in that process, there's been something like 100 or so different releases of Cake, but all of them have been a kind of pre-semantic versions of the 1.0 release, but in that kind
+    of process were up to something like 7 million downloads of the Cake.exe Nuget package. So it is a mature project, but we're trying to draw the line in the sand and say that this is the 1.0 release, and once we get to that point there are some plans
+    about refactoring some of the internals of Cake, and how they work, but it was also some optimizations to be made in terms of the compilation steps. So at the minute, in order for Cake to function it takes that build script that you create, essentially
+    compiles it, and then it runs it, so there's some optimizations there in terms of the compilation stage. So that's kind of the main focus, but Cake as a project has got kind of lots of arms, I mean we brought Enrico recently onto the team so he created
+    the GitHub action for Cake. So there's work to be done. There's other things in terms of intellisense support, so one of the things that Martin on the team is kind of focusing on is we do have intellisense support for Cake within VS code, but there's
+    some optimizations there to improve how those things work. So it's a living breathing project obviously, there are bugs that crop up every so often. We are in the process of changing our documentation, so like say, because we've moved from a project
+    that was focused on .NET Framework and moving into the more .NET global tool version of it, there's changes to the documentation that's happening, so we worked with Dave Glick on the team, who is the creator of the WYAM project, which is now been
+    renamed to the Statiq Project. Work we've done in terms of creating or updating the website to move that new tooling as well. So yeah we got lots of stuff on the on the card to them, but it keeps us busy, keeps us out of trouble.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac:</strong> Yeah I find it very funny, it just goes to versioning is hard right you have millions of downloads and thousands of people that leverage it but you're not even at 1.0 yet.
+</p>
+<p class='mx-auto'>
+    <strong>Gary:</strong> I mean is we've been hesitant to get to that 1.0 release, because once you get there that is that like you kind of want to make sure that the public facing API is kind of spot on, and you know you're going to break anyone. So we're getting very
+    close we’re at 0.38.4 at the minute of Cake and let's say the next release is going to be 1.0 release once we can get there.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac:</strong> But you could you just troll your users, is get to like version .99, and then just have like a bunch of Minor Revs. Awesome, so I want to kind of put on my developer hat again right. So say for instance I use Cake, use it all the time, and there
+    are some things that maybe I see that I could, you know, that I could add value to Cake. So, what are some of the best ways that you see as a maintainer? That's a contributor or a community member wanting to contribute?
+</p>
+<p class='mx-auto'>
+    <strong>Gary:</strong> This goes back to when I can I first started on the project. I like kind of things, pieces to be in-line for certain things. So one of the things we did around that time was a contribution model. So we have kind of a fairly well defined process
+    that we ask future contributors to go through. The first one is too essentially reach out to us, so whether that's through, we have an active Gitter channel, where we do a lot of communication, and we recently just switched on discussions in the our
+    GitHub repository. So if you want to ask questions there you definitely can, and the reason for that is we've had some incidents in the past where folks have gone off and done a bunch of work, put a lot of effort into it, and we essentially couldn't
+    merge the PR that was created, because that communication like defines the work that they were wanting to do, and we weren't prepared to bring it into the project. So first and foremost, I would ask anyone interested in looking at the project to reach
+    out to us, get in touch with us, whether it's like say a discussion, whether it's in Gitter, and essentially get signed off on the thing that you want to add in. And then the kind of the process from that point is to create an issue on our GitHub
+    repository, and in there we can go backwards and forwards, we can discuss implementation details and specifics of whatever is coming in, and then from there it would be a pull request, and we go backward and forward in that in terms of changes, suggestions
+    that sort of thing, and ultimately gets pulled in. So, I mean we were really lucky as a project, we've had quite a lot of contributors to the project. We're at like over 180 different contributors to the project, and like I say there have been some
+    incidents in the past where we had to say, “look no we're not going to accept that”, but like say if we do that upfront work and we get sign off from the team then I'm happy to say, like if you go back to our release notes and our blog posts a big
+    number of the contributions that go in the project are all community driven, and so it's a great project to work on from that perspective to get people buying into the project.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac:</strong> That's awesome. I think one thing as well to call out is that I imagine as a developer documentation is probably way down your list of things that you'd like to do right? So I also think that if you don't feel like you feel comfortable, or maybe
+    you're a bit concerned about contributing to the actual code or core of Cake, like I imagine that you welcome anybody to update your documentation right.
+</p>
+<p class='mx-auto'>
+    <strong>Gary:</strong>  Absolutely! I mean like that's kind of what I started with the project. I mean I used to be a maintainer of the Sake project, which is a PowerShell build automation tool, and then I was watching Cake as it was evolving and I kind of liked what they're
+    doing over there. So, I started looking at the docs, making some suggestions. So yeah, it's actually a great way to get started on the project. So, even just today, was it today or was it yesterday, someone on Gitter mentioned that there was a 404
+    link off of our documentation, it goes to a broken link. So that's kind of an easy entry point, just find out where that link is in the documentation, fixed out where it meant to be in that get you involved in the process, seeing how we do things,
+    and then going from there absolutely docs are great way to get started with anybody.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac:</strong> Yeah, I think just in general, like I started out my open source career looking in writing docs for .NET, and things like that, and I think docs is a very like a low hanging way to start contributing to some of the things that you've been using,
+    and are very familiar with, you know. Some of us aren't brilliant enough to write that great orchestration tool for building .NET applications but we all can write docs right so.
+</p>
+<p class='mx-auto'>
+    <strong>Gary:</strong>  Yeah definitely, and the other side of that as well as the creators of the tool, we don't always imagine how the tool can be used. So we've seen some great ideas about how it can be used, so we've had examples where we brought some of those back
+    in as kind of guest blog posts into the website. So if you've got anything like that where you've used Cake, and you have done something special with it, we definitely welcome that as a contribution, either directly into the docs, or like I say as
+    a guest blog post so that we can let folks know about it. So that's another way of doing it yet.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac:</strong> That’s awesome, yeah I really appreciate you taking the time to chat with us and being, you know, our Guinea Pig for Project Spotlight, and I hope that people take full advantage of learning more about Cake and eventually contributing. Is there
+    anything else you want to add before we sign off?
+</p>
+<p class='mx-auto'>
+    <strong>Gary:</strong>  Just a general call out, I mean .NET open source is a great thing to be involved in. I've done it for a good few years now, I'm happy to say that's kind of my full time job now. I get to do this for fun, as well as paying the mortgage. So good place
+    to get started and I'd encourage anyone to do it.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac:</strong> Awesome, thank you! So on the product spotlight page there, is going to be a ton of links to everything you need to know about Cake as well as links to some ways that you can contribute, so Gary thanks again.
+</p>
+<p class='mx-auto'>
+    <strong>Gary:</strong>  No Problem
+</p>
