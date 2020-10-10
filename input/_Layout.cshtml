@@ -12,8 +12,8 @@
 <body class="d-flex flex-column">
     @Html.Partial("_partials/_header")
 
-    <div id="site_wrapper" class="container-fluid cs-container flex-fill">
-        <main id="site_container" class="order-3">
+    <main id="site_wrapper" class="container-fluid cs-container flex-fill">
+        <div id="site_container" class="order-3">
             <section class="body-section">
                 <div class="body-container">
                     @if (Model.GetBool("IsHome") && DotnetFoundationWeb.AppSettings.IsCampaignOpen)
@@ -24,12 +24,12 @@
                     @RenderBody()
                 </div>
             </section>
-
-            <!-- Footer -->
-            @Html.Partial("_partials/_footer")
-            <!-- Footer End -->
-        </main>
-    </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    @Html.Partial("_partials/_footer")
+    <!-- Footer End -->
 
     @if (Model.GetBool("IsHome"))
     {
