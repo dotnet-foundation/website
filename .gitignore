@@ -45,3 +45,7 @@ projects-content.json
 functions/node_modules/
 input/api/issues/index.js
 input/api/issues/index.js.map
+input/api/project-spotlight/index.js
+input/api/project-spotlight/index.js.map
+functions/local.settings.json
+input/api/project-spotlight/DotNetNuke.json

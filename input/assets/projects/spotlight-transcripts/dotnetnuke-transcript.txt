@@ -1,0 +1,228 @@
+<p class='mx-auto'>
+    <strong>Isaac: </strong>Welcome everybody to the newest edition of the .NET Foundation’s Project Spotlight. I'm
+    pleased to have Mitchel Sellers from DNN, the artist formerly known as DotNetNuke. Mitchel, did you want to say
+    hello and Introduce yourself.
+</p>
+<p class='mx-auto'>
+    <strong>Mitchel: </strong>Hi, I’m Mitchel Sellers. I am the technology lead for the DotNetNuke or DNN platform
+    project and am excited to be here.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac:</strong>Awesome, so let's just get right into it. So as a .NET developer or even somebody who's a
+    member of the .NET Foundation and might not know what DNN or even before what DotNetNuke is. Can you just give us a
+    brief intro into a DNN is and what value it provides for .NET developers.
+</p>
+<p class='mx-auto'>
+    <strong>Mitchel: </strong>Yeah, the best way to think about is that DotNetNuke is a CMS platform built on .NET that
+    allows developers to rapidly build applications that need some content management functionality or it's also been
+    formally marketed as an application development framework, right, with users, roles, security, page management, URL
+    redirects, those kinds of things. It's a tool that can be used by developers to more quickly develop solutions at
+    lower cost, will give administrative users or regular content editor users the ability to manage content on the
+    pages.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac: </strong>Awesome, thanks for the intro. So obviously in the. NET ecosystem you know you mentioned
+    content management system or CMS, so there are a few of them out there, right? So, what is the differentiator for
+    DNN versus some of the other well-known CMSs?
+</p>
+<p class='mx-auto'>
+    <strong>Mitchel: </strong>So, the biggest differentiator with DotNetNuke or DNN is that we are the largest open
+    source .NET CMS that we're aware of, that is out there, the project has been around since it was originally IBuySpy
+    Portal, way back in 2002, I believe, so we've seen a lot of growth. We have a very passionate development community,
+    so we have a lot of maintenance, we're doing regular releases and we're moving that project forward. And there are
+    other platforms out there, however, again, you know we don't have any license fees, where-as part of the .NET
+    Foundation and we're totally free to utilize and to be able to extend. We have great extension points for almost all
+    the various pieces of functionality, so that if you don't like the way that authentication works, you can swap it
+    out with something else. You don’t you like the way that, you know, other features work, we can work with that and
+    we're continually evolving to bring the project further and further forward with technology. And it's really that
+    growth and add ability that makes us a very powerful tool set for developers.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac: </strong>Awesome thanks, thanks for that. I think, you know, one of the things that you called out
+    that I think is very important. As you mentioned, the largest .NET Open Source CMS, so obviously being in the open,
+    I'd imagine that there are tons of contributors to this project, right? So, do you want to talk a little bit about
+    the project maintainer team and then talk about community contribution?
+</p>
+<p class='mx-auto'>
+    <strong>Mitchel: </strong>Yes, so we are, you know, as you mentioned, we have a very broad base. We have a really
+    broad base of individuals that are active using the platform and that you start to see a little bit of a funnel from
+    those that are actively using it to those that are contributing issues to those that are developing, and then we
+    have our core group of maintainers and we’ve organized ourselves into a group of four lead maintainers or team leads
+    if you will. I am the team leader over the technology side so I'm in charge of working with things for our release
+    pipelines, our security is also overseen by myself and some of the higher level stuff there with getting things out
+    the door, making sure Nuget packages are published making sure that all of that is done. We also have a strategy
+    lead, which is helping us kind of form some of our future strategy. We have a developer lead, which is focused on
+    developer experience, improving, getting started for new developers, getting started for those that are new
+    contributors, and then we have an awareness lead, that's really. there to help us better project ourselves as a
+    project on what we can do, how we can get help for people managing websites, blogs, those kinds of things to really
+    help some of that outreach and then underneath there we have a bunch of other contributors that are helping us
+    manage those processes. But we have those four key resources in our administration team on the open source said.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac: </strong>Awesome, so, definitely sounds like a lot to bite off as one of the leads that you said. So,
+    one of the things that I love talking about when I talk about open source communities is just how you get started
+    right? So, say I'm a developer and I've been using DNN for a little bit, but I feel like there's one area that I can
+    definitely give back. You know, whether that be, you know, building documentation or testing or developing. So how
+    would I get started actually, being a contributor to DNN.
+</p>
+<p class='mx-auto'>
+    <strong>Mitchel: </strong>So, our contracting processes is quite easy, but I remember the .NET Foundation, so any
+    contribution one of the things that throws people for loop as we do have the CLA license, but when you go and
+    actually submit your things, we don't want to forget about that. But really we keep our process simple where we'd
+    like to see an issue documented with what is going to be contributed from a developer perspective. So, if it's a
+    programming change of database change something like that, an issue being created in the main repository so that we
+    know what's coming in, and it's also really nice if you're planning to actually resolve the issue, to make a note in
+    that initial submission, “Hey, I'm going to fix this”. If your new and want to get started, we also have a number of
+    issues that exist already that have been tagged by complexity, so future minor, future, major, future revision to
+    kind of tag .OK, if it's a major item, it's something that's going to be breaking changes more involved and then
+    same thing with minor revision rate to get less complex. So if you don't know what you want to fix, that's a great
+    way to get a pool of what's out there and then other than that, it's really getting the fix contributed, get the
+    pull request and we try to review our pull requests as quick as we can. We do have documented procedures on
+    contributing linked directly from the main repo in GitHub. We have a documented process with our reviewer's where we
+    require two reviewers from our core group of reviewers. When there is a total of six of us today, so two of the six
+    have to review and approve, and then the only other big thing that we always warn people if you submit something
+    that's for a major release and we're not ready for the major release, we're going to receive your pull request,
+    we're going to approve your pull request, but we are going to throw and on-hold tag on it and not merge it until
+    we're closer to that major release. We're not ignoring anybody, but we try to do everything we can to communicate it
+    well on the documentation side, our documentation repo. Similar processes are followed there as well, but there's a
+    little bit less of a requirement. And some of the documentation of actually creating an issue before you create the
+    PR for those contributions.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac: </strong>Awesome. So one of the things as somebody who likes to contribute to open source projects in
+    the ecosystem, I definitely don't want to be somebody that has to scrounge through GitHub issues to try to find
+    something that I might be interested in. It sounds to me like you have a very organized process for, you know, you
+    said different levels of severity and things like that, so that's great. One of the things that's also interesting
+    to me is how you got started as a part of DNN, right? So you know, as one of the main maintainers, I'd imagine you
+    started out probably as a user, and then you kind of moved it up because you had interests, and to eventually where
+    you are now. You wanna talk a little bit about that?
+</p>
+<p class='mx-auto'>
+    <strong>Mitchel: </strong>Yeah, I started with. DNN years ago, um 12013 years ago, really and exactly. I actually
+    was forced into using it for a job when I was working at Wells Fargo. They're like, “Hey, you're in charge of
+    maintaining this thing”. I know this is kind of cool. This is in the early 2X 3X days and we're currently on 9 its
+    going to be 9.8 and I got started, started to use it. Then I was working with, you know, this boss is “OK. Yeah,
+    this is how to go to conferences and technology events”. “Sure, you guys are paying”. That led to others I have
+    DotNetNuke event which was back in the day was paired with Dev Connections. I've done some kind of cool stuff with
+    work, so I submitted a session topic. So instead of talking about doing things with DNN and then I started using
+    some projects that were ancillary that had kind of fallen off of support and like, hey, I'll step in and kind of
+    help. So, I started maintaining the documents module that was an extension within DNN years ago and then ever since,
+    any kind of move forward. Been active with the community. I'm also the board member of the DNN Association where we
+    put on the yearly US based event for DNN platform users and over time, our project has a little bit of a storied
+    history in the open source side where, for a number of years, the open source project was actually controlled by the
+    entity that has a commercial interest in the project as well and about three years ago or 3 1/2 years ago now, they
+    went under new ownership and kind of went to give it back to the community and my name along with those of the
+    others kind of came together as one that would help shepherd discourse based on our activity and historical
+    involvement, and now we're here. Sometimes I have way too much time to dedicate, apparently, but it's for good and
+    we've done amazing things as an open source project, especially where we had a big lack, right? We had a time and
+    place where people couldn't trust us and that's been our hardest bit. Really, it's not even getting started. It
+    wasn't me getting started in the beginning. It's now that we are truly open source again. We have the support of the
+    .NET Foundation. It's getting people to understand we will accept your contributions. I promise we will, and a lot
+    of that interest had been lost so that for us as leaders has been the hardest thing to overcome.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac: </strong>That's awesome, like I think that just the fact that you specifically say if you want to
+    contribute, we want your contribution. We want to help shepherd you all the way around. That doesn't mean that
+    you're going to accept every PR that gets submitted, but it does mean that if you put thoughts in how you're going
+    to contribute and what you're going to contribute, the team is definitely going to help you in every step of the
+    way. Which I think is amazing, and I think that's just a great opportunity for people that want to come in and
+    provide new insights or new experiences to DNN like that, it is welcomed so awesome. One of the things that you
+    mentioned that was interesting to me is that you mentioned that you're on version nine of DNN, right? So obviously
+    in the open source community, getting to version nine is, it seems like it's almost an impossible feat, right? Like
+    you know, nine iterations, major iterations of a toolset, it is pretty impressive. So, when obviously there is going
+    to be versions 10 and 11, and what you have in the future, right? So, when you look to build new modules or new
+    extensions to the platform, that would require, you know, a major release, you now, whereas some of the things that
+    you consider when you are going through that strategy process.
+</p>
+<p class='mx-auto'>
+    <strong>Mitchel: </strong>So we have recently employed a different strategy, so we took back over from a community
+    perspective shortly after the 9.2 release, and we're currently will be releasing 9.8 release candidate later on this
+    week and we took over after what? Everyone kind of refers to his oh that release that we all don't want to deal with
+    again where breaking changes were released in a non-major version. So we took a step back and looked at the way that
+    we're versioning, the way that we're releasing and really adopted the whole major minor revision mantra to try to
+    use that to guide where we're going to where we have a version 10 that we are going to be ready to release. But we
+    have a certain milestone that we wanted to hit on the 9.X series before we get to 10 because we understand is that
+    it's easier for people to upgrade with minor releases and revision releases where we're not introducing breaking
+    changes, or maybe bumping up dependency versions. We're adding new functionality, but we're adding new functionality
+    in a non breaking manner. So that's our current emphasis is to make sure that we get the project as far as we can.
+    And we have a security. We have a security and stability milestone. That's what's actually holding this up from
+    going to a 10X release. We have a goal of an optional security compliance thing that we want with 9, and we're
+    actually going to achieve that with 9.8.0. With the release candidate when it comes out once we get there right when
+    we can go to 10 and what we've been trying to do with that is we are evolving an we will be having breaking changes,
+    but we also understand that our users have been around for a long time, right? We have people that have upgraded
+    from 3X from 4X, so we're talking about websites have been in existence for 5-10 plus. We have people that have
+    spent literally millions of dollars on custom development on single applications that are built on DotNetNuke. So,
+    we want to be able to give people the most secure platform possible using the minor and revision releases. But then
+    we want to be able to be as nimble as we can to move forward into new technology, and that's what we've been using
+    is our current dividing line, so we've been adding dependency injection support. For example, in a non breaking
+    manner in 9.X. So, for those that want to be able to do things with modern technologies they can. But then when we
+    get to 10 X, we're going to make it a requirement, so it's going to be a breaking change for some of those. Older
+    modules, but we're going to leave people at a place with 9.X where they're able to be secure and have all of the
+    latest bug fixes and everything that we have before we make that launch point with a breaking change.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac: </strong>That's awesome, and one thing that I do want to call out is that you mentioned a release
+    coming soon, right? And you mentioned next week. So, for folks that are coming to this not in the next week or so,
+    like what is the date of that next release?
+</p>
+<p class='mx-auto'>
+    <strong>Mitchel: </strong>We are doing a release candidate in the week of October 5th. Traditionally our release
+    candidates are out there for two weeks. Assuming that no issues are found before they become a real release. Full
+    disclosure, we anticipate that this release candidate will take longer. We are replacing in this release the File
+    Manager, which is one of the biggest underpinning components that's utilized in the platform and currently has a
+    dependency on a 2013 version of Telerik which we all know is not a good thing. With this release, we will have
+    insurance. That said that if you switch to it, you will be able to uninstall it. Doing so not only resulted in
+    security vulnerabilities, so it's a really big thing for us. This is one of the extensions extending the platform
+    that may have been used by people, and if so, maybe it will be a little bit longer.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac: </strong>Awesome, that's absolutely awesome. I'm glad to hear that you know, everybody's done it
+    right where you have a dependency that you keep looking at, you keep looking at and your like This is going to be a
+    challenge, right? It's great to hear that you had a similar experience, and you were able to overcome it, so kudos
+    to that. So, as we wrap up one of the things that I want people to be very clear of is that you know DNN is a part
+    of the .NET Foundation, and the .NET Foundation has multiple different avenues for projects to take advantage of,
+    right? I don't know if you were a part of the team that came in to bring DNN into the .NET Foundation, but do you
+    maybe want to talk about it? You know one of the decision-making points that led you to join the Foundation.
+</p>
+<p class='mx-auto'>
+    <strong>Mitchel: </strong>Yeah, so I was involved shortly thereafter the project joined. I have been a candidate for
+    the .NET Foundation Board as well so I'm really keen on what the .NET Foundation can do for the projects. But as a
+    project leader really, we would not be where we are today if it weren't for the .NET Foundation. The support that we
+    get from a project perspective we have Azure DevOps, we have an update service that we use to notify people of new
+    versions. We use that to also distribute localized content for those in other languages. All of that is being
+    executed on resources that were provided to us by the .NET Foundation as well as, you know, continued pushing for us
+    to improve our processes to be more secure and those kinds of things we have a lot of great support from the .NET
+    Foundation and it gives us a means to be able to clean up some of the things that we had before. We have some rogue
+    accounts, for example, that we've needed to exercise some assistance, not only from the Foundation. I'm an MVP as
+    well, and we've literally had to chase people down to clean some of this up. And it's been amazing having that
+    support. Because I'm a leader today, the rest of our leaders are leaders today, but this project will continue and
+    the .NET Foundation, by having the project contributed to the Foundation, by having the resources provided by the
+    Foundation, we have a level of assistance that's beyond our current leadership that allows us to be able to continue
+    this project forward. Our end users right are able to be convinced, right? That project will be able to continue,
+    and it's even some of the little things right. The CLA pods that make sure that we get license agreements from
+    everybody that contributes to our repository, huge for us and it's also huge for the end users. From an
+    identification perspective and knowing that they can trust that product that they're using, so we would not be where
+    we are today wasn't for the .NET Foundation.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac: </strong>I'm glad to hear that and glad to hear you say that the .NET Foundation has been extremely
+    beneficial for you as a project maintainer and just to call out the Foundation would not exist without amazing
+    projects like DNN as well as the major contributors to those projects like you, so thank you for that. So, we're
+    going to wrap up and I want to just say thank you to Mitchel for coming on and chatting with us and Mitchel. Do you
+    have anything parting to say?
+</p>
+<p class='mx-auto'>
+    <strong>Mitchel: </strong>Nothing more than you know, whatever project it is that you believe in right, contribute,
+    contribute, contribute but contribute. Contributing to those projects can be anything it can be submitting issues;
+    it can be testing a release. It can be contributing code, it can be supporting developers on GitHub Sponsors right?
+    We have a small group of core maintainers that are ridiculously passionate for some unknown reason to our project
+    sometimes. But anything to give back to those that are giving into these projects so much. That's what keeps us
+    going as maintainers. That's what keeps these projects going forward, and I cannot encourage it enough. Get involved
+    in whatever capacity is that you can do.
+</p>
+<p class='mx-auto'>
+    <strong>Isaac: </strong>Awesome, well thank you so much again for your time Mitchel enjoy the rest of your day and
+    thank you everybody for taking a look at this iteration project. Spotlight DNN.
+</p>
+<p class='mx-auto'>
+    <strong>Mitchel: </strong>Thank you.
