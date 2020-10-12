@@ -17,8 +17,6 @@ Topics:
   - Open Source
   - Visual Studio Code
   - Web Development
-  - Vue.js
-  - Film
 Blog: https://wildermuth.com
 Feed: https://wildermuth.com/rss
 Twitter: https://twitter.com/shawnwildermuth
