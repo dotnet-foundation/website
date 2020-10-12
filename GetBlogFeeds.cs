@@ -129,7 +129,7 @@ namespace DotnetFoundationWeb
                 }
             }
 
-            return null;
+            return input.Yield();
         }
     }
 }
