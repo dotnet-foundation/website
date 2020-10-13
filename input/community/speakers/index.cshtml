@@ -117,6 +117,11 @@ Title: Speaker Directory
 </section>
 
 <script>
+    function htmlDecode(input) {
+        var doc = new DOMParser().parseFromString(input, "text/html");
+        return doc.documentElement.textContent;
+    }
+
     function filterTopics(topic) {
         var filterButton = $('.filter[data-filter="' + topic + '"]');
         
@@ -127,9 +132,9 @@ Title: Speaker Directory
         }
 
         speakers.filter(function (item) {
-            let itemTopics = [ item.values().speakertopics ];
+          let itemTopics = [ htmlDecode(item.values().speakertopics) ];
             if (item.values().speakertopics.indexOf('|') > 0) {
-                itemTopics = item.values().speakertopics.split('|');
+                itemTopics = htmlDecode(item.values().speakertopics).split('|');
             }
             var include = true;
             $('.filter.active').each(function (index, filter) {
