@@ -12,25 +12,13 @@ Here's the September/October 2020 .NET Foundation update. Every other month, we'
 ### [The .NET Foundation Joins the Open Source Initiative's Affiliate Program](https://opensource.org/affiliates)
 For over 20 years, the Open Source Initiative has worked to raise awareness and adoption of open source software, and build bridges between open source communities of practice. As a global non-profit, the OSI champions software freedom in society through education, collaboration, and infrastructure, stewarding the Open Source Definition (OSD), and preventing abuse of the ideals and ethos inherent to the open source movement.  The .NET Foundation excited to join the OSI and look forward to working together to support open source and building on our existing commitment to interoperability and developer education with other members of the OSI Affiliate community.
 
-### .NET Foundation "All Hands" - Fall 2020 Meeting
-
-The first .NET Foundation All Hands meeting was held on October 13. If you missed the event, you can watch the recording at this link: [https://aka.ms/dnf/all-hands-fall-2020](https://aka.ms/dnf/all-hands-fall-2020).
-
-## Committee Updates
-
-### Marketing
-
-#### Member resources
-We'd like to make our members aware of some marketing resources you can take advantage of.
-
-- *Help spread .NET Foundation's message*: Take a look at the [.NET Foundation slides](https://dotnetfoundation.sharepoint.com/:p:/s/Marketing/EbxGONyybLRMoe6MgPNUEi4BdDuEWNLmdfV_s8INO9nWTw?e=mImEov) and use them in your presentations and events.
-- *Promote your .NET open source content, events, project news*: If you'd like to promote something on the .NET Foundation social channels, fill out the [amplification request issue template on our content repo](https://github.com/dotnet-foundation/content/issues/new?assignees=&labels=&template=content-amplification-request.md&title=%5BAMPLIFICATION%5D+-+Title) and we'll get you scheduled.
-- *Write a guest blog post or submit a video to our YouTube*: If you would like to propose creating content like a guest blog post or video, fill out the [content creation request issue template on our content repo](https://github.com/dotnet-foundation/content/issues/new?assignees=&labels=&template=content-creation-request.md&title=%5BCREATION%5D+-+Title) and we'll work with you on getting your content created.
-
-#### .NET branding guidelines
-Microsoft released updated .NET branding guidelines on GitHub [github.com/dotnet/brand](https://github.com/dotnet/brand). The purpose of these guidelines is to provide a framework for communicating with the .NET developer community and establishing a consistent brand identity. This not only includes the logo & typeface but also consistent messaging, terminology, fun illustrations and presentation templates you can use. 
+### [Octopus Deploy Sponsors the .NET Foundation](https://octopus.com/blog/dotnet-foundation)
+We are thrilled to welcome Octopus Deploy as a new corporate sponsor of the .NET Foundation. The addition of Octopus Deploy to our community contributes to the growth of open source projects and our growing global ecosystem. As an independent software vendor, they use a number of open-source projects to build Octopus Deploy, and a healthy open source ecosystem is essential to their mission and a core of who they are. 
 
 ## Events
+
+[.NET Foundation "All Hands" - Fall 2020 Meeting](https://aka.ms/dnf/all-hands-fall-2020)
+The first .NET Foundation All Hands meeting was held on October 13. If you missed the event, you can watch the recording at this link: https://aka.ms/dnf/all-hands-fall-2020.
 
 ### [Save the date for .NET Conf 2020 November 10-12](https://www.dotnetconf.net/?utm_campaign=savedate&utm_source=dotnefdn&utm_medium=newsletter)
 
@@ -53,8 +41,8 @@ We are happy to announce the newest episode of the .NET Foundations' Project Spo
 
 This iteration features [DNN (previously DotNetNuke)](https://github.com/dnnsoftware/Dnn.Platform) and we had one of the project maintainers, [Mitchel Sellers](https://twitter.com/mitchelsellers) on to talk about the goals of the project, how he got started, and what the experience is like for potential contributors. If you are a project maintainer and would like your project featured, plese feel free to file an issue [here](https://github.com/dotnet-foundation/projects/issues/new?assignees=clairernovotny&labels=project+spotlight&template=project-spotlight.md&title=Project+Spotlight+Request%3A+%5BProject+Name%5D) on the projects repo. Link to the latest spotlight, as well as past spotlights can be found at [https://dotnetfoundation.org/projects/spotlight](https://dotnetfoundation.org/projects/spotlight).
 
-### DotVVM: Join us at .NET Conf Local Event on November 11
-The DotVVM team hosts a live-streamed event called [DotVVM ❤ .NET Conf 2020](https://www.meetup.com/dotvvm/events/273801727/) on November 11th 2:00 PM UTC. 
+### DotVVM: Join us at .NET Conf Local Event on November 16
+The DotVVM team hosts a live-streamed event called [DotVVM ❤ .NET Conf 2020](https://www.meetup.com/dotvvm/events/273801727/) on November 16th 2:00 PM UTC. 
 
 You'll see new features we've added to DotVVM, and we'll share our future plans:
 * Support of .NET 5
@@ -91,6 +79,16 @@ Other changes would appeal to the chemist more than the informatics developer.  
 ![image](https://user-images.githubusercontent.com/10074162/91839493-0b9ea180-ec47-11ea-916a-8d0c248ad15c.png)
 
 This has been a tough release to get out, especially given lockdown and the strictures of our new way of living and working.  However, it provides a very much more solid foundation for future enhancements to Chem4Word.
+
+#### Member resources
+We'd like to make our members aware of some marketing resources you can take advantage of.
+
+- *Help spread .NET Foundation's message*: Take a look at the [.NET Foundation slides](https://dotnetfoundation.sharepoint.com/:p:/s/Marketing/EbxGONyybLRMoe6MgPNUEi4BdDuEWNLmdfV_s8INO9nWTw?e=mImEov) and use them in your presentations and events.
+- *Promote your .NET open source content, events, project news*: If you'd like to promote something on the .NET Foundation social channels, fill out the [amplification request issue template on our content repo](https://github.com/dotnet-foundation/content/issues/new?assignees=&labels=&template=content-amplification-request.md&title=%5BAMPLIFICATION%5D+-+Title) and we'll get you scheduled.
+- *Write a guest blog post or submit a video to our YouTube*: If you would like to propose creating content like a guest blog post or video, fill out the [content creation request issue template on our content repo](https://github.com/dotnet-foundation/content/issues/new?assignees=&labels=&template=content-creation-request.md&title=%5BCREATION%5D+-+Title) and we'll work with you on getting your content created.
+
+#### .NET branding guidelines
+Microsoft released updated .NET branding guidelines on GitHub [github.com/dotnet/brand](https://github.com/dotnet/brand). The purpose of these guidelines is to provide a framework for communicating with the .NET developer community and establishing a consistent brand identity. This not only includes the logo & typeface but also consistent messaging, terminology, fun illustrations and presentation templates you can use. 
 
 ## Meetups
 
