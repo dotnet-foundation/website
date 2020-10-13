@@ -62,7 +62,7 @@ isHome: true
             <div class="page-section_column col-lg-3 col-sm-6">
                 <div class="icon-box animated icon-box--grey animation-delay--8 d-flex flex-column align-items-center" data-delay="900">
                     <div class="icon-box_stat">
-                        <span class="counter">@DotnetFoundationWeb.AppSettings.ContributionsCounter</span><span class="icon-plus" style="display:none">+</span>
+                        <span class="counter">@DotnetFoundationWeb.AppSettings.ContributionsCounter.ToString("N0")</span><span class="icon-plus" style="display:none">+</span>
                     </div>
                     <div class="icon-box_icon">
                         <img src="img/developers_icon.png" alt="Contributions">
@@ -75,7 +75,7 @@ isHome: true
             <div class="page-section_column col-lg-3 col-sm-6 pad-fix--sm">
                 <div class="icon-box animated icon-box--grey animation-delay--2 d-flex flex-column align-items-center" data-delay="300">
                     <div class="icon-box_stat">
-                        <span class="counter">@DotnetFoundationWeb.AppSettings.CompaniesCounter</span><span class="icon-plus" style="display:none">+</span>
+                        <span class="counter">@DotnetFoundationWeb.AppSettings.CompaniesCounter.ToString("N0")</span><span class="icon-plus" style="display:none">+</span>
                     </div>
                     <div class="icon-box_icon">
                         <img src="img/building_icon.png" alt="Companies">
@@ -88,7 +88,7 @@ isHome: true
             <div class="page-section_column col-lg-3 col-sm-6 pad-fix--lg">
                 <div class="icon-box animated icon-box--grey animation-delay--4 d-flex flex-column align-items-center" data-delay="500">
                     <div class="icon-box_stat counter">
-                        @DotnetFoundationWeb.AppSettings.ActiveProjectsCounter
+                        @DotnetFoundationWeb.AppSettings.ActiveProjectsCounter.ToString("N0")
                     </div>
                     <div class="icon-box_icon">
                         <img src="img/member_projects_icon.png" alt="Active Projects">
@@ -101,7 +101,7 @@ isHome: true
             <div class="page-section_column col-lg-3 col-sm-6 pad-fix--lg">
                 <div class="icon-box animated icon-box--grey animation-delay--6 d-flex flex-column align-items-center" data-delay="700">
                     <div class="icon-box_stat counter">
-                        @DotnetFoundationWeb.AppSettings.ResourcesCounter
+                        @DotnetFoundationWeb.AppSettings.ResourcesCounter.ToString("N0")
                     </div>
                     <div class="icon-box_icon">
                         <img src="img/github_icon.png" alt="Resources">
