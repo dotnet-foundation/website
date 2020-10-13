@@ -12,7 +12,7 @@ namespace DotnetFoundationWeb
                 ? input
                     .Clone(new MetadataItems
                     {
-                        { SiteKeys.Image, input.ContainsKey(SiteKeys.GitHub) ? input.GetString(SiteKeys.GitHub) + ".png" : "/img/dot_bot.png" }
+                        { SiteKeys.Image, input.ContainsKey(SiteKeys.GitHub) ? input.GetString(SiteKeys.GitHub).TrimEnd('/') + ".png" : "/img/dot_bot.png" }
                     })
                     .Yield()
                 : input
