@@ -9,13 +9,16 @@ Here's the September/October 2020 .NET Foundation update. Every other month, we'
 
 ## General news
 
+### [The .NET Foundation Joins the Open Source Initiative's Affiliate Program](https://opensource.org/affiliates)
+For over 20 years, the Open Source Initiative has worked to raise awareness and adoption of open source software, and build bridges between open source communities of practice. As a global non-profit, the OSI champions software freedom in society through education, collaboration, and infrastructure, stewarding the Open Source Definition (OSD), and preventing abuse of the ideals and ethos inherent to the open source movement.  The .NET Foundation excited to join the OSI and look forward to working together to support open source and building on our existing commitment to interoperability and developer education with other members of the OSI Affiliate community.
+
+### .NET Foundation "All Hands" - Fall 2020 Meeting
+
+The first .NET Foundation All Hands meeting was held on October 13. If you missed the event, you can watch the recording at this link: [https://aka.ms/dnf/all-hands-fall-2020](https://aka.ms/dnf/all-hands-fall-2020).
+
 ## Committee Updates
 
-### Outreach
-
-
 ### Marketing
-
 
 #### Member resources
 We'd like to make our members aware of some marketing resources you can take advantage of.
@@ -29,15 +32,26 @@ Microsoft released updated .NET branding guidelines on GitHub [github.com/dotnet
 
 ## Events
 
+### [Save the date for .NET Conf 2020 November 10-12](https://www.dotnetconf.net/?utm_campaign=savedate&utm_source=dotnefdn&utm_medium=newsletter)
+
+![.NET Conf - November 10-12, 2020](https://user-images.githubusercontent.com/68539/95825273-7383e580-0ce5-11eb-8d4c-8fc7b618da15.png)
+
+.NET Conf is a free, 3-day, virtual developer event organized by the .NET Foundation, Microsoft, and the .NET Community. This year .NET 5 launches at .NET Conf and we’re celebrating the 10th anniversary of the virtual event with some very special guests! Over the course of the three days you have a wide selection of live sessions that feature speakers from the community and .NET team members. There are sessions streaming for 24 hours between day two and three of the conference so everyone can get involved no matter what their time zone. You can ask questions live on Twitter, join the fun on Twitch, attend the virtual attendee party where you can play trivia games and win prizes. Best of all, you can take what you learn here and be a better .NET developer. 
+
+### [.NET Conf Virtual Tour](https://www.dotnetconf.net/local-events?utm_campaign=savedate&utm_source=dotnefdn&utm_medium=newsletter)
+
+This year the .NET Foundation is supporting community-run virtual events to help spread the word about the .NET 5.0 release. We have partnered with organizers around the globe to bring you community virtual events between November 13, 2020 and January 31, 2021. Join your fellow developers in your local time zone and language to learn even more about .NET! Would you like to organize a virtual event for your community? Take a look at our "Event-in-a-box" on GitHub to help you. Let us know about your event by filling out the Virtual Community Event Request Form.
+
 ### "The Maintainers" Video Series Needs You
 Shawn Wildermuth is putting together a short video series about open source maintainers. You can view the existing episodes (with Brad Wilson of xUnit fame; and Jimmy Bogard of AutoMapper) by visiting the [YouTube Playlist](https://shawnw.me/TheMaintainers). If you're interested in being a part of the series, please contact Shawn on [His Website](https://wildermuth.com/contact).
 
-### .NET Conf 2020 dates announced: November 10-12!
-.NET Conf is a free, three day virtual developer event co-organized by the .NET community and Microsoft. This year .NET 5.0 will launch at .NET Conf 2020! See the website for more information and save the date! [www.dotnetconf.net](https://www.dotnetconf.net)
-
-We're also planning our next .NET Conf: "Focus" event, where we continue focusing on specific .NET topics. July 30 we will present a full day of sessions for *.NET Conf: Focus on Microservices* with some very special guests! Learn more: [focus.dotnetconf.net](https://focus.dotnetconf.net)
-
 ## .NET Foundation Project Updates
+
+### Project Spotlight: DNN
+
+We are happy to announce the newest episode of the .NET Foundations' Project Spotlight, where we shine a light on some of the projects that are part of the Foundation by introducing one of the maintainers and showcasing ways to contribute. 
+
+This iteration features [DNN (previously DotNetNuke)](https://github.com/dnnsoftware/Dnn.Platform) and we had one of the project maintainers, [Mitchel Sellers](https://twitter.com/mitchelsellers) on to talk about the goals of the project, how he got started, and what the experience is like for potential contributors. If you are a project maintainer and would like your project featured, plese feel free to file an issue [here](https://github.com/dotnet-foundation/projects/issues/new?assignees=clairernovotny&labels=project+spotlight&template=project-spotlight.md&title=Project+Spotlight+Request%3A+%5BProject+Name%5D) on the projects repo. Link to the latest spotlight, as well as past spotlights can be found at [https://dotnetfoundation.org/projects/spotlight](https://dotnetfoundation.org/projects/spotlight).
 
 ### DotVVM: Join us at .NET Conf Local Event on November 11
 The DotVVM team hosts a live-streamed event called [DotVVM ❤ .NET Conf 2020](https://www.meetup.com/dotvvm/events/273801727/) on November 11th 2:00 PM UTC. 
@@ -56,10 +70,10 @@ The .NET Foundation would like to welcome the following projects that joined in 
 
 |  |  |
 | ------------------- |--------------------|
-| <img width="750px" src="https://user-images.githubusercontent.com/1334951/94056115-b9a6f280-fd92-11ea-972e-9f4c283d0fbc.png" width="750px"> | **nanoFramework**  .NET nanoFramework goal is to be a platform that enables the writing of managed code applications for constrained embedded devices. Developers can harness the familiar IDE Visual Studio and their .NET (C#) knowledge to quickly write applications without having to worry about the low level hardware intricacies of a micro-controller.|
-| <img width="750px" src="https://user-images.githubusercontent.com/1334951/94462641-afa93900-0170-11eb-96df-0d237c5f1675.png" width="750px"> | **Xamarin Community Toolkit** is a collection of common elements for mobile development with Xamarin.Forms that people tend to replicate across multiple apps. It simplifies and demonstrates common developer tasks when building apps with Xamarin.Forms.|
-| <img width="750px" src="https://user-images.githubusercontent.com/1334951/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" width="750px"> | **Esquio** is a Feature Toggles (aka Feature Flags) and A/B testing framework for .NET Core 3.0. Feature Toogle is a powerful technique that allows developers to deliver new functionality to users withouth changing code. Provides an alternative to to mantain multiples branches (aka feature branches), so any feature can be tested even before it is completed and ready for the release. We can release a version of our product with not production ready features. These non production ready features are hidden (toggled) for the broader set of users but can be enabled to any subset of testing or internal users we want them to try the features.We can use feature toogling to enable or disable features during run time.|
-| <img width="750px" src="https://user-images.githubusercontent.com/1334951/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" width="750px"> | **DataGrid Extensions** provides modular extensions for the WPF DataGrid control, like column filtering, Excel like copy/paste and more.  Unlike many other free extensions this package does not introduce a new derived `DataGrid` class, limiting you a fixed set of features that you have to live with, but transparently attaches to the existing `DataGrid`, giving you the freedom to use exactly the feature you need, customizing them as you like, and combining them with other useful extensions.|
+| <img width="150px" src="https://user-images.githubusercontent.com/1334951/94056115-b9a6f280-fd92-11ea-972e-9f4c283d0fbc.png"> | **nanoFramework**  .NET nanoFramework goal is to be a platform that enables the writing of managed code applications for constrained embedded devices. Developers can harness the familiar IDE Visual Studio and their .NET (C#) knowledge to quickly write applications without having to worry about the low level hardware intricacies of a micro-controller.|
+| <img width="150px" src="https://user-images.githubusercontent.com/1334951/94462641-afa93900-0170-11eb-96df-0d237c5f1675.png"> | **Xamarin Community Toolkit** is a collection of common elements for mobile development with Xamarin.Forms that people tend to replicate across multiple apps. It simplifies and demonstrates common developer tasks when building apps with Xamarin.Forms.|
+| <img width="150px" src="https://user-images.githubusercontent.com/1334951/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png"> | **Esquio** is a Feature Toggles (aka Feature Flags) and A/B testing framework for .NET Core 3.0. Feature Toogle is a powerful technique that allows developers to deliver new functionality to users withouth changing code. Provides an alternative to to mantain multiples branches (aka feature branches), so any feature can be tested even before it is completed and ready for the release. We can release a version of our product with not production ready features. These non production ready features are hidden (toggled) for the broader set of users but can be enabled to any subset of testing or internal users we want them to try the features.We can use feature toogling to enable or disable features during run time.|
+| <img width="150px" src="https://user-images.githubusercontent.com/1334951/76426382-3975ee00-6368-11ea-97cf-fee658b2ce35.png" width="750px"> | **DataGrid Extensions** provides modular extensions for the WPF DataGrid control, like column filtering, Excel like copy/paste and more.  Unlike many other free extensions this package does not introduce a new derived `DataGrid` class, limiting you a fixed set of features that you have to live with, but transparently attaches to the existing `DataGrid`, giving you the freedom to use exactly the feature you need, customizing them as you like, and combining them with other useful extensions.|
 
 ## New Releases
 
@@ -77,11 +91,12 @@ Other changes would appeal to the chemist more than the informatics developer.  
 ![image](https://user-images.githubusercontent.com/10074162/91839493-0b9ea180-ec47-11ea-916a-8d0c248ad15c.png)
 
 This has been a tough release to get out, especially given lockdown and the strictures of our new way of living and working.  However, it provides a very much more solid foundation for future enhancements to Chem4Word.
+
 ## Meetups
 
 ### Looking for speakers to go deep on AWS?
 
-Would your user group \ meetup appreciate hearing about .NET on AWS from an AWS .NET developer advocate? The team of longtime .NET developers would be thrilled to join your virtual user group to chat about the latest for .NET in the cloud. 
+Would your user group / meetup appreciate hearing about .NET on AWS from an AWS .NET developer advocate? The team of longtime .NET developers would be thrilled to join your virtual user group to chat about the latest for .NET in the cloud. 
 
 Here’s a list of example topics:
 - **Overview of .NET on AWS:** AWS has over a decade supporting .NET on the cloud. We’ll provide an overview of all the support you might not know existed, such as free tools for Visual Studio, PowerShell, Azure DevOps, etc.
@@ -94,9 +109,9 @@ You can contact the .NET developer advocacy team at **[aws-dotnetfdn-interest-op
 
 ### Sponsored Meetups
 **Our .NET Foundation sponsored [.NET Meetup Pro groups](https://www.meetup.com/pro/dotnet) are continuing to grow worldwide.** Here are some quick stats:*
-* 366 Groups
-* 66 Countries
-*	311K Members
+* 370 Groups
+* 67 Countries
+* 315K Members
 
 Our .NET Meetup Pro group helps developers find your group, as well as get involved with local events like .NET Conf Local. If your meetup hasn't joined yet, you can [right here](https://aka.ms/add-dotnet-meetup).
 
