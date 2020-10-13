@@ -7,6 +7,8 @@ Excluded: true
 ---
 Here's the September/October 2020 .NET Foundation update. Every other month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.
 
+[Sign up for the newsletter](http://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
+
 ## General news
 
 ### [The .NET Foundation Joins the Open Source Initiative's Affiliate Program](https://opensource.org/affiliates)
@@ -22,13 +24,15 @@ The first .NET Foundation All Hands meeting was held on October 13. If you misse
 
 ### [Save the date for .NET Conf 2020 November 10-12](https://www.dotnetconf.net/?utm_campaign=savedate&utm_source=dotnefdn&utm_medium=newsletter)
 
-![.NET Conf - November 10-12, 2020](https://user-images.githubusercontent.com/68539/95825273-7383e580-0ce5-11eb-8d4c-8fc7b618da15.png)
+[![.NET Conf - November 10-12, 2020](https://user-images.githubusercontent.com/68539/95825273-7383e580-0ce5-11eb-8d4c-8fc7b618da15.png)](https://www.dotnetconf.net/?utm_campaign=savedate&utm_source=dotnefdn&utm_medium=newsletter)
 
 .NET Conf is a free, 3-day, virtual developer event organized by the .NET Foundation, Microsoft, and the .NET Community. This year .NET 5 launches at .NET Conf and we’re celebrating the 10th anniversary of the virtual event with some very special guests! Over the course of the three days you have a wide selection of live sessions that feature speakers from the community and .NET team members. There are sessions streaming for 24 hours between day two and three of the conference so everyone can get involved no matter what their time zone. You can ask questions live on Twitter, join the fun on Twitch, attend the virtual attendee party where you can play trivia games and win prizes. Best of all, you can take what you learn here and be a better .NET developer. 
 
+[Save the date!](https://www.dotnetconf.net/?utm_campaign=savedate&utm_source=dotnefdn&utm_medium=newsletter)
+
 ### [.NET Conf Virtual Tour](https://www.dotnetconf.net/local-events?utm_campaign=savedate&utm_source=dotnefdn&utm_medium=newsletter)
 
-This year the .NET Foundation is supporting community-run virtual events to help spread the word about the .NET 5.0 release. We have partnered with organizers around the globe to bring you community virtual events between November 13, 2020 and January 31, 2021. Join your fellow developers in your local time zone and language to learn even more about .NET! Would you like to organize a virtual event for your community? Take a look at our "Event-in-a-box" on GitHub to help you. Let us know about your event by filling out the Virtual Community Event Request Form.
+This year the .NET Foundation is supporting community-run virtual events to help spread the word about the .NET 5.0 release. We have partnered with organizers around the globe to bring you community virtual events between November 13, 2020 and January 31, 2021. Join your fellow developers in your local time zone and language to learn even more about .NET! Would you like to organize a virtual event for your community? Take a look at our ["Event-in-a-box" on GitHub](https://github.com/dotnet-presentations/dotNETConf/tree/master/2020/MainEvent) to help you. Let us know about your event by filling out the [Virtual Community Event Request Form](https://bit.ly/3mR1lsA).
 
 ### "The Maintainers" Video Series Needs You
 Shawn Wildermuth is putting together a short video series about open source maintainers. You can view the existing episodes (with Brad Wilson of xUnit fame; and Jimmy Bogard of AutoMapper) by visiting the [YouTube Playlist](https://shawnw.me/TheMaintainers). If you're interested in being a part of the series, please contact Shawn on [His Website](https://wildermuth.com/contact).
@@ -80,37 +84,6 @@ Other changes would appeal to the chemist more than the informatics developer.  
 
 This has been a tough release to get out, especially given lockdown and the strictures of our new way of living and working.  However, it provides a very much more solid foundation for future enhancements to Chem4Word.
 
-#### Member resources
-We'd like to make our members aware of some marketing resources you can take advantage of.
 
-- *Help spread .NET Foundation's message*: Take a look at the [.NET Foundation slides](https://dotnetfoundation.sharepoint.com/:p:/s/Marketing/EbxGONyybLRMoe6MgPNUEi4BdDuEWNLmdfV_s8INO9nWTw?e=mImEov) and use them in your presentations and events.
-- *Promote your .NET open source content, events, project news*: If you'd like to promote something on the .NET Foundation social channels, fill out the [amplification request issue template on our content repo](https://github.com/dotnet-foundation/content/issues/new?assignees=&labels=&template=content-amplification-request.md&title=%5BAMPLIFICATION%5D+-+Title) and we'll get you scheduled.
-- *Write a guest blog post or submit a video to our YouTube*: If you would like to propose creating content like a guest blog post or video, fill out the [content creation request issue template on our content repo](https://github.com/dotnet-foundation/content/issues/new?assignees=&labels=&template=content-creation-request.md&title=%5BCREATION%5D+-+Title) and we'll work with you on getting your content created.
 
-#### .NET branding guidelines
-Microsoft released updated .NET branding guidelines on GitHub [github.com/dotnet/brand](https://github.com/dotnet/brand). The purpose of these guidelines is to provide a framework for communicating with the .NET developer community and establishing a consistent brand identity. This not only includes the logo & typeface but also consistent messaging, terminology, fun illustrations and presentation templates you can use. 
 
-## Meetups
-
-### Looking for speakers to go deep on AWS?
-
-Would your user group / meetup appreciate hearing about .NET on AWS from an AWS .NET developer advocate? The team of longtime .NET developers would be thrilled to join your virtual user group to chat about the latest for .NET in the cloud. 
-
-Here’s a list of example topics:
-- **Overview of .NET on AWS:** AWS has over a decade supporting .NET on the cloud. We’ll provide an overview of all the support you might not know existed, such as free tools for Visual Studio, PowerShell, Azure DevOps, etc.
-- **Building serverless with .NET:** The future is now for serverless, and AWS is ensuring .NET is vibrant in that future. We’ll show you how anybody can get started and take advantage of the speed and ease of using serverless with .NET.
-- **Infrastructure as .NET:** Why learn JSON or YAML to build on the cloud if you can just use .NET? Learn how to model and provision cloud resources in .NET with the open source AWS Cloud Development Kit (CDK)
-- **PowerShell on AWS:** AWS supports PowerShell and makes it easy to manage your AWS resources in a PowerShell scripting environment. We’ll show you all the things you can easily do on AWS with PowerShell, including native support for serverless. 
-- **Something else?** What are you interested in hear about? Blazor? ML? Reach out and let us know.
-
-You can contact the .NET developer advocacy team at **[aws-dotnetfdn-interest-open@amazon.com](mailto://aws-dotnetfdn-interest-open@amazon.com)**. Cheers!
-
-### Sponsored Meetups
-**Our .NET Foundation sponsored [.NET Meetup Pro groups](https://www.meetup.com/pro/dotnet) are continuing to grow worldwide.** Here are some quick stats:*
-* 370 Groups
-* 67 Countries
-* 315K Members
-
-Our .NET Meetup Pro group helps developers find your group, as well as get involved with local events like .NET Conf Local. If your meetup hasn't joined yet, you can [right here](https://aka.ms/add-dotnet-meetup).
-
-![Map of meetup group locations](https://user-images.githubusercontent.com/1427284/74241694-64015800-4c91-11ea-9431-736bc05717a0.png)
