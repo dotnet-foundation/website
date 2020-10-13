@@ -66,7 +66,7 @@ namespace DotnetFoundationWeb
             IReadOnlyList<string> topics = document.GetList<string>(SiteKeys.Topics);
             if (topics == null || topics.Count == 0)
             {
-                context.Add(document, "No topics specified");
+                // No topics, but that's okay (if we ever want to enforce at least one topic, add an analyzer result here)
                 return;
             }
             string[] nonApprovedTopics = topics.Where(x => !Topics.Contains(x)).ToArray();
