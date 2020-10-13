@@ -22,13 +22,13 @@ namespace DotnetFoundationWeb
 
         public static string AzureSearchQueryKey { get; set; } = ConfigurationManager.AppSettings["AzureSearchQueryKey"];
 
-        public static string ContributionsCounter { get; set; } = ConfigurationManager.AppSettings["ContributionsCounter"];
+        public static int ContributionsCounter { get; set; } = int.Parse(ConfigurationManager.AppSettings["ContributionsCounter"]);
 
-        public static string CompaniesCounter { get; set; } = ConfigurationManager.AppSettings["CompaniesCounter"];
+        public static int CompaniesCounter { get; set; } = int.Parse(ConfigurationManager.AppSettings["CompaniesCounter"]);
 
-        public static string ActiveProjectsCounter { get; set; } = ConfigurationManager.AppSettings["ActiveProjectsCounter"];
+        public static int ActiveProjectsCounter { get; set; } = int.Parse(ConfigurationManager.AppSettings["ActiveProjectsCounter"]);
 
-        public static string ResourcesCounter { get; set; } = ConfigurationManager.AppSettings["ResourcesCounter"];
+        public static int ResourcesCounter { get; set; } = int.Parse(ConfigurationManager.AppSettings["ResourcesCounter"]);
 
         public static string GoogleAnalytics { get; set; } = ConfigurationManager.AppSettings["GoogleAnalytics"];
 
