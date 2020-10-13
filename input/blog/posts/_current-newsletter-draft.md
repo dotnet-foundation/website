@@ -17,7 +17,7 @@ We are thrilled to welcome Octopus Deploy as a new corporate sponsor of the .NET
 
 ## Events
 
-[.NET Foundation "All Hands" - Fall 2020 Meeting](https://aka.ms/dnf/all-hands-fall-2020)
+### [.NET Foundation "All Hands" - Fall 2020 Meeting](https://aka.ms/dnf/all-hands-fall-2020)
 The first .NET Foundation All Hands meeting was held on October 13. If you missed the event, you can watch the recording at this link: https://aka.ms/dnf/all-hands-fall-2020.
 
 ### [Save the date for .NET Conf 2020 November 10-12](https://www.dotnetconf.net/?utm_campaign=savedate&utm_source=dotnefdn&utm_medium=newsletter)
