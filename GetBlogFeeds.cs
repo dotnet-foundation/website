@@ -151,8 +151,7 @@ namespace DotnetFoundationWeb
                 context.LogWarning($"No RSS specified for unknown speaker.");
               }
             }
-            
-            return null;
+            return input.Yield();
         }
     }
 }
