@@ -1,4 +1,4 @@
-Title: Michael A. Hawker (a.k.a. XAML Llama)
+Title: Michael A. Hawker
 Location: Seattle, Washington USA
 Language:
   - English
@@ -8,7 +8,6 @@ Topics:
   - Open Source
   - UWP
   - Windows Development
-  - XAML
 Blog: https://devblogs.microsoft.com/pax-windows/author/xamlllama/
 Feed: https://devblogs.microsoft.com/pax-windows/author/xamlllama/feed/
 Twitter: https://twitter.com/XAMLLlama
