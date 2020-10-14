@@ -1,6 +1,5 @@
 Title: Carlos Mendible
 Location: Madrid, Spain
-Email: cmendible@outlook.com
 Language:
   - English
   - Spanish
