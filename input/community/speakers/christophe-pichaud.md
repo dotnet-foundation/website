@@ -14,7 +14,7 @@ Topics:
   - Visual Studio
   - Windows Development
 Blog: www.christophep.com
-Twitter: windowscpp
+Twitter: https://twitter.com/windowscpp
 GitHub: github.com/christophepichaud
 LinkedIn: https://www.linkedin.com/in/christophe-pichaud-3802323/
 Dev: www.netazurerangers.com
