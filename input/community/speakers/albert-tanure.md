@@ -28,11 +28,11 @@ Topics:
   - Xamarin.Forms
 Blog: http://www.codefc.com.br
 Feed: https://codefc.com.br/feed/
-Twitter: alberttanure
+Twitter:  https://twitter.com/alberttanure
 GitHub: https://github.com/tanure
 LinkedIn: https://www.linkedin.com/in/albert-tanure
 YouTube: https://www.youtube.com/codefc
-Instagram: albert_tanure
+Instagram: https://www.instagram.com/albert_tanure/
 Mentor: true
 Mentee: true
 ---
