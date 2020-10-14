@@ -18,7 +18,7 @@ Topics:
 Blog: https://blog.keboo.dev
 Twitter: https://twitter.keboo.dev
 GitHub: https://github.keboo.dev
-LinkedIn: https://linkedin.keboo.dev/
+LinkedIn: https://linkedin.keboo.dev
 Twitch: https://twitch.keboo.dev
 YouTube: https://youtube.keboo.dev
 ---
