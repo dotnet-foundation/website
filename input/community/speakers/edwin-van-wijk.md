@@ -16,7 +16,7 @@ Topics:
   - Microservices
   - Open Source
   - Serverless
-Twitter: https:/twitter.com/evanwijk
+Twitter: https://twitter.com/evanwijk
 GitHub: https://github.com/edwinvw
 Sessionize: https://sessionize.com/edwin-van-wijk/
 YouTube: https://youtube.com/dotnetflix
