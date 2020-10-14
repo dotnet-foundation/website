@@ -11,7 +11,6 @@ Topics:
   - UWP
   - Windows Development
   - WPF
-  - WinUI
 Twitter: https://twitter.com/marbtweeting
 GitHub: https://github.com/marb2000
 LinkedIn: https://www.linkedin.com/in/miguelrb/
