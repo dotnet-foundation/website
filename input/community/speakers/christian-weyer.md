@@ -20,7 +20,7 @@ Topics:
   - Visual Studio Code
   - Web Development
 Blog: https://www.thinktecture.com/de/christian-weyer
-Twitter: christianweyer
+Twitter: @christianweyer
 GitHub: https://github.com/ChristianWeyer?tab=repositories
 Mentor: true
 ---
