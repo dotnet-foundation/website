@@ -15,7 +15,6 @@ Topics:
   - Windows Development
 Blog: www.christophep.com
 Twitter: https://twitter.com/windowscpp
-GitHub: github.com/christophepichaud
 LinkedIn: https://www.linkedin.com/in/christophe-pichaud-3802323/
 Mentor: true
 ---
