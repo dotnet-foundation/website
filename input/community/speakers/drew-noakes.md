@@ -9,7 +9,6 @@ Topics:
   - Architecture
   - C#
   - JavaScript
-  - TypeScript
   - Machine Learning
   - Open Source
   - Visual Studio
