@@ -2,6 +2,7 @@
 title: .NET Foundation
 description: You've found the heartbeat of .NET - where projects and communities come together to get things done in our open-source world. Share your skills for the greater good. Meet in person, get involved virtually, and stay on top of the latest news, meetups, and events.
 isHome: true
+useFunctionsJS: true
 ---
 <section id="home-hero">
     <div id="home-hero_container" class="container-fluid d-flex justify-content-center position-relative">
@@ -119,23 +120,15 @@ isHome: true
         <div class="page-section_row row" style="align-items: center" id="PresetFeaturedProject">
             			<div class="page-section_column col-sm-7 text-left" id="home-featured-project_container">
 					<h2>Project Spotlight</h2>
-					<h3><a href="https://cakebuild.net/">Project Website</a></h3>
+					<h3>	<a id="projectWebsite" href="" target="_blank">Project Website</a></h3>
 					<p>
-							Cake (C# Make) is a cross-platform build automation system with a C# DSL for tasks such as compiling code,
-				copying files and folders, running unit tests, compressing files and building NuGet packages.
-				It ships both as a <a href="https://www.nuget.org/packages/Cake.Tool/" target="_blank">.Net Global Tool</a> and a <a href="https://www.nuget.org/packages/Cake/" target="_blank">.Net Framework executable</a>.
-				Out of the box it contains a number of different aliases to allow you to quickly orchestrate your build process, such as MSBuild, DotNet Core CLI,
-				NuGet, and Chocolatey.  In addition, there are over <a href="https://www.nuget.org/profiles/cake-contrib" target="_blank">280 community driven addins</a> which allow you
-				to perform other build tasks. For information on getting started with Cake, reference the <a href="https://cakebuild.net/docs/getting-started/running-cake-scripts" target="blank">Running Cake Scripts Documentation</a>.
-					</p>
-					<h4>
-							<a href="https://cakebuild.net/">More on cakebuild.net&gt;</a>
-					</h4>
+				        <span id="projectDescription"></span>
+                    </p>
 			</div>
 			<div class="page-section_column col-sm-5">
 					<div class="video-iframe">
                          <div class="video-iframe-item">
-                             <iframe width="560" height="315" src="https://www.youtube.com/embed/DfmX5ySdmv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             <iframe id="projectYouTube" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                          </div>
                      </div>
 			</div>
@@ -191,3 +184,23 @@ isHome: true
         </div>
     </div>
 </section>
+
+<script type="text/javascript">
+(async function () {
+var projects = []
+var project;
+$.ajax({
+    url: "/api/project-spotlight",
+    type: "GET",
+    async: false,
+    success: function (ps) {
+        projects = ps;
+        project = ps[0];
+       }
+    });
+
+document.getElementById("projectDescription").innerHTML = project.projectDescription;
+document.getElementById("projectYouTube").src = project.youtubeUrl;
+document.getElementById("projectWebsite").href = project.projectWebsite;
+})();
+</script>
