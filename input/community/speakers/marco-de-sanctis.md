@@ -24,7 +24,7 @@ Topics:
   - SignalR
   - Visual Studio
   - Web Development
-Blog: https://medium.com/@marcodesanctis2
+Blog: https://medium.com/%40marcodesanctis2
 Twitter: @crad77
 GitHub: https://github.com/cradle77
 LinkedIn: https://www.linkedin.com/in/desanctismarco/
