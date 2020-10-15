@@ -26,11 +26,11 @@ Topics:
   - Web Development
 Blog: Https://seankilleen.com
 Feed: https://seankilleen.com/feed.xml
-Twitter: http://twitter.com/sjkilleen
-GitHub: Http://GitHub.com/SeanKilleen
+Twitter: https://twitter.com/sjkilleen
+GitHub: Https://GitHub.com/SeanKilleen
 StackOverflow: https://stackoverflow.com/users/316847/seankilleen
-LinkedIn: Http://LinkedIn.com/in/seankilleen
-Twitch: Http://twitch.tv/sjkilleen
+LinkedIn: Https://LinkedIn.com/in/seankilleen
+Twitch: Https://twitch.tv/sjkilleen
 Sessionize: https://sessionize.com/SeanKilleen/
 YouTube: https://www.youtube.com/c/SeanKilleen
 Dev: https://dev.to/seankilleen
