@@ -14,7 +14,7 @@ Topics:
   - Open Source
   - Serverless
 Blog: Https://fluentbytes.com
-Twitter: https://twitter/marcelv
+Twitter: https://Twitter.com/marcelv
 GitHub: Vriesmarcel
 LinkedIn: https://www.linkedin.com/in/marcelv
 Sessionize: https://sessionize.com/marcelv/
