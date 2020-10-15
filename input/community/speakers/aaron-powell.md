@@ -2,7 +2,7 @@ Title: Aaron Powell
 Twitter: https://twitter.com/slace
 Blog: https://www.aaron-powell.com
 Feed: https://www.aaron-powell.com/index.xml
-GitHub: http://github.com/aaronpowell
+GitHub: https://github.com/aaronpowell
 StackOverflow: https://stackoverflow.com/users/11388/aaron-powell
 LinkedIn: https://www.linkedin.com/in/aaron-powell-66038631
 Twitch: https://www.twitch.tv/NumberOneAaron/

@@ -81,7 +81,7 @@
                                 <label class="font-weight-bold" for="feed">Blog RSS Feed</label>
                             </div>
                         </div>
-                        @foreach (string speakerLinkKey in SpeakerLinkAttribute.GetAll().Keys)
+                        @foreach (string speakerLinkKey in SpeakerLinkAttribute.GetAll().Where(x => x.Value.DisplayOnAddPage).Select(x => x.Key))
                         {
                             <div class="row mb-3">
                                 <div class="col">
