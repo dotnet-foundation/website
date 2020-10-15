@@ -22,4 +22,4 @@ I have been a professional programmer for 19 years, although I did write my firs
 
 I'm also a member of the .NET Foundation, and I specializes in all things .NET with a focus on performance, security, and analytics/telemetry.
 
-When I'm not working, I enjoys time with my family, training Judo and the occasional beer when meeting fellow developers.
+When I'm not working, I enjoy time with my family, training Judo and the occasional beer when meeting fellow developers.
