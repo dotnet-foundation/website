@@ -13,7 +13,9 @@
         public const string Lat = nameof(Lat);  // Fetched based on Location, but can be explicitly provided
         public const string Lon = nameof(Lon);  // Fetched based on Location, but can be explicitly provided
         public const string Topics = nameof(Topics);
+        [SpeakerLink("fas fa-pencil-alt", false, false)]
         public const string Blog = nameof(Blog);
+        [SpeakerLink(null, false, false)]
         public const string Feed = nameof(Feed);
         [SpeakerLink("fab fa-twitter")]
         public const string Twitter = nameof(Twitter);
