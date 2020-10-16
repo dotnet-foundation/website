@@ -22,14 +22,14 @@ Topics:
   - Web Development  
 Blog: https://willstrohl.com/Blog  
 Feed: https://willstrohl.com/DesktopModules/LiveBlog/API/Syndication/GetRssFeeds?mid=447&PortalId=0&tid=92&ItemCount=20  
-Twitter: http://www.twitter.com/upendoventures  
+Twitter: https://www.twitter.com/upendoventures  
 GitHub: https://github.com/hismightiness  
 StackOverflow: https://stackoverflow.com/users/152726/will-strohl  
 LinkedIn: https://www.linkedin.com/in/willstrohl/  
 Sessionize: https://sessionize.com/will-strohl/  
 MeetUp: https://www.meetup.com/members/26303232/  
 YouTube: https://www.youtube.com/channel/UC9OtKeLeWVGmVUYhhns2GNQ  
-Instagram: http://www.instagram.com/UpendoVentures  
+Instagram: https://www.instagram.com/UpendoVentures  
 Mentor: true
 ---  
 Will Strohl is a published author and technologist in the San Francisco area.  During his career, Will has held positions ranging from Help Desk Technician to being the CEO & Co-Owner at  Hotcakes Commerce ([mmmCommerce.com](https://mmmCommerce.com)).  He even spent a few years at DNN Corp where he ran the evangelism, training, and sales engineering departments.  Today, Will is the founder and CEO of Upendo Ventures ([UpendoVentures.com](UpendoVentures.com)), providing software development, training, and technical consulting to companies around the world.  
