@@ -112,5 +112,5 @@ Published: 2020-02-11
 
 <p>Our .NET Meetup Pro group helps developers find your group, as well as get involved with local events like .NET Conf Local. If your meetup hasn't joined yet, you can <a href="https://aka.ms/add-dotnet-meetup" rel="nofollow">right here</a>.</p>
 
-<p><a href="/assets/74241694-64015800-4c91-11ea-9431-736bc05717a0.png" rel="noopener noreferrer" target="_blank"><img alt="Map of meetup group locations" src="assets/posts/74241694-64015800-4c91-11ea-9431-736bc05717a0.png" style="max-width:100%;" /></a></p>
+<p><a href="/assets/posts/74241694-64015800-4c91-11ea-9431-736bc05717a0.png" rel="noopener noreferrer" target="_blank"><img alt="Map of meetup group locations" src="assets/posts/74241694-64015800-4c91-11ea-9431-736bc05717a0.png" style="max-width:100%;" /></a></p>
 </article>
