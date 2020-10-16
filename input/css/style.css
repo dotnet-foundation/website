@@ -1596,7 +1596,14 @@ p.profile-company {
 }
 
 .profile-details {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;  
   padding-bottom: 0.5rem;
+}
+
+.profile-details .pr-2 {
+    padding: .15em;
 }
 
 @media (min-width: 768px) {
