@@ -34,10 +34,12 @@
                         {
                             <div class="mb-4">
                                 <h3>Topics</h3>
+                                <div class="topic-details">
                                 @foreach (string topic in Document.GetList<string>(SiteKeys.Topics))
                                 {
                                     <a href="/community/speakers?topic=@topic" class="btn btn-dark">@topic</a>
                                 }
+                                </div>
                             </div>
                         }
 
