@@ -62,6 +62,6 @@ ContentType: Asset
   "platformErrorOverrides": [
     {
       "errorType": "NotFound",
-      "serve": "/errors/404"
+      "serve": "/404.html"
     }
   }
