@@ -14,8 +14,8 @@ Topics:
   - Visual Studio Code
   - Web Development
 Blog: https://www.bitnative.com
-Twitter: http://www.twitter.com/housecor
-GitHub: http://www.github.com/coryhouse
+Twitter: https://www.twitter.com/housecor
+GitHub: https://www.github.com/coryhouse
 StackOverflow: https://stackoverflow.com/users/26180/cory-house
 LinkedIn: https://www.linkedin.com/in/coryhouse/
 ---
