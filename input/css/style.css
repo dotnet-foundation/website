@@ -1606,6 +1606,16 @@ p.profile-company {
     padding: .15em;
 }
 
+.topic-details {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.topic-details > .btn {
+    margin: .15em;
+}
+
 @media (min-width: 768px) {
   .navbar-expand-md .navbar-toggler {
     display: block;
