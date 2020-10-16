@@ -6,7 +6,6 @@ Language:
   - English
 Topics:
   - .NET
-  - Roslyn
   - C#
   - Open Source
   - Visual Studio
@@ -19,7 +18,7 @@ LinkedIn: https://www.linkedin.com/in/davidwengier/
 Twitch: https://twitch.tv/davidwengier
 Sessionize: https://sessionize.com/davidwengier/
 MeetUp: https://www.meetup.com/members/204877762/
-YouTube: http://youtube.com/davidwengier
+YouTube: https://youtube.com/davidwengier
 Dev: https://dev.to/davidwengier
 Mentor: true
 ---
