@@ -1,6 +1,6 @@
 ContentType: Asset
 ---
-{ 
+{
   "ShouldOutput": true,
   "routes": [
     {
@@ -8,7 +8,6 @@ ContentType: Asset
       "serve": "/about/code-of-conduct",
       "statusCode": 301
     },
-
     {
       "route": "/Get-Involved",
       "serve": "/community/get-involved",
@@ -59,5 +58,10 @@ ContentType: Asset
       "serve": "/blog/2015/07/02/welcomeworldwidetelescope",
       "statusCode": 301
     }
-  ]
-} 
+  ],
+  "platformErrorOverrides": [
+    {
+      "errorType": "NotFound",
+      "serve": "/errors/404"
+    }
+  }
