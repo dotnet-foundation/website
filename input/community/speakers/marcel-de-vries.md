@@ -15,7 +15,7 @@ Topics:
   - Serverless
 Blog: https://fluentbytes.com
 Twitter: https://Twitter.com/marcelv
-GitHub: Vriesmarcel
+GitHub: https://github.com/vriesmarcel
 LinkedIn: https://www.linkedin.com/in/marcelv
 Sessionize: https://sessionize.com/marcelv/
 Mentor: true
