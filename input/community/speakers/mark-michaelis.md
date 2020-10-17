@@ -21,15 +21,15 @@ Topics:
   - Visual Studio 
   - Visual Studio Code 
   - Web Development 
-  Blog: https://intellitect.com/mark
-  Feed: http://feeds.feedburner.com/intellitect/mark
-  Twitter: https://twitter.com/markmichaelis
-  GitHub: https://github.com/markmichaelis
-  LinkedIn: https://www.linkedin.com/in/markmichaelis
-  MeetUp: https://www.meetup.com/Spokane-NET-User-Group
-  YouTube: https://www.youtube.com/channel/UCZSEfrUQnLLohBWDKRRSohw
-  Instagram: https://www.instagram.com/team_intellitect/
-  Mentor: true
+Blog: https://intellitect.com/mark
+Feed: http://feeds.feedburner.com/intellitect/mark
+Twitter: https://twitter.com/markmichaelis
+GitHub: https://github.com/markmichaelis
+LinkedIn: https://www.linkedin.com/in/markmichaelis
+MeetUp: https://www.meetup.com/Spokane-NET-User-Group
+YouTube: https://www.youtube.com/channel/UCZSEfrUQnLLohBWDKRRSohw
+Instagram: https://www.instagram.com/team_intellitect/
+Mentor: true
 ---
 [Mark Michaelis](https://intellitect.com/Mark) is the founder and CEO of IntelliTect, an innovative software architecture and development consulting firm based in Spokane, Washington. At any given time, Mark leads his successful company while flying all over the world for speaking engagements on behalf of Microsoft or other clients. He continually delivers conference sessions on leadership or technology, is updating the next edition of his book or is crafting his next technical article or blog.
 
