@@ -13,7 +13,7 @@ Topics:
   - Microservices
   - Open Source
   - Serverless
-Blog: Https://fluentbytes.com
+Blog: https://fluentbytes.com
 Twitter: https://Twitter.com/marcelv
 GitHub: Vriesmarcel
 LinkedIn: https://www.linkedin.com/in/marcelv
