@@ -1,6 +1,6 @@
 ---
 Title: Geoffrey Huntley
-Location: [Brisbane|Sydney|Melbourne], Australia
+Location: "[Brisbane|Sydney|Melbourne], Australia"
 Email: ghuntley@ghuntley.com
 Language:
   - English
