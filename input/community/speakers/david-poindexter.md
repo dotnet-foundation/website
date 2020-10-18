@@ -25,7 +25,7 @@ Feed: https://dnncommunity.org/DesktopModules/Blog/API/RSS/Get?tabid=65&moduleid
 Twitter: https://twitter.com/davidpoindexter
 GitHub: https://github.com/david-poindexter
 StackOverflow: https://stackoverflow.com/users/4151096/david-poindexter?tab=profile
-LinkedIn: www.linkedin.com/in/davidpoindexter
+LinkedIn: https://www.linkedin.com/in/davidpoindexter/
 Twitch: https://www.twitch.tv/dpoinde
 Sessionize: https://sessionize.com/david-poindexter/
 MeetUp: https://www.meetup.com/members/93313702/
