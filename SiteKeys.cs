@@ -17,7 +17,7 @@
         public const string Blog = nameof(Blog);
         [SpeakerLink(null, false, false)]
         public const string Feed = nameof(Feed);
-        [SpeakerLink("fab fa-twitter", true, true, "https://twitter.com/[yourUsername]")]
+        [SpeakerLink("fab fa-twitter", true, true, "https://twitter.com/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Tt][Ww][Ii][Tt][Tt][Ee][Rr]\\.[Cc][Oo][Mm]\\/*")]
         public const string Twitter = nameof(Twitter);
         [SpeakerLink("fab fa-github", true, true, "https://github.com/[yourUsername]")]
         public const string GitHub = nameof(GitHub);
