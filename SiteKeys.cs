@@ -19,7 +19,7 @@
         public const string Feed = nameof(Feed);
         [SpeakerLink("fab fa-twitter", true, true, "https://twitter.com/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Tt][Ww][Ii][Tt][Tt][Ee][Rr]\\.[Cc][Oo][Mm]\\/*")]
         public const string Twitter = nameof(Twitter);
-        [SpeakerLink("fab fa-github", true, true, "https://github.com/[yourUsername]")]
+        [SpeakerLink("fab fa-github", true, true, "https://github.com/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Gg][Ii][Tt][Hh][Uu][Bb]\\.[Cc][Oo][Mm]\\/*")]
         public const string GitHub = nameof(GitHub);
         [SpeakerLink("fab fa-stack-overflow", true, true, "https://stackoverflow.com/users/[yourUserId]/[yourUsername]")]
         public const string StackOverflow = nameof(StackOverflow);
