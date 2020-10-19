@@ -7,7 +7,7 @@ namespace DotnetFoundationWeb
 {
     public class SpeakerLinkAttribute : Attribute
     {
-        public SpeakerLinkAttribute(string iconClass, bool enforceHttps = true, bool displayOnAddPage = true, exampleUrl = "")
+        public SpeakerLinkAttribute(string iconClass, bool enforceHttps = true, bool displayOnAddPage = true, string exampleUrl = "")
         {
             IconClass = iconClass;
             EnforceHttps = enforceHttps;
