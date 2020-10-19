@@ -93,14 +93,11 @@
                                         class="form-control">
                                 </div>
                                 <div class="col">
-                                    <label class="font-weight-bold" for="@speakerLink.Key.ToLower()">@speakerLink.Key 
-                                        
-                                        @if(!string.IsNullOrWhiteSpace(speakerLink.Value.ExampleUrl)) 
-                                        { 
-                                            <text>| Example: @speakerLink.Value.ExampleUrl</text>
-                                        }
-                                            
-                                    </label>
+                                    <label class="font-weight-bold" for="@speakerLink.Key.ToLower()">@speakerLink.Key</label>
+                                    @if (!string.IsNullOrWhiteSpace(speakerLink.Value.ExampleUrl))
+                                    {
+                                        <div class="text-muted"><small>Example: @speakerLink.Value.ExampleUrl</small></div>
+                                    }
                                 </div>
                             </div>
                         }
