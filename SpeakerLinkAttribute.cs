@@ -22,8 +22,10 @@ namespace DotnetFoundationWeb
 
         public bool DisplayOnAddPage { get; set; }
         
-        public string ExampleUrl {get; set; }
+        // A friendly example to be displayed in the UI as a reference
+        public string ExampleUrl { get; set; }
 
+        // The html5 validation pattern that will be used in the UI
         public string ValidationPattern {get;set;}
 
         public static Dictionary<string, SpeakerLinkAttribute> GetAll() =>
