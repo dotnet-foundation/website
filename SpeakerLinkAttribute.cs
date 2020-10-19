@@ -7,12 +7,13 @@ namespace DotnetFoundationWeb
 {
     public class SpeakerLinkAttribute : Attribute
     {
-        public SpeakerLinkAttribute(string iconClass, bool enforceHttps = true, bool displayOnAddPage = true, string exampleUrl = "")
+        public SpeakerLinkAttribute(string iconClass, bool enforceHttps = true, bool displayOnAddPage = true, string exampleUrl = "", string validationPattern = "")
         {
             IconClass = iconClass;
             EnforceHttps = enforceHttps;
             DisplayOnAddPage = displayOnAddPage;
             ExampleUrl = exampleUrl;
+            ValidationPattern = validationPattern;
         }
 
         public string IconClass { get; set; }
@@ -22,6 +23,8 @@ namespace DotnetFoundationWeb
         public bool DisplayOnAddPage { get; set; }
         
         public string ExampleUrl {get; set; }
+
+        public string ValidationPattern {get;set;}
 
         public static Dictionary<string, SpeakerLinkAttribute> GetAll() =>
             typeof(SiteKeys)
