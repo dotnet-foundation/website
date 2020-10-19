@@ -21,7 +21,7 @@
         public const string Twitter = nameof(Twitter);
         [SpeakerLink("fab fa-github", true, true, "https://github.com/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Gg][Ii][Tt][Hh][Uu][Bb]\\.[Cc][Oo][Mm]\\/*")]
         public const string GitHub = nameof(GitHub);
-        [SpeakerLink("fab fa-stack-overflow", true, true, "https://stackoverflow.com/users/[yourUserId]/[yourUsername]")]
+        [SpeakerLink("fab fa-stack-overflow", true, true, "https://stackoverflow.com/users/[yourUserId]/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Ss][Tt][Aa][Cc][Kk][Oo][Vv][Ee][Rr][Ff][Ll][Oo][Ww]\\.[Cc][Oo][Mm]\\/[Uu][Ss][Ee][Rr][Ss]\\/\\d+\\/*")]
         public const string StackOverflow = nameof(StackOverflow);
         [SpeakerLink("fab fa-linkedin", true, true, "https://linkedin.com/in/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Ll][Ii][Nn][Kk][Ee][Dd][Ii][Nn]\\.[Cc][Oo][Mm]\\/[Ii][Nn]\\/*")]
         public const string LinkedIn = nameof(LinkedIn);
