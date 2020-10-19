@@ -85,7 +85,12 @@
                         {
                             <div class="row mb-3">
                                 <div class="col">
-                                    <input type="url" id="@speakerLink.Key.ToLower()" class="form-control">
+                                    <input type="url" id="@speakerLink.Key.ToLower()" 
+                                    
+                                    @if (!string.IsNullOrWhiteSpace(speakerLink.Value.ValidationPattern)) { 
+                                        <text>pattern="@speakerLink.Value.ValidationPattern"</text> 
+                                        } 
+                                        class="form-control">
                                 </div>
                                 <div class="col">
                                     <label class="font-weight-bold" for="@speakerLink.Key.ToLower()">@speakerLink.Key 
