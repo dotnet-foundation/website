@@ -17,25 +17,25 @@
         public const string Blog = nameof(Blog);
         [SpeakerLink(null, false, false)]
         public const string Feed = nameof(Feed);
-        [SpeakerLink("fab fa-twitter")]
+        [SpeakerLink("fab fa-twitter", true, true, "https://twitter.com/[yourUsername]")]
         public const string Twitter = nameof(Twitter);
-        [SpeakerLink("fab fa-github")]
+        [SpeakerLink("fab fa-github", true, true, "https://github.com/[yourUsername]")]
         public const string GitHub = nameof(GitHub);
-        [SpeakerLink("fab fa-stack-overflow")]
+        [SpeakerLink("fab fa-stack-overflow", true, true, "https://stackoverflow.com/users/[yourUserId]/[yourUsername]")]
         public const string StackOverflow = nameof(StackOverflow);
-        [SpeakerLink("fab fa-linkedin")]
+        [SpeakerLink("fab fa-linkedin", true, true, "https://linkedin.com/in/[yourUsername]")]
         public const string LinkedIn = nameof(LinkedIn);
-        [SpeakerLink("fab fa-twitch")]
+        [SpeakerLink("fab fa-twitch", true, true, "https://twitch.tv/[yourUsername]")]
         public const string Twitch = nameof(Twitch);
-        [SpeakerLink("fas fa-bullhorn")]
+        [SpeakerLink("fas fa-bullhorn", true, true, "https://sessionize.com/[yourUsername]")]
         public const string Sessionize = nameof(Sessionize);
-        [SpeakerLink("fab fa-meetup")]
+        [SpeakerLink("fab fa-meetup", true, true, "https://www.meetup.com/members/[yourUserId]")]
         public const string MeetUp = nameof(MeetUp);
-        [SpeakerLink("fab fa-youtube")]
+        [SpeakerLink("fab fa-youtube", true, true, "https://youtube.com/[yourUsername]")]
         public const string YouTube = nameof(YouTube);
-        [SpeakerLink("fab fa-instagram")]
+        [SpeakerLink("fab fa-instagram", true, true, "https://instagram.com/[yourUsername]")]
         public const string Instagram = nameof(Instagram);
-        [SpeakerLink("fab fa-dev")]
+        [SpeakerLink("fab fa-dev", true, true, "https://dev.to/[yourUsername]/")]
         public const string Dev = nameof(Dev);
         public const string Email = nameof(Email);
         public const string Image = nameof(Image);  // Uses social profile image by default, but can be explicitly provided
