@@ -23,7 +23,7 @@
         public const string GitHub = nameof(GitHub);
         [SpeakerLink("fab fa-stack-overflow", true, true, "https://stackoverflow.com/users/[yourUserId]/[yourUsername]")]
         public const string StackOverflow = nameof(StackOverflow);
-        [SpeakerLink("fab fa-linkedin", true, true, "https://linkedin.com/in/[yourUsername]")]
+        [SpeakerLink("fab fa-linkedin", true, true, "https://linkedin.com/in/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Ll][Ii][Nn][Kk][Ee][Dd][Ii][Nn]\\.[Cc][Oo][Mm]\\/[Ii][Nn]\\/*")]
         public const string LinkedIn = nameof(LinkedIn);
         [SpeakerLink("fab fa-twitch", true, true, "https://twitch.tv/[yourUsername]")]
         public const string Twitch = nameof(Twitch);
