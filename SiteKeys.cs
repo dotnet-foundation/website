@@ -17,25 +17,30 @@
         public const string Blog = nameof(Blog);
         [SpeakerLink(null, false, false)]
         public const string Feed = nameof(Feed);
-        [SpeakerLink("fab fa-twitter")]
+        // Regex pattern test: https://regex101.com/r/LsRovM/1
+        [SpeakerLink("fab fa-twitter", true, true, "https://twitter.com/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Tt][Ww][Ii][Tt][Tt][Ee][Rr]\\.[Cc][Oo][Mm]\\/.*")]
         public const string Twitter = nameof(Twitter);
-        [SpeakerLink("fab fa-github")]
+        // Regex pattern test: https://regex101.com/r/FICmFg/1
+        [SpeakerLink("fab fa-github", true, true, "https://github.com/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Gg][Ii][Tt][Hh][Uu][Bb]\\.[Cc][Oo][Mm]\\/.*")]
         public const string GitHub = nameof(GitHub);
-        [SpeakerLink("fab fa-stack-overflow")]
+        // Regex pattern test: https://regex101.com/r/0OHcSZ/1
+        [SpeakerLink("fab fa-stack-overflow", true, true, "https://stackoverflow.com/users/[yourUserId]/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Ss][Tt][Aa][Cc][Kk][Oo][Vv][Ee][Rr][Ff][Ll][Oo][Ww]\\.[Cc][Oo][Mm]\\/[Uu][Ss][Ee][Rr][Ss]\\/\\d+\\/.*")]
         public const string StackOverflow = nameof(StackOverflow);
-        [SpeakerLink("fab fa-linkedin")]
+        // Regex pattern test: https://regex101.com/r/IlrLEM/1
+        [SpeakerLink("fab fa-linkedin", true, true, "https://linkedin.com/in/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Ll][Ii][Nn][Kk][Ee][Dd][Ii][Nn]\\.[Cc][Oo][Mm]\\/[Ii][Nn]\\/.*")]
         public const string LinkedIn = nameof(LinkedIn);
-        [SpeakerLink("fab fa-twitch")]
+        // Regex pattern test: https://regex101.com/r/D1Kxdu/1
+        [SpeakerLink("fab fa-twitch", true, true, "https://twitch.tv/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Tt][Ww][Ii][Tt][Cc][Hh]\\.[Tt][Vv]\\/.*")]
         public const string Twitch = nameof(Twitch);
-        [SpeakerLink("fas fa-bullhorn")]
+        [SpeakerLink("fas fa-bullhorn", true, true, "https://sessionize.com/[yourUsername]")]
         public const string Sessionize = nameof(Sessionize);
-        [SpeakerLink("fab fa-meetup")]
+        [SpeakerLink("fab fa-meetup", true, true, "https://www.meetup.com/members/[yourUserId]")]
         public const string MeetUp = nameof(MeetUp);
-        [SpeakerLink("fab fa-youtube")]
+        [SpeakerLink("fab fa-youtube", true, true, "https://youtube.com/[yourUsername]")]
         public const string YouTube = nameof(YouTube);
-        [SpeakerLink("fab fa-instagram")]
+        [SpeakerLink("fab fa-instagram", true, true, "https://instagram.com/[yourUsername]")]
         public const string Instagram = nameof(Instagram);
-        [SpeakerLink("fab fa-dev")]
+        [SpeakerLink("fab fa-dev", true, true, "https://dev.to/[yourUsername]/")]
         public const string Dev = nameof(Dev);
         public const string Email = nameof(Email);
         public const string Image = nameof(Image);  // Uses social profile image by default, but can be explicitly provided
