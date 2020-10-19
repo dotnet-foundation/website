@@ -81,14 +81,14 @@
                                 <label class="font-weight-bold" for="feed">Blog RSS Feed</label>
                             </div>
                         </div>
-                        @foreach (string speakerLinkKey in SpeakerLinkAttribute.GetAll().Where(x => x.Value.DisplayOnAddPage).Select(x => x.Key))
+                        @foreach (var speakerLink in SpeakerLinkAttribute.GetAll().Where(x => x.Value.DisplayOnAddPage))
                         {
                             <div class="row mb-3">
                                 <div class="col">
-                                    <input id="@speakerLinkKey.ToLower()" class="form-control">
+                                    <input type="url" id="@speakerLink.Key.ToLower()" class="form-control">
                                 </div>
                                 <div class="col">
-                                    <label class="font-weight-bold" for="@speakerLinkKey.ToLower()">@speakerLinkKey</label>
+                                    <label class="font-weight-bold" for="@speakerLink.Key.ToLower()">@speakerLink.Key | Example: @speakerLink.Value.ExampleUrl</label>
                                 </div>
                             </div>
                         }
