@@ -25,7 +25,7 @@
         public const string StackOverflow = nameof(StackOverflow);
         [SpeakerLink("fab fa-linkedin", true, true, "https://linkedin.com/in/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Ll][Ii][Nn][Kk][Ee][Dd][Ii][Nn]\\.[Cc][Oo][Mm]\\/[Ii][Nn]\\/*")]
         public const string LinkedIn = nameof(LinkedIn);
-        [SpeakerLink("fab fa-twitch", true, true, "https://twitch.tv/[yourUsername]")]
+        [SpeakerLink("fab fa-twitch", true, true, "https://twitch.tv/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Tt][Ww][Ii][Tt][Cc][Hh]\\.[Tt][Vv]\\/*")]
         public const string Twitch = nameof(Twitch);
         [SpeakerLink("fas fa-bullhorn", true, true, "https://sessionize.com/[yourUsername]")]
         public const string Sessionize = nameof(Sessionize);
