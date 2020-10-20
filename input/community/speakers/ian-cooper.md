@@ -22,7 +22,7 @@ YouTube: https://www.youtube.com/playlist?list=PLZgLq02FHsbcScJaUjITEHS0Y0dmglav
 ---
 # Short Bio
 
-Polyglot Coding Architect in London, founder of #ldnug, speaker, tabletop gamer, geek. Tattooed, pierced, and bearded. The 'guv' on @BrighterCommand. He/him.
+Polyglot Coding Architect in London, founder of #ldnug, speaker, tabletop gamer, geek. Tattooed, pierced, and bearded. The 'guv' on [BrighterCommand](https://twitter.com/BrighterCommand). He/him.
 
 # Areas of Interest
 
