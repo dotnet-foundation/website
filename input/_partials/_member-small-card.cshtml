@@ -22,10 +22,14 @@
 
         <div class="profile-details">
             @if(!string.IsNullOrWhiteSpace(member.GetString(SiteKeys.Company))) {
-              <p class="profile-company">@Html.Raw(member.GetString(SiteKeys.Company))</p>
+              <span class="profile-company">@Html.Raw(member.GetString(SiteKeys.Company))</span>
+            }
+            @if(!string.IsNullOrWhiteSpace(member.GetString(SiteKeys.Company)) && !string.IsNullOrWhiteSpace(member.GetString(SiteKeys.Location))) 
+            {
+              <span>&ndash;</span>
             }
             @if(!string.IsNullOrWhiteSpace(member.GetString(SiteKeys.Location))) {
-              <p class="profile-location">@Html.Raw(member.GetString(SiteKeys.Location))</p>
+              <span class="profile-location">@Html.Raw(member.GetString(SiteKeys.Location))</span>
             }
         </div>
 
