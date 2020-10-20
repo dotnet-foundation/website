@@ -2,26 +2,36 @@
 
 @foreach (IDocument item in Model)
 {
-    @if (!String.IsNullOrEmpty(item.GetString(WebKeys.Title)))
-    {
+  @if (!String.IsNullOrEmpty(item.GetString(WebKeys.Title)))
+  {
     <div class="committee_container">
       <div class="committee_meta d-flex flex-column justify-content-center">
         <h2>@item.GetString(WebKeys.Title)</h2>
         <p class="latest_copy">@Html.Raw(item.GetString(WebKeys.Description))</p>
+        @{
+          var images = item.GetList<string>(SiteKeys.Images);
+        }
         @if (!String.IsNullOrEmpty(item.GetString(SiteKeys.Chairperson)))
         {
-            <div class="committee_img_container d-md-none text-center">
-             @if (!String.IsNullOrEmpty(item.GetString(SiteKeys.Image)))
+          <div class="committee_img_container d-md-none text-center">
+            @if (images != null)
+            {
+              foreach (var image in images)
               {
-                <img src="@item.GetString(SiteKeys.Image)" alt="@item.GetString(WebKeys.Title)"/>
+                <img src="@image" alt="Committee Members" />
               }
-              else
-              {
-                <img src="img/dot_bot.png" alt="Default Dot Bot Image"/>
-              }
-            </div>        
+            }
+            else if(!String.IsNullOrEmpty(item.GetString(SiteKeys.Image)))
+            {
+            <img src="@item.GetString(SiteKeys.Image)" alt="@item.GetString(WebKeys.Title)" />
+            }
+            else
+            {
+            <img src="img/dot_bot.png" alt="Default Dot Bot Image" />
+            }
+          </div>
           <p class="latest_copy">
-            Chairperson: @item.GetString(SiteKeys.Chairperson)
+            Chairperson(s): @item.GetString(SiteKeys.Chairperson)
           </p>
         }
         @if (!String.IsNullOrEmpty(item.GetString(SiteKeys.Meets)))
@@ -38,15 +48,22 @@
         }
       </div>
       <div class="committee_img_container align-items-center justify-content-center d-none d-md-flex">
-          @if (!String.IsNullOrEmpty(item.GetString(SiteKeys.Image)))
+        @if (images != null)
+        {
+          foreach (var image in images)
           {
-            <img src="@item.GetString(SiteKeys.Image)" alt="@item.GetString(WebKeys.Title)"/>
+            <img src="@image" alt="Committee Members" />
           }
-          else
-          {
-            <img src="img/dot_bot.png" alt="Default Dot Bot Image"/>
-          }
+        }
+        else if (!String.IsNullOrEmpty(item.GetString(SiteKeys.Image)))
+        {
+          <img src="@item.GetString(SiteKeys.Image)" alt="@item.GetString(WebKeys.Title)" />
+        }
+        else
+        {
+          <img src="img/dot_bot.png" alt="Default Dot Bot Image" />
+        }
       </div>
     </div>
-    }
+  }
 }
