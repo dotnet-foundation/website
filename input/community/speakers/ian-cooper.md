@@ -14,7 +14,7 @@ Topics:
   - Microservices
   - Serverless
 Blog: https://medium.com/altdotnet/archive
-Twitter: @ICooper
+Twitter: https://twitter.com/ICooper
 GitHub: https://github.com/iancooper
 LinkedIn: https://www.linkedin.com/in/ian-cooper-2b059b/?originalSubdomain=uk
 Sessionize: https://sessionize.com/ian-cooper/
