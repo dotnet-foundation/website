@@ -1,7 +1,7 @@
 ---
 Title: Nish Anil
 Location: Bengaluru, India
-Email: nish@nishanil.com
+Email: nish@microsoft.com
 Language:
   - English
 Topics:
