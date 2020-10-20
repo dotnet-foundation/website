@@ -9,7 +9,7 @@ Topics:
   - C#
 Blog: https://stevetalkscode.co.uk
 Feed: https://stevetalkscode.co.uk/feed
-Twitter: @stevetalkscode
+Twitter: https://twitter.com/stevetalkscode
 GitHub: https://github.com/stevetalkscode
 Sessionize: https://sessionize.com/stevetalkscode/
 ---
