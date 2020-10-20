@@ -44,6 +44,7 @@
         public const string Dev = nameof(Dev);
         public const string Email = nameof(Email);
         public const string Image = nameof(Image);  // Uses social profile image by default, but can be explicitly provided
+        public const string Images = nameof(Images);  // Uses social profile image by default, but can be explicitly provided
         public const string Language = nameof(Language);
         public const string Mentor = nameof(Mentor);
         public const string Mentee = nameof(Mentee);
