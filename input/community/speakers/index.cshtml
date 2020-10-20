@@ -66,41 +66,50 @@ Title: Speaker Directory
                 </ul>
                 <div class="tab-content" id="tab-content">
                     <div class="tab-pane" id="tab-list" role="tabpanel" aria-labelledby="list-tab">
-                        <div class="row list">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 list">
                             @foreach (IDocument speaker in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)))
                             {
-                            <div class="col-sm-6 col-md-4 profile list__item">
-                                <img img height="120" class="rounded-image profile-image" src="@speaker.GetString(SiteKeys.Image)" alt="@speaker.GetTitle()" />
+                                <div class="col mb-4 list__item">
+                                    <div class="card h-100 border-0 bg-light">
+                                        <div class="card-body text-center">
+                                            <img img height="80" class="rounded-image profile-image" src="@speaker.GetString(SiteKeys.Image)" alt="@speaker.GetTitle()" />
 
-                                <h3 class="profile-name"><a href="@Context.GetLink(speaker)" class="speakername">@speaker.GetTitle()</a></h3>
-                                <div class="d-none speakerlink">@Context.GetLink(speaker)</div>
+                                            <h3 class="profile-name"><a href="@Context.GetLink(speaker)" class="speakername">@speaker.GetTitle()</a></h3>
+                                            <div class="d-none speakerlink">@Context.GetLink(speaker)</div>
 
-                                @if (speaker.ContainsKey(SiteKeys.Location))
-                                {
-                                    <div class="profile-details font-weight-bold speakerlocation">@speaker.GetString(SiteKeys.Location)</div>
-                                }
-                                @if (speaker.ContainsKeys(SiteKeys.Lat, SiteKeys.Lon))
-                                {
-                                    <div class="d-none speakerlat">@speaker.GetString(SiteKeys.Lat)</div>
-                                    <div class="d-none speakerlon">@speaker.GetString(SiteKeys.Lon)</div>
-                                }
-                                @if (speaker.ContainsKey(SiteKeys.Language))
-                                {
-                                    <div class="d-none speakerlanguage">@speaker.GetString(SiteKeys.Language)</div>
-                                }
+                                            @if (speaker.ContainsKey(SiteKeys.Location))
+                                            {
+                                                <div class="profile-details font-weight-bold speakerlocation">@speaker.GetString(SiteKeys.Location)</div>
+                                            }
+                                            @if (speaker.ContainsKeys(SiteKeys.Lat, SiteKeys.Lon))
+                                            {
+                                                <div class="d-none speakerlat">@speaker.GetString(SiteKeys.Lat)</div>
+                                                <div class="d-none speakerlon">@speaker.GetString(SiteKeys.Lon)</div>
+                                            }
+                                            @if (speaker.ContainsKey(SiteKeys.Language))
+                                            {
+                                                <div class="d-none speakerlanguage">@speaker.GetString(SiteKeys.Language)</div>
+                                            }
 
-                                @if (speaker.ContainsKey(SiteKeys.Topics))
-                                {
-                                    <div class="profile-details">
-                                        @foreach (string topic in speaker.GetList<string>(SiteKeys.Topics))
-                                        {
-                                            <span class="pr-2"><a href="javascript:void(0)" class="filter btn btn-dark" data-filter="@topic">@topic</a></span>
-                                        }
+                                            @if (speaker.ContainsKey(SiteKeys.Topics))
+                                            {
+                                                string collapseName = $"collapse-{(speaker.GetTitle().ToLower().Replace(" ", "-"))}";
+                                                <a data-toggle="collapse" href="#@collapseName" role="button" aria-expanded="false" aria-controls="@collapseName">
+                                                    Show Topics
+                                                </a>
+                                                <div class="collapse profile-details" id="@collapseName">
+                                                    @foreach (string topic in speaker.GetList<string>(SiteKeys.Topics))
+                                                    {
+                                                        <span class="pr-2"><a href="javascript:void(0)" class="filter btn btn-sm btn-dark" data-filter="@topic">@topic</a></span>
+                                                    }
+                                                </div>
+                                            }
+
+                                            @* Includes other "topics" like language in this list *@
+                                            <div class="d-none speakertopics">@string.Join("|", speaker.GetList<string>(SiteKeys.Topics, Array.Empty<string>()).Concat(speaker.GetList<string>(SiteKeys.Language, Array.Empty<string>())))</div>
+                                        </div>
                                     </div>
-                                    @* Includes other "topics" like language in this list *@
-                                    <div class="d-none speakertopics">@string.Join("|", speaker.GetList<string>(SiteKeys.Topics).Concat(speaker.GetList<string>(SiteKeys.Language, Array.Empty<string>())))</div>
-                                }
-                            </div>
+                                </div>
                             }
                         </div>
                     </div>

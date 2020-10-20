@@ -25,7 +25,7 @@ I am the author of, or maintainer of, many open source projects. Some of the bet
 - [Humanizer](https://github.com/Humanizr/Humanizer)
 - [Windows Community Toolkit](https://github.com/windows-toolkit/WindowsCommunityToolkit)
 - [NuGet Package Explorer](https://github.com/NuGetPackageExplorer/NuGetPackageExplorer)
-- [MSBuild SDK Extras](https://github.com/onovotny/MSBuildSdkExtras)
+- [MSBuild SDK Extras](https://github.com/novotnyllc/MSBuildSdkExtras)
 
 I also speak at various conferences on topics including .NET Core, Code Signing, and Azure AD B2C.
 

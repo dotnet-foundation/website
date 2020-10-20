@@ -34,10 +34,12 @@
                         {
                             <div class="mb-4">
                                 <h3>Topics</h3>
+                                <div class="topic-details">
                                 @foreach (string topic in Document.GetList<string>(SiteKeys.Topics))
                                 {
                                     <a href="/community/speakers?topic=@topic" class="btn btn-dark">@topic</a>
                                 }
+                                </div>
                             </div>
                         }
 
@@ -53,17 +55,17 @@
                         }
 
                         @{
-                            Dictionary<string, SpeakerLinkAttribute> speakerLinks = SpeakerLinkAttribute.GetAll();
-                            if (Document.ContainsAnyKeys(speakerLinks.Keys))
+                            KeyValuePair<string, SpeakerLinkAttribute>[] speakerLinks = SpeakerLinkAttribute.GetAll()
+                                .Where(x => !string.IsNullOrEmpty(x.Value.IconClass) && Document.ContainsKey(x.Key))
+                                .OrderBy(x => x.Key)
+                                .ToArray();
+                            if (speakerLinks.Length > 0)
                             {
                                 <div>
                                     <h3>Connect</h3>
-                                    @foreach (KeyValuePair<string, SpeakerLinkAttribute> speakerLink in speakerLinks.OrderBy(x => x.Key))
+                                    @foreach (KeyValuePair<string, SpeakerLinkAttribute> speakerLink in speakerLinks)
                                     {
-                                        if (Document.ContainsKey(speakerLink.Key))
-                                        {
-                                            <div><a href="@Document.GetString(speakerLink.Key)"><i class="@speakerLink.Value.IconClass"></i> @speakerLink.Key</a></div>
-                                        }
+                                        <div><a href="@Document.GetString(speakerLink.Key)"><i class="@speakerLink.Value.IconClass"></i> @speakerLink.Key</a></div>
                                     }
                                 </div>
                             }

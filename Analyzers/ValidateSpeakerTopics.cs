@@ -27,6 +27,7 @@ namespace DotnetFoundationWeb
             "F#",
             "Game Development",
             "HoloLens",
+            "Human Skills",
             "iOS",
             "IoT",
             "JavaScript",
@@ -47,6 +48,7 @@ namespace DotnetFoundationWeb
             "Serverless",
             "SignalR",
             "tvOS",
+            "User Experience",
             "UWP",
             "Visual Basic",
             "Visual Studio",
@@ -72,7 +74,7 @@ namespace DotnetFoundationWeb
             string[] nonApprovedTopics = topics.Where(x => !Topics.Contains(x)).ToArray();
             if (nonApprovedTopics.Length > 0)
             {
-                context.Add(document, $"Document contains non-approved topic(s): {string.Join(", ", nonApprovedTopics)}");
+                context.AddAnalyzerResult(document, $"Document contains non-approved topic(s): {string.Join(", ", nonApprovedTopics)}");
             }
         }
     }

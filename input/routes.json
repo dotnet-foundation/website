@@ -63,5 +63,5 @@ ContentType: Asset
     {
       "errorType": "NotFound",
       "serve": "/404.html"
-    }
+    }]
   }

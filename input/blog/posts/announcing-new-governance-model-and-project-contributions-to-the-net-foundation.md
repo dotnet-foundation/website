@@ -7,7 +7,7 @@ Published: 2014-11-12 15:30:00.0000000
 
 <p style="margin: 0in 0in 8pt;">Microsoft is making headlines today for its decision to open source its popular .NET development stack, which will now be maintained under the stewardship of the .NET Foundation. This should be welcome news to the millions of developers who use .NET to build high quality applications and services that can scale from needs of individual developers to large enterprises.</p>
 
-<p style="margin: 0in 0in 8pt;">As part of its <a href="http://blogs.msdn.com/b/somasegar/archive/2014/03/26/the-net-foundation-and-innovation-in-the-net-platform.aspx">announcement</a>&nbsp;last spring, Microsoft released .NET code to the open source community. <a href="http://aka.ms/soma-connect">Today&rsquo;s news</a>&nbsp;builds onto that, as Microsoft aims to further make <a href="/NETCore5">.NET Core</a>&nbsp;available across platforms for Linux and Mac. The company will open source additional key .NET platform components through the foundation.</p>
+<p style="margin: 0in 0in 8pt;">As part of its <a href="http://blogs.msdn.com/b/somasegar/archive/2014/03/26/the-net-foundation-and-innovation-in-the-net-platform.aspx">announcement</a>&nbsp;last spring, Microsoft released .NET code to the open source community. <a href="http://aka.ms/soma-connect">Today&rsquo;s news</a>&nbsp;builds onto that, as Microsoft aims to further make <a href="https://dot.net">.NET Core</a>&nbsp;available across platforms for Linux and Mac. The company will open source additional key .NET platform components through the foundation.</p>
 
 <h2 style="margin: 0in 0in 8pt;">Operational Changes</h2>
 
