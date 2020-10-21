@@ -30,7 +30,7 @@
         [SpeakerLink("fab fa-linkedin", true, true, "https://linkedin.com/in/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/([Ww][Ww][Ww].)?[Ll][Ii][Nn][Kk][Ee][Dd][Ii][Nn]\\.[Cc][Oo][Mm]\\/[Ii][Nn]\\/.*")]
         public const string LinkedIn = nameof(LinkedIn);
         // Regex pattern test: https://regex101.com/r/D1Kxdu/1
-        [SpeakerLink("fab fa-twitch", true, true, "https://twitch.tv/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Tt][Ww][Ii][Tt][Cc][Hh]\\.[Tt][Vv]\\/.*")]
+        [SpeakerLink("fab fa-twitch", true, true, "https://twitch.tv/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/([Ww][Ww][Ww].)?[Tt][Ww][Ii][Tt][Cc][Hh]\\.[Tt][Vv]\\/.*")]
         public const string Twitch = nameof(Twitch);
         [SpeakerLink("fas fa-bullhorn", true, true, "https://sessionize.com/[yourUsername]")]
         public const string Sessionize = nameof(Sessionize);
