@@ -18,10 +18,10 @@
         [SpeakerLink(null, false, false)]
         public const string Feed = nameof(Feed);
         // Regex pattern test: https://regex101.com/r/LsRovM/1
-        [SpeakerLink("fab fa-twitter", true, true, "https://twitter.com/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Tt][Ww][Ii][Tt][Tt][Ee][Rr]\\.[Cc][Oo][Mm]\\/.*")]
+        [SpeakerLink("fab fa-twitter", true, true, "https://twitter.com/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/([Ww][Ww][Ww].)?[Tt][Ww][Ii][Tt][Tt][Ee][Rr]\\.[Cc][Oo][Mm]\\/.*")]
         public const string Twitter = nameof(Twitter);
         // Regex pattern test: https://regex101.com/r/FICmFg/1
-        [SpeakerLink("fab fa-github", true, true, "https://github.com/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Gg][Ii][Tt][Hh][Uu][Bb]\\.[Cc][Oo][Mm]\\/.*")]
+        [SpeakerLink("fab fa-github", true, true, "https://github.com/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/([Ww][Ww][Ww].)?[Gg][Ii][Tt][Hh][Uu][Bb]\\.[Cc][Oo][Mm]\\/.*")]
         public const string GitHub = nameof(GitHub);
         // Regex pattern test: https://regex101.com/r/0OHcSZ/1
         [SpeakerLink("fab fa-stack-overflow", true, true, "https://stackoverflow.com/users/[yourUserId]/[yourUsername]", "[Hh][Tt][Tt][Pp][Ss]:\\/\\/[Ss][Tt][Aa][Cc][Kk][Oo][Vv][Ee][Rr][Ff][Ll][Oo][Ww]\\.[Cc][Oo][Mm]\\/[Uu][Ss][Ee][Rr][Ss]\\/\\d+\\/.*")]
