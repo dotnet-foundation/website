@@ -8,7 +8,6 @@ Topics:
   - Diversity & Inclusion
   - JavaScript
 Blog: https://www.telerik.com/blogs/author/alyssa-nicoll
-Feed: https://feeds.feedwrench.com/all-shows-devchattv.rss
 Twitter: https://twitter.com/AlyssaNicoll
 GitHub: https://github.com/alyssamichelle
 LinkedIn: https://www.linkedin.com/in/alyssa-nicoll/
