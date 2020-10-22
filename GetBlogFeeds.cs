@@ -144,11 +144,11 @@ namespace DotnetFoundationWeb
               var speaker = input.GetString("Title");
               if (!string.IsNullOrWhiteSpace(speaker))
               {
-                context.LogWarning($"No RSS specified for {speaker}.");
+                context.LogInformation($"No RSS specified for {speaker}.");
               }
               else
               {
-                context.LogWarning($"No RSS specified for unknown speaker.");
+                context.LogInformation($"No RSS specified for unknown speaker.");
               }
             }
             return input.Yield();

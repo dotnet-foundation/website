@@ -32,7 +32,7 @@ INETA was the International .NET Association. It's purpose was to promote the us
 ### Community Contributions
 
 * [Organizer of Desert Code Camp](https://www.desertcodecamp.com), an annual conference in Phoenix, Arizona, US that hosts 75 speakers, over 100 sessions, and 900 attendees
-* [Contributes to AZ Give Camp](https:/www.AZGiveCamp.org)
+* [Contributes to AZ Give Camp](https://www.AZGiveCamp.org)
 
 ### Open Source Projects
 
