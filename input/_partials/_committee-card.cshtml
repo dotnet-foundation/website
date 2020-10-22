@@ -6,7 +6,14 @@
   {
     <div class="committee_container">
       <div class="committee_meta d-flex flex-column justify-content-center">
-        <h2>@item.GetString(WebKeys.Title)</h2>
+        @if (!string.IsNullOrWhiteSpace(item.GetString(SiteKeys.Link)))
+        {
+          <h2><a href="@item.GetString(SiteKeys.Link)">@item.GetString(WebKeys.Title)</a></h2>
+        }
+        else
+        {
+          <h2>@item.GetString(WebKeys.Title)</h2>
+        }
         <p class="latest_copy">@Html.Raw(item.GetString(WebKeys.Description))</p>
         @{
           var images = item.GetList<string>(SiteKeys.Images);
@@ -46,24 +53,33 @@
             Repository: <a href="@item.GetString(SiteKeys.Repository)">@item.GetString(SiteKeys.Repository)</a>
           </p>
         }
+        @if (!String.IsNullOrEmpty(item.GetString(SiteKeys.Link)))
+        {
+          <p class="latest_copy">
+            More Information: <a href="@item.GetString(SiteKeys.Link)">@item.GetString(WebKeys.Title)</a>
+          </p>
+        }
       </div>
       <div class="committee_img_container align-items-center justify-content-center d-none d-md-flex">
         @if (images != null)
         {
-          foreach (var image in images)
+          <div class="d-none d-md-flex flex-column">
+          @foreach (var image in images)
           {
-            <img src="@image" alt="Committee Members" />
+            <img src="@image" alt="Committee Members" class="rounded-image profile-image my-1" />
           }
+          </div>
         }
         else if (!String.IsNullOrEmpty(item.GetString(SiteKeys.Image)))
         {
-          <img src="@item.GetString(SiteKeys.Image)" alt="@item.GetString(WebKeys.Title)" />
+          <img src="@item.GetString(SiteKeys.Image)" alt="@item.GetString(WebKeys.Title)" class="rounded-image profile-image " />
         }
         else
         {
-          <img src="img/dot_bot.png" alt="Default Dot Bot Image" />
+          <img src="img/dot_bot.png" alt="Default Dot Bot Image" class="rounded-image profile-image"  />
         }
       </div>
     </div>
+    <hr/>
   }
 }
