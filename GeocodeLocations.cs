@@ -22,13 +22,16 @@ namespace DotnetFoundationWeb
 
         // Cache responses for each location
         private readonly ConcurrentDictionary<string, Task<CoordinateAbbreviated>> _coordinateCache =
-            new ConcurrentDictionary<string, Task<CoordinateAbbreviated>>();
+            new ConcurrentDictionary<string, Task<CoordinateAbbreviated>>(StringComparer.OrdinalIgnoreCase);
 
         private readonly Config<string> _subscriptionKey;
 
         public GeocodeLocations(Config<string> subscriptionKey)
         {
             _subscriptionKey = subscriptionKey.ThrowIfNull(nameof(subscriptionKey));
+            
+            // Add coordinate overrides to cache
+            _coordinateCache["the netherlands"] = Task.FromResult(new CoordinateAbbreviated { Lat = 52.371807, Lon = 4.896029 })
         }
 
         protected override async Task<IEnumerable<IDocument>> ExecuteInputAsync(IDocument input, IExecutionContext context)
