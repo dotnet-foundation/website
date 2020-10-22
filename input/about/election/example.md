@@ -18,5 +18,5 @@ I have lead the nExample project for the past few years.
 * [My blog](https://dotnetfoundation.org/blog)
 
 ## Contact Information
-* Twitter: [https://twitter.com/dotnetfdn](&#64;dotnetfdn)
-* GitHub: [https://github.com/dotnet](&#64;dotnet)
+* Twitter: [&#64;dotnetfdn](https://twitter.com/dotnetfdn)
+* GitHub: [&#64;dotnet](https://github.com/dotnet)
