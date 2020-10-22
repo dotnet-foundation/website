@@ -1,4 +1,5 @@
-﻿using System.Collections.Concurrent;
+using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
@@ -31,7 +32,7 @@ namespace DotnetFoundationWeb
             _subscriptionKey = subscriptionKey.ThrowIfNull(nameof(subscriptionKey));
             
             // Add coordinate overrides to cache
-            _coordinateCache["the netherlands"] = Task.FromResult(new CoordinateAbbreviated { Lat = 52.371807, Lon = 4.896029 })
+            _coordinateCache["the netherlands"] = Task.FromResult(new CoordinateAbbreviated { Lat = 52.371807, Lon = 4.896029 });
         }
 
         protected override async Task<IEnumerable<IDocument>> ExecuteInputAsync(IDocument input, IExecutionContext context)
