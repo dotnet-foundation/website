@@ -9,7 +9,7 @@ Topics:
   - Azure
   - Web Development
   - DevOps
-  - Diversity and Inclusion
+  - Diversity & Inclusion
   - C#
   - Architecture
 Twitter: https://twitter.com/ACPWinitiate
