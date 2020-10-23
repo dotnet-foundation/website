@@ -13,7 +13,7 @@ Topics:
   - C#
   - Web Development
 Blog: https://samrueby.com
-Twitter: SamRueby
+Twitter: https://twitter.com/SamRueby
 GitHub: https://github.com/samrueby
 StackOverflow: https://stackoverflow.com/users/825011/sam-rueby
 LinkedIn: https://www.linkedin.com/in/samrueby
