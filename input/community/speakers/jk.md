@@ -1,7 +1,7 @@
 ---
 Title: Jernej Kavka (JK)
 Location: Brisbane, Australia
-Email: jk@ssw.com.au
+Email: jernej.kavka@outlook.com
 Language:
   - English
 Topics:
