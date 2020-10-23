@@ -1,0 +1,30 @@
+@{
+    Layout = @"/_Layout.cshtml";
+}
+
+<!-- Page Header -->
+<section class="page-section page-section--purple">
+  <div class="page-section_container container">
+    <div class="page-section_row row">
+      <div class="page-section_column col-12 text-center">
+        <h1>
+          @Model.GetString("headerText")
+        </h1>
+        <p class="mx-auto"> 
+          @(Model.GetString("subHeaderText"))
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Basic page layout -->
+<section class="page-section page-section_column">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="col-12">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</section>
