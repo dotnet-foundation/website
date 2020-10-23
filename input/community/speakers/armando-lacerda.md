@@ -16,7 +16,7 @@ Topics:
   - ML.NET
   - Serverless
 Blog: www.armandolacerda.com
-Twitter: @arlacerda
+Twitter: https://twitter.com/arlacerda
 LinkedIn: linkedin.com/in/armando-lacerda
 Sessionize: https://sessionize.com/alacerda
 MeetUp: https://www.meetup.com/members/198616550/
