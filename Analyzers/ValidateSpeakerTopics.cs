@@ -16,6 +16,7 @@ namespace DotnetFoundationWeb
             "Architecture",
             "Artificial Intelligence",
             "Azure",
+            "AWS",
             "Big Data",
             "Blazor",
             "C#",
