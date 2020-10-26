@@ -7,7 +7,6 @@ Topics:
   - Visual Studio Code
   - Open Source
   - C#
-  - Q#
 Twitter: https://twitter.com/crazy4pi314
 GitHub: https://github.com/crazy4pi314
 Blog: https://www.sckaiser.com/
