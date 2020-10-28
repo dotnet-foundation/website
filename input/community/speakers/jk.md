@@ -31,6 +31,6 @@ YouTube: https://www.youtube.com/channel/UCige1JIdeIc3sYU2HSaismg
 Mentor: true
 Mentee: true
 ---
-Jernej Kavka (JK) is an SSW Senior Software Architect, Microsoft AI MVP and organizer of the Brisbane AI user group. JK is a full-stack .NET developer, but his passion lies in cogitative services, AI and machine learning. He is the main architect behind SSW's virtual receptionist - SophieAI: https://sswsophie.com
+Jernej Kavka (JK) is a Microsoft AI MVP, SSW Solution Architect and organizer of the Brisbane AI user group. JK is a full-stack .NET developer, but his passion lies in Azure Cognitive Services, AI and machine learning. He is the main architect behind SSW's virtual receptionist - SophieAI: https://sswsophie.com
 
 He is also very active in the developer community and enjoys speaking at conferences like NDC, DDD, as well as User Groups and Hack Days.
