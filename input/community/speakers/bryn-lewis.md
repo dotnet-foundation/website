@@ -9,7 +9,7 @@ Topics:
   - IoT
 Blog: https://blog.devmobile.co.nz/
 Twitter: https://twitter.com/kiwibryn
-LinkedIn:https://linkedin.com/in/brynlewis
+LinkedIn: https://linkedin.com/in/brynlewis
 Mentor: true
 ---
 
@@ -30,6 +30,5 @@ I get these tiny devices to “play nice” with Azure over wireless technolgies
 I also work with the little .Net platforms like the nanoFramework which is now a .NET foundation member, the TinyCLR from GHI Electronics and the Meadow from Wilderness labs.
 
 I have a sideline in shifting "legacy to the cloud" mid 90's tech like MSMQ, Classic ASP, COM+, and C++ interop.
-
 
 
