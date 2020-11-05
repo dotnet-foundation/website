@@ -48,6 +48,14 @@
   padding-bottom: 0;
 }
 
+.smcx-embed {
+  max-width: 100% !important;
+}
+
+.smcx-iframe-container {
+  max-width: 100% !important;
+}
+
 .navbar-brand {
   padding: 0;
   height: 93px;
