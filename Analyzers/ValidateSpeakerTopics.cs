@@ -63,7 +63,8 @@ namespace DotnetFoundationWeb
             "Windows Forms",
             "WPF",
             "Xamarin",
-            "Xamarin.Forms"
+            "Xamarin.Forms",
+            "XAML"
         };
 
         protected override void AnalyzeSpeakerData(IDocument document, IAnalyzerContext context)
