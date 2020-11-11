@@ -14,7 +14,7 @@ Web: https://elsa-workflows.github.io/elsa-core/
 * [GitHub Repo](https://github.com/elsa-workflows/elsa-core)
 * 📦 Packages: 
   [![Nuget](https://img.shields.io/nuget/v/Elsa)](https://www.nuget.org/packages/Elsa/)
-  [![MyGet (with prereleases)](https://img.shields.io/myget/elsa/vpre/Elsa.Core.svg?label=myget)](https://www.myget.org/gallery/elsa)
+  [![MyGet (with prereleases)](https://img.shields.io/myget/elsa-2/vpre/Elsa)](https://www.myget.org/gallery/elsa-2)
 * ⚖ License: [New BSD License (BSD)](https://github.com/elsa-workflows/elsa-core/blob/master/LICENSE)
 * Main contacts: [Sipke Schoorstra](https://github.com/sfmskywalker)
 
