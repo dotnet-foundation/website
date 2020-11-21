@@ -13,5 +13,6 @@ Topics:
   - C#
   - DevOps
   - Microservices
+  - Visual Studio
 ---
 
