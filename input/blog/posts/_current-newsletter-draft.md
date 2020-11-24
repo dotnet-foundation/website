@@ -18,7 +18,7 @@ In November we launched a "State of .NET" survey and we're encouraging everyone 
 
 ### [Watch .NET Conf 2020 Session Replays](https://www.dotnetconf.net/?utm_source=dotnefdn&utm_medium=newsletter)
 
-[![.NET Conf - November 10-12, 2020](https://user-images.githubusercontent.com/68539/95825273-7383e580-0ce5-11eb-8d4c-8fc7b618da15.png)](https://www.dotnetconf.net/?utm_campaign=ondemand&utm_source=dotnefdn&utm_medium=newsletter)
+[![.NET Conf - November 10-12, 2020](https://user-images.githubusercontent.com/68539/95825273-7383e580-0ce5-11eb-8d4c-8fc7b618da15.png)](https://www.dotnetconf.net/?&utm_source=dotnefdn&utm_medium=newsletter)
 
 .NET Conf 2020 was held November 10-12 and it was the largest one yet all because of our wonderful community. The .NET Foundation was one of the main sponsors of the event and we delivered a compressed session right after the keynote to thank the open source projects supporting .NET 5, give a quick update on some initiatives, and raise awareness about what the .NET Foundation does to a very large audience. Over the course of the three days there were almost 200,000 live views, 100 speakers delivered 80 live sessions, sponsors gave away $200,000 worth of prizes & free digital swag and best of all, [.NET 5.0 is released.](http://aka.ms/dotnet5)
 
