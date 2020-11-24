@@ -1,0 +1,43 @@
+{
+    "projectName": "Oqtane",
+    "imageFileName": "oqtane.png",
+    "gitHubOrg": "oqtane",
+    "gitHubRepoName": "oqtane.framework",
+    "transcriptFileName": "oqtane-transcript.txt",
+    "publishDate": "2020-11-01",
+    "projectOwners": [
+      {
+        "name": "Shaun Walker",
+        "url": "https://github.com/sbwalker"
+      }
+    ],
+    "youtubeUrl": "https://www.youtube.com/embed/YlqoHGxe_ZU",
+    "projectDescription": "Oqtane is a modular application framework for Blazor which accelerates the development of modern digital experiences.",
+    "contributors": [
+      {
+        "name": "Pavel Veselý",
+        "url": "https://github.com/chlupac"
+      },
+      {
+        "name": "Hisham Bin Ateya",
+        "url": "https://github.com/hishamco"
+      },
+      {
+        "name": "PoisnFang",
+        "url": "https://github.com/PoisnFang"
+      },
+      {
+        "name": "Mike Casas",
+        "url": "https://github.com/mikecasas"
+      },
+      {
+        "name": "Michael Washington",
+        "url": "https://github.com/ADefWebserver"
+      }
+    ],
+    "githubRepo": "https://github.com/oqtane/oqtane.framework",
+    "projectWebsite": "https://www.oqtane.org/",
+    "communityUrl": "https://github.com/oqtane/oqtane.framework/issues",
+    "documentationUrl": "http://oqtane.github.io/",
+    "contributionUrl": "https://github.com/oqtane/oqtane.framework/issues"
+  }
