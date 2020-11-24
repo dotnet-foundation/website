@@ -11,20 +11,20 @@ Welcome to the November/December 2020 .NET Foundation update. Every other month,
 
 ## General news
 
-### [The .NET Foundation Community Survey Launched](https://dotnetfoundation.org/about/survey?utm_source=dotnefdn&utm_medium=newsletter)
-In November we launched a "State of .NET" survey and we're encouraging everyone in the .NET community to participate. Your feedback is very important to the .NET Foundation. It will help us understand our community needs better and prioritize the work that we do. The survey will stay open until March 31, 2021 after which the results will be made public. If you complete the survey you can enter to win a $250 gift certificate (multiple winners). Please visit [our survey page](https://dotnetfoundation.org/about/survey?utm_source=dotnefdn&utm_medium=newsletter) and thank you to everyone that has completed it already.
+### [The .NET Foundation Community Survey Launched](https://dotnetfoundation.org/about/survey?utm_source=dotnetfdn&utm_medium=newsletter)
+In November we launched a "State of .NET" survey and we're encouraging everyone in the .NET community to participate. Your feedback is very important to the .NET Foundation. It will help us understand our community needs better and prioritize the work that we do. The survey will stay open until March 31, 2021 after which the results will be made public. If you complete the survey you can enter to win a $250 gift certificate (multiple winners). Please visit [our survey page](https://dotnetfoundation.org/about/survey?utm_source=dotnetfdn&utm_medium=newsletter) and thank you to everyone that has completed it already.
 
 ## Events
 
 ### [Watch .NET Conf 2020 Session Replays](https://www.dotnetconf.net/?utm_source=dotnefdn&utm_medium=newsletter)
 
-[![.NET Conf - November 10-12, 2020](https://user-images.githubusercontent.com/68539/95825273-7383e580-0ce5-11eb-8d4c-8fc7b618da15.png)](https://www.dotnetconf.net/?&utm_source=dotnefdn&utm_medium=newsletter)
+[![.NET Conf - November 10-12, 2020](https://user-images.githubusercontent.com/68539/95825273-7383e580-0ce5-11eb-8d4c-8fc7b618da15.png)](https://www.dotnetconf.net/?&utm_source=dotnetfdn&utm_medium=newsletter)
 
 .NET Conf 2020 was held November 10-12 and it was the largest one yet all because of our wonderful community. The .NET Foundation was one of the main sponsors of the event and we delivered a compressed session right after the keynote to thank the open source projects supporting .NET 5, give a quick update on some initiatives, and raise awareness about what the .NET Foundation does to a very large audience. Over the course of the three days there were almost 200,000 live views, 100 speakers delivered 80 live sessions, sponsors gave away $200,000 worth of prizes & free digital swag and best of all, [.NET 5.0 is released.](http://aka.ms/dotnet5)
 
-If you missed it, you can still watch session replays, download the slides and demos, and grab your digital swag by visiting [www.dotnetconf.net](https://www.dotnetconf.net/?utm_source=dotnefdn&utm_medium=newsletter). 
+If you missed it, you can still watch session replays, download the slides and demos, and grab your digital swag by visiting [www.dotnetconf.net](https://www.dotnetconf.net/?utm_source=dotnetfdn&utm_medium=newsletter). 
 
-### [.NET Conf Virtual Tour](https://www.dotnetconf.net/local-events?utm_source=dotnefdn&utm_medium=newsletter)
+### [.NET Conf Virtual Tour](https://www.dotnetconf.net/local-events?utm_source=dotnetfdn&utm_medium=newsletter)
 
 This year the .NET Foundation is supporting community-run virtual events to help spread the word about the .NET 5.0 release. We have partnered with organizers around the globe to bring you community virtual events thru January 31, 2021. Join your fellow developers in your local time zone and language to learn even more about .NET. Would you like to organize a virtual event for your community? Take a look at the ["Event-in-a-box" on GitHub](https://github.com/dotnet-presentations/dotNETConf/tree/master/2020/MainEvent) to help you. Let us know about your event by filling out the [Virtual Community Event Request Form](https://bit.ly/3mR1lsA).
 
