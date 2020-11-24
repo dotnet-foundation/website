@@ -11,8 +11,8 @@ Welcome to the November/December 2020 .NET Foundation update. Every other month,
 
 ## General news
 
-### [The .NET Foundation Community Survey Launched](https://dotnetfoundation.org/about/survey/?utm_source=dotnefdn&utm_medium=newsletter)
-In November we launched a "State of .NET" survey and we're encouraging everyone in the .NET community to participate. Your feedback is very important to the .NET Foundation. It will help us understand our community needs better and prioritize the work that we do. The survey will stay open until March 31, 2021 after which the results will be made public. If you complete the survey you can enter to win a $250 gift certificate (multiple winners). Please visit [our survey page](https://dotnetfoundation.org/about/survey/?utm_source=dotnefdn&utm_medium=newsletter) and thank you to everyone that has completed it already.
+### [The .NET Foundation Community Survey Launched](https://dotnetfoundation.org/about/survey?utm_source=dotnefdn&utm_medium=newsletter)
+In November we launched a "State of .NET" survey and we're encouraging everyone in the .NET community to participate. Your feedback is very important to the .NET Foundation. It will help us understand our community needs better and prioritize the work that we do. The survey will stay open until March 31, 2021 after which the results will be made public. If you complete the survey you can enter to win a $250 gift certificate (multiple winners). Please visit [our survey page](https://dotnetfoundation.org/about/survey?utm_source=dotnefdn&utm_medium=newsletter) and thank you to everyone that has completed it already.
 
 ## Events
 
