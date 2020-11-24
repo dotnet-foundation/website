@@ -14,6 +14,9 @@ Welcome to the November/December 2020 .NET Foundation update. Every other month,
 ### [The .NET Foundation Community Survey Launched](https://dotnetfoundation.org/about/survey?utm_source=dotnetfdn&utm_medium=newsletter)
 In November we launched a "State of .NET" survey and we're encouraging everyone in the .NET community to participate. Your feedback is very important to the .NET Foundation. It will help us understand our community needs better and prioritize the work that we do. The survey will stay open until March 31, 2021 after which the results will be made public. If you complete the survey you can enter to win a $250 gift certificate (multiple winners). Please visit [our survey page](https://dotnetfoundation.org/about/survey?utm_source=dotnetfdn&utm_medium=newsletter) and thank you to everyone that has completed it already.
 
+### [.NET Foundation YouTube Channel](https://www.youtube.com/channel/UCiaZbznpWV1o-KLxj8zqR6A)
+We've moved the .NET Community Standups from Microsoft over to the [.NET YouTube Channel](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oX-DBuRG4u58ZTAJgBAeQ-t) since that channel is owned by Microsoft. Join the Microsoft teams building tools and frameworks for .NET to keep up with what’s happening in that space. The [.NET Foundation YouTube channel](https://www.youtube.com/channel/UCiaZbznpWV1o-KLxj8zqR6A) will continue to broadcast and promote community virtual meetups, open source project content, and .NET Foundation-related content. We hope that this makes the channel easier to navigate. [Please subscribe!](https://www.youtube.com/channel/UCiaZbznpWV1o-KLxj8zqR6A) 
+
 ## Events
 
 ### [Watch .NET Conf 2020 Session Replays](https://www.dotnetconf.net/?utm_source=dotnefdn&utm_medium=newsletter)
