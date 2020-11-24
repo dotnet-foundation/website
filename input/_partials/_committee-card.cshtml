@@ -6,9 +6,9 @@
   {
     <div class="committee_container">
       <div class="committee_meta d-flex flex-column justify-content-center">
-        @if (!string.IsNullOrWhiteSpace(item.GetString(SiteKeys.Link)))
+        @if (!string.IsNullOrWhiteSpace(item.GetString(SiteKeys.Repository)))
         {
-          <h2><a href="@item.GetString(SiteKeys.Link)">@item.GetString(WebKeys.Title)</a></h2>
+          <h2><a href="@item.GetString(SiteKeys.Repository)#readme">@item.GetString(WebKeys.Title)</a></h2>
         }
         else
         {
@@ -51,12 +51,6 @@
         {
           <p class="latest_copy">
             Repository: <a href="@item.GetString(SiteKeys.Repository)">@item.GetString(SiteKeys.Repository)</a>
-          </p>
-        }
-        @if (!String.IsNullOrEmpty(item.GetString(SiteKeys.Link)))
-        {
-          <p class="latest_copy">
-            More Information: <a href="@item.GetString(SiteKeys.Link)">@item.GetString(WebKeys.Title)</a>
           </p>
         }
       </div>
