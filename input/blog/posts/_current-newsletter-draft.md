@@ -68,9 +68,10 @@ The .NET Foundation Committees are where the vast majority of work gets done in
 ### [Spread the word](https://github.com/dotnet-foundation/wg-marketing)
 Help spread .NET Foundation's message. Take a look at the [.NET Foundation slides](https://dotnetfoundation.sharepoint.com/:p:/s/Marketing/EbxGONyybLRMoe6MgPNUEi4BdDuEWNLmdfV_s8INO9nWTw?e=mImEov) and use them in your presentations and events. Members can also request promotion of their events and open source related content. See the [marketing repo](https://github.com/dotnet-foundation/wg-marketing) for details. 
 
-### [Have some fun](https://mod-dotnet-bot.net)
-Coding is better with friends, especially when they bring their own mods. As the mascot for the .NET community, dotnet-bot helps with checking pull requests on .NET repos on GitHub. Create your own coding companion by building your own custom dotnet-bot at [mod-dotnet-bot.net](https://mod-dotnet-bot.net) and sharing it on [Twitter #dotnetlovesme](https://twitter.com/search?q=%23dotnetlovesme). 
-
 ### [Buy some merch](https://store.dotnetfoundation.org/)
 Show off your nerd side with pride! Support the .NET Foundation by rocking some gear from our store. [Check out the new items](https://store.dotnetfoundation.org/dotnetfoundation/accessories) and don't forget to show them off on [Twitter #dotnetlovesme](https://twitter.com/search?q=%23dotnetlovesme). 
 
+### [Have some fun](https://mod-dotnet-bot.net)
+Coding is better with friends, especially when they bring their own mods. As the mascot for the .NET community, dotnet-bot helps with checking pull requests on .NET repos on GitHub. Create your own coding companion by building your own custom dotnet-bot at [mod-dotnet-bot.net](https://mod-dotnet-bot.net) and sharing it on [Twitter #dotnetlovesme](https://twitter.com/search?q=%23dotnetlovesme). 
+
+[![mod-dotnet-bot.net](https://user-images.githubusercontent.com/5115571/100276672-c670cf80-2f16-11eb-8a9f-2b8a90775a06.png)](https://mod-dotnet-bot.net)
