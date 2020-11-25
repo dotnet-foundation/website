@@ -16,7 +16,7 @@ Topics:
   - Microservices
   - Serverless
   - Visual Studio
-Blog: ronaldmariah.dev
+Blog: https://ronaldmariah.dev
 Twitter: https://twitter.com/RonaldMariah
 GitHub: https://github.com/RonaldMariah
 LinkedIn: https://www.linkedin.com/in/ronaldmariah

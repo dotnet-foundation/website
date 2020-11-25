@@ -21,7 +21,7 @@ Topics:
   - Web Development
 Blog: https://www.davepaquette.com
 Twitter: https://twitter.com/dave_paquette
-GitHub: http://github.com/dpaquette
+GitHub: https://github.com/dpaquette
 LinkedIn: https://www.linkedin.com/in/david-paquette-a7997b7/
 YouTube: https://youtube.com/aspnetmonsters
 Mentor: true

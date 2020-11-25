@@ -13,7 +13,7 @@ Topics:
   - Open Source
   - Visual Studio
   - Windows Development
-Blog: www.christophep.com
+Blog: https://www.christophep.com
 Twitter: https://twitter.com/windowscpp
 LinkedIn: https://www.linkedin.com/in/christophe-pichaud-3802323/
 Mentor: true

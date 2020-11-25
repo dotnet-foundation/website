@@ -28,7 +28,7 @@ Blog: http://msprogrammer.serviciipeweb.ro/
 Feed: http://msprogrammer.serviciipeweb.ro/feed/
 Twitter: https://twitter.com/ignatandrei
 GitHub: https://github.com/ignatandrei/
-LinkedIn: http://linkedin.com/in/ignatandrei
+LinkedIn: https://linkedin.com/in/ignatandrei
 Sessionize: https://sessionize.com/ignatandrei
 MeetUp: https://www.meetup.com/Bucharest-A-D-C-E-S-Meetup/
 YouTube: https://www.youtube.com/playlist?list=PL4aSKgR4yk4OnmJW6PlBuDOXdYk6zTGps

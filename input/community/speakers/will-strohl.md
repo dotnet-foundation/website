@@ -32,7 +32,7 @@ YouTube: https://www.youtube.com/channel/UC9OtKeLeWVGmVUYhhns2GNQ
 Instagram: https://www.instagram.com/UpendoVentures  
 Mentor: true
 ---  
-Will Strohl is a published author and technologist in the San Francisco area.  During his career, Will has held positions ranging from Help Desk Technician to being the CEO & Co-Owner at  Hotcakes Commerce ([mmmCommerce.com](https://mmmCommerce.com)).  He even spent a few years at DNN Corp where he ran the evangelism, training, and sales engineering departments.  Today, Will is the founder and CEO of Upendo Ventures ([UpendoVentures.com](UpendoVentures.com)), providing software development, training, and technical consulting to companies around the world.  
+Will Strohl is a published author and technologist in the San Francisco area.  During his career, Will has held positions ranging from Help Desk Technician to being the CEO & Co-Owner at  Hotcakes Commerce ([mmmCommerce.com](https://mmmCommerce.com)).  He even spent a few years at DNN Corp where he ran the evangelism, training, and sales engineering departments.  Today, Will is the founder and CEO of Upendo Ventures ([UpendoVentures.com](https://UpendoVentures.com)), providing software development, training, and technical consulting to companies around the world.  
 
 Will is one of the leaders of the [DNN community](https://dnncommunity.org), where he helps lead [the Awareness group](https://dnncommunity.org/Community/Leadership-Team/Awareness) to help DNN grow.  Will was also the President of the Orlando DNN Users Group or ODUG for 2 years, and the Vice President of the Orlando .NET User Group or ONETUG ([www.onetug.org](https://www.onetug.org)).  
 

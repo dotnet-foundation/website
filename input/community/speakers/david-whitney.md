@@ -21,7 +21,7 @@ Topics:
   - Web Development
 Blog: http://www.davidwhitney.co.uk/Blog
 Twitter: https://twitter.com/david_whitney
-GitHub: http://github.com/davidwhitney
+GitHub: https://github.com/davidwhitney
 StackOverflow: https://stackoverflow.com/users/1297/davidwhitney
 LinkedIn: https://www.linkedin.com/in/davidwhitney/
 Twitch: https://twitch.tv/davidwhitney

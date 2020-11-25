@@ -9,12 +9,12 @@ Topics:
   - HoloLens
   - Machine Learning
   - Mixed Reality
-Blog: kodierer.blogspot.com/
+Blog: https://kodierer.blogspot.com/
 Twitter: https://twitter.com/rschu
 GitHub: https://github.com/reneschulte
 LinkedIn: https://linkedin.com/in/reneschulte
 Sessionize: https://sessionize.com/rene-schulte/
-YouTube: http://www.youtube.com/c/ReneSchulte
+YouTube: https://www.youtube.com/c/ReneSchulte
 Instagram: https://www.instagram.com/schulte.rene/
 Mentor: true
 ---
