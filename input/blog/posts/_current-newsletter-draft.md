@@ -5,7 +5,7 @@ Published:
 Slug: net-foundation-november-december-2020-update
 Excluded: true
 ---
-Welcome to the November/December 2020 .NET Foundation update. Every other month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.
+Welcome to the .NET Foundation update for November & December. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more. 
 
 [Sign up for the newsletter](http://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
 
@@ -61,7 +61,7 @@ The .NET Foundation is only as good as the community that supports it. There are
 Projects, and the people behind them, are at the heart of what .NET Foundation is all about. These days, you’ll find a wide variety of projects under the .NET Foundation. Can you contribute to something already in the works? [Browse our projects](https://dotnetfoundation.org/projects) to find out how to contribute. 
 
 ### [Become a member](https://dotnetfoundation.org/member) 
-The .NET ecosystem is constantly evolving and growing, and we’ve seen incredible innovation in the last few years with more to come. If you are passionate about the .NET ecosystem, then you should consider becoming a member of the .NET Foundation. [Read more about member benefits](https://dotnetfoundation.org/member) and [please join](https://dotnetfoundation.org/member/become-a-member) to help shape the future.
+By involving people that are passionate about .NET we can create a powerful organization that furthers sustainable open source, a diverse and open community, and help evolve this growing and evolving ecosystem that we are very passionate about. If you are as passionate about the .NET ecosystem as we are, then you should consider becoming a member of the .NET Foundation. [Read more about member benefits](https://dotnetfoundation.org/member) and [please join](https://dotnetfoundation.org/member/become-a-member) to help shape the future.
 
 ### [Join a committee](https://dotnetfoundation.org/community/committees)
 The .NET Foundation Committees are where the vast majority of work gets done in the Foundation. The more you participate the more we can do together. Please visit the [committee hub on our website](https://dotnetfoundation.org/community/committees) to learn more and how you can get involved. 
