@@ -22,6 +22,21 @@ We've moved the .NET Community Standups from Microsoft over to the [.NET YouTube
 ### [.NET Foundation Speaker Directory](https://dotnetfoundation.org/community/speakers)
 The .NET Foundation is building a [speaker directory](https://dotnetfoundation.org/community/speakers) to discover and encourage speakers from around the world as well as provide mentors for new speakers. We invite you to [add yourself to the directory](https://dotnetfoundation.org/community/speakers), act as a mentor if you'd like, and contribute to building up the global list of community speakers.
 
+## .NET Foundation Project Updates
+
+### Project Spotlight - Oqtane
+
+### New Projects
+
+The .NET Foundation would like to welcome the following projects that have recently joined. 
+
+|  |  |
+| ------------------- |--------------------|
+
+### New Releases
+Congrats to the following projects on their new releases!
+
+
 ## Events
 
 ### [Watch .NET Conf 2020 Session Replays](https://www.dotnetconf.net/?utm_source=dotnefdn&utm_medium=newsletter)
@@ -38,20 +53,6 @@ This year the .NET Foundation is supporting community-run virtual events to help
 
 ### "The Maintainers" Video Series Needs You
 Shawn Wildermuth is putting together a short video series about open source maintainers. You can view the existing episodes (with Brad Wilson of xUnit fame; and Jimmy Bogard of AutoMapper) by visiting the [YouTube Playlist](https://shawnw.me/TheMaintainers). If you're interested in being a part of the series, please contact Shawn on [His Website](https://wildermuth.com/contact).
-
-## .NET Foundation Project Updates
-
-
-## New Projects
-
-The .NET Foundation would like to welcome the following projects that have recently joined. 
-
-|  |  |
-| ------------------- |--------------------|
-
-## New Releases
-Congrats to the following projects on their new releases!
-
 
 ## How to Get Involved
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
