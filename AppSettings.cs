@@ -16,7 +16,7 @@ namespace DotnetFoundationWeb
         public static string ServerUrl { get; set; } = ConfigurationManager.AppSettings["ServerUrl"];
 
         public static bool IsCampaignOpen { get; set; }
-          = String.Equals(ConfigurationManager.AppSettings["IsCampaignOpen"], "true", StringComparison.OrdinalIgnoreCase);
+          = string.Equals(ConfigurationManager.AppSettings["IsCampaignOpen"], "true", StringComparison.OrdinalIgnoreCase);
 
         public static string AzureSearchQueryKey { get; set; } = ConfigurationManager.AppSettings["AzureSearchQueryKey"];
 
