@@ -1,8 +1,6 @@
-﻿using System;
+﻿using Statiq.Common;
+using System;
 using System.Collections.Generic;
-using System.Collections.Immutable;
-using Microsoft.Extensions.Logging;
-using Statiq.Common;
 
 namespace DotnetFoundationWeb
 {
