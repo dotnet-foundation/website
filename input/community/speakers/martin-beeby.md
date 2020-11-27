@@ -7,6 +7,7 @@ Language:
 Topics:
   - .NET
   - ASP.NET
+  - AWS
   - Azure
   - C#
   - Containers
