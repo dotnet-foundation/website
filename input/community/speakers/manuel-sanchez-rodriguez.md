@@ -14,7 +14,6 @@ Topics:
   - HoloLens
   - IoT
   - Microservices
-  - Digital Twins
   - IoT
 Blog: http://manuss20.com/
 Feed: http://manuss20.com/feed/
