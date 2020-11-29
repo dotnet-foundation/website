@@ -36,6 +36,13 @@ The .NET Foundation would like to welcome the following projects that have recen
 ### New Releases
 Congrats to the following projects on their new releases!
 
+## .NET Foundation Committee Updates
+
+### Membership Committee
+ 
+The membership committee has processed the full backlog of new member requests. If you’re reading this for the first time, Welcome!
+ 
+There are two other initiatives we’re working on. First, we’re working on defining a clear set of benefits for individuals to join the foundation. We want the foundation to provide mor clear benefits to its members. Second, we’re looking at expanding what kinds of contributions should be considered to join the foundation. Our goal is to attract more members to the foundation from the .NET community at large. Follow along with our discussions at our [GitHub repo](https://github.com/dotnet-foundation/wg-membership).
 
 ## Events
 
