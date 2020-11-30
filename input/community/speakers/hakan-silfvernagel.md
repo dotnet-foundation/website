@@ -1,5 +1,6 @@
 ---
 Title: Håkan Silfvernagel
+image: https://github.com/abbhakan.png
 Location: Oslo, Norway
 Email: hakan.silfvenagel@miles.no
 Language:
