@@ -1,7 +1,7 @@
 ---
 Title: Håkan Silfvernagel
 Location: Oslo, Norway
-Email: hakan.silfvenagel@miles.no
+Email: hakan.silfvernagel@miles.no
 Language:
   - English
 Topics:
