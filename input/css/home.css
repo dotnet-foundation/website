@@ -397,3 +397,7 @@ details {
       transform: scale(1);
     }
   }
+
+  .committee_container ul li {
+    font-size: 14px;
+  }

@@ -16,6 +16,7 @@ namespace DotnetFoundationWeb
             "Architecture",
             "Artificial Intelligence",
             "Azure",
+            "AWS",
             "Big Data",
             "Blazor",
             "C#",
@@ -31,6 +32,7 @@ namespace DotnetFoundationWeb
             "iOS",
             "IoT",
             "JavaScript",
+            "JetBrains Rider",
             "Machine Learning",
             "macOS",
             "Microsoft 365",
@@ -44,6 +46,7 @@ namespace DotnetFoundationWeb
             "Open Source",
             "Product Management",
             "Razor",
+            "ReSharper",
             "Security",
             "Serverless",
             "SignalR",
@@ -60,7 +63,8 @@ namespace DotnetFoundationWeb
             "Windows Forms",
             "WPF",
             "Xamarin",
-            "Xamarin.Forms"
+            "Xamarin.Forms",
+            "XAML"
         };
 
         protected override void AnalyzeSpeakerData(IDocument document, IAnalyzerContext context)
