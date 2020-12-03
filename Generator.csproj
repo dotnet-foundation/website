@@ -19,10 +19,6 @@
     <Folder Include="input\assets\corporate-sponsors\" />
   </ItemGroup>
 
-  <!--
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\statiqdev\Statiq.Web\src\Statiq.Web\Statiq.Web.csproj" />
-  </ItemGroup>
-  -->
+ 
 
 </Project>
