@@ -1,5 +1,6 @@
 {
     "projectName": "Cake",
+    "showProjectName": true,
     "imageFileName": "cake-large.png",
     "gitHubOrg": "cake-build",
     "gitHubRepoName": "Cake",

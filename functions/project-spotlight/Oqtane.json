@@ -1,6 +1,7 @@
 {
     "projectName": "Oqtane",
-    "imageFileName": "oqtane.png",
+    "showProjectName": false,
+    "imageFileName": "oqtane-white.png",
     "gitHubOrg": "oqtane",
     "gitHubRepoName": "oqtane.framework",
     "transcriptFileName": "oqtane-transcript.txt",
@@ -12,7 +13,7 @@
       }
     ],
     "youtubeUrl": "https://www.youtube.com/embed/YlqoHGxe_ZU",
-    "projectDescription": "Oqtane is a modular application framework for Blazor which accelerates the development of modern digital experiences.",
+    "projectDescription": "Oqtane is a modular application framework which accelerates the development of modern digital experiences. It was architected from the ground up to utilize Blazor, a modern single-page application framework for building interactive web apps with C# and .NET Core. Oqtane offers advanced capabilities such as multi-tenancy, a fully dynamic page compositing model, designer friendly themes, extensibility via third party plug-in modules, a headless API, and supports Blazor Server and Blazor WebAssembly hosting models.",
     "contributors": [
       {
         "name": "Pavel Veselý",
@@ -37,7 +38,7 @@
     ],
     "githubRepo": "https://github.com/oqtane/oqtane.framework",
     "projectWebsite": "https://www.oqtane.org/",
-    "communityUrl": "https://github.com/oqtane/oqtane.framework/issues",
+    "communityUrl": "https://github.com/oqtane/oqtane.framework/discussions",
     "documentationUrl": "http://oqtane.github.io/",
     "contributionUrl": "https://github.com/oqtane/oqtane.framework/issues"
   }
