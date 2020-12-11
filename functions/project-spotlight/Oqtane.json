@@ -6,6 +6,7 @@
     "gitHubRepoName": "oqtane.framework",
     "transcriptFileName": "oqtane-transcript.txt",
     "publishDate": "2020-11-01",
+    "loadIssues": false,
     "projectOwners": [
       {
         "name": "Shaun Walker",

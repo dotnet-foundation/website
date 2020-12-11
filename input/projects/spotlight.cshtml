@@ -194,8 +194,10 @@ document.getElementById("contributionUrl").href = project.contributionUrl;
  $(transcript_div).load("assets/projects/spotlight-transcripts/" + project.transcriptFileName, function() {
             });
 
-loadOpenIssues(orgs, repos, true, project.gitHubRepoName);
-
+if (project.loadIssues)
+{
+    loadOpenIssues(orgs, repos, true, project.gitHubRepoName);
+}
 /////// Build bottom list
   projects = projects.sort(function (a, b) {
     if (a.projectName > b.projectName) return 1;

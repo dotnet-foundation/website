@@ -6,6 +6,7 @@
     "gitHubRepoName": "Dnn.Platform",
     "transcriptFileName": "dotnetnuke-transcript.txt",
     "publishDate": "2020-09-01",
+    "loadIssues": true,
     "projectOwners": [
       {
         "name": "Mitchel Sellers",
