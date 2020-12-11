@@ -31,14 +31,7 @@ Each month Project Spotlight shines a light on an interesting open source projec
 Oqtane is a modular application framework which accelerates the development of modern digital experiences. It was architected from the ground up to utilize Blazor, a modern single-page application framework for building interactive web apps with C# and .NET. Oqtane offers advanced capabilities such as multi-tenancy, a fully dynamic page compositing model, designer friendly themes, extensibility via third party plug-in modules, a headless API, and supports Blazor Server and Blazor WebAssembly hosting models. 
 
 ### New Projects
-
-The .NET Foundation would like to welcome the following projects that have recently joined. 
-
-|  |  |
-| ------------------- |--------------------|
-
-### New Releases
-Congrats to the following projects on their new releases!
+No new projects have joined since the last newsletter, but we have a few in the pipeline that we’re excited about in the new year. 
 
 ## .NET Foundation Committee Updates
 
