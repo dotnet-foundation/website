@@ -24,7 +24,11 @@ The .NET Foundation is building a [speaker directory](https://dotnetfoundatio
 
 ## .NET Foundation Project Updates
 
-### Project Spotlight - Oqtane
+### [Project Spotlight - Oqtane](https://dotnetfoundation.org/projects/spotlight)
+
+In this iteration of Project Spotlight, .NET Foundation Marketing Committee Member Isaac Levin speaks member of the .NET Foundation Projects Committee Shaun Walker to talk about his project Octane, which recently launched version 2.0 at .NET Conf 2020.
+
+Oqtane is a modular application framework which accelerates the development of modern digital experiences. It was architected from the ground up to utilize Blazor, a modern single-page application framework for building interactive web apps with C# and .NET Core. Oqtane offers advanced capabilities such as multi-tenancy, a fully dynamic page compositing model, designer friendly themes, extensibility via third party plug-in modules, a headless API, and supports Blazor Server and Blazor WebAssembly hosting models. 
 
 ### New Projects
 
