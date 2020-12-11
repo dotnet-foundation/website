@@ -1,10 +1,12 @@
 {
     "projectName": "Cake",
+    "showProjectName": true,
     "imageFileName": "cake-large.png",
     "gitHubOrg": "cake-build",
     "gitHubRepoName": "Cake",
     "transcriptFileName": "cake-transcript.txt",
     "publishDate": "2020-08-01",
+    "loadIssues": true,
     "projectOwners": [
       {
         "name": "Patrik Svensson",

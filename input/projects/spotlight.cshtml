@@ -25,8 +25,8 @@ useFunctionsJS: true
 			<div id="project-owners">
 				<h3>Project Owners:</h3>
 				<br />
-					<ul id="projectOwners" class="comma-list">
-			        </ul>
+                <div id="projectOwners">
+                </div>
 			</div>
     </div>
 </section>
@@ -47,14 +47,6 @@ useFunctionsJS: true
                      </div>
 					<br />
 					<br />
-					<details>
-						<summary>
-    						Interview Transcript
-						</summary>
-						<br />
-						<br />
-<div id="transcript"></div>
-					</details>
 				</div>
 			</div>
           </div>
@@ -155,10 +147,22 @@ $.ajax({
     });
 
 var projectOwners = "";
-project.projectOwners.forEach((p)=> {
+
+var projectOwnersDiv = "";
+if (project.projectOwners.length == 1)
+{
+  projectOwnersDiv = "<a href="+ project.projectOwners[0].url + " target='_blank'><i class='fab fa-github' aria-hidden='true'></i> " + project.projectOwners[0].name + "</a>";
+}
+else{
+    project.projectOwners.forEach((p)=> {
     projectOwners += "<li><a href="+ p.url + " target='_blank'><i class='fab fa-github' aria-hidden='true'></i> " + p.name + "</a></li>";
 });
-document.getElementById("projectOwners").innerHTML = projectOwners;
+  projectOwnersDiv = "<ul class='comma-list'>" +
+    projectOwners +
+"</ul>";
+}
+
+document.getElementById("projectOwners").innerHTML = projectOwnersDiv;
 
 var projectContributors = "";
 project.contributors.forEach((c)=> {
@@ -167,7 +171,14 @@ project.contributors.forEach((c)=> {
 
 document.getElementById("projectContributors").innerHTML = projectContributors;
 
-document.getElementById("projectHeader").innerHTML =  "<span id='projectName'>" + project.projectName + "</span> <img src=assets/projects/" + project.imageFileName.toLowerCase() + " id='projectImage' width='100' alt="+project.projectName + ">";
+if (project.showProjectName)
+{
+document.getElementById("projectHeader").innerHTML =  "<span id='projectName'>" + project.projectName + "</span><br /><br /> <img src=assets/projects/" + project.imageFileName.toLowerCase() + " id='projectImage' width='200' alt="+project.projectName + ">";
+}
+else
+{
+    document.getElementById("projectHeader").innerHTML =  "<img src=assets/projects/" + project.imageFileName.toLowerCase() + " id='projectImage' width='200' alt="+project.projectName + ">";
+}
 document.getElementById("projectDescription").innerHTML = project.projectDescription;
 
 document.getElementById("projectYouTube").src = project.youtubeUrl;
@@ -183,8 +194,10 @@ document.getElementById("contributionUrl").href = project.contributionUrl;
  $(transcript_div).load("assets/projects/spotlight-transcripts/" + project.transcriptFileName, function() {
             });
 
-loadOpenIssues(orgs, repos, true, project.gitHubRepoName);
-
+if (project.loadIssues)
+{
+    loadOpenIssues(orgs, repos, true, project.gitHubRepoName);
+}
 /////// Build bottom list
   projects = projects.sort(function (a, b) {
     if (a.projectName > b.projectName) return 1;
