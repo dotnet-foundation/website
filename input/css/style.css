@@ -1819,3 +1819,37 @@ table thead td {
     border: 0;
   }
 }
+
+.cc_dialog.simple {
+  max-width: 100% !important;
+  padding: 1rem !important;
+}
+
+.cc_dialog .cc_dialog_headline {
+  font-size: 18px !important;
+}
+
+.cc_dialog .cc_dialog_text {
+  font-size: 13px !important;
+}
+
+@media (min-width: 768px) {
+  .cc_dialog .cc_dialog_headline {
+    font-size: 24px !important;
+  }
+
+  .cc_dialog .cc_dialog_text {
+    font-size: 16px !important;
+  }
+
+  .cc_dialog.simple {
+    padding: 2rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .cc_dialog.simple {
+    max-width: 50% !important;
+    padding: 3rem !important;
+  }
+}
