@@ -1,5 +1,6 @@
 ---
 Title: Jamie Taylor
+Image: https://pbs.twimg.com/profile_images/1244885606527832064/JK046jHU_400x400.jpg
 Location: Leeds, UK
 Email: jamie.taylor@rjj-software.co.uk
 Language:
