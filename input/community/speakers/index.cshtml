@@ -2,6 +2,16 @@ Title: Speaker Directory
 ---
 @{
     Layout = @"_Layout.cshtml";
+    var speakers = OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).ToList();
+
+    Func<string,IEnumerable<string>> fromSpeakers = topic =>
+    {
+        return speakers
+            .SelectMany(x => x.GetList<string>(topic, Array.Empty<string>()))
+            .Select(x => System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(x))
+            .Distinct(StringComparer.CurrentCultureIgnoreCase)
+            .OrderBy(x => x);
+    };
 }
 
 @section head {
@@ -37,7 +47,7 @@ Title: Speaker Directory
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Filter By Topic</label>
                         <div class="col-sm-10" id="topic-filters">
-                            @foreach (string topic in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>(SiteKeys.Topics, Array.Empty<string>())).Distinct().OrderBy(x => x))
+                            @foreach (string topic in fromSpeakers(SiteKeys.Topics))
                             {
                                 <a class="filter btn btn-light mb-2" href="javascript:void(0)" data-filter="@topic">@topic</a>
                             }
@@ -46,7 +56,7 @@ Title: Speaker Directory
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Filter By Language</label>
                         <div class="col-sm-10" id="language-filters">
-                            @foreach (string language in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>(SiteKeys.Language, Array.Empty<string>())).Distinct().OrderBy(x => x))
+                            @foreach (string language in fromSpeakers(SiteKeys.Language))
                             {
                                 <a class="filter btn btn-light mb-2" href="javascript:void(0)" data-filter="@language">@language</a>
                             }
@@ -67,7 +77,7 @@ Title: Speaker Directory
                 <div class="tab-content" id="tab-content">
                     <div class="tab-pane" id="tab-list" role="tabpanel" aria-labelledby="list-tab">
                         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 list">
-                            @foreach (IDocument speaker in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)))
+                            @foreach (IDocument speaker in speakers)
                             {
                                 <div class="col mb-4 list__item">
                                     <div class="card h-100 border-0 bg-light">
