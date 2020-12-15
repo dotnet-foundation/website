@@ -3,7 +3,7 @@ Title: Adam Furmanek
 Location: Krakow, Poland
 Language:
   - English
-  - Polski
+  - Polish
 Topics:
   - .NET
   - Architecture

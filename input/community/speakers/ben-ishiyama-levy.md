@@ -4,7 +4,7 @@ Location: Singapore
 Email: ben@xamariners.com
 Language:
   - English
-  - french
+  - French
 Topics:
   - .NET
   - Android
