@@ -3,7 +3,7 @@ Title: Martin Zikmund
 Location: Prague, Czech Republic
 Email: martin@zikmund.dev
 Language:
-  - EnglishEnglish
+  - English
   - Czech
 Topics:
   - .NET
