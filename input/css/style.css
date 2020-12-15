@@ -85,6 +85,10 @@
   .container {
     max-width: 100%;
   }
+
+  .latest_container--event p {
+    font-size: 14px;
+  }
 }
 
 a {
@@ -591,6 +595,10 @@ li.active a.nav-link,
 
 .latest_container--news .latest_date.newstype-product {
   background-image: url(../img/bullhorn.png);
+}
+
+.latest_container--event p {
+  margin-bottom: 0;
 }
 
 .latest_date {
