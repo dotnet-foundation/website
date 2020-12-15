@@ -3,8 +3,8 @@ Location: Quebec Canada
 Email: didourebai@gmail.com
 Language:
   - English
-  - french
-  - arabic
+  - French
+  - Arabic
 Topics:
   - .NET
   - ASP.NET
