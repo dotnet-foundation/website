@@ -3,7 +3,6 @@ Title: .NET Foundation November/December 2020 Update
 Author: Claire Novotny
 Published: 2020-12-15
 Slug: net-foundation-november-december-2020-update
-Excluded: true
 ---
 Welcome to the .NET Foundation update for November & December. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more. 
 
