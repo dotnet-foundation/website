@@ -21,6 +21,12 @@
                     </div>
 
                     <div class="form-group">
+                        <label for="pronouns" class="mb-0 font-weight-bold">Preferred Gender Pronouns</label>
+                        <small id="pronouns-help" class="form-text text-muted mb-3">Your preferred gender pronouns of the form [subject]/[object] (I.e. "they/them").</small>
+                        <input id="pronouns" class="form-control" aria-describedby="pronouns-help">
+                    </div>
+
+                    <div class="form-group">
                         <label for="location" class="mb-0 font-weight-bold">Location</label>
                         <small id="location-help" class="form-text text-muted mb-3">Your location in plain language (for example, "Seattle, Washington USA").</small>
                         <input id="location" class="form-control" aria-describedby="location-help">
@@ -159,6 +165,11 @@
                 return;
             }
             let content = "---\nTitle: " + fullname.trim() + "\n";
+
+            let pronouns = $("#pronouns").val();
+            if (pronouns) {
+                content += "Pronouns: " + pronouns.trim() + "\n";
+            }
 
             let location = $("#location").val();
             if (location) {
