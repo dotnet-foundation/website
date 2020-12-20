@@ -45,3 +45,16 @@ Instagram: https://Instagram.com/XperiAndriCloud
 Mentor: true
 ---
 
+Co-founder of The Secret Circle Solutions.
+
+F#, XAML, WPF, UWP developer.
+
+Azure cloud solutions architect.
+
+Creator of Elmish.Uno (port of Elmish.WPF).
+
+OpenIddict contributor and integrator.
+
+Azure DevOps ALM integrator and Microsoft best practices implementer.
+
+Lecturer of IT Step Computer Academy.
