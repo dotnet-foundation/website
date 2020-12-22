@@ -1493,6 +1493,10 @@ svg:not(:root).svg-inline--fa {
     min-width: auto;
     padding: 7px 15px;
   }
+
+  .post header h1 {
+    font-size: 26px;
+  }
 }
 
 .tabbed-index a:last-child {
