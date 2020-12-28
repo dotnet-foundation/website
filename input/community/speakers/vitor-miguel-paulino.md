@@ -4,7 +4,7 @@ Location: Portugal
 Email: vmlepaulino@gmail.com
 Language:
   - English
-  - portuguese
+  - Portuguese
 Topics:
   - .NET
   - ASP.NET
