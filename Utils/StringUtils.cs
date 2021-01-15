@@ -1,8 +1,6 @@
-﻿using System;
+﻿using HtmlAgilityPack;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using HtmlAgilityPack;
 
 namespace DotnetFoundationWeb
 {
@@ -15,7 +13,7 @@ namespace DotnetFoundationWeb
 
         public static IEnumerable<HtmlNode> TextDescendants(HtmlNode root)
         {
-            return root.Descendants().Where(n => n.NodeType == HtmlNodeType.Text && !String.IsNullOrWhiteSpace(n.InnerText));
+            return root.Descendants().Where(n => n.NodeType == HtmlNodeType.Text && !string.IsNullOrWhiteSpace(n.InnerText));
         }
 
         public static string TruncateHtml(string html, int maxCharacters)
@@ -37,11 +35,11 @@ namespace DotnetFoundationWeb
                 {
                     var truncatedText = TruncateWords(lastNode.Value.InnerText, maxCharacters - preceedingText);
 
-                    if (String.IsNullOrWhiteSpace(truncatedText) && lastNode.Previous != null)
+                    if (string.IsNullOrWhiteSpace(truncatedText) && lastNode.Previous != null)
                     {
                         // Put the ellipsis in the previous node and remove the empty node.
                         lastNode.Previous.Value.InnerHtml = lastNode.Previous.Value.InnerText.Trim() + "&hellip;";
-                        lastNode.Value.InnerHtml = String.Empty;
+                        lastNode.Value.InnerHtml = string.Empty;
                         lastNode = lastNode.Previous;
                     }
                     else
@@ -72,13 +70,13 @@ namespace DotnetFoundationWeb
 
         private static string TruncateWords(string value, int length)
         {
-            if (String.IsNullOrWhiteSpace(value) || length <= 0) return String.Empty;
+            if (string.IsNullOrWhiteSpace(value) || length <= 0) return string.Empty;
             if (length > value.Length) return value;
 
             var endIndex = length;
-            while (Char.IsLetterOrDigit(value[endIndex - 1]) && Char.IsLetterOrDigit(value[endIndex]) && endIndex > 1) endIndex--;
+            while (char.IsLetterOrDigit(value[endIndex - 1]) && char.IsLetterOrDigit(value[endIndex]) && endIndex > 1) endIndex--;
 
-            if (endIndex == 1) return String.Empty;
+            if (endIndex == 1) return string.Empty;
             return value.Substring(0, endIndex).Trim();
         }
     }
