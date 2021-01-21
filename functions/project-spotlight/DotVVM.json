@@ -14,7 +14,7 @@
       }
     ],
 
-    "youtubeUrl": "https://youtu.be/DP-QQy6Vg7U",
+    "youtubeUrl": "https://www.youtube.com/embed/DP-QQy6Vg7U",
     "projectDescription": "DotVVM is an open-source framework that allows building ASP.NET apps using the MVVM approach with just C# and HTML. The framework is integrated in the ASP.NET ecosystem, ships with an extension for Visual Studio, and can be also used for modernizing old ASP.NET applications as it supports both OWIN and ASP.NET Core.",
     "contributors": [
       {
