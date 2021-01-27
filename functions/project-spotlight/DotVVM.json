@@ -7,6 +7,7 @@
     "transcriptFileName": "",
     "publishDate": "2021-4-01",
     "loadIssues": true,
+    "issueLabel": "good first issue",
     "projectOwners": [
       {
         "name": "Tomáš Herceg",
