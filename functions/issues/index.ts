@@ -20,7 +20,7 @@ class ViewModel {
 async function getIssues(organization: string, repos: string[], label: string) {
   const issuesByRepoPromises = repos.map((repo) => {
     if (label === undefined || label === null || label == "") {
-      octokit.issues
+      return octokit.issues
         .listForRepo({
           repo,
           owner: organization,
@@ -28,7 +28,7 @@ async function getIssues(organization: string, repos: string[], label: string) {
         })
         .then((r) => r.data);
     } else {
-      octokit.issues
+     return octokit.issues
         .listForRepo({
           repo,
           owner: organization,
