@@ -17,16 +17,26 @@ class ViewModel {
   }
 }
 
-async function getIssues(organization: string, repos: string[]) {
-  const issuesByRepoPromises = repos.map((repo) =>
-    octokit.issues
-      .listForRepo({
-        repo,
-        owner: organization,
-        labels: "help wanted,help-wanted,good first issue",
-      })
-      .then((r) => r.data)
-  );
+async function getIssues(organization: string, repos: string[], label: string) {
+  const issuesByRepoPromises = repos.map((repo) => {
+    if (label === undefined || label === null || label == "") {
+      octokit.issues
+        .listForRepo({
+          repo,
+          owner: organization,
+          labels: "help wanted",
+        })
+        .then((r) => r.data);
+    } else {
+      octokit.issues
+        .listForRepo({
+          repo,
+          owner: organization,
+          labels: label,
+        })
+        .then((r) => r.data);
+    }
+  });
   try {
     const issuesByRepo = await Promise.all(issuesByRepoPromises);
     return issuesByRepo.reduce((list, item) => list.concat(item), []);
@@ -75,7 +85,7 @@ const httpTrigger: AzureFunction = async function (
 ): Promise<void> {
   var repos: string[] = extractValue(req, "repos");
   var org = extractValue(req, "organization");
-
+  var label = extractValue(req, "label");
   var filepath = `${org}-issues.json`;
 
   try {
@@ -90,7 +100,7 @@ const httpTrigger: AzureFunction = async function (
     var diff = now.getTime() - model.date.getTime();
     var hours = Math.floor(diff / (1000 * 60 * 60));
     if (hours > 5) {
-      model = await processIssues(await getIssues(org, repos));
+      model = await processIssues(await getIssues(org, repos, label));
       fs.writeFileSync(
         path.join(__dirname, filepath),
         JSON.stringify(model),
@@ -113,7 +123,7 @@ const httpTrigger: AzureFunction = async function (
       };
     }
   } catch {
-    let model = await processIssues(await getIssues(org, repos));
+    let model = await processIssues(await getIssues(org, repos, label));
     fs.writeFileSync(
       path.join(__dirname, filepath),
       JSON.stringify(model),
@@ -132,7 +142,7 @@ const httpTrigger: AzureFunction = async function (
 function extractValue(request: HttpRequest, property: string): any | undefined {
   var v = getValuesFromBody(request, property);
 
-  if (v.length === 0) {
+  if (v == null || v.length === 0) {
     return undefined;
   }
 
