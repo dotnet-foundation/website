@@ -23,7 +23,7 @@ async function getIssues(organization: string, repos: string[]) {
       .listForRepo({
         repo,
         owner: organization,
-        labels: "help wanted",
+        labels: "help wanted,help-wanted,good first issue",
       })
       .then((r) => r.data)
   );
