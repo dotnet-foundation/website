@@ -134,6 +134,12 @@ p {
   padding-right: 34px;
 }
 
+@media (min-width: 768px) {
+    .page-section_column--narrow p {
+        min-height: 145px;
+    }
+}
+
 .page-section_column.pad-fix--all {
   padding-top: 0;
 }
