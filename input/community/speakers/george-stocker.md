@@ -1,6 +1,6 @@
 ---
 Title: George Stocker
-Pronouns: He/Him
+Pronouns: he/him
 Location: Washington, DC
 Email: george@georgestocker.com
 Language:
