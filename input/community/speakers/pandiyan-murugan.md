@@ -1,6 +1,6 @@
 ---
 Title: Pandiyan Murugan
-Pronouns: He
+Pronouns: they/them
 Location: Coimbatore, India
 Email: pandiyanit7@gmail.com
 Language:
