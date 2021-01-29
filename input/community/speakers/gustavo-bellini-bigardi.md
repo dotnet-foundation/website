@@ -1,6 +1,6 @@
 ---
 Title: Gustavo Bellini Bigardi
-Pronouns: They/Them
+Pronouns: they/them
 Location: Jundiaí, SãoPaulo Brasil
 Email: gbbigardi@gmail.com
 Language:
