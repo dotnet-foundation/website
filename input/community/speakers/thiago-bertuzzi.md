@@ -1,6 +1,6 @@
 ---
 Title: Thiago Bertuzzi
-Pronouns: he/him/his
+Pronouns: he/him
 Location: Sao Paulo, Sao Paulo Brazil
 Email: thiago.bertuzzi@gmail.com
 Language:
