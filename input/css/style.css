@@ -125,8 +125,22 @@ p {
 }
 
 .page-section_column {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .page-section_column {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page-section_column {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
 }
 
 .page-section_column--narrow {
