@@ -245,13 +245,14 @@ h4 {
 
 html {
   font-size: 62.5%;
+  height: 100%;
 }
 
 body {
-  font-family: "Avenir", "Adobe Heiti Std", "Segoe UI", "Trebuchet MS",
-    sans-serif;
+  font-family: "Avenir", "Adobe Heiti Std", "Segoe UI", "Trebuchet MS", sans-serif;
   font-size: 1.5rem;
   overflow-x: hidden;
+  height: 100%;  
 }
 
 .wf-active body {
