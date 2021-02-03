@@ -10,18 +10,18 @@ Entity Framework is the recommend data access technology for new applications in
 
 ### Entity Framework has two versions: 
 
-[Entity Framework 6](https://github.com/aspnet/EntityFramework6) is the legacy Entity Framework for .NET Framework, that runs only on Windows.
+[Entity Framework 6](https://github.com/dotnet/ef6) is the legacy Entity Framework for .NET Framework, that runs only on Windows.
 
-[Entity Framework Core](https://github.com/aspnet/EntityFrameworkCore) is a new, lightweight and extensible .NET Standard based version for .NET applications running Windows, Linux and macOS.
+[Entity Framework Core](https://github.com/dotnet/efcore) is a new, lightweight and extensible .NET Standard based version for .NET applications running Windows, Linux and macOS.
 
 ## Project Details
-* [Project Info Site](https://github.com/aspnet/EntityFrameworkCore)
-* [Project Code Site](https://github.com/aspnet/EntityFrameworkCore)
-* Project License Type: [Apache 2.0](https://github.com/aspnet/EntityFrameworkCore/blob/master/LICENSE.txt)
+* [Project Info Site](https://github.com/dotnet/efcore)
+* [Project Code Site](https://github.com/dotnet/efcore)
+* Project License Type: [Apache 2.0](https://github.com/dotnet/efcore/blob/main/LICENSE.txt)
 
 ## Quicklinks
 
-* [Contribute](https://github.com/aspnet/entityframeworkcore/blob/master/.github/CONTRIBUTING.md)
+* [Contribute](https://github.com/dotnet/efcore/blob/main/.github/CONTRIBUTING.md)
 * [Facebook](https://www.facebook.com/efmagicunicorns) 
 * [Twitter](https://twitter.com/efmagicunicorns) 
 * [Blog](https://blogs.msdn.microsoft.com/dotnet/tag/entity-framework)
