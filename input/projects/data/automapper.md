@@ -2,7 +2,7 @@
 Title: AutoMapper
 Contributor: AutoMapper
 Logo: automapper.jpg
-Web: http://automapper.org
+Web: https://automapper.org
 ---
 # AutoMapper
 
@@ -20,5 +20,5 @@ With straightforward conventions, AutoMapper removes hundreds or thousands of li
 
 ## Quicklinks
 
-* [Documentation](https://github.com/AutoMapper/AutoMapper/wiki)
+* [Documentation](https://docs.automapper.org/en/stable/)
 * [Contribute](https://github.com/AutoMapper/AutoMapper/blob/master/CONTRIBUTING.md)
