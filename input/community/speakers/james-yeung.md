@@ -1,6 +1,6 @@
 ---
 Title: James Yeung
-Pronouns: He/Him
+Pronouns: he/his
 Location: Shanghai China
 Email: shunjiey@hotmail.com
 Language:
