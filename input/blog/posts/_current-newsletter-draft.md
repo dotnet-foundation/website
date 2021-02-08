@@ -1,11 +1,11 @@
 ---
 Title: .NET Foundation January/February 2021 Update
 Author: Claire Novotny
-Published: 
+Published:
 Slug: net-foundation-january-february-2021-update
 Excluded: true
 ---
-Welcome to the .NET Foundation update for January & February. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more. 
+Welcome to the .NET Foundation update for January & February. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more.
 
 [Sign up for the newsletter](http://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
 
@@ -13,6 +13,25 @@ Welcome to the .NET Foundation update for January & February. Every other month
 
 
 ## .NET Foundation Project Updates
+
+### [Version 1.0.0 of Cake has been released](https://cakebuild.net/blog/2021/02/cake-v1.0.0-released)🍰🎉
+
+This version is the 112th release of Cake, but just not any release - they've finally hit 1.0 🎉
+
+#### Major new features
+
+* .NET 5 support
+* C# 9 support
+* Implicit bootstrapping
+* Rewritten CLI
+* Frosting incorporated into main repository
+* Frosting CLI brought up to speed with Cake script runners
+* Improved globbing support
+* Greatly improved documentation
+* Bugfixes, increased test coverage, and integration tests
+
+Full details and release notes in the release blog post: [Cake v1.0.0 released](https://cakebuild.net/blog/2021/02/cake-v1.0.0-released)
+
 
 ### [Project Spotlight - <fill in>](https://dotnetfoundation.org/projects/spotlight)
 
@@ -26,7 +45,7 @@ Each month Project Spotlight shines a light on an interesting open source projec
 ## .NET Foundation Committee Updates
 
 ### Membership Committee
- 
+
 
 
 ## Events
