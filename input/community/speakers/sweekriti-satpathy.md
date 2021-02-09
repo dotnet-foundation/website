@@ -1,6 +1,6 @@
 ---
 Title: Sweeky Satpathy
-Pronouns: She/Her
+Pronouns: she/her
 Location: San Francisco, California, USA
 Email: swsat@microsoft.com
 Language:
