@@ -196,7 +196,7 @@ document.getElementById("contributionUrl").href = project.contributionUrl;
 
 if (project.loadIssues)
 {
-    loadOpenIssues(orgs, repos, true, project.gitHubRepoName);
+    loadOpenIssues(orgs, repos, true, project.gitHubRepoName, project.issueLabel);
 }
 /////// Build bottom list
   projects = projects.sort(function (a, b) {
