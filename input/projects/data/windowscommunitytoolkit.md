@@ -2,7 +2,7 @@
 Title: Windows Community Toolkit
 Contributor: Microsoft
 Logo: microsoft.jpg
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 ---
 # Windows Community Toolkit
 
