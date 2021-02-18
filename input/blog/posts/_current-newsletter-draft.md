@@ -10,7 +10,13 @@ Welcome to the .NET Foundation update for January & February. Every other month
 [Sign up for the newsletter](http://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
 
 ## General news
+### [Please take the "State of .NET" survey](https://dotnetfoundation.org/about/survey?utm_source=dotnetfdn&utm_medium=newsletter)
+In November we launched a "State of .NET" survey and we're encouraging everyone in the .NET community to participate. Your feedback is very important to the .NET Foundation. It will help us understand our community needs better and prioritize the work that we do. The survey will stay open until March 31, 2021 after which the results will be made public. If you complete the survey you can enter to win a $250 gift certificate (multiple winners). Please visit [our survey page](https://dotnetfoundation.org/about/survey?utm_source=dotnetfdn&utm_medium=newsletter) and thank you to everyone that has completed it already.
 
+[![Take our Survey](https://user-images.githubusercontent.com/5115571/100258223-a97ad300-2efb-11eb-9f57-2b5bc55055b8.png)](https://dotnetfoundation.org/about/survey?utm_source=dotnetfdn&utm_medium=newsletter)
+
+### [.NET Foundation Speaker Directory](https://dotnetfoundation.org/community/speakers)
+The .NET Foundation has built a [speaker directory](https://dotnetfoundation.org/community/speakers) to discover and encourage speakers from around the world as well as provide mentors for new speakers. We invite you to [add yourself to the directory](https://dotnetfoundation.org/community/speakers), act as a mentor if you'd like, and contribute to building up the global list of community speakers.
 
 ## .NET Foundation Project Updates
 
