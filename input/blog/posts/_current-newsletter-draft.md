@@ -10,13 +10,21 @@ Welcome to the .NET Foundation update for January & February. Every other month
 [Sign up for the newsletter](http://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
 
 ## General news
+### [Please take the "State of .NET" survey](https://dotnetfoundation.org/about/survey?utm_source=dotnetfdn&utm_medium=newsletter)
+In November we launched a "State of .NET" survey and we're encouraging everyone in the .NET community to participate. Your feedback is very important to the .NET Foundation. It will help us understand our community needs better and prioritize the work that we do. The survey will stay open until March 31, 2021 after which the results will be made public. If you complete the survey you can enter to win a $250 gift certificate (multiple winners). Please visit [our survey page](https://dotnetfoundation.org/about/survey?utm_source=dotnetfdn&utm_medium=newsletter) and thank you to everyone that has completed it already.
 
+[![Take our Survey](https://user-images.githubusercontent.com/5115571/100258223-a97ad300-2efb-11eb-9f57-2b5bc55055b8.png)](https://dotnetfoundation.org/about/survey?utm_source=dotnetfdn&utm_medium=newsletter)
+
+### [.NET Foundation Speaker Directory](https://dotnetfoundation.org/community/speakers)
+The .NET Foundation has built a [speaker directory](https://dotnetfoundation.org/community/speakers) to discover and encourage speakers from around the world as well as provide mentors for new speakers. We invite you to [add yourself to the directory](https://dotnetfoundation.org/community/speakers), act as a mentor if you'd like, and contribute to building up the global list of community speakers.
 
 ## .NET Foundation Project Updates
 
-### [Project Spotlight - <fill in>](https://dotnetfoundation.org/projects/spotlight)
+### [Project Spotlight - DotVVM](https://dotnetfoundation.org/projects/spotlight)
 
-Each month Project Spotlight shines a light on an interesting open source project and its maintainers. In this iteration, .NET Foundation Marketing Committee member, Isaac Levin, speaks with ....
+Each month Project Spotlight shines a light on an interesting open source project and its maintainers. In this iteration, .NET Foundation Marketing Committee member, Isaac Levin, speaks with Maintainer of the DotVVM prject, Tomáš Herceg, to talk about his project.
+
+DotVVM is an open-source framework that allows building ASP.NET apps using the MVVM approach with just C# and HTML. The framework is integrated in the ASP.NET ecosystem, ships with an extension for Visual Studio, and can be also used for modernizing old ASP.NET applications as it supports both OWIN and ASP.NET Core.
 
 ### [NUnit](https://nunit.org)
 
@@ -48,8 +56,12 @@ The 3.0 release of NUnit Analyzers automatically suppresses C# 8 Nullable Refere
 
 So we have decided to release two versions of the analyzers: versions starting with 2.x can be used in Visual Studio 2017. Versions starting with 3.x can be used in Visual Studio 2019. Most features will be available in both the 2.x versions and the 3.x versions unless they require Roslyn functionality that is only available in the 3.x versions.
 
+
 ### New Projects
 
+### New Releases
+#### [CoreWCF 0.1.0 GA Release](https://corewcf.github.io/blog/2021/02/19/corewcf-ga-release)
+After 21 months of public development, CoreWCF has reached its first GA release! Thank you to key contributors from Microsoft and AWS for making the project a success and getting our first release out the door. There were a lot of fundamental changes involved in building WCF on top of ASP.NET Core but we focued on delivering a great developer experience. This is a significant milestone towards supporting enterprise WCF services moving to CoreWCF hosted on any cloud platform. Read more about the release on the [CoreWCF blog](https://corewcf.github.io/blog/2021/02/19/corewcf-ga-release). 
 
 ## .NET Foundation Committee Updates
 
