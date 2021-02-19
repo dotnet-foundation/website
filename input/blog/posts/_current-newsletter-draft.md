@@ -1,11 +1,11 @@
 ---
 Title: .NET Foundation January/February 2021 Update
 Author: Claire Novotny
-Published: 
+Published:
 Slug: net-foundation-january-february-2021-update
 Excluded: true
 ---
-Welcome to the .NET Foundation update for January & February. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more. 
+Welcome to the .NET Foundation update for January & February. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more.
 
 [Sign up for the newsletter](http://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
 
@@ -52,10 +52,28 @@ This release contains various improvements to running tests on .NET Core and Mon
 
 These versions bring fixes, new features, and performance improvements.
 
+
 The 3.0 release of NUnit Analyzers automatically suppresses C# 8 Nullable Reference Types warnings based on context in order to fill the gap for conditions that can’t be expressed using C# annotations, as mentioned in the NUnit Framework section above. (Many thanks to Manfred Brands for this major contribution.) This functionality depends on a newer version of Roslyn which is not supported in Visual Studio 2017.
 
 So we have decided to release two versions of the analyzers: versions starting with 2.x can be used in Visual Studio 2017. Versions starting with 3.x can be used in Visual Studio 2019. Most features will be available in both the 2.x versions and the 3.x versions unless they require Roslyn functionality that is only available in the 3.x versions.
 
+### [Version 1.0.0 of Cake has been released](https://cakebuild.net/blog/2021/02/cake-v1.0.0-released)🍰🎉
+
+This version is the 112th release of Cake, but just not any release - they've finally hit 1.0 🎉
+
+#### Major new features
+
+* .NET 5 support
+* C# 9 support
+* Implicit bootstrapping
+* Rewritten CLI
+* Frosting incorporated into main repository
+* Frosting CLI brought up to speed with Cake script runners
+* Improved globbing support
+* Greatly improved documentation
+* Bugfixes, increased test coverage, and integration tests
+
+Full details and release notes in the release blog post: [Cake v1.0.0 released](https://cakebuild.net/blog/2021/02/cake-v1.0.0-released)
 
 ### New Projects
 
@@ -66,7 +84,7 @@ After 21 months of public development, CoreWCF has reached its first GA release!
 ## .NET Foundation Committee Updates
 
 ### Membership Committee
- 
+
 
 
 ## Events
