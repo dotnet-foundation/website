@@ -1,0 +1,47 @@
+{
+    "projectName": "DotVVM",
+    "showProjectName": true,
+    "imageFileName": "dotvvm_logo_square.png",
+    "gitHubOrg": "riganti",
+    "gitHubRepoName": "dotvvm",
+    "transcriptFileName": "",
+    "publishDate": "2021-4-01",
+    "loadIssues": true,
+    "issueLabel": "good first issue",
+    "projectOwners": [
+      {
+        "name": "Tomáš Herceg",
+        "url": "https://github.com/tomasherceg"
+      }
+    ],
+
+    "youtubeUrl": "https://www.youtube.com/embed/DP-QQy6Vg7U",
+    "projectDescription": "DotVVM is an open-source framework that allows building ASP.NET apps using the MVVM approach with just C# and HTML. The framework is integrated in the ASP.NET ecosystem, ships with an extension for Visual Studio, and can be also used for modernizing old ASP.NET applications as it supports both OWIN and ASP.NET Core.",
+    "contributors": [
+      {
+        "name": "Stanislav Lukeš",
+        "url": "https://github.com/exyi"
+      },
+      {
+        "name": "Milan Mikuš",
+        "url": "https://github.com/Mylan719"
+      },
+      {
+        "name": "Ladislav Šesták",
+        "url": "https://github.com/quigamdev"
+      },
+      {
+        "name": "Michal Tichý",
+        "url": "https://github.com/MichalTichy"
+      },
+      {
+        "name": "Andrej Čižmárik",
+        "url": "https://github.com/acizmarik"
+      }
+    ],
+    "githubRepo": "https://github.com/riganti/dotvvm",
+    "projectWebsite": "https://www.dotvvm.com/",
+    "documentationUrl": "https://www.dotvvm.com/docs",
+    "communityUrl": "https://gitter.im/riganti/dotvvm",
+    "contributionUrl": "https://github.com/riganti/dotvvm/blob/main/contributing.md"
+  }

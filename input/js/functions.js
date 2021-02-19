@@ -1,9 +1,10 @@
-function loadOpenIssues(orgs, repos, showEmptyCard, repoName) {
+function loadOpenIssues(orgs, repos, showEmptyCard, repoName, label) {
   let html = "";
 
   var data = {
     organization: orgs,
     repos: repos,
+    label: label
   };
 
   var json = JSON.stringify(data);
