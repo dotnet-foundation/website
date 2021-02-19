@@ -20,11 +20,11 @@ The .NET Foundation has built a [speaker directory](https://dotnetfoundation.
 
 ## .NET Foundation Project Updates
 
-### [Project Spotlight - <fill in>](https://dotnetfoundation.org/projects/spotlight)
+### [Project Spotlight - DotVVM](https://dotnetfoundation.org/projects/spotlight)
 
-Each month Project Spotlight shines a light on an interesting open source project and its maintainers. In this iteration, .NET Foundation Marketing Committee member, Isaac Levin, speaks with ....
+Each month Project Spotlight shines a light on an interesting open source project and its maintainers. In this iteration, .NET Foundation Marketing Committee member, Isaac Levin, speaks with Maintainer of the DotVVM prject, Tomáš Herceg, to talk about his project.
 
-
+DotVVM is an open-source framework that allows building ASP.NET apps using the MVVM approach with just C# and HTML. The framework is integrated in the ASP.NET ecosystem, ships with an extension for Visual Studio, and can be also used for modernizing old ASP.NET applications as it supports both OWIN and ASP.NET Core.
 
 ### New Projects
 
