@@ -28,6 +28,9 @@ Each month Project Spotlight shines a light on an interesting open source projec
 
 ### New Projects
 
+### New Releases
+#### [CoreWCF 0.1.0 GA Release](https://corewcf.github.io/blog/2021/02/19/corewcf-ga-release)
+After 21 months of public development, CoreWCF has reached its first GA release! Thank you to key contributors from Microsoft and AWS for making the project a success and getting our first release out the door. There were a lot of fundamental changes involved in building WCF on top of ASP.NET Core but we focued on delivering a great developer experience. This is a significant milestone towards supporting enterprise WCF services moving to CoreWCF hosted on any cloud platform. Read more about the release on the [CoreWCF blog](https://corewcf.github.io/blog/2021/02/19/corewcf-ga-release). 
 
 ## .NET Foundation Committee Updates
 
