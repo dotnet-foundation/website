@@ -26,6 +26,37 @@ Each month Project Spotlight shines a light on an interesting open source projec
 
 DotVVM is an open-source framework that allows building ASP.NET apps using the MVVM approach with just C# and HTML. The framework is integrated in the ASP.NET ecosystem, ships with an extension for Visual Studio, and can be also used for modernizing old ASP.NET applications as it supports both OWIN and ASP.NET Core.
 
+### [NUnit](https://nunit.org)
+
+Many new releases are out at once, and work is starting on future major versions!
+
+In addition to the notes below, the .NET Core Console remains in beta ([release 3.12.0-beta2](https://github.com/nunit/nunit-console/releases/tag/v3.12.0-beta2)) due to some unresolved dependency loading and framework targeting issues. Contributions to fix these issues would be very welcome.
+
+#### [NUnit Framework 3.13](https://github.com/nunit/nunit/releases/tag/v3.13) and [3.13.1](https://github.com/nunit/nunit/releases/tag/v3.13.1)
+
+3.13 ships the first C# 8 Nullable Reference Types annotations! Almost all areas have been annotated. There are some important things to call out about this:
+
+- `Assert` methods don’t always throw exceptions when the assertion fails, due to the [Multiple Asserts](https://docs.nunit.org/articles/nunit/writing-tests/assertions/multiple-asserts.html) feature. Starting in version 3.6, `Assert.NotNull(obj)` no longer meant that `obj` would never be null on the following line. `Assert.Catch` and the other `Assert` methods are the same way. The nullability annotations added in 3.13 reflect this existing reality. We decided to only add nullability annotations that were accurate in every circumstance—a philosophy consistent with how .NET itself is annotated. This leads to the next point.
+
+- If you enable Nullable Reference Types in your test project, you will want to also add [NUnit.Analyzers 3.0](https://www.nuget.org/packages/NUnit.Analyzers/) or newer to your test project. Adding the analyzer is a great idea on its own, but it also specifically mitigates the problem in the previous point by suppressing C# compiler nullability warnings when we know it’s safe, when not in a Multiple Asserts context. This way you don’t have to use the C# null forgiveness operator (`!`) everywhere.
+
+Another addition in 3.13 is the [`FixtureLifeCycle`](https://docs.nunit.org/articles/nunit/writing-tests/attributes/fixturelifecycle.html) attribute. It enables you to stop sharing fixture instances between the tests inside that fixture. It is useful in combination with the [Parallelizable Attribute](https://docs.nunit.org/articles/nunit/writing-tests/attributes/parallelizable.html) because it allows tests within a fixture to run in isolation from each other without sharing instance fields and properties during parallel test runs.
+
+3.13 also fixes several issues running tests in .NET 5.0. If your tests target .NET 5.0, we recommend updating to this release or a newer one.
+
+#### [NUnit Console and Engine 3.12](https://github.com/nunit/nunit-console/releases/tag/v3.12)
+
+This release contains various improvements to running tests on .NET Core and Mono, and changes to extension loading logic to allow the Engine to better support extensions which target multiple platforms. There are additionally a number of fixes to issues that were identified with 3.12 Beta 1. Please also be aware that this will be the last version of the NUnit Engine to support .NET Standard 1.6.
+
+#### [NUnit Analyzers 0.5](https://github.com/nunit/nunit.analyzers/releases/tag/0.5.0), [0.6](https://github.com/nunit/nunit.analyzers/releases/tag/0.6.0), [2.0, and 3.0](https://github.com/nunit/nunit.analyzers/releases/tag/3.0.0)
+
+These versions bring fixes, new features, and performance improvements.
+
+The 3.0 release of NUnit Analyzers automatically suppresses C# 8 Nullable Reference Types warnings based on context in order to fill the gap for conditions that can’t be expressed using C# annotations, as mentioned in the NUnit Framework section above. (Many thanks to Manfred Brands for this major contribution.) This functionality depends on a newer version of Roslyn which is not supported in Visual Studio 2017.
+
+So we have decided to release two versions of the analyzers: versions starting with 2.x can be used in Visual Studio 2017. Versions starting with 3.x can be used in Visual Studio 2019. Most features will be available in both the 2.x versions and the 3.x versions unless they require Roslyn functionality that is only available in the 3.x versions.
+
+
 ### New Projects
 
 ### New Releases
