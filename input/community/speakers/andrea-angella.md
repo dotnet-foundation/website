@@ -1,6 +1,6 @@
 ---
 Title: Andrea Angella
-Pronouns: He
+Pronouns: he/him
 Location: Cambridge, UK
 Email: angella.andrea@gmail.com
 Language:
