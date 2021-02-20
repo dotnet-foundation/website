@@ -89,6 +89,13 @@ After 21 months of public development, CoreWCF has reached its first GA release!
 
 ## Events
 
+### JetBrains .NET Day Online 2021 - Call for Speakers
+
+JetBrains is organizing their third **.NET Day Online on May 12, 2021**. It is a free virtual event where community speakers cover topics they are passionate about, ranging from deep technical .NET content and speakers’ experiences with specific tools and technologies, to personal development.
+
+They are looking for speakers interested in presenting, and welcome all topics that would be relevant to the wider .NET community.
+
+For more information, [head over to the Call for Speakers page](https://blog.jetbrains.com/dotnet/2021/02/15/jetbrains-net-day-online-2021-call-for-speakers/?utm_source=newsletter&utm_medium=referral&utm_campaign=resharper&utm_content=dnf2021-02)!
 
 ## How to Get Involved
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
