@@ -1,6 +1,5 @@
 ---
 Title: Will Velida
-Pronouns: He/Him
 Location: Auckland, New Zealand
 Email: willvelida@hotmail.co.uk
 Language:
