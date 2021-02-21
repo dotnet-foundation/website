@@ -153,11 +153,11 @@ Title: Speaker Directory
         speakers.filter(function (item) {
           let itemTopics = [ htmlDecode(item.values().speakertopics) ];
             if (item.values().speakertopics.indexOf('|') > 0) {
-                itemTopics = htmlDecode(item.values().speakertopics).split('|');
+                itemTopics = htmlDecode(item.values().speakertopics).toLowerCase().split('|');
             }
             var include = true;
             $('.filter.active').each(function (index, filter) {
-                if (!itemTopics.includes($(filter).data('filter'))) {
+                if (!itemTopics.includes($(filter).data('filter').toLowerCase())) {
                     include = false;
                 }
             });
