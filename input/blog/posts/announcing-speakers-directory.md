@@ -1,7 +1,7 @@
 ---
 Title: Announcing the .NET Foundation Speakers Directory
 Author: Shawn Wildermuth
-Published: 2021-02-22 12:00.00000
+Published: 2021-02-19 
 Slug: announcing-the-dot-net-foundation-speakers-directory
 ---
 As part of the .NET Foundation's goals to help broaden the appeal of .NET, we're proud to announce the .NET Foundation's new [Speakers Directory](https://dotnetfoundation.org/community/speakers). The goal of the directory is to help people discover and encourage speakers from around the world as weell as to provide mentors for new speakers. 
