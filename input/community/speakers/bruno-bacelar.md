@@ -1,7 +1,7 @@
 ---
 Title: Bruno Bacelar
-Pronouns: He/Him
-Location: Bahia, Brasil
+Pronouns: he/him
+Location: Bahia, Brazil
 Email: bruno.bacelar@live.com
 Language:
   - Portuguese
