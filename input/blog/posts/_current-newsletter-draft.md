@@ -85,7 +85,9 @@ After 21 months of public development, CoreWCF has reached its first GA release!
 
 ### Membership Committee
 
+The membership committee is working on [expanded profiles](https://github.com/dotnet-foundation/wg-membership/pull/14) to encourage more people in the .NET ecosystem to join the foundation. We see that there are many ways to contribute to the ecosystem, and we will use these profile definitions to encourage others to join. The profiles are not mutually exclusive, but should provide more ideas on how you can see yourself contributing to the foundation.
 
+We're also starting work on planning this year's board elections. If you're interested in serving on the nominating committee, watch for announcements.
 
 ## Events
 
