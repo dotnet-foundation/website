@@ -29,7 +29,7 @@ DotVVM is an open-source framework that allows building ASP.NET apps using the M
 ### New Projects
 
 ### New Releases
-#### [CoreWCF 0.1.0 GA Release](https://corewcf.github.io/blog/2021/02/19/corewcf-ga-release)
+### [CoreWCF 0.1.0 GA Release](https://corewcf.github.io/blog/2021/02/19/corewcf-ga-release)
 After 21 months of public development, CoreWCF has reached its first GA release. Thank you to key contributors from Microsoft and AWS for making the project a success and getting our first release out the door. There were a lot of fundamental changes involved in building WCF on top of ASP.NET Core but we focued on delivering a great developer experience. This is a significant milestone towards supporting enterprise WCF services moving to CoreWCF hosted on any cloud platform. Read more about the release on the [CoreWCF blog](https://corewcf.github.io/blog/2021/02/19/corewcf-ga-release). 
 
 ### [NUnit](https://nunit.org)
@@ -76,7 +76,7 @@ Full details and release notes in the release blog post: [Cake v1.0.0 released](
 
 ### Membership Committee
 
-The membership committee is working on [expanded profiles](https://github.com/dotnet-foundation/wg-membership/pull/14) to encourage more people in the .NET ecosystem to join the foundation. We see that there are many ways to contribute to the ecosystem, and we will use these profile definitions to encourage others to join. The profiles are not mutually exclusive, but should provide more ideas on how you can see yourself contributing to the foundation.
+The membership committee is working on [expanded profiles](https://github.com/dotnet-foundation/wg-membership/pull/14) to encourage more people in the .NET ecosystem to join the .NET Foundation. We see that there are many ways to contribute to the ecosystem, and we will use these profile definitions to encourage others to join. The profiles are not mutually exclusive, but should provide more ideas on how you can see yourself contributing to the foundation.
 
 We're also starting work on planning this year's board elections. If you're interested in serving on the nominating committee, watch for announcements.
 
