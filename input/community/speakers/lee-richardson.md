@@ -18,8 +18,8 @@ Topics:
   - ReSharper
   - Xamarin
   - Xamarin.Forms
-Blog: http://www.leerichardson.com/
-Feed: http://www.leerichardson.com/feeds/posts/default?alt=rss
+Blog: https://www.leerichardson.com/
+Feed: https://www.leerichardson.com/feeds/posts/default?alt=rss
 Twitter: https://twitter.com/lprichar
 GitHub: https://github.com/lprichar
 StackOverflow: https://stackoverflow.com/users/40783/lee-richardson
