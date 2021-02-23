@@ -37,6 +37,7 @@ Feed: https://blog.francois.raminosona.com/rss
 Twitter: https://twitter.com/framinosona
 GitHub: https://github.com/framinosona
 LinkedIn: https://linkedin.com/in/framinosona
+MeetUp: https://www.meetup.com/members/109718722/
 Mentor: true
 ---
 Hi 👋 
