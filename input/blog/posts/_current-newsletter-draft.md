@@ -16,7 +16,7 @@ In November we launched a "State of .NET" survey and we're encouraging everyone 
 [![Take our Survey](https://user-images.githubusercontent.com/5115571/100258223-a97ad300-2efb-11eb-9f57-2b5bc55055b8.png)](https://dotnetfoundation.org/about/survey?utm_source=dotnetfdn&utm_medium=newsletter)
 
 ### [.NET Foundation Speaker Directory](https://dotnetfoundation.org/community/speakers)
-The .NET Foundation has built a [speaker directory](https://dotnetfoundation.org/community/speakers) to discover and encourage speakers from around the world as well as provide mentors for new speakers. We invite you to [add yourself to the directory](https://dotnetfoundation.org/community/speakers), act as a mentor if you'd like, and contribute to building up the global list of community speakers.
+As part of the .NET Foundation's goals to help broaden the appeal of .NET, [we're proud to announce](https://dotnetfoundation.org/blog/2021/02/19/blog/posts/announcing-the-dot-net-foundation-speakers-directory) the launch of the .NET Foundation [speaker directory](https://dotnetfoundation.org/community/speakers). The goal of the directory is to help people discover and encourage speakers from around the world as well as to provide mentors for new speakers. If you're looking for a speaker for your upcoming user group or event, you can find speakers that match your needs.
 
 ## .NET Foundation Project Updates
 
@@ -25,8 +25,6 @@ The .NET Foundation has built a [speaker directory](https://dotnetfoundation.
 Each month Project Spotlight shines a light on an interesting open source project and its maintainers. In this iteration, .NET Foundation Marketing Committee member, Isaac Levin, speaks with Maintainer of the DotVVM prject, Tomáš Herceg, to talk about his project.
 
 DotVVM is an open-source framework that allows building ASP.NET apps using the MVVM approach with just C# and HTML. The framework is integrated in the ASP.NET ecosystem, ships with an extension for Visual Studio, and can be also used for modernizing old ASP.NET applications as it supports both OWIN and ASP.NET Core.
-
-### New Projects
 
 ### New Releases
 ### [CoreWCF 0.1.0 GA Release](https://corewcf.github.io/blog/2021/02/19/corewcf-ga-release)
@@ -76,9 +74,13 @@ Full details and release notes in the release blog post: [Cake v1.0.0 released](
 
 ### Membership Committee
 
-The membership committee is working on [expanded profiles](https://github.com/dotnet-foundation/wg-membership/pull/14) to encourage more people in the .NET ecosystem to join the .NET Foundation. We see that there are many ways to contribute to the ecosystem, and we will use these profile definitions to encourage others to join. The profiles are not mutually exclusive, but should provide more ideas on how you can see yourself contributing to the foundation.
+The membership committee is working on [expanded profiles](https://github.com/dotnet-foundation/wg-membership/pull/14) to encourage more people in the .NET ecosystem to join the .NET Foundation. We see that there are many ways to contribute to the ecosystem, and we will use these profile definitions to encourage others to join. The profiles are not mutually exclusive, but should provide more ideas on how you can see yourself contributing to the foundation. We're also starting work on planning this year's board elections. If you're interested in serving on the nominating committee, watch for announcements.
 
-We're also starting work on planning this year's board elections. If you're interested in serving on the nominating committee, watch for announcements.
+### Marketing Committee
+We'd like to make our members aware of some marketing resources you can take advantage of.
+
+- *Help spread .NET Foundation's message*: Take a look at the [.NET Foundation slides](https://dotnetfoundation.sharepoint.com/:p:/s/Marketing/EbxGONyybLRMoe6MgPNUEi4BdDuEWNLmdfV_s8INO9nWTw?e=mImEov) and use them in your presentations and events.
+- *Promote your .NET open source content, events, project news*: If you'd like to promote something on the .NET Foundation social channels, fill out the [amplification request issue template on our content repo](https://github.com/dotnet-foundation/content/issues/new?assignees=&labels=&template=content-amplification-request.md&title=%5BAMPLIFICATION%5D+-+Title) and we'll get you scheduled.
 
 ## Events
 ### .NET Conf: Focus on Windows, February 25
