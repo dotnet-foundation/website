@@ -45,4 +45,11 @@ I'm told that I'm good at making people interested, especially when I speak abou
 I am always happy to help and sharing knowledge and experience has helped me, so I want to give back. 
 It's like when you fork a GitHub repo and improve its content... The minimum would be to give back in a PR... Well, I've forked my mentor's knowledge, built a few things upon it and it's time to give back.
 
-- François Raminosona,
+For my experience, I :
+- am a former Microsoft MVP, 
+- am a former Start-up CTO in Toronto
+- have participated to more than 20 Hackathons as participant (Won 5), coach and sometimes jury
+- have worked in 10+ IT companies
+- have worked with bots, matching apps, social media management apps... many different types of projects. Currently in the medical field.
+
+> François Raminosona,
