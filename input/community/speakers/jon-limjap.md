@@ -14,6 +14,7 @@ Topics:
   - Human Skills
   - Microservices
 Blog: https://jonlimjap.net
+Feed: https://jonlimjap.net/rss
 Twitter: https://twitter.com/lattex
 GitHub: https://github.com/lattex
 StackOverflow: https://stackoverflow.com/users/372/jon-limjap
