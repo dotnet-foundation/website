@@ -1,6 +1,6 @@
 ---
 Title: S Ravi Kumar
-Pronouns: He/Him
+Pronouns: him/his
 Location: Noida India
 Email: techierathore@gmail.com
 Language:
@@ -18,7 +18,6 @@ Topics:
   - Web Development
   - Windows Development
   - Xamarin.Forms
-Blog: http://www.techierathore.com/
 Twitter: https://twitter.com/techierathore
 GitHub: https://github.com/techierathore
 StackOverflow: https://stackoverflow.com/users/10407671/s-ravi-kumar
