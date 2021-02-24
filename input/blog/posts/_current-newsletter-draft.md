@@ -15,18 +15,15 @@ Welcome to the .NET Foundation update for March & April. Every other month, we'l
 
 ## .NET Foundation Project Updates
 
-### [Project Spotlight - DotVVM](https://dotnetfoundation.org/projects/spotlight)
+### [Project Spotlight](https://dotnetfoundation.org/projects/spotlight)
+
+### New Projects
 
 
 ### New Releases
 
+
 ## .NET Foundation Committee Updates
-
-### Membership Committee
-
-
-
-### Marketing Committee
 
 
 ## Events
