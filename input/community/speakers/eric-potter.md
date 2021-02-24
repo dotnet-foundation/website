@@ -16,8 +16,8 @@ Topics:
   - Visual Basic
   - Visual Studio
   - WPF
-Blog: http://humbletoolsmith.com/
-Feed: http://humbletoolsmith.com/atom.xml
+Blog: https://humbletoolsmith.com/
+Feed: https://humbletoolsmith.com/atom.xml
 Twitter: https://twitter.com/pottereric
 GitHub: https://github.com/pottereric
 StackOverflow: https://stackoverflow.com/users/26339/epotter
