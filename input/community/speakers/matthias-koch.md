@@ -12,7 +12,6 @@ Topics:
   - Open Source
   - ReSharper
   - JetBrains Rider
-  - Build Automation
   - macOS
 Blog: https://ithrowexceptions.com
 Feed: https://ithrowexceptions.com/feed.xml
