@@ -1,6 +1,6 @@
 ---
 Title: David Walker
-Pronouns: he/him/his
+Pronouns: him/his
 Location: Broken Arrow, OK USA
 Email: dave@radicaldave.com
 Language:
@@ -53,8 +53,8 @@ Twitter: https://twitter.com/davidwalker
 GitHub: https://github.com/radicaldave
 StackOverflow: https://stackoverflow.com/users/3781699/radical-dave
 LinkedIn: https://linkedin.com/in/davidwalker
-MeetUp: http://meetup.com/members/2628789/
-YouTube: http://www.youtube.com/user/davidleewalker
+MeetUp: https://meetup.com/members/2628789/
+YouTube: https://www.youtube.com/user/davidleewalker
 Dev: https://dev.to/radicaldave
 Mentor: true
 ---
