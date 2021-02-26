@@ -1,6 +1,6 @@
 ---
 Title: Shay Rojansky
-Pronouns: His/him
+Pronouns: his/him
 Location: Berlin, Germany
 Email: roji@roji.org
 Language:
