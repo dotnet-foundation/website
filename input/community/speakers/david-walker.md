@@ -50,7 +50,7 @@ Topics:
   - XAML
 Blog: https://radicaldave.com
 Twitter: https://twitter.com/davidwalker
-GitHub: https://github.com/radicaldave
+GitHub: https://github.com/radical-dave
 StackOverflow: https://stackoverflow.com/users/3781699/radical-dave
 LinkedIn: https://linkedin.com/in/davidwalker
 MeetUp: https://meetup.com/members/2628789/
