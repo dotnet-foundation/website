@@ -1,0 +1,47 @@
+{
+    "projectName": "Orleans",
+    "showProjectName": true,
+    "imageFileName": "microsoft.jpg",
+    "gitHubOrg": "microsoft",
+    "gitHubRepoName": "orleans",
+    "transcriptFileName": "",
+    "publishDate": "2021-5-01",
+    "loadIssues": true,
+    "issueLabel": "help wanted",
+    "projectOwners": [
+      {
+        "name": "Microsoft",
+        "url": "https://github.com/microsoft"
+      }
+    ],
+
+    "youtubeUrl": "",
+    "projectDescription": "Orleans is a framework for building stateful, cloud applications. Orleans applications are composed of Cloud Native Objects which allow developers to write applications which scale from a single machine to a large cluster without modifying code. Orleans efficiently distributes these objects as your application scales and handles the complexities of distributed systems so that developers can focus on application logic. Orleans powers many services in Microsoft, including Azure PlayFab, Azure ML, Dynamics 365 Fraud Protection, and backends for some of the largest Xbox games. ",
+    "contributors": [
+      {
+        "name": "galvesriberio",
+        "url": "https://github.com/galvesriberio"
+      },
+      {
+        "name": "veikkoeeva",
+        "url": "https://github.com/veikkoeeva"
+      },
+      {
+        "name": "pentp",
+        "url": "https://github.com/pentp"
+      },
+      {
+        "name": "dVakulen",
+        "url": "https://github.com/dVakulen"
+      },
+      {
+        "name": "shayhatsor",
+        "url": "https://github.com/shayhatsor"
+      }
+    ],
+    "githubRepo": "https://github.com/dotnet/orleans",
+    "projectWebsite": "https://dotnet.github.io/orleans",
+    "documentationUrl": "https://dotnet.github.io/orleans",
+    "communityUrl": "",
+    "contributionUrl": "https://github.com/dotnet/orleans"
+  }
