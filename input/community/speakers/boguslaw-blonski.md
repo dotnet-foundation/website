@@ -1,6 +1,6 @@
 ---
 Title: Bogusław Błonski
-Pronouns: Mgr ink
+Pronouns: he/him
 Location: Rzeszów, Poland
 Email: BoguslawBlonski@gmail.com
 Language:
@@ -15,7 +15,6 @@ Topics:
   - Architecture
   - iOS
   - UWP
-  - Windows Forms
   - WPF
   - Xamarin
   - Xamarin.Forms
@@ -27,4 +26,5 @@ GitHub: https://github.com/filipoff2
 MeetUp: https://www.meetup.com/XaMarinesKrakow/members/216013724/
 Mentor: true
 ---
+Bogusław Błoński – .NET developer and Software Architect. Bogusław began his profession as a JAVA developer but now focuses on .NET, backend, web, mobile, iOS, Android Xamarin and MAUI development. Bogusław has also designed and helped implement systems used by millions of people.
 
