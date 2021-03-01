@@ -1,7 +1,6 @@
 ---
 Title: Vlad Iliescu
 Location: Iasi, Romania
-Email: hi@vladiliescu.net
 Language:
   - English
   - Romanian

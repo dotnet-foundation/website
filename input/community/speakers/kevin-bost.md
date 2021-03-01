@@ -1,3 +1,4 @@
+---
 Title: Kevin Bost
 Location: Spokane, Washing USA
 Language:
@@ -15,6 +16,7 @@ Topics:
   - WPF
   - Xamarin
   - Xamarin.Forms
+  - XAML
 Blog: https://blog.keboo.dev
 Twitter: https://twitter.keboo.dev
 GitHub: https://github.keboo.dev

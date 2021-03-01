@@ -1,36 +1,40 @@
 ---
-Title: .NET Foundation January/February 2021 Update
+Title: .NET Foundation March/April 2021 Update
 Author: Claire Novotny
-Published: 
-Slug: net-foundation-january-february-2021-update
+Published:
+Slug: net-foundation-march-april-2021-update
 Excluded: true
 ---
-Welcome to the .NET Foundation update for January & February. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more. 
+Welcome to the .NET Foundation update for March & April. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more.
 
 [Sign up for the newsletter](http://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
 
 ## General news
 
 
+
 ## .NET Foundation Project Updates
 
-### [Project Spotlight - <fill in>](https://dotnetfoundation.org/projects/spotlight)
-
-Each month Project Spotlight shines a light on an interesting open source project and its maintainers. In this iteration, .NET Foundation Marketing Committee member, Isaac Levin, speaks with ....
-
-
+### [Project Spotlight](https://dotnetfoundation.org/projects/spotlight)
 
 ### New Projects
 
 
-## .NET Foundation Committee Updates
+### New Releases
 
-### Membership Committee
- 
+
+## .NET Foundation Committee Updates
 
 
 ## Events
 
+### JetBrains .NET Day Online 2021 - Call for Speakers
+
+JetBrains is organizing their third **.NET Day Online on May 12, 2021**. It is a free virtual event where community speakers cover topics they are passionate about, ranging from deep technical .NET content and speakers’ experiences with specific tools and technologies, to personal development.
+
+They are looking for speakers interested in presenting, and welcome all topics that would be relevant to the wider .NET community.
+
+For more information, [head over to the Call for Speakers page](https://blog.jetbrains.com/dotnet/2021/02/15/jetbrains-net-day-online-2021-call-for-speakers/?utm_source=newsletter&utm_medium=referral&utm_campaign=resharper&utm_content=dnf2021-02)!
 
 ## How to Get Involved
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
