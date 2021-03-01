@@ -7,7 +7,7 @@
     "transcriptFileName": "",
     "publishDate": "2021-5-01",
     "loadIssues": true,
-    "issueLabel": "help wanted",
+    "issueLabel": "",
     "projectOwners": [
       {
         "name": "Microsoft",
