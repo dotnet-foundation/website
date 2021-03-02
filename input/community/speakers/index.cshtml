@@ -8,22 +8,8 @@ Title: Speaker Directory
     {
         return speakers
             .SelectMany(x => x.GetList<string>(topic, Array.Empty<string>()))
-            .Select(x => System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(x))
             .Distinct(StringComparer.CurrentCultureIgnoreCase)
-            .OrderBy(x => x)
-            .Select(x => x
-                .Replace("Devops", "DevOps")
-                .Replace("Hololens", "HoloLens")
-                .Replace("Ios", "iOS")
-                .Replace("Iot", "IoT")
-                .Replace("Javascript", "JavaScript")
-                .Replace("Jetbrains", "JetBrains")
-                .Replace("Macos", "macOS")
-                .Replace("Nuget", "NuGet")
-                .Replace("Resharper", "ReSharper")
-                .Replace("Signalr", "SignalR")
-                .Replace("Tvos", "tvOS")
-                .Replace("Watchos", "watchOS"));
+            .OrderBy(x => x);
     };
 }
 
