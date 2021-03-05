@@ -19,7 +19,7 @@ Topics:
   - XAML
 Blog: https://blog.keboo.dev
 Twitter: https://twitter.keboo.dev
-GitHub: https://github.keboo.dev
+GitHub: https://github.com/keboo
 LinkedIn: https://linkedin.keboo.dev
 Twitch: https://twitch.keboo.dev
 YouTube: https://youtube.keboo.dev
