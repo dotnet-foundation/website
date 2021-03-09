@@ -57,6 +57,11 @@ ContentType: Asset
       "route": "/blog/welcomeworldwidetelescope",
       "serve": "/blog/2015/07/02/welcomeworldwidetelescope",
       "statusCode": 301
+    },
+    {
+      "route": "/projects/uwpcommunitytoolkit",
+      "serve": "/projects/windowscommunitytoolkit",
+      "statusCode": 301
     }
   ],
   "platformErrorOverrides": [
