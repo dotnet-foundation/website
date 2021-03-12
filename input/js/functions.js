@@ -39,16 +39,29 @@ function loadOpenIssues(orgs, repos, showEmptyCard, repoName, label) {
         }
       } else {
         repos.forEach((repo) => {
+
           html += `  <div class="card card--features bg-foundation">
           <div class="card-body">`;
 
           if (repoName != undefined)
           {
-            html += `<h3>${repoName} Help Wanted</h3>`;
+            const entireRepoName = repo.repoName;
+            const splitRepoName = entireRepoName.split(" ");
+
+            for (let i = 0; i < splitRepoName.length; i++) {
+              splitRepoName[i] = splitRepoName[i][0].toUpperCase() + splitRepoName[i].substr(1);
+            }
+            html += `<h3>${splitRepoName.join(" ")} Help Wanted</h3>`;
           }
           else
           {
-            html += ` <h3>${repo.repoName} Help Wanted</h3>`;
+            const entireRepoName = repo.repoName;
+            const splitRepoName = entireRepoName.split(" ");
+
+            for (let i = 0; i < splitRepoName.length; i++) {
+              splitRepoName[i] = splitRepoName[i][0].toUpperCase() + splitRepoName[i].substr(1);
+            }
+            html += ` <h3>${splitRepoName.join(" ")} Help Wanted</h3>`;
           }
 
           html += `<div class="card-body">`;
