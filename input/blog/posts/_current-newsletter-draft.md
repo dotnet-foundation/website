@@ -22,7 +22,8 @@ Welcome to the .NET Foundation update for March & April. Every other month, we'l
 
 ### New Releases
 
-[Oqtane 2.0.1 Released](https://www.oqtane.org/Resources/Blog/PostId/546/oqtane-201-now-available)
+#### [Oqtane 2.0.1 Released](https://www.oqtane.org/Resources/Blog/PostId/546/oqtane-201-now-available)
+
 Since releasing version 2.0 in coordination with the .NET 5 launch event at .NET Conf in November 2020, the exciting new modular application framework for Blazor has continued to mature and gain momentum. This release includes a variety of performance and user experience impovements for both users and developers. A total of 101 pull requests were merged from 9 different contributors, pushing the total number of project commits all-time over 1600. The 2.0.1 release is available for download on 
 [Github](https://github.com/oqtane/oqtane.framework/releases/tag/v2.0.1).
 
