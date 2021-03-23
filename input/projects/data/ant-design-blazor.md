@@ -1,7 +1,7 @@
 ---
 Title: Ant Design Blazor
 Contributor: James Yeung
-Logo: ant-design-blazor.png
+Logo: ant-design-blazor.svg
 Web: https://antblazor.com/
 ---
 
