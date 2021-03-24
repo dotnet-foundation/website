@@ -7,7 +7,7 @@ Web: https://www.ecma-international.org/
 
 [TC49-TG2](https://www.ecma-international.org/task-groups/tc49-tg2/) writes the official C# standard. The scope is to standardize the syntax and semantics of a modern, component-based, general purpose, object oriented, and type-safe programming language called C# (pronounced C sharp).
 
-The committee Programme of work:
+The committee programme of work:
 
 1. Develop C# language standards.
 1. Upon completion of item 1, to investigate the future direction of C# standards, and to evaluate and consider proposals for complementary or additional technology.
@@ -24,4 +24,5 @@ The committee Programme of work:
 ### Quicklinks
 
 * [Documentation](https://docs.microsoft.com/dotnet/csharp/language-reference/language-specification/introduction)
+* [Standard source text](https://github.com/dotnet/csharpstandard/tree/draft-v6/standard)
 * [Discussions](https://github.com/dotnet/csharpstandard/issues)
