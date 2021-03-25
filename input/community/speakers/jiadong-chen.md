@@ -13,8 +13,7 @@ Topics:
   - Game Development
   - HoloLens
   - Mixed Reality
-Blog: http://www.jiadongchen.com/
-Feed: http://www.jiadongchen.com/index.xml
+Blog: https://jiadong-chen.medium.com/
 Twitter: https://twitter.com/chen_jd
 GitHub: https://github.com/chenjd
 LinkedIn: https://www.linkedin.com/in/chenjd/
