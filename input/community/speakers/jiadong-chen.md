@@ -1,6 +1,6 @@
 ---
 Title: Jiadong Chen
-Pronouns: He/Him
+Pronouns: he/him
 Location: Hamilton, New Zealand
 Email: chen.jiadong@outlook.com
 Language:
