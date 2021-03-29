@@ -17,7 +17,26 @@
   "youtubeUrl": "https://www.youtube.com/embed/UvvQerXeEUw",
   "projectDescription": "This is the C# and Visual Basic Compiler and IDE experience project. It contains the source code for all of your C# and VB experience all the way from the core compilers, Intellisense, syntax highlighting and edit and continue logic. Anything you want to know about how your development environment works for .NET you can see in action in this repository.",
   "contributors": [
-
+    {
+      "name": "Youssef1313",
+      "url": "https://github.com/Youssef1313"
+    },
+    {
+      "name": "MaStr11",
+      "url": "https://github.com/MaStr11"
+    },
+    {
+      "name": "akhera99",
+      "url": "https://github.com/akhera99"
+    },
+    {
+      "name": "gafter",
+      "url": "https://github.com/gafter"
+    },
+    {
+      "name": "sigmachirality",
+      "url": "https://github.com/sigmachirality"
+    }
   ],
   "githubRepo": "https://github.com/dotnet/roslyn",
   "projectWebsite": "https://github.com/dotnet/roslyn",
