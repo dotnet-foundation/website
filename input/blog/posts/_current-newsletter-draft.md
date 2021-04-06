@@ -27,6 +27,12 @@ Welcome to the .NET Foundation update for March & April. Every other month, we'l
 Since releasing version 2.0 in coordination with the .NET 5 launch event at .NET Conf in November 2020, the exciting new modular application framework for Blazor has continued to mature and gain momentum. This release includes a variety of performance and user experience impovements for both users and developers. A total of 101 pull requests were merged from 9 different contributors, pushing the total number of project commits all-time over 1600. The 2.0.1 release is available for download on 
 [Github](https://github.com/oqtane/oqtane.framework/releases/tag/v2.0.1).
 
+### [NUnit](https://nunit.org)
+
+[NUnit Analyzers 3.1 and 2.1](https://github.com/nunit/nunit.analyzers/releases/tag/3.1.0) are available. The 3.1 version continues to enhance the experience of using NUnit with the C# 8 Nullable Reference Types feature.
+
+[NUnit Adapter 4.0.0-beta.2](https://docs.nunit.org/articles/vs-test-adapter/Adapter-Release-Notes.html#nunit3-test-adapter-for-visual-studio---version-400-beta2---april-6-2021) resolves some issues and improves performance. A major change in this version is the upgrade of the NUnit.Engine to version 3.12, and thus Mono.Cecil is no longer used. Instead it has a reduced version (based on Mono.Cecil) packed into TestCentric.engine.metadata doing the same job with navigation data.
+
 ## .NET Foundation Committee Updates
 
 
