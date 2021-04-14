@@ -32,7 +32,7 @@ Since releasing version 2.0 in coordination with the .NET 5 launch event at .NET
 
 ## Events
 
-### JetBrains .NET Days Online 2021 - Call for Speakers
+### JetBrains .NET Days Online 2021
 
 For the third time, JetBrains are organizing [JetBrains .NET Days Online](https://pages.jetbrains.com/dotnet-days-2021/dnf) - a free virtual event that will take place on May 11–12, 2021. Community speakers are presenting topics they are passionate about. You can expect a variety of levels of technical content, and speakers may also share their personal experiences and development.
 
