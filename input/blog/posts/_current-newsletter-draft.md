@@ -32,13 +32,13 @@ Since releasing version 2.0 in coordination with the .NET 5 launch event at .NET
 
 ## Events
 
-### JetBrains .NET Day Online 2021 - Call for Speakers
+### JetBrains .NET Days Online 2021 - Call for Speakers
 
-JetBrains is organizing their third **.NET Day Online on May 12, 2021**. It is a free virtual event where community speakers cover topics they are passionate about, ranging from deep technical .NET content and speakers’ experiences with specific tools and technologies, to personal development.
+For the third time, JetBrains are organizing [JetBrains .NET Days Online](https://pages.jetbrains.com/dotnet-days-2021/dnf) - a free virtual event that will take place on May 11–12, 2021. Community speakers are presenting topics they are passionate about. You can expect a variety of levels of technical content, and speakers may also share their personal experiences and development.
 
-They are looking for speakers interested in presenting, and welcome all topics that would be relevant to the wider .NET community.
+The topics on this year’s agenda include C#, F#, GraphQL, Blazor, gRPC, Hedy, working with databases, and debugging. On top of that, we’ll discuss stereotypes around legacy code and demonstrate how to build a React app backed with Azure features.
 
-For more information, [head over to the Call for Speakers page](https://blog.jetbrains.com/dotnet/2021/02/15/jetbrains-net-day-online-2021-call-for-speakers/?utm_source=newsletter&utm_medium=referral&utm_campaign=resharper&utm_content=dnf2021-02)!
+For more information, [head over to the registration page](https://pages.jetbrains.com/dotnet-days-2021/dnf)!
 
 ## How to Get Involved
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
