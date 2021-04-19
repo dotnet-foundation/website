@@ -1,0 +1,46 @@
+{
+  "projectName": "ResX Resource Manager",
+  "showProjectName": true,
+  "imageFileName": "resx-resource-manager.png",
+  "gitHubOrg": "dotnet",
+  "gitHubRepoName": "ResXResourceManager",
+  "transcriptFileName": "",
+  "publishDate": "2021-5-01",
+  "loadIssues": true,
+  "issueLabel": "Up for grabs",
+  "projectOwners": [
+    {
+      "name": "Tom Englert",
+      "url": "https://github.com/tom-englert"
+    }
+  ],
+  "youtubeUrl": "https://www.youtube.com/embed/UvvQerXeEUw",
+  "projectDescription": "The most popular tool to manage localization of all kind of applications with resx-based resources; one of the highest rated extensions on the Visual Studio Marketplace.",
+  "contributors": [
+    {
+      "name": "yinyue200",
+      "url": "https://github.com/yinyue200"
+    },
+    {
+      "name": "mkaring",
+      "url": "https://github.com/mkaring"
+    },
+    {
+      "name": "solomon-okolie",
+      "url": "https://github.com/solomon-okolie"
+    },
+    {
+      "name": "DominickM324",
+      "url": "https://github.com/DominickM324"
+    },
+    {
+      "name": "DJmRek",
+      "url": "https://github.com/DJmRek"
+    }
+  ],
+  "githubRepo": "https://github.com/dotnet/ResXResourceManager",
+  "projectWebsite": "https://github.com/dotnet/ResXResourceManager",
+  "documentationUrl": "https://github.com/dotnet/ResXResourceManager/tree/master/Documentation",
+  "communityUrl": "https://github.com/dotnet/ResXResourceManager/issues",
+  "contributionUrl": "https://github.com/dotnet/ResXResourceManager/issues"
+}
