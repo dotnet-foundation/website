@@ -21,7 +21,7 @@ Each month Project Spotlight shines a light on an interesting open source projec
 
 In March, .NET Foundation Marketing Committee member, Isaac Levin, spoke with Maintainer of the Orleans project, Reuben Bond, to talk about the work Microsoft is doing in the Microservices space with .NET.
 
-https://dotnetfoundation.org/projects/spotlight?project=Orleans
+[Orleans](https://dotnetfoundation.org/projects/spotlight?project=Orleans)
 
 Orleans is a framework for building stateful, cloud applications. Orleans applications are composed of Cloud Native Objects which allow developers to write applications which scale from a single machine to a large cluster without modifying code. Orleans efficiently distributes these objects as your application scales and handles the complexities of distributed systems so that developers can focus on application logic. Orleans powers many services in Microsoft, including Azure PlayFab, Azure ML, Dynamics 365 Fraud Protection, and backends for some of the largest Xbox games.
 
