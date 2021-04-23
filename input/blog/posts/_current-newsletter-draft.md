@@ -19,7 +19,7 @@ Welcome to the .NET Foundation update for March & April. Every other month, we'l
 
 Each month Project Spotlight shines a light on an interesting open source project and its maintainers. 
 
-For March, .NET Foundation Marketing Committee member, Isaac Levin, spoke with Maintainer of the Orleans prject, Reuben Bond, to talk about the work Microsoft is doing in the Microservices space with .NET.
+In March, .NET Foundation Marketing Committee member, Isaac Levin, spoke with Maintainer of the Orleans project, Reuben Bond, to talk about the work Microsoft is doing in the Microservices space with .NET.
 
 https://dotnetfoundation.org/projects/spotlight?project=Orleans
 
