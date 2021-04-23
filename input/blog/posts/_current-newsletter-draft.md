@@ -18,7 +18,16 @@ Welcome to the .NET Foundation update for March & April. Every other month, we'l
 ### [Project Spotlight](https://dotnetfoundation.org/projects/spotlight)
 
 ### New Projects
+The .NET Foundation would like to welcome the following new projects!
+| | | |
+|-|-|-|
+| Stride Game Engine | ![Stride](https://user-images.githubusercontent.com/1334951/113320137-04b43c00-92c7-11eb-981b-3724a1e9bafd.png) | Stride is an open-source C# game engine for realistic rendering and VR. The engine is highly modular and aims at giving game makers more flexibility in their development. Stride comes with an editor that allows you to create and manage the content of your games or applications visually and intuitively.|
+| C# standardization | ![NFLogo](https://user-images.githubusercontent.com/1334951/113320871-de42d080-92c7-11eb-895f-0d5028cc414c.png) | This project produces the standard C# language specification. The ECMA committee standardizes the formal specification of the C# language|
+| Ant Design Blazor | ![AntDesignBlazor](https://user-images.githubusercontent.com/1334951/113321581-953f4c00-92c8-11eb-9659-5adbf30d054f.png) | Ant Design Blazor is a set of enterprise-class UI components based on Ant Design and Blazor. |
+| Finbuckle.MultiTenant| ![Finbuckle](https://user-images.githubusercontent.com/1334951/113322210-41813280-92c9-11eb-8411-23c50cdfc08f.png) | Finbuckle.MultiTenant is a open source multitenancy library for .NET. It provides for tenant resolution, per-tenant app behavior, and per-tenant data isolation.|
+| Silk.NET | ![SilkNET](https://user-images.githubusercontent.com/1334951/113322547-ac326e00-92c9-11eb-93f8-d450da1bf3e7.png) | Silk.NET is a high-performance, low-level wrapper over many native libraries that forms a one-stop-shop for .NET graphics and compute workloads, such as custom game/game engine development. Aiming to be the one library you need for multimedia, graphics, and compute applications. |
 
+  
 
 ### New Releases
 
