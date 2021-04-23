@@ -17,6 +17,21 @@ Welcome to the .NET Foundation update for March & April. Every other month, we'l
 
 ### [Project Spotlight](https://dotnetfoundation.org/projects/spotlight)
 
+Each month Project Spotlight shines a light on an interesting open source project and its maintainers. 
+
+For March, .NET Foundation Marketing Committee member, Isaac Levin, spoke with Maintainer of the Orleans prject, Reuben Bond, to talk about the work Microsoft is doing in the Microservices space with .NET.
+
+https://dotnetfoundation.org/projects/spotlight?project=Orleans
+
+Orleans is a framework for building stateful, cloud applications. Orleans applications are composed of Cloud Native Objects which allow developers to write applications which scale from a single machine to a large cluster without modifying code. Orleans efficiently distributes these objects as your application scales and handles the complexities of distributed systems so that developers can focus on application logic. Orleans powers many services in Microsoft, including Azure PlayFab, Azure ML, Dynamics 365 Fraud Protection, and backends for some of the largest Xbox games.
+
+For April, Isaac spoke with Maintainer of the Roslyn Compiler prject, Jared Parsons, and gave a little insight into how Microsoft thinks about building compilers and other language tools.
+
+https://dotnetfoundation.org/projects/spotlight?project=Roslyn
+
+Roslyn is the C# and Visual Basic Compiler and IDE experience project. It contains the source code for all of your C# and VB experience all the way from the core compilers, Intellisense, syntax highlighting and edit and continue logic. Anything you want to know about how your development environment works for .NET you can see in action in this repository.
+
+
 ### New Projects
 
 
