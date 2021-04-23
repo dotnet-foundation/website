@@ -17,15 +17,23 @@ Welcome to the .NET Foundation update for March & April. Every other month, we'l
 
 ### [Project Spotlight](https://dotnetfoundation.org/projects/spotlight)
 
+### [.NEXT](https://github.com/sakno/dotNext) 
+
+.NEXT (dotNext) was accepted as an official Member Project of the .NET Foundation. .NEXT is a set of powerful libraries aimed to improve development productivity and extend .NET API with unique features.
+
+### [fido2-net-lib](https://github.com/abergs/fido2-net-lib) 
+
+fido2-net-lib was accepted as an official Member Project of the .NET Foundation. fido2-net-lib is a .NET FIDO2 Server / WebAuthn relying party library for the easy validation of registration (attestation) and authentication (assertion) of FIDO2 / WebAuthn credentials. FIDO2 is the overarching term for FIDO Alliance's newest set of specifications, and enables users to leverage common devices to easily authenticate to online services in both mobile and desktop environments (ie. without passwords).
+
 ### New Projects
 
 
 ### New Releases
 
-#### [Oqtane 2.0.1 Released](https://www.oqtane.org/Resources/Blog/PostId/546/oqtane-201-now-available)
+#### [Oqtane 2.0.2 Released](https://www.oqtane.org/Resources/Blog/PostId/547/oqtane-202-released)
 
-Since releasing version 2.0 in coordination with the .NET 5 launch event at .NET Conf in November 2020, the exciting new modular application framework for Blazor has continued to mature and gain momentum. This release includes a variety of performance and user experience impovements for both users and developers. A total of 101 pull requests were merged from 9 different contributors, pushing the total number of project commits all-time over 1600. The 2.0.1 release is available for download on 
-[Github](https://github.com/oqtane/oqtane.framework/releases/tag/v2.0.1).
+Since releasing version 2.0 in coordination with the .NET 5 launch event at .NET Conf in November 2020, the exciting new modular application framework for Blazor has continued to mature and gain momentum. This release includes a variety of performance and user experience impovements for both users and developers. A total of 36 pull requests were merged from 6 different contributors, pushing the total number of project commits all-time near 1800. The 2.0.2 release is available for download on 
+[Github](https://github.com/oqtane/oqtane.framework/releases/tag/v2.0.2). The next major release will be Oqtane 2.1 in May which will include native support for SQLite, MySQL, and PostreSQL databases (in addition to SQL Server). 
 
 ## .NET Foundation Committee Updates
 
