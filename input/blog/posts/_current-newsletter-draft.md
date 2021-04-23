@@ -25,7 +25,7 @@ In March, .NET Foundation Marketing Committee member, Isaac Levin, spoke with Ma
 
 Orleans is a framework for building stateful, cloud applications. Orleans applications are composed of Cloud Native Objects which allow developers to write applications which scale from a single machine to a large cluster without modifying code. Orleans efficiently distributes these objects as your application scales and handles the complexities of distributed systems so that developers can focus on application logic. Orleans powers many services in Microsoft, including Azure PlayFab, Azure ML, Dynamics 365 Fraud Protection, and backends for some of the largest Xbox games.
 
-For April, Isaac spoke with Maintainer of the Roslyn Compiler prject, Jared Parsons, and gave a little insight into how Microsoft thinks about building compilers and other language tools.
+In April, Isaac spoke with Maintainer of the Roslyn Compiler project, Jared Parsons, and gave a little insight into how Microsoft thinks about building compilers and other language tools.
 
 [Roslyn](https://dotnetfoundation.org/projects/spotlight?project=Roslyn)
 
