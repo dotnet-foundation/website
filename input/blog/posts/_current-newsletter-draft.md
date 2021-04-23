@@ -29,7 +29,7 @@ For April, Isaac spoke with Maintainer of the Roslyn Compiler prject, Jared Pars
 
 [Roslyn](https://dotnetfoundation.org/projects/spotlight?project=Roslyn)
 
-Roslyn is the C# and Visual Basic Compiler and IDE experience project. It contains the source code for all of your C# and VB experience all the way from the core compilers, Intellisense, syntax highlighting and edit and continue logic. Anything you want to know about how your development environment works for .NET you can see in action in this repository.
+Roslyn is the C# and Visual Basic compiler and IDE experience project. It contains the source code for all of your C# and VB experiences all the way from the core compilers, Intellisense, syntax highlighting, and edit and continue logic. Anything you want to know about how your development environment works for .NET you can see in action in this repository.
 
 
 ### New Projects
