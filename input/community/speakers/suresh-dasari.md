@@ -11,7 +11,6 @@ Topics:
   - ASP.NET Web API
   - Azure
   - C#
-  - Nuget
   - Open Source
   - Visual Basic
   - Entity Framework
