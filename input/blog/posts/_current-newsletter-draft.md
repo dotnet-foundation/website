@@ -64,6 +64,10 @@ The topics on this year’s agenda include C#, F#, GraphQL, Blazor, gRPC, Hedy, 
 
 For more information, [head over to the registration page](https://pages.jetbrains.com/dotnet-days-2021/dnf)!
 
+### Microsoft Build 2021, May 25 - 27
+
+Learn. Connect. Code. [Register](https://register.build.microsoft.com/) for the Microsoft Build digital event happening May 25 - 27, 2021. This free event will feature a fantastic lineup of sessions from Satya Nadella, Scott Guthrie and Microsoft developer tools leaders including Amanda Silver, Scott Hanselman, Scott Hunter, and Donovan Brown. You will also learn about what's coming in .NET 6, Visual Studio, Azure, GitHub and more. [Register for free today](https://register.build.microsoft.com/).  
+
 ## How to Get Involved
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
 
