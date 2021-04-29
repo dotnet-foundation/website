@@ -13,7 +13,7 @@ Welcome to the .NET Foundation update for March & April. Every other month, we'l
 
 ### .NET Foundation "State of .NET" survey results
 
-We launched a "State of .NET" survey in November that closed on March 31, 2021. Thank you to all who participated. Your feedback is very important to the .NET Foundation. This was the first survey ever done by the .NET Foundation to the .NET developer community and we will continue to do them every year going forward. The survey was conducted via SurveyMonkey. We collected 4,509 responses, analyzed all the results, read all the verbatims and wrote about our findings. You can [view the reports and our insights here](https://www.surveymonkey.com/stories/SM-GDSVMB2C/) and [download the anonymous raw data here](https://github.com/dotnet-foundation/wg-marketing/blob/main/Survey/).
+We launched a "State of .NET" survey in November that closed on March 31, 2021. Thank you to all who participated. Your feedback is very important to the .NET Foundation. This was the first survey ever done by the .NET Foundation to the .NET developer community and we will continue to do them every year going forward. The survey was conducted via SurveyMonkey. We collected 4,509 responses, analyzed all the results, read all the verbatims, and wrote about our findings. You can [view the reports and our insights here](https://www.surveymonkey.com/stories/SM-GDSVMB2C/) and [download the anonymous raw data here](https://github.com/dotnet-foundation/wg-marketing/blob/main/Survey/).
 
 Those who entered to win a $250 gift certificate to the .NET Foundation Store will be notified via email. Thank you again for participating. 
 
