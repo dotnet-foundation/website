@@ -11,7 +11,11 @@ Welcome to the .NET Foundation update for March & April. Every other month, we'l
 
 ## General news
 
+### .NET Foundation "State of .NET" survey results
 
+We launched a "State of .NET" survey in November that closed on March 31, 2021. Thank you to all who participated. Your feedback is very important to the .NET Foundation. This was the first survey ever done by the .NET Foundation to the .NET developer community and we will continue to do them every year going forward. The survey was conducted via SurveyMonkey. We collected 4,509 responses, analyzed all the results, read all the verbatims and wrote about our findings. You can [view the reports and our insights here](https://www.surveymonkey.com/stories/SM-GDSVMB2C/) and [download the anonymous raw data here](https://github.com/dotnet-foundation/wg-marketing/blob/main/Survey/).
+
+Those who entered to win a $250 gift certificate to the .NET Foundation Store will be notified via email. Thank you again for participating. 
 
 ## .NET Foundation Project Updates
 
@@ -48,7 +52,7 @@ The .NET Foundation would like to welcome the following new projects!
 
 #### [Oqtane 2.0.1 Released](https://www.oqtane.org/Resources/Blog/PostId/546/oqtane-201-now-available)
 
-Since releasing version 2.0 in coordination with the .NET 5 launch event at .NET Conf in November 2020, the exciting new modular application framework for Blazor has continued to mature and gain momentum. This release includes a variety of performance and user experience impovements for both users and developers. A total of 101 pull requests were merged from 9 different contributors, pushing the total number of project commits all-time over 1600. The 2.0.1 release is available for download on 
+Since releasing version 2.0 in coordination with the .NET 5 launch event at .NET Conf in November 2020, the exciting new modular application framework for Blazor has continued to mature and gain momentum. This release includes a variety of performance and user experience improvements for both users and developers. A total of 101 pull requests were merged from 9 different contributors, pushing the total number of project commits all-time over 1600. The 2.0.1 release is available for download on 
 [Github](https://github.com/oqtane/oqtane.framework/releases/tag/v2.0.1).
 
 ## .NET Foundation Committee Updates
