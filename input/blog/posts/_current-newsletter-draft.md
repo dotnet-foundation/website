@@ -53,6 +53,11 @@ Since releasing version 2.0 in coordination with the .NET 5 launch event at .NET
 
 ## .NET Foundation Committee Updates
 
+#### Marketing Committee Update
+- The Marketing committee is working towards a new web presence, including a new design and content updates to make it easier for visitors to navigate and find value as well as to make it easier for volunteers to contribute. We hope to start the project in May and complete it by the end of June. 
+- We've been working with the Project committee on a [GTM checklist](https://github.com/dotnet-foundation/wg-marketing/blob/main/GTM-project-checklist.md) to help new projects think through their marketing presence and activities. 
+- We merged the Xamarin store into the [.NET Foundation store](https://store.dotnetfoundation.org) so there are now a bunch of new items available to show off your pride for Xamarin. Microsoft also donated new dotnet-bot T-shits and stickers with an adventure theme to the store. Show your support and check out the new [Hiking](https://stores.kotisdesign.com/dotnetfoundation/apparel-unisex/dotnet-bot-tees-hiking/115429) and [Juggling](https://stores.kotisdesign.com/dotnetfoundation/apparel-unisex/dotnet-bot-tees-juggling/115430) T-shirts and the [Lounge](https://stores.kotisdesign.com/dotnetfoundation/stickers/sticker-pack-lounge/115431), [Play](https://stores.kotisdesign.com/dotnetfoundation/stickers/sticker-pack-play/115432), [Practice](https://stores.kotisdesign.com/dotnetfoundation/stickers/sticker-pack-practice/115433) and [Work](https://stores.kotisdesign.com/dotnetfoundation/stickers/sticker-pack-work/115434) stickers. 
+- We updated the [.NET Foundation slide deck](https://dotnetfoundation.sharepoint.com/:p:/s/Marketing/EbxGONyybLRMoe6MgPNUEi4BdDuEWNLmdfV_s8INO9nWTw?e=mImEov) that you can use to help spread the good word about the foundation. 
 
 ## Events
 
@@ -67,6 +72,14 @@ For more information, [head over to the registration page](https://pages.jetbrai
 ### Microsoft Build 2021, May 25 - 27
 
 Learn. Connect. Code. [Register](https://register.build.microsoft.com/) for the Microsoft Build digital event happening May 25 - 27, 2021. This free event will feature a fantastic lineup of sessions from Satya Nadella, Scott Guthrie and Microsoft developer tools leaders including Amanda Silver, Scott Hanselman, Scott Hunter, and Donovan Brown. You will also learn about what's coming in .NET 6, Visual Studio, Azure, GitHub and more. [Register for free today](https://register.build.microsoft.com/).  
+
+### .NET Conf: Focus on Windows, sessions now on-demand
+
+[_.NET Conf: Focus on Windows_](https://focus.dotnetconf.net) virtual event was broadcasted on February 25th with 9 hours of content over 17 sessions. The event showcased Windows development on .NET 5, introduced the [.NET Upgrade Assistant](https://dotnet.microsoft.com/platform/upgrade-assistant/) to help developers move their .NET Framework-based apps to .NET 5, and provided deep learning on a variety of topics important to Windows developers. There were 25K live views and 18K unique viewers throughout the day. 
+
+The .NET Foundation sponsored the event and we coordinated a joint announcement on the broadcast during the keynote with the Uno Platform. Uno Platform has joined as corporate sponsor. Uno Platform joins the group of corporations that are helping drive the future of the .NET platform and ecosystem and we are incredibly grateful for their support. 
+
+If you missed it, you can watch th sessions, get the slides and demos, and grab your virtual swag by heading to [https://focus.dotnetconf.net](https://focus.dotnetconf.net)
 
 ## How to Get Involved
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
