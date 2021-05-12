@@ -15,7 +15,7 @@ Topics:
   - Xamarin
   - Xamarin.Forms
 Blog: https://veronika.dev/
-Twitter: https://twitter.com/breakpointv16
+Twitter: https://twitter.com/veronika_dev1
 GitHub: https://github.com/Veroni4ka
 LinkedIn: https://www.linkedin.com/in/vkolesnikova/
 Sessionize: https://sessionize.com/veronika-kolesnikova/
