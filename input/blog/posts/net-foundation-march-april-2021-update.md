@@ -1,7 +1,7 @@
 ---
 Title: .NET Foundation March/April 2021 Update
 Author: Claire Novotny
-Published:
+Published: 2021-04-30
 Slug: net-foundation-march-april-2021-update
 ---
 Welcome to the .NET Foundation update for March & April. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more.
