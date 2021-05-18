@@ -47,17 +47,17 @@ namespace DotnetFoundationWeb
                         )
                         .WithOutputWriteFiles("projects/projects.json")
                 )
-                // .ModifyPipeline(
-                //     nameof(Statiq.Web.Pipelines.Content),
-                //     x => x.ProcessModules.Add(
-                //         // Modules for speakers
-                //         new ExecuteSources("community/speakers/*.md")
-                //         {
-                //             new GeocodeLocations(Config.FromSetting(SiteKeys.AzureMapsSubscriptionKey)),
-                //             new GetBlogFeeds(),
-                //             new SpeakerImage()
-                //         }
-                //     ))
+                .ModifyPipeline(
+                    nameof(Statiq.Web.Pipelines.Content),
+                    x => x.ProcessModules.Add(
+                        // Modules for speakers
+                        new ExecuteSources("community/speakers/*.md")
+                        {
+                            new GeocodeLocations(Config.FromSetting(SiteKeys.AzureMapsSubscriptionKey)),
+                            new GetBlogFeeds(),
+                            new SpeakerImage()
+                        }
+                    ))
                 .RunAsync();
         }
     }
