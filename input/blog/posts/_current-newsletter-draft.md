@@ -1,50 +1,75 @@
 ---
-Title: .NET Foundation March/April 2021 Update
+Title: .NET Foundation May/June 2021 Update
 Author: Claire Novotny
 Published:
-Slug: net-foundation-march-april-2021-update
+Slug: net-foundation-may-june-2021-update
 Excluded: true
 ---
-Welcome to the .NET Foundation update for March & April. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more.
+Welcome to the .NET Foundation update for May & June. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more.
 
 [Sign up for the newsletter](http://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
 
 ## General news
 
 
-
 ## .NET Foundation Project Updates
 
 ### [Project Spotlight](https://dotnetfoundation.org/projects/spotlight)
 
-### New Projects
+Each month Project Spotlight shines a light on an interesting open source project and its maintainers. 
 
+
+### New Projects
+The .NET Foundation would like to welcome the following new projects!
+
+| | | |
+|-|-|-|
+  
 
 ### New Releases
 
-#### [Oqtane 2.0.1 Released](https://www.oqtane.org/Resources/Blog/PostId/546/oqtane-201-now-available)
 
-Since releasing version 2.0 in coordination with the .NET 5 launch event at .NET Conf in November 2020, the exciting new modular application framework for Blazor has continued to mature and gain momentum. This release includes a variety of performance and user experience impovements for both users and developers. A total of 101 pull requests were merged from 9 different contributors, pushing the total number of project commits all-time over 1600. The 2.0.1 release is available for download on 
-[Github](https://github.com/oqtane/oqtane.framework/releases/tag/v2.0.1).
+#### [DotVVM 3.0 Released](https://www.dotvvm.com/blog/83/Released-DotVVM-3-0)
 
-### [NUnit](https://nunit.org)
+If you haven't heard about DotVVM yet - it's an MVVM framework which you can use to [build ASP.NET Core web apps with just C# and HTML]([DotVVM](https://www.dotvvm.com/build) or to [modernize legacy ASP.NET apps to .NET 5](https://www.dotvvm.com/modernize). DotVVM is based on Knockout JS, its download size is just about 60kB, and comes with a set of built-in UI controls.
+
+**DotVVM 3.0** contains many improvements, and introduces several new features:
+
+* Easier interaction with the page viewmodel from JS or TS code - you can import JS module in the page and call its functions from DotVVM data-bindings, and also call DotVVM commands from your JS code. It makes it easy to integrate any third-party JS library or component.
+* Support for lambdas and variables in data-binding expressions - it's now easier to make client-side searching, ordering, or transform data returned from the server or REST API before it's passed in the viewmodel.
+
+[More info](https://www.dotvvm.com/blog/83/Released-DotVVM-3-0)
+
+#### [NUnit](https://nunit.org)
 
 [NUnit Analyzers 3.1 and 2.1](https://github.com/nunit/nunit.analyzers/releases/tag/3.1.0) are available. The 3.1 version continues to enhance the experience of using NUnit with the C# 8 Nullable Reference Types feature. (The 3.x versions have additional features that only work in Visual Studio 2019 and newer. The 2.x versions are available for those using Visual Studio 2017.)
 
 [NUnit Adapter 4.0.0-beta.2](https://docs.nunit.org/articles/vs-test-adapter/Adapter-Release-Notes.html#nunit3-test-adapter-for-visual-studio---version-400-beta2---april-6-2021) resolves some issues and improves performance. A major change in this version is the upgrade of the NUnit.Engine to version 3.12, and thus Mono.Cecil is no longer used. Instead it has a reduced version (based on Mono.Cecil) packed into TestCentric.engine.metadata doing the same job with navigation data.
 
-## .NET Foundation Committee Updates
 
+## .NET Foundation Committee Updates
 
 ## Events
 
-### JetBrains .NET Day Online 2021 - Call for Speakers
+### JetBrains .NET Days Online 2021
 
-JetBrains is organizing their third **.NET Day Online on May 12, 2021**. It is a free virtual event where community speakers cover topics they are passionate about, ranging from deep technical .NET content and speakers’ experiences with specific tools and technologies, to personal development.
+For the third time, JetBrains are organizing [JetBrains .NET Days Online](https://pages.jetbrains.com/dotnet-days-2021/dnf) - a free virtual event that will take place on May 11–12, 2021. Community speakers are presenting topics they are passionate about. You can expect a variety of levels of technical content, and speakers may also share their personal experiences and development.
 
-They are looking for speakers interested in presenting, and welcome all topics that would be relevant to the wider .NET community.
+The topics on this year’s agenda include C#, F#, GraphQL, Blazor, gRPC, Hedy, working with databases, and debugging. On top of that, we’ll discuss stereotypes around legacy code and demonstrate how to build a React app backed with Azure features.
 
-For more information, [head over to the Call for Speakers page](https://blog.jetbrains.com/dotnet/2021/02/15/jetbrains-net-day-online-2021-call-for-speakers/?utm_source=newsletter&utm_medium=referral&utm_campaign=resharper&utm_content=dnf2021-02)!
+For more information, [head over to the registration page](https://pages.jetbrains.com/dotnet-days-2021/dnf)!
+
+### Microsoft Build 2021, May 25 - 27
+
+Learn. Connect. Code. [Register](https://register.build.microsoft.com/) for the Microsoft Build digital event happening May 25 - 27, 2021. This free event will feature a fantastic lineup of sessions from Satya Nadella, Scott Guthrie and Microsoft developer tools leaders including Amanda Silver, Scott Hanselman, Scott Hunter, and Donovan Brown. You will also learn about what's coming in .NET 6, Visual Studio, Azure, GitHub and more. [Register for free today](https://register.build.microsoft.com/).  
+
+### .NET Conf: Focus on Windows, sessions now on-demand
+
+[_.NET Conf: Focus on Windows_](https://focus.dotnetconf.net) virtual event was broadcasted on February 25th with 9 hours of content over 17 sessions. The event showcased Windows development on .NET 5, introduced the [.NET Upgrade Assistant](https://dotnet.microsoft.com/platform/upgrade-assistant/) to help developers move their .NET Framework-based apps to .NET 5, and provided deep learning on a variety of topics important to Windows developers. There were 25K live views and 18K unique viewers throughout the day. 
+
+The .NET Foundation sponsored the event and we coordinated a joint announcement on the broadcast during the keynote with the Uno Platform. Uno Platform has joined as corporate sponsor. Uno Platform joins the group of corporations that are helping drive the future of the .NET platform and ecosystem and we are incredibly grateful for their support. 
+
+If you missed it, you can watch th sessions, get the slides and demos, and grab your virtual swag by heading to [https://focus.dotnetconf.net](https://focus.dotnetconf.net)
 
 ## How to Get Involved
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
