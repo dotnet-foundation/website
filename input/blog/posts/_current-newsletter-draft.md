@@ -51,25 +51,6 @@ If you haven't heard about DotVVM yet - it's an MVVM framework which you can use
 
 ## Events
 
-### JetBrains .NET Days Online 2021
-
-For the third time, JetBrains are organizing [JetBrains .NET Days Online](https://pages.jetbrains.com/dotnet-days-2021/dnf) - a free virtual event that will take place on May 11–12, 2021. Community speakers are presenting topics they are passionate about. You can expect a variety of levels of technical content, and speakers may also share their personal experiences and development.
-
-The topics on this year’s agenda include C#, F#, GraphQL, Blazor, gRPC, Hedy, working with databases, and debugging. On top of that, we’ll discuss stereotypes around legacy code and demonstrate how to build a React app backed with Azure features.
-
-For more information, [head over to the registration page](https://pages.jetbrains.com/dotnet-days-2021/dnf)!
-
-### Microsoft Build 2021, May 25 - 27
-
-Learn. Connect. Code. [Register](https://register.build.microsoft.com/) for the Microsoft Build digital event happening May 25 - 27, 2021. This free event will feature a fantastic lineup of sessions from Satya Nadella, Scott Guthrie and Microsoft developer tools leaders including Amanda Silver, Scott Hanselman, Scott Hunter, and Donovan Brown. You will also learn about what's coming in .NET 6, Visual Studio, Azure, GitHub and more. [Register for free today](https://register.build.microsoft.com/).  
-
-### .NET Conf: Focus on Windows, sessions now on-demand
-
-[_.NET Conf: Focus on Windows_](https://focus.dotnetconf.net) virtual event was broadcasted on February 25th with 9 hours of content over 17 sessions. The event showcased Windows development on .NET 5, introduced the [.NET Upgrade Assistant](https://dotnet.microsoft.com/platform/upgrade-assistant/) to help developers move their .NET Framework-based apps to .NET 5, and provided deep learning on a variety of topics important to Windows developers. There were 25K live views and 18K unique viewers throughout the day. 
-
-The .NET Foundation sponsored the event and we coordinated a joint announcement on the broadcast during the keynote with the Uno Platform. Uno Platform has joined as corporate sponsor. Uno Platform joins the group of corporations that are helping drive the future of the .NET platform and ecosystem and we are incredibly grateful for their support. 
-
-If you missed it, you can watch th sessions, get the slides and demos, and grab your virtual swag by heading to [https://focus.dotnetconf.net](https://focus.dotnetconf.net)
 
 ## How to Get Involved
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
