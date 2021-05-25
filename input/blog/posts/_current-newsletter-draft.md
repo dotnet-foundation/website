@@ -40,6 +40,12 @@ If you haven't heard about DotVVM yet - it's an MVVM framework which you can use
 
 [More info](https://www.dotvvm.com/blog/83/Released-DotVVM-3-0)
 
+#### [NUnit](https://nunit.org)
+
+[NUnit Analyzers 3.1 and 2.1](https://github.com/nunit/nunit.analyzers/releases/tag/3.1.0) are available. The 3.1 version continues to enhance the experience of using NUnit with the C# 8 Nullable Reference Types feature. (The 3.x versions have additional features that only work in Visual Studio 2019 and newer. The 2.x versions are available for those using Visual Studio 2017.)
+
+[NUnit Adapter 4.0.0-beta.2](https://docs.nunit.org/articles/vs-test-adapter/Adapter-Release-Notes.html#nunit3-test-adapter-for-visual-studio---version-400-beta2---april-6-2021) resolves some issues and improves performance. A major change in this version is the upgrade of the NUnit.Engine to version 3.12, and thus Mono.Cecil is no longer used. Instead it has a reduced version (based on Mono.Cecil) packed into TestCentric.engine.metadata doing the same job with navigation data.
+
 
 ## .NET Foundation Committee Updates
 
