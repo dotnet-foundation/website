@@ -9,11 +9,11 @@ Web: https://haveibeenpwned.com/
 
 [HaveIBeenPwned](https://haveibeenpwned.com/) is a a free online resource for anyone to quickly assess if they may have been put at risk due to an online account of theirs having been compromised or "pwned" in a data breach.
 
-# Project Details
+## Project Details
 
 * [Project Info Site](https://haveibeenpwned.com/)
 * [Project Code Site](https://github.com/HaveIBeenPwned/PwnedPasswordsAzureFunction)
-* Project License Type: [MIT License(MIT)](https://github.com/HaveIBeenPwned/PwnedPasswordsAzureFunction/blob/master/License.md)
+* Project License Type: [BSD 3-Clause](https://github.com/HaveIBeenPwned/PwnedPasswordsAzureFunction/blob/main/LICENSE)
 * Project Main Contact: [Troy Hunt](https://github.com/troyhunt)
 
 ### Quicklinks
