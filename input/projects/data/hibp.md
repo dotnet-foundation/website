@@ -1,5 +1,5 @@
 ---
-Title: ';--have i been pwned? (HIBP)
+Title: "';--have i been pwned? (HIBP)"
 Contributor: Troy Hunt
 Logo: hibp.jpg
 Web: https://haveibeenpwned.com/
