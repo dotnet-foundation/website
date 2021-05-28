@@ -1,13 +1,13 @@
 ---
-Title: ;--haveibeenpwned? (HIBP)
+Title: ';--have i been pwned? (HIBP)
 Contributor: Troy Hunt
 Logo: hibp.jpg
 Web: https://haveibeenpwned.com/
 ---
 
-# HaveIBeenPwned
+# ';--have i been pwned? (HIBP)
 
-[HaveIBeenPwned](https://haveibeenpwned.com/) is a a free online resource for anyone to quickly assess if they may have been put at risk due to an online account of theirs having been compromised or "pwned" in a data breach.
+[';--have i been pwned? (HIBP)](https://haveibeenpwned.com/) is a a free online resource for anyone to quickly assess if they may have been put at risk due to an online account of theirs having been compromised or "pwned" in a data breach.
 
 ## Project Details
 
