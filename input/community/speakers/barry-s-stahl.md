@@ -1,6 +1,6 @@
 ---
 Title: Barry S. Stahl
-Pronouns: Him/He
+Pronouns: him/he
 Location: Phoenix AZ USA
 Email: barry@bsstahl.com
 Language:
