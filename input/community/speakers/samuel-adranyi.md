@@ -1,6 +1,6 @@
 ---
 Title: Samuel Adranyi
-Pronouns: He/Him
+Pronouns: he/him
 Location: Accra, Ghana
 Email: sadranyi@hotmail.com
 Language:
