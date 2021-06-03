@@ -51,6 +51,15 @@ If you haven't heard about DotVVM yet - it's an MVVM framework which you can use
 
 ## Events
 
+### Codegarden 2021
+
+Codegarden is a one-of-a-kind tech conference experience organized by Umbraco - the company behind Umbraco CMS. For the first time, Codegarden goes virtual on June 9 - 11, 2021.
+
+Beat the 'Zoom fatigue' with an exciting program full of opportunities to discuss, interact, and take part in fun activities, all the while listening to first-class talks ranging from Cloud technology, ASP.NET Core and DevOps to digital experience, accessibility, and customer satisfaction.
+
+The Umbraco CMS is currently migrating from the ASP.NET framework to the newer, faster, and better ASP.NET Core/.NET 5, with exclusive news and updates live from the virtual Codegarden stage.
+
+[Register for your free ticket here](https://codegarden.umbraco.com/the-tech-conference-like-no-other-codegarden-2021/)
 
 ## How to Get Involved
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
