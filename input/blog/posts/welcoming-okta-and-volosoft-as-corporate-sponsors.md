@@ -1,7 +1,7 @@
 ---
 Title: Welcoming Okta and Volosoft to .NET Foundation as Corporate Sponsors!
 Author: Claire Novotny
-Published: 2021-06-01
+Published: 2021-06-10
 ---
 Today, we’re thrilled to announce that Okta and Volosoft are joining the .NET Foundation as Corporate Sponsors.
 
