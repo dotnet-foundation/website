@@ -24,6 +24,9 @@ The .NET Foundation would like to welcome the following new projects!
 
 | | | |
 |-|-|-|
+| bUnit | ![NFLogo](https://user-images.githubusercontent.com/1334951/113320871-de42d080-92c7-11eb-895f-0d5028cc414c.png) | bUnit is a testing library for Blazor Components. Its goal is to make it easy to write comprehensive, stable unit tests.  bUnit builds on top of existing unit testing frameworks such as xUnit, NUnit, and MSTest, which run the Blazor component tests in just the same way as any normal unit test. bUnit runs a test in milliseconds, compared to browser-based UI tests which usually take seconds to run.|
+| FIDO2 | ![NFLogo](https://user-images.githubusercontent.com/1334951/113320871-de42d080-92c7-11eb-895f-0d5028cc414c.png) | FIDO2 enables passwordless sign in for all .net apps (asp, core, native) and provides a developer friendly and well tested .NET FIDO2 Server / WebAuthn relying party library for the easy validation of registration (attestation) and authentication (assertion) of FIDO2 / WebAuthn credentials, in order to increase the adoption of the technology, ultimately defeating phishing attacks.|
+| .NEXT | ![dotnext](https://user-images.githubusercontent.com/1334951/121600883-03f00280-c9fa-11eb-8e7a-e6a1e9dc24b1.png) | .NEXT (dotNext) is the family of powerful libaries aimed to improve development productivity and extend .NET API with unique features which potentially will be implemented in the next versions of C# compiler or .NET Runtime.|
   
 
 ### New Releases
