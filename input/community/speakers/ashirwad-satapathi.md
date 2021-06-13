@@ -1,6 +1,5 @@
 ---
 Title: Ashirwad Satapathi
-Pronouns: they
 Location: Bhubaneswar
 Email: ashirwadsatapathi.aim@gmail.com
 Language:
