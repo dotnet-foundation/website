@@ -22,7 +22,7 @@
       "url": "https://github.com/rseanhall"
     }
   ],
-  "youtubeUrl": "https://youtu.be/qzapPthJBQM",
+  "youtubeUrl": "https://www.youtube.com/embed/qzapPthJBQM",
   "projectDescription": "The WiX Toolset is the most powerful set of tools available to create your Windows installation experience. The tools integrate seamlessly into your standard development (CI/CD) practices with text based source code, command-line tools and MSBuild/Visual Studio integration to create installation packages for your Windows software. The WiX Toolset was Microsoft's first Open Source project released in 2004 and is now a member of the .NET Foundation and supported commercially by FireGiant.",
   "contributors": [
     {
