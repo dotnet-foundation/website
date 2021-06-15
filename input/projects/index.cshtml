@@ -26,21 +26,21 @@ permalink: /projects
               <div class="row">
                 <div class="form-group col-lg-6 col-md-10 offset-lg-3 offset-md-1">
                   <div class="input-group">
-                    <input class="form-control" id="textToSearch" name="textToSearch" type="search" value=""
+                    <input class="form-control" title="search" aria-label="search" id="textToSearch" name="textToSearch" type="search" value=""
                           placeholder="" />
-                    <button id="search-projects" class="btn btn-primary mb-2"><i class="fa fa-search"></i></button>
+                    <button id="search-projects" class="btn btn-primary mb-2" aria-hidden="true" tabindex="-1" title="button"><i class="fa fa-search"></i></button>
                   </div>
                 </div>
               </div>
               <div class="row sr-only">
                 <div class="form-group">
                   <label>
-                    <input id="type" name="type" type="radio" value="project" checked /> Projects
+                    <input name="type" type="radio" value="project" checked /> Projects
                   </label>
                 </div>
                 <div class="form-group">
                   <label>
-                    <input id="type" name="type" type="radio" value="repository" /> Repositories
+                    <input name="type" type="radio" value="repository" /> Repositories
                   </label>
                 </div>
               </div>

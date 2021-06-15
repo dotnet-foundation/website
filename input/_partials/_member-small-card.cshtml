@@ -24,6 +24,7 @@
             @if(!string.IsNullOrWhiteSpace(member.GetString(SiteKeys.Company))) {
               <p class="profile-company">@Html.Raw(member.GetString(SiteKeys.Company))</p>
             }
+            -
             @if(!string.IsNullOrWhiteSpace(member.GetString(SiteKeys.Location))) {
               <p class="profile-location">@Html.Raw(member.GetString(SiteKeys.Location))</p>
             }

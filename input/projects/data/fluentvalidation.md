@@ -20,4 +20,4 @@ Web: https://fluentvalidation.net
 
 * [Documentation](https://docs.fluentvalidation.net)
 * [Discussions and issues](https://github.com/FluentValidation/FluentValidation/issues)
-* [Contribute](https://github.com/fluentvalidation/fluentvalidation/blob/master/CONTRIBUTING.md)
+* [Contribute](https://github.com/FluentValidation/FluentValidation/blob/main/.github/CONTRIBUTING.md)
