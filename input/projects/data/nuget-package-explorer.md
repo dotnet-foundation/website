@@ -22,4 +22,4 @@ NuGet Package Explorer (NPE) is an application that makes it easy to create and 
 * Chocolatey <br />
   `choco install nugetpackageexplorer`
 
-* [CI Install](https://nugetpackageexplorer.blob.core.windows.net/nightly/install.html)
+* [CI Install](https://npenightly.blob.core.windows.net/nightly/install.html)
