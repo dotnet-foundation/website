@@ -111,6 +111,11 @@ p {
   background-color: #ebe0eb;
 }
 
+.page-section--purple--light a {
+    color: #68217a;
+    text-decoration: underline;
+}
+
 .page-section--purple {
   background-color: #68217a;
   color: #fff;
