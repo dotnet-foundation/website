@@ -49,6 +49,13 @@ If you haven't heard about DotVVM yet - it's an MVVM framework which you can use
 
 [NUnit Adapter 4.0.0-beta.2](https://docs.nunit.org/articles/vs-test-adapter/Adapter-Release-Notes.html#nunit3-test-adapter-for-visual-studio---version-400-beta2---april-6-2021) resolves some issues and improves performance. A major change in this version is the upgrade of the NUnit.Engine to version 3.12, and thus Mono.Cecil is no longer used. Instead it has a reduced version (based on Mono.Cecil) packed into TestCentric.engine.metadata doing the same job with navigation data.
 
+#### [Oqtane 2.1 Now Supports Multiple Databases](https://www.oqtane.org/Resources/Blog/PostId/548/oqtane-21-now-supports-multiple-databases)
+
+On June 4, Oqtane announced the official release of Oqtane 2.1, a new major release of the popular modular application framework for Blazor, adding native support for SQL Server, SQLite, MySQL, and PostgreSQL to its growing list of framework capabilities.
+
+A total of 94 pull requests containing 261 commits by 6 different contributors were integrated into this release.
+
+The [2.1 release](https://github.com/oqtane/oqtane.framework/releases/tag/v2.1.0) is available for download on Github and we encourage the community to [visit the repo](https://github.com/oqtane/oqtane.framework) often to keep abreast of the latest developments.
 
 ## .NET Foundation Committee Updates
 
