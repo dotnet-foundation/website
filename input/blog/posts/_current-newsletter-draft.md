@@ -59,6 +59,13 @@ The [2.1 release](https://github.com/oqtane/oqtane.framework/releases/tag/v2.1.0
 
 ## .NET Foundation Committee Updates
 
+### Announcing the .NET Foundation Education Committee
+We're excited to announce we've officially launched the Education Committee. Brian Jablonsky has stepped up to chair the committee. The education committee will be responsible for developing, sponsoring, and providing educational opportunities for the .NET community and is open to anyone who wants to participate. They meet every 2nd and 4th Wednesdays of the month from 11:00 AM to 12:00 PM ET.
+
+Their first initiative is building and launching the .NET Foundation Academy, a program for higher education computer science students to learn about software development using .NET. The first curriculum focuses on full stack web development using C# and .NET 6. Students will work in teams on projects they propose, design, and implement. The course is a 12 week program consisting of a 2.5 hour class with a mix of lecture and workshops each week. 
+
+If you are interested in joining the education committee, please [read more about joining on the education committee's GitHub repository](https://github.com/dotnet-foundation/wg-education).
+
 ## Events
 
 ### Codegarden 2021
