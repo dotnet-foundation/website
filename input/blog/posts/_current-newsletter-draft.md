@@ -31,6 +31,10 @@ The .NET Foundation would like to welcome the following new projects!
 
 ### New Releases
 
+#### [NuGet Package Explorer is now a Web App too!](https://platform.uno/blog/nuget-package-explorer-is-now-a-web-app-powered-by-uno-platform/)
+
+By Popular demand, NuGet Package Explorer is now a Web App. The new solution is a WinUI, Windows Community Toolkit and Uno Platform powered solution which runs on the Web, via Uno’s support for WebAssembly and .NET 6 for WebAssembly.
+
 
 #### [DotVVM 3.0 Released](https://www.dotvvm.com/blog/83/Released-DotVVM-3-0)
 
