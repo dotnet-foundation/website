@@ -72,15 +72,15 @@ If you are interested in joining the education committee, please [read more abou
 
 ## Events
 
-### Codegarden 2021
+### Codegarden 2021 session replays now available
 
-Codegarden is a one-of-a-kind tech conference experience organized by Umbraco - the company behind Umbraco CMS. For the first time, Codegarden goes virtual on June 9 - 11, 2021.
+Earlier in June, Umbraco held the very first virtual Codegarden. It saw over 2200 attendees enjoy 3 days of updates, discussions, and ideas from Umbraco developers, the Umbraco community, and industry experts. Talks and sessions are being uploaded to the [Umbraco YouTube channel](https://www.youtube.com/umbracohq) already, but here’s a few to get you started: 
 
-Beat the 'Zoom fatigue' with an exciting program full of opportunities to discuss, interact, and take part in fun activities, all the while listening to first-class talks ranging from Cloud technology, ASP.NET Core and DevOps to digital experience, accessibility, and customer satisfaction.
+- [Scott Hunter, .NET Director of Program Management at Microsoft - Future of application development with .NET](https://www.youtube.com/watch?v=Btvm-x5BRYg&list=PLG_nqaT-rbpx6wIDr5ufUlbHkg6qB3sxH&index=20)
+- [Bjarke Berg and Elitsa Marinovska, Umbraco Development Team - Umbraco 9 - the next major version](https://www.youtube.com/watch?v=a-NFlIKO1TQ&list=PLG_nqaT-rbpx6wIDr5ufUlbHkg6qB3sxH&index=19)
+- [Kim Sneum Madsen, Umbraco Chief Friend Maker (CEO) -   Opening keynote](https://www.youtube.com/watch?v=D_nLL-O2YIM&list=PLG_nqaT-rbpx6wIDr5ufUlbHkg6qB3sxH)
 
-The Umbraco CMS is currently migrating from the ASP.NET framework to the newer, faster, and better ASP.NET Core/.NET 5, with exclusive news and updates live from the virtual Codegarden stage.
-
-[Register for your free ticket here](https://codegarden.umbraco.com/the-tech-conference-like-no-other-codegarden-2021/)
+Sad that you missed out on all the bits in between? Then come and join us for Codegarden 2022 next summer! For all the info on Codegarden 2022 when it comes, make sure you’re following us on [Twitter](https://twitter.com/umbraco?lang=da) and [LinkedIn](https://www.linkedin.com/company/umbraco), or [sign up for our newsletter](https://umbraco.activehosted.com/f/2) to get updates straight into your inbox.
 
 ## How to Get Involved
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
