@@ -76,9 +76,9 @@ If you are interested in joining the education committee, please [read more abou
 
 Earlier in June, Umbraco held the very first virtual Codegarden. It saw over 2200 attendees enjoy 3 days of updates, discussions, and ideas from Umbraco developers, the Umbraco community, and industry experts. Talks and sessions are being uploaded to the [Umbraco YouTube channel](https://www.youtube.com/umbracohq) already, but here’s a few to get you started: 
 
-[Scott Hunter, .NET Director of Program Management at Microsoft - Future of application development with .NET](https://www.youtube.com/watch?v=Btvm-x5BRYg&list=PLG_nqaT-rbpx6wIDr5ufUlbHkg6qB3sxH&index=20)
-[Bjarke Berg and Elitsa Marinovska, Umbraco Development Team - Umbraco 9 - the next major version](https://www.youtube.com/watch?v=a-NFlIKO1TQ&list=PLG_nqaT-rbpx6wIDr5ufUlbHkg6qB3sxH&index=19)
-[Kim Sneum Madsen, Umbraco Chief Friend Maker (CEO) -   Opening keynote](https://www.youtube.com/watch?v=D_nLL-O2YIM&list=PLG_nqaT-rbpx6wIDr5ufUlbHkg6qB3sxH)
+- [Scott Hunter, .NET Director of Program Management at Microsoft - Future of application development with .NET](https://www.youtube.com/watch?v=Btvm-x5BRYg&list=PLG_nqaT-rbpx6wIDr5ufUlbHkg6qB3sxH&index=20)
+- [Bjarke Berg and Elitsa Marinovska, Umbraco Development Team - Umbraco 9 - the next major version](https://www.youtube.com/watch?v=a-NFlIKO1TQ&list=PLG_nqaT-rbpx6wIDr5ufUlbHkg6qB3sxH&index=19)
+- [Kim Sneum Madsen, Umbraco Chief Friend Maker (CEO) -   Opening keynote](https://www.youtube.com/watch?v=D_nLL-O2YIM&list=PLG_nqaT-rbpx6wIDr5ufUlbHkg6qB3sxH)
 
 Sad that you missed out on all the bits in between? Then come and join us for Codegarden 2022 next summer! For all the info on Codegarden 2022 when it comes, make sure you’re following us on [Twitter](https://twitter.com/umbraco?lang=da) and [LinkedIn](https://www.linkedin.com/company/umbraco), or [sign up for our newsletter](https://umbraco.activehosted.com/f/2) to get updates straight into your inbox.
 
