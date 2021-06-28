@@ -72,6 +72,16 @@ If you are interested in joining the education committee, please [read more abou
 
 ## Events
 
+### .NET Conf: Focus on F# - July 29
+
+[![FSharp 550x182](https://user-images.githubusercontent.com/5115571/123715356-fd042500-d82c-11eb-9393-246e4872114e.png)](https://focus.dotnetconf.net/?utm_campaign=savedate&utm_medium=newsletter&utm_source=dotnetfdn)
+
+*.NET Conf: Focus on F#* is a free, one-day livestream event co-organized by the .NET community and Microsoft, and sponsored by the .NET Foundation and F# Software Foundation.
+
+Learn how F# lets you write succinct, performant, and robust code backed by a powerful type system and the .NET runtime you can trust to build mission-critical software. Hear from language designers and experts using F# in a variety of ways from building minimal web APIs to performing data manipulation, interactive programming, machine learning, and data science.
+
+**Tune into [focus.dotnetconf.net](https://focus.dotnetconf.net/?utm_campaign=savedate&utm_medium=newsletter&utm_source=dotnetfdn) on July 29, ask questions live, and learn about what F# can do. [Save the date!](https://focus.dotnetconf.net/?utm_campaign=savedate&utm_medium=newsletter&utm_source=dotnetfdn)**
+
 ### Codegarden 2021 session replays now available
 
 Earlier in June, Umbraco held the very first virtual Codegarden. It saw over 2200 attendees enjoy 3 days of updates, discussions, and ideas from Umbraco developers, the Umbraco community, and industry experts. Talks and sessions are being uploaded to the [Umbraco YouTube channel](https://www.youtube.com/umbracohq) already, but here’s a few to get you started: 
@@ -103,4 +113,6 @@ Show off your nerd side with pride! Support the .NET Foundation by rocking some 
 ### [Have some fun](https://mod-dotnet-bot.net)
 Coding is better with friends, especially when they bring their own mods. As the mascot for the .NET community, dotnet-bot helps with checking pull requests on .NET repos on GitHub. Create your own coding companion by building your own custom dotnet-bot at [mod-dotnet-bot.net](https://mod-dotnet-bot.net) and sharing it on [Twitter #dotnetlovesme](https://twitter.com/search?q=%23dotnetlovesme). 
 
-[![mod-dotnet-bot.net](https://user-images.githubusercontent.com/5115571/100276672-c670cf80-2f16-11eb-8a9f-2b8a90775a06.png)](https://mod-dotnet-bot.net)
+[![my-dotnet-bot-mod](https://user-images.githubusercontent.com/5115571/123716322-1e661080-d82f-11eb-8e42-4e6381a2c5f7.png)](https://mod-dotnet-bot.net)
+
+
