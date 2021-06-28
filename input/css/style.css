@@ -116,6 +116,11 @@ p {
     text-decoration: underline;
 }
 
+.page-section--purple--light .site-button {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .page-section--purple {
   background-color: #68217a;
   color: #fff;
@@ -661,6 +666,7 @@ li.active a.nav-link,
   margin-bottom: 5px;
   font-size: 18px;
   color: inherit;
+  text-decoration: none;  
 }
 
 .latest_copy {
@@ -1596,6 +1602,11 @@ svg:not(:root).svg-inline--fa {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.profile a {
+    color: #006CFF;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
