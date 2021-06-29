@@ -112,6 +112,16 @@ Earlier in June, Umbraco held the very first virtual Codegarden. It saw over 220
 
 Sad that you missed out on all the bits in between? Then come and join us for Codegarden 2022 next summer! For all the info on Codegarden 2022 when it comes, make sure you’re following us on [Twitter](https://twitter.com/umbraco?lang=da) and [LinkedIn](https://www.linkedin.com/company/umbraco), or [sign up for our newsletter](https://umbraco.activehosted.com/f/2) to get updates straight into your inbox.
 
+### Microsoft Build 2021 session replays available
+If you missed it, [Microsoft Build](https://build.microsoft.com/) sessions are now available on-demand. On May 25th, .NET 6 Preview 4 was released and there were a variety of sessions at Build that covered the features coming in .NET 6. Most notably, you’ll want to checkout this session, which includes lots of discussion of .NET 6 and demos that show you what’s new and now possible.
+
+Watch on-demand: [.NET 6 deep dive; what’s new and what’s coming](https://aka.ms/Build2021-OD485)
+
+### [.NET Conf 2021](https://dotnetconf.net/?utm_campaign=savedate&utm_source=dotnetfdn&utm_medium=newsletter), November 9 - 11
+.NET Conf 2021 and the launch of .NET 6 is coming November 9th! .NET Conf is a free, three-day, virtual developer event that celebrates the major releases of .NET. It is co-organized by the .NET community and Microsoft, and sponsored by the .NET Foundation and ecosystem partners. Call for content will open on July 29th. 
+
+**[Save the date!](https://dotnetconf.net/?utm_campaign=savedate&utm_source=dotnetfdn&utm_medium=newsletter)**
+
 ## How to Get Involved
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
 
