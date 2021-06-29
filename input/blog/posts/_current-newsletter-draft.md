@@ -11,10 +11,17 @@ Welcome to the .NET Foundation update for May & June. Every other month, we'll g
 
 ## General news
 
+### Welcome Okta and Volosoft to the .NET Foundation as Corporate Sponsors!
+
+We’re thrilled to have Okta and Volosoft join the .NET Foundation as Corporate Sponsors. Okta and Volosoft join a growing list of industry leaders in the .NET open source ecosystem who support the .NET Foundation, including AWS, DevExpress, Endjin, Microsoft, Octopus Deploy, Uno Platform, Progress Telerik, and VMware. Okta and Volsoft joins this group of corporations that are helping drive the future of the .NET platform and ecosystem and we are incredibly grateful for their support. The .NET Foundation relies on sponsors to fund our mission to create a thriving .NET open source ecosystem.
+
+[![Okta logo](https://dotnetfoundation.org/assets/corporate-sponsors/okta.png)](https://www.okta.com/)
+
+[![Volsoft logo](https://dotnetfoundation.org/assets/corporate-sponsors/volosoft.png)](https://volosoft.com/blog/Volosoft-Announces-the-NET-Foundation-Sponsorship)
 
 ## .NET Foundation Project Updates
 
-### [Project Spotlight](https://dotnetfoundation.org/projects/spotlight)
+### [Project Spotlight](https://dotnetfoundation.org/projects/spotlight) :sparkler:
 
 Each month Project Spotlight shines a light on an interesting open source project and its maintainers. 
 
@@ -77,6 +84,11 @@ We're excited to announce we've officially launched the Education Committee. Bri
 Their first initiative is building and launching the .NET Foundation Academy, a program for higher education computer science students to learn about software development using .NET. The first curriculum focuses on full stack web development using C# and .NET 6. Students will work in teams on projects they propose, design, and implement. The course is a 12 week program consisting of a 2.5 hour class with a mix of lecture and workshops each week. 
 
 If you are interested in joining the education committee, please [read more about joining on the education committee's GitHub repository](https://github.com/dotnet-foundation/wg-education).
+
+### Outreach Committee Announces Proposal Process
+The .NET Foundation's Outreach Committee is happy to announce that we've finalized our proposal process. If you have an idea or project that you think can help promote the adoption of .NET, C#, F#, or other related technologies, you can now propose projects directly to the .NET Foundation.
+
+**[Read more about the details on our blog.](https://dotnetfoundation.org/blog/2021/05/19/wg-outreach-proposals)** 
 
 ## Events
 
