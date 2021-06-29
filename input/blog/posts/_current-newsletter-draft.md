@@ -25,9 +25,9 @@ We’re thrilled to have Okta and Volosoft join the .NET Foundation as Corporate
 
 Each month Project Spotlight shines a light on an interesting open source project and its maintainers. 
 
-In June, .NET Foundation Marketing Committee member, Isaac Levin, spoke with Maintainer of the Wix Toolset project, Rob Mensching, to talk about how .NET Developers who build desktop applications for Windows can take advantage of advanced publishing options with the Toolset
+In June, .NET Foundation Marketing Committee member, Isaac Levin, spoke with Maintainer of the Wix Toolset project, Rob Mensching, to talk about how .NET Developers who build desktop applications for Windows can take advantage of advanced publishing options with the Toolset.
 
-[Wix](https://dotnetfoundation.org/projects/spotlight?project=WiX%20Toolset)
+**Watch the interview: [Wix](https://dotnetfoundation.org/projects/spotlight?project=WiX%20Toolset)**
 
 The WiX Toolset is the most powerful set of tools available to create your Windows installation experience. The tools integrate seamlessly into your standard development (CI/CD) practices with text based source code, command-line tools and MSBuild/Visual Studio integration to create installation packages for your Windows software. The WiX Toolset was Microsoft's first Open Source project released in 2004 and is now a member of the .NET Foundation and supported commercially by FireGiant.
 
@@ -38,8 +38,8 @@ The .NET Foundation would like to welcome the following new projects!
 | | | |
 |-|-|-|
 | [bUnit](https://bunit.dev/) | [![NFLogo](https://dotnetfoundation.org/assets/projects/bunit-logo.png)](https://bunit.dev/) | bUnit is a testing library for Blazor Components. Its goal is to make it easy to write comprehensive, stable unit tests.  bUnit builds on top of existing unit testing frameworks such as xUnit, NUnit, and MSTest, which run the Blazor component tests in just the same way as any normal unit test. bUnit runs a test in milliseconds, compared to browser-based UI tests which usually take seconds to run.|
-| [HIBP](https://github.com/HaveIBeenPwned/PwnedPasswordsAzureFunction) | [![dotnext](https://dotnetfoundation.org/assets/projects/hibp.jpg)](https://haveibeenpwned.com/) | ';--have i been pwned? (HIBP) is a a free online resource for anyone to quickly assess if they may have been put at risk due to an online account of theirs having been compromised or "pwned" in a data breach.|
 | [FIDO2](https://fido2-net-lib.passwordless.dev/) | [![NFLogo](https://user-images.githubusercontent.com/1334951/113320871-de42d080-92c7-11eb-895f-0d5028cc414c.png)](https://fido2-net-lib.passwordless.dev/) | FIDO2 enables passwordless sign in for all .net apps (asp, core, native) and provides a developer friendly and well tested .NET FIDO2 Server / WebAuthn relying party library for the easy validation of registration (attestation) and authentication (assertion) of FIDO2 / WebAuthn credentials, in order to increase the adoption of the technology, ultimately defeating phishing attacks.|
+| [HIBP](https://github.com/HaveIBeenPwned/PwnedPasswordsAzureFunction) | [![dotnext](https://dotnetfoundation.org/assets/projects/hibp.jpg)](https://haveibeenpwned.com/) | ';--have i been pwned? (HIBP) is a a free online resource for anyone to quickly assess if they may have been put at risk due to an online account of theirs having been compromised or "pwned" in a data breach.|
 | [.NEXT](https://dotnet.github.io/dotNext/) | [![dotnext](https://dotnet.github.io/dotNext/doc_logo.png)](https://dotnet.github.io/dotNext/) | .NEXT (dotNext) is the family of powerful libaries aimed to improve development productivity and extend .NET API with unique features which potentially will be implemented in the next versions of C# compiler or .NET Runtime.|
 | [Reaqtor](https://reaqtive.net/) | [![Reaqtor](https://raw.githubusercontent.com/reaqtive/reaqtor/main/reaqtor-header.svg)](https://reaqtive.net/) | Reaqtor is a framework for reliable, stateful, distributed, scalable, high performance event processing based on Reactive Extensions (Rx).|
   
