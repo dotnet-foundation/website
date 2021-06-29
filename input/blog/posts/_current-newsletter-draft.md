@@ -18,6 +18,11 @@ Welcome to the .NET Foundation update for May & June. Every other month, we'll g
 
 Each month Project Spotlight shines a light on an interesting open source project and its maintainers. 
 
+In June, .NET Foundation Marketing Committee member, Isaac Levin, spoke with Maintainer of the Wix Toolset project, Rob Mensching, to talk about how .NET Developers who build desktop applications for Windows can take advantage of advanced publishing options with the Toolset
+
+[Wix](https://dotnetfoundation.org/projects/spotlight?project=WiX%20Toolset)
+
+The WiX Toolset is the most powerful set of tools available to create your Windows installation experience. The tools integrate seamlessly into your standard development (CI/CD) practices with text based source code, command-line tools and MSBuild/Visual Studio integration to create installation packages for your Windows software. The WiX Toolset was Microsoft's first Open Source project released in 2004 and is now a member of the .NET Foundation and supported commercially by FireGiant.
 
 ### New Projects
 The .NET Foundation would like to welcome the following new projects!
@@ -117,5 +122,4 @@ Show off your nerd side with pride! Support the .NET Foundation by rocking some 
 Coding is better with friends, especially when they bring their own mods. As the mascot for the .NET community, dotnet-bot helps with checking pull requests on .NET repos on GitHub. Create your own coding companion by building your own custom dotnet-bot at [mod-dotnet-bot.net](https://mod-dotnet-bot.net) and sharing it on [Twitter #dotnetlovesme](https://twitter.com/search?q=%23dotnetlovesme). 
 
 [![my-dotnet-bot-mod](https://user-images.githubusercontent.com/5115571/123716322-1e661080-d82f-11eb-8e42-4e6381a2c5f7.png)](https://mod-dotnet-bot.net)
-
 
