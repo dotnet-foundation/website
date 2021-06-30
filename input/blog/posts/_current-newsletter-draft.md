@@ -90,6 +90,10 @@ The .NET Foundation's Outreach Committee is happy to announce that we've finaliz
 
 **[Read more about the details on our blog.](https://dotnetfoundation.org/blog/2021/05/19/wg-outreach-proposals)** 
 
+### Board Nominating Committee Formed
+
+The Nominating committee for the 2021 board elections had its organizational meeting. The nominating committee will be recruiting potential candidates for this year's board elections. In the next month, you'll hear more about potential candidates so you can make an informed choice when the election is held later this summer.
+
 ## Events
 
 ### .NET Conf: Focus on F# - July 29
