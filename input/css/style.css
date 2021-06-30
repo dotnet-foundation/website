@@ -400,6 +400,18 @@ svg.svg-inline--fa {
   animation-delay: 0.6s;
 }
 
+#speakers .sort {
+  background-color: #086DD9;
+}
+
+#speakers .card .profile-name a {
+  color: #006CFF;
+}
+
+#speakers .card a {
+  color: #086DD9;  
+}
+
 #speakers-map {
   height: 600px;
   width: 100%
