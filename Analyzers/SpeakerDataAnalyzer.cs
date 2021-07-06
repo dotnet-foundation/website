@@ -1,6 +1,6 @@
-﻿using System.Collections.Immutable;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 using Statiq.Common;
+using Statiq.Web.Pipelines;
 
 namespace DotnetFoundationWeb
 {
@@ -8,11 +8,14 @@ namespace DotnetFoundationWeb
     {
         public override LogLevel LogLevel { get; set; } = LogLevel.Error;
 
-        public override string[] Pipelines => new[] { nameof(Statiq.Web.Pipelines.Content) };
-
-        protected override sealed void Analyze(ImmutableArray<IDocument> documents, IAnalyzerContext context)
+        protected SpeakerDataAnalyzer()
         {
-            foreach (IDocument document in documents.FilterSources("community/speakers/*.md"))
+            PipelinePhases.Add(nameof(AnalyzeContent), Phase.Process);
+        }
+
+        protected override sealed void Analyze(IAnalyzerContext context)
+        {
+            foreach (IDocument document in context.Inputs.FilterSources("community/speakers/*.md"))
             {
                 AnalyzeSpeakerData(document, context);
             }

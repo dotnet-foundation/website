@@ -7,7 +7,7 @@ Pull requests and issues are welcome!
 ## Prerequisites
 
 * Git: Clone this repository to make a change.
-* [.NET Core SDK 3.1.\*](https://dotnet.microsoft.com/download)
+* [.NET Core SDK 5.0.\*](https://dotnet.microsoft.com/download)
 * Optional: [Visual Studio 2019](https://visualstudio.microsoft.com/vs/) or [Visual Studio Code](https://code.visualstudio.com/) for editing.
 
 ## Build and test

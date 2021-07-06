@@ -1,0 +1,669 @@
+<p class='mx-auto'>
+Thanks again everybody for coming to this edition of Project
+Spotlight by the Dana Foundation today,
+we're super excited to talk to Sean Walker,
+creator of Octane Sean. Do you want to go ahead
+and give us a quick intro?
+Sure, yeah. I'm Sean Walker.
+I'm a technical director with Cognizant Softvision and I guess
+my claim to fame is that I was the original
+creator of Open Source project called Dotnetnuke.
+Now been rebranded as DNN,
+but have been a longtime contributor to the Open sourceecosystemwithin.net
+and I'm also been involved with the.net Foundation for many
+years since actually since 2014,
+so I'm happy to be on the project Spotlight.
+Yeah, awesome, it's funny 'cause we actually have done.
+Project Spotlight on DNN. So if you haven't seen that,
+go check that out. Folks so octane.
+So maybe you want to give us just a a
+really high level of what octane is,
+and you know what value it brings to the net
+developers.
+Sure, yeah. So Octane is a modular application framework.
+And I guess the concept there is that rather than
+building applications from the ground up in this sort of
+a static way,
+the idea behind a modular framework is that you.
+Basically, get a complete foundation of an application to build
+on top of an.
+Then you focus on building your specific business applications as
+modules,
+which sort of seamlessly plug into the overall foundation to
+create a cohesive application.
+There's a lot of benefits of doing things in a
+modular way,
+and that you can you know breakdown the problem into
+smaller pieces.
+You can develop them independently from the main application.
+You can deploy them independently.
+Those I guess are the main advantages.
+And this approach, you know has been popular in the
+software industry for quite some time,
+and there's a lot of modular frameworks which exist.
+I guess the main differentiator for Octane is that it's
+based on the new Microsoft Blazer technology.
+Oh, that's awesome so.
+Let's take a step back and kind of talk about
+like modular frameworks,
+right? And why those are valuable for for developersespecially.net developers,
+right?
+When you build out applications,
+you have tons of different components,
+right? You know if you are an E Commerce,
+you might have a shopping car,
+or you might have a login mechanism or what have
+you and it sounds to me like octane allows users
+to kind of.
+Filled with an existing template or a a way that
+makes it easier to get started,
+is that fair? Yeah, that's correct.
+Yeah, so like I said,
+it gives you a sort of a foundation to build
+on.
+It's a little different though.
+Than then. You can obviously start applications by building on
+top of a template,
+which is, you know, a set of starting source code
+that you can then add your own custom bits to
+to comprise a complete application or or even.
+Sometimes it's called the boilerplate where it gives you,
+you know, some services and things that you can build
+on top of,
+whereas like modular framework is a bit different in that
+you're probably not expected to modify that framework at all.
+It's intended to be a product in its own right,
+but it provides you with extensibility points like interfaces that
+you can connect to with your custom code so that
+you can add additional functionality,
+but you don't. You don't actually change the source code
+of the framework itself.
+It's just like building an asp.net right?
+You don't. You typically don't want to modify the source
+code for asp.net.
+You you build on top of it,
+and that's the idea behind a framework like octane.
+That's great, and so I want to talk about the
+the way that you built in the technology that is
+using 'cause Blazers.
+Awesome. Can you kind of speak to a little bit
+about why you decided to build octane in one of
+the main reasons why you felt the obligation to say
+of? OK, let's build out a modular framework with the
+newest technology that came out recently.
+It's interesting 'cause I've built many kind of frameworks overtime.
+Dotnetnuke is probably the most.
+Well known, but it's funny because why?
+Why do I like to build frameworks?
+Probably because I'm lazy in the sense that I don't
+like writing the same code over and over and over
+again.
+Right there. There's some fundamentals that are part of every
+application that you really shouldn't be writing from scratch every
+time.
+And that's where frameworks come in,
+right? Where they provide some sort of commodity type functionality.
+That is, you know, that typically exists in most applications.
+And you get that for free out of the box,
+and then you can focus on building your your specific
+business logic that you know that is trying to solve
+your business problem.
+Yeah, so I think that that's so.
+That was, I guess, the main motivation I get more
+specifically for Octane.
+I had been obviously involved with Dotnetnuke for a long
+time.
+I created the original version way back in 2002.
+That that solution is obviously still available.
+It's still a very popular open source project that people
+are using in,
+you know, enterprise scenarios and building extensions for.
+However, the technology overtime has become a bit dated and
+as a result of that I wanted to create something
+that was new and based on the kind of the
+modern. Application development models. I using the single page application
+Architecture,
+client server and using front end technologies that are,
+you know, innovative and you know,
+really pushing the envelope and that's where I really was
+attracted to Blazer because it has a really rich component
+model behind it,
+much like some of the front end JavaScript frameworks do.
+But I'm a C sharp developer and so I feel
+a lot more comfortable in that environment than I do
+with JavaScript so.
+Seemed like the perfect fit.
+Yeah, I think that's fair,
+right? And that's I think that's probably the primary reason
+for the existence of laser,
+right? Is that being able to write C sharp at
+all levels?
+Is super interesting, so it sounds to me like you
+just want to play around with the newest bits of
+stuff.
+So you came up with an idea like I'll build
+something that's actually involved instead of building a ton of
+Hello world type of applications,
+right? So you know, I would love to know.
+Obviously, as you're going through the process like Blazer,
+just. Launched at Dot net conflict.
+That was what couple of weeks ago in the middle
+of November for people in the future.
+It's and it's fairly new,
+so I'm actually been following the previews for a long
+time,
+right? So yeah, do you want to talk a little
+bit about your experience of kind of?
+I imagine that you building been building octane for awhile,
+right? I'd be interested to know,
+kind of how you been.
+Holding an actual, I guess you could say scalable release
+release worthy software when primarily,
+or building it all on hotbit some kind of curious.
+Yeah, there's definitely a bit of a challenge,
+so when I started getting involved with Blazer and started
+downloaded the.
+The preview bits it was this was in October or
+November of 2018 and so at this point in time,
+you know Blazer hadn't even come out of the experimental
+phase from Microsoft.
+Theasp.net team was working on it internally,
+but it still had an experimental label on it,
+and so. I I had a well,
+I obviously I had a really good knowledge of what
+I had like,
+that the concepts that I had used to build DNN,
+and I thought you know laser has a lot of
+dynamic capabilities to it,
+and it's based on components.
+So can I use those concepts to build something in
+Blazer natively from the ground up that acted similarly to
+what DNN was capable of?
+And so yes, I was able to do that,
+but along the way, you know Microsoft was releasing.
+New preview bits every month and so often my proof
+of concept application would get broken and then I have
+to figure out why it was broken and Luckily I
+did have some really good support from members of the
+the team that was working on Blazer like Steve Sanderson
+and Dan Roth and and others.
+I mean they helped me get over a few roadblocks
+along the way and then.
+Initially, Microsoft made the decision that they were going to
+release Blazer for the server side 1st and Luckily
+rate from the beginning with the concept that I had
+come up with,
+I knew I wanted to support multiple hosting models,
+so it was OK that Microsoft provided support only for
+server side at first because the octane solution was capable
+of running on both the server side and the web
+assembly versions and so.
+I kept octane in beta for quite some time.
+I didn't actually release the 1.0 version until Microsoft released
+full support for Web assembly and that was in May
+of 2020,
+so only six or seven months ago and then work
+through a number of subsequent.
+Versions you know, just you know stabilization type releases.
+Until I decided that I should probably move forward with
+the Microsoft released Rain and so with.net five new new
+version of Blazer came out an I wanted octane to
+run on that immediately and so the community did a
+bunch of work to make that happen.
+And we released Octane 2.0 on November 11th.
+So to coincidewith.netconfand.net five and the reception has been really
+positive so quite happy about that decision.
+Yes, I mean that's. I mean,
+that's very impressive, right? So when Dot net five is
+officially generally available,
+octane is running on DOT Net 5 running.
+You said multiple hosting models,
+so it's doing the web assembly bit and the server
+side.
+Will it be super impressive?
+I mean yeah.
+Most of the credit probably belongs to Microsoft for that.
+'cause the going from a.net core 3.1 application to.
+Net five was actually really straightforward.
+I mean, Microsoft really took care to not have a
+lot of breaking changes between those,
+so the transition or the migration path to that.
+If I was actually really straightforward.
+That's great, it's great to hear because I in the
+past obviously migrating from different versions of frameworks is always
+a challenge,
+right? So yeah.
+One to five is, at least for octane.
+Didn't you know? Essentially make you have to rewrite from
+scratch or reconfigure your?
+You know your hosting models and anything like that.
+Yeah, the other cool thing was that if you had
+built extensions for octane based on.
+Dot Net core 3.1 after Octane was upgraded to Dot
+net five those extensions that were compiled on Dot Net
+Core 31 still worked.
+There was they without any compatibility issues,
+so that's it's also pretty cool,
+right? So that just means that the underlying bits were
+fully compatible and I was quite impressed by that.
+So I'm I'm curious, so obviously based on what you're
+you know you're talking bout with octane,
+it seems like there's been a ton of work and
+ton of help from the Community,
+and I'd imagine because people see,
+oh, this is a a very interesting concept,
+right? Modular frameworks built on the newest bits that exist,
+right?
+Was the initial community. I guess you could say reaction
+or like was there a ton of interest?
+Was there a oh OK?
+This is kind of cool,
+but I'm not not for me.
+It seems to me like based on what you're saying,
+there's been pretty good community engagement and community interest.
+Yeah, it's interesting because because the concepts that were used
+in octane were very similar to what we were used
+in DNN.
+I initially thought that the community members who had participated
+in DNN would be,
+you know, the first adopters.
+They would be the ones who would see the similarities
+and and if they wanted to experiment with newer technology
+that they would give it a try.
+But that's not what ended up happening was actually a
+completely new community that formed around octane.
+Tended to be, I guess younger developers,
+developers that were very interested in Blazer technology developers that.
+Much like me didn't really like JavaScript that much,
+so they like the the whole promise of writing C
+sharp on the front end and then only more recently
+I've seen more of an influx of developers from the
+DNN community taking a look at at octane.
+So it is interesting how you have ideas of what
+might happen in terms of how a community might form
+and grow,
+but in reality it ends up being much different at
+times.
+I, I mean community is everything right?
+I think if the Community adoption is great like it
+sounds like it is like that's only going to feed
+in more success in the future.
+So so one of the things I'm curious about as
+well is.
+So what's the future like it?
+You just dropped 2.0 obviously.
+Now, like I jokingly said,
+when Dot net Five was released.
+OK, so where's my.net six?
+So yeah, yeah yeah, obviously probably doing some planning for
+the capabilities that are coming with Dot Net 6.
+Yep.
+You can get nightly's if you're you know a masochist,
+but yeah, no thanks.
+You know, like after now that Tunado has been dropped
+and it's,
+you know, got community adoption like So what are the
+next steps?
+Yeah so. I'm not even really thinking about net six
+at all at this point.
+Yeah, I. I mean I'm excited about Dot net six
+because Microsoft recently published a few documents that are sort
+of previews of the themes they would like to tacklein.net
+six, and one of them is cultivating and growing the
+open source ecosystem around net.
+So that's cool. 'cause that's great for octane as well,
+but in terms of more of the technical road map
+for octane.
+Like you said, so it had a 2.0 release that
+coincide with.net five,
+but there's like with open source projects there's almost no
+limit to the number of features that can be added
+and.
+Sometimes.
+Sometimes the feedback from the community can be like overwhelming,
+and it's pretty clear where you should be applying your
+efforts.
+And sometimes it's random, right?
+It's all over the place,
+you know, and people are requesting things that you never
+even anticipated with.
+With octane there have been,
+I guess. Category A few categories where people have been
+making the most request so far and one was in
+the early proof of concepts.
+I decided that I would.
+Initially, only support SQL Server and the different sort of
+derivatives of it,
+so you know SQL Azure Local DB those times of
+you know,
+but ultimately it's still the SQL Server engine.
+And there's been a lot of requests for support for
+other databases like SQL Lite or my SQL or Postgres.
+Or you know, any number of other platforms,
+and so I think that that would be the next
+major feature that needs to be focused on,
+and that would probably be the major feature in Octane
+2.1.
+One of the other major features that was introduced in
+2.0 was support for localization,
+which is, really, you know,
+helps make application development in the global market more possible,
+right? Developers need to create localized solutions.
+That can cater to multiple languages,
+and so the architectural sort of underpinnings of that were
+released in 2.0,
+but the full implementation was not completed and there's actually
+one person who is in Yemen who's done an incredible
+amount of work in that area,
+and since 2 point overs released,
+I don't know. He's probably submitted like 30 or 40
+pull requests already.
+So I mean, yeah, so there's a lot of work
+going on in that area as well.
+And then I mean there is a long list of
+additional things that that a framework like octane can provide,
+but I think one of the other things that I've
+always wanted to focus on in octane because it tends
+to be an area where frameworks.
+Get some criticism overtime, and that's sort of the inner
+loop for developers.
+You know? How easy is it truly for developers to
+create custom solutions based on a framework?
+And I know that this is a focus for Microsoft
+as well,
+but it has to be a focus in octane,
+you know, unless it's like super easy for developers to
+get started and be productive.
+You know the framework is really not going to be
+that successful,
+and so that's going to be an area of focus
+as well.
+Yeah, I I totally agree that you kind of hinted
+at a little bit that you've gotten a ton of
+pull requests,
+right? So for developers that are interested in either trying
+out octane for their own solutions,
+or if they feel like they want to contribute to
+octane.
+But what is the best way for them to start
+that?
+Clearly they are obviously on GitHub.
+There is the main repo and we have a dev
+branch and a master branch.
+Right now the master is,
+you know, just for bug fixes in case any major
+issues come up and we need to quickly be able
+to issue like a maintenance type of release.
+But most of the developments going on in in Dev
+right now.
+It's it's usually a good idea when you get started
+with open source projects,
+you know to. To you know,
+clone them, fork them, trying to dig into them fairly
+deeply to really to understand the inner workings.
+We also have published an octane philosophy document which kind
+of describes that the high level concepts which were trying
+to exemplify in the project that helps people with some
+sort of guidelines you know on where to focus their
+efforts.
+A good example is you know we try to stay
+away from too many third party dependencies on other.
+Projects just to keep things simple and so.
+That that is to give you know,
+developers who would like to contribute to octane.
+You know some some guidelines,
+right? Don't try to pull in every dependency you can
+think of into the project,
+'cause that probably won't be accepted,
+so it's good to set those expectations up front so
+that people don't spend a lot of time and effort
+and then are disappointed.
+The other thing I find is.
+Which is difficult to try and curb people's enthusiasm right?
+A lot of first time users of Octane will show
+up.
+They'll download the source code.
+They'll take a look, and they'll be certain things.
+Maybe they don't follow their coding preferences,
+and then they'll they'll submit pull requests,
+right? That those poor kids don't fix any bugs.
+They don't add any enhancements there,
+just that person's personal preference on the way things should
+have been coded.
+And I have a difficult time with those types of
+pull requests because.
+Then they take a lot of time to review.
+Sometimes they don't add a lot of value,
+sometimes they actually break things because they don't adhere to,
+you know, backward compatibility principles and but this is,
+I guess, one of the challenges of being a maintainer
+of an open source project is you spend a lot
+of time reviewing things and actually rejecting them and saying
+no and and then you feel like the bad guy
+'cause you know that people put their passion into it.
+But I mean like any product right?
+You have to you have to manage it.
+You have to keep it moving in the right direction.
+I mean, I've been very vocal about.
+You know people that you know like to open pull
+requests to.
+Kind of, you know, adhere to,
+but their principles are right.
+But I think one of the things that's very interesting
+as well as you mentioned that you have kind of
+a a guidance set of guidance documents which is very
+valuable. I'd imagine that you have a good amount of
+documentation about octane in general,
+and if folks if folks want to contribute,
+but they're kind of nervous about submitting a pull request.
+The documentation obviously is an open source as well,
+and yeah. Would you probably enjoy mightily somebody coming in
+and just opening a bunch of poor requests against your
+docs to fill them out a bit more?
+Yeah, absolutely. It's actually that is an area that's pretty
+weak with octane right now.
+Is the documentation. There is a bunch of work that
+was done in 2.0 by a community member to set
+up at least the automated sort of dock effects generation
+of API documentation based on the source code,
+which is awesome. So at least that's published,
+but in terms of more elaborate.
+You know articles or filling out.
+You know the use cases for using these APIs.
+That's a weak area. And yeah,
+it's it's. It seems like it's really difficult to encourage
+people to.
+Get involved in the documentation area.
+Yeah, I think you know there's a running joke about
+developers not let it.
+Not liking to write documentation or document their code or
+whatever,
+right? Like, so I think it's not really a.
+It's cliche, but it's very accurate,
+so I think if there are some folks out there
+that are more interested in helping out with technical writing
+or documentation because you know,
+maybe they they don't see that they can provide any
+value by adding code because they don't have an idea
+for a feature or an enhancement.
+Docs are always growing and I think one of the
+things that super essential is.
+You know, having people that are interested in contributing to
+making sure that other people can use 'cause?
+Use the software 'cause I think yeah.
+Lacking with love open source projects,
+to be honest, is. People go to the repo,
+they look at the docs,
+they find the docs somewhat confusing or not clear,
+and then they'll just trickle away,
+right? Yep, really valuable. So yeah,
+I think one of the things as well that we
+should talk about is you mentioned that you have worked
+with for awhile with the.net Foundation.
+I would like to kind of know you know that
+a little bit about what your rules on the foundation
+and and what you feel like.
+The Donna Foundation provides to you as a developer is
+as to you as a maintainer of a project in
+the foundation.
+I know there was a lot of stuff there,
+but yeah, yeah, talk about a little bit about the
+foundation in general.
+Yeah, so my current role is I am the chair
+of the Project Committee.
+And I've been acting in that role since February of
+2020.
+And I guess sort of the reason why the project
+Committee was formed is to.
+Help projects.
+Early in the stages of when they make the application
+to become a member project and then help them once
+they've become an actual project with any advice or guidance
+that we can provide to them.
+Higher to the Project Committee being formed.
+The bulk of the work in terms of onboarding projects
+was being done by the Executive Director and that was
+a huge amount of work.
+If you consider that in.
+In addition to their other activities,
+and so the one thing that Claire Novotney,
+who is the Executive Director now was keen on when
+when she came aboard,
+was creating committees that were,
+you know, functional, active, and working hard to help fulfills
+kind of the mission of the foundation.
+And so one of the first things we did in
+February,
+as we kind of constructed A.
+A charter for the Project committee which said,
+you know, this is how we should evaluate project applications
+when they come in pretty simple criteria.
+But I mean how does it align with the foundation
+values?
+And then is it a mature project in the sense?
+Is it active? You know,
+does it have a community around it?
+Is there multiple developers who are contributing to it?
+Just basic activity, kind of things,
+and we're basing all that on public metrics that we
+can capture from GitHub.
+And so we published that as the Charter so that
+it's pretty clear you know this is how we're evaluating
+things and the Community knows there's not sort.
+You know, sort of hidden agenda,
+or you know secret criteria that's being used behind the
+scenes.
+It's all pretty transparent. And then every month we review
+the project applications as they come in.
+We review them against the Charter and then for those
+who are deemed to be,
+you know, sort of worthy of being part of the
+the foundation based on their maturity and and the fact
+that they adhere to the eligibility criteria.
+Then we actually we pass those on to the Board
+as a recommendation,
+and it's ultimately up to the Board of Directors as
+to whether or not projects are accepted.
+The Project Committee doesn't have any authority in its own
+right,
+right? We all we can do is make recommendations and
+kind of do the legwork to capture the the relevant
+information,
+and so that's what the project committee is mostly focused
+on.
+There's a lot of individual things that come up here
+and there when it comes to projects.
+Questions about licensing questions about trademarks,
+questions about you know how to use the infrastructure.
+Questions about you know the types of services that are
+offered,
+but those are very like.
+I wouldn't say that there's a general category that those
+kind of things come in that are.
+They're pretty random and different things will flare up now
+and again.
+And that's also where the project committee gets involved to
+try and.
+You know, help those projects with whatever issues they are
+encountering.
+And so that that's mainly where I've been participating in
+the foundation,
+but.
+That's only been, I guess in 2020.
+Prior to that I was a member of the Advisory
+Council and that Advisory Council would meet monthly with the
+Executive Director to discuss.
+I guess matters related to the.net open source ecosystem and
+how those relate to the foundation.
+But that the Advisory Council is actually now been to.
+Dissolved in favor of the committees 'cause the committees are
+much more focused on the specific issues.
+No, I I can contest that I'm a part of
+the marketing committee,
+so obviously you know the Advisory Council.
+That's a lot of freight.
+If you're worried about project on boarding and membership and
+marketing,
+it's it's a lot for a handful of folks,
+so separating everything out to marketing allows the different groups
+to be autonomous and kind of come together and kind
+of report back to the board about what you know.
+Some of the initiatives were trying to accomplish in a
+way that's a bit more managed.
+Otherwise it's just OK. What does the Advisory Council have
+in this huge list of just stuff,
+right? Yeah, and it is all volunteers that are doing
+this work behind the scenes.
+With limited resources I might add so it's not like
+the foundation has,
+you know a lot of.
+Resource is at its disposal right.
+Time is the most valuable resource,
+and that's coming from volunteers.
+Yeah, and you know, as we're closing out,
+I just want to. Obviously you're a volunteer for some
+of the work on the Donna Foundation,
+so thank you for that.
+Also, you have a project on as a part of
+the foundation,
+so thank you for being a part of it.
+And for folks that they want to know more about
+octane like it's all available on GitHub.
+All of the information about octane that you need will
+be on this Project Spotlight page,
+and I think you know I want people to go
+out and try octane,
+see if there's. You know,
+see if we can bring value to your development work
+and if you have the urge to contribute.
+I imagine the Sean will appreciate that very much.
+Absolutely yeah, there's actually prettyexcitedwith.net comp.
+I had the opportunity to to actually present at it
+for the first time,
+and I did a session on building dynamic applications with
+Blazer and of course used octane as the example of
+that,
+and I think that I kind of ran out of
+time in my session,
+but I got the bulk of the.
+Content covered, so I was pretty happy about that.
+Yeah, as somebody who is a speaker adonic comp as
+well.
+Running out of time is always fun and I watched.
+I watched your particular session.
+It was great so people should check that as well.
+Will make sure that a link to that gets into
+the project Spotlight page too.
+So that's our additional project spotlight for this round.
+I want it again. Thanks Sean for coming on.
+This was great again. Try out octane,
+it's fun. It's on Blazers,
+the newest bit so. Definitely take a look,
+Shawn. Do you have any parting words?
+Not really bad, I just really appreciate the opportunity to
+be part of the spotlight and I really appreciate the
+opportunity to be able to serve the.net Foundation as well.
+Awesome, so that's your positive spotlight for this round.
+Everybody enjoy the rest of your day and take care.
+
+</p>

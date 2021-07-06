@@ -3,7 +3,7 @@ Title: Meet Your Advisory Council – Bill Wagner
 Author: 
 Published: 2015-07-07 15:05:00.0000000
 ---
-<p>A couple weeks ago I <a href="/tags/meet%20the%20team">kicked off a series of written interviews</a> with our .NET Foundation <a href="/about/board-of-directors#advisory-council">Advisory Council members</a>. The Advisory Council is composed of OSS project leaders that care deeply about .NET and the success of the foundation. They drive key initiatives in the foundation and guide the board. <a href="/assets/documents/net-foundation-advisory-council-proposal.pdf">Learn more about what the Advisory Council is all about</a> and <a href="http://forums.dotnetfoundation.org/c/governance/advisory-council">participate in public discussions with them on our forums</a>.</p>
+<p>A couple weeks ago I kicked off a series of written interviews with our .NET Foundation <a href="/about/board-of-directors#advisory-council">Advisory Council members</a>. The Advisory Council is composed of OSS project leaders that care deeply about .NET and the success of the foundation. They drive key initiatives in the foundation and guide the board. <a href="/assets/documents/net-foundation-advisory-council-proposal.pdf">Learn more about what the Advisory Council is all about</a> and <a href="http://forums.dotnetfoundation.org/c/governance/advisory-council">participate in public discussions with them on our forums</a>.</p>
 
 <p><img width="201" height="233" style="background-image: none; float: left; margin: 0px 0px 0px 5px; display: inline; border-width: 0px; padding: 0px 10px 5px 0px;" alt="Bill Wagner" src="/assets/members/bill-wagner.jpg" /></p>
 

@@ -16,6 +16,7 @@ namespace DotnetFoundationWeb
             "Architecture",
             "Artificial Intelligence",
             "Azure",
+            "AWS",
             "Big Data",
             "Blazor",
             "C#",
@@ -27,9 +28,11 @@ namespace DotnetFoundationWeb
             "F#",
             "Game Development",
             "HoloLens",
+            "Human Skills",
             "iOS",
             "IoT",
             "JavaScript",
+            "JetBrains Rider",
             "Machine Learning",
             "macOS",
             "Microsoft 365",
@@ -43,10 +46,12 @@ namespace DotnetFoundationWeb
             "Open Source",
             "Product Management",
             "Razor",
+            "ReSharper",
             "Security",
             "Serverless",
             "SignalR",
             "tvOS",
+            "User Experience",
             "UWP",
             "Visual Basic",
             "Visual Studio",
@@ -58,7 +63,8 @@ namespace DotnetFoundationWeb
             "Windows Forms",
             "WPF",
             "Xamarin",
-            "Xamarin.Forms"
+            "Xamarin.Forms",
+            "XAML"
         };
 
         protected override void AnalyzeSpeakerData(IDocument document, IAnalyzerContext context)
@@ -72,7 +78,7 @@ namespace DotnetFoundationWeb
             string[] nonApprovedTopics = topics.Where(x => !Topics.Contains(x)).ToArray();
             if (nonApprovedTopics.Length > 0)
             {
-                context.Add(document, $"Document contains non-approved topic(s): {string.Join(", ", nonApprovedTopics)}");
+                context.AddAnalyzerResult(document, $"Document contains non-approved topic(s): {string.Join(", ", nonApprovedTopics)}");
             }
         }
     }

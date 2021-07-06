@@ -17,7 +17,13 @@
                     <div class="form-group">
                         <label for="fullname" class="mb-0 font-weight-bold">Full Name</label>
                         <small id="fullname-help" class="form-text text-muted mb-3">Your full name.</small>
-                        <input id="fullname" class="form-control" aria-describedby="fullname-help">
+                        <input id="fullname" class="form-control" aria-describedby="fullname-help" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pronouns" class="mb-0 font-weight-bold">Preferred Gender Pronouns</label>
+                        <small id="pronouns-help" class="form-text text-muted mb-3">Your preferred gender pronouns of the form [subject]/[object] (I.e. "they/them").</small>
+                        <input id="pronouns" class="form-control" aria-describedby="pronouns-help">
                     </div>
 
                     <div class="form-group">
@@ -29,7 +35,7 @@
                     <div class="form-group">
                         <label for="email" class="mb-0 font-weight-bold">Email Address</label>
                         <small id="email-help" class="form-text text-muted mb-3">An email address is totally optional, but if you provide one it might help organizers get in touch easier.</small>
-                        <input id="email" class="form-control" aria-describedby="email-help">
+                        <input type="email" id="email" class="form-control" aria-describedby="email-help">
                     </div>
 
                     <div class="form-group">
@@ -60,14 +66,14 @@
                         <div class="row mb-3">
                             <div class="col">
                                 <label class="font-weight-bold">Links</label>
-                                <small class="form-text text-muted">Use a full URL.</small>
+                                <small class="form-text text-muted">Use a full URL. Must match the format of the example provided (including https).</small>
                             </div>
                             <div class="col">
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col">
-                                <input id="blog" class="form-control">
+                                <input type="url" id="blog" class="form-control">
                             </div>
                             <div class="col">
                                 <label class="font-weight-bold" for="blog">Blog</label>
@@ -75,20 +81,29 @@
                         </div>
                         <div class="row mb-3">
                             <div class="col">
-                                <input id="feed" class="form-control">
+                                <input type="url" id="feed" class="form-control">
                             </div>
                             <div class="col">
                                 <label class="font-weight-bold" for="feed">Blog RSS Feed</label>
                             </div>
                         </div>
-                        @foreach (string speakerLinkKey in SpeakerLinkAttribute.GetAll().Keys)
+                        @foreach (var speakerLink in SpeakerLinkAttribute.GetAll().Where(x => x.Value.DisplayOnAddPage))
                         {
                             <div class="row mb-3">
                                 <div class="col">
-                                    <input id="@speakerLinkKey.ToLower()" class="form-control">
+                                    <input type="url" id="@speakerLink.Key.ToLower()" 
+                                    
+                                    @if (!string.IsNullOrWhiteSpace(speakerLink.Value.ValidationPattern)) { 
+                                        <text>pattern="@speakerLink.Value.ValidationPattern"</text> 
+                                        } 
+                                        class="form-control">
                                 </div>
                                 <div class="col">
-                                    <label class="font-weight-bold" for="@speakerLinkKey.ToLower()">@speakerLinkKey</label>
+                                    <label class="font-weight-bold" for="@speakerLink.Key.ToLower()">@speakerLink.Key</label>
+                                    @if (!string.IsNullOrWhiteSpace(speakerLink.Value.ExampleUrl))
+                                    {
+                                        <div class="text-muted"><small>Example: @speakerLink.Value.ExampleUrl</small></div>
+                                    }
                                 </div>
                             </div>
                         }
@@ -124,6 +139,15 @@
                     <div>
                         <button class="btn btn-lg btn-primary" type="submit">Submit</button>
                     </div>
+
+                    <div class="alert alert-dark mt-4" role="alert">
+                        <h4 class="alert-heading">Submission Process</h4>
+                        <p>
+                            When you click "Submit" above, a <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests">pull request will be created on GitHub</a>.
+                            Part of this process is to <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork">create a "fork"</a> of the repository
+                            that contains the code for the .NET Foundation website. GitHub will walk you through this process, but you may need to allow it to create a fork under your account and open the pull request from there.
+                        </p>
+                    </div>
                 </form>
             </div>
         </div>
@@ -141,6 +165,11 @@
                 return;
             }
             let content = "---\nTitle: " + fullname.trim() + "\n";
+
+            let pronouns = $("#pronouns").val();
+            if (pronouns) {
+                content += "Pronouns: " + pronouns.trim() + "\n";
+            }
 
             let location = $("#location").val();
             if (location) {
@@ -175,7 +204,7 @@
                 content += "Feed: " + feed.trim() + "\n";
             }
 
-            @foreach (string speakerLinkKey in SpeakerLinkAttribute.GetAll().Keys)
+            @foreach (string speakerLinkKey in SpeakerLinkAttribute.GetAll().Where(x => x.Value.DisplayOnAddPage).Select(x => x.Key))
             {
                 <text>
                     let @(speakerLinkKey.ToLower()) = $("#@(speakerLinkKey.ToLower())").val();

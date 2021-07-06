@@ -2,6 +2,15 @@ Title: Speaker Directory
 ---
 @{
     Layout = @"_Layout.cshtml";
+    var speakers = OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).ToList();
+
+    Func<string,IEnumerable<string>> fromSpeakers = topic =>
+    {
+        return speakers
+            .SelectMany(x => x.GetList<string>(topic, Array.Empty<string>()))
+            .Distinct(StringComparer.CurrentCultureIgnoreCase)
+            .OrderBy(x => x);
+    };
 }
 
 @section head {
@@ -37,70 +46,79 @@ Title: Speaker Directory
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Filter By Topic</label>
                         <div class="col-sm-10" id="topic-filters">
-                            @foreach (string topic in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>(SiteKeys.Topics, Array.Empty<string>())).Distinct().OrderBy(x => x))
+                            @foreach (string topic in fromSpeakers(SiteKeys.Topics))
                             {
-                                <a class="filter btn btn-light mb-2" href="javascript:void(0)" data-filter="@topic">@topic</a>
+                                <a class="filter btn btn-light mb-2" href="javascript:void(0)" onclick="blur(this)" data-filter="@topic">@topic</a>
                             }
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">Filter By Language</label>
                         <div class="col-sm-10" id="language-filters">
-                            @foreach (string language in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)).SelectMany(x => x.GetList<string>(SiteKeys.Language, Array.Empty<string>())).Distinct().OrderBy(x => x))
+                            @foreach (string language in fromSpeakers(SiteKeys.Language))
                             {
-                                <a class="filter btn btn-light mb-2" href="javascript:void(0)" data-filter="@language">@language</a>
+                                <a class="filter btn btn-light mb-2" href="javascript:void(0)" onclick="blur(this)" data-filter="@language">@language</a>
                             }
                         </div>
                     </div>
                 </div>
                 <ul class="nav nav-tabs mb-4" id="tabs" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="list-tab" data-toggle="tab" href="#tab-list" role="tab" aria-controls="list" aria-selected="true">List</a>
+                        <a class="nav-link" id="list-tab" data-toggle="tab" href="#tab-list" role="tab" aria-selected="true">List</a>
                     </li>
                     @if (Context.ContainsKey(SiteKeys.AzureMapsSubscriptionKey))
                     {
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link active" id="map-tab" data-toggle="tab" href="#tab-map" role="tab" aria-controls="map" aria-selected="false">Map</a>
+                            <a class="nav-link active" id="map-tab" data-toggle="tab" href="#tab-map" role="tab" aria-selected="false">Map</a>
                         </li>
                     }
                 </ul>
                 <div class="tab-content" id="tab-content">
                     <div class="tab-pane" id="tab-list" role="tabpanel" aria-labelledby="list-tab">
-                        <div class="row list">
-                            @foreach (IDocument speaker in OutputPages["community/speakers/*.html"].Where(x => !x.IdEquals(Document)))
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 list">
+                            @foreach (IDocument speaker in speakers)
                             {
-                            <div class="col-sm-6 col-md-4 profile list__item">
-                                <img img height="120" class="rounded-image profile-image" src="@speaker.GetString(SiteKeys.Image)" alt="@speaker.GetTitle()" />
+                                <div class="col mb-4 list__item">
+                                    <div class="card h-100 border-0 bg-light">
+                                        <div class="card-body text-center">
+                                            <img img height="80" class="rounded-image profile-image" src="@speaker.GetString(SiteKeys.Image)" alt="@speaker.GetTitle()" />
 
-                                <h3 class="profile-name"><a href="@Context.GetLink(speaker)" class="speakername">@speaker.GetTitle()</a></h3>
-                                <div class="d-none speakerlink">@Context.GetLink(speaker)</div>
+                                            <h3 class="profile-name"><a href="@Context.GetLink(speaker)" class="speakername">@speaker.GetTitle()</a></h3>
+                                            <div class="d-none speakerlink">@Context.GetLink(speaker)</div>
 
-                                @if (speaker.ContainsKey(SiteKeys.Location))
-                                {
-                                    <div class="profile-details font-weight-bold speakerlocation">@speaker.GetString(SiteKeys.Location)</div>
-                                }
-                                @if (speaker.ContainsKeys(SiteKeys.Lat, SiteKeys.Lon))
-                                {
-                                    <div class="d-none speakerlat">@speaker.GetString(SiteKeys.Lat)</div>
-                                    <div class="d-none speakerlon">@speaker.GetString(SiteKeys.Lon)</div>
-                                }
-                                @if (speaker.ContainsKey(SiteKeys.Language))
-                                {
-                                    <div class="d-none speakerlanguage">@speaker.GetString(SiteKeys.Language)</div>
-                                }
+                                            @if (speaker.ContainsKey(SiteKeys.Location))
+                                            {
+                                                <div class="profile-details font-weight-bold speakerlocation">@speaker.GetString(SiteKeys.Location)</div>
+                                            }
+                                            @if (speaker.ContainsKeys(SiteKeys.Lat, SiteKeys.Lon))
+                                            {
+                                                <div class="d-none speakerlat">@speaker.GetString(SiteKeys.Lat)</div>
+                                                <div class="d-none speakerlon">@speaker.GetString(SiteKeys.Lon)</div>
+                                            }
+                                            @if (speaker.ContainsKey(SiteKeys.Language))
+                                            {
+                                                <div class="d-none speakerlanguage">@speaker.GetString(SiteKeys.Language)</div>
+                                            }
 
-                                @if (speaker.ContainsKey(SiteKeys.Topics))
-                                {
-                                    <div class="profile-details">
-                                        @foreach (string topic in speaker.GetList<string>(SiteKeys.Topics))
-                                        {
-                                            <span class="pr-2"><a href="javascript:void(0)" class="filter btn btn-dark" data-filter="@topic">@topic</a></span>
-                                        }
+                                            @if (speaker.ContainsKey(SiteKeys.Topics))
+                                            {
+                                                string collapseName = $"collapse-{(speaker.GetTitle().ToLower().Replace(" ", "-").Replace(".", "-"))}";
+                                                <a data-toggle="collapse" href="#@collapseName" role="button" aria-expanded="false" aria-controls="@collapseName">
+                                                    Show Topics
+                                                </a>
+                                                <div class="collapse profile-details" id="@collapseName">
+                                                    @foreach (string topic in speaker.GetList<string>(SiteKeys.Topics))
+                                                    {
+                                                        <span class="pr-2"><a href="javascript:void(0)" onclick="blur(this)" class="filter btn btn-sm btn-dark" data-filter="@topic">@topic</a></span>
+                                                    }
+                                                </div>
+                                            }
+
+                                            @* Includes other "topics" like language in this list *@
+                                            <div class="d-none speakertopics">@string.Join("|", speaker.GetList<string>(SiteKeys.Topics, Array.Empty<string>()).Concat(speaker.GetList<string>(SiteKeys.Language, Array.Empty<string>())))</div>
+                                        </div>
                                     </div>
-                                    @* Includes other "topics" like language in this list *@
-                                    <div class="d-none speakertopics">@string.Join("|", speaker.GetList<string>(SiteKeys.Topics).Concat(speaker.GetList<string>(SiteKeys.Language, Array.Empty<string>())))</div>
-                                }
-                            </div>
+                                </div>
                             }
                         </div>
                     </div>
@@ -134,11 +152,11 @@ Title: Speaker Directory
         speakers.filter(function (item) {
           let itemTopics = [ htmlDecode(item.values().speakertopics) ];
             if (item.values().speakertopics.indexOf('|') > 0) {
-                itemTopics = htmlDecode(item.values().speakertopics).split('|');
+                itemTopics = htmlDecode(item.values().speakertopics).toLowerCase().split('|');
             }
             var include = true;
             $('.filter.active').each(function (index, filter) {
-                if (!itemTopics.includes($(filter).data('filter'))) {
+                if (!itemTopics.includes($(filter).data('filter').toLowerCase())) {
                     include = false;
                 }
             });

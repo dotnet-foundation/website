@@ -48,11 +48,24 @@
   padding-bottom: 0;
 }
 
+.smcx-embed {
+  max-width: 100% !important;
+}
+
+.smcx-iframe-container {
+  max-width: 100% !important;
+}
+
 .navbar-brand {
   padding: 0;
   height: 93px;
   width: 259px;
   margin-bottom: 1.5rem;
+}
+
+.survey-page-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -71,6 +84,10 @@
 @media screen and (max-width: 1200px) {
   .container {
     max-width: 100%;
+  }
+
+  .latest_container--event p {
+    font-size: 14px;
   }
 }
 
@@ -94,6 +111,16 @@ p {
   background-color: #ebe0eb;
 }
 
+.page-section--purple--light a {
+    color: #68217a;
+    text-decoration: underline;
+}
+
+.page-section--purple--light .site-button {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .page-section--purple {
   background-color: #68217a;
   color: #fff;
@@ -108,13 +135,33 @@ p {
 }
 
 .page-section_column {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .page-section_column {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page-section_column {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
 }
 
 .page-section_column--narrow {
   padding-left: 34px;
   padding-right: 34px;
+}
+
+@media (min-width: 768px) {
+    .page-section_column--narrow p {
+        min-height: 145px;
+    }
 }
 
 .page-section_column.pad-fix--all {
@@ -228,13 +275,14 @@ h4 {
 
 html {
   font-size: 62.5%;
+  height: 100%;
 }
 
 body {
-  font-family: "Avenir", "Adobe Heiti Std", "Segoe UI", "Trebuchet MS",
-    sans-serif;
+  font-family: "Avenir", "Adobe Heiti Std", "Segoe UI", "Trebuchet MS", sans-serif;
   font-size: 1.5rem;
   overflow-x: hidden;
+  height: 100%;  
 }
 
 .wf-active body {
@@ -350,6 +398,18 @@ svg.svg-inline--fa {
 
 .animation-delay--6 {
   animation-delay: 0.6s;
+}
+
+#speakers .sort {
+  background-color: #086DD9;
+}
+
+#speakers .card .profile-name a {
+  color: #006CFF;
+}
+
+#speakers .card a {
+  color: #086DD9;  
 }
 
 #speakers-map {
@@ -580,6 +640,10 @@ li.active a.nav-link,
   background-image: url(../img/bullhorn.png);
 }
 
+.latest_container--event p {
+  margin-bottom: 0;
+}
+
 .latest_date {
   font-size: 2.1rem;
   font-family: "Bree Serif", serif;
@@ -614,6 +678,7 @@ li.active a.nav-link,
   margin-bottom: 5px;
   font-size: 18px;
   color: inherit;
+  text-decoration: none;  
 }
 
 .latest_copy {
@@ -1472,6 +1537,10 @@ svg:not(:root).svg-inline--fa {
     min-width: auto;
     padding: 7px 15px;
   }
+
+  .post header h1 {
+    font-size: 26px;
+  }
 }
 
 .tabbed-index a:last-child {
@@ -1547,6 +1616,11 @@ svg:not(:root).svg-inline--fa {
   margin-right: auto;
 }
 
+.profile a {
+    color: #006CFF;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   .profile {
    align-items: center;
@@ -1579,12 +1653,11 @@ svg:not(:root).svg-inline--fa {
 p.profile-location,
 p.profile-company {
   font-size: 1.35rem;
-  margin: 0;
-}
+  margin: 0 2px;
+} 
 
-.profile-location {
-  font-style: italic;
-  padding-bottom: 0.25rem;
+p.profile-company {
+    font-weight: 700;
 }
 
 .profile-intro {
@@ -1596,7 +1669,25 @@ p.profile-company {
 }
 
 .profile-details {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;  
   padding-bottom: 0.5rem;
+}
+
+.profile-details .pr-2 {
+    padding: .15em;
+}
+
+.topic-details {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.topic-details > .btn {
+    margin: .15em;
 }
 
 @media (min-width: 768px) {
@@ -1788,4 +1879,48 @@ table thead td {
     -webkit-overflow-scrolling: touch;
     border: 0;
   }
+}
+
+.cc_dialog.simple {
+  max-width: 100% !important;
+  padding: 1rem !important;
+}
+
+.cc_dialog .cc_dialog_headline {
+  font-size: 18px !important;
+}
+
+.cc_dialog .cc_dialog_text {
+  font-size: 13px !important;
+}
+
+@media (min-width: 768px) {
+  .cc_dialog .cc_dialog_headline {
+    font-size: 24px !important;
+  }
+
+  .cc_dialog .cc_dialog_text {
+    font-size: 16px !important;
+  }
+
+  .cc_dialog.simple {
+    padding: 2rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .cc_dialog.simple {
+    max-width: 50% !important;
+    padding: 3rem !important;
+  }
+}
+
+.sort.asc::after {
+  content: "\002B06";
+  padding-left: 3px;
+}
+
+.sort.desc::after {
+  content: "\002B07";
+  padding-left: 3px;
 }

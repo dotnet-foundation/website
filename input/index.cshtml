@@ -2,6 +2,7 @@
 title: .NET Foundation
 description: You've found the heartbeat of .NET - where projects and communities come together to get things done in our open-source world. Share your skills for the greater good. Meet in person, get involved virtually, and stay on top of the latest news, meetups, and events.
 isHome: true
+useFunctionsJS: true
 ---
 <section id="home-hero">
     <div id="home-hero_container" class="container-fluid d-flex justify-content-center position-relative">
@@ -11,6 +12,31 @@ isHome: true
             <p id="home-hero_copy" class="mx-auto">
                 The .NET Foundation is an independent, non-profit organization established to support an innovative, commercially friendly, open-source ecosystem around the .NET platform.
             </p>
+        </div>
+    </div>
+</section>
+
+<section class="page-section page-section--purple--light">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="page-section_column col-md-6">
+                <h2>Upcoming Virtual Meetups</h2>
+                <div id="PresetVirtualEvents"></div>
+                <p class="">
+                    <a class="link_title" href="/community/virtual-user-group">Find more virtual events ></a>
+                </p>
+            </div>
+            <div class="page-section_column col-md-6">
+                <h2>Watch On-demand</h2>
+                <div class="video-iframe">
+                     <div class="video-iframe-item">
+                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL1rZQsJPBU2S4_ZjpE20DJcPT8okkXPja" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen title="[.NET Conf Virtual Event - .NET Perth Meetup] .NET 5 Launch & end of year get together (2020-12-08)" aria-label=".NET Conf Virtual Event" aria-labelledby=".NET Conf Virtual Event" role = "presentation"></iframe>
+                     </div>
+                 </div>
+                <p class="">
+                    <a class="link_title" href="https://www.youtube.com/playlist?list=PL1rZQsJPBU2S4_ZjpE20DJcPT8okkXPja">Browse past live streams ></a>
+                </p>
+            </div>
         </div>
     </div>
 </section>
@@ -26,7 +52,7 @@ isHome: true
             <div class="page-section_column page-section_column--narrow col-md-4 pad-fix--all text-center">
                 <img src="img/comp.png" alt="Open Source Projects" class="community-image">
                 <h3>Open Source Projects</h3>
-                <p style="min-height: 145px">
+                <p>
                     The .NET Foundation provides several services to support the open source projects in our community and help them grow.
                 </p>
                 <div class="site-button_row">
@@ -36,7 +62,7 @@ isHome: true
             <div class="page-section_column page-section_column--narrow col-md-4 pad-fix--all text-center">
                 <img src="img/globe_icon.png" alt="Community" class="community-image">
                 <h3>Community</h3>
-                <p style="min-height: 145px">
+                <p>
                   We work not only with Microsoft, but with the broader industry to increase exposure of .NET's capabilities. All our resources are designed to support developers and your projects, and help promote your endeavors with like-minded folks!
                 </p>
                 <div class="site-button_row">
@@ -46,7 +72,7 @@ isHome: true
             <div class="page-section_column page-section_column--narrow col-md-4 pad-fix--all text-center">
                 <img src="img/Icon-Resources.svg" alt="Resources" class="community-image">
                 <h3>Resources</h3>
-                <p style="min-height: 145px">
+                <p>
                     The foundation also lists a number of presentations, workshops, e-books and tutorials from the community.
                 </p>
                 <div class="site-button_row">
@@ -117,25 +143,17 @@ isHome: true
 <section class="page-section">
     <div class="page-section_container container">
         <div class="page-section_row row" style="align-items: center" id="PresetFeaturedProject">
-            			<div class="page-section_column col-sm-7 text-left" id="home-featured-project_container">
+            			<div class="page-section_column col-md-7 text-left" id="home-featured-project_container">
 					<h2>Project Spotlight</h2>
-					<h3><a href="https://cakebuild.net/">Project Website</a></h3>
+					<h3>	<a id="projectWebsite" href="" target="_blank">Project Website</a></h3>
 					<p>
-							Cake (C# Make) is a cross-platform build automation system with a C# DSL for tasks such as compiling code,
-				copying files and folders, running unit tests, compressing files and building NuGet packages.
-				It ships both as a <a href="https://www.nuget.org/packages/Cake.Tool/" target="_blank">.Net Global Tool</a> and a <a href="https://www.nuget.org/packages/Cake/" target="_blank">.Net Framework executable</a>.
-				Out of the box it contains a number of different aliases to allow you to quickly orchestrate your build process, such as MSBuild, DotNet Core CLI,
-				NuGet, and Chocolatey.  In addition, there are over <a href="https://www.nuget.org/profiles/cake-contrib" target="_blank">280 community driven addins</a> which allow you
-				to perform other build tasks. For information on getting started with Cake, reference the <a href="https://cakebuild.net/docs/getting-started/running-cake-scripts" target="blank">Running Cake Scripts Documentation</a>.
-					</p>
-					<h4>
-							<a href="https://cakebuild.net/">More on cakebuild.net&gt;</a>
-					</h4>
+				        <span id="projectDescription"></span>
+                    </p>
 			</div>
-			<div class="page-section_column col-sm-5">
+			<div class="page-section_column col-md-5">
 					<div class="video-iframe">
                          <div class="video-iframe-item">
-                             <iframe width="560" height="315" src="https://www.youtube.com/embed/DfmX5ySdmv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             <iframe id="projectYouTube" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="video"></iframe>
                          </div>
                      </div>
 			</div>
@@ -144,19 +162,7 @@ isHome: true
     <div style="height: 3rem;"></div>
     <div id="home-featured-project_overlay"></div>
 </section>
-<section class="page-section page-section--purple--light">
-    <div class="page-section_container container">
-        <div class="page-section_row row">
-            <div class="page-section_column col-lg-12">
-                <h2>Upcoming Events and Meetups</h2>
-                <div id="PresetEvents"></div>
-                <p class="">
-                    <a class="link_title" href="https://meetup.com/pro/dotnet">Find more events and Meetups ></a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+
 <section class="page-section">
     <div class="page-section_container container">
         <div class="page-section_row row">
@@ -191,3 +197,23 @@ isHome: true
         </div>
     </div>
 </section>
+
+<script type="text/javascript">
+(async function () {
+var projects = []
+var project;
+$.ajax({
+    url: "/api/project-spotlight",
+    type: "GET",
+    async: false,
+    success: function (ps) {
+        projects = ps;
+        project = ps[0];
+       }
+    });
+
+document.getElementById("projectDescription").innerHTML = project.projectDescription;
+document.getElementById("projectYouTube").src = project.youtubeUrl;
+document.getElementById("projectWebsite").href = project.projectWebsite;
+})();
+</script>

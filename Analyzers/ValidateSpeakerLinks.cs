@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Immutable;
-using Microsoft.Extensions.Logging;
-using Statiq.Common;
+﻿using Statiq.Common;
+using System;
+using System.Collections.Generic;
 
 namespace DotnetFoundationWeb
 {
@@ -9,11 +8,18 @@ namespace DotnetFoundationWeb
     {
         protected override void AnalyzeSpeakerData(IDocument document, IAnalyzerContext context)
         {
-            foreach (string linkKey in SpeakerLinkAttribute.GetAll().Keys)
+            foreach (KeyValuePair<string, SpeakerLinkAttribute> linkAttribute in SpeakerLinkAttribute.GetAll())
             {
-                if (document.ContainsKey(linkKey) && !Uri.TryCreate(document.GetString(linkKey), UriKind.Absolute, out _))
+                if (document.ContainsKey(linkAttribute.Key))
                 {
-                    context.Add(document, $"{linkKey} link {document.GetString(linkKey)} is invalid");
+                    if (!Uri.TryCreate(document.GetString(linkAttribute.Key), UriKind.Absolute, out Uri uri))
+                    {
+                        context.AddAnalyzerResult(document, $"{linkAttribute.Key} link {document.GetString(linkAttribute.Key)} is invalid");
+                    }
+                    else if (linkAttribute.Value.EnforceHttps && uri.Scheme != Uri.UriSchemeHttps)
+                    {
+                        context.AddAnalyzerResult(document, $"{linkAttribute.Key} link should be HTTPS and was not");
+                    }
                 }
             }
         }

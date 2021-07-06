@@ -2,7 +2,7 @@
 title: Layla Porter
 twitter: LaylaCodesIt
 image: campaign-2020/layla-porter.jpg
-company: Twilio
+company: VMware
 location: United Kingdom
 elected: true
 ---

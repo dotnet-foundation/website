@@ -1,43 +1,70 @@
 ---
-Title: .NET Foundation November/December 2020 Update
+Title: .NET Foundation July/August 2021 Update
 Author: Claire Novotny
-Published: 
-Slug: net-foundation-november-december-2020-update
+Published:
+Slug: net-foundation-july-august-2021-update
 Excluded: true
 ---
-Here's the November/December 2020 .NET Foundation update. Every other month, we'll give you a quick overview of the .NET Open Source landscape, including top project news, events, community links and more.
+Welcome to the .NET Foundation update for May & June. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more.
 
 [Sign up for the newsletter](http://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
 
 ## General news
 
 
-## Events
-
-### [Save the date for .NET Conf 2020 November 10-12](https://www.dotnetconf.net/?utm_campaign=savedate&utm_source=dotnefdn&utm_medium=newsletter)
-
-[![.NET Conf - November 10-12, 2020](https://user-images.githubusercontent.com/68539/95825273-7383e580-0ce5-11eb-8d4c-8fc7b618da15.png)](https://www.dotnetconf.net/?utm_campaign=savedate&utm_source=dotnefdn&utm_medium=newsletter)
-
-.NET Conf is a free, 3-day, virtual developer event organized by the .NET Foundation, Microsoft, and the .NET Community. This year .NET 5 launches at .NET Conf and we’re celebrating the 10th anniversary of the virtual event with some very special guests! Over the course of the three days you have a wide selection of live sessions that feature speakers from the community and .NET team members. There are sessions streaming for 24 hours between day two and three of the conference so everyone can get involved no matter what their time zone. You can ask questions live on Twitter, join the fun on Twitch, attend the virtual attendee party where you can play trivia games and win prizes. Best of all, you can take what you learn here and be a better .NET developer. 
-
-[Save the date!](https://www.dotnetconf.net/?utm_campaign=savedate&utm_source=dotnefdn&utm_medium=newsletter)
-
-### [.NET Conf Virtual Tour](https://www.dotnetconf.net/local-events?utm_campaign=savedate&utm_source=dotnefdn&utm_medium=newsletter)
-
-This year the .NET Foundation is supporting community-run virtual events to help spread the word about the .NET 5.0 release. We have partnered with organizers around the globe to bring you community virtual events between November 13, 2020 and January 31, 2021. Join your fellow developers in your local time zone and language to learn even more about .NET! Would you like to organize a virtual event for your community? Take a look at our ["Event-in-a-box" on GitHub](https://github.com/dotnet-presentations/dotNETConf/tree/master/2020/MainEvent) to help you. Let us know about your event by filling out the [Virtual Community Event Request Form](https://bit.ly/3mR1lsA).
-
-### "The Maintainers" Video Series Needs You
-Shawn Wildermuth is putting together a short video series about open source maintainers. You can view the existing episodes (with Brad Wilson of xUnit fame; and Jimmy Bogard of AutoMapper) by visiting the [YouTube Playlist](https://shawnw.me/TheMaintainers). If you're interested in being a part of the series, please contact Shawn on [His Website](https://wildermuth.com/contact).
-
 ## .NET Foundation Project Updates
 
+### [Project Spotlight](https://dotnetfoundation.org/projects/spotlight) :sparkler:
 
-## New Projects
+Each month Project Spotlight shines a light on an interesting open source project and its maintainers. 
 
-The .NET Foundation would like to welcome the following projects that joined in September and October!
 
-|  |  |
-| ------------------- |--------------------|
 
-## New Releases
+
+### New Projects
+The .NET Foundation would like to welcome the following new projects!
+
+
+| | | |
+|-|-|-|
+
+
+### New Releases
+
+
+
+## .NET Foundation Committee Updates
+
+
+
+## Events
+
+
+### [.NET Conf 2021](https://dotnetconf.net/?utm_campaign=savedate&utm_source=dotnetfdn&utm_medium=newsletter), November 9 - 11
+.NET Conf 2021 and the launch of .NET 6 is coming November 9th! .NET Conf is a free, three-day, virtual developer event that celebrates the major releases of .NET. It is co-organized by the .NET community and Microsoft, and sponsored by the .NET Foundation and ecosystem partners. Call for content will open on July 29th. 
+
+**[Save the date!](https://dotnetconf.net/?utm_campaign=savedate&utm_source=dotnetfdn&utm_medium=newsletter)**
+
+## How to Get Involved
+The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
+
+### [Support a project](https://dotnetfoundation.org/projects)
+Projects, and the people behind them, are at the heart of what .NET Foundation is all about. These days, you’ll find a wide variety of projects under the .NET Foundation. Can you contribute to something already in the works? [Browse our projects](https://dotnetfoundation.org/projects) to find out how to contribute. 
+
+### [Become a member](https://dotnetfoundation.org/member) 
+By involving people that are passionate about .NET we can create a powerful organization that furthers sustainable open source, a diverse and open community, and help evolve this growing and evolving ecosystem that we are very passionate about. If you are as passionate about the .NET ecosystem as we are, then you should consider becoming a member of the .NET Foundation. [Read more about member benefits](https://dotnetfoundation.org/member) and [please join](https://dotnetfoundation.org/member/become-a-member) to help shape the future.
+
+### [Join a committee](https://dotnetfoundation.org/community/committees)
+The .NET Foundation Committees are where the vast majority of work gets done in the Foundation. The more you participate the more we can do together. Please visit the [committee hub on our website](https://dotnetfoundation.org/community/committees) to learn more and how you can get involved. 
+
+### [Spread the word](https://github.com/dotnet-foundation/wg-marketing)
+Help spread .NET Foundation's message. Take a look at the [.NET Foundation slides](https://dotnetfoundation.sharepoint.com/:p:/s/Marketing/EbxGONyybLRMoe6MgPNUEi4BdDuEWNLmdfV_s8INO9nWTw?e=mImEov) and use them in your presentations and events. Members can also request promotion of their events and open source related content. See the [marketing repo](https://github.com/dotnet-foundation/wg-marketing) for details. 
+
+### [Buy some merch](https://store.dotnetfoundation.org/)
+Show off your nerd side with pride! Support the .NET Foundation by rocking some gear from our store. [Check out the new items](https://store.dotnetfoundation.org/dotnetfoundation/accessories) and don't forget to show them off on [Twitter #dotnetlovesme](https://twitter.com/search?q=%23dotnetlovesme). 
+
+### [Have some fun](https://mod-dotnet-bot.net)
+Coding is better with friends, especially when they bring their own mods. As the mascot for the .NET community, dotnet-bot helps with checking pull requests on .NET repos on GitHub. Create your own coding companion by building your own custom dotnet-bot at [mod-dotnet-bot.net](https://mod-dotnet-bot.net) and sharing it on [Twitter #dotnetlovesme](https://twitter.com/search?q=%23dotnetlovesme). 
+
+[![my-dotnet-bot-mod](https://user-images.githubusercontent.com/5115571/123716322-1e661080-d82f-11eb-8e42-4e6381a2c5f7.png)](https://mod-dotnet-bot.net)
 
