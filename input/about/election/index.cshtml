@@ -21,13 +21,13 @@ permalink: about/election
                     Additionally, we will begin term staggering of Board members to enhance the continuity of the organization. 
                     Please see the <a href="/about/election/policy">Election Policy</a> for more details. 
                 </p>
-                <h3 style="text-align: center;" >The 2020 Nominating Committee members are</h3>
+                <h3 style="text-align: center;" >The 2021 Nominating Committee members are</h3>
                 <p style="text-align: center;" >
                     <div class="row">
                         @Html.Partial("../../_partials/_team-member-card.cshtml",
                             Outputs
                                 .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
-                                .FilterSources("about/election/nomination-committee-2020/*.md")
+                                .FilterSources("about/election/nomination-committee-2021/*.md")
                                 .OrderBy(candidate => candidate.GetInt(Keys.Order))
                                 .ThenBy(candidate => candidate.GetString(WebKeys.Title))
                         )
@@ -35,7 +35,7 @@ permalink: about/election
                 </p>
 
                 <p>
-                    If you are interseted in running, fill out a nomination form <a href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=3G8HFsH8FUqxyjLJolWQDtxAVwyU3HJJo4I9O9ugmk9UMzVFWFIyRlhMV1pBTVlBMFIzWTM0UzRMSS4u" target="_blank">here</a>. The nomination form will be open until June 26th.
+                    If you are interested in running, fill out a nomination form <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=8ru98HbNZ0mMTFCoAnRpEmp3qxxG5iNBl2dHcSfTzztUOEdKT05ENERURFFIMTFOSDU3TE81NFJDQi4u" target="_blank">here</a>. The nomination form will be open until July 19th.
                 </p>
 
                 <h2 id="what-does-the.net-foundation-board-do">What does the .NET Foundation Board Do?</h2>
@@ -45,9 +45,9 @@ permalink: about/election
                 <ul>
                     <li>.NET Foundation Voting Members are eligible to both vote in the election and run for a board seat. If you're not a member yet, <a href="member/become-a-member">join today!</a></li>
                     <li>The Nominating Committee will present the candidates to Voting Members on July 7.</li>
-                    <li>The campaign period runs from July 7 - July 21, followed by a two week election which will conclude on August 3 at 12 PM Pacific time.</li>
+                    <li>The campaign period runs from July 26 - August 4, followed by a two week election which will conclude on August 18 at 12 PM Pacific time.</li>
                     <li>Voting Members will cast their votes using the <a href="https://www.opavote.com/methods/single-transferable-vote">Single Transferable Vote methodology on the OpaVote system</a>.</li>
-                    <li>Results will be communicated no later than August 4 at 12 PM Pacific time.</li>
+                    <li>Results will be communicated no later than August 23 at 12 PM Pacific time.</li>
                     <li>To keep informed, follow us on Twitter at <a href="https://twitter.com/dotnetfdn">&#64;dotnetfdn</a>... or better yet, <a href="http://eepurl.com/dhL_qb">subscribe to our newsletter!</a></li>
                 </ul>
                 <p>Interested in running for a seat? Watch for our next blog post with specifics on the elections process, and feel free to ping us at <a href="mailto:contact@dotnetfoundation.org">contact@dotnetfoundation.org</a> with questions.</p>
