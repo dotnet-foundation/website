@@ -36,6 +36,7 @@ YouTube: https://www.youtube.com/c/SeanKilleen
 Dev: https://dev.to/seankilleen
 Mentor: true
 Mentee: true
+Pronouns: "he/him"
 ---
 
 
