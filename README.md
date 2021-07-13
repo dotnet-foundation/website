@@ -19,15 +19,13 @@ The basic steps to run or build the project:
 
 To build and preview the site, run:
 
- ```
- dotnet run -- preview
- ```
+ `dotnet run -- preview`
  
 The preceding command launches a preview web server that can be viewed from http://localhost:5080. The site automatically rebuilds and refreshes when content changes are made.
 
 ## Project Structure
 
-This website uses [Statiq Web](https://github.com/statiqdev/Statiq.Web), a flexible and extensible static site generator for .NET.
+This website uses [Static Web](https://github.com/statiqdev/Statiq.Web), a flexible and extensible static site generator for .NET.
 
 * *App.Config* : The configuration file for the project. Review the `appSettings` section of *App.Config*.
 * *Program.cs:*
