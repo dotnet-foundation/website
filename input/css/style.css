@@ -1621,6 +1621,14 @@ svg:not(:root).svg-inline--fa {
     text-decoration: none;
 }
 
+.profile span a {
+    color: #086DD9; 
+}
+
+.profile span a i {
+    color: #006CFF;
+}
+
 @media screen and (min-width: 768px) {
   .profile {
    align-items: center;
