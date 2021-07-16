@@ -8,7 +8,7 @@
                 <a itemprop="url" href="@Context.GetLink(post).Substring(1)">@post.GetString(WebKeys.Title)</a>
             </h1>
             <div class="bh">
-                <time datetime="@post.GetDateTime(WebKeys.Published).ToString("yyyy-MM-dd")" itemprop="datePublished">@post.GetDateTime(WebKeys.Published).ToString("MMMM dd, yyyy")</time>
+                <time datetime="@post.GetDateTime(WebKeys.Published).ToString("yyyy-MM-dd")" itemprop="datePublished">@post.GetDateTime(WebKeys.Published).ToString("MMMM dd, yyyy")</time> by <span>@post.GetString(WebKeys.Author)</span>
             </div>
         </header>
 
