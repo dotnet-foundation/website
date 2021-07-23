@@ -31,7 +31,12 @@ The .NET Foundation would like to welcome the following new projects!
 
 ### New Releases
 
+#### [DotVVM 3.1 Released](https://www.dotvvm.com/blog/85/Released-DotVVM-3-1)
+If you haven't heard about DotVVM yet - it's a MVVM (Model-View-ViewModel) framework which you can use to [build ASP.NET Core web apps with just C# and HTML]([DotVVM](https://www.dotvvm.com/build), or to [modernize ASP.NET Web Forms apps to .NET 6](https://www.dotvvm.com/modernize). DotVVM is based on Knockout JS, its download size is just about 60kB, and it comes with a set of ready-made UI controls like GridView, FileUpload, and more.
 
+**DotVVM 3.1** brings a better support for lambdas in data-binding expressions, and you can now use LINQ methods in data-binding which helps with client-side filtering in grids and lists. There are also a lot of bug fixes and smaller improvements.
+
+Watch the [videos from DotVVM Virtual Conference](https://www.youtube.com/watch?v=8y9WJjuWAOc&list=PLq1wAETqUjIYWA-CX0Trp9bb8ctnDb53y&index=1&ab_channel=DotVVM) to discover all the new features introduced in DotVVM 3.0 and 3.1. 
 
 ## .NET Foundation Committee Updates
 
