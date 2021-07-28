@@ -27,6 +27,7 @@ The .NET Foundation would like to welcome the following new projects!
 
 | | | |
 |-|-|-|
+| ![NFLogo](https://user-images.githubusercontent.com/1334951/113320871-de42d080-92c7-11eb-895f-0d5028cc414c.png) | ASP.NET Boilerplate | ASP.NET Boilerplate is a general purpose application framework specially designed for new modern web applications. It uses already familiar tools and implements best practices around them to provide you a SOLID development experience. ASP.NET Boilerplate works with the latest ASP.NET Core & EF Core but also supports ASP.NET MVC 5.x & EF 6.x as well.|
 
 
 ### New Releases
