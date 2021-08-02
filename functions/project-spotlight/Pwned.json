@@ -1,0 +1,46 @@
+{
+  "projectName": "have i been pwned?",
+  "showProjectName": true,
+  "imageFileName": "pwned.png",
+  "gitHubOrg": "HaveIBeenPwned",
+  "gitHubRepoName": "PwnedPasswordsAzureFunction",
+  "transcriptFileName": "",
+  "publishDate": "2021-9-01",
+  "loadIssues": false,
+  "issueLabel": "",
+  "projectOwners": [
+    {
+      "name": "Troy Hunt",
+      "url": "https://github.com/troyhunt"
+    }
+  ],
+  "youtubeUrl": "https://www.youtube.com/embed/rskR2wHyhx4",
+  "projectDescription": "HIBP is a free resource for anyone to quickly assess if they may have been put at risk due to an online account of theirs having been compromised or \"pwned\" in a data breach. The goal is for it to be dead simple to use and entirely free so that it could be of maximum benefit to the community.",
+  "contributors": [
+    {
+      "name": "mdawsonuk",
+      "url": "https://github.com/mdawsonuk"
+    },
+    {
+      "name": "martins-vds",
+      "url": "https://github.com/martins-vds"
+    },
+    {
+      "name": "stebet",
+      "url": "https://github.com/stebet"
+    },
+    {
+      "name": "maartenba",
+      "url": "https://github.com/maartenba"
+    },
+    {
+      "name": "danjagnow",
+      "url": "https://github.com/danjagnow"
+    }
+  ],
+  "githubRepo": "https://github.com/HaveIBeenPwned/",
+  "projectWebsite": "https://haveibeenpwned.com/",
+  "documentationUrl": "https://haveibeenpwned.com/API/v3",
+  "communityUrl": "https://github.com/HaveIBeenPwned/PwnedPasswordsAzureFunction",
+  "contributionUrl": "https://github.com/HaveIBeenPwned/PwnedPasswordsAzureFunction"
+}
