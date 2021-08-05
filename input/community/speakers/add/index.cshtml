@@ -11,7 +11,7 @@
                 <h1>Add Yourself To The Speaker Directory</h1>
                 <p>
                     This form will create the appropriate file as a pull request in the .NET Foundation web site. You'll just need to submit the pull request once you've reviewed it.
-                    Alternatively, <a href="https://github.com/dotnet-foundation/website/new/master/input/community/speakers">you can submit a pull request directly</a>.
+                    Alternatively, <a href="https://github.com/dotnet-foundation/website/new/main/input/community/speakers">you can submit a pull request directly</a>.
                 </p>
                 <form>
                     <div class="form-group">
@@ -233,7 +233,7 @@
             if (content.length > 0) {
                 content = encodeURIComponent(content);
                 let filename = fullname.toLowerCase().replace(/[\W_]+/g, "-") + ".md";
-                window.location.href = "https://github.com/dotnet-foundation/website/new/master/input/community/speakers/" + filename + "?filename=" + filename + "&value=" + content;
+                window.location.href = "https://github.com/dotnet-foundation/website/new/main/input/community/speakers/" + filename + "?filename=" + filename + "&value=" + content;
             }
         });
     });
