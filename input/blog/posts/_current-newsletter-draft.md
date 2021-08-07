@@ -39,6 +39,12 @@ If you haven't heard about DotVVM yet - it's a MVVM (Model-View-ViewModel) frame
 
 Watch the [videos from DotVVM Virtual Conference](https://www.youtube.com/watch?v=8y9WJjuWAOc&list=PLq1wAETqUjIYWA-CX0Trp9bb8ctnDb53y&index=1&ab_channel=DotVVM) to discover all the new features introduced in DotVVM 3.0 and 3.1. 
 
+#### [NUnit](https://nunit.org)
+
+[NUnit Framework 3.13.2](https://docs.nunit.org/articles/nunit/release-notes/framework.html#nunit-3132---april-27-2021) dramatically improves performance for large test suites that use `dotnet test` and fixes a long-standing performance issue in the majority of use cases when comparing collections for equivalence. A new issue was also fixed with the `FixtureLifeCycle` attribute where `IDisposable` test fixtures were not being disposed properly.
+
+[NUnit Adapter 4.0.0](https://docs.nunit.org/articles/vs-test-adapter/Adapter-Release-Notes.html#nunit3-test-adapter-for-visual-studio---version-400---june-6-2021) brings support for Visual Studio 2022! 4.0.0 also brings performance improvements and fixes from the alpha and beta releases, such as explicit tests now working in all versions of Visual Studio, and adds a few new fixes.
+
 ## .NET Foundation Committee Updates
 
 
