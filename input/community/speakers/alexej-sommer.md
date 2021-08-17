@@ -1,10 +1,11 @@
 ---
 Title: Alexej Sommer
-Pronouns: he/him
 Location: Minsk, Belarus
 Email: asommer@yandex.ru
 Language:
+  - Russian
   - English
+  - German
 Topics:
   - .NET
   - ASP.NET
