@@ -15,7 +15,7 @@
                 .GroupBy(doc => (doc.GetDateTime(WebKeys.Published).ToString("MM"), doc.GetDateTime(WebKeys.Published).ToString("MMMM")))
                 .OrderByDescending(x => x.Key.Item1))
             {
-                <div><a href="blog/@(yearGroup.Key)/@(monthGroup.Key.Item1)">@monthGroup.Key.Item2 (@monthGroup.Count())</a></div>
+                <div><a href="/blog/@(yearGroup.Key)/@(monthGroup.Key.Item1)">@monthGroup.Key.Item2 (@monthGroup.Count())</a></div>
             }
             </div>
         }

@@ -41,6 +41,7 @@ TestResult.xml
 *.pfx
 projects-content.json
 .idea/
+/cache
 
 functions/node_modules/
 input/api/issues/index.js

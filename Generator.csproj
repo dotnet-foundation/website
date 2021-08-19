@@ -11,7 +11,7 @@
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.11.28" />
     <PackageReference Include="Microsoft.SyndicationFeed.ReaderWriter" Version="1.0.2" />
-    <PackageReference Include="Statiq.Web" Version="1.0.0-beta.9" />
+    <PackageReference Include="Statiq.Web" Version="1.0.0-beta.33" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
   </ItemGroup>
 
