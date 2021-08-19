@@ -45,6 +45,7 @@ namespace DotnetFoundationWeb
             "NuGet",
             "Open Source",
             "Product Management",
+            "Python",
             "Razor",
             "ReSharper",
             "Security",
