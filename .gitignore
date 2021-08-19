@@ -41,6 +41,7 @@ TestResult.xml
 *.pfx
 projects-content.json
 .idea/
+.DS_Store
 
 functions/node_modules/
 input/api/issues/index.js
