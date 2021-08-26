@@ -1,7 +1,7 @@
 ---
 title: David Whitney
 twitter: david_whitney
-image: davidwhitney.jpg
+image: campaign-2021/davidwhitney.jpg
 excluded: false
 ---
 
