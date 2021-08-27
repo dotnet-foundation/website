@@ -62,6 +62,11 @@ ContentType: Asset
       "route": "/projects/uwpcommunitytoolkit",
       "serve": "/projects/windowscommunitytoolkit",
       "statusCode": 301
+    },
+    {
+      "route": "/academy",
+      "serve": "/education/academy",
+      "statusCode": 301
     }
   ],
   "platformErrorOverrides": [
@@ -69,4 +74,4 @@ ContentType: Asset
       "errorType": "NotFound",
       "serve": "/404.html"
     }]
-  }
+}
