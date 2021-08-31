@@ -1,13 +1,13 @@
 ---
 title: Frank Arkhurst Odoom
 twitter: @mr_odoom
-image: 
+image: (https://github.com/frankodoom/frankodoom.github.io/blob/master/images/me.png)
 excluded: 
 ---
 
 # .NET Foundation Campaign: Frank Arkhurst Odoom
  
-Coming from a continent a high unemployment rate and little opportunities, i have been fortunate to build a career as a software consultant using .NET and other open-source technologies. My life changing experience with .NET and Open-Source has always encouraged me to give back to the community. I started Accra.Net meetup out of passion to reach out and educate people about .NET and how important it is to contribute to open-source development. I am an OSS Developer with several projects on Nuget and I love contributing to Microsoft open-source document. My goal is to help the foundation reach out to other communities where there is little .NET activity so we can grow this beautiful ecosystem.
+Coming from a continent with a high unemployment rate and little opportunities, i have been fortunate to build a career as a software consultant using .NET and other open-source technologies. My life changing experience with .NET and Open-Source has always encouraged me to give back to the community. I started Accra.Net meetup out of passion to reach out and educate people about .NET and how important it is to contribute to open-source development. I am an OSS Developer with several projects on Nuget and I love contributing to Microsoft open-source document. My goal is to help the foundation reach out to other communities where there is little .NET activity so we can grow this beautiful ecosystem.
 
 ## Why I'm running
 I am running for board member because i believe with my passion for open-source and a strong desire to reach out to underserved communities, I will be able to work with the board through the Project, Outreach, Sponsorship and Education committees to grow the adoption of .NET and open-source by bringing these communities to the attention of the foundation.
@@ -30,5 +30,5 @@ My goal for the Foundation is to help create a strong awareness and presence of 
 
 
 ## Contact Information
-* Twitter: [@mr_odoom] (https://www.somewebsite.com)
+* Twitter: [@mr_odoom](https://twitter.com/mr_odoom)
 * Email: f.odoom@outlook.com
