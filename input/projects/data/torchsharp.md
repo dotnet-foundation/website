@@ -14,6 +14,5 @@ Web: http://www.microsoft.com
 
 ### Quicklinks
 
-* [Contribute](https://github.com/dotnet/machinelearning/blob/master/CONTRIBUTING.md)
 * [Documentation](https://github.com/dotnet/TorchSharp/tree/main/docfx)
 * [Discussions](https://github.com/dotnet/TorchSharp/issues)
