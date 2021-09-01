@@ -11,7 +11,7 @@ permalink: about/election/candidates
 @{
     IDocument[] candidates = Outputs
         .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
-        .FilterSources("about/election/campaign-2020/*.md")
+        .FilterSources("about/election/campaign-2021/*.md")
         .OrderBy(x => x.GetTitle())
         .ToArray();
 }
@@ -26,9 +26,9 @@ permalink: about/election/candidates
 }
 else
 {
-    <h3>Voting is underway and ends August 3!</h3>
-    <p>Members should have recieved an email with a special link to vote from OpaVote (noreply@opavote.com). They have also
-        been sending reminders every three days. Be sure to check your spam folder if you haven't recieved the link yet.
+    <h3>The Election is Underway!</h3>
+    <p>
+    Members will recieve an email with a special link to vote from OpaVote (noreply@opavote.com). Be sure to check your spam folder if you haven't recieved the link yet.
     </p>
     <h3 id="here-are-the-campaign-statements-for-our-candidates">Here are the campaign statements for our candidates.</h3>
     <p>Check out the <a href="about/election/campaign">details</a> on how the process works.</p>
