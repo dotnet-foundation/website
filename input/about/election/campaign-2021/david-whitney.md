@@ -2,10 +2,12 @@
 title: David Whitney
 twitter: david_whitney
 image: campaign-2021/davidwhitney.jpg
-excluded: false
+excluded: 
 ---
 
 # .NET Foundation Campaign: David Whitney
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6aSsPo-fYjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 David is the founder of Electric Head Software, working as an independent software consultant based in London focusing on software delivery, developer mentoring and cultural change - mostly working with London-based organizations and start-ups.
 

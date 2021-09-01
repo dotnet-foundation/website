@@ -7,6 +7,8 @@ excluded:
 
 # .NET Foundation Campaign: Rob Prouse
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JfyzCVUDxQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Why I'm running
 
 As the lead of an OSS project that has been with the Foundation for several years, I still don't feel like we are really a part of the Foundation. After we joined, there was very little communication and we didn't understand what help the Foundation could provide for us. I think that the future of .NET relies on a strong open source community. As such, I believe that the Foundation needs to do more to help its member projects build community. We also need to improve the onboarding documentation to show maintainers how to access the Foundations resources and provide them with best practices for running their projects.

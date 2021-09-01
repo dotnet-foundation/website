@@ -2,27 +2,11 @@
 title: Dixin Yan    
 twitter: 
 image: 
-excluded: 
+excluded:
 ---
 
 # .NET Foundation Campaign: Dixin Yan
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PKfafM5DaM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-## Why I'm running
-
-
-
-
-## Experience with the Foundation
-
-
-
-## What are my goals for the .NET Foundation?
-
-
-
-## Links
-
-
-## Contact Information
+## Coming Soon

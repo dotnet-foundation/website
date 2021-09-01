@@ -1,12 +1,14 @@
 ---
 title: Frank Arkhurst Odoom
-twitter: @mr_odoom
-image: (https://github.com/frankodoom/frankodoom.github.io/blob/master/images/me.png)
+twitter: mr_odoom
+image: campaign-2021/frankodoom.png
 excluded: 
 ---
 
 # .NET Foundation Campaign: Frank Arkhurst Odoom
  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BxaJOpcxSDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Coming from a continent with a high unemployment rate and little opportunities, i have been fortunate to build a career as a software consultant using .NET and other open-source technologies. My life changing experience with .NET and Open-Source has always encouraged me to give back to the community. I started Accra.Net meetup out of passion to reach out and educate people about .NET and how important it is to contribute to open-source development. I am an OSS Developer with several projects on Nuget and I love contributing to Microsoft open-source document. My goal is to help the foundation reach out to other communities where there is little .NET activity so we can grow this beautiful ecosystem.
 
 ## Why I'm running

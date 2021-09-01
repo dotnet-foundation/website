@@ -2,27 +2,11 @@
 title: David McCarter
 twitter: 
 image: 
-excluded: 
+excluded:
 ---
 
 # .NET Foundation Campaign: David McCarter
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Vpx-ok0fSMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-## Why I'm running
-
-
-
-
-## Experience with the Foundation
-
-
-
-## What are my goals for the .NET Foundation?
-
-
-
-## Links
-
-
-## Contact Information
+## Coming Soon

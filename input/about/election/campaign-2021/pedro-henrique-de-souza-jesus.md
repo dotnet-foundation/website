@@ -1,13 +1,13 @@
 ---
 title: Pedro Henrique de Souza Jesus
-twitter: @pj_souz
+twitter: pj_souz
 image: 
 excluded: 
 ---
 
 # .NET Foundation Campaign: Pedro Henrique de Souza Jesus
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/crpB00RAePE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Why I'm running
 

@@ -1,12 +1,13 @@
 ---
 title: Mitchel Sellers
-twitter: @mitchelsellers 
+twitter: mitchelsellers 
 image: 
 excluded: 
 ---
 
 # .NET Foundation Campaign: Mitchel Sellers
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/32NVgwCSjzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Why I'm running
 
