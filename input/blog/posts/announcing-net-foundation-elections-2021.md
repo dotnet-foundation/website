@@ -1,7 +1,7 @@
 ---
 Title: Announcing the Candidates .NET Foundation Election 2021
 Author: Nicole Miller
-Published: 2021-09-02
+Published: 2021-09-01
 ---
 
 ## .NET Foundation Election 2021 is Here
