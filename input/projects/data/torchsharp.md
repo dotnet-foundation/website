@@ -1,5 +1,5 @@
 ---
-Title: TorcSharp
+Title: TorchSharp
 Contributor: Microsoft
 Logo: microsoft.jpg
 Web: http://www.microsoft.com
@@ -15,4 +15,4 @@ Web: http://www.microsoft.com
 ### Quicklinks
 
 * [Documentation](https://github.com/dotnet/TorchSharp/tree/main/docfx)
-* [Discussions](https://github.com/dotnet/TorchSharp/issues)
+* [Discussions](https://github.com/dotnet/TorchSharp/discussions)
