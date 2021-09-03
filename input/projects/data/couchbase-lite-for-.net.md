@@ -3,6 +3,7 @@ Title: Couchbase Lite for .NET
 Contributor: Xamarin
 Logo: Couchbase.png
 Web: https://www.couchbase.com/
+IsActive: false
 ---
 
 # Couchbase Lite for .NET
