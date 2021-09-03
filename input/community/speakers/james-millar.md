@@ -1,6 +1,6 @@
 ---
 Title: James Millar
-Pronouns: He/Him
+Pronouns: he/him
 Location: Malmesbury, UK
 Email: james@sailr.co.uk
 Language:
