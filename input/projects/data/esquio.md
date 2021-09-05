@@ -21,7 +21,7 @@ Additionally, if you need it, Esquio has a full UI developed, so you can be able
 
 * [Website](https://github.com/xabaril/esquio)
 * [Source](https://github.com/xabaril/esquio)
-* License: [MIT](https://opensource.org/licenses/Apache-2.0)
+* License: [Apache 2.0](https://opensource.org/licenses/Apache-2.0)
 * Project Leads: [Unai Zorrilla](https://github.com/unaizorrilla), [Quique Fdez Querra](https://github.com/CKGrafico),[Luis Ruiz Pavon](https://github.com/lurumad), [Luis Fraile](https://github.com/lfraile) and [Marco de la Cruz](https://github.com/mdcruz-plainconcepts)
 
 ## Quicklinks
