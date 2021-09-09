@@ -16,7 +16,7 @@ Web: http://nunit.org/
 * [Source](https://github.com/nunit/nunit)
 * License: [MIT](https://github.com/nunit/nunit/blob/master/LICENSE.txt)
 * Project Lead: [Rob Prouse](https://github.com/rprouse)
-* Core Team: [Charlie Poole](https://github.com/CharliePoole), [Terje Sandstrom](https://github.com/OsirisTerje), [Chris Maddock](https://github.com/ChrisMaddock) and [Joseph Musser](https://github.com/jnm2)
+* Core Team: [Charlie Poole](https://github.com/CharliePoole), [Terje Sandstrom](https://github.com/OsirisTerje), [Chris Maddock](https://github.com/ChrisMaddock), [Joseph Musser](https://github.com/jnm2) and [Mikkel Nylander Bundgaard](https://github.com/mikkelbu)
 
 ## Quicklinks
 
