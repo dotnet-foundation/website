@@ -1,6 +1,6 @@
 ---
 title: David McCarter
-twitter: @realDotNetDave
+twitter: realDotNetDave
 image: https://dotnettips.files.wordpress.com/2021/04/20180608_233535771_ios.jpg
 excluded:
 ---
