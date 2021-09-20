@@ -2,5 +2,5 @@
 name: endjin
 logo: assets/corporate-sponsors/endjin.png
 url: https://www.endjin.com/
-order: 3
+order: 4
 ---
