@@ -168,14 +168,12 @@ if (project.showContributers)
 
     project.contributors.forEach((c)=> {
         projectContributors += "<a style='color: white' href=" + c.url + " target='_blank'><i style='color:white' class='fab fa-github' aria-hidden='true'></i> " + c.name + "</a><br /><br />";
-
-
 });
-projectContributors = `</p>
+projectContributors += `</p>
                     </div>
     			</div>
 			</div>`;
-document.getElementById("projectContributors").innerHTML = projectContributors;
+document.getElementById("contributers").innerHTML = projectContributors;
 }
 else
 {
