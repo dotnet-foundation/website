@@ -7,11 +7,12 @@
   "transcriptFileName": "",
   "publishDate": "2021-5-01",
   "loadIssues": true,
+  "showContributers": true,
   "issueLabel": "Up for grabs",
   "projectOwners": [
     {
       "name": "Tom Englert",
-      "url": "https://github.com/tom-englert" 
+      "url": "https://github.com/tom-englert"
     }
   ],
   "youtubeUrl": "https://www.youtube.com/embed/c5VUoERRvbM",

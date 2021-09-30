@@ -7,6 +7,7 @@
     "transcriptFileName": "cake-transcript.txt",
     "publishDate": "2020-08-01",
     "loadIssues": true,
+    "showContributers": true,
     "issueLabel": "",
     "projectOwners": [
       {

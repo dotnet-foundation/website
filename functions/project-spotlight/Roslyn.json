@@ -6,6 +6,7 @@
   "gitHubRepoName": "roslyn",
   "transcriptFileName": "",
   "publishDate": "2021-4-01",
+  "showContributers": true,
   "loadIssues": true,
   "issueLabel": "help wanted",
   "projectOwners": [

@@ -7,6 +7,7 @@
     "transcriptFileName": "oqtane-transcript.txt",
     "publishDate": "2020-11-01",
     "loadIssues": false,
+    "showContributers": true,
     "issueLabel": "",
     "projectOwners": [
       {
