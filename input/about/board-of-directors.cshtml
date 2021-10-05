@@ -25,8 +25,7 @@ permalink: /about/board-of-directors
                     @Html.Partial("../_partials/_member-small-card.cshtml",
                         Outputs
                             .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
-                            .FilterSources("about/election/campaign-2020/*")
-                            .Where(candidate => candidate.GetBool(SiteKeys.Elected))
+                            .FilterSources("about/board/fy22/*")                            
                             .OrderBy(candidate => candidate.GetString(WebKeys.Title))
                     )
                 </div>
