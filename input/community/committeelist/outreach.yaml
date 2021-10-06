@@ -3,9 +3,7 @@ Description: |
  The outreach committee is here to welcome developers of all backgrounds, education, and technology experience into the .NET ecosystem. 
  We are here to help you organize and evangelize with your own .NET communities, opportunities, and events.
 Chairperson: Jeff Strauss and Shawn Wildermuth
-Images: 
-  - /assets/members/jeff-strauss.jpg
-  - /assets/members/shawn-wildermuth.jpg
+Image: https://via.placeholder.com/150.png?text=TBD
 Meets: This committee meets for one hour on the 2nd Tuesday of every month at 3:00 pm ET.
 Repository: https://github.com/dotnet-foundation/wg-outreach
 Order: 4
