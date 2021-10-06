@@ -1,7 +1,6 @@
 ---
 Title: Gergana Young
 Location: Johannesburg, South Africa
-Email: geryb.bg@gmail.com
 Language:
   - English
 Topics:
