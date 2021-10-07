@@ -2,7 +2,9 @@
 title: Mattias Karlsson
 twitter: devlead
 image: campaign-2021/mattias-karlsson.jpg
-excluded:
+company: Cake / WCOM AB
+location: Sweden
+elected: true
 ---
 
 # .NET Foundation Campaign: Mattias Karlsson
