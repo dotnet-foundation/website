@@ -3,6 +3,7 @@ title: Rob Prouse
 twitter: rprouse
 image: campaign-2021/rob-prouse.jpg
 excluded:
+layout: _BasicPageLayout
 ---
 
 # .NET Foundation Campaign: Rob Prouse
