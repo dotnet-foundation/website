@@ -5,6 +5,7 @@ image: bill-wagner.jpg
 company: Microsoft
 location: United States
 elected: true
+layout: _BasicPageLayout
 ---
 
 ## Why I'm running

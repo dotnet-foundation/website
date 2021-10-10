@@ -5,6 +5,7 @@ image: campaign-2020/shawn-wildermuth.jpg
 company: Wilder Minds
 location: United States
 elected: true
+layout: _BasicPageLayout
 ---
 
 # .NET Foundation Campaign: Shawn Wildermuth

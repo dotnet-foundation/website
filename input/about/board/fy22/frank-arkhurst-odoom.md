@@ -2,7 +2,8 @@
 title: Frank Arkhurst Odoom
 twitter: mr_odoom
 image: campaign-2021/frankodoom.png
-excluded: 
+excluded:
+layout: _BasicPageLayout
 ---
 
 # .NET Foundation Campaign: Frank Arkhurst Odoom

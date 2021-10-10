@@ -5,6 +5,7 @@ image: campaign-2021/mattias-karlsson.jpg
 company: Cake / WCOM AB
 location: Sweden
 elected: true
+layout: _BasicPageLayout
 ---
 
 # .NET Foundation Campaign: Mattias Karlsson

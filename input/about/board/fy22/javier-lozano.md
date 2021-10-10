@@ -5,6 +5,7 @@ image: campaign-2020/javier-lozano.jpg
 company: Lozanotek
 location: United States
 elected: true
+layout: _BasicPageLayout
 ---
 
 # .NET Foundation Campaign: Javier Lozano
