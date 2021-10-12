@@ -7,6 +7,7 @@
   "transcriptFileName": "",
   "publishDate": "2021-9-01",
   "loadIssues": false,
+  "showContributers": true,
   "issueLabel": "",
   "projectOwners": [
     {

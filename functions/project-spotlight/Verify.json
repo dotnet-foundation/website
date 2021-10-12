@@ -1,0 +1,27 @@
+{
+  "projectName": "Verify",
+  "showProjectName": true,
+  "imageFileName": "verify.svg",
+  "gitHubOrg": "VerifyTests",
+  "gitHubRepoName": "Verify",
+  "transcriptFileName": "",
+  "publishDate": "2021-10-01",
+  "loadIssues": false,
+  "showContributers": false,
+  "issueLabel": "",
+  "projectOwners": [
+    {
+      "name": "Simon Cropp",
+      "url": "https://github.com/SimonCropp"
+    }
+  ],
+  "youtubeUrl": "https://www.youtube.com/embed/bs8UpfSYN0s",
+  "projectDescription": "Verify is a snapshot tool that enables the assertion of complex data models and documents.<br /><br />Verify is called on the test result during the assertion phase. It serializes that result and stores it in a file that matches the test name. On the next test execution, the result is again serialized and compared to the existing file. The test will fail if the two snapshots do not match: either the change is unexpected, or the reference snapshot needs to be updated to the new result.<br /><br />xUnit, NUnit and MsTest are support. Utilities are provided to streamline compatibility with variety of libraries and technologies including Blazor, SqlServer, EntityFramework, and asp core.",
+  "contributors": [
+  ],
+  "githubRepo": "https://github.com/VerifyTests/Verify",
+  "projectWebsite": "https://github.com/VerifyTests/Verify",
+  "documentationUrl": "https://github.com/VerifyTests/Verify",
+  "communityUrl": "https://github.com/VerifyTests/Verify",
+  "contributionUrl": "https://github.com/VerifyTests/Verify"
+}

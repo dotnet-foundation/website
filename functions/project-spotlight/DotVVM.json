@@ -8,6 +8,7 @@
     "publishDate": "2021-2-01",
     "loadIssues": true,
     "issueLabel": "good first issue",
+    "showContributers": true,
     "projectOwners": [
       {
         "name": "Tomáš Herceg",

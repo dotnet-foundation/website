@@ -62,15 +62,8 @@ useFunctionsJS: true
 					Get Involved
 				</h1>
 				<div class="card-columns" id="columns" style="text-align:center">
-					<div class="card bg-foundation">
-						<div class="card-body card--features">
-							<h3 style="color: white;">Top 5 Contributors</h3>
-							<div style="display: inline-block; text-align: left;">
-                                <p id="projectContributors" class="card-text"></p>
-							</div>
-						</div>
-					</div>
-					<div style="color:white;" id="issues"></div>
+					<div style="color:white;" id="contributers"></div>
+                    <div style="color:white;" id="issues"></div>
 					<div class="card bg-foundation">
 						<div class="card-body card--features">
 							<h3 style="color: white;">References</h3>
@@ -164,12 +157,36 @@ else{
 
 document.getElementById("projectOwners").innerHTML = projectOwnersDiv;
 
-var projectContributors = "";
-project.contributors.forEach((c)=> {
-    projectContributors += "<a style='color: white' href=" + c.url + " target='_blank'><i style='color:white' class='fab fa-github' aria-hidden='true'></i> " + c.name + "</a><br /><br />";
-});
+if (project.showContributers)
+{
+    var projectContributors = `<div class="card bg-foundation">
+						            <div class="card-body card--features">
+							            <h3 style="color: white;">Top 5 Contributors</h3>
+							            <div style="display: inline-block; text-align: left;">
+                                            <p id="projectContributors" class="card-text">
+                                `;
 
-document.getElementById("projectContributors").innerHTML = projectContributors;
+    project.contributors.forEach((c)=> {
+        projectContributors += "<a style='color: white' href=" + c.url + " target='_blank'><i style='color:white' class='fab fa-github' aria-hidden='true'></i> " + c.name + "</a><br /><br />";
+});
+projectContributors += `</p>
+                    </div>
+    			</div>
+			</div>`;
+document.getElementById("contributers").innerHTML = projectContributors;
+}
+else
+{
+    if (!project.loadIssues)
+    {
+        document.getElementById("columns").style.columnCount = 1;
+    }
+    else
+    {
+         document.getElementById("columns").style.columnCount = 2;
+    }
+}
+
 
 if (project.showProjectName)
 {
@@ -200,8 +217,15 @@ if (project.loadIssues)
 }
 else
 {
-   document.getElementById("columns").style.columnCount = 2; 
-}        
+      if (!project.showContributers)
+    {
+        document.getElementById("columns").style.columnCount = 1;
+    }
+    else
+    {
+         document.getElementById("columns").style.columnCount = 2;
+    }
+}
 /////// Build bottom list
   projects = projects.sort(function (a, b) {
     if (a.projectName > b.projectName) return 1;
