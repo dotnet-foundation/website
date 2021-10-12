@@ -2,6 +2,8 @@
 title: Rob Prouse
 twitter: rprouse
 image: campaign-2021/rob-prouse.jpg
+company: Valsoft
+location: Canada
 excluded:
 layout: _BasicPageLayout
 ---
