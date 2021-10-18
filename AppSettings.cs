@@ -31,5 +31,12 @@ namespace DotnetFoundationWeb
         public static string GoogleAnalytics { get; set; } = ConfigurationManager.AppSettings["GoogleAnalytics"];
 
         public static string Lang { get; set; } = ConfigurationManager.AppSettings["Lang"];
+
+        public static bool SuppressSpeakers { get; set; }
+          = string.Equals(ConfigurationManager.AppSettings["SuppressSpeakers"], "true", StringComparison.OrdinalIgnoreCase);
+
+        public static bool SuppressProjects { get; set; }
+          = string.Equals(ConfigurationManager.AppSettings["SuppressProjects"], "true", StringComparison.OrdinalIgnoreCase);
+
     }
 }
