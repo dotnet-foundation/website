@@ -9,7 +9,7 @@ With the Face-to-Face meeting coming up next week, we wanted to help get the imp
 
 To add your questions and vote, please visit:
 
-> https://bit.ly/dbf-facetoface
+> https://bit.ly/dnf-facetoface
 
 We're using this method to gather the questions that are most important to the community. This will become the list of questions from the community on the day of the Face-to-Face events. While we still will be monitoring the chat, we wanted a way for the community to help us field the right and most important questions. Please help us do that.  
 
