@@ -1640,6 +1640,8 @@ svg:not(:root).svg-inline--fa {
 .profile-image {
   display: block;
   margin: 0 auto 1rem auto;
+  object-fit: cover;
+  object-position: top;
 }
 
 @media screen and (min-width: 768px) {
