@@ -13,7 +13,7 @@ To add your questions and vote, please visit:
 
 We're using this method to gather the questions that are most important to the community. This will become the list of questions from the community on the day of the Face-to-Face events. While we still will be monitoring the chat, we wanted a way for the community to help us field the right and most important questions. Please help us do that.  
 
-Don't forget to join us for the Face-to-Face meeting which you can join on YouTube:
+Don't forget to join us for the Face-to-Face meeting on October 27th, 2021. You can join on YouTube:
 
 - 12pm ET/9am PT/5pm GMT <br/> 
    https://www.youtube.com/watch?v=zK-_Lq8d1h8
