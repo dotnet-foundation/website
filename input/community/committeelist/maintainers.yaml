@@ -1,0 +1,12 @@
+Title: Maintainers Committee
+Description: This committee is aimed at supporting maintainers of open source projects.
+Chairperson: 
+  - Mattias Karlsson
+  - Rob Prouse
+Image: 
+  - /assets/members/mattias-karlsson.jpg
+  - /assets/members/rob-prouse.jpg
+Meets: When..
+Repository: https://github.com/dotnet-foundation/
+Excluded: false
+Order: 5
