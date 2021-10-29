@@ -1,7 +1,7 @@
 ---
 Title: Silk.NET
 Contributor: Silk.NET
-Logo: silk.net.png
+Logo: silk.net.svg
 Web: https://github.com/dotnet/Silk.NET
 ---
 # Silk.NET
