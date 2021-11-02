@@ -1,6 +1,6 @@
 ---
 Title: Sebastián Leonardo Pérez
-Pronouns: He/Him
+Pronouns: he/him
 Location: Buenos Aires, Argentina
 Email: sebaleoperez@outlook.com.ar
 Language:
