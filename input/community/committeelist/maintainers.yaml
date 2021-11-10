@@ -1,5 +1,5 @@
 Title: Maintainers Committee
-Description: This committee is aimed at supporting maintainers of open source projects.
+Description: Welcome to the project maintainers' working group and committee. This group is intended to allow project maintainers to voice their concerns and make suggestions to the .NET Foundation Board about the support they need in maintaining their projects.
 Chairperson: 
   - Mattias Karlsson
   - Rob Prouse
@@ -7,6 +7,6 @@ Image:
   - /assets/members/mattias-karlsson.jpg
   - /assets/members/rob-prouse.jpg
 Meets: When..
-Repository: https://github.com/dotnet-foundation/
+Repository: https://github.com/dotnet-foundation/wg-maintainers
 Excluded: false
 Order: 5
