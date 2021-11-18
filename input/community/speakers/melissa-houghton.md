@@ -18,6 +18,7 @@ Topics:
   - Xamarin.Forms
 Speaker profile: https://noti.st/melissahoughton
 Blog: https://melissahoughton.dev/
+Feed: https://melissahoughton.dev/feed
 Twitter: https://twitter.com/meliss_houghton
 GitHub: https://github.com/melissahoughton
 LinkedIn: https://www.linkedin.com/in/melissahoughton
