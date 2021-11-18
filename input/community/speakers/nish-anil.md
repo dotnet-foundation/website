@@ -18,4 +18,4 @@ LinkedIn: https://linkedin.com/in/nanil
 Instagram: https://instagram.com/nishanil
 Mentor: true
 ---
-I'm a PM on the .NET team at Microsoft working remotely from Bengaluru, India. I help create Architecture Guides for .NET developers and can deliver talks on Microservices, Containers, Kubernetes, and other Cloud-Native tech. If you don’t see something that excites you here: dot.net/architecture, you should let me know.
+I'm a PM on the .NET team at Microsoft working remotely from Bengaluru, India. I help create Architecture Guides for .NET developers and can deliver talks on Microservices, Containers, Kubernetes, and other Cloud-Native tech. If you don't see something that excites you here: dot.net/architecture, you should let me know.

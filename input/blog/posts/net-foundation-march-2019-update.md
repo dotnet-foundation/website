@@ -52,7 +52,7 @@ Speaking of getting involved...</p>
 <br />
 <a href="https://nunit.org/news/update/nunit/2019/03/24/nunit-console-3.10.html">NUnit Console and Engine 3.10 were also released</a>, bringing lots of new functionality to .NET Standard platforms with a new .NET Standard 2.0 build in the main engine package. A new `--testparam` console option supersedes `--params` in order to allow test parameters to contain semicolons. These are just two of a myriad of fixes and enhancements.<br />
 <br />
-We have even more releases for you! The&nbsp;<a href="https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension">NUnit VS Test Generator</a>&nbsp;and&nbsp;<a href="https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.NUnitTemplatesforVisualStudio">NUnit VS Template</a> extensions&nbsp;have been released with support for VS2019, and NUnit’s TeamCity Event Listener 1.0.6 was also released with improvements including support for test metadata and suite patterns.<br />
+We have even more releases for you! The&nbsp;<a href="https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension">NUnit VS Test Generator</a>&nbsp;and&nbsp;<a href="https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.NUnitTemplatesforVisualStudio">NUnit VS Template</a> extensions&nbsp;have been released with support for VS2019, and NUnit's TeamCity Event Listener 1.0.6 was also released with improvements including support for test metadata and suite patterns.<br />
 &nbsp;</p>
 
 <h3>Steeltoe 2.2.0 Released!</h3>
@@ -85,11 +85,11 @@ We have even more releases for you! The&nbsp;<a href="https://marketplace.visual
 <hr />
 <h2>Connect with the .NET Foundation online</h2>
 
-<p>The <a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We’ll post regular updates and interesting things happening with .NET to share.</p>
+<p>The <a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We'll post regular updates and interesting things happening with .NET to share.</p>
 
 <p>The <a href="https://www.youtube.com/NETFoundation">.NET Foundation is also on YouTube</a>. Watch community standups and design reviews as well as code-focused shows and interviews across our multiple playlists.</p>
 
 <hr />
 <h2>Remember to Subscribe!</h2>
 
-<p>Please <a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don’t worry, we want to keep these short, interesting, and low-noise, so we won’t overload your e-mail.</p>
+<p>Please <a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>

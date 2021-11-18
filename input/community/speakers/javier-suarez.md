@@ -20,8 +20,8 @@ GitHub: https://github.com/jsuarezruiz
 LinkedIn: https://www.linkedin.com/in/jsuarezruiz/
 YouTube: https://www.youtube.com/user/javiersuarezruiz
 ---
-Hi! I'm Javier, and I write code for tech project around the world. I’m currently a software engineer at Microsoft working on Xamarin.Forms, and have worked with the likes of WPF, UWP, Xamarin, Azure, and others over the years.
+Hi! I'm Javier, and I write code for tech project around the world. I'm currently a software engineer at Microsoft working on Xamarin.Forms, and have worked with the likes of WPF, UWP, Xamarin, Azure, and others over the years.
 
-When I’m not actively writing code, you’ll probably find me making content for my blog . 
+When I'm not actively writing code, you'll probably find me making content for my blog . 
 
 In the end, I'm just a guy who loves what he does, and who enjoys sharing and helping others grow, share good times, and learn together.

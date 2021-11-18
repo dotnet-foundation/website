@@ -73,7 +73,7 @@ Published: 2019-01-14 23:26:08.6261720
 
 <h2>Who is eligible?</h2>
 
-<p>Anyone who has <a>contributed</a>&nbsp;to any .NET Foundation project. Usually&nbsp;that will be with code, but can include documentation, or filing significant issues. It might be something we haven’t thought of yet - if in doubt, ask!</p>
+<p>Anyone who has <a>contributed</a>&nbsp;to any .NET Foundation project. Usually&nbsp;that will be with code, but can include documentation, or filing significant issues. It might be something we haven't thought of yet - if in doubt, ask!</p>
 
 <p><strong>UPDATE: We've expanded and clarified the contribution requirements.&nbsp;Any individual contributor to a .NET Foundation project can apply to become a member. Contributions may include code contributions, documentation, or other significant project contribution, including evangelism, teaching, code, organizing events, etc. If in doubt, please ask us at&nbsp;contact@dotnetfoundation.org</strong></p>
 

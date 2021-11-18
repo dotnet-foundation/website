@@ -29,9 +29,9 @@ Mentor: true
 ---
 I can define myself as a software architect and **Microsoft Technical Evangelist**. 
 Using Microsoft solutions for more than 20 years.
-I’m Microsoft certified in C# (70-483) and HTML5 (70-480) and Scrum Master (scrum.org). 
+I'm Microsoft certified in C# (70-483) and HTML5 (70-480) and Scrum Master (scrum.org). 
 
-In 2016, I’ve received the **MVP Award** from Microsoft.
-I’m podcaster in the **DevApps.ms** show: a french podcast dedicated to Technologies and News in Microsoft .NET domain.
+In 2016, I've received the **MVP Award** from Microsoft.
+I'm podcaster in the **DevApps.ms** show: a french podcast dedicated to Technologies and News in Microsoft .NET domain.
 I'm the creator of the **DatabaseCommand** and **DbMocker** toolkit, Open Source projects available on https://github.com/apps72
 

@@ -95,7 +95,7 @@ Full details are available [here](https://github.com/linq2db/linq2db/wiki/Releas
 
 #### Documentation project
 
-We’re grateful to have [Sean Killeen](https://seankilleen.com/) join us as lead of the documentation project. He put in a lot of effort to modernize the NUnit documentation, to great effect as you can see at [https://docs.nunit.org](https://docs.nunit.org)! The docs are now built with docfx. They are integrated with the website, have full-text search, and have edit links on each page where you can submit a PR easily. We look forward to seeing [your suggestions and contributions](https://github.com/nunit/docs)!
+We're grateful to have [Sean Killeen](https://seankilleen.com/) join us as lead of the documentation project. He put in a lot of effort to modernize the NUnit documentation, to great effect as you can see at [https://docs.nunit.org](https://docs.nunit.org)! The docs are now built with docfx. They are integrated with the website, have full-text search, and have edit links on each page where you can submit a PR easily. We look forward to seeing [your suggestions and contributions](https://github.com/nunit/docs)!
 
 #### NUnit VSTest adapter
 
@@ -109,7 +109,7 @@ We’re grateful to have [Sean Killeen](https://seankilleen.com/) join us as lea
 
 - [0.4](https://github.com/nunit/nunit.analyzers/releases/tag/0.4.0) adds 13 new diagnostics and codefixes for asserts in the classical model such as Assert.Greater, Assert.IsNotEmpty, and Assert.IsNotInstanceOf. We have also improved the handling of asserts against constants and variables of type Task. In addition, we now properly handle ValueSourceAttribute and test methods decorated with both a TestAttribute and a TestCaseSourceAttribute/TestCaseAttribute. We have also added a diagnostic and codefix to ensure that test methods are public.
 
-Please [try out the latest](https://www.nuget.org/packages/NUnit.Analyzers) and continue to [let us know what you’d like to see](https://github.com/nunit/nunit.analyzers/issues)!
+Please [try out the latest](https://www.nuget.org/packages/NUnit.Analyzers) and continue to [let us know what you'd like to see](https://github.com/nunit/nunit.analyzers/issues)!
 
 #### NUnit Console and Engine
 
@@ -123,11 +123,11 @@ Please [try out the latest](https://www.nuget.org/packages/NUnit.Analyzers) and 
 
 Would your user group / meetup appreciate hearing about .NET on AWS from an AWS .NET developer advocate? The team of longtime .NET developers would be thrilled to join your virtual user group to chat about the latest for .NET in the cloud. 
 
-Here’s a list of example topics:
-- **Overview of .NET on AWS:** AWS has over a decade supporting .NET on the cloud. We’ll provide an overview of all the support you might not know existed, such as free tools for Visual Studio, PowerShell, Azure DevOps, etc.
-- **Building serverless with .NET:** The future is now for serverless, and AWS is ensuring .NET is vibrant in that future. We’ll show you how anybody can get started and take advantage of the speed and ease of using serverless with .NET.
+Here's a list of example topics:
+- **Overview of .NET on AWS:** AWS has over a decade supporting .NET on the cloud. We'll provide an overview of all the support you might not know existed, such as free tools for Visual Studio, PowerShell, Azure DevOps, etc.
+- **Building serverless with .NET:** The future is now for serverless, and AWS is ensuring .NET is vibrant in that future. We'll show you how anybody can get started and take advantage of the speed and ease of using serverless with .NET.
 - **Infrastructure as .NET:** Why learn JSON or YAML to build on the cloud if you can just use .NET? Learn how to model and provision cloud resources in .NET with the open source AWS Cloud Development Kit (CDK)
-- **PowerShell on AWS:** AWS supports PowerShell and makes it easy to manage your AWS resources in a PowerShell scripting environment. We’ll show you all the things you can easily do on AWS with PowerShell, including native support for serverless. 
+- **PowerShell on AWS:** AWS supports PowerShell and makes it easy to manage your AWS resources in a PowerShell scripting environment. We'll show you all the things you can easily do on AWS with PowerShell, including native support for serverless. 
 - **Something else?** What are you interested in hear about? Blazor? ML? Reach out and let us know.
 
 You can contact the .NET developer advocacy team at **[aws-dotnetfdn-interest-open@amazon.com](mailto://aws-dotnetfdn-interest-open@amazon.com)**. Cheers!

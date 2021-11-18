@@ -12,7 +12,7 @@ It is the father of the extremely popular <a href="https://github.com/ReactiveCo
 
 We believe that code is communication between people, that also happens to run on a computer. If you optimise for humans, then over a long time your project will end up better. Software should be understandable by other people; that is super important. We believe that only <a href="https://www.youtube.com/watch?v=5DZ8nC0ENdg" target="_blank">the power of the Reactive Extensions allows you to express the idea around a feature in one readable place</a>.
 
-Let’s say you have a text field, and whenever the user types something into it, you want to make a network request which searches for that query. Your designer has requested that this search query automatically execute as the user is typing but your operation team wants guarantees that only one network request is ever in transit and no more frequently than roughly once per second whilst the user is typing.</p>
+Let's say you have a text field, and whenever the user types something into it, you want to make a network request which searches for that query. Your designer has requested that this search query automatically execute as the user is typing but your operation team wants guarantees that only one network request is ever in transit and no more frequently than roughly once per second whilst the user is typing.</p>
 
 <img src="assets/projects/search-autocomplete.gif" alt="search autocomplete"/>
 

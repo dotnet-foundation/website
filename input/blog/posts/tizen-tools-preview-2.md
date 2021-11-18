@@ -11,4 +11,4 @@ Published: 2017-02-01 15:09:00.0000000
 
 <p>We're thrilled to see the great activity by Tizen developers from Samsung contributing to .NET Core and Xamarin.Forms along with the improvements to .NET support for Tizen that they have been contributing to the open source community.</p>
 
-<p>For more information see <a href="https://developer.tizen.org/development/preview">Samsung’s Tizen developer website</a> or get involved through the <a href="https://developer.tizen.org/forums/tizen-.net/active">Tizen .NET Forum</a>.</p>
+<p>For more information see <a href="https://developer.tizen.org/development/preview">Samsung's Tizen developer website</a> or get involved through the <a href="https://developer.tizen.org/forums/tizen-.net/active">Tizen .NET Forum</a>.</p>

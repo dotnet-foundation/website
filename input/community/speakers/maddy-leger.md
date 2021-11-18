@@ -23,4 +23,4 @@ Sessionize: https://sessionize.com/maddy-leger/
 Mentor: true
 Mentee: true
 ---
-Maddy Leger is a Program Manager at Microsoft on the Xamarin team. She has been with the team since 2018 working on Xamarin tooling. She first worked with the Xamarin team as a Microsoft intern and realized the impact she could have creating amazing developer tools and frameworks. Maddy’s current focus is on making Xamarin developers more productive than ever. Find Maddy on Twitter and Github @maddyleger1!
+Maddy Leger is a Program Manager at Microsoft on the Xamarin team. She has been with the team since 2018 working on Xamarin tooling. She first worked with the Xamarin team as a Microsoft intern and realized the impact she could have creating amazing developer tools and frameworks. Maddy's current focus is on making Xamarin developers more productive than ever. Find Maddy on Twitter and Github @maddyleger1!

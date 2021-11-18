@@ -12,7 +12,7 @@ Excluded: true
 
 <h3 id="update-on-board-elections">Update on Board Elections</h3>
 
-<p>We’re postponing our board elections as we work through the transition to our new Executive Director. We are also in the process of hiring a company to help the .NET Foundation administration and want to make sure this is in place before we solicit candidates. The .NET Foundation by-laws do not require an exact date to hold elections and the current Board decided to get streamlined processes in place before the next set of members are elected so that they will be set up for a successful year ahead.</p>
+<p>We're postponing our board elections as we work through the transition to our new Executive Director. We are also in the process of hiring a company to help the .NET Foundation administration and want to make sure this is in place before we solicit candidates. The .NET Foundation by-laws do not require an exact date to hold elections and the current Board decided to get streamlined processes in place before the next set of members are elected so that they will be set up for a successful year ahead.</p>
 
 <p>As always, these are available both on our blog and via e-mail: <a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
 

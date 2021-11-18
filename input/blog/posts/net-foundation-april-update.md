@@ -3,7 +3,7 @@ Title: .NET Foundation April Update
 Author: Jon Galloway
 Published: 2018-04-30 23:49:00.0000000
 ---
-<p>It’s time for the April Update, subtitled The Calm Before The Storm edition... it's a relatively quiet month, but stay tuned for May when we'll have lots of news including several new projects joining and updates from the <a href="https://www.microsoft.com/en-us/build">Build 2018 conference</a>.</p>
+<p>It's time for the April Update, subtitled The Calm Before The Storm edition... it's a relatively quiet month, but stay tuned for May when we'll have lots of news including several new projects joining and updates from the <a href="https://www.microsoft.com/en-us/build">Build 2018 conference</a>.</p>
 
 <p>Speaking of Build... the .NET Foundation will have a .NET Open Source booth at Build. Come say hi!</p>
 
@@ -92,7 +92,7 @@ More details <a href="https://github.com/App-vNext/Polly/wiki/Polly-and-HttpClie
 
 <h3>Recent Standout Community Posts and Links</h3>
 
-<p>Here are some recent posts we’ve featured on the ASP.NET Community Standup:</p>
+<p>Here are some recent posts we've featured on the ASP.NET Community Standup:</p>
 
 <ul>
 <li><a href="https://blogs.msdn.microsoft.com/webdev/2018/04/12/asp-net-core-2-1-0-preview2-now-available/">ASP.NET Core 2.1.0-preview2 now available</a></li>
@@ -130,13 +130,13 @@ More details <a href="https://github.com/App-vNext/Polly/wiki/Polly-and-HttpClie
 <hr />
 <h2>Connect with the .NET Foundation Online!</h2>
 
-<p>The <a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We’ll post regular updates and interesting things happening with .NET to share.</p>
+<p>The <a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We'll post regular updates and interesting things happening with .NET to share.</p>
 
 <p><a href="https://www.youtube.com/NETFoundation">The .NET Foundation is also on YouTube</a>. Watch community standups and design reviews as well as code-focused shows and interviews across our multiple playlists.</p>
 
 <p><a href="https://www.youtube.com/NETFoundation">Youtube</a></p>
 
-<p>Do you have an interesting piece of news or content related to .NET open source? Let us know so we can include it in next month’s update by posting a comment below.</p>
+<p>Do you have an interesting piece of news or content related to .NET open source? Let us know so we can include it in next month's update by posting a comment below.</p>
 
 <hr />
 <h2>Remember to Subscribe!</h2>
@@ -145,4 +145,4 @@ More details <a href="https://github.com/App-vNext/Polly/wiki/Polly-and-HttpClie
 
 <p><a href="http://eepurl.com/dhL_qb">Subscribe</a></p>
 
-<p>Don’t worry, we want to keep these short, interesting, and low-noise, so we won’t overload your e-mail.</p>
+<p>Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>

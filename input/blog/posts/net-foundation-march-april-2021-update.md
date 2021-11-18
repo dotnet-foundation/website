@@ -69,7 +69,7 @@ Since releasing version 2.0 in coordination with the .NET 5 launch event at .NET
 
 For the third time, JetBrains are organizing [JetBrains .NET Days Online](https://pages.jetbrains.com/dotnet-days-2021/dnf) - a free virtual event that will take place on May 11–12, 2021. Community speakers are presenting topics they are passionate about. You can expect a variety of levels of technical content, and speakers may also share their personal experiences and development.
 
-The topics on this year’s agenda include C#, F#, GraphQL, Blazor, gRPC, Hedy, working with databases, and debugging. On top of that, we’ll discuss stereotypes around legacy code and demonstrate how to build a React app backed with Azure features.
+The topics on this year's agenda include C#, F#, GraphQL, Blazor, gRPC, Hedy, working with databases, and debugging. On top of that, we'll discuss stereotypes around legacy code and demonstrate how to build a React app backed with Azure features.
 
 For more information, [head over to the registration page](https://pages.jetbrains.com/dotnet-days-2021/dnf)!
 
@@ -89,7 +89,7 @@ If you missed it, you can watch th sessions, get the slides and demos, and grab 
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
 
 ### [Support a project](https://dotnetfoundation.org/projects)
-Projects, and the people behind them, are at the heart of what .NET Foundation is all about. These days, you’ll find a wide variety of projects under the .NET Foundation. Can you contribute to something already in the works? [Browse our projects](https://dotnetfoundation.org/projects) to find out how to contribute. 
+Projects, and the people behind them, are at the heart of what .NET Foundation is all about. These days, you'll find a wide variety of projects under the .NET Foundation. Can you contribute to something already in the works? [Browse our projects](https://dotnetfoundation.org/projects) to find out how to contribute. 
 
 ### [Become a member](https://dotnetfoundation.org/member) 
 By involving people that are passionate about .NET we can create a powerful organization that furthers sustainable open source, a diverse and open community, and help evolve this growing and evolving ecosystem that we are very passionate about. If you are as passionate about the .NET ecosystem as we are, then you should consider becoming a member of the .NET Foundation. [Read more about member benefits](https://dotnetfoundation.org/member) and [please join](https://dotnetfoundation.org/member/become-a-member) to help shape the future.

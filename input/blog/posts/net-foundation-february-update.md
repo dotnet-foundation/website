@@ -3,7 +3,7 @@ Title: .NET Foundation February Update
 Author: Jon Galloway
 Published: 2019-02-28 22:00:00.0000000
 ---
-<p>Hey! It’s the February Update! As always, these are available both on our blog and via e-mail: <a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a>
+<p>Hey! It's the February Update! As always, these are available both on our blog and via e-mail: <a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a>
 <h2>.NET Foundation Updates</h2>
 <h3>Meetups</h3>
 <p>The .NET Foundation sponsored <a href="https://www.meetup.com/pro/dotnet">.NET Meetup Pro groups</a> have been busy! Here are some quick stats:</p>
@@ -38,8 +38,8 @@ Published: 2019-02-28 22:00:00.0000000
 <p>The ASP.NET team announced a new experiment called Blazor. Blazor is an experimental web UI framework based on C#, Razor, and HTML that runs in the browser via WebAssembly. Blazor promises to greatly simplify the task of building fast and beautiful single-page applications that run in any browser. It does this by enabling developers to write .NET-based web apps that run client-side in web browsers using open web standards.</p>
 <p>Read more about Blazor, including how to try out the bits and get involved, on the <a href="https://blogs.msdn.microsoft.com/webdev/2018/02/06/blazor-experimental-project/">announcement post here</a>.</p>
 <h3>Steeltoe Turns 2.0, Adds Support for ASP.NET Core 2.0, CredHub, and a SQL Server Connector</h3>
-<h3>The Steeltoe project just announced a big release, including support for ASP.NET Core 2.0 and .NET Standard 2.0! Steeltoe is a great, recent addition to the .NET Foundation, with lots of powerful features to help you build cloud-native microservices on .NET. This release really rounds out the Steeltoe offering with solid .NET Core 2.0 support, so if you’ve been waiting to take a look, this release is a great time to jump in!</h3>
-<p>Take a look at the Steeltoe team’s <a href="https://content.pivotal.io/blog/steeltoe-turns-2-0-adds-support-for-asp-net-core-2-0-credhub-and-a-sql-server-connector">announcement post here</a>. </p>
+<h3>The Steeltoe project just announced a big release, including support for ASP.NET Core 2.0 and .NET Standard 2.0! Steeltoe is a great, recent addition to the .NET Foundation, with lots of powerful features to help you build cloud-native microservices on .NET. This release really rounds out the Steeltoe offering with solid .NET Core 2.0 support, so if you've been waiting to take a look, this release is a great time to jump in!</h3>
+<p>Take a look at the Steeltoe team's <a href="https://content.pivotal.io/blog/steeltoe-turns-2-0-adds-support-for-asp-net-core-2-0-credhub-and-a-sql-server-connector">announcement post here</a>. </p>
 
 <h3>IdentityServer4 updates from NDC London</h3>
 <p>At NDC London 2018, The IdentityServer team made a lot of exciting announcements:</p>
@@ -70,17 +70,17 @@ Published: 2019-02-28 22:00:00.0000000
 <p>If you want to keep up to date with the latest ASP.NET news, join the Weekly ASP.NET Community Standup with Scott Hanselman, Damian Edwards and Jon Galloway. This is a live video meeting every Tuesday, with demos of new features and prototypes, live Q&amp;A, weekly community links, and more. Get the schedule, catch recent shows, and join the live standups at <a href="https://live.asp.net">https://live.asp.net</a></p>
 
 <h3>Dotnetos – .NET Performance Tour (Poland)</h3>
-<p>Here’s a fun, free event tour if you’re in or near Poland: the Three Dotnetos (Łukasz Pyrzyk, Szymon Kulec, and Konrad Kokosa) are putting on a 5 city tour. Get more information on the site: <a title="https://dotnetos.org/" href="https://dotnetos.org/">https://dotnetos.org/</a>
+<p>Here's a fun, free event tour if you're in or near Poland: the Three Dotnetos (Łukasz Pyrzyk, Szymon Kulec, and Konrad Kokosa) are putting on a 5 city tour. Get more information on the site: <a title="https://dotnetos.org/" href="https://dotnetos.org/">https://dotnetos.org/</a>
 <p>
 <h3>Recent Standout Community Posts</h3>
-<p>Here are some recent posts we’ve featured on the ASP.NET Community Standup:</p>
+<p>Here are some recent posts we've featured on the ASP.NET Community Standup:</p>
 <ul>
 
 <li><a href="http://blog.stevensanderson.com/2018/02/06/blazor-intro/">Blazor: a technical introduction </a>
 <li><a href="http://binaryintellect.net/articles/16ecfe49-98df-4305-b53f-2438d836f0d0.aspx">Use Ajax to perform CRUD operations in ASP.NET Core Razor Pages | BinaryIntellect Knowledge Base </a>
 <li><a href="https://damienbod.com/2018/02/08/adding-http-headers-to-improve-security-in-an-asp-net-mvc-core-application/">Adding HTTP Headers to improve Security in an ASP.NET MVC Core application | Software Engineering </a>
 <li><a href="https://jeremydmiller.com/2018/02/13/bluemilk-is-ready-for-early-adopters/">BlueMilk is Ready for Early Adopters | The Shade Tree Developer </a>
-<li><a href="https://jeremydmiller.com/2018/01/16/introducing-bluemilk-structuremaps-replacement-jaspers-special-sauce/">Introducing BlueMilk: StructureMap’s Replacement &amp; Jasper’s Special Sauce | The Shade Tree Developer </a>
+<li><a href="https://jeremydmiller.com/2018/01/16/introducing-bluemilk-structuremaps-replacement-jaspers-special-sauce/">Introducing BlueMilk: StructureMap's Replacement &amp; Jasper's Special Sauce | The Shade Tree Developer </a>
 <li><a href="https://adamstorr.azurewebsites.net/blog/aspnetcore-webhooks-running-the-azurealertwebhook">Adam Storr - ASP.NET Core WebHooks - Running the AzureAlertWebHook </a>
 <li><a href="https://github.com/T4MVC/R4MVC/wiki/Documentation">Documentation · T4MVC/R4MVC Wiki </a>
 <li><a href="https://github.com/csharpfritz/Fritz.LiveStream/tree/master/aspNetCoreWorkshop">Fritz.LiveStream/aspNetCoreWorkshop at master · csharpfritz/Fritz.LiveStream </a>
@@ -111,12 +111,12 @@ Published: 2019-02-28 22:00:00.0000000
 
 </ul>
 
-<p>The <a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We’ll post regular updates and interesting things happening with .NET to share.
+<p>The <a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We'll post regular updates and interesting things happening with .NET to share.
 <p><a href="https://www.youtube.com/NETFoundation">The .NET Foundation is also on YouTube</a>. Watch community standups and design reviews as well as code-focused shows and interviews across our multiple playlists.
 <p><a href="https://www.youtube.com/NETFoundation">Youtube</a>
-<p>Do you have an interesting piece of news or content related to .NET open source? Let us know so we can include it in next month’s update by posting a comment below.
+<p>Do you have an interesting piece of news or content related to .NET open source? Let us know so we can include it in next month's update by posting a comment below.
 <hr>
 <h2>Remember to Subscribe!</h2>
 <p>Please <a href="http://eepurl.com/dhL_qb">sign up</a> to get the .NET Foundation Update via e-mail.
 <p><a href="http://eepurl.com/dhL_qb">Subscribe</a>
-<p>We’re planning to send these out at the beginning of every month going forward, so that means you should see the February one in just a few weeks. Don’t worry, we want to keep these short, interesting, and low-noise, so we won’t overload your e-mail.
+<p>We're planning to send these out at the beginning of every month going forward, so that means you should see the February one in just a few weeks. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.

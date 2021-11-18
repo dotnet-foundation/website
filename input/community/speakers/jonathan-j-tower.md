@@ -1,5 +1,5 @@
 ---
-Title: Jonathan “J.” Tower
+Title: Jonathan "J." Tower
 Location: Grand Rapids, Michigan
 Email: jonathantower@gmail.com
 Language:

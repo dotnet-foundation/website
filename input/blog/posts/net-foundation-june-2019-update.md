@@ -42,14 +42,14 @@ If you're a .NET Foundation Member, sign up to join an action group:</p>
 <hr />
 <h2>.NET Foundation will be at OSCON</h2>
 
-<p>.NET Foundation will have a session at <a href="https://conferences.oreilly.com/oscon/oscon-or">OSCON</a> in Portland, July 15<sup>th</sup> – 18<sup>th</sup>. We’ll be talking about the importance of open source software foundations. If you’re headed there, please come see us! We’ll also have .NET presence at the Microsoft booth in the form of coding challenges, SWAG and experts you can chat with there.</p>
+<p>.NET Foundation will have a session at <a href="https://conferences.oreilly.com/oscon/oscon-or">OSCON</a> in Portland, July 15<sup>th</sup> – 18<sup>th</sup>. We'll be talking about the importance of open source software foundations. If you're headed there, please come see us! We'll also have .NET presence at the Microsoft booth in the form of coding challenges, SWAG and experts you can chat with there.</p>
 
 <hr />
 <h2><strong>.NET Conf 2019, September 23-25 (<a href="http://www.dotnetconf.net">www.dotnetconf.net</a>)</strong></h2>
 
 <p><a href="https://www.dotnetconf.net"><img src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" alt="dotnetconf" /></a></p>
 
-<p>.NET Conf is our annual, free, online virtual event and this year and it’s going to be bigger than ever. .NET Core 3.0 will launch at .NET Conf!<br />
+<p>.NET Conf is our annual, free, online virtual event and this year and it's going to be bigger than ever. .NET Core 3.0 will launch at .NET Conf!<br />
 <br />
 <strong>The .NET Conf Call for Speakers is now open.</strong> This is your chance to present to the world-wide .NET Community remotely from your own time-zone. Head to <a href="http://www.dotnetconf.net">www.dotnetconf.net</a> to learn more and save the date!</p>
 
@@ -112,11 +112,11 @@ If you're a .NET Foundation Member, sign up to join an action group:</p>
 <hr />
 <h3>Connect with the .NET Foundation online</h3>
 
-<p>The&nbsp;<a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We’ll post regular updates and interesting things happening with .NET to share.</p>
+<p>The&nbsp;<a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We'll post regular updates and interesting things happening with .NET to share.</p>
 
 <p><a href="https://www.youtube.com/NETFoundation">The .NET Foundation is also on YouTube</a>. Watch community standups and design reviews as well as code-focused shows and interviews across our multiple playlists.</p>
 
 <hr />
 <h3>Remember to Subscribe!</h3>
 
-<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don’t worry, we want to keep these short, interesting, and low-noise, so we won’t overload your e-mail.</p>
+<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>

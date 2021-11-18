@@ -19,4 +19,4 @@ Published: 2017-11-15 17:56:00.0000000
 <li>Cloud Security Providers which integrate ASP.NET Core authentication and authorization with Cloud Foundry security services</li>
 </ul>
 
-<p>For more information, see <a href="https://content.pivotal.io/blog/pivotal-contributes-steeltoe-to-the-net-foundation">Steeltoe’s announcement post</a>.</p>
+<p>For more information, see <a href="https://content.pivotal.io/blog/pivotal-contributes-steeltoe-to-the-net-foundation">Steeltoe's announcement post</a>.</p>

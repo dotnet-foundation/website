@@ -13,21 +13,21 @@ June 18, 2020
 
 ### Role of the .NET Foundation Board of Directors
 
-Stated simply, the Board of Directors of the .NET Foundation “runs the organization.” It decides how the money is spent; what projects join the Foundation; where the Executive Director applies focus; what programs the Foundation will run or be involved with; what events the Foundation will sponsor; and so forth. In other words, the Board manages or oversees all the business functions of the Foundation. The operational performance and long-term viability of the Foundation is dependent on a strong and effective Board of Directors.
+Stated simply, the Board of Directors of the .NET Foundation "runs the organization." It decides how the money is spent; what projects join the Foundation; where the Executive Director applies focus; what programs the Foundation will run or be involved with; what events the Foundation will sponsor; and so forth. In other words, the Board manages or oversees all the business functions of the Foundation. The operational performance and long-term viability of the Foundation is dependent on a strong and effective Board of Directors.
 
 ### Board of Directors Composition
 
-Per the Bylaws of the organization, the Board is comprised of up to seven Directors. One Director is appointed by the Microsoft Corporation. The other six Directors are elected by the individual members of the Foundation. For the sake of this policy document, the six elected Director positions shall be considered “At-Large” Director seats.
+Per the Bylaws of the organization, the Board is comprised of up to seven Directors. One Director is appointed by the Microsoft Corporation. The other six Directors are elected by the individual members of the Foundation. For the sake of this policy document, the six elected Director positions shall be considered "At-Large" Director seats.
 
 ### Voting
 
-Each individual member of the Foundation current at the time of the election is entitled to vote on the election of At-Large Directors, with each member’s vote counting equally.  
+Each individual member of the Foundation current at the time of the election is entitled to vote on the election of At-Large Directors, with each member's vote counting equally.  
 
 ### Director Terms + Term Staggering
 
 At-Large Directors are elected to a two-year term.
 
-For the 2020-2021 Board term only, once the incoming Board of Directors is seated, staggered term durations will be established among the six At-Large Director seats to help enhance the continuity of the organization’s governance. Specifically, three At-Large Director seats will be chosen randomly to serve a one-time, one-year term. The remaining three At-Large Director seats will have the standard two-year term. For all subsequent elections, the Foundation’s members will elect only three At-Large Director seats each year.
+For the 2020-2021 Board term only, once the incoming Board of Directors is seated, staggered term durations will be established among the six At-Large Director seats to help enhance the continuity of the organization's governance. Specifically, three At-Large Director seats will be chosen randomly to serve a one-time, one-year term. The remaining three At-Large Director seats will have the standard two-year term. For all subsequent elections, the Foundation's members will elect only three At-Large Director seats each year.
 
 ### Vacancies
 
@@ -42,7 +42,7 @@ There is no limit on the total number non-consecutive terms an individual may se
 
 ### Director Candidate Expectations
 
-Given the critical role of the Foundation’s Board of Directors in managing the Foundation and ensuring its long-term well-being and sustainability, it is imperative that the Foundation’s members elect representatives capable of fulfilling these important responsibilities. As such, some considerations for those seeking to serve on the Foundation’s Board of Directors may include:
+Given the critical role of the Foundation's Board of Directors in managing the Foundation and ensuring its long-term well-being and sustainability, it is imperative that the Foundation's members elect representatives capable of fulfilling these important responsibilities. As such, some considerations for those seeking to serve on the Foundation's Board of Directors may include:
 
 - Prior leadership role within the .NET Foundation or other open source communities (e.g., Board Director, Project Leader, Committee chair, etc.)
 - Meaningful engagements in open source communities
@@ -75,7 +75,7 @@ The members of the Nominating Committee shall be appointed by the Board of Direc
 - Non-members of the Foundation with relevant knowledge of the Foundation and relevant experience or skills may serve on the Nominating Committee, except as otherwise set forth in this policy.  
 - A current Director can serve on the Nominating Committee, only if they are not planning to run for re-election.
 - Persons are not eligible to serve on the Nominating Committee and also be candidates in the current election.
-- The Foundation’s Executive Director shall not be part of the Nominating Committee
+- The Foundation's Executive Director shall not be part of the Nominating Committee
 
 A vendor will project manage the Nominating Committee and be responsible for scheduling meetings, tracking progress, and record keeping.
 

@@ -33,4 +33,4 @@ Sweekriti is on a mission to preach best practices in mobile app development to 
 
 She is currently a software engineer with the Mobile Customer Advisory Team at Microsoft, where she primarily focuses on cross-platform mobile applications written with Xamarin (but also moonlights in DevOps automation tool development). She helps organizations create good mobile architecture, write thorough test suites and automate their DevOps workflows. She has an M.S in Computer Science from Boston University, where she dabbled in computational audio and video wizardry, among other things.
 
-In her free time, Sweekriti enjoys playing video games, stirring up concoctions in her kitchen and geeking out over the latest in science fiction. She’s always up for a rousing conversation about exciting new tech, Star Wars, Doctor Who and music!
+In her free time, Sweekriti enjoys playing video games, stirring up concoctions in her kitchen and geeking out over the latest in science fiction. She's always up for a rousing conversation about exciting new tech, Star Wars, Doctor Who and music!

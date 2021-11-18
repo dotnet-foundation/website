@@ -24,8 +24,8 @@ YouTube: https://youtube.com/GeraldVersluis
 Mentor: true
 Mentee: true
 ---
-Hi! I'm Gerald, and I write code for tech project around the world. I’m currently a software engineer at Microsoft working on GitHub Codespaces, and have worked with the likes of Azure, ASP.NET, DevOps, Xamarin, and others over the years.
+Hi! I'm Gerald, and I write code for tech project around the world. I'm currently a software engineer at Microsoft working on GitHub Codespaces, and have worked with the likes of Azure, ASP.NET, DevOps, Xamarin, and others over the years.
 
-When I’m not actively writing code, you’ll probably find me enjoying bad memes, or making content for my YouTube channel or blog. I like to think of those as byte-sized pieces of virtual knowledge to help my audience excel in the field I love so much.
+When I'm not actively writing code, you'll probably find me enjoying bad memes, or making content for my YouTube channel or blog. I like to think of those as byte-sized pieces of virtual knowledge to help my audience excel in the field I love so much.
 
-There’s no motivational fluff here. No “inspiration meets innovation” type jargon. At the end of the day I’m just a guy like any other, that happens to be obsessed with what I do. And trying to tech and help others grow, hopefully with a bit of a laugh.
+There's no motivational fluff here. No "inspiration meets innovation" type jargon. At the end of the day I'm just a guy like any other, that happens to be obsessed with what I do. And trying to tech and help others grow, hopefully with a bit of a laugh.

@@ -16,8 +16,8 @@ I'm a Microsoft Regional Director, and for 10 consecutive years I have been reco
 
 ## My .NET Contributions
 
-* Author of “[Xamarin.Forms en acción: aplicaciones de negocio](http://rclibros.es/producto/xamarin-forms-accion/)” : the first book about Xamarin.Forms in Spanish language
-* Author of “[Aplicaciones de Negocio con Silverlight 5](http://rclibros.es/producto/silverlight-5/)”: the first book about Silverlight in Spanish language
+* Author of "[Xamarin.Forms en acción: aplicaciones de negocio](http://rclibros.es/producto/xamarin-forms-accion/)" : the first book about Xamarin.Forms in Spanish language
+* Author of "[Aplicaciones de Negocio con Silverlight 5](http://rclibros.es/producto/silverlight-5/)": the first book about Silverlight in Spanish language
 * Frequent speaker around Latin America, United States and Europe, presenting sessions related to .NET and Cloud Computing
 * LinkedIn Learning author, for topics related to .NET and Azure
 * My podcast "Interfaz Podcast" is a weekly podcast in Spanish language (sometimes in English language as well), about software architecture, development, new technologies and soft skills, most of the time related to .NET technologies. After more than 2 years and 100+ episodes, is listened by thousands of people each month
@@ -48,8 +48,8 @@ Soy un Microsoft Regional Director, y Microsoft MVP desde hace 10 años consecut
 
 ## Mis Contribuciones .NET
 
-* Autor de “[Xamarin.Forms en acción: aplicaciones de negocio](http://rclibros.es/producto/xamarin-forms-accion/)” : el primer libro en español acerca de Xamarin.Forms
-* Autor de “[Aplicaciones de Negocio con Silverlight 5](http://rclibros.es/producto/silverlight-5/)”: el primer libro en español acerca de Silverlight
+* Autor de "[Xamarin.Forms en acción: aplicaciones de negocio](http://rclibros.es/producto/xamarin-forms-accion/)" : el primer libro en español acerca de Xamarin.Forms
+* Autor de "[Aplicaciones de Negocio con Silverlight 5](http://rclibros.es/producto/silverlight-5/)": el primer libro en español acerca de Silverlight
 * Soy conferencista frecuente en países de Latino América, Estados Unidos y Europa, presentando temas relacionados a .NET y cómputo en la Nube
 * Soy autor de LinkedIn Learning, para temas relacionados con .NET y Azure
 * Mi podcast "Interfaz Podcast" es un podcast en español, de edición semanal, acerca de arquitectura de software, desarrollo, nuevas tecnologías y soft skills, profundamente vinculado a temas de .NET.  Después de más de 2 años y más de 100 episodios, el podcast es escuchado por miles de personas mes con mes

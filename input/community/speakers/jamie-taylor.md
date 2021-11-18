@@ -42,7 +42,7 @@ Jamie is a .NET Developer with 11 years of commercial experience of building app
 - nTier and Onion architecture
 - Migrating Monoliths to Microservices
 
-He started tinkering with computers when he was 6 years old - he has written about this experience over at the [Waffling Taylors](https://wafflingtaylors.rocks/2017/03/03/our-first-computer-amstrad-cpc-464/). He has been building applications, games, and websites ever since. He likes to experiment with technologies at the bleeding edge - something he showed off when he [gave talks on Blazor during it’s public preview](https://dotnetcore.show/episode-25-blazor-you-want-to-run-net-where/).
+He started tinkering with computers when he was 6 years old - he has written about this experience over at the [Waffling Taylors](https://wafflingtaylors.rocks/2017/03/03/our-first-computer-amstrad-cpc-464/). He has been building applications, games, and websites ever since. He likes to experiment with technologies at the bleeding edge - something he showed off when he [gave talks on Blazor during it's public preview](https://dotnetcore.show/episode-25-blazor-you-want-to-run-net-where/).
 
 A life long learner, he has tried his hand at C# (his language of choice), low level C, Python, Node, and TypeScript. He plays bass guitar, and speaks Japanese.
 

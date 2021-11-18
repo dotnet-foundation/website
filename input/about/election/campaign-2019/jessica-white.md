@@ -7,21 +7,21 @@ image: campaign-2019/4fabcac7-d0af-4c01-856b-4fa14cbbcd29.jpg
 
 ### The TL;DR.
 
-* I offer the valuable, but rarely heard, perspective of those without multiple years of experience and contribution. From my time running diverse events, training junior and student developers, and from public speaking I’ve demonstrated that I can articulate sensitive and complex concepts, actively listen to others, speak up for them and act with empathy.
+* I offer the valuable, but rarely heard, perspective of those without multiple years of experience and contribution. From my time running diverse events, training junior and student developers, and from public speaking I've demonstrated that I can articulate sensitive and complex concepts, actively listen to others, speak up for them and act with empathy.
 
 * I want to make it easier and more enjoyable to contribute to .NET projects for all.
 
-* I’m passionate about encouraging diversity and empowerment.
+* I'm passionate about encouraging diversity and empowerment.
 
 ## Who Am I?
 
-Hi, I’m Jessica. I am a back-end software engineer, community advocate, conference speaker and conference organiser.
+Hi, I'm Jessica. I am a back-end software engineer, community advocate, conference speaker and conference organiser.
 
 I actively partake in advocacy and outreach, not solely around .NET, but about technology as an industry. In the past I founded a diversity meetup, which has successfully run monthly events for four years and outgrown two venues. 
 
 I often speak, mentor and volunteer at schools, colleges, universities and bootcamps. Further to this, I am currently running a technology conference which is not language specific, having a focus on making the event inclusive and enjoyable.
 
-## Why I’m Running
+## Why I'm Running
 
 The .NET Foundation has been open about its efforts to lower the barrier to entry to OSS and .NET related events. I know how intimidating it can be to make those initial contributions to projects, and how difficult it can be to find the support and guidance that give you the confidence to make those first steps. 
 

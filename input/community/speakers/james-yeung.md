@@ -27,8 +27,8 @@ Mentor: true
 ---
 My name is **James Yeung**
 
-- 👨‍💻 I’m a [Microsoft MVP](https://mvp.microsoft.com/en-us/PublicProfile/5003987).
-- 🔭 I’m currently working on [Ant Design Blazor](https://github.com/ant-design-blazor/ant-design-blazor).
-- 🌱 I’m currently learning reactive architecture.
-- 💕 I’m a open source enthusiast.
-- 🖖 I’m a system architecture developer.
+- 👨‍💻 I'm a [Microsoft MVP](https://mvp.microsoft.com/en-us/PublicProfile/5003987).
+- 🔭 I'm currently working on [Ant Design Blazor](https://github.com/ant-design-blazor/ant-design-blazor).
+- 🌱 I'm currently learning reactive architecture.
+- 💕 I'm a open source enthusiast.
+- 🖖 I'm a system architecture developer.
