@@ -7,7 +7,7 @@ image: https://media.licdn.com/dms/image/C5603AQGw_unwLaxKUA/profile-displayphot
 
 ## Why I'm Running
 I have been part of Telerik for almost 9 years now, where I have been working with .NET developers from various industries and company sizes. Being part of one of the biggest UI components vendors allowed me to get deeply acquainted with the .NET developers, with the projects they are working on – both small apps and large enterprise applications, with their needs for the apps they are working on, with the latest trends in software development and many more.
-For the last few years, I have also been part of the Microsoft’s Visual Studio Partner Program, which allowed me to get early insight and share feedback on everything new Microsoft is working on as well as to make many new friends in the cradle of .NET and all its supporting technologies.
+For the last few years, I have also been part of the Microsoft's Visual Studio Partner Program, which allowed me to get early insight and share feedback on everything new Microsoft is working on as well as to make many new friends in the cradle of .NET and all its supporting technologies.
 .NET is now part of my DNA and it will be honor for me to participate as a board member and continue contributing to the overall direction of .NET.
 
 ## My .NET Contributions

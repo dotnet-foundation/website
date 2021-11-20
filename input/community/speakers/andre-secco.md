@@ -29,9 +29,9 @@ MeetUp: https://www.meetup.com/pt-BR/members/187846737/
 YouTube: https://www.youtube.com/andresecco
 Instagram: https://www.instagram.com/secco.andre
 ---
-- I’m working as **Software Architect** and **Software Consultant**.
-- I’m Microsoft Most Valuable Professional ([MVP](https://mvp.microsoft.com)) in the **Developer Technologies** and **Artificial Intelligence** categories.
-- I’m an enthusiast of **Internet of Things**, **Bots** and **Artificial Intelligence**.
+- I'm working as **Software Architect** and **Software Consultant**.
+- I'm Microsoft Most Valuable Professional ([MVP](https://mvp.microsoft.com)) in the **Developer Technologies** and **Artificial Intelligence** categories.
+- I'm an enthusiast of **Internet of Things**, **Bots** and **Artificial Intelligence**.
 - I'm Speaker and Organizer of [Canal .NET](https://www.youtube.com/canaldotnet), [Coding Night](https://www.youtube.com/codingnight), [André Secco Channel](https://www.youtube.com/andresecco) and [DevShow Podcast](https://devshow.com.br)
 
 #### Follow me:

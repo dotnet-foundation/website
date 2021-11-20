@@ -7,7 +7,7 @@ IsActive: False
 ---
 # Network Monitor Experts
 
-[NMExperts](https://archive.codeplex.com/?p=NMExperts) introduces the Experts menu. This feature allows you to run external analysis tools on an open capture file. This page is points you to these useful “Experts” for your data analysis needs within Network Monitor. Also provided here is the Expert SDK.
+[NMExperts](https://archive.codeplex.com/?p=NMExperts) introduces the Experts menu. This feature allows you to run external analysis tools on an open capture file. This page is points you to these useful "Experts" for your data analysis needs within Network Monitor. Also provided here is the Expert SDK.
 
 ## Project Details
 

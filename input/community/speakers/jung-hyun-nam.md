@@ -44,8 +44,8 @@ Mentor: true
 
 - I'm living in Seoul, S. Korea
 - I'm interested in C#, .NET, Windows Container, Microsoft Azure
-- I’m currently working on [DEVSISTERS](https://github.com/devsisters)
-- I’m currently learning technical writing and communication.
+- I'm currently working on [DEVSISTERS](https://github.com/devsisters)
+- I'm currently learning technical writing and communication.
 - How to reach me: rkttu at rkttu dot com
 
 #### My Profile

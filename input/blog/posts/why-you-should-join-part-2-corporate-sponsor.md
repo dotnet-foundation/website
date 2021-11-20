@@ -3,7 +3,7 @@ Title: "Why You Should Join: Part 2 - Join as a Corporate Sponsor"
 Author: Jon Galloway
 Published: 2019-01-16 23:54:02.0479955
 ---
-<p>We recently announced some big changes to the .NET Foundation: <a href="blog/2018/12/04/announcing-net-foundation-open-membership">Open Membership and a new Corporate Sponsor program</a>. We’ve talked a bit about the Open Membership changes, but haven’t said a whole lot about the Corporate Sponsor program other than welcoming <a href="https://content.pivotal.io/blog/you-re-investing-in-net-and-so-are-we-pivotal-is-now-a-corporate-sponsor-of-the-net-foundation">Pivotal</a>, <a href="https://www.telerik.com/blogs/progress-announces-support-visual-studio-2019-net-core-3-net-foundation-more">Progress Telerik</a> and <a href="https://www.insight.com/">Insight</a> as launch partners. Let’s dig into some specifics: what’s changing, why, and why your company should consider getting involved.</p>
+<p>We recently announced some big changes to the .NET Foundation: <a href="blog/2018/12/04/announcing-net-foundation-open-membership">Open Membership and a new Corporate Sponsor program</a>. We've talked a bit about the Open Membership changes, but haven't said a whole lot about the Corporate Sponsor program other than welcoming <a href="https://content.pivotal.io/blog/you-re-investing-in-net-and-so-are-we-pivotal-is-now-a-corporate-sponsor-of-the-net-foundation">Pivotal</a>, <a href="https://www.telerik.com/blogs/progress-announces-support-visual-studio-2019-net-core-3-net-foundation-more">Progress Telerik</a> and <a href="https://www.insight.com/">Insight</a> as launch partners. Let's dig into some specifics: what's changing, why, and why your company should consider getting involved.</p>
 
 <p>This post is the second in a series:</p>
 
@@ -15,7 +15,7 @@ Published: 2019-01-16 23:54:02.0479955
 
 <h2>What is the .NET Foundation?</h2>
 
-<p>Let’s start with the basics since they help explain why we see broad corporate sponsorship as an important part of evolving the foundation:&nbsp;The .NET Foundation is an independent, non-profit organization, created in 2014 to foster open development and collaboration around the growing collection of open source technologies for .NET. It serves as a forum for commercial and community developers alike to strengthen the future of the .NET ecosystem by promoting openness, community participation,&nbsp;and rapid innovation.</p>
+<p>Let's start with the basics since they help explain why we see broad corporate sponsorship as an important part of evolving the foundation:&nbsp;The .NET Foundation is an independent, non-profit organization, created in 2014 to foster open development and collaboration around the growing collection of open source technologies for .NET. It serves as a forum for commercial and community developers alike to strengthen the future of the .NET ecosystem by promoting openness, community participation,&nbsp;and rapid innovation.</p>
 
 <h2>What we announced</h2>
 
@@ -27,17 +27,17 @@ Published: 2019-01-16 23:54:02.0479955
 <li>We're expanding our current Technical Steering Group to a Corporate Sponsor Program.</li>
 </ol>
 
-<p>We’re inviting the .NET community to take an active role in guiding and supporting the .NET Foundation, and that includes both individual open source developers and businesses that depend on .NET open source. We think it’s really important to involve corporate sponsors as a key part of this change for three reasons.</p>
+<p>We're inviting the .NET community to take an active role in guiding and supporting the .NET Foundation, and that includes both individual open source developers and businesses that depend on .NET open source. We think it's really important to involve corporate sponsors as a key part of this change for three reasons.</p>
 
-<p>First, for the .NET Foundation to really be independent and community run, it needs to be independently funded. In the past, we’ve depended on (greatly appreciated!) donations from Microsoft. Going forward, we’ll be funded by Corporate Sponsorships and Member Dues. Microsoft’s donation as a Corporate Sponsor will now be a relatively small percentage of our funding.</p>
+<p>First, for the .NET Foundation to really be independent and community run, it needs to be independently funded. In the past, we've depended on (greatly appreciated!) donations from Microsoft. Going forward, we'll be funded by Corporate Sponsorships and Member Dues. Microsoft's donation as a Corporate Sponsor will now be a relatively small percentage of our funding.</p>
 
 <p>Secondly, Corporate Sponsorship really expands what the .NET Foundation can do – not just by having a bigger budget, but by being able to make long term plans based on annual dues payments.</p>
 
-<p>Third, Corporate Sponsorship will directly involve the .NET corporate world in the .NET open source ecosystem, which is important! We’ll have input from companies that depend on .NET open source, we’ll be able to tackle some hard problems like how companies can be involved in sustainable community run open source projects.</p>
+<p>Third, Corporate Sponsorship will directly involve the .NET corporate world in the .NET open source ecosystem, which is important! We'll have input from companies that depend on .NET open source, we'll be able to tackle some hard problems like how companies can be involved in sustainable community run open source projects.</p>
 
 <h2>Why should you join as a Corporate Sponsor?</h2>
 
-<p>So far we’ve talked about why we want companies to join. Now let’s explore <i>why a company would want to join</i>: what’s in it for you?</p>
+<p>So far we've talked about why we want companies to join. Now let's explore <i>why a company would want to join</i>: what's in it for you?</p>
 
 <ol>
 <li>First and foremost, because open source .NET is important to your business; a healthy open source .NET community helps you. Sponsoring the .NET Foundation is your best opportunity to ensure that the worldwide .NET open source developer base grows to their full potential.</li>
@@ -84,6 +84,6 @@ Published: 2019-01-16 23:54:02.0479955
 
 <p>Most important, you should see .NET Foundation sponsorship as something that benefits you in three clear ways: you help build the .NET open source ecosystem, you can have a direct impact on the future of .NET, and you can market your products and services to the .NET community.</p>
 
-<p>If you’re interested in learning more about the sponsorship program Got questions? Get in touch: <a href="mailto:contact@dotnetfoundation.org?subject=.NET%20Foundation%20Corporate%20Sponsorship">contact@dotnetfoundation.org</a></p>
+<p>If you're interested in learning more about the sponsorship program Got questions? Get in touch: <a href="mailto:contact@dotnetfoundation.org?subject=.NET%20Foundation%20Corporate%20Sponsorship">contact@dotnetfoundation.org</a></p>
 
 <div></div>

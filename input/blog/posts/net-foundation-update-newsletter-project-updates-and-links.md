@@ -3,17 +3,17 @@ Title: ".NET Foundation Update: Newsletter, Project Updates, and links!"
 Author: Jon Galloway
 Published: 2018-01-17 22:24:00.0000000
 ---
-<p>Welcome to the first of a series: our regular .NET Foundation updates! We’ll be posting these on our blog, but to make sure you don’t miss one, please subscribe to get them via e-mail.</p>
+<p>Welcome to the first of a series: our regular .NET Foundation updates! We'll be posting these on our blog, but to make sure you don't miss one, please subscribe to get them via e-mail.</p>
 
 <p><a class="btn btn-ar btn-primary" href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
 
-<p>We’re planning to send these out at the beginning of every month going forward, so that means you should see the February one in just a few weeks. Don’t worry, we want to keep these short, interesting, and low-noise, so we won’t overload your e-mail.</p>
+<p>We're planning to send these out at the beginning of every month going forward, so that means you should see the February one in just a few weeks. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>
 
 <h2>.NET Foundation Updates</h2>
 
 <h3>Meetups</h3>
 
-<p class="media"><a href="https://www.meetup.com/pro/dotnet" target="_blank"><img class="media-left" src="assets/posts/meetupmap_1-2018.png" /></a>The .NET Foundation has sponsored a <a href="https://www.meetup.com/pro/dotnet">.NET Meetup Pro group</a> and now has over 100 member groups. If you’re looking for a .NET Meetup in your area, this should help you find Meetups that are focused on .NET; if you run a .NET meetup we’ll pay for your Meetup Pro membership.</p>
+<p class="media"><a href="https://www.meetup.com/pro/dotnet" target="_blank"><img class="media-left" src="assets/posts/meetupmap_1-2018.png" /></a>The .NET Foundation has sponsored a <a href="https://www.meetup.com/pro/dotnet">.NET Meetup Pro group</a> and now has over 100 member groups. If you're looking for a .NET Meetup in your area, this should help you find Meetups that are focused on .NET; if you run a .NET meetup we'll pay for your Meetup Pro membership.</p>
 
 <p class="clearfix">Please help connect us with other groups you're aware of that haven't joined yet by dropping me a note <a href="mailto:jon@dotnetfoundation.org">jon@dotnetfoundation.org</a> or leaving a comment below.​</p>
 
@@ -30,9 +30,9 @@ Published: 2018-01-17 22:24:00.0000000
 
 <h3>CLA System Upgrade</h3>
 
-<p>One of the technical services we offer .NET Foundation projects is access to our Contributor License Agreement (CLA) automation system for GitHub pull requests. We’ve recently completed a pretty significant upgrade from our previous legacy system. The new system is build on the open source <a href="https://cla-assistant.io/">CLA Assistant</a>&nbsp; project and is a lot more reliable and easy to maintain. Users will have a better experience since they can just click through in the browser (no need to use DocuSign). Project owners will see less noise on the repo as the CLA messaging is cleanly integrated into the GitHub required pull request review steps and doesn't add status comments to the pull request.</p>
+<p>One of the technical services we offer .NET Foundation projects is access to our Contributor License Agreement (CLA) automation system for GitHub pull requests. We've recently completed a pretty significant upgrade from our previous legacy system. The new system is build on the open source <a href="https://cla-assistant.io/">CLA Assistant</a>&nbsp; project and is a lot more reliable and easy to maintain. Users will have a better experience since they can just click through in the browser (no need to use DocuSign). Project owners will see less noise on the repo as the CLA messaging is cleanly integrated into the GitHub required pull request review steps and doesn't add status comments to the pull request.</p>
 
-<p>One of the features of the new system is that it's easier to add new projects. We’re still working through getting some new projects onboarded, but it’s a much simpler process now.</p>
+<p>One of the features of the new system is that it's easier to add new projects. We're still working through getting some new projects onboarded, but it's a much simpler process now.</p>
 
 <hr class="color dashed" />
 <h2>.NET Foundation Project News</h2>
@@ -75,17 +75,17 @@ Published: 2018-01-17 22:24:00.0000000
 <hr class="color dashed" />
 <h2>Community Links and News</h2>
 
-<p>The <a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We’ll post regular updates and interesting things happening with .NET to share.</p>
+<p>The <a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We'll post regular updates and interesting things happening with .NET to share.</p>
 
 <p><iframe allowtransparency="true" frameborder="0" height="65" scrolling="no" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fdotnetfoundation%2F&amp;width=63&amp;layout=button&amp;action=like&amp;size=large&amp;show_faces=true&amp;share=false&amp;height=65&amp;appId=8683731822" style="border: currentcolor; border-image: none; overflow: hidden;" width="63"></iframe></p>
 
-<p>Recently Matt Warren, a .NET MVP, wrote up this pretty interesting post on Open Source .NET - 3 Years Later (<a href="http://mattwarren.org/2017/12/19/Open-Source-.Net-3-years-later)">http://mattwarren.org/2017/12/19/Open-Source-.Net-3-years-later)</a> . In the post, he highlights the community's involvement in .NET repositories. It’s amazing to see the growth we’ve achieved in just three years. I’m very encouraged by our fantastic community contributing to .NET open source.</p>
+<p>Recently Matt Warren, a .NET MVP, wrote up this pretty interesting post on Open Source .NET - 3 Years Later (<a href="http://mattwarren.org/2017/12/19/Open-Source-.Net-3-years-later)">http://mattwarren.org/2017/12/19/Open-Source-.Net-3-years-later)</a> . In the post, he highlights the community's involvement in .NET repositories. It's amazing to see the growth we've achieved in just three years. I'm very encouraged by our fantastic community contributing to .NET open source.</p>
 
 <p><a href="https://www.youtube.com/NETFoundation" target="_blank">The .NET Foundation is also on YouTube</a>. Watch community standups and design reviews as well as code-focused shows and interviews across our multiple playlists.</p>
 
 <p><a class="btn-social solid youtube" href="https://www.youtube.com/NETFoundation">Youtube</a></p>
 
-<p>Do you have an interesting piece of news or content related to .NET open source? Let us know so we can include it in next month’s update by posting a comment below.</p>
+<p>Do you have an interesting piece of news or content related to .NET open source? Let us know so we can include it in next month's update by posting a comment below.</p>
 
 <hr class="color dashed" />
 <h2>Remember to Subscribe!</h2>
@@ -94,4 +94,4 @@ Published: 2018-01-17 22:24:00.0000000
 
 <p><a class="btn btn-ar btn-primary" href="http://eepurl.com/dhL_qb">Subscribe</a></p>
 
-<p>We’re planning to send these out at the beginning of every month going forward, so that means you should see the February one in just a few weeks. Don’t worry, we want to keep these short, interesting, and low-noise, so we won’t overload your e-mail.</p>
+<p>We're planning to send these out at the beginning of every month going forward, so that means you should see the February one in just a few weeks. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>

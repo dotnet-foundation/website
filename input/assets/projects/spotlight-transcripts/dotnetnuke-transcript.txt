@@ -1,10 +1,10 @@
 <p class='mx-auto'>
-    <strong>Isaac: </strong>Welcome everybody to the newest edition of the .NET Foundation’s Project Spotlight. I'm
+    <strong>Isaac: </strong>Welcome everybody to the newest edition of the .NET Foundation's Project Spotlight. I'm
     pleased to have Mitchel Sellers from DNN, the artist formerly known as DotNetNuke. Mitchel, did you want to say
     hello and Introduce yourself.
 </p>
 <p class='mx-auto'>
-    <strong>Mitchel: </strong>Hi, I’m Mitchel Sellers. I am the technology lead for the DotNetNuke or DNN platform
+    <strong>Mitchel: </strong>Hi, I'm Mitchel Sellers. I am the technology lead for the DotNetNuke or DNN platform
     project and am excited to be here.
 </p>
 <p class='mx-auto'>
@@ -33,7 +33,7 @@
     other platforms out there, however, again, you know we don't have any license fees, where-as part of the .NET
     Foundation and we're totally free to utilize and to be able to extend. We have great extension points for almost all
     the various pieces of functionality, so that if you don't like the way that authentication works, you can swap it
-    out with something else. You don’t you like the way that, you know, other features work, we can work with that and
+    out with something else. You don't you like the way that, you know, other features work, we can work with that and
     we're continually evolving to bring the project further and further forward with technology. And it's really that
     growth and add ability that makes us a very powerful tool set for developers.
 </p>
@@ -47,7 +47,7 @@
     <strong>Mitchel: </strong>Yes, so we are, you know, as you mentioned, we have a very broad base. We have a really
     broad base of individuals that are active using the platform and that you start to see a little bit of a funnel from
     those that are actively using it to those that are contributing issues to those that are developing, and then we
-    have our core group of maintainers and we’ve organized ourselves into a group of four lead maintainers or team leads
+    have our core group of maintainers and we've organized ourselves into a group of four lead maintainers or team leads
     if you will. I am the team leader over the technology side so I'm in charge of working with things for our release
     pipelines, our security is also overseen by myself and some of the higher level stuff there with getting things out
     the door, making sure Nuget packages are published making sure that all of that is done. We also have a strategy
@@ -72,7 +72,7 @@
     like to see an issue documented with what is going to be contributed from a developer perspective. So, if it's a
     programming change of database change something like that, an issue being created in the main repository so that we
     know what's coming in, and it's also really nice if you're planning to actually resolve the issue, to make a note in
-    that initial submission, “Hey, I'm going to fix this”. If your new and want to get started, we also have a number of
+    that initial submission, "Hey, I'm going to fix this". If your new and want to get started, we also have a number of
     issues that exist already that have been tagged by complexity, so future minor, future, major, future revision to
     kind of tag .OK, if it's a major item, it's something that's going to be breaking changes more involved and then
     same thing with minor revision rate to get less complex. So if you don't know what you want to fix, that's a great
@@ -99,10 +99,10 @@
 </p>
 <p class='mx-auto'>
     <strong>Mitchel: </strong>Yeah, I started with. DNN years ago, um 12013 years ago, really and exactly. I actually
-    was forced into using it for a job when I was working at Wells Fargo. They're like, “Hey, you're in charge of
-    maintaining this thing”. I know this is kind of cool. This is in the early 2X 3X days and we're currently on 9 its
-    going to be 9.8 and I got started, started to use it. Then I was working with, you know, this boss is “OK. Yeah,
-    this is how to go to conferences and technology events”. “Sure, you guys are paying”. That led to others I have
+    was forced into using it for a job when I was working at Wells Fargo. They're like, "Hey, you're in charge of
+    maintaining this thing". I know this is kind of cool. This is in the early 2X 3X days and we're currently on 9 its
+    going to be 9.8 and I got started, started to use it. Then I was working with, you know, this boss is "OK. Yeah,
+    this is how to go to conferences and technology events". "Sure, you guys are paying". That led to others I have
     DotNetNuke event which was back in the day was paired with Dev Connections. I've done some kind of cool stuff with
     work, so I submitted a session topic. So instead of talking about doing things with DNN and then I started using
     some projects that were ancillary that had kind of fallen off of support and like, hey, I'll step in and kind of

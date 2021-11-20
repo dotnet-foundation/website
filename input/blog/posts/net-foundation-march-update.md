@@ -3,7 +3,7 @@ Title: .NET Foundation March Update
 Author: Jon Galloway
 Published: 2018-03-29 22:44:00.0000000
 ---
-<p>It’s time for the March Update! As always, these are available both on our blog and via e-mail: <a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
+<p>It's time for the March Update! As always, these are available both on our blog and via e-mail: <a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
 
 <h2>.NET Foundation Updates</h2>
 
@@ -68,7 +68,7 @@ Read more about .NET Core 2.1 Preview 1 on this&nbsp;<a href="https://blogs.msdn
 
 <h3>Recent Standout Community Posts</h3>
 
-<p>Here are some recent posts we’ve featured on the ASP.NET Community Standup:</p>
+<p>Here are some recent posts we've featured on the ASP.NET Community Standup:</p>
 
 <ul>
 <li><a href="https://github.com/fluentassertions/fluentassertions.aspnetcore.mvc/releases">Releases · fluentassertions/fluentassertions.aspnetcore.mvc </a></li>
@@ -80,7 +80,7 @@ Read more about .NET Core 2.1 Preview 1 on this&nbsp;<a href="https://blogs.msdn
 <li><a href="https://github.com/RendleLabs/dotnet-unpkg#dotnet-unpkg">RendleLabs/dotnet-unpkg: Unpkg client for dotnet </a></li>
 <li><a href="https://weblog.west-wind.com/posts/2018/Mar/23/Creating-an-ASPNET-Core-Markdown-TagHelper-and-Parser">Creating an ASP.NET Core Markdown TagHelper and Parser - Rick Strahl's Web Log </a></li>
 <li><a href="https://github.com/natemcmaster/dotnet-serve/tree/master/src/dotnet-serve">dotnet-serve/src/dotnet-serve at master · natemcmaster/dotnet-serve </a></li>
-<li><a href="https://blogs.msdn.microsoft.com/appserviceteam/2018/03/22/renaming-our-new-command-to-up/?WT.mc_id=announcement-twitter-shboyer">Renaming our “new” command to “up” | Azure App Service Team Blog </a></li>
+<li><a href="https://blogs.msdn.microsoft.com/appserviceteam/2018/03/22/renaming-our-new-command-to-up/?WT.mc_id=announcement-twitter-shboyer">Renaming our "new" command to "up" | Azure App Service Team Blog </a></li>
 <li><a href="https://blogs.msdn.microsoft.com/webdev/2018/03/22/get-started-building-net-web-apps-in-the-browser-with-blazor/">Get started building .NET web apps that run in the browser with Blazor | ASP.NET Blog </a></li>
 <li><a href="https://blogs.msdn.microsoft.com/webdev/2018/03/22/asp-net-core-manageability-and-application-insights-improvements/">ASP.NET Core manageability and Application Insights improvements | ASP.NET Blog </a></li>
 <li><a href="https://andrewlock.net/exploring-the-microsoft-aspnetcore-app-shared-framework-in-asp-net-core-2-1-preview-1/">Exploring the Microsoft.AspNetCore.App shared framework in ASP.NET Core 2.1 (preview 1) </a></li>
@@ -112,13 +112,13 @@ Read more about .NET Core 2.1 Preview 1 on this&nbsp;<a href="https://blogs.msdn
 <ul>
 </ul>
 
-<p>The <a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We’ll post regular updates and interesting things happening with .NET to share.</p>
+<p>The <a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We'll post regular updates and interesting things happening with .NET to share.</p>
 
 <p><a href="https://www.youtube.com/NETFoundation">The .NET Foundation is also on YouTube</a>. Watch community standups and design reviews as well as code-focused shows and interviews across our multiple playlists.</p>
 
 <p><a href="https://www.youtube.com/NETFoundation">Youtube</a></p>
 
-<p>Do you have an interesting piece of news or content related to .NET open source? Let us know so we can include it in next month’s update by posting a comment below.</p>
+<p>Do you have an interesting piece of news or content related to .NET open source? Let us know so we can include it in next month's update by posting a comment below.</p>
 
 <hr />
 <h2>Remember to Subscribe!</h2>
@@ -127,4 +127,4 @@ Read more about .NET Core 2.1 Preview 1 on this&nbsp;<a href="https://blogs.msdn
 
 <p><a href="http://eepurl.com/dhL_qb">Subscribe</a></p>
 
-<p>Don’t worry, we want to keep these short, interesting, and low-noise, so we won’t overload your e-mail.</p>
+<p>Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>

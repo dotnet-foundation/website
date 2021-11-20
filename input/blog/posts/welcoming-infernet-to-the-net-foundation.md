@@ -10,7 +10,7 @@ Published: 2018-10-08 22:23:29.9754174
 <p>But in an age of abundance of machine learning libraries, what sets Infer.NET apart from the competition? Great question, and well answered by the Infer.NET team's <a href="https://www.microsoft.com/en-us/research/blog/the-microsoft-infer-net-machine-learning-framework-goes-open-source/">post</a> announcing they're joining the .NET Foundation:</p>
 
 <blockquote>
-<p>Infer.NET enables a model-based approach to machine learning. This lets you incorporate domain knowledge into your model. The framework can then build a bespoke machine learning algorithm directly from that model. This means that instead of having to map your problem onto a pre-existing learning algorithm that you’ve been given, Infer.NET actually constructs a learning algorithm for you, based on the model you’ve provided.</p>
+<p>Infer.NET enables a model-based approach to machine learning. This lets you incorporate domain knowledge into your model. The framework can then build a bespoke machine learning algorithm directly from that model. This means that instead of having to map your problem onto a pre-existing learning algorithm that you've been given, Infer.NET actually constructs a learning algorithm for you, based on the model you've provided.</p>
 </blockquote>
 
 <p>Want to know more? Start with the announcement post from the Infer.NET team, then check out their&nbsp;<a href="https://dotnet.github.io/infer/userguide/Infer.NET%20tutorials%20and%20examples.html">Tutorials, Examples</a>, and&nbsp;<a href="https://dotnet.github.io/infer/userguide">User Guide</a>.&nbsp;</p>

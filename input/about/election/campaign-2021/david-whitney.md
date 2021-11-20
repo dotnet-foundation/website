@@ -27,15 +27,15 @@ The foundation looks after one of the **most strategically important programming
 
 I want .NET to be in the room when **innovation is discussed**. I want it to be in the room when people are **planning bootcamps, creating content, designing new systems**. I want it to be in the room, and more importantly, the minds of startups creating new technology deciding which platforms to support.
 
-**.NET is a brilliant, capable, performant and leading programming stack**, and whenever people think “what are the credible choices to build our new thing in”, I want them to see .NET as a contender.
+**.NET is a brilliant, capable, performant and leading programming stack**, and whenever people think "what are the credible choices to build our new thing in", I want them to see .NET as a contender.
 
-The technology landscape shifts quickly, and I want to **embrace the fact that the .NET ecosystem is not an island**. .NET isn’t the only option, and it’s not the only good platform – and we need to **be present in the wider technology community** where people learn, and build new things, and go for support to **broaden the appeal and credibility** of the platform outside of it’s more traditional userbase.
+The technology landscape shifts quickly, and I want to **embrace the fact that the .NET ecosystem is not an island**. .NET isn't the only option, and it's not the only good platform – and we need to **be present in the wider technology community** where people learn, and build new things, and go for support to **broaden the appeal and credibility** of the platform outside of it's more traditional userbase.
 
-**.NET is diverse – both in target and audience**, in the kinds of software built in it, in the things that it does. The way we grow and ensure the longevity of the platform is by making it clear that **.NET is for everyone**. It’s for enterprise software development, it’s for games, it for IoT, it’s for mobile, it’s for learners, it’s friendly, and it’s welcoming.
+**.NET is diverse – both in target and audience**, in the kinds of software built in it, in the things that it does. The way we grow and ensure the longevity of the platform is by making it clear that **.NET is for everyone**. It's for enterprise software development, it's for games, it for IoT, it's for mobile, it's for learners, it's friendly, and it's welcoming.
 
 I want to ensure that **humans are at the centre of everything the foundation does and promotes**. We should continue to **fund and support our open-source authors**. We should **facilitate aid and mentorship** for people looking to make a living from the software they build for free. We should act as a **hub of support** in whatever ways the community requires to make building in .NET a sustainable, appreciated, and supported endeavour.
 
-Platforms live and die by their contributors - the **humans at the centre of everything** - and simply “funding open source” is just the start.
+Platforms live and die by their contributors - the **humans at the centre of everything** - and simply "funding open source" is just the start.
 
 I want to run to help in this journey, to make the .NET ecosystem a **welcoming, regarded, and pleasant place** that people want to contribute and grow, which in turn will help curate an ecosystem that thrives as it grows and changes.
 
@@ -67,7 +67,7 @@ I would like to extend the current legitimisation and curation of open source to
 
 ### Listening, Patience, and Kindness
 
-I believe the foundation needs to listen to both it’s members, and the community setting a **tone of kindness, patience, and empathy as the default**. It must be prepared to not have all the answers, and to help facilitate and support when they emerge elsewhere.
+I believe the foundation needs to listen to both it's members, and the community setting a **tone of kindness, patience, and empathy as the default**. It must be prepared to not have all the answers, and to help facilitate and support when they emerge elsewhere.
 
 "A rising tide raises all ships" - we'll grow our community and the reputation of our platform with a mix of kindness and support with humans at the centre.
 

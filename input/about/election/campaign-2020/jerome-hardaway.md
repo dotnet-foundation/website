@@ -8,7 +8,7 @@ image: campaign-2020/jerome-hardaway.jpg
 
 ## Who am I?
 
-I am a Google Developer Expert (Web), Twilio Champion, Developer Advocate for Quicken Loans, Javascript Engineer and Geek At Arms (Founder and Executive Director) of Vets Who Code, a 501(c)3 veteran-led charitable non-profit dedicated to filling the nation’s technical skills gap with early-stage transitioning veterans and military spouses through remote software development training. 
+I am a Google Developer Expert (Web), Twilio Champion, Developer Advocate for Quicken Loans, Javascript Engineer and Geek At Arms (Founder and Executive Director) of Vets Who Code, a 501(c)3 veteran-led charitable non-profit dedicated to filling the nation's technical skills gap with early-stage transitioning veterans and military spouses through remote software development training. 
 
 ## Why I'm Running
 

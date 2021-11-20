@@ -14,9 +14,9 @@ As described in my [last post](/blog/2020/06/08/announcing-net-foundation-electi
 - Iris Classon
 - Rabeb Othmani
 
-Given the critical role of the Foundation’s Board of Directors in managing the Foundation and ensuring its long-term well-being and sustainability, it is imperative that the Foundation’s members elect representatives capable of fulfilling these important responsibilities.   
+Given the critical role of the Foundation's Board of Directors in managing the Foundation and ensuring its long-term well-being and sustainability, it is imperative that the Foundation's members elect representatives capable of fulfilling these important responsibilities.   
 
-As such, some considerations for those seeking to serve on the Foundation’s Board of Directors *may include*:  
+As such, some considerations for those seeking to serve on the Foundation's Board of Directors *may include*:  
 
 - Prior leadership role within the .NET Foundation or other open source communities (e.g., Board Director, Project Leader, Committee chair, etc.)  
 - Meaningful engagements in open source communities  
