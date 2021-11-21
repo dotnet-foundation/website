@@ -24,7 +24,7 @@ GitHub: https://github.com/UnoSD
 StackOverflow: https://stackoverflow.com/users/1262354/stefano-dantonio
 LinkedIn: https://www.linkedin.com/in/stefanodantonio/
 ---
-I'm Stefano d’Antonio, but call me Stef.
+I'm Stefano d'Antonio, but call me Stef.
 
 I have worked in the industry for more than 10 years, my early days were focused on home and conference automation; I enjoyed playing with programmable hardware, but I gradually moved more into software-only roles.
 

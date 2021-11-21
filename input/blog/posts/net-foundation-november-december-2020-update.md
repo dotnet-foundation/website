@@ -16,7 +16,7 @@ In November we launched a "State of .NET" survey and we're encouraging everyone 
 [![Take our Survey](https://user-images.githubusercontent.com/5115571/100258223-a97ad300-2efb-11eb-9f57-2b5bc55055b8.png)](https://dotnetfoundation.org/about/survey?utm_source=dotnetfdn&utm_medium=newsletter)
 
 ### [.NET Foundation YouTube Channel](https://www.youtube.com/channel/UCiaZbznpWV1o-KLxj8zqR6A)
-We've moved the .NET Community Standups from Microsoft over to the [.NET YouTube Channel](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oX-DBuRG4u58ZTAJgBAeQ-t). This was based on community feedback requesting that we be more clear on separating content that’s produced by Microsoft from the .NET Foundation and open source community. The [.NET Foundation YouTube channel](https://www.youtube.com/channel/UCiaZbznpWV1o-KLxj8zqR6A) will continue to broadcast and promote community virtual meetups, open source project content, and .NET Foundation-related content. We hope that this makes the channel easier to navigate. [Please subscribe!](https://www.youtube.com/channel/UCiaZbznpWV1o-KLxj8zqR6A?sub_confirmation=1) 
+We've moved the .NET Community Standups from Microsoft over to the [.NET YouTube Channel](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oX-DBuRG4u58ZTAJgBAeQ-t). This was based on community feedback requesting that we be more clear on separating content that's produced by Microsoft from the .NET Foundation and open source community. The [.NET Foundation YouTube channel](https://www.youtube.com/channel/UCiaZbznpWV1o-KLxj8zqR6A) will continue to broadcast and promote community virtual meetups, open source project content, and .NET Foundation-related content. We hope that this makes the channel easier to navigate. [Please subscribe!](https://www.youtube.com/channel/UCiaZbznpWV1o-KLxj8zqR6A?sub_confirmation=1) 
 
 ### [.NET Foundation Speaker Directory](https://dotnetfoundation.org/community/speakers)
 The .NET Foundation is building a [speaker directory](https://dotnetfoundation.org/community/speakers) to discover and encourage speakers from around the world as well as provide mentors for new speakers. We invite you to [add yourself to the directory](https://dotnetfoundation.org/community/speakers), act as a mentor if you'd like, and contribute to building up the global list of community speakers.
@@ -30,15 +30,15 @@ Each month Project Spotlight shines a light on an interesting open source projec
 Oqtane is a modular application framework which accelerates the development of modern digital experiences. It was architected from the ground up to utilize Blazor, a modern single-page application framework for building interactive web apps with C# and .NET. Oqtane offers advanced capabilities such as multi-tenancy, a fully dynamic page compositing model, designer friendly themes, extensibility via third party plug-in modules, a headless API, and supports Blazor Server and Blazor WebAssembly hosting models. 
 
 ### New Projects
-No new projects have joined since the last newsletter, but we have a few in the pipeline that we’re excited about in the new year. 
+No new projects have joined since the last newsletter, but we have a few in the pipeline that we're excited about in the new year. 
 
 ## .NET Foundation Committee Updates
 
 ### Membership Committee
  
-The membership committee has processed the full backlog of new member requests. If you’re reading this for the first time, Welcome!
+The membership committee has processed the full backlog of new member requests. If you're reading this for the first time, Welcome!
  
-There are two other initiatives we’re working on. First, we’re working on defining a clear set of benefits for individuals to join the foundation. We want the foundation to provide mor clear benefits to its members. Second, we’re looking at expanding what kinds of contributions should be considered to join the foundation. Our goal is to attract more members to the foundation from the .NET community at large. Follow along with our discussions at our [GitHub repo](https://github.com/dotnet-foundation/wg-membership).
+There are two other initiatives we're working on. First, we're working on defining a clear set of benefits for individuals to join the foundation. We want the foundation to provide mor clear benefits to its members. Second, we're looking at expanding what kinds of contributions should be considered to join the foundation. Our goal is to attract more members to the foundation from the .NET community at large. Follow along with our discussions at our [GitHub repo](https://github.com/dotnet-foundation/wg-membership).
 
 ## Events
 
@@ -61,7 +61,7 @@ Shawn Wildermuth is putting together a short video series about open source main
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
 
 ### [Support a project](https://dotnetfoundation.org/projects)
-Projects, and the people behind them, are at the heart of what .NET Foundation is all about. These days, you’ll find a wide variety of projects under the .NET Foundation. Can you contribute to something already in the works? [Browse our projects](https://dotnetfoundation.org/projects) to find out how to contribute. 
+Projects, and the people behind them, are at the heart of what .NET Foundation is all about. These days, you'll find a wide variety of projects under the .NET Foundation. Can you contribute to something already in the works? [Browse our projects](https://dotnetfoundation.org/projects) to find out how to contribute. 
 
 ### [Become a member](https://dotnetfoundation.org/member) 
 By involving people that are passionate about .NET we can create a powerful organization that furthers sustainable open source, a diverse and open community, and help evolve this growing and evolving ecosystem that we are very passionate about. If you are as passionate about the .NET ecosystem as we are, then you should consider becoming a member of the .NET Foundation. [Read more about member benefits](https://dotnetfoundation.org/member) and [please join](https://dotnetfoundation.org/member/become-a-member) to help shape the future.

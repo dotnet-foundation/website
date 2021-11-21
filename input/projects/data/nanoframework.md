@@ -9,7 +9,7 @@ Web: https://www.nanoframework.net/
 
 [.NET nanoFramework](https://github.com/nanoframework) is a free and open-source platform that enables the writing of managed code applications for constrained embedded devices. It is suitable for many types of projects including IoT sensors, wearables, academic proof of concept, robotics, hobbyist/makers creations or even complex industrial equipment. It makes the development for such platforms easier, faster and less costly by giving embedded developers access to modern technologies and tools used by desktop application developers.
 
-Developers can harness the powerful and familiar Microsoft Visual Studio IDE and their .NET C# knowledge to quickly write code without having to worry about the low-level hardware intricacies of a microcontroller. Desktop .NET developers will feel “at home” and are able to use their skills in embedded systems development, enlarging the pool of qualified embedded developers.
+Developers can harness the powerful and familiar Microsoft Visual Studio IDE and their .NET C# knowledge to quickly write code without having to worry about the low-level hardware intricacies of a microcontroller. Desktop .NET developers will feel "at home" and are able to use their skills in embedded systems development, enlarging the pool of qualified embedded developers.
 
 It includes a reduced version of the .NET Common Language Runtime (CLR) and features a subset of the .NET base class libraries along with the most common APIs included in the Universal Windows Platform (UWP) allowing code reuse from desktop applications, IoT Core applications, thousands of code examples and open source projects.
 Using Microsoft Visual Studio, a developer can deploy and debug the code directly on real hardware.

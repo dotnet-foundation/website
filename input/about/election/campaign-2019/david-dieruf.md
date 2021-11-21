@@ -21,9 +21,9 @@ Thru a combination of my years writing C#, my passion for all things .NET, and m
 
 As a trusted source to the .NET community, the .NET Foundation offers developers the ability to safely and fairly post projects for the world to enjoy and provide the best projects to choose from in a legal manner. 
 
-Bringing open development and collaboration to the .NET community isn’t just cloud apps or services, it’s embracing an ecosystem of technology that is created and grown by the .NET community. Backing services, log aggregation, app metrics, microservice frameworks are just a few examples of open source projects growing the .NET community.
+Bringing open development and collaboration to the .NET community isn't just cloud apps or services, it's embracing an ecosystem of technology that is created and grown by the .NET community. Backing services, log aggregation, app metrics, microservice frameworks are just a few examples of open source projects growing the .NET community.
 
-Open sourced .NET is just the opening chapter. The ability to fork or extend the entire .NET runtime is something we’ve never seen before, but the story only starts with this first chapter. The .NET Foundation ensures there are many other chapters in a modern .NET Developer’s book. Stories around creating and making an idea available to the world, options to discover others ideas, extend them, or simply implementing those ideas in their own projects.
+Open sourced .NET is just the opening chapter. The ability to fork or extend the entire .NET runtime is something we've never seen before, but the story only starts with this first chapter. The .NET Foundation ensures there are many other chapters in a modern .NET Developer's book. Stories around creating and making an idea available to the world, options to discover others ideas, extend them, or simply implementing those ideas in their own projects.
 
 The .NET Foundation is the ecosystem to enable, understand, and embrace open source .NET.
 

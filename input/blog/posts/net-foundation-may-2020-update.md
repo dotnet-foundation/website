@@ -38,7 +38,7 @@ This year's agenda features C#, F#, coding practices like refactoring and defens
 
 ### BuildStuff Weekly Virtual Meetups
 
-Build Stuff offers free weekly meetups on various topics. On April 23, for example, Julie Lerman, author of the highly acclaimed “Programming Entity Framework” books, talked about her latest experiment on publishing a serverless ASP.NET Core API application onto AWS Lambda.  That same meetup had Ian Cooper, founder of the London .NET Users Group, talking about messages in a distributed system.
+Build Stuff offers free weekly meetups on various topics. On April 23, for example, Julie Lerman, author of the highly acclaimed "Programming Entity Framework" books, talked about her latest experiment on publishing a serverless ASP.NET Core API application onto AWS Lambda.  That same meetup had Ian Cooper, founder of the London .NET Users Group, talking about messages in a distributed system.
 
 Sign up for future events or view recordings of past events at [https://www.buildstuff.events/meetups](https://www.buildstuff.events/meetups)
 
@@ -102,11 +102,11 @@ The .NET Foundation would like to welcome the following projects that joined in 
 
 Would your user group \ meetup appreciate hearing about .NET on AWS from an AWS .NET developer advocate? The team of longtime .NET developers would be thrilled to join your virtual user group to chat about the latest for .NET in the cloud. 
 
-Here’s a list of example topics:
-- **Overview of .NET on AWS:** AWS has over a decade supporting .NET on the cloud. We’ll provide an overview of all the support you might not know existed, such as free tools for Visual Studio, PowerShell, Azure DevOps, etc.
-- **Building serverless with .NET:** The future is now for serverless, and AWS is ensuring .NET is vibrant in that future. We’ll show you how anybody can get started and take advantage of the speed and ease of using serverless with .NET.
+Here's a list of example topics:
+- **Overview of .NET on AWS:** AWS has over a decade supporting .NET on the cloud. We'll provide an overview of all the support you might not know existed, such as free tools for Visual Studio, PowerShell, Azure DevOps, etc.
+- **Building serverless with .NET:** The future is now for serverless, and AWS is ensuring .NET is vibrant in that future. We'll show you how anybody can get started and take advantage of the speed and ease of using serverless with .NET.
 - **Infrastructure as .NET:** Why learn JSON or YAML to build on the cloud if you can just use .NET? Learn how to model and provision cloud resources in .NET with the open source AWS Cloud Development Kit (CDK)
-- **PowerShell on AWS:** AWS supports PowerShell and makes it easy to manage your AWS resources in a PowerShell scripting environment. We’ll show you all the things you can easily do on AWS with PowerShell, including native support for serverless. 
+- **PowerShell on AWS:** AWS supports PowerShell and makes it easy to manage your AWS resources in a PowerShell scripting environment. We'll show you all the things you can easily do on AWS with PowerShell, including native support for serverless. 
 - **Something else?** What are you interested in hear about? Blazor? ML? Reach out and let us know.
 
 You can contact the .NET developer advocacy team at **[aws-dotnetfdn-interest-open@amazon.com](mailto://aws-dotnetfdn-interest-open@amazon.com)**. Cheers!

@@ -69,7 +69,7 @@ A few years ago, we took over maintenance and guidance for the ASP.NET AJAX Cont
 
 ![DevExpress - ASP.NET AJAX Control Toolkit](https://community.devexpress.com/blogs/aspnet/ACT/Aspnet-AJAX-Controls-Toolkit-blog.png).
 
-As part of our ongoing commitment to the project, we’ve released an update ([ASP.NET AJAX Control Toolkit v20.1.0](https://devexpress.com/act)) to address the following issues.
+As part of our ongoing commitment to the project, we've released an update ([ASP.NET AJAX Control Toolkit v20.1.0](https://devexpress.com/act)) to address the following issues.
 
 #### Resolved Issues
 
@@ -113,11 +113,11 @@ Each library is exposed as its own NuGet package, and may include .NET Portable 
 
 Would your user group \ meetup appreciate hearing about .NET on AWS from an AWS .NET developer advocate? The team of longtime .NET developers would be thrilled to join your virtual user group to chat about the latest for .NET in the cloud. 
 
-Here’s a list of example topics:
-- **Overview of .NET on AWS:** AWS has over a decade supporting .NET on the cloud. We’ll provide an overview of all the support you might not know existed, such as free tools for Visual Studio, PowerShell, Azure DevOps, etc.
-- **Building serverless with .NET:** The future is now for serverless, and AWS is ensuring .NET is vibrant in that future. We’ll show you how anybody can get started and take advantage of the speed and ease of using serverless with .NET.
+Here's a list of example topics:
+- **Overview of .NET on AWS:** AWS has over a decade supporting .NET on the cloud. We'll provide an overview of all the support you might not know existed, such as free tools for Visual Studio, PowerShell, Azure DevOps, etc.
+- **Building serverless with .NET:** The future is now for serverless, and AWS is ensuring .NET is vibrant in that future. We'll show you how anybody can get started and take advantage of the speed and ease of using serverless with .NET.
 - **Infrastructure as .NET:** Why learn JSON or YAML to build on the cloud if you can just use .NET? Learn how to model and provision cloud resources in .NET with the open source AWS Cloud Development Kit (CDK)
-- **PowerShell on AWS:** AWS supports PowerShell and makes it easy to manage your AWS resources in a PowerShell scripting environment. We’ll show you all the things you can easily do on AWS with PowerShell, including native support for serverless. 
+- **PowerShell on AWS:** AWS supports PowerShell and makes it easy to manage your AWS resources in a PowerShell scripting environment. We'll show you all the things you can easily do on AWS with PowerShell, including native support for serverless. 
 - **Something else?** What are you interested in hear about? Blazor? ML? Reach out and let us know.
 
 You can contact the .NET developer advocacy team at **[aws-dotnetfdn-interest-open@amazon.com](mailto://aws-dotnetfdn-interest-open@amazon.com)**. Cheers!

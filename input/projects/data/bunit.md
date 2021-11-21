@@ -6,7 +6,7 @@ Web: https://bunit.dev
 ---
 # bUnit
 
-[bUnit](https://bunit.dev) is a testing library for Blazor components that make tests look, feel, and runs like regular unit tests. bUnit makes it easy to render and control a component under test’s life-cycle, pass parameter and inject services into it, trigger event handlers, and verify the rendered markup from the component using a built-in semantic HTML comparer.
+[bUnit](https://bunit.dev) is a testing library for Blazor components that make tests look, feel, and runs like regular unit tests. bUnit makes it easy to render and control a component under test's life-cycle, pass parameter and inject services into it, trigger event handlers, and verify the rendered markup from the component using a built-in semantic HTML comparer.
 
 ## Project Details
 

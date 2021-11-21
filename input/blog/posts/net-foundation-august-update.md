@@ -23,7 +23,7 @@ This month's newsletter includes:</p>
 
 <p>Join us for live sessions and Q&A with experts from the community and .NET product teams. Learn to build for web, mobile, desktop, games, services, and libraries, all with .NET. Get the latest on .NET Core & ASP.NET Core, C#, F#, Azure, Visual Studio, Xamarin, and much more. We have sessions for everyone, no matter if you are just beginning or are a seasoned engineer.</p>
 
-<p>You will learn to build for web, mobile, desktop, games, services, libraries and more for a variety of platforms and devices all with .NET. We have sessions for everyone, no matter if you are just beginning or are a seasoned engineer. We’ll have presentations on .NET Core and ASP.NET Core, C#, F#, Azure, Visual Studio, Xamarin, and much more.</p>
+<p>You will learn to build for web, mobile, desktop, games, services, libraries and more for a variety of platforms and devices all with .NET. We have sessions for everyone, no matter if you are just beginning or are a seasoned engineer. We'll have presentations on .NET Core and ASP.NET Core, C#, F#, Azure, Visual Studio, Xamarin, and much more.</p>
 
 <p><a href="https://www.dotnetconf.net/?utm_source=dotnetfdn&utm_medium=newsletter&utm_campaign=savedate">Tune in from September 12-14 and discover the world of .NET!</a></p>
 
@@ -74,11 +74,11 @@ This month's newsletter includes:</p>
 <hr />
 <h2>Connect with the .NET Foundation online</h2>
 
-<p>The&nbsp;<a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We’ll post regular updates and interesting things happening with .NET to share.</p>
+<p>The&nbsp;<a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We'll post regular updates and interesting things happening with .NET to share.</p>
 
 <p>The <a href="https://www.youtube.com/NETFoundation">.NET Foundation is also on YouTube</a>. Watch community standups and design reviews as well as code-focused shows and interviews across our multiple playlists.</p>
 
 <hr />
 <h2>Remember to Subscribe!</h2>
 
-<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up&nbsp;to get the .NET Foundation Update via e-mail</a>.&nbsp;Don’t worry, we want to keep these short, interesting, and low-noise, so we won’t overload your e-mail.</p>
+<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up&nbsp;to get the .NET Foundation Update via e-mail</a>.&nbsp;Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>

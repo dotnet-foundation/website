@@ -22,6 +22,6 @@ Published: 2019-06-03 16:50:33.6316018
 <li>Extensibility is important. Services should be able to support extended functionality without breaking clients unaware of those extensions.</li>
 </ul>
 
-<p>Moving the OData .NET libraries to the .NET Foundation recognizes the significant continuing contributions from the community, reaffirms Microsoft’s commitment to those libraries, and makes it easier than ever for the community to engage in the ongoing support and evolution of those popular libraries.<br />
+<p>Moving the OData .NET libraries to the .NET Foundation recognizes the significant continuing contributions from the community, reaffirms Microsoft's commitment to those libraries, and makes it easier than ever for the community to engage in the ongoing support and evolution of those popular libraries.<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
 You can find more information on OData at <a href="https://odata.org">https://odata.org</a></p>

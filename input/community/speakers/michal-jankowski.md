@@ -26,7 +26,7 @@ Instagram: https://www.instagram.com/jankowskimm/
 Mentor: true
 Mentee: true
 ---
-Michal – Microsoft MVP AI and Azure, an architect, designer, team leader and trainer. He began programming in the early ’90s from Basic and Assembler for 8-bit computers. During most of his career, he was delivering .NET platform targeted application for the world’s largest companies. Currently, he is specialising in the development of web applications and Azure environment.
+Michal – Microsoft MVP AI and Azure, an architect, designer, team leader and trainer. He began programming in the early '90s from Basic and Assembler for 8-bit computers. During most of his career, he was delivering .NET platform targeted application for the world's largest companies. Currently, he is specialising in the development of web applications and Azure environment.
 
 A great enthusiast of software craftsmanship, unit testing, software design and other topics related to software development.
 

@@ -21,7 +21,7 @@ This month's newsletter includes:</p>
 
 <p><img alt=".NET Conf Local" src="assets/posts/MSFT_18023_dotNETConf_banners_email800x200_eventInfo_r3_KW.jpg" style="width: 800px; height: 200px;" /></p>
 
-<p><a href="https://dotnetconf.net">.NET Conf 2018</a> was our big live stream training event of the year and the biggest .NET Conf we’ve ever done! We had 41 live sessions – 17 in Channel 9 studios and the last day going an all-nighter with 24 hours of sessions on Twitch and Mixer. We also broadcasted the keynote via Amp Live which bought us a lot of new viewers this year. Additionally we partnered the .NET Foundation with the Visual Studio partner program to pull off a <a href="https://twitter.com/search?q=%23dotnetconf%20%23codeparty&amp;src=typd" originalsrc="https://twitter.com/search?q=%23dotnetconf%20%23codeparty&amp;src=typd" shash="dNuuvBpkaP1yj4iA8mtfv9sZraoHUnzJtsNLn8xa+sjM3Iv7DrHwxUOQH9sWnEOctzx2Mh+JCXvXk9wVmbA63k9Yzg1/B+Au55k51UoAXVp2q4QfmpzdFMjTG+zzGHO+PJwsG96Du5u7T5VrpOObg2D4OaibsvvAh5Hpn+rpY6Y=">virtual attendee party</a> where attendees could win cool prizes like the Surface Go and Xbox.&nbsp;</p>
+<p><a href="https://dotnetconf.net">.NET Conf 2018</a> was our big live stream training event of the year and the biggest .NET Conf we've ever done! We had 41 live sessions – 17 in Channel 9 studios and the last day going an all-nighter with 24 hours of sessions on Twitch and Mixer. We also broadcasted the keynote via Amp Live which bought us a lot of new viewers this year. Additionally we partnered the .NET Foundation with the Visual Studio partner program to pull off a <a href="https://twitter.com/search?q=%23dotnetconf%20%23codeparty&amp;src=typd" originalsrc="https://twitter.com/search?q=%23dotnetconf%20%23codeparty&amp;src=typd" shash="dNuuvBpkaP1yj4iA8mtfv9sZraoHUnzJtsNLn8xa+sjM3Iv7DrHwxUOQH9sWnEOctzx2Mh+JCXvXk9wVmbA63k9Yzg1/B+Au55k51UoAXVp2q4QfmpzdFMjTG+zzGHO+PJwsG96Du5u7T5VrpOObg2D4OaibsvvAh5Hpn+rpY6Y=">virtual attendee party</a> where attendees could win cool prizes like the Surface Go and Xbox.&nbsp;</p>
 
 <h3>Check out the .NET Conf Keynote!</h3>
 
@@ -35,7 +35,7 @@ This month's newsletter includes:</p>
 
 <h2>.NET Foundation Project News</h2>
 
-<h3>DNN:&nbsp;5 Reasons Why We’re Glad to Be Part of the .NET Foundation</h3>
+<h3>DNN:&nbsp;5 Reasons Why We're Glad to Be Part of the .NET Foundation</h3>
 
 <p>DNN joined the .NET Foundation in November 2017, and <a href="https://www.dnnsoftware.com/community-blog/cid/155629/5-reasons-why-were-glad-to-be-part-of-the-net-foundation">just posted some of the top reasons</a> they're glad they did. Aw, shucks, we love you too!&nbsp;</p>
 
@@ -98,12 +98,12 @@ This month's newsletter includes:</p>
 <hr />
 <h2>Connect with the .NET Foundation online</h2>
 
-<p>The&nbsp;<a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We’ll post regular updates and interesting things happening with .NET to share.</p>
+<p>The&nbsp;<a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We'll post regular updates and interesting things happening with .NET to share.</p>
 
 <p>The <a href="https://www.youtube.com/NETFoundation">.NET Foundation is also on YouTube</a>. Watch community standups and design reviews as well as code-focused shows and interviews across our multiple playlists.</p>
 
 <hr />
 <h2>Remember to Subscribe!</h2>
 
-<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up&nbsp;to get the .NET Foundation Update via e-mail</a>.&nbsp;Don’t worry, we want to keep these short, interesting, and low-noise, so we won’t overload your e-mail.</p>
+<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up&nbsp;to get the .NET Foundation Update via e-mail</a>.&nbsp;Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>
 </div>

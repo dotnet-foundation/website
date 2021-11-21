@@ -76,7 +76,7 @@ If you're a .NET Foundation Member, sign up to join an action group:</p>
 
 <p><a href="https://www.dotnetconf.net/"><img src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" alt=".NET" /></a></p>
 
-<p>.NET Conf is our annual, free, online virtual event and this year and it’s going to be bigger than ever. .NET Core 3.0 will launch at .NET Conf!<br />
+<p>.NET Conf is our annual, free, online virtual event and this year and it's going to be bigger than ever. .NET Core 3.0 will launch at .NET Conf!<br />
 <br />
 <strong>The .NET Conf Call for Speakers is now open.</strong>&nbsp;This is your chance to present to the world-wide .NET Community remotely from your own time-zone. Head to&nbsp;<a href="http://www.dotnetconf.net/">www.dotnetconf.net</a>&nbsp;to learn more and save the date!</p>
 
@@ -227,7 +227,7 @@ Huge thanks to our contributors and users! Wouldn't have been possible without y
 
 <p><img src="assets/posts/e480cc53-ba2f-490f-9e1e-08da35e6fc57.png" alt=".NET" /></p>
 
-<p>As part of our ongoing commitment to the project, we’ve released an update (<a href="https://devexpress.com/act">ASP.NET AJAX Control Toolkit v19.1.0</a>) to address the following issues.</p>
+<p>As part of our ongoing commitment to the project, we've released an update (<a href="https://devexpress.com/act">ASP.NET AJAX Control Toolkit v19.1.0</a>) to address the following issues.</p>
 
 <h4>Improvements</h4>
 
@@ -297,11 +297,11 @@ Huge thanks to our contributors and users! Wouldn't have been possible without y
 <hr />
 <h3>Connect with the .NET Foundation online</h3>
 
-<p>The&nbsp;<a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We’ll post regular updates and interesting things happening with .NET to share.</p>
+<p>The&nbsp;<a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We'll post regular updates and interesting things happening with .NET to share.</p>
 
 <p><a href="https://www.youtube.com/NETFoundation">The .NET Foundation is also on YouTube</a>. Watch community standups and design reviews as well as code-focused shows and interviews across our multiple playlists.</p>
 
 <hr />
 <h3>Remember to Subscribe!</h3>
 
-<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don’t worry, we want to keep these short, interesting, and low-noise, so we won’t overload your e-mail.</p>
+<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>
