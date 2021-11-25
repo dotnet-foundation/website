@@ -1,6 +1,6 @@
 ---
 Title: Michael Dera
-Pronouns: He
+Pronouns: he/him
 Location: Bulawayo, Zimbabwe
 Email: michaeldera@live.com
 Language:
