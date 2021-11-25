@@ -2,7 +2,6 @@
 Title: Melissa Houghton
 Pronouns: she/her
 Location: Melbourne, VIC, Australia
-Email: melissahoughton@outlook.com
 Language:
   - English
 Topics:
@@ -19,9 +18,10 @@ Topics:
   - Xamarin.Forms
 Speaker profile: https://noti.st/melissahoughton
 Blog: https://melissahoughton.dev/
+Feed: https://melissahoughton.dev/feed
 Twitter: https://twitter.com/meliss_houghton
 GitHub: https://github.com/melissahoughton
-LinkedIn: https://www.linkedin.com/in/melissa-houghton
+LinkedIn: https://www.linkedin.com/in/melissahoughton
 Sessionize: https://sessionize.com/melissahoughton/
 MeetUp: https://www.meetup.com/members/185232466/
 Dev: https://dev.to/melissahoughton
