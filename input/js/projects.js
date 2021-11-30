@@ -144,4 +144,3 @@ let loadLists = (projectsToShow) => {
 
     searchResults.innerHTML = projectsList(projectsToShow);
 };
-
