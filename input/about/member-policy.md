@@ -22,7 +22,7 @@ layout: _BasicPageLayout
 1. **Membership renewals**. Membership in the Foundation is on an annual basis. The Membership Committee may refuse to renew the membership of any individual if the Committee believes that the individual no longer meets the membership criteria or for any other reason, in the committee’s discretion. 
 1. **Non-voting members**. For-profit and non-profit entities may apply for non-voting membership in the Foundation, and may be approved as members by the Board. Rights, privileges, and annual dues structure for non-voting members will determined by the membership committee and approved by the Board.
 
-            </div>
+</div>
         </div>
     </div>
 </section>
