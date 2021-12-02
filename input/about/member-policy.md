@@ -1,3 +1,14 @@
+---
+title: .NET Foundation Membership Policy
+layout: _BasicPageLayout
+---
+
+ <!-- start -->
+<section class="page-section page-section">
+    <div class="page-section_container container">
+        <div class="page-section_row row">
+            <div class="col-12">
+
 # .NET Foundation Membership Policy
 
 - adopted 30-NOV-2018
@@ -10,3 +21,8 @@
 1. **Right to run for election for a director position**. Individual members will have the right to run for run for election for a director position, as further described in the Bylaws and the Foundation’s Director Election Policy.
 1. **Membership renewals**. Membership in the Foundation is on an annual basis. The Membership Committee may refuse to renew the membership of any individual if the Committee believes that the individual no longer meets the membership criteria or for any other reason, in the committee’s discretion. 
 1. **Non-voting members**. For-profit and non-profit entities may apply for non-voting membership in the Foundation, and may be approved as members by the Board. Rights, privileges, and annual dues structure for non-voting members will determined by the membership committee and approved by the Board.
+
+            </div>
+        </div>
+    </div>
+</section>
