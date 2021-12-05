@@ -114,6 +114,8 @@
                 color: 'DodgerBlue',
                 position: [@Document.GetString(SiteKeys.Lon), @Document.GetString(SiteKeys.Lat)]
             }));
+            var mapLink = $('.azure-map-feedback');
+            mapLink.attr('aria-label', 'Map');
         });
     </script>
 }
