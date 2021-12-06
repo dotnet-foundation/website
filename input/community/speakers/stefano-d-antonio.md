@@ -1,7 +1,7 @@
 ---
 Title: Stefano d'Antonio
 Location: Nottingham, UK
-Email: unosd.dev@gmail.com
+Email: speaker@unosd.net
 Language:
   - English
   - Italian
