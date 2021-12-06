@@ -1,7 +1,7 @@
 ---
 Title: Stefano d'Antonio
 Location: Nottingham, UK
-Email: unosd.dev@gmail.com
+Email: speaker@unosd.net
 Language:
   - English
   - Italian
@@ -19,10 +19,10 @@ Topics:
   - Security
   - Serverless
   - Visual Studio
-Blog: https://rocket.science.blog/
+Blog: https://dev.to/unosd
 GitHub: https://github.com/UnoSD
 StackOverflow: https://stackoverflow.com/users/1262354/stefano-dantonio
-LinkedIn: https://www.linkedin.com/in/stefanodantonio/
+LinkedIn: https://www.linkedin.com/in/stefanodantonio
 ---
 I'm Stefano d'Antonio, but call me Stef.
 
@@ -30,6 +30,6 @@ I have worked in the industry for more than 10 years, my early days were focused
 
 I moved to the UK from Italy and I initially worked as developer, now I'm a full time cloud architect, but I do enjoy writing code (in particular F# or forcing functional paradigm into C#) in my spare time for community projects.
 
-I currently work at Willis Towers Watson, a large insurance broking company, designing cloud-native architectures.
+I currently work at Microsoft as a cloud solution architect.
 
 I love Azure, cloud infrastructure and code (and enjoy a casual bit of GCP), especially everything that's .NET.
