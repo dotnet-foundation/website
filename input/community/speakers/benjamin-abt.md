@@ -38,7 +38,7 @@ Sessionize: https://sessionize.com/abt
 Mentor: true
 ---
 Ben is a passionate developer, software and cloud solution architect and especially focused on .NET, cloud and IoT.
-In his professional life he is a Technical Fellow / Executive Engineer for Cloud and IoT at EXXETA.com.
+In his professional life he is a Technical Fellow / Executive Engineer for Cloud and IoT.
 
 He runs the largest german-speaking C# forum myCSharp.de, is the founder of the Azure UserGroup Stuttgart, a co-organizer of the AzureSaturday, runs his blog, participates in open source projects, speaks at various conferences and user groups and also has a bit free time.
 
