@@ -1,6 +1,6 @@
 ---
 Title: Apple Rachanee Saengkrajai
-Pronouns: She
+Pronouns: She/Her
 Location: Bangkok, Thailand
 Email: rachanee.saeng@gmail.com
 Language:
