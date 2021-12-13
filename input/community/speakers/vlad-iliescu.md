@@ -13,4 +13,4 @@ GitHub: https://github.com/vladiliescu
 StackOverflow: https://stackoverflow.com/users/155697
 LinkedIn: https://www.linkedin.com/in/vladiliescu
 ---
-By day I work at Strongbytes as Head of AI, and by night I organize NDR, an annual Artificial Intelligence conference held in two of Romania’s largest cities - Iasi and Bucharest. By twilight I’m a Microsoft Most Valuable Professional on AI.
+By day I work at Strongbytes as Head of AI, and by night I organize NDR, an annual Artificial Intelligence conference held in two of Romania's largest cities - Iasi and Bucharest. By twilight I'm a Microsoft Most Valuable Professional on AI.

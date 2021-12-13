@@ -33,9 +33,9 @@ Mentor: true
 
 Here something about me:
 
-- 🔭 I’m currently working at [desenvolvedor.io](https://desenvolvedor.io/) as Owner and Principal Instructor
-- :trophy: I’m Microsoft Regional Director and Microsoft Most Valuable Professional (MVP)
-- :muscle: I’m specialist in .NET, Architecture and Cloud Native Apps
+- 🔭 I'm currently working at [desenvolvedor.io](https://desenvolvedor.io/) as Owner and Principal Instructor
+- :trophy: I'm Microsoft Regional Director and Microsoft Most Valuable Professional (MVP)
+- :muscle: I'm specialist in .NET, Architecture and Cloud Native Apps
 - 💬 Ask me about: Development :)
 - ⚡ Check my repos specially [Equinox Project](https://github.com/EduardoPires/EquinoxProject) and [NetDevPack](https://github.com/NetDevPack)
 

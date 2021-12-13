@@ -61,7 +61,7 @@
                                 .ToArray();
                             if (speakerLinks.Length > 0)
                             {
-                                <div>
+                                <div class="social-links">
                                     <h3>Connect</h3>
                                     @foreach (KeyValuePair<string, SpeakerLinkAttribute> speakerLink in speakerLinks)
                                     {
@@ -114,6 +114,8 @@
                 color: 'DodgerBlue',
                 position: [@Document.GetString(SiteKeys.Lon), @Document.GetString(SiteKeys.Lat)]
             }));
+            var mapLink = $('.azure-map-feedback');
+            mapLink.attr('aria-label', 'Map');
         });
     </script>
 }

@@ -22,6 +22,6 @@ Twitter: https://twitter.com/vivienfabing
 GitHub: https://github.com/vfabing
 LinkedIn: https://www.linkedin.com/in/vivien-fabing
 ---
-My name is Vivien Fabing. I’m a programmer, loving .NET for its clean architecturing capabilities and I am passionated about team work. I currently work in Paris and try to be a good ALM Tech Lead at Infinite Square.
+My name is Vivien Fabing. I'm a programmer, loving .NET for its clean architecturing capabilities and I am passionated about team work. I currently work in Paris and try to be a good ALM Tech Lead at Infinite Square.
 
 I was also awarded by the Microsoft MVP (Developer Technologies) this year!

@@ -12,7 +12,7 @@ Welcome to the .NET Foundation update for May & June. Every other month, we'll g
 
 ### Welcome Okta and Volosoft to the .NET Foundation as Corporate Sponsors!
 
-We’re thrilled to have Okta and Volosoft join the .NET Foundation as Corporate Sponsors. Okta and Volosoft join a growing list of industry leaders in the .NET open source ecosystem who support the .NET Foundation, including AWS, DevExpress, Endjin, Microsoft, Octopus Deploy, Uno Platform, Progress Telerik, and VMware. Okta and Volsoft joins this group of corporations that are helping drive the future of the .NET platform and ecosystem and we are incredibly grateful for their support. The .NET Foundation relies on sponsors to fund our mission to create a thriving .NET open source ecosystem.
+We're thrilled to have Okta and Volosoft join the .NET Foundation as Corporate Sponsors. Okta and Volosoft join a growing list of industry leaders in the .NET open source ecosystem who support the .NET Foundation, including AWS, DevExpress, Endjin, Microsoft, Octopus Deploy, Uno Platform, Progress Telerik, and VMware. Okta and Volsoft joins this group of corporations that are helping drive the future of the .NET platform and ecosystem and we are incredibly grateful for their support. The .NET Foundation relies on sponsors to fund our mission to create a thriving .NET open source ecosystem.
 
 [![Okta logo](https://dotnetfoundation.org/assets/corporate-sponsors/okta.png)](https://www.okta.com/)
 
@@ -47,7 +47,7 @@ The .NET Foundation would like to welcome the following new projects!
 
 #### [NuGet Package Explorer is now a Web App too!](https://platform.uno/blog/nuget-package-explorer-is-now-a-web-app-powered-by-uno-platform/)
 
-By Popular demand, NuGet Package Explorer is now a Web App. The new solution is a WinUI, Windows Community Toolkit and Uno Platform powered solution which runs on the Web, via Uno’s support for WebAssembly and .NET 6 for WebAssembly.
+By Popular demand, NuGet Package Explorer is now a Web App. The new solution is a WinUI, Windows Community Toolkit and Uno Platform powered solution which runs on the Web, via Uno's support for WebAssembly and .NET 6 for WebAssembly.
 
 
 #### [DotVVM 3.0 Released](https://www.dotvvm.com/blog/83/Released-DotVVM-3-0)
@@ -107,18 +107,18 @@ Learn how F# lets you write succinct, performant, and robust code backed by a po
 
 ### Codegarden 2021 session replays now available
 
-Earlier in June, Umbraco held the very first virtual Codegarden. It saw over 2200 attendees enjoy 3 days of updates, discussions, and ideas from Umbraco developers, the Umbraco community, and industry experts. Talks and sessions are being uploaded to the [Umbraco YouTube channel](https://www.youtube.com/umbracohq) already, but here’s a few to get you started: 
+Earlier in June, Umbraco held the very first virtual Codegarden. It saw over 2200 attendees enjoy 3 days of updates, discussions, and ideas from Umbraco developers, the Umbraco community, and industry experts. Talks and sessions are being uploaded to the [Umbraco YouTube channel](https://www.youtube.com/umbracohq) already, but here's a few to get you started: 
 
 - [Scott Hunter, .NET Director of Program Management at Microsoft - Future of application development with .NET](https://www.youtube.com/watch?v=Btvm-x5BRYg&list=PLG_nqaT-rbpx6wIDr5ufUlbHkg6qB3sxH&index=20)
 - [Bjarke Berg and Elitsa Marinovska, Umbraco Development Team - Umbraco 9 - the next major version](https://www.youtube.com/watch?v=a-NFlIKO1TQ&list=PLG_nqaT-rbpx6wIDr5ufUlbHkg6qB3sxH&index=19)
 - [Kim Sneum Madsen, Umbraco Chief Friend Maker (CEO) -   Opening keynote](https://www.youtube.com/watch?v=D_nLL-O2YIM&list=PLG_nqaT-rbpx6wIDr5ufUlbHkg6qB3sxH)
 
-Sad that you missed out on all the bits in between? Then come and join us for Codegarden 2022 next summer! For all the info on Codegarden 2022 when it comes, make sure you’re following us on [Twitter](https://twitter.com/umbraco?lang=da) and [LinkedIn](https://www.linkedin.com/company/umbraco), or [sign up for our newsletter](https://umbraco.activehosted.com/f/2) to get updates straight into your inbox.
+Sad that you missed out on all the bits in between? Then come and join us for Codegarden 2022 next summer! For all the info on Codegarden 2022 when it comes, make sure you're following us on [Twitter](https://twitter.com/umbraco?lang=da) and [LinkedIn](https://www.linkedin.com/company/umbraco), or [sign up for our newsletter](https://umbraco.activehosted.com/f/2) to get updates straight into your inbox.
 
 ### Microsoft Build 2021 session replays available
-If you missed it, [Microsoft Build](https://build.microsoft.com/) sessions are now available on-demand. On May 25th, .NET 6 Preview 4 was released and there were a variety of sessions at Build that covered the features coming in .NET 6. Most notably, you’ll want to checkout this session, which includes lots of discussion of .NET 6 and demos that show you what’s new and now possible.
+If you missed it, [Microsoft Build](https://build.microsoft.com/) sessions are now available on-demand. On May 25th, .NET 6 Preview 4 was released and there were a variety of sessions at Build that covered the features coming in .NET 6. Most notably, you'll want to checkout this session, which includes lots of discussion of .NET 6 and demos that show you what's new and now possible.
 
-Watch on-demand: [.NET 6 deep dive; what’s new and what’s coming](https://aka.ms/Build2021-OD485)
+Watch on-demand: [.NET 6 deep dive; what's new and what's coming](https://aka.ms/Build2021-OD485)
 
 ### [.NET Conf 2021](https://dotnetconf.net/?utm_campaign=savedate&utm_source=dotnetfdn&utm_medium=newsletter), November 9 - 11
 .NET Conf 2021 and the launch of .NET 6 is coming November 9th! .NET Conf is a free, three-day, virtual developer event that celebrates the major releases of .NET. It is co-organized by the .NET community and Microsoft, and sponsored by the .NET Foundation and ecosystem partners. Call for content will open on July 29th. 
@@ -129,7 +129,7 @@ Watch on-demand: [.NET 6 deep dive; what’s new and what’s coming](https://ak
 The .NET Foundation is only as good as the community that supports it. There are many ways to get involved. 
 
 ### [Support a project](https://dotnetfoundation.org/projects)
-Projects, and the people behind them, are at the heart of what .NET Foundation is all about. These days, you’ll find a wide variety of projects under the .NET Foundation. Can you contribute to something already in the works? [Browse our projects](https://dotnetfoundation.org/projects) to find out how to contribute. 
+Projects, and the people behind them, are at the heart of what .NET Foundation is all about. These days, you'll find a wide variety of projects under the .NET Foundation. Can you contribute to something already in the works? [Browse our projects](https://dotnetfoundation.org/projects) to find out how to contribute. 
 
 ### [Become a member](https://dotnetfoundation.org/member) 
 By involving people that are passionate about .NET we can create a powerful organization that furthers sustainable open source, a diverse and open community, and help evolve this growing and evolving ecosystem that we are very passionate about. If you are as passionate about the .NET ecosystem as we are, then you should consider becoming a member of the .NET Foundation. [Read more about member benefits](https://dotnetfoundation.org/member) and [please join](https://dotnetfoundation.org/member/become-a-member) to help shape the future.

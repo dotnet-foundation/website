@@ -53,7 +53,7 @@ This month's newsletter includes:</p>
 
 <p><a href="https://www.youtube.com/watch?v=ZsMk8hKEJ1o" target="" title=""><img alt=".NET" src="assets/posts/790b50a0e40d778b1ae844813ee540b0.png" width="564" /></a></p>
 
-<p>What’s new in Visual Studio for Mac 2019? Find out all the new features and capabilities in the IDE and even get a glance of our product roadmap.</p>
+<p>What's new in Visual Studio for Mac 2019? Find out all the new features and capabilities in the IDE and even get a glance of our product roadmap.</p>
 
 <hr />
 <h3>Visual Studio 2019 Launch Events Near You</h3>
@@ -177,11 +177,11 @@ In addition to providing some nice productivity features through MVVM developmen
 <hr />
 <h3>Connect with the .NET Foundation online</h3>
 
-<p>The&nbsp;<a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We’ll post regular updates and interesting things happening with .NET to share.</p>
+<p>The&nbsp;<a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We'll post regular updates and interesting things happening with .NET to share.</p>
 
 <p><a href="https://www.youtube.com/NETFoundation">The .NET Foundation is also on YouTube</a>. Watch community standups and design reviews as well as code-focused shows and interviews across our multiple playlists.</p>
 
 <hr />
 <h3>Remember to Subscribe!</h3>
 
-<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don’t worry, we want to keep these short, interesting, and low-noise, so we won’t overload your e-mail.</p>
+<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>

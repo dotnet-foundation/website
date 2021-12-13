@@ -11,15 +11,15 @@ excluded:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vpx-ok0fSMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # What Excites Me About the Future of .NET Ecosystem
-* I’m 110% into the Microsoft eco system. It’s easier to get different systems working together.
-* I’ve worked with many teams at Microsoft to make our world better! My favorite part of being in the Microsoft MVP program. 
+* I'm 110% into the Microsoft eco system. It's easier to get different systems working together.
+* I've worked with many teams at Microsoft to make our world better! My favorite part of being in the Microsoft MVP program. 
 * Microsoft embraces other ecosystems! Very exciting to me.
 # What Roll Can the .NET Foundation Can Play to Inspire Confidence in .NET?
 * Reach out to developers to embrace and stay in the .NET Eco system.
 * A non-Microsoft org can inspire developers and teams more in my mind. I listen my peers a lot more since they work in the real world every day, just like me.
 * Work with speakers, OSS developers, provide videos and even internet shows and podcasts.
 # How can the foundation Support OSS and Gain Credibility?
-* I’ve always been weary of OSS since it’s not back by an organization. Create a way to ensure OSS projects on the foundation site adhere to a common set of standards to show confidence for teams to use OSS. With some type of award or recognition to ensure code bases do the following (minimum): Adheres to coding standards. Uses and passes code analytics. Very well documented. Benchmarked! How the OSS developers respond to issues.
+* I've always been weary of OSS since it's not back by an organization. Create a way to ensure OSS projects on the foundation site adhere to a common set of standards to show confidence for teams to use OSS. With some type of award or recognition to ensure code bases do the following (minimum): Adheres to coding standards. Uses and passes code analytics. Very well documented. Benchmarked! How the OSS developers respond to issues.
 # What Can the Foundation do Around Education and Adoption of .NET?
 * Go into schools as low as middle school to inspire kids to get into software engineering.
 * Community events and better organization of all .NET events.

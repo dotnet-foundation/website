@@ -31,4 +31,4 @@ Programador por convicción y pasión. Más de 15 años programando en tecnolog�
 
 Actualmente viviendo en EU trabajando como Developer Senior para una compañía consultora con gran indice proyectos para el Gobierno de California.
 
-Early Adopter de productos tecnológicos. “Insider” de todo lo relacionado a Ms. Windows 10, Visual Studio, Visual Studio Code, Office, Xbox, Edge Chromium, etc, todo en versión insider.
+Early Adopter de productos tecnológicos. "Insider" de todo lo relacionado a Ms. Windows 10, Visual Studio, Visual Studio Code, Office, Xbox, Edge Chromium, etc, todo en versión insider.

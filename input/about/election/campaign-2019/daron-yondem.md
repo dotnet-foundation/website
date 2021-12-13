@@ -3,7 +3,7 @@ title: Daron Yondem
 image: campaign-2019/91d8775a-b129-4321-97f1-4eff32632f5b.jpg
 ---
 
-# Why I’m Running
+# Why I'm Running
 
 I saw no representation in the list of candidates from Middle-East, and that killed my imposter syndrome. I have lead INETA Turkey for four years, and INETA MEA for another till Microsoft stopped supporting INETA. I love to work with communities, help them reach larger audiences, build quality events. I have a good understanding of the community in MEA, visit at minimum 6 countries in the region every year to speak in an event. I present to pretty mixed audiences including professional developers, students, and CxOs. That gives me a good understanding of the needs of different types of roles. 
 

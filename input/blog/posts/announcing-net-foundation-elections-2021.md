@@ -6,7 +6,7 @@ Published: 2021-09-01
 
 ## .NET Foundation Election 2021 is Here
 
-We’re pleased to announce that the 2021 election process has begun! 
+We're pleased to announce that the 2021 election process has begun! 
 
 The Nomination Committee has reviewed the candidates who submitted a nomination and came up with the following slate. 
 

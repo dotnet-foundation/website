@@ -16,7 +16,7 @@ I am running for board member because i believe with my passion for open-source 
 
 
 ## Experience with the Foundation
-I am a .NET Foundation member, organizer of Accra.Net meetup, established through the foundation’s sponsorship with over 1,232 members and growing. My passion for sharing knowledge led me to join the outreach committee, i was part of the early GitHub discussions to create the foundations virtual meetup group during the pandemic which became a useful tool for meetup organizers with little streaming knowledge to organize virtual meetups with a much global audience. Through the Virtual meetup I have been able t0 host Mads Togersen, Scott Hunter and Maria Nagagga in West-Africa. I also assisted in getting 2 prominent tech speakers from Africa for Dev around the sun, a 24-hour international fundraiser for Direct Relief, helping those affected most by COVID-19.
+I am a .NET Foundation member, organizer of Accra.Net meetup, established through the foundation's sponsorship with over 1,232 members and growing. My passion for sharing knowledge led me to join the outreach committee, i was part of the early GitHub discussions to create the foundations virtual meetup group during the pandemic which became a useful tool for meetup organizers with little streaming knowledge to organize virtual meetups with a much global audience. Through the Virtual meetup I have been able t0 host Mads Togersen, Scott Hunter and Maria Nagagga in West-Africa. I also assisted in getting 2 prominent tech speakers from Africa for Dev around the sun, a 24-hour international fundraiser for Direct Relief, helping those affected most by COVID-19.
 
 
 ## What are my goals for the .NET Foundation?

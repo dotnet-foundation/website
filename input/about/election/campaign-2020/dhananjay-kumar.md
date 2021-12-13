@@ -24,8 +24,8 @@ Being a teacher and an engineer, I feel I am very well suited for the position. 
 
 *  Around 1000 articles and one bestselling book on Angular
 *  75+ talks  
-*  Founder of one of the world’s Largest Angular Conference, ng-India
-*  Founder of one of the India’s biggest developer community, <geek97/>
+*  Founder of one of the world's Largest Angular Conference, ng-India
+*  Founder of one of the India's biggest developer community, <geek97/>
 
 ## Links
 

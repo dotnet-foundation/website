@@ -23,9 +23,9 @@ This month's update includes:</p>
 
 <p><a href="https://www.dotnetconf.net/"><img alt=".NET" src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" /></a></p>
 
-<p>.NET Conf is our annual, free, online virtual event and this year and it’s going to be bigger than ever.&nbsp;<strong>.NET Core 3.0 will launch at .NET Conf!</strong><br />
+<p>.NET Conf is our annual, free, online virtual event and this year and it's going to be bigger than ever.&nbsp;<strong>.NET Core 3.0 will launch at .NET Conf!</strong><br />
 <br />
-<em>You don’t want to miss this one. Watch live sessions and ask questions on a variety of .NET topics from web, mobile, gaming, IoT, desktop, AI, and cloud. Attend the virtual attendee party, answer trivia questions, and win prizes from our partners. Save the date and tune into&nbsp;<a href="https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.dotnetconf.net&amp;data=02%7C01%7CJon.Galloway%40microsoft.com%7C3b9fb0ae4a7c47bc479908d72cb2265a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637027015973554316&amp;sdata=ZThoqMvta0oGRblUstR8p%2BafxCihVu0OSK53ZKlkpyY%3D&amp;reserved=0">www.dotnetconf.net</a>.</em><br />
+<em>You don't want to miss this one. Watch live sessions and ask questions on a variety of .NET topics from web, mobile, gaming, IoT, desktop, AI, and cloud. Attend the virtual attendee party, answer trivia questions, and win prizes from our partners. Save the date and tune into&nbsp;<a href="https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.dotnetconf.net&amp;data=02%7C01%7CJon.Galloway%40microsoft.com%7C3b9fb0ae4a7c47bc479908d72cb2265a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637027015973554316&amp;sdata=ZThoqMvta0oGRblUstR8p%2BafxCihVu0OSK53ZKlkpyY%3D&amp;reserved=0">www.dotnetconf.net</a>.</em><br />
 <br />
 <a href="https://www.dotnetconf.net/">Save the date!</a></p>
 
@@ -99,7 +99,7 @@ By request, we set up a short url that may be a little easier for you to remembe
 
 <p>All subsequent major versions of the above mentioned packages have switched to IdentityModel v4 and will be released along with IdentityServer4 v3 on the 23rd September.</p>
 
-<p>In the coming days I will push IdentityModel v4 to nuget – here’s a high level list of the changes.</p>
+<p>In the coming days I will push IdentityModel v4 to nuget – here's a high level list of the changes.</p>
 
 <p><strong>Target frameworks</strong>&nbsp;I dropped the net452 target – v4 is targeting net461 and netstandard2.0 only.</p>
 
@@ -206,11 +206,11 @@ By request, we set up a short url that may be a little easier for you to remembe
 <hr />
 <h3>Connect with the .NET Foundation online</h3>
 
-<p>The&nbsp;<a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We’ll post regular updates and interesting things happening with .NET to share.</p>
+<p>The&nbsp;<a href="https://www.facebook.com/dotnetfoundation/">.NET Foundation is on Facebook now</a>. Please like our page! We'll post regular updates and interesting things happening with .NET to share.</p>
 
 <p><a href="https://www.youtube.com/NETFoundation">The .NET Foundation is also on YouTube</a>. Watch community standups and design reviews as well as code-focused shows and interviews across our multiple playlists.</p>
 
 <hr />
 <h3>Remember to Subscribe!</h3>
 
-<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don’t worry, we want to keep these short, interesting, and low-noise, so we won’t overload your e-mail.</p>
+<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>

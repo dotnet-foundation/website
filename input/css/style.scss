@@ -396,6 +396,12 @@ svg.svg-inline--fa {
     a {
       color: #086DD9;
     }
+
+    .btn-dark {
+      background-color: #086DD9;
+      border-color: #086DD9;
+      color: #ffffff;
+    }
   }
 }
 
@@ -1841,6 +1847,7 @@ p {
     top: 0;
     left: 0;
     width: 100%;
+    min-width: 100%;
     height: 100%;
     border: none;
   }
@@ -1848,6 +1855,12 @@ p {
 
 iframe {
   max-width: 100%;
+  min-width: 100%;
+  height: 315px;
+  @media (min-width: 768px) {
+    min-width: 560px;
+    height: 315px;
+  }
 }
 
 table {
@@ -1940,5 +1953,11 @@ table {
   &.desc::after {
     content: "\002B07";
     padding-left: 3px;
+  }
+}
+
+.social-links {
+  a {
+    color: #0068FA;
   }
 }
