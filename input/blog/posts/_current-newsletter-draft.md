@@ -37,7 +37,7 @@ The .NET Foundation would like to welcome the following new projects!
 
 [NUnit Adapter 4.1.0](https://docs.nunit.org/articles/vs-test-adapter/AdapterV4-Release-Notes#nunit3-test-adapter-for-visual-studio---version-410---nov-8-2021) and [4.2.0](https://docs.nunit.org/articles/vs-test-adapter/AdapterV4-Release-Notes#nunit3-test-adapter-for-visual-studio---version-420---dec-11-2021) fix exceptions during discovery and other bugs, such as explicit runs when using a negative category filter and AddTestAttachment not working in VS2022.
 
-[NUnit Analyzers 3.2 and 2.2](https://github.com/nunit/nunit.analyzers/releases/tag/3.2.0) contains an improvement to the suppression of
+[NUnit Analyzers 3.2 and 2.2](https://github.com/nunit/nunit.analyzers/releases/tag/3.2.0) contain an improvement to the suppression of
 'Non-nullable field must contain a non-null value when exiting constructor (CS8618)' when the field/property is initialized by a method called from a SetUp/OneTimeSetUp method.
 
 
