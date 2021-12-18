@@ -4,7 +4,7 @@ Location: Istanbul, Turkey
 Email: e.dedeoglu@gmail.com
 Language:
   - English
-  - Turkisj
+  - Turkish
 Topics:
   - .NET
   - Android
