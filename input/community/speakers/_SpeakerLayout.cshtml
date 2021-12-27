@@ -24,7 +24,7 @@
 
                         @if (Document.ContainsKey(SiteKeys.Email))
                         {
-                            <div class="mb-4">
+                            <div class="mb-4 social-links">
                                 <h3>Email Address</h3>
                                 <div><a href="mailto:@(Document.GetString(SiteKeys.Email))">@(Document.GetString(SiteKeys.Email))</a></div>
                             </div>
