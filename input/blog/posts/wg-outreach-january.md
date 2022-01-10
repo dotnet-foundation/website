@@ -1,5 +1,5 @@
 ---
-Title: Outreach Committee January 2020
+Title: Outreach Committee January 2022
 Author: Shawn Wildermuth
 Published: 2022-01-09 20:00:00.0000000
 ---
