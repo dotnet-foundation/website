@@ -1,6 +1,6 @@
 # Why should my project join the .NET Foundation?
 
-The .NET Foundation offers administrative and technical services to open source projects, to help maintainers govern and develop their projects.
+The .NET Foundation offers administrative and technical services to open source projects to help maintainers govern and develop their projects.
 
 .NET Foundation services aim to increase project stability and maturity and don't replace developers on member projects. Day-to-day development remains in the hands of project maintainers and contributors.
 
@@ -16,7 +16,7 @@ Legal can be tricky. We can help. Projects in our organization will get assistan
 
 ## Marketing and communications
 
-The more people who know about .NET, the better for the ecosystem. We work with Amazon, JetBrains, Microsoft, Progress, and other industry leaders to improve your project's exposure within the community at large. Your success is our success-we'd love to see you achieve the accolades you deserve!
+The more people who know about .NET, the better for the ecosystem. We work with Amazon, JetBrains, Microsoft, Progress, and other industry leaders to improve your project's exposure within the community at large. Your success is our success - we'd love to see you achieve the accolades you deserve!
 
 ## CLA management
 
