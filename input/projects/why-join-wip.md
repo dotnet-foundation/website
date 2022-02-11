@@ -12,7 +12,12 @@ New projects joining us will get mentorship on how to best run an open source co
 
 ## IP and legal
 
-Legal can be tricky. We can help. Projects in our organization will get assistance to organize and manage their IP assignments as well as infrastructure for tracking common, simple, Contribution License Agreements across all .NET Foundation projects. We can also help ensure that your collaborators respect the open source licenses and trademarks of projects assigned to the .NET Foundation. Need advice on legal issues? We offer support there as well.
+Legal can be tricky. We can help. Projects in our organization will get:
+
+* Assistance to organize and manage their IP assignments
+* Infrastructure for tracking common, simple, Contribution License Agreements across all .NET Foundation projects.
+* Help to ensure that your collaborators respect the open source licenses and trademarks of projects assigned to the .NET Foundation.
+* Support and advice on legal issues
 
 ## Marketing and communications
 
