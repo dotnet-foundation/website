@@ -47,7 +47,11 @@ The .NET Foundation would like to welcome the following new projects!
 
 ## Events
 
+### JetBrains .NET Day Online 2022 – Call for Speakers
 
+It’s that time of the year again! For the past 3 years, our friends at JetBrains have been organizing a free, live, virtual event where community speakers cover topics they are passionate about: the JetBrains .NET Day Online. This year, it will take place on June 2, 2022.
+
+The Call for Speakers has just been opened! If you're interested in speaking, you can [submit a talk](https://jb.gg/q4pccp).
 
 ## How to Get Involved
 
