@@ -1,6 +1,6 @@
 ---
 Title: Stefano d'Antonio
-Location: Nottingham, UK
+Location: Naples, Italy
 Email: speaker@unosd.net
 Language:
   - English
