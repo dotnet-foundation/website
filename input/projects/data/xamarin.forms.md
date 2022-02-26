@@ -1,10 +1,10 @@
 ---
-Title: Xamarin Forms
+Title: Xamarin.Forms
 Contributor: Xamarin
 Logo: xamarin.jpg
 Web: https://xamarin.com/
 ---
-# Xamarin Forms
+# Xamarin.Forms
 
 Xamarin.Forms provides a way to quickly build native apps for iOS, Android, Windows and macOS, completely in C#.
 
