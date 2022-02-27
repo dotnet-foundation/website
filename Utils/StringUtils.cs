@@ -76,8 +76,7 @@ namespace DotnetFoundationWeb
             var endIndex = length;
             while (char.IsLetterOrDigit(value[endIndex - 1]) && char.IsLetterOrDigit(value[endIndex]) && endIndex > 1) endIndex--;
 
-            if (endIndex == 1) return string.Empty;
-            return value.Substring(0, endIndex).Trim();
+            return endIndex == 1 ? string.Empty : value.Substring(0, endIndex).Trim();
         }
     }
 }
