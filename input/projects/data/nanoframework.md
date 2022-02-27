@@ -11,7 +11,7 @@ Web: https://www.nanoframework.net/
 
 Developers can harness the powerful and familiar Microsoft Visual Studio IDE and their .NET C# knowledge to quickly write code without having to worry about the low-level hardware intricacies of a microcontroller. Desktop .NET developers will feel "at home" and are able to use their skills in embedded systems development, enlarging the pool of qualified embedded developers.
 
-It includes a reduced version of the .NET Common Language Runtime (CLR) and features a subset of the .NET base class libraries along with the most common APIs included in the Universal Windows Platform (UWP) allowing code reuse from desktop applications, IoT Core applications, thousands of code examples and open source projects.
+It includes a reduced version of the .NET Common Language Runtime (CLR) and features a subset of the .NET base class libraries along with the most common APIs included in [.NET IoT](https://docs.microsoft.com/en-us/uwp/api/) allowing code reuse from .NET IoT and desktop/cloud applications, thousands of code examples and open source projects.
 Using Microsoft Visual Studio, a developer can deploy and debug the code directly on real hardware.
 
 ## Project Details
