@@ -2,7 +2,7 @@
 Title: ASP.NET MVC, Web API and Web Pages (Razor)
 Contributor: Microsoft
 Logo: microsoft.jpg
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 ---
 # ASP.NET MVC, Web API and Web Pages (Razor)
 

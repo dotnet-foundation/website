@@ -2,7 +2,7 @@
 Title: Humanizer
 Contributor: Humanizer
 Logo: Humanizer.png
-Web: http://humanizr.net/
+Web: https://humanizr.net/
 ---
 # Humanizer
 

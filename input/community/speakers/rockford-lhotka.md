@@ -22,7 +22,7 @@ Topics:
   - WPF
   - Xamarin.Forms
 Blog: https://blog.lhotka.net
-Feed: http://feeds.feedburner.com/RockyLhotka
+Feed: https://feeds.feedburner.com/RockyLhotka
 Twitter: https://twitter.com/rockylhotka
 GitHub: https://github.com/rockfordlhotka
 StackOverflow: https://stackoverflow.com/users/438576/rockford-lhotka

@@ -20,4 +20,4 @@ LinkedIn: https://linkedin.com/in/pcameronpresley
 Sessionize: https://sessionize.com/cameronpresley
 Mentor: true
 ---
-I have over five years experience speaking at conferences and user groups. You can see some of the feedback I've received for my presentations at http://blog.thesoftwarementor.com/feedback/
+I have over five years experience speaking at conferences and user groups. You can see some of the feedback I've received for my presentations at https://blog.thesoftwarementor.com/feedback/

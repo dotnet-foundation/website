@@ -52,4 +52,4 @@ Whenever I am discover something fun or exciting, I share it with others [**on m
 
 I also love to help developers by answering questions [**on Stack Overflow**](https://stackoverflow.com/users/732221/martin-zikmund). It is a great challenge and source of further exploration and learning.
 
-Finally, I have recently started doing **live coding** [on Twitch](http://twitch.tv/martinzikmund). I'm a beginner, but it is fun, and I will keep on doing it!
+Finally, I have recently started doing **live coding** [on Twitch](https://twitch.tv/martinzikmund). I'm a beginner, but it is fun, and I will keep on doing it!

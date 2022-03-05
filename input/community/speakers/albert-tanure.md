@@ -26,7 +26,7 @@ Topics:
   - Windows Forms
   - Xamarin
   - Xamarin.Forms
-Blog: http://www.codefc.com.br
+Blog: https://www.codefc.com.br
 Feed: https://codefc.com.br/feed/
 Twitter:  https://twitter.com/alberttanure
 GitHub: https://github.com/tanure

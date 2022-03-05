@@ -25,4 +25,4 @@ About 20 years of experience working in Microsoft technologies, and the last 15 
 
 I am very passionate about Microsoft Technology. I am a Microsoft community member, where I participate in tangible manner in events, with my blog or contributing to the OfficeDev PnP project (usually I´m a monthly Key contributor).
 
-I also collaborate with CompartiMOSS (http://www.compartimoss.com/autores/luis-manez), a Microsoft technologies specializing magazine, led by some Spanish SharePoint MVPs.
+I also collaborate with CompartiMOSS (https://www.compartimoss.com/autores/luis-manez), a Microsoft technologies specializing magazine, led by some Spanish SharePoint MVPs.

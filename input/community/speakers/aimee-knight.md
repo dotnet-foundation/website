@@ -9,7 +9,7 @@ Topics:
   - Diversity & Inclusion
   - JavaScript
   - Web Development
-Blog: http://www.aimeemarieknight.com/
+Blog: https://www.aimeemarieknight.com/
 Twitter: https://twitter.com/Aimee_Knight
 GitHub: https://github.com/AimeeKnight
 LinkedIn: https://www.linkedin.com/in/aimee-k-b268058/

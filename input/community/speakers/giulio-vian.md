@@ -12,8 +12,8 @@ Topics:
   - AWS
   - DevOps
   - Visual Basic
-Blog: http://blog.casavian.eu/
-Feed: http://blog.casavian.eu/index.xml
+Blog: https://blog.casavian.eu/
+Feed: https://blog.casavian.eu/index.xml
 Twitter: https://twitter.com/giulio_vian
 GitHub: https://github.com/giuliov
 StackOverflow: https://stackoverflow.com/users/100864/giulio-vian

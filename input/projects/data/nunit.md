@@ -2,7 +2,7 @@
 Title: NUnit Test Framework
 Contributor: NUnit
 Logo: nunit.png
-Web: http://nunit.org/
+Web: https://nunit.org/
 ---
 # NUnit Test Framework
 

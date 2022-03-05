@@ -33,6 +33,6 @@ In 1998 I founded and I'm currently serving as network manager for [ASPItalia.co
 
 I'm a well-known professional author with 30 published books, and a speaker at the main developer-focused events worldwide.
 
-I'm the organizer of [CommunityDays](http://www.communitydays.it), the most important community conference in Italy, with 1,000+ participants every year.
+I'm the organizer of [CommunityDays](https://www.communitydays.it), the most important community conference in Italy, with 1,000+ participants every year.
 
 I'm very passionate about design and home automation.

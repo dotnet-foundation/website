@@ -2,7 +2,7 @@
 Title: Windows Template Studio
 Contributor: Microsoft
 Logo: microsoft.jpg
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 ---
 # Windows Template Studio
 

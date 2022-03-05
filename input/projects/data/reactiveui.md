@@ -2,7 +2,7 @@
 Title: ReactiveUI
 Contributor: ReactiveUI
 Logo: reactiveui.jpg
-Web: http://reactiveui.net
+Web: https://reactiveui.net
 ---
 # ReactiveUI
 

@@ -2,11 +2,11 @@
 Title: Reactive Extensions for .NET
 Contributor: Microsoft
 Logo: reactive-extensions.png
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 ---
 # Reactive Extensions for .NET
 
-[Reactive Extensions](http://reactivex.io/) is a library for composing
+[Reactive Extensions](https://reactivex.io/) is a library for composing
 asynchronous and event-based programs using observable sequences and LINQ-style
 query operators. Using Rx, developers represent asynchronous data streams with
 Observables, query asynchronous data streams using LINQ operators, and
@@ -15,7 +15,7 @@ Simply put, Rx = Observables + LINQ + Schedulers..
 
 ## Project Details
 
-* [Project Info Site](http://reactivex.io)
+* [Project Info Site](https://reactivex.io)
 * [Project Code Site](https://github.com/dotnet/reactive)
 * Project License Type: [MIT](https://github.com/dotnet/reactive/blob/master/LICENSE)
 * Project Main Contacts: [Bart de Smet](https://github.com/bartdesmet), [Matt Podwysocki](https://twitter.com/mattpodwysocki), [Claire Novotny](https://github.com/clairernovotny) and [Brendan Forster](https://github.com/shiftkey)

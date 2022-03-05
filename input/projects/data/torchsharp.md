@@ -2,7 +2,7 @@
 Title: TorchSharp
 Contributor: Microsoft
 Logo: microsoft.jpg
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 ---
 # TorchSharp
 

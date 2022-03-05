@@ -2,7 +2,7 @@
 Title: Managed Extensibility Framework (MEF, MEF2)
 Contributor: Microsoft
 Logo: microsoft.jpg
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 IsActive: False
 ---
 # Managed Extensibility Framework (MEF, MEF2)

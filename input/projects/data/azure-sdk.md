@@ -2,7 +2,7 @@
 Title: Azure SDK for .NET
 Contributor: Microsoft
 Logo: microsoft.jpg
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 ---
 # Azure SDK for .NET
 

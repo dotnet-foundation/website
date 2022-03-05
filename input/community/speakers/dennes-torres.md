@@ -12,7 +12,7 @@ Topics:
   - Data
   - Entity Framework
   - WPF
-Blog: http://dennestorres.com/
+Blog: https://dennestorres.com/
 Feed: https://www.red-gate.com/simple-talk/author/dennes-torres/feed/
 Twitter: https://twitter.com/dennes
 GitHub: https://github.com/DennesTorres

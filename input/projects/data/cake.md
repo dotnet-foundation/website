@@ -2,7 +2,7 @@
 Title: Cake
 Contributor: Cake
 Logo: cake-large.png
-Web: http://cakebuild.net/
+Web: https://cakebuild.net/
 ---
 # Cake
 

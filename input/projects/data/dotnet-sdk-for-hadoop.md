@@ -2,7 +2,7 @@
 Title: .NET SDK For Hadoop
 Contributor: Microsoft
 Logo: microsoft.jpg
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 IsActive: False
 ---
 # .NET SDK For Hadoop

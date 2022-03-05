@@ -26,4 +26,4 @@ I have participated in the Unite Conf(Beijing & Shanghai) twice as a speaker. An
 
 Before joining Unity, I was a game programmer and the organizer of the Beijing Unity User Group(UUG). I like to write technical blogs (of course mostly in Chinese), and my first book about Unity&C# was published in 2016.
 
-http://www.jiadongchen.com/#talks
+https://www.jiadongchen.com/#talks

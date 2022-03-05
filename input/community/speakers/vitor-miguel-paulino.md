@@ -19,7 +19,7 @@ Topics:
   - NuGet
   - Serverless
   - SignalR
-Blog: http://vpaulino.wordpress.com
+Blog: https://vpaulino.wordpress.com
 Twitter: https://twitter.com/vmpaulino
 GitHub: https://github.com/vpaulino
 LinkedIn: https://linkedin.com/in/vpaulino

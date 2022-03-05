@@ -9,7 +9,7 @@ Topics:
   - Azure
   - Containers
   - Microservices
-Blog: http://blog.guybarrette.com/
+Blog: https://blog.guybarrette.com/
 Feed: https://blog.guybarrette.com/rss
 Twitter: https://twitter.com/guybarrette
 GitHub: https://github.com/guybarrette

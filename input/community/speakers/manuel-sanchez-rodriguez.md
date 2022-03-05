@@ -15,8 +15,8 @@ Topics:
   - IoT
   - Microservices
   - IoT
-Blog: http://manuss20.com/
-Feed: http://manuss20.com/feed/
+Blog: https://manuss20.com/
+Feed: https://manuss20.com/feed/
 Twitter: https://twitter.com/manuss20
 GitHub: https://github.com/Manuss20
 LinkedIn: https://www.linkedin.com/in/manuelsanchezrodriguez/
@@ -32,9 +32,9 @@ I contribute to the developers community writing articles in my personal blog an
 I am also one of the Netcoreconf leads.
 
 ## 📝 My blogs
-<a href="http://manuss20.com" rel="nofollow">  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/blogs/wordpress.svg" style="max-width:100%;"></a>
+<a href="https://manuss20.com" rel="nofollow">  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/blogs/wordpress.svg" style="max-width:100%;"></a>
 <a href="https://medium.com/@manuss20" rel="nofollow"><img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/blogs/medium.svg" style="max-width:100%;"></a>
-<a href="http://manuss20.com/feed.xml" rel="nofollow"><img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/blogs/rss.svg" style="max-width:100%;"></a>
+<a href="https://manuss20.com/feed.xml" rel="nofollow"><img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/blogs/rss.svg" style="max-width:100%;"></a>
 
 ## 💬 Let's talk about **Microsoft Azure and .NET**
 

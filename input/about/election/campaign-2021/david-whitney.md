@@ -77,7 +77,7 @@ I believe the foundation needs to listen to both it's members, and the community
 
 - [Website](http://www.davidwhitney.co.uk)
 - [Books](http://davidwhitney.co.uk/books)
-- [Twitter](http://twitter.com/david_whitney)
+- [Twitter](https://twitter.com/david_whitney)
 - [NuGet](https://www.nuget.org/profiles/davidwhitney)
 - [LinkedIn](https://www.linkedin.com/in/davidwhitney/)
 - [YouTube](https://www.youtube.com/channel/UC1RDhiJQ7TmWvq8OMjOH3mg)

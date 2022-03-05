@@ -2,7 +2,7 @@
 Title: ASP.NET Ajax Control Toolkit
 Contributor: Microsoft
 Logo: microsoft.jpg
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 ---
 # ASP.NET Ajax Control Toolkit
 
