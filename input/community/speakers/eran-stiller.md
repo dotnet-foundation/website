@@ -23,5 +23,5 @@ My name is Eran Stiller. I'm the CTO and Co-Founder of CodeValue, a software ser
 
 I practice software architecture at various clients daily, reviewing many designs in many professional fields. As CTO, I am also in charge of learning and promoting the usage of various innovative technology platforms throughout CodeValue's projects and customer solutions. I am also highly experienced in technologically leading, architecting, and developing software infrastructures of different abstraction levels, ranging from low-level application frameworks up to fully-fledged distributed system hosts.
 
-I instruct various software courses and workshops, and I am a [frequent public speaker](https://stiller.blog/public-speaking/) at various local & international events on topics I find especially interesting. Furthermore, I am the founder of [Azure Israel](http://www.meetup.com/AzureIsrael/), which meets every once in a while to discuss all things related to Microsoft Azure.
+I instruct various software courses and workshops, and I am a [frequent public speaker](https://stiller.blog/public-speaking/) at various local & international events on topics I find especially interesting. Furthermore, I am the founder of [Azure Israel](https://www.meetup.com/AzureIsrael/), which meets every once in a while to discuss all things related to Microsoft Azure.
 

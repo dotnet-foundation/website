@@ -2,7 +2,7 @@
 Title: .NET for Apache Spark
 Contributor: Microsoft
 Logo: microsoft.jpg
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 ---
 # .NET for Apache Spark
 

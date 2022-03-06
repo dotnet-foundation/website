@@ -21,6 +21,6 @@ The contracts take the form of pre-conditions, post-conditions, and object invar
 ## Quicklinks
 
 * [Download](https://visualstudiogallery.msdn.microsoft.com/1ec7db13-3363-46c9-851f-1ce455f66970)
-* [FAQ](http://research.microsoft.com/en-us/projects/contracts/faq.aspx)
-* [Discussions and Help](http://social.msdn.microsoft.com/Forums/en-US/codecontracts/threads)
+* [FAQ](https://research.microsoft.com/en-us/projects/contracts/faq.aspx)
+* [Discussions and Help](https://social.msdn.microsoft.com/Forums/en-US/codecontracts/threads)
 * [Contribute](https://github.com/microsoft/CodeContracts/blob/master/CONTRIBUTING.md)

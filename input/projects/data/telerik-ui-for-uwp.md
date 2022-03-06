@@ -2,7 +2,7 @@
 Title: Telerik UI for UWP
 Contributor: Telerik
 Logo: telerik-ui-for-uwp.png
-Web: http://www.telerik.com
+Web: https://www.telerik.com
 ---
 # Telerik UI for UWP
 

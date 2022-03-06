@@ -36,5 +36,5 @@ I have been a Microsoft MVP for 4 years in the category of Visual Studio and Dev
 I hold various certifications from .NET Framework version 2.0 to the current versio. I have been using and developing with Microsoft products for over 15 years. 
 I love participating in projects that have to do with the cloud because for me it is not the future, it is the present of technology. I'm a fan of Apis, WCF services and everything that smells like backend
 
-I contribute to the developers community writing articles, giving speeches in numerous events, helping to translate Microsoft MakeCode and micro:bit, participating and moderating several MSDN forums in Spanish and also collaborate with CompartiMOSS (http://www.compartimoss.com/), a Microsoft technologies specializing magazine.
+I contribute to the developers community writing articles, giving speeches in numerous events, helping to translate Microsoft MakeCode and micro:bit, participating and moderating several MSDN forums in Spanish and also collaborate with CompartiMOSS (https://www.compartimoss.com/), a Microsoft technologies specializing magazine.
 Currently I'm one of the CrossDvlup community group organizers (https://www.meetup.com/es-ES/CrossDvlup).

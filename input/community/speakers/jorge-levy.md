@@ -15,8 +15,8 @@ Topics:
   - DevOps
   - Visual Studio
   - Web Development
-Blog: http://www.jorgelevy.com/
-Feed: http://www.jorgelevy.com/feed/
+Blog: https://www.jorgelevy.com/
+Feed: https://www.jorgelevy.com/feed/
 Twitter: https://twitter.com/KodiakMx
 GitHub: https://github.com/jorgelevy
 StackOverflow: https://stackoverflow.com/users/654508/kodiakmx

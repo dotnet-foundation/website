@@ -20,8 +20,8 @@ Topics:
   - Razor
   - SignalR
   - Visual Studio
-Blog: http://eduardopires.net.br/
-Feed: http://eduardopires.net.br/rss
+Blog: https://eduardopires.net.br/
+Feed: https://eduardopires.net.br/rss
 Twitter: https://twitter.com/EduardoPiresBR
 GitHub: https://github.com/eduardopires
 LinkedIn: https://www.linkedin.com/in/pireseduardo/

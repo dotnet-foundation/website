@@ -2,7 +2,7 @@
 Title: LLILC
 Contributor: Microsoft
 Logo: sixlabors.256.png
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 ---
 # LLILC
 

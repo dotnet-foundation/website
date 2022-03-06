@@ -22,7 +22,7 @@ Topics:
   - Visual Studio Code 
   - Web Development 
 Blog: https://intellitect.com/mark
-Feed: http://feeds.feedburner.com/intellitect/mark
+Feed: https://feeds.feedburner.com/intellitect/mark
 Twitter: https://twitter.com/markmichaelis
 GitHub: https://github.com/markmichaelis
 LinkedIn: https://www.linkedin.com/in/markmichaelis

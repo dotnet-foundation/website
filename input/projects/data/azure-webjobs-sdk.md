@@ -2,7 +2,7 @@
 Title: Microsoft Azure WebJobs SDK
 Contributor: Microsoft
 Logo: microsoft.jpg
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 ---
 # Microsoft Azure WebJobs SDK
 

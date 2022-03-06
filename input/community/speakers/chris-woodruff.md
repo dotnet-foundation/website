@@ -12,7 +12,7 @@ Topics:
   - Data
   - Open Source
   - Web Development
-Blog: http://chriswoodruff.com/
+Blog: https://woodruff.dev/
 Twitter: https://twitter.com/cwoodruff
 GitHub: https://github.com/cwoodruff
 LinkedIn: https://www.linkedin.com/in/chriswoodruff/

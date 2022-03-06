@@ -13,7 +13,7 @@ IsActive: false
 
 * [Project Info Site](http://coapp.org/)
 * [Project Code Site](https://github.com/coapp/)
-* Project License Type: [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+* Project License Type: [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
 * Project Main Contacts: [Garrett Serack](https://github.com/fearthecowboy), [Tom Hanrahan](https://github.com/hanrahat), [Tim Rogers](https://github.com/virmitio), [Eric Schultz](https://github.com/wwahammy).
 
 ## Quicklinks

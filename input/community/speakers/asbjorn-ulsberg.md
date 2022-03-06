@@ -70,7 +70,7 @@ the right tool for the job a liberating, creative and rewarding experience.
 ## Projects
 
 * [GitVersion](https://github.com/GitTools/GitVersion), Easy [Semantic
-  Versioning](http://semver.org) for projects using Git.
+  Versioning](https://semver.org) for projects using Git.
 * [Hydra](https://www.hydra-cg.com/), a hypermedia format for APIs.
 * [json-ld.net](https://github.com/linked-data-dotnet/json-ld.net), a .NET
   implementation of [JSON-LD](https://json-ld.org/).

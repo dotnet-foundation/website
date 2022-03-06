@@ -2,7 +2,7 @@
 Title: WiX Toolset
 Contributor: WiX Toolset
 Logo: wix-white.png
-Web: http://wixtoolset.org/
+Web: https://wixtoolset.org/
 ---
 # WiX Toolset
 

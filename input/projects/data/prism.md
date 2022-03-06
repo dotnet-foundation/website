@@ -13,7 +13,7 @@ Prism is a framework for building loosely coupled, maintainable, and testable XA
 * [Project Code Site](https://github.com/PrismLibrary/Prism) 
 * Project License Type: [MIT](https://github.com/PrismLibrary/Prism/blob/master/LICENSE)
 * Project Main Contact: [Brian Lagunas](https://brianlagunas.com) 
-* Project Secondary Contact: [Dan Siegel](http://dansiegel.net/)
+* Project Secondary Contact: [Dan Siegel](https://dansiegel.net/)
 
 ## Quicklinks
 

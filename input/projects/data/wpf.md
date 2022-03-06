@@ -2,7 +2,7 @@
 Title: Windows Presentation Foundation (WPF)
 Contributor: Microsoft
 Logo: microsoft.jpg
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 ---
 # Windows Presentation Foundation (WPF)
 

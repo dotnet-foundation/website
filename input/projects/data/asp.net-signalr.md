@@ -2,7 +2,7 @@
 Title: ASP.NET SignalR
 Contributor: Microsoft
 Logo: microsoft.jpg
-Web: http://www.microsoft.com
+Web: https://www.microsoft.com
 ---
 # ASP.NET SignalR
 
@@ -22,6 +22,6 @@ SignalR will use WebSockets under the covers when it's available, and gracefully
 
 * [Contribute](https://github.com/SignalR/SignalR/blob/master/CONTRIBUTING.md)
 * [Documentation](https://www.asp.net/signalr)
-* [JabbR](http://jabbr.net/#/rooms/signalr) 
+* [JabbR](https://jabbr.net/#/rooms/signalr) 
 * [Forum](https://forums.asp.net/1254.aspx/1?ASP+NET+SignalR)
 * [Blog](https://blogs.msdn.com/b/webdev/)

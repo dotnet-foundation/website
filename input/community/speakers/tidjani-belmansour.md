@@ -10,8 +10,8 @@ Topics:
   - DevOps
   - Human Skills
   - Serverless
-Blog: http://espacenuagic.com
-Feed: http://espacenuagic.com/rss
+Blog: https://espacenuagic.com
+Feed: https://espacenuagic.com/rss
 Twitter: https://twitter.com/tidjani_b
 GitHub: https://github.com/belrarr
 StackOverflow: https://stackoverflow.com/users/1288566/tidjani-belmansour

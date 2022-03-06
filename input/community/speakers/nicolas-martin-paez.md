@@ -12,7 +12,7 @@ Topics:
   - DevOps
   - Human Skills
   - Microservices
-Blog: http://blog.nicopaez.com/
+Blog: https://blog.nicopaez.com/
 Twitter: https://twitter.com/inicopaez
 GitHub: https://github.com/nicopaez
 StackOverflow: https://stackoverflow.com/users/2086864/nicopaez

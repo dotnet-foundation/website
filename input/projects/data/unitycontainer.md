@@ -26,4 +26,4 @@ The [Unity Container (Unity)](https://github.com/unitycontainer/unity) is a full
 ### Quicklinks
 
 * [Contribute](https://github.com/unitycontainer/unity/blob/master/contribute.md)
-* [Documentation](http://unitycontainer.org/)
+* [Documentation](https://unitycontainer.org/)

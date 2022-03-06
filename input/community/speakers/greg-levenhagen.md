@@ -52,7 +52,7 @@ Twitch: https://twitch.tv/greglevenhagen
 YouTube: https://youtube.com/greglevenhagen
 Mentor: true
 ---
-Greg Levenhagen is a Principal Consultant with Skyline Technologies, a Microsoft Regional Director (http://rd.microsoft.com) and a developer related Microsoft Most Valuable Professional (MVP). Helping make people's lives better through technology and software. Having spent significant time in Linux, UNIX, Apple and Microsoft stacks, along with the big three cloud providers in Amazon (AWS), Microsoft (Azure) and Google (GCP), believes strongly in a best tool for the job/solution approach.
+Greg Levenhagen is a Principal Consultant with Skyline Technologies, a Microsoft Regional Director (https://rd.microsoft.com) and a developer related Microsoft Most Valuable Professional (MVP). Helping make people's lives better through technology and software. Having spent significant time in Linux, UNIX, Apple and Microsoft stacks, along with the big three cloud providers in Amazon (AWS), Microsoft (Azure) and Google (GCP), believes strongly in a best tool for the job/solution approach.
 
 A true enthusiast of computer science, with passions and interests including AR/MR/VR, AI (several subcategories of Artificial Intelligence - neural networks, machine learning, and vision), data science, mobile, User Experience/User Interaction, architecture, distributed computing, 3D/games, cloud, security, devops/devsecops, automated testing, web, agile, languages and much more. Greg speaks at conferences like THAT Conference, CodeMash, VSLive, Code PaLOUsa and various Code Camps.
 

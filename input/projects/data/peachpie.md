@@ -2,7 +2,7 @@
 Title: Peachpie Compiler Platform
 Contributor: Peachpie Compiler Platform
 Logo: peachpie.png
-Web: http://www.peachpie.io
+Web: https://www.peachpie.io
 ---
 # Peachpie Compiler Platform
 

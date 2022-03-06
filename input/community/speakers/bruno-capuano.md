@@ -18,7 +18,7 @@ Topics:
   - ML.NET
   - Visual Studio
   - Visual Studio Code
-Blog: http://www.elbruno.com
+Blog: https://www.elbruno.com
 Twitter: https://twitter.com/elbruno
 GitHub: https://github.com/elbruno
 LinkedIn: https://linkedin.com/in/elbruno
@@ -27,7 +27,7 @@ MeetUp: https://www.meetup.com/members/85509042/
 Instagram: https://instagram.com/elbrunoc
 Mentor: true
 ---
-Hi, my name is Bruno Capuano, and you can find me by [***elbruno***] on most of the usual places: [twitter](http://twitter.com/elbruno), [linkedin](https://www.linkedin.com/in/elbruno/), [facebook](http://facebook.com/elbrunoweb/), this blog and more. Please do not get discourage by some of the [search results](https://www.google.com/search?q=bruno+capuano&source=lnms), I'll try to have fun and share knowledge with technical communities.
+Hi, my name is Bruno Capuano, and you can find me by [***elbruno***] on most of the usual places: [twitter](https://twitter.com/elbruno), [linkedin](https://www.linkedin.com/in/elbruno/), [facebook](https://facebook.com/elbrunoweb/), this blog and more. Please do not get discourage by some of the [search results](https://www.google.com/search?q=bruno+capuano&source=lnms), I'll try to have fun and share knowledge with technical communities.
 
 I'm also a technology enthusiast (I don't really understand the meaning of this, but it seems to look cool in a short description). I've speak in at least 2 different countries, so I'm an also an [international speaker](https://elbruno.com/tag/event/).
 
