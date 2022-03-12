@@ -12,12 +12,12 @@ This month's newsletter includes:</p>
 <li>Project Onboarding Process Improvements</li>
 <li>Join an Action Group!</li>
 <li>.NET Foundation at OSCON 2019</li>
-<li>.NET Conf 2019, September 23-25 (<a href="http://www.dotnetconf.net">www.dotnetconf.net</a>)</li>
+<li>.NET Conf 2019, September 23-25 (<a href="https://www.dotnetconf.net">www.dotnetconf.net</a>)</li>
 <li>.NET Foundation Project Updates</li>
 <li>Meetups</li>
 </ul>
 
-<p>As always, these are available both on our blog and via e-mail:&nbsp;<a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
+<p>As always, these are available both on our blog and via e-mail:&nbsp;<a href="https://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
 
 <hr />
 <h2><a href="https://github.com/dotnet-foundation/newsletter">New Process For Newsletter Submission</a></h2>
@@ -72,13 +72,13 @@ If you're a .NET Foundation Member, sign up to join an action group:</p>
 <p>Jon Galloway, Executive Director of the .NET Foundation, attended and spoke at OSCON this month. Check out his presentation slides and notes from the conference:&nbsp;<a href="/blog/2019/08/01/net-foundation-at-oscon-2019">.NET Foundation at OSCON 2019</a>.</p>
 
 <hr />
-<h2>.NET Conf 2019, September 23-25 (<a href="http://www.dotnetconf.net/">www.dotnetconf.net</a>)</h2>
+<h2>.NET Conf 2019, September 23-25 (<a href="https://www.dotnetconf.net/">www.dotnetconf.net</a>)</h2>
 
 <p><a href="https://www.dotnetconf.net/"><img src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" alt=".NET" /></a></p>
 
 <p>.NET Conf is our annual, free, online virtual event and this year and it's going to be bigger than ever. .NET Core 3.0 will launch at .NET Conf!<br />
 <br />
-<strong>The .NET Conf Call for Speakers is now open.</strong>&nbsp;This is your chance to present to the world-wide .NET Community remotely from your own time-zone. Head to&nbsp;<a href="http://www.dotnetconf.net/">www.dotnetconf.net</a>&nbsp;to learn more and save the date!</p>
+<strong>The .NET Conf Call for Speakers is now open.</strong>&nbsp;This is your chance to present to the world-wide .NET Community remotely from your own time-zone. Head to&nbsp;<a href="https://www.dotnetconf.net/">www.dotnetconf.net</a>&nbsp;to learn more and save the date!</p>
 
 <hr />
 <h2>.NET Foundation Project Updates</h2>
@@ -254,7 +254,7 @@ Huge thanks to our contributors and users! Wouldn't have been possible without y
 
 <p>Or, if you prefer, use Nuget:</p>
 
-<p><a href="http://www.nuget.org/packages/AjaxControlToolkit/">ASP.NET AJAX Control Toolkit Nuget package</a></p>
+<p><a href="https://www.nuget.org/packages/AjaxControlToolkit/">ASP.NET AJAX Control Toolkit Nuget package</a></p>
 
 <p>As always, we welcome your feedback. Please share your thoughts on this update via&nbsp;<a href="https://github.com/DevExpress/AjaxControlToolkit/issues">GitHub</a>.<br />
 &nbsp;</p>
@@ -304,4 +304,4 @@ Huge thanks to our contributors and users! Wouldn't have been possible without y
 <hr />
 <h3>Remember to Subscribe!</h3>
 
-<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>
+<p>Please&nbsp;<a href="https://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>

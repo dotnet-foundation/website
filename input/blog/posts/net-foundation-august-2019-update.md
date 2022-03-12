@@ -16,10 +16,10 @@ This month's update includes:</p>
 <li>Meetups</li>
 </ul>
 
-<p>As always, these are available both on our blog and via e-mail:&nbsp;<a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
+<p>As always, these are available both on our blog and via e-mail:&nbsp;<a href="https://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
 
 <hr />
-<h2><strong>.NET Conf 2019, September 23-25 (<a href="http://www.dotnetconf.net/">www.dotnetconf.net</a>)</strong></h2>
+<h2><strong>.NET Conf 2019, September 23-25 (<a href="https://www.dotnetconf.net/">www.dotnetconf.net</a>)</strong></h2>
 
 <p><a href="https://www.dotnetconf.net/"><img alt=".NET" src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" /></a></p>
 

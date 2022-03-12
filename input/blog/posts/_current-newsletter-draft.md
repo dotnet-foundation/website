@@ -7,7 +7,7 @@ Excluded: true
 ---
 
 
-[Sign up for the newsletter](http://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
+[Sign up for the newsletter](https://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
 
 ## General news
 

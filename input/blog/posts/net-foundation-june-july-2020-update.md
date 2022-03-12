@@ -92,7 +92,7 @@ To update the ASP.NET AJAX Control Toolkit, please download our most recent inst
 
 Or, if you prefer, use Nuget:
 
-<a href="http://www.nuget.org/packages/AjaxControlToolkit/" target="_blank">ASP.NET AJAX Control Toolkit Nuget package</a>
+<a href="https://www.nuget.org/packages/AjaxControlToolkit/" target="_blank">ASP.NET AJAX Control Toolkit Nuget package</a>
 
 As always, we welcome your feedback. Please share your thoughts on this update via [GitHub](https://github.com/DevExpress/AjaxControlToolkit/issues).
 
