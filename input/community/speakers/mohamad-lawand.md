@@ -4,6 +4,8 @@ Location: Manchester, UK
 Email: mohamad.lawand@outlook.com
 Language:
   - English
+  - French
+  - Arabic
 Topics:
   - .NET
   - ASP.NET
