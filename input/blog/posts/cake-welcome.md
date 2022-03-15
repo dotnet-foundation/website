@@ -3,7 +3,7 @@ Title: Free as in Cake
 Author: 
 Published: 2016-06-09 18:16:00.0000000
 ---
-<p>I love most forms of Cake and I've also been a bit of a build automation nut for nearly two decades now. So you can imagine my delight when I was able to combine these two passions with the <a href="http://cakebuild.net/">CakeBuild.net</a>&nbsp;project. At <a href="http://ndcoslo.com/talk/having-your-cake-and-eating-it-too/">NDC Oslo today</a>, <a href="https://github.com/gep13">Gary Ewan Park</a>&nbsp;from the Cake project team&nbsp;<a href="http://ndcoslo.com/talk/having-your-cake-and-eating-it-too/">announced </a>that Cake was joining the .NET Foundation family. In this guest post, <a href="https://github.com/gep13">Gary</a>&nbsp;explains more about the project. If it looks like it will be useful to you, I encourage you to <a href="http://cakebuild.net/">give it a try</a>&nbsp;and <a href="https://github.com/cake-build">get involved</a>&nbsp;in the growing community.</p>
+<p>I love most forms of Cake and I've also been a bit of a build automation nut for nearly two decades now. So you can imagine my delight when I was able to combine these two passions with the <a href="https://cakebuild.net/">CakeBuild.net</a>&nbsp;project. At <a href="http://ndcoslo.com/talk/having-your-cake-and-eating-it-too/">NDC Oslo today</a>, <a href="https://github.com/gep13">Gary Ewan Park</a>&nbsp;from the Cake project team&nbsp;<a href="http://ndcoslo.com/talk/having-your-cake-and-eating-it-too/">announced </a>that Cake was joining the .NET Foundation family. In this guest post, <a href="https://github.com/gep13">Gary</a>&nbsp;explains more about the project. If it looks like it will be useful to you, I encourage you to <a href="http://cakebuild.net/">give it a try</a>&nbsp;and <a href="https://github.com/cake-build">get involved</a>&nbsp;in the growing community.</p>
 
 <p>--Martin</p>
 
@@ -59,7 +59,7 @@ Published: 2016-06-09 18:16:00.0000000
 
 <h2>Ok, so how do I get started with Cake?</h2>
 
-<p>The best place to start with Cake would be the <a href="http://cakebuild.net/docs/tutorials/getting-started">getting started</a>&nbsp;guide. This will walk you through the process of using Cake to build an example project. From there, you can follow the <a href="http://cakebuild.net/docs/tutorials/setting-up-a-new-project">setting up a new project</a>&nbsp;guide.</p>
+<p>The best place to start with Cake would be the <a href="https://cakebuild.net/docs/tutorials/getting-started">getting started</a>&nbsp;guide. This will walk you through the process of using Cake to build an example project. From there, you can follow the <a href="http://cakebuild.net/docs/tutorials/setting-up-a-new-project">setting up a new project</a>&nbsp;guide.</p>
 
 <h2>More information</h2>
 

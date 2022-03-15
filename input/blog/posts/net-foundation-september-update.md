@@ -15,7 +15,7 @@ This month's newsletter includes:</p>
 <li>.NET Meetup news</li>
 </ul>
 
-<p>As always, these are available both on our blog and via e-mail:&nbsp;<a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
+<p>As always, these are available both on our blog and via e-mail:&nbsp;<a href="https://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
 
 <h2>.NET Conf / .NET Conf Local</h2>
 
@@ -41,7 +41,7 @@ This month's newsletter includes:</p>
 
 <h3>Iron Python</h3>
 
-<p>The <a href="http://ironpython.net/">IronPython</a> team is getting close to releasing a 2.7.9 final release with a lot of fixes compare to previous releases. Once 2.7.9 has been released, the team will focus mainly on IronPython 3, a release which will be compatible with Python 3.4</p>
+<p>The <a href="https://ironpython.net/">IronPython</a> team is getting close to releasing a 2.7.9 final release with a lot of fixes compare to previous releases. Once 2.7.9 has been released, the team will focus mainly on IronPython 3, a release which will be compatible with Python 3.4</p>
 
 <h3>Chemistry Add-In for Word</h3>
 
@@ -51,7 +51,7 @@ This month's newsletter includes:</p>
 
 <h3>NUnit</h3>
 
-<p>The <a href="http://nunit.org">NUnit 3.9.0 console and engine</a> were released, featuring stability fixes and changing the handling of appdomain unload errors.</p>
+<p>The <a href="https://nunit.org">NUnit 3.9.0 console and engine</a> were released, featuring stability fixes and changing the handling of appdomain unload errors.</p>
 
 <p>NUnit framework 3.11.0 is just around the corner, so stay tuned! Among many fixes and enhancements, this release will include:</p>
 
@@ -105,5 +105,5 @@ This month's newsletter includes:</p>
 <hr />
 <h2>Remember to Subscribe!</h2>
 
-<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up&nbsp;to get the .NET Foundation Update via e-mail</a>.&nbsp;Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>
+<p>Please&nbsp;<a href="https://eepurl.com/dhL_qb">sign up&nbsp;to get the .NET Foundation Update via e-mail</a>.&nbsp;Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>
 </div>

@@ -5,7 +5,7 @@ Published: 2018-01-17 22:24:00.0000000
 ---
 <p>Welcome to the first of a series: our regular .NET Foundation updates! We'll be posting these on our blog, but to make sure you don't miss one, please subscribe to get them via e-mail.</p>
 
-<p><a class="btn btn-ar btn-primary" href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
+<p><a class="btn btn-ar btn-primary" href="https://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
 
 <p>We're planning to send these out at the beginning of every month going forward, so that means you should see the February one in just a few weeks. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>
 
@@ -58,7 +58,7 @@ Published: 2018-01-17 22:24:00.0000000
 <li>Other minor improvements and bug fixes</li>
 </ul>
 
-<p>Read more in <a href="http://aakinshin.net/blog/post/bdn-v0_10_12/">this announcement post</a>.</p>
+<p>Read more in <a href="https://aakinshin.net/blog/post/bdn-v0_10_12/">this announcement post</a>.</p>
 
 <h3>Polly</h3>
 
@@ -79,7 +79,7 @@ Published: 2018-01-17 22:24:00.0000000
 
 <p><iframe allowtransparency="true" frameborder="0" height="65" scrolling="no" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fdotnetfoundation%2F&amp;width=63&amp;layout=button&amp;action=like&amp;size=large&amp;show_faces=true&amp;share=false&amp;height=65&amp;appId=8683731822" style="border: currentcolor; border-image: none; overflow: hidden;" width="63"></iframe></p>
 
-<p>Recently Matt Warren, a .NET MVP, wrote up this pretty interesting post on Open Source .NET - 3 Years Later (<a href="http://mattwarren.org/2017/12/19/Open-Source-.Net-3-years-later)">http://mattwarren.org/2017/12/19/Open-Source-.Net-3-years-later)</a> . In the post, he highlights the community's involvement in .NET repositories. It's amazing to see the growth we've achieved in just three years. I'm very encouraged by our fantastic community contributing to .NET open source.</p>
+<p>Recently Matt Warren, a .NET MVP, wrote up this pretty interesting post on Open Source .NET - 3 Years Later (<a href="https://mattwarren.org/2017/12/19/Open-Source-.Net-3-years-later)">http://mattwarren.org/2017/12/19/Open-Source-.Net-3-years-later)</a> . In the post, he highlights the community's involvement in .NET repositories. It's amazing to see the growth we've achieved in just three years. I'm very encouraged by our fantastic community contributing to .NET open source.</p>
 
 <p><a href="https://www.youtube.com/NETFoundation" target="_blank">The .NET Foundation is also on YouTube</a>. Watch community standups and design reviews as well as code-focused shows and interviews across our multiple playlists.</p>
 
@@ -90,8 +90,8 @@ Published: 2018-01-17 22:24:00.0000000
 <hr class="color dashed" />
 <h2>Remember to Subscribe!</h2>
 
-<p>Please <a href="http://eepurl.com/dhL_qb">sign up</a> to get the .NET Foundation Update via e-mail.</p>
+<p>Please <a href="https://eepurl.com/dhL_qb">sign up</a> to get the .NET Foundation Update via e-mail.</p>
 
-<p><a class="btn btn-ar btn-primary" href="http://eepurl.com/dhL_qb">Subscribe</a></p>
+<p><a class="btn btn-ar btn-primary" href="https://eepurl.com/dhL_qb">Subscribe</a></p>
 
 <p>We're planning to send these out at the beginning of every month going forward, so that means you should see the February one in just a few weeks. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>

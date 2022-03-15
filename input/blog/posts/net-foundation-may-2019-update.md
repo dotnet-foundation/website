@@ -17,7 +17,7 @@ This month's newsletter includes:</p>
 <li>Meetups</li>
 </ul>
 
-<p>As always, these are available both on our blog and via e-mail:&nbsp;<a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
+<p>As always, these are available both on our blog and via e-mail:&nbsp;<a href="https://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
 
 <hr />
 <h2>Foundation Board Update</h2>
@@ -98,13 +98,13 @@ If you're a .NET Foundation Member, sign up to join an action group:</p>
 
 <p><a href="https://www.dotnetconf.net/"><img src="assets/posts/d115925b-2ca7-48bd-8259-9afd54bd4dfe.png" alt=".NET" /></a></p>
 
-<p>At Build, the dates for&nbsp;<a href="https://www.dotnetconf.net/">.NET Conf 2019</a>&nbsp;were announced. It will be taking place on September 23-25, 2019. This will be the .NET Core 3.0 launch event as it will move out of preview and release at the start of the conference. You don't want to miss this FREE, online conference this year! Call for content will open soon so stay tuned to&nbsp;<a href="https://twitter.com/search?q=%23dotnetconf">Twitter hashtag #dotnetconf</a>&nbsp;and the website&nbsp;<a href="http://www.dotnetconf.net/">www.dotnetconf.net</a>!</p>
+<p>At Build, the dates for&nbsp;<a href="https://www.dotnetconf.net/">.NET Conf 2019</a>&nbsp;were announced. It will be taking place on September 23-25, 2019. This will be the .NET Core 3.0 launch event as it will move out of preview and release at the start of the conference. You don't want to miss this FREE, online conference this year! Call for content will open soon so stay tuned to&nbsp;<a href="https://twitter.com/search?q=%23dotnetconf">Twitter hashtag #dotnetconf</a>&nbsp;and the website&nbsp;<a href="https://www.dotnetconf.net/">www.dotnetconf.net</a>!</p>
 
 <hr />
 <h2>.NET Foundation Project Updates</h2>
 
 <h3><br />
-<a href="http://nunit.org/news/update/nunit/2019/05/14/nunit-3.12.html">NUnit 3.12 Released</a></h3>
+<a href="https://nunit.org/news/update/nunit/2019/05/14/nunit-3.12.html">NUnit 3.12 Released</a></h3>
 
 <p>Version 3.12 of the NUnit framework was released! This is the release where test projects targeting .NET Framework 2.0 will need to target .NET Framework 3.5. The application or library which the project is testing can still target .NET Framework 2.0, though Microsoft does not support this.<br />
 <br />
@@ -154,4 +154,4 @@ There are many small improvements in 3.12, and new features include:</p>
 <hr />
 <h3>Remember to Subscribe!</h3>
 
-<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>
+<p>Please&nbsp;<a href="https://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>

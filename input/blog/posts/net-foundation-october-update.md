@@ -13,13 +13,13 @@ This month's newsletter includes:</p>
 <li>.NET Meetup news</li>
 </ul>
 
-<p>As always, these are available both on our blog and via e-mail:&nbsp;<a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
+<p>As always, these are available both on our blog and via e-mail:&nbsp;<a href="https://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
 
 <h2>.NET Foundation Project News</h2>
 
 <h3>NUnit Framework 3.11.0 Release</h3>
 
-<p><a href="http://nunit.org/news/update/nunit/2018/10/06/nunit-3.11.html">NUnit framework 3.11.0</a>&nbsp;was released this month, including the features highlighted in last month's newsletter. NUnit VSTest adapter 3.11.0 was just released also! One of the fixes is that Mono.Cecil will no longer be overwritten in the test project, unblocking the testing of code that depends on Mono.Cecil. The NUnit team is considering dropping the .NET Framework 2.0 build of NUnit in the next release. We are eager to hear from anyone who may be affected—please join the discussion at&nbsp;<a href="https://github.com/nunit/nunit/issues/3070">https://github.com/nunit/nunit/issues/3070</a>. Thank you!</p>
+<p><a href="https://nunit.org/news/update/nunit/2018/10/06/nunit-3.11.html">NUnit framework 3.11.0</a>&nbsp;was released this month, including the features highlighted in last month's newsletter. NUnit VSTest adapter 3.11.0 was just released also! One of the fixes is that Mono.Cecil will no longer be overwritten in the test project, unblocking the testing of code that depends on Mono.Cecil. The NUnit team is considering dropping the .NET Framework 2.0 build of NUnit in the next release. We are eager to hear from anyone who may be affected—please join the discussion at&nbsp;<a href="https://github.com/nunit/nunit/issues/3070">https://github.com/nunit/nunit/issues/3070</a>. Thank you!</p>
 
 <h3>DNN Summit</h3>
 
@@ -60,4 +60,4 @@ This month's newsletter includes:</p>
 <hr />
 <h2>Remember to Subscribe!</h2>
 
-<p>Please&nbsp;<a href="http://eepurl.com/dhL_qb">sign up&nbsp;to get the .NET Foundation Update via e-mail</a>.&nbsp;Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>
+<p>Please&nbsp;<a href="https://eepurl.com/dhL_qb">sign up&nbsp;to get the .NET Foundation Update via e-mail</a>.&nbsp;Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>

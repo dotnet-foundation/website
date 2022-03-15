@@ -6,7 +6,7 @@ Slug: net-foundation-may-june-2021-update
 ---
 Welcome to the .NET Foundation update for May & June. Every other month, we'll give you a quick overview of the .NET open source landscape and what the .NET Foundation is up to, including top project news, events, community links and more.
 
-[Sign up for the newsletter](http://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
+[Sign up for the newsletter](https://eepurl.com/dhL_qb) and get these updates delivered right to your inbox.
 
 ## General news
 

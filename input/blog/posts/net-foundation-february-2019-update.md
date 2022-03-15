@@ -14,7 +14,7 @@ This month's newsletter includes:</p>
 <li>.NET Meetup news</li>
 </ul>
 
-<p>As always, these are available both on our blog and via e-mail: <a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
+<p>As always, these are available both on our blog and via e-mail: <a href="https://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
 
 <hr />
 <h2>.NET Foundation Update: Open Membership and Elections</h2>

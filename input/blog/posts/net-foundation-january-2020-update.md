@@ -14,7 +14,7 @@ Published: 2020-02-11
 <li>Project Updates</li>
 </ul>
 
-<p>As always, these are available both on our blog and via e-mail: <a href="http://eepurl.com/dhL_qb" rel="nofollow">Sign up to get the .NET Foundation Update via e-mail</a></p>
+<p>As always, these are available both on our blog and via e-mail: <a href="https://eepurl.com/dhL_qb" rel="nofollow">Sign up to get the .NET Foundation Update via e-mail</a></p>
 
 <h2>Foundation Updates</h2>
 
@@ -81,7 +81,7 @@ Published: 2020-02-11
 <p>The filter syntax issues we've had with special names and characters have been mostly solved thanks to excellent work by <a href="https://github.com/johnmwright">John M. Wright</a>. See <a href="https://github.com/nunit/nunit3-vs-adapter/pull/668">PR 668</a> for a detailed explanation of what has been done.</p>
 </li>
 <li>
-<p>You can now use the NUnit filter syntax, either from command line or through settings in the runsettings file. The idea and implementation were provided by <a href="https://github.com/mletterle">Michael Letterle</a> who wrote a <a href="http://blog.prokrams.com/2019/12/16/nunit3-filter-dotnet/" rel="nofollow">great blogpost</a> to explain how this works and how he arrived at the solution.</p>
+<p>You can now use the NUnit filter syntax, either from command line or through settings in the runsettings file. The idea and implementation were provided by <a href="https://github.com/mletterle">Michael Letterle</a> who wrote a <a href="https://blog.prokrams.com/2019/12/16/nunit3-filter-dotnet/" rel="nofollow">great blogpost</a> to explain how this works and how he arrived at the solution.</p>
 </li>
 </ul>
 

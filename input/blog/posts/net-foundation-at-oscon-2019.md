@@ -26,11 +26,11 @@ Published: 2019-08-01 00:46:43.2940043
 
 <p>There are different foundations, with different focuses based on the communities they serve. The .NET Foundation has an interesting challenge, in that it supports both projects contributed by a trillion dollar company as well as projects that are broadly used but are developed by tiny teams.</p>
 
-<p>For the tiny team scenario, I show the following <a href="http://www.commitstrip.com/en/2014/05/07/the-truth-behind-open-source-apps/">comic</a> in my slides (used with permission):</p>
+<p>For the tiny team scenario, I show the following <a href="https://www.commitstrip.com/en/2014/05/07/the-truth-behind-open-source-apps/">comic</a> in my slides (used with permission):</p>
 
 <p><img src="assets/posts/the-truth-about-open-source.jpg" alt="the truth about open source" style="height:864px; width:598px" /></p>
 
-<p><em>Source:&nbsp;<a href="http://www.commitstrip.com/en/2014/05/07/the-truth-behind-open-source-apps/">http://www.commitstrip.com/en/2014/05/07/the-truth-behind-open-source-apps/</a></em>&nbsp;</p>
+<p><em>Source:&nbsp;<a href="https://www.commitstrip.com/en/2014/05/07/the-truth-behind-open-source-apps/">http://www.commitstrip.com/en/2014/05/07/the-truth-behind-open-source-apps/</a></em>&nbsp;</p>
 
 <p>In the case of projects contributed and primarily developed by Microsoft, the .NET Foundation serves other purposes, like facilitating collaboration with thousands of companies and individual contributors worldwide through independent licensing, CLA support, legal, etc.</p>
 

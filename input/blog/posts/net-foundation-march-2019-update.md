@@ -15,7 +15,7 @@ This month's newsletter includes:</p>
 <li>.NET Meetup news</li>
 </ul>
 
-<p>As always, these are available both on our blog and via e-mail: <a href="http://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
+<p>As always, these are available both on our blog and via e-mail: <a href="https://eepurl.com/dhL_qb">Sign up to get the .NET Foundation Update via e-mail</a></p>
 
 <hr />
 <h2>.NET Foundation Election: Results Are In!</h2>
@@ -92,4 +92,4 @@ We have even more releases for you! The&nbsp;<a href="https://marketplace.visual
 <hr />
 <h2>Remember to Subscribe!</h2>
 
-<p>Please <a href="http://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>
+<p>Please <a href="https://eepurl.com/dhL_qb">sign up to get the .NET Foundation Update via e-mail</a>. Don't worry, we want to keep these short, interesting, and low-noise, so we won't overload your e-mail.</p>
