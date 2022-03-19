@@ -23,6 +23,11 @@ Legal can be tricky. We can help. Projects in our organization will get:
 
 The more people who know about .NET, the better for the ecosystem. We work with Amazon, JetBrains, Microsoft, Progress, and other industry leaders to improve your project's exposure within the community at large. Your success is our success - we'd love to see you achieve the accolades you deserve!
 
+The .NET Foundation helps any .NET project that reaches out to it with marketing advice or promotion via social media. Additionally, the .NET Foundation helps produce videos about member projects and maintainers:
+
+* [.NET Foundation Project Spotlight](https://www.youtube.com/playlist?list=PL1rZQsJPBU2Ql5ZBOOdqn32xPMEUdor5Z)
+* [Maintainer Series](https://www.youtube.com/playlist?list=PL1rZQsJPBU2TA8lm-2S0TMdT5FlL1sxuF)
+
 ## CLA management
 
 A Contributor License Agreement (CLA) ensures a project has the necessary rights to code contributions.
