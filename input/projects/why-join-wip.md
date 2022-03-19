@@ -2,7 +2,7 @@
 
 The .NET Foundation offers administrative and technical services to open source projects to help maintainers govern and develop their projects.
 
-.NET Foundation services aim to increase project stability and maturity and don't replace developers on member projects. Day-to-day development remains in the hands of project maintainers and contributors.
+.NET Foundation services aim to increase project stability and maturity. It doesn't replace developers on member projects. Day-to-day development remains in the hands of project maintainers and contributors.
 
 Project benefits include:
 
