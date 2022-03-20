@@ -35,6 +35,7 @@ namespace DotnetFoundationWeb
             "JetBrains Rider",
             "Machine Learning",
             "macOS",
+            "MAUI",
             "Microsoft 365",
             "Microsoft Graph",
             "Microsoft Teams",
