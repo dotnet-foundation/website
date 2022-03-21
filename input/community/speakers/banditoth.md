@@ -1,6 +1,5 @@
 ---
 Title: András Tóth
-Pronouns: he
 Location: Budapest, Hungary
 Email: andrastoth1126@outlook.com
 Language:
