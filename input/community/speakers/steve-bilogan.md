@@ -6,7 +6,6 @@ Language:
   - English
 Topics:
   - .NET
-  - Uno Platform
   - Android
   - C#
   - XAML
