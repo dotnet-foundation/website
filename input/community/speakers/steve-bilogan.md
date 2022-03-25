@@ -1,6 +1,6 @@
 ---
 Title: Steve Bilogan
-Location: Kingston, ON
+Location: Kingston, Ontario, Canada
 Email: steve.bilogan@gmail.com
 Language:
   - English
@@ -8,6 +8,7 @@ Topics:
   - .NET
   - Android
   - C#
+  - XAML
   - iOS
   - Mobile Development
   - Xamarin
@@ -16,4 +17,4 @@ Twitter: https://twitter.com/BiloganSteve
 GitHub: https://github.com/kazo0/
 LinkedIn: https://www.linkedin.com/in/sbilogan/
 ---
-Steve is currently a Senior .NET Consultant working on a variety of .NET solutions. Steve's main passion is in mobile development that started back home in Canada where he worked as a mobile engineer in Montreal building Android and iOS apps using Xamarin as well as working on the early stages of the Uno Platform (https://platform.uno/).
+Steve is currently a Senior Engineer and one of the main contributors on the open source Uno Platform. Steve's main passion is in mobile development and likes to tinker with different cross-platform mobile dev frameworks in his free time.
