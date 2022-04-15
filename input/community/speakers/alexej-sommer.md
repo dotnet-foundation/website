@@ -1,7 +1,7 @@
 ---
 Title: Alexej Sommer
-Location: Minsk, Belarus
-Email: asommer@yandex.ru
+Location: Ratingen, Germany
+Email: alexejsommer@outlook.com
 Language:
   - Russian
   - English
