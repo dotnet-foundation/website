@@ -1,7 +1,7 @@
 ---
 Title: András Tóth
 Location: Budapest, Hungary
-Email: andrastoth1126@outlook.com
+Email: hello@banditoth.net
 Language:
   - English
   - Hungarian
@@ -21,8 +21,8 @@ Topics:
   - Xamarin
   - Xamarin.Forms
   - XAML
-Blog: https://www.banditoth.hu
-Feed: https://www.banditoth.hu/feed/
+Blog: https://www.banditoth.net
+Feed: https://www.banditoth.net/feed/
 GitHub: https://github.com/banditoth
 StackOverflow: https://stackoverflow.com/users/9396613/
 LinkedIn: https://linkedin.com/in/banditoth/
