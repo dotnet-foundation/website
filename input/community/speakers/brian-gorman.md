@@ -1,6 +1,6 @@
 ---
 Title: Brian Gorman
-Pronouns: He/Him
+Pronouns: he/him
 Location: Waterloo/Cedar Rapids, Iowa
 Email: blgorman@gmail.com
 Language:
