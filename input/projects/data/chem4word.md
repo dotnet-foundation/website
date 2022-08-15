@@ -27,4 +27,4 @@ other users or applications.
 
 * [Blog](https://www.chem4word.co.uk/category/news/)
 * [Documentation](https://www.chem4word.co.uk/)
-* [Contribute](https://github.com/Chem4Word/Version3)
+* [Contribute](https://github.com/Chem4Word/Version3-2)
