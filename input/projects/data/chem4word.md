@@ -19,6 +19,7 @@ other users or applications.
 * [Version 2 Source Code](https://github.com/Chem4Word/Version2)
 * [Version 3 Source Code](https://github.com/Chem4Word/Version3)
 * [Version 3.1 Source Code](https://github.com/Chem4Word/Version3-1)
+* [Version 3.2 Source Code](https://github.com/Chem4Word/Version3-2)
 * Project License Type: [Apache 2.0](https://github.com/Chem4Word/Version3-1/blob/master/LICENSE.md)
 * Project Main Contacts: [Clyde Davies](https://github.com/deadlyvices), [Mike Williams](https://github.com/MikeWilliams-UK) 
 
@@ -26,4 +27,4 @@ other users or applications.
 
 * [Blog](https://www.chem4word.co.uk/category/news/)
 * [Documentation](https://www.chem4word.co.uk/)
-* [Contribute](https://github.com/Chem4Word/Version3)
+* [Contribute](https://github.com/Chem4Word/Version3-2)
