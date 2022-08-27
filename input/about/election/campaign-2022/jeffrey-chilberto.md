@@ -8,7 +8,7 @@ image: campaign-2020/jeffrey-chilberto.jpg
 
 ## Why I'm Running
 
-I want to contribute to the .NET Foundation in its support of the .NET community. As I have based a large portion of my career in .NET, I want to contribute back to the community by helping others to either start using .NET or to progress their projects. The .NET Foundation has an important role in supporting both user groups and individuals to build their skills as well as to feel they are part of something bigger. In other words, a community.
+As a large portion of my career has focussed around .NET applications and tools, I want to contribute back by helping others to either start using .NET, progress their understanding, or support those advocating such a versatile and powerful language. The .NET Foundation has an important role in supporting both groups and individuals as well as the great projects of the .Net Foundation.
 
 I believe that my varied background will bring several aspects to the .NET Foundation. Though not essential to being a member of the committee, I have a strong technical background in developing .NET solutions. I am involved with New Zealand based initiatives to get young people coding including [Kiwi Game Dev](https://kgd.nz) and [Code Club Aotearoa](https://codeclub.nz/), as well not so young developers with the [New Zealand Game Developers Association](https://nzgda.com/). This provides me with both an understanding of the professional business developer as well as the hobbyist or someone new to .NET.
 
