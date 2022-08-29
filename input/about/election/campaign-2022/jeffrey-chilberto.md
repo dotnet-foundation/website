@@ -1,7 +1,7 @@
 ---
 title: Jeffrey Chilberto
 twitter: JChilberto
-image: campaign-2020/jeffrey-chilberto.jpg
+image: campaign-2022/jeffrey-chilberto.jpg
 ---
 
 # .NET Foundation Campaign: Jeffrey Chilberto
