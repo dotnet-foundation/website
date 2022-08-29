@@ -6,13 +6,39 @@ image: campaign-2020/jeffrey-chilberto.jpg
 
 # .NET Foundation Campaign: Jeffrey Chilberto
 
-## Why I'm Running
+## Why I'm running
 
-As a large portion of my career has focussed around .NET applications and tools, I want to contribute back by helping others to either start using .NET, progress their understanding, or support those advocating such a versatile and powerful language. The .NET Foundation has an important role in supporting both groups and individuals as well as the great projects of the .Net Foundation.
+As a large portion of my career has revolved around .NET applications and tools, I want to contribute back by helping others to either start using .NET, progress their understanding, or support those advocating for such a versatile and powerful language. 
+
+## Who am I?
+
+My LinkedIn profile might show a bit of a mash up of developer, author, and speaker involved in several industries across several countries developing both business software and games. Though I value higher education having both a BSCS and MCSE, I also recognize formal education is not a replacement for real world experience and classroom learning is not for everyone. On reflection then, I would say the only constant since 2002 is .Net! 
+
+## How am I involved?
+
+Mainly with New Zealand based initiatives to get young people coding including [Kiwi Game Dev](https://kgd.nz) and [Code Club Aotearoa](https://codeclub.nz/), as well not so young developers with the [New Zealand Game Developers Association](https://nzgda.com/). 
+
+This provides me with both an understanding of the professional business developer as well as the hobbyist or someone new to .NET. 
+
+## Experience with the Foundation
+
+
+
+## What are my goals for the .NET Foundation?
+
+
+
+
+## Who am I?
 
 I believe that my varied background will bring several aspects to the .NET Foundation. Though not essential to being a member of the committee, I have a strong technical background in developing .NET solutions. I am involved with New Zealand based initiatives to get young people coding including [Kiwi Game Dev](https://kgd.nz) and [Code Club Aotearoa](https://codeclub.nz/), as well not so young developers with the [New Zealand Game Developers Association](https://nzgda.com/). This provides me with both an understanding of the professional business developer as well as the hobbyist or someone new to .NET.
 
 Open source projects like the ones supported by the .NET Foundation are one of the great factors that make .NET the best platform for such a wide variety of scenarios. I would relish the opportunity to help shape the .NET Foundation and extend its support to the .NET community.
+
+The .NET Foundation has an important role in supporting both groups and individuals as well as the great projects of the .Net Foundation.
+
+
+## Experience with the Foundation
 
 ## My .NET Contributions
 
