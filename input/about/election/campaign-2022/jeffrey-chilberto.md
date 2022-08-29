@@ -14,7 +14,7 @@ As a large portion of my career has revolved around .NET applications and tools,
 
 My LinkedIn profile shows a bit of a mash up of developer, author, and speaker. I've been involved in multiple industries across several countries developing both business software and games. Though I value higher education having both a BSCS and MCSE, I also recognize formal education is not a replacement for real world experience and classroom learning is not for everyone so I actively support opportunities to get kids and adults coding. On reflection then, I would say the only constant since 2002 is .Net! 
 
-Outside of work, I am a father, husband, bass guitar player, and unfortunately target practice for many online games.
+Outside of work, I am a father, husband, bass guitar player, and unfortunately target practice in many online games.
 
 ## How am I involved with the community?
 
