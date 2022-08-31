@@ -21,6 +21,8 @@ Outside of work, I am a father, husband, bass guitar player, and unfortunately t
 Mainly with New Zealand based initiatives to get young people coding including [Kiwi Game Dev](https://kgd.nz) and [Code Club Aotearoa](https://codeclub.nz/), as well as not so young developers with the [New Zealand Game Developers Association](https://nzgda.com/). I am a member of local user groups including [Auckland Connected Systems User Group](https://www.meetup.com/Auckland-Connected-Systems-User-Group/) and [Auckland Azure User Group](https://www.meetup.com/Auckland-Azure-Usergroup/). 
 I have co-authored several technical books for Packt and Apress and have been a technical author for some articles of the [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/). I do not have a personal blog but instead contribute to the .NET community by writing articles on [TechNet Wiki](https://social.technet.microsoft.com/wiki/) and the [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/user/viewprofilepage/user-id/141713).
 
+With Microsoft, I am a member of the Azure Connection Program and Partner Network, contribute to online documentation, and present on Azure and architecture.
+
 ## Links
 * GitHub: [@Chilberto](https://github.com/chilberto)
 * LinkedIn: [Jeff Chilberto](https://www.linkedin.com/in/jeff-chilberto-2a89a84/)
