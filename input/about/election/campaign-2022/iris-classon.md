@@ -1,7 +1,7 @@
 ---
 title: Iris Classon
 twitter: irisclasson
-image: campaign-2022/iris-classon.jpg
+image: campaign-2022/iris_classon.jpg
 ---
 
 # .NET Foundation Campaign: Iris Classon
