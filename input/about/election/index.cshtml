@@ -21,13 +21,13 @@ permalink: about/election
                     Additionally, we will begin term staggering of Board members to enhance the continuity of the organization.
                     Please see the <a href="/about/election/policy">Election Policy</a> for more details.
                 </p>
-                <h3 style="text-align: center;">The 2021 Nominating Committee members are</h3>
+                <h3 style="text-align: center;">The 2022 Nominating Committee members are</h3>
                 <p style="text-align: center;">
                     <div class="row">
                         @Html.Partial("../../_partials/_team-member-card.cshtml",
                             Outputs
                                 .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
-                                .FilterSources("about/election/nomination-committee-2021/*.md")
+                                .FilterSources("about/election/nomination-committee-2022/*.md")
                                 .OrderBy(candidate => candidate.GetInt(Keys.Order))
                                 .ThenBy(candidate => candidate.GetString(WebKeys.Title))
                         )
