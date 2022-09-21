@@ -18,7 +18,6 @@ Topics:
   - Visual Studio Code
   - Web Development
 Blog: https://wildermuth.com
-Feed: https://feeds.feedburner.com/ShawnWildermuth
 Twitter: https://twitter.com/shawnwildermuth
 GitHub: https://github.com/shawnwildermuth
 Sessionize: https://sessionize.com/shawnwildermuth
