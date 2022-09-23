@@ -6,10 +6,11 @@ image: campaign-2022/jessica-white.jpg
 
 # .NET Foundation Campaign: Jessica White
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dt118QOFkGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## About Me
 
 <img align="left" style="margin-right: 10px;" width="150" src="/about/election/campaign-2022/jessica-white.jpg">
-
 
 In my day job I work in technical architecture, and though I've worked in a number of technologies a lot of my experience has been in .NET. I didn't follow a "typical" route into tech; and having entered into this industry through the support of others I am a strong believer in "paying it forward". As such I do a number of community activities.
 

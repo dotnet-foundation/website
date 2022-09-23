@@ -7,6 +7,8 @@ excluded:
 
 # .NET Foundation Campaign: David Dieruf
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x9XtUQTsoQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Why I'm Running
 
 I've been a part of the .NET community since I began as a developer. Mostly as a dark matter developer, not very engaged with anyone but spending intimate time with the documentation. Over the years it supported me through many different professions and personal projects. Then I moved to a career that had heavy focus on application containerization and was introduced to the vast world of Java. This really opened my eyes to the opportunities .NET has not yet been able to realize. I took it as a challenge to help make a difference and joined the [SteelToe](https://steeltoe.io) team as an advocate. It was so fun to be a part of something so successful and modern.

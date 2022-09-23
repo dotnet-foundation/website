@@ -6,6 +6,8 @@ image: campaign-2020/joseph-guadagno.jpg
 
 # .NET Foundation Campaign: Joseph Guadagno
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JB6ow9DJt10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## About Me
 
 Joe Guadagno is a Senior Director of Engineering at Rocket Mortgage,

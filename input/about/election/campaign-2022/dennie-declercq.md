@@ -6,6 +6,9 @@ excluded:
 ---
 
 # .NET Foundation Campaign: Dennie Declercq 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C6Xd2U0BTek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Dennie is Microsoft MVP Developer Technologies and has experience in accessibility with Microsoft technologies. In daily life Dennie is president and developer at DDSoft, a nonprofit that connects IT to People who are less tech-savvy. Dennie invented technical solutions and systems to help people with disabilities to participate in their daily life. Thanks to his autism he's the right man at the right spot to contribute as a volunteer in function of people with disabilities.
 
 # Why I am running?
