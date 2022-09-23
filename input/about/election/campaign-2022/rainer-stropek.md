@@ -6,6 +6,8 @@ image: campaign-2022/rainer-stropek.jpg
 
 # .NET Foundation Campaign: Rainer Stropek
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hbPYDzAqhDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Why I'm Running
 
 I love teaching. When I left school over 25 years ago, my passion was coding and I knew that one day I would teach people about it. I am grateful that I could reach this goal. For years, I have been spending a significant amount of my professional life as a trainer and author for topics like Azure, C#, and .NET. Besides that, I teach one day a week at a high school for computer science in Austria. My biggest side project however is the local CoderDojo, a volunteer-led programming club for kids that I co-founded. I have been working there for over five years as a mentor and act as its chairman. We run more than 40 events per year and count well over 1500 visits of kids between 7 and 17 year in our CoderDojo.

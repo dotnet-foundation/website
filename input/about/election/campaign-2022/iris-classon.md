@@ -5,6 +5,9 @@ image: campaign-2022/iris_classon.jpg
 ---
 
 # .NET Foundation Campaign: Iris Classon
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S_QfEmLp0eA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## About me
 I'm a backend developer at Greenbyte by Powerfactors and have been writing code for the last decade and an active community member from the very start. I speak at and organize conferences and user groups, I write technical books (and comedic fiction about programming), blog, write articles, create tutorials (Pluralsight, YouTube, Microsoft etc.). Simply put, the majority of my life revolves around the .NET community (evident by my 10th year as a Microsoft .NET MVP). The other part is my family, which consists of a baby (10 months) a toddler (3.5 years) and my husband who also works in the same field albeit as a Product Owner. 'I tell developers what to do', he says. But we know that's not true :D
 

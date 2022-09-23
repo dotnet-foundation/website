@@ -5,6 +5,9 @@ image: campaign-2022/poornima-nayar.jpg
 ---
 
 # .NET Foundation Campaign: Poornima Nayar
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0NPG_cGG1dU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Who am I?
 
 My name is Poornima Nayar. I have been a developer for the past 15 years. I am a 4-time Umbraco MVP and 2-time Microsoft MVP.

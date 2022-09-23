@@ -6,6 +6,8 @@ image: campaign-2022/jeffrey-chilberto.jpg
 
 # .NET Foundation Campaign: Jeffrey Chilberto
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dt118QOFkGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Why I'm running
 
 As a large portion of my career has revolved around .NET applications and tools, I want to contribute back by helping others to either start using .NET, progress their understanding, or support those advocating for such a versatile and powerful language. Being a member of the .Net Foundation Board will be an excellent way for me to me to do this.
