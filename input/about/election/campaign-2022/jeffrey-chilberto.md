@@ -6,7 +6,7 @@ image: campaign-2022/jeffrey-chilberto.jpg
 
 # .NET Foundation Campaign: Jeffrey Chilberto
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dt118QOFkGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V_hqFs6YUS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Why I'm running
 
