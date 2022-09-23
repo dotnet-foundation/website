@@ -7,8 +7,6 @@ excluded:
 
 # .NET Foundation Campaign: Gabriel Emmanuel
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VYrvDNyo2iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Why I'm running
 Growing up as a Tech-enthusiast in Nigeria was difficult because there were no influences or mentors to point you in the right direction. Well, that changed a number of years later with a lot of people adopting tech in Nigeria. But then my goals, focus, and growth improved a lot when I met Vincent who would mentor me and explain all that I would gain using Dotnet in whatever I needed to do. A couple of months in,
 I noticed a lack of communities and an obvious lack of mentors and individuals who would preach and teach dotnet. As a result, I decided to help fill that void by creating little communities of dotnet developers in Nigeria where we assist each other. I also joined a friend to create a book study where we discuss basic dotnet concepts so our viewers see how realistic and easy it is to work with dotnet technology.
