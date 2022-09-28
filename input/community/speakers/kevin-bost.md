@@ -17,6 +17,7 @@ Topics:
   - Xamarin
   - Xamarin.Forms
   - XAML
+Image: https://github.com/Keboo.png
 Blog: https://blog.keboo.dev
 Twitter: https://twitter.keboo.dev
 GitHub: https://github.keboo.dev
