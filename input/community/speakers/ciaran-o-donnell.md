@@ -14,7 +14,7 @@ Topics:
   - Open Source
   - Windows Forms
   - WPF
-Blog: http://ciaranodonnell.dev
+Blog: https://ciaranodonnell.dev
 Twitter: https://twitter.com/ciaranjodonnell
 GitHub: https://github.com/ciaranodonnell
 LinkedIn: https://www.linkedin.com/in/ciaranjodonnell/
