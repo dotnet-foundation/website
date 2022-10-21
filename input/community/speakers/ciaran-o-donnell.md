@@ -1,6 +1,6 @@
 ---
 Title: Ciaran O'Donnell
-Pronouns: He/Him
+Pronouns: he/him
 Location: Charlotte, NC, USA
 Email: ciaran.odonnell@outlook.com
 Language:
