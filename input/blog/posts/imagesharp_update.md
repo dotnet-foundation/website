@@ -52,7 +52,7 @@ Open-source sustainability is an important topic for the .NET Foundation, and th
 
 # Closing
 
-The .NET Foundation Board and the Maintainer Committee spent significant time discussing this topic. It’s also worth noting that there are multiple veteran maintainers on the board who run their own projects. We saw this situation as precedent-setting and felt a strong need to make a decision we could announcee and repeat in future.
+The .NET Foundation Board and the Maintainer Committee spent significant time discussing this topic. It’s also worth noting that there are multiple veteran maintainers on the board who run their own projects. We saw this situation as precedent-setting and felt a strong need to make a decision we could announce and repeat in future.
 
 We encourage users to validate the status of their dependencies and to participate in the associated communities. Open source isn’t just maintainers delivering code that satisfies PackageReference lines in your project files. At the very least, it is also a commitment to understanding the plans and challenges with each of your dependencies (and their dependencies).
 
