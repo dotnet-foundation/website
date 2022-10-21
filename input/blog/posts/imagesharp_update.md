@@ -4,7 +4,7 @@ Author: .NET Foundation Board
 Published: 2022-10-20 13:00:00
 ---
 
-[ImageSharp](https://github.com/SixLabors/ImageSharp) is a popular .NET project and an important library within our ecosystem. Earlier this year, James South, the leader of the project, announced an [intent to change the license](https://twitter.com/James_M_South/status/1536190455255207936) of the project and later announced that the [license had changed](https://twitter.com/SixLabors/status/1548271228007301120). This change is significant for its users and its status as a .NET Foundation project.
+ImageSharp is a popular .NET project and an important library within our ecosystem. Earlier this year, James South, the leader of the project, announced an [intent to change the license](https://twitter.com/James_M_South/status/1536190455255207936) of the project and later announced that the [license had changed](https://twitter.com/SixLabors/status/1548271228007301120). This change is significant for its users and its status as a .NET Foundation project.
 
 This post addresses a few questions:
 
@@ -12,7 +12,7 @@ This post addresses a few questions:
 -   What is the status of ImageSharp as a .NET Foundation project?
 -   What guidance does .NET Foundation have for ImageSharp users?
 
-**Quick answers:** The ImageSharp project has adopted a [new license](https://github.com/SixLabors/ImageSharp/blob/main/README.md#license). ImageSharp users should read the new license and determine how it applies to them before moving past the final [2.x series package](https://www.nuget.org/packages/SixLabors.ImageSharp/2.1.3). The .NET Foundation only works with projects with [OSI-approved licenses](https://opensource.org/licenses). ImageSharp has decided to leave the Foundation.
+**Quick answers:** The [ImageSharp project](https://github.com/SixLabors/ImageSharp) has adopted a [new license](https://github.com/SixLabors/ImageSharp/blob/main/README.md#license). ImageSharp users should read the new license and determine how it applies to them before moving past the final [2.x series package](https://www.nuget.org/packages/SixLabors.ImageSharp/2.1.3). The .NET Foundation only works with projects with [OSI-approved licenses](https://opensource.org/licenses). ImageSharp has decided to leave the Foundation.
 
 There are three principles that guided our decision-making:
 
