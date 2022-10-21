@@ -1,6 +1,6 @@
 ---
 Title: Update on ImageSharp
-Author: 
+Author: .NET Foundation Board
 Published: 2022-10-20 13:00:00
 ---
 
