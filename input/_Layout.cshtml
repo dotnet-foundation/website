@@ -21,6 +21,11 @@
                         @Html.Partial("_partials/_elections-banner")
                     }
 
+                    @if (Model.GetBool("IsHome") && DotnetFoundationWeb.AppSettings.ShowCampaignResults)
+                    {
+                        @Html.Partial("_partials/_elections-results-banner")
+                    }
+
                     @RenderBody()
                 </div>
             </section>
