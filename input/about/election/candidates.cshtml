@@ -11,7 +11,7 @@ permalink: about/election/candidates
 @{
     IDocument[] candidates = Outputs
         .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
-        .FilterSources("about/election/campaign-2021/*.md")
+        .FilterSources("about/election/campaign-2022/*.md")
         .OrderBy(x => x.GetTitle())
         .ToArray();
 }

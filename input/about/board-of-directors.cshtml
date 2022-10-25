@@ -11,6 +11,7 @@ permalink: /about/board-of-directors
                     Board of Directors and Administrative Team
                 </h1>
                 <p>The board completely runs the .NET Foundation. They decide how the money is spent, what projects join the foundation, what the Executive Director does, what programs the foundation will run or be involved with, what events we'll sponsor. The board runs the foundation.</p>
+                <p>Board members should expect to commit 60 hours per month to .NET Foundation board committments.</p>
             </div>
         </div>
     </div>
@@ -25,7 +26,7 @@ permalink: /about/board-of-directors
                     @Html.Partial("../_partials/_member-small-card.cshtml",
                         Outputs
                             .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
-                            .FilterSources("about/board/fy22/*")                            
+                            .FilterSources("about/board/fy23/*")                            
                             .OrderBy(candidate => candidate.GetString(WebKeys.Title))
                     )
                 </div>

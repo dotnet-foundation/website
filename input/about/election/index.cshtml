@@ -10,34 +10,30 @@ permalink: about/election
             <div class="col-12">
                 <h1 style="text-align:center" id="your.net-foundation">.NET Foundation Board Elections</h1>
                 <p>
-                    Last year the .NET Foundation expanded the <a href="/about/board-of-directors">Board of Directors</a>
+                    In 2019, the .NET Foundation expanded the <a href="/about/board-of-directors">Board of Directors</a>
                     from three to seven members, with one single seat appointed by Microsoft and the remaining six elected by the community.
                     This structure has helped the .NET Foundation scale and better serve the .NET ecosystem.
                 </p>
-                <p>
-                    We are preparing for our next set of Board elections and some changes are being made to the way we conduct these elections.
-                    Namely, a Nominating Committee has been formed that will solicit and accept candidate applications and vet potential candidates that will then be voted on by members.
-                    This committee was formed by the Board of Directors.
-                    Additionally, we will begin term staggering of Board members to enhance the continuity of the organization.
-                    Please see the <a href="/about/election/policy">Election Policy</a> for more details.
-                </p>
-                <h3 style="text-align: center;">The 2021 Nominating Committee members are</h3>
+                <h3 style="text-align: center;">The 2022 Nominating Committee members are</h3>
                 <p style="text-align: center;">
                     <div class="row">
                         @Html.Partial("../../_partials/_team-member-card.cshtml",
                             Outputs
                                 .FromPipeline(nameof(Statiq.Web.Pipelines.Content))
-                                .FilterSources("about/election/nomination-committee-2021/*.md")
+                                .FilterSources("about/election/nomination-committee-2022/*.md")
                                 .OrderBy(candidate => candidate.GetInt(Keys.Order))
                                 .ThenBy(candidate => candidate.GetString(WebKeys.Title))
                         )
                     </div>
                 </p>
-
-                <p>
-                    If you are interested in running, fill out a nomination form <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=8ru98HbNZ0mMTFCoAnRpEmp3qxxG5iNBl2dHcSfTzztUOEdKT05ENERURFFIMTFOSDU3TE81NFJDQi4u" target="_blank">here</a>. The nomination form will be open until July 23th.
-                </p>
-
+                <h2 id="terms-ending">Terms expiring this year</h2>
+                <p>This year, the following board members terms are completing:</p>
+                <ul>
+                <li>Frank Odoom</li>
+                <li>Bill Wagner</li>
+                <li>Shawn Wildermuth</li>
+                </ul>
+                <p>The top three candidates will join the board.</p>
                 <h2 id="what-does-the.net-foundation-board-do">What does the .NET Foundation Board Do?</h2>
                 <p>The board completely runs the .NET Foundation. They decide how the money is spent, what projects join the foundation, what the Executive Director does, what programs the foundation will run or be involved with, what events we'll sponsor. The board runs the foundation.</p>
                 <p>See <a href="https://dotnetfoundation.sharepoint.com/:b:/g/EVpjN2ykcKJGkfPjbwbTNIUB_WOVtDAEElC-xXCmEh5QzQ">here</a> what would be your responsibilities</p>
@@ -45,10 +41,10 @@ permalink: about/election
                 <h2 id="how-do-campaigns-and-elections-work">How Do Elections Work?</h2>
                 <ul>
                     <li>.NET Foundation Voting Members are eligible to both vote in the election and run for a board seat. If you're not a member yet, <a href="member/become-a-member">join today!</a></li>
-                    <li>The Nominating Committee will present the candidates to Voting Members on August 23.</li>
-                    <li>The campaign period runs until September 13th, followed by an election which will conclude on September 20th.</li>
+                    <li>The Nominating Committee will present the candidates to Voting Members on September 23.</li>
+                    <li>The campaign period runs concurrent with the voting period.</li>
                     <li>Voting Members will cast their votes using the <a href="https://www.opavote.com/methods/single-transferable-vote">Single Transferable Vote methodology on the OpaVote system</a>.</li>
-                    <li>Results will be communicated on September 21st.</li>
+                    <li>Results will be communicated on October 7th.</li>
                     <li>To keep informed, follow us on Twitter at <a href="https://twitter.com/dotnetfdn">&#64;dotnetfdn</a>... or better yet, <a href="http://eepurl.com/dhL_qb">subscribe to our newsletter!</a></li>
                 </ul>
                 <p>Interested in running for a seat? Watch for our next blog post with specifics on the elections process, and feel free to ping us at <a href="mailto:contact@dotnetfoundation.org">contact@dotnetfoundation.org</a> with questions.</p>
