@@ -57,6 +57,16 @@ We also invited six experts to share pro tips on how to craft the best games. We
 
 [**Check out the full agenda and join us!**](https://pages.jetbrains.com/dotnet-days-2022/dnf/)
 
+### Umbraco Community Day, 19 January 2023
+
+Umbraco is a .NET-based open source CMS. This year, we are organising the first edition of Umbraco Community Day - a day for the community to hang out and learn. The event is a free, online event and aims to bring the Umbraco Community together to share the knowledge from our diverse community from around the world. We are looking for community members to join us on this virtual tour around the world to share their knowledge about working with Umbraco in the widest sense of the word.
+
+The Call for Papers is open. We would like to offer different formats of talks - a 2-hour code along session or talks ranging from 15 minute lightning talk to a 1 hr deep-dive technical session. Submit your sessions at [https://sessionize.com/Umbraco-Community-Day/](https://sessionize.com/Umbraco-Community-Day/)
+
+The Call for Papers closes on 1st December. If you need any help or want to brainstorm, please connect with us on day@umbraco.community.
+
+See the [event website](https://day.umbraco.community/) for more details.
+
 ## Help Needed
 
 
