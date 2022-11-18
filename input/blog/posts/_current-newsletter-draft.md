@@ -16,6 +16,10 @@ Excluded: true
 
 ## .NET Foundation Project Updates
 
+### .NET nanoFramework now runs on ESP32-C3
+[.NET nanoFramework](https://github.com/nanoframework) has released firmware images for Espressif [ESP32-C3 series](https://www.espressif.com/en/products/socs/esp32-c3).
+.NET now runs on RISC-V processors too! This was - maybe - the very 1st time .NET ever runed on a **RISC-V** processor, thus increasing the reach of .NET as the framework that runs on more platforms.
+
 ### DotVVM 4.0 and roadmap for DotVVM 5.0
 
 We've published videos from [DotVVM Virtual Conference](https://www.youtube.com/watch?v=NAFYNAYbsE0&list=PLq1wAETqUjIa8ZHtBuNstZRVBlheO82Rg&index=1), an online event celebrating the release of [DotVVM 4.0](https://www.dotvvm.com/blog/88/Released-DotVVM-4-0). 
