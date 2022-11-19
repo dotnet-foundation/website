@@ -53,17 +53,39 @@ namespace DotnetFoundationWeb
 
         private static Bootstrapper AddSpeakersPipeline(Bootstrapper bootstrapper)
         {
+            var sources = new ExecuteSources("community/speakers/*.md");
+
+            if (!AppSettings.SuppressSpeakerGeoLocation)
+            {
+                sources.Add(new GeocodeLocations(Config.FromSetting(SiteKeys.AzureMapsSubscriptionKey)));
+            } 
+            else
+            {
+                Console.WriteLine("Suppressing Geolocation extraction ****SHOULD ONLY BE IN DEBUG***");
+            }
+
+            if (!AppSettings.SuppressSpeakerBlogs)
+            {
+                sources.Add(new GetBlogFeeds());
+            }
+            else
+            {
+                Console.WriteLine("Suppressing Speaker Blog Entry retrieval ****SHOULD ONLY BE IN DEBUG***");
+            }
+
+            if (!AppSettings.SuppressSpeakerImages)
+            {
+                sources.Add(new SpeakerImage());
+            }
+            else
+            {
+                Console.WriteLine("Suppressing Speaker Images retrieval ****SHOULD ONLY BE IN DEBUG***");
+            }
+
             bootstrapper = bootstrapper.ModifyPipeline(
               nameof(Statiq.Web.Pipelines.Content),
-              x => x.ProcessModules.Add(
-                  // Modules for speakers
-                  new ExecuteSources("community/speakers/*.md")
-                  {
-                    new GeocodeLocations(Config.FromSetting(SiteKeys.AzureMapsSubscriptionKey)),
-                    new GetBlogFeeds(),
-                    new SpeakerImage()
-                  }
-              ));
+              x => x.ProcessModules.Add(sources));
+            
             return bootstrapper;
         }
 

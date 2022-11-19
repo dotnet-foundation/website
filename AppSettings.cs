@@ -41,5 +41,13 @@ namespace DotnetFoundationWeb
         public static bool SuppressProjects { get; set; }
           = string.Equals(ConfigurationManager.AppSettings["SuppressProjects"], "true", StringComparison.OrdinalIgnoreCase);
 
+        public static bool SuppressSpeakerBlogs { get; set; }
+          = string.Equals(ConfigurationManager.AppSettings["SuppressSpeakerBlogs"], "true", StringComparison.OrdinalIgnoreCase);
+
+        public static bool SuppressSpeakerGeoLocation { get; set; }
+          = string.Equals(ConfigurationManager.AppSettings["SuppressSpeakerGeoLocation"], "true", StringComparison.OrdinalIgnoreCase);
+
+        public static bool SuppressSpeakerImages { get; set; }
+          = string.Equals(ConfigurationManager.AppSettings["SuppressSpeakerImages"], "true", StringComparison.OrdinalIgnoreCase);
     }
 }
