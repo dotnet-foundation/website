@@ -1,7 +1,16 @@
 Title: Membership
-Description: The committee is responsible for evalutating new member applications and discussing membership criteria.
-Chairperson: Bill Wagner
-Image: /assets/members/bill-wagner.jpg
-Meets: TBD
+Description: |
+  The Membership Committee is responsible for::
+  <ul class="latest_copy">
+    <li>evaluating new member applications</li>
+    <li>discussing membership criteria</li>
+    <li>improving the membership value and offering</li>
+    <li>discussing how to build a great community and make membership appealing to more groups</li>
+    <li>managing the nomination and election process</li>
+  </ul>
+  Head to the repository for more information about how to join and get involved.
+Chairperson: Jessica White
+Image: /assets/members/jessica-white.jpg
+Meets: 1st and 3rd Wednesday of each month at 3PM ET / 7PM UTC
 Repository: https://github.com/dotnet-foundation/wg-membership
 Order: 3
