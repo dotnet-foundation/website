@@ -30,11 +30,11 @@ Excluded: true
 
 ### New Releases
 
+#### .NET nanoFramework Virtual Device now available
 
-
-
-
-
+.NET nanoFramework virtual device now available as a .NET Tool.
+Perfect for on-the-go development, running on CI-CD pipelines, automated tests and other usage scenarios that benefit from not requiring a real hardware device.
+Seamless integrated with the project's Visual Studio extension! Check out the tool [here](https://www.nuget.org/packages/nanoclr).
 
 
 ## .NET Foundation Committee Updates
