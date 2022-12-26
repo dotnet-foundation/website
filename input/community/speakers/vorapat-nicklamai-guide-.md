@@ -1,6 +1,6 @@
 ---
 Title: Vorapat Nicklamai (Guide)
-Pronouns: He/Him
+Pronouns: he/him
 Location: Bangkok, Thailand
 Email: vnicklamai@gmail.com
 Language:
