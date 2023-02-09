@@ -1,5 +1,9 @@
 # dotnetfoundation-website
 
+***NOTE***: This repository is no longer being used to build the dotnetfoundation.org website! The new [site](https://dotnetfoundation.org/) is hosted in a Content Management System (CMS) and is no longer built from this repository.
+
+This repository will be archived soon.
+
 This repository contains the solution that is used to build and deploy the [dotnetfoundation](https://dotnetfoundation.org/) website.
 
 Pull requests and issues are welcome!
