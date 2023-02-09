@@ -23,9 +23,10 @@ jobs:
         node-version: 12.x
     - run: cd functions && npm install && npm run build
 
-    - uses: actions/setup-dotnet@v1
+    - uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: '5.0.x' # SDK Version to use.
+        dotnet-version: '7.0.x' # SDK Version to use.
+        include-prerelease: true
     - name: Build
       run: dotnet run --configuration Release
       env:
